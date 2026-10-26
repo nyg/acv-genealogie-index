@@ -1,0 +1,138 @@
+[
+ {
+  "slug": "sa-616700",
+  "parent": null,
+  "text": "SB 115/611-616 Aigle (arrondissement de l'état civil), 1929-1950 (Série)",
+  "children": [
+   "sa-621188",
+   "sa-621545",
+   "sa-621546",
+   "sa-621547",
+   "sa-621548",
+   "sa-621549"
+  ],
+  "f": {
+   "Ref. code": "SB 115/611-616",
+   "Title": "Aigle (arrondissement de l'état civil)",
+   "Dates": "1929-1950",
+   "Creation date(s)": "1929 - 1950",
+   "Level": "Série",
+   "Importance matérielle": "6 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé en 2006 et rattaché à l'office d'état civil de l'Est vaudois en 2006.\nComprend:\n- Aigle\n- Corbeyrier\n- Yvorne\nAdjonction des arrondissements de :\n- Leysin en 1994\n- des Ormonts en 1997\n- Villeneuve en 2000\n- Bex en 2001\n- Gryon en 2004\n- Ollon en 2004",
+   "Entries": "décès (Matières\\D)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=616700",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621188",
+  "parent": "sa-616700",
+  "text": "SB 115/611 - Mariages 1929 \\ - Publications de promesses de mariage 1929, 1929 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/611",
+   "Title": "- Mariages 1929\n- Publications de promesses de mariage 1929",
+   "Dates": "1929",
+   "Creation date(s)": "1929",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621188",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621545",
+  "parent": "sa-616700",
+  "text": "SB 115/612 - Mariages 1930-1933 \\ - Publications de promesses de mariage 1930-1933, 1930-1933 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/612",
+   "Title": "- Mariages 1930-1933\n- Publications de promesses de mariage 1930-1933",
+   "Dates": "1930-1933",
+   "Creation date(s)": "1930 - 1933",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621545",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621546",
+  "parent": "sa-616700",
+  "text": "SB 115/613 - Mariages 1934-1937 \\ - Publications de promesses de mariage 1934-1937, 1934-1937 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/613",
+   "Title": "- Mariages 1934-1937\n- Publications de promesses de mariage 1934-1937",
+   "Dates": "1934-1937",
+   "Creation date(s)": "1934 - 1937",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621546",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621547",
+  "parent": "sa-616700",
+  "text": "SB 115/614 - Mariages 1938-1942 \\ - Publications de promesses de mariage 1938-1942 \\ - Pièces diverses relatives à l'état civil 1939-1942: principalement constatations de décès, divorces, rectifications de nom, 1938-1942 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/614",
+   "Title": "- Mariages 1938-1942\n- Publications de promesses de mariage 1938-1942\n- Pièces diverses relatives à l'état civil 1939-1942: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1938-1942",
+   "Creation date(s)": "1938 - 1942",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621547",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621548",
+  "parent": "sa-616700",
+  "text": "SB 115/615 - Mariages 1943-1946 \\ - Publications de promesses de mariage 1943-1946 \\ - Pièces diverses relatives à l'état civil 1943-1946: principalement constatations de décès, divorces, rectifications de nom, 1943-1946 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/615",
+   "Title": "- Mariages 1943-1946\n- Publications de promesses de mariage 1943-1946\n- Pièces diverses relatives à l'état civil 1943-1946: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1943-1946",
+   "Creation date(s)": "1943 - 1946",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621548",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621549",
+  "parent": "sa-616700",
+  "text": "SB 115/616 - Mariages 1947-1950 \\ - Publications de promesses de mariage 1947-1950 \\ - Pièces diverses relatives à l'état civil 1947-1950: principalement constatations de décès, divorces, rectifications de nom, 1947-1950 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/616",
+   "Title": "- Mariages 1947-1950\n- Publications de promesses de mariage 1947-1950\n- Pièces diverses relatives à l'état civil 1947-1950: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1947-1950",
+   "Creation date(s)": "1947 - 1950",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621549",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

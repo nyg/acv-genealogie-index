@@ -1,0 +1,283 @@
+[
+ {
+  "slug": "ed-78-1-14",
+  "parent": null,
+  "children": [
+   "ed-78-1",
+   "ed-78-2",
+   "ed-78-3",
+   "ed-78-4",
+   "ed-78-5",
+   "ed-78-6",
+   "ed-78-7",
+   "ed-78-8",
+   "ed-78-9",
+   "ed-78-10",
+   "ed-78-11",
+   "ed-78-12",
+   "ed-78-13",
+   "ed-78-14"
+  ],
+  "f": {
+   "Cote": "Ed 78/1-14",
+   "Titre": "Paroisse réformée de Lutry.",
+   "Date(s)": "1821-07-01 - 1879-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Lutry :\nParoisse médiévale.\nRegistres dès 1607, avec lacune 1644-1714/1719 (baptêmes/mariages).\nComprend : Savigny (détaché en 1598).\nAnnexe : Belmont (1766-1846 et dès 1864) avec Corsy et les Monts ; puis Villette (1846-1863)."
+  }
+ },
+ {
+  "slug": "ed-78-1",
+  "parent": "ed-78-1-14",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 78/1",
+   "Titre": "Registre de naissances 1821-1838.",
+   "Date(s)": "1821-07-01 - 1838-02-16 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 32,8 x 42,2 x 5,7 / 27,8 x 39,2 (répertoire)",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1838 février 16);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1838 février 16).",
+   "Instruments de recherche": "Répertoire séparé des naissances et baptêmes Ed 78/1 (microfilm: RMS 1/1.044.894, numérique: RN-ED-78-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.894",
+   "Nom du fichier": "CH-ACV_RN-ED-78-1.pdf",
+   "Taille du fichier": "659.8 MiB"
+  },
+  "pdf": "3/e/5/3e51b2c507e1a9aafc35ea91dbc83e294b5f09687501c09065af14f8b1418f9e/CH-ACV_RN-ED-78-1.pdf"
+ },
+ {
+  "slug": "ed-78-2",
+  "parent": "ed-78-1-14",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 78/2",
+   "Titre": "Registre de naissances 1838-1861.",
+   "Date(s)": "1838-02-26 - 1861-01-22 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31 x 41,2 x 5",
+   "Portée et contenu": "Naissances (1838 février 26 - 1861 janvier 22);\nBaptêmes de l'Eglise évangélique réformée (1838 février 26 - 1861 janvier 22).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 78/2 (microfilm: RMS 1/1.044.895, numérique: RN-ED-78-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.895",
+   "Nom du fichier": "CH-ACV_RN-ED-78-2.pdf",
+   "Taille du fichier": "765.2 MiB"
+  },
+  "pdf": "7/0/5/705887516f66f84924b9a7ffcf1550796f9742fc6c53af4307cda4744570397b/CH-ACV_RN-ED-78-2.pdf"
+ },
+ {
+  "slug": "ed-78-3",
+  "parent": "ed-78-1-14",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 78/3",
+   "Titre": "Registre de naissances 1861-1875.",
+   "Date(s)": "1861-01-28 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,5 x 41,9",
+   "Portée et contenu": "Naissances (1861 janvier 28 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1861 janvier 28 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 78/3 (microfilm: RMS 1/1.044.895, numérique: RN-ED-78-3), pages manuscrites, non datées",
+   "Note": "Cahier de feuillets, entre les pages 379 et 380: \"Etat nominatif des enfants nés en 1874 et 1875 et baptisés dans l'Eglise nationale, à Lutry, mais dont l'inscription de baptême a été omise au registre des naissances de l'Etat civil de Lutry\".",
+   "Cote de gestion": "RMS 1/1.044.895",
+   "Nom du fichier": "CH-ACV_RN-ED-78-3.pdf",
+   "Taille du fichier": "587.2 MiB"
+  },
+  "pdf": "5/1/9/519aee3186a0169c1518f956d2fe3ffabcc9b5b30c75136ab29775034bb642cd/CH-ACV_RN-ED-78-3.pdf"
+ },
+ {
+  "slug": "ed-78-4",
+  "parent": "ed-78-1-14",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 78/4",
+   "Titre": "Registre de mariages 1821-1857.",
+   "Date(s)": "1821-07-01 - 1857-02-19 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,9 x 41,8x 5,5 / 28 x 39,1 x 0.5(répertoire)",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1857 février 19).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 78/4 (microfilm: RMS 1/1.044.896, numérique: RN-ED-78-4), pages manuscrites, non datées",
+   "Note": "Les onglets de 1833 et 1848 manquent;\nonglet de 1846 déchiré.",
+   "Cote de gestion": "RMS 1/1.044.896",
+   "Nom du fichier": "CH-ACV_RN-ED-78-4.pdf",
+   "Taille du fichier": "628.5 MiB"
+  },
+  "pdf": "4/e/9/4e96afea53e6205dde1ac699e498a33b0ee631cf7e3c263da8cad17a63057b7b/CH-ACV_RN-ED-78-4.pdf"
+ },
+ {
+  "slug": "ed-78-5",
+  "parent": "ed-78-1-14",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 78/5",
+   "Titre": "Registre de mariages 1857-1875.",
+   "Date(s)": "1857-04-02 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,1 x 41,2 / 29 x 39 (répertoire)",
+   "Portée et contenu": "Mariages (1857 avril 2 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 78/5 (microfilm: RMS 1/1.044.896, numérique: RN-ED-78-5), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.896",
+   "Nom du fichier": "CH-ACV_RN-ED-78-5.pdf",
+   "Taille du fichier": "406.8 MiB"
+  },
+  "pdf": "2/4/6/246ee99a6438343b23c458ed59547095ef48e3692babeab590563699de28b9e6/CH-ACV_RN-ED-78-5.pdf"
+ },
+ {
+  "slug": "ed-78-6",
+  "parent": "ed-78-1-14",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 78/6",
+   "Titre": "Registre de décès 1821-1853.",
+   "Date(s)": "1821-07-01 - 1853-11-29 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31 x 41,1 / 26,9 x 38,4 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1853 novembre 29).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 78/6 (microfilm: RMS 1/1.044.897, numérique: RN-ED-78-6), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.897",
+   "Nom du fichier": "CH-ACV_RN-ED-78-6.pdf",
+   "Taille du fichier": "637.7 MiB"
+  },
+  "pdf": "6/4/5/645423c9096a37850b15c412a5d2eb03d5860bed999bc71c7ec98a7c24925879/CH-ACV_RN-ED-78-6.pdf"
+ },
+ {
+  "slug": "ed-78-7",
+  "parent": "ed-78-1-14",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 78/7",
+   "Titre": "Registre de décès 1853-1875.",
+   "Date(s)": "1853-12-05 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,3 x 41,2 / 26,6 x 38 (répertoire)",
+   "Portée et contenu": "Décès (1853 décembre 5 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 78/7 (microfilm: RMS 1/1.044.897, numérique: RN-ED-78-7), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.897",
+   "Nom du fichier": "CH-ACV_RN-ED-78-7.pdf",
+   "Taille du fichier": "567.1 MiB"
+  },
+  "pdf": "5/6/e/56e3e53e6fb5633791b4c76c988c77a5b83b811ee3adf7aa2bb6148901d61724/CH-ACV_RN-ED-78-7.pdf"
+ },
+ {
+  "slug": "ed-78-8",
+  "parent": "ed-78-1-14",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 78/8",
+   "Titre": "Registre d'annonces de mariage 1821-1836.",
+   "Date(s)": "1821-07-01 - 1836-09-19 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29 x 41,7",
+   "Portée et contenu": "Annonces de mariage (1821 juillet 1 - 1836 septembre 19).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 78/8 (microfilm: RM 22001.19, numérique: RN-ED-78-8), pages manuscrites, non datées",
+   "Cote de gestion": "RM 22001.19",
+   "Nom du fichier": "CH-ACV_RN-ED-78-8.pdf",
+   "Taille du fichier": "586.4 MiB"
+  },
+  "pdf": "4/f/5/4f52449529e75c52c8a8f9fdbd15909e8721b8ac456fb1da996e6e8ea1468e73/CH-ACV_RN-ED-78-8.pdf"
+ },
+ {
+  "slug": "ed-78-9",
+  "parent": "ed-78-1-14",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 78/9",
+   "Titre": "Registre d'annonces de mariage 1836-1846.",
+   "Date(s)": "1836-09-11 - 1846-11-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 27,1 x 42",
+   "Portée et contenu": "Annonces de mariage (1836 septembre 11 - 1846 novembre 30).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 78/9 (microfilm: RM 22001.19, numérique: RN-ED-78-9), pages manuscrites, non datées",
+   "Cote de gestion": "RM 22001.19",
+   "Nom du fichier": "CH-ACV_RN-ED-78-9.pdf",
+   "Taille du fichier": "338.2 MiB"
+  },
+  "pdf": "5/8/1/581a370495a88d5e40c1499fe73dc1213c331109b079193b6096c5620d0fb43f/CH-ACV_RN-ED-78-9.pdf"
+ },
+ {
+  "slug": "ed-78-10",
+  "parent": "ed-78-1-14",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 78/10",
+   "Titre": "Registre d'annonces de mariage 1846-1852.",
+   "Date(s)": "1846-11-22 - 1852-07-04 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 27,4 x 41,6",
+   "Portée et contenu": "Annonces de mariage (1846 novembre 22 - 1852 juillet 4).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 78/10 (microfilm: RM 22001.35, numérique: RN-ED-78-10), pages manuscrites, non datées",
+   "Cote de gestion": "RM 22001.35",
+   "Nom du fichier": "CH-ACV_RN-ED-78-10.pdf",
+   "Taille du fichier": "315.5 MiB"
+  },
+  "pdf": "8/1/4/814f2f862eda6097480961a26839a0dbb6af8ca6d581b4ab82598722f8613365/CH-ACV_RN-ED-78-10.pdf"
+ },
+ {
+  "slug": "ed-78-11",
+  "parent": "ed-78-1-14",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 78/11",
+   "Titre": "Registre d'annonces de mariage 1852-1858.",
+   "Date(s)": "1852-06-27 - 1858-03-15 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 27,5 x 41,5",
+   "Portée et contenu": "Annonces de mariage (1852 juin 27 - 1858 mars 15).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 78/11 (microfilm: RM 22001.35, numérique: RN-ED-78-11), pages manuscrites, non datées",
+   "Cote de gestion": "RM 22001.35",
+   "Nom du fichier": "CH-ACV_RN-ED-78-11.pdf",
+   "Taille du fichier": "322.8 MiB"
+  },
+  "pdf": "3/4/7/3478e376e9c8720c67d85201135439e0eac27c31fbb7e1b856d5373061d12e17/CH-ACV_RN-ED-78-11.pdf"
+ },
+ {
+  "slug": "ed-78-12",
+  "parent": "ed-78-1-14",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 78/12",
+   "Titre": "Registre d'annonces de mariage 1858-1866.",
+   "Date(s)": "1858-02-28 - 1866-05-28 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 22,7 x 34,1",
+   "Portée et contenu": "Annonces de mariage (1858 février 28 - 1866 mai 28).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 78/12 (microfilm: RM 22001.35, numérique: RN-ED-78-12), pages manuscrites, non datées",
+   "Cote de gestion": "RM 22001.35",
+   "Nom du fichier": "CH-ACV_RN-ED-78-12.pdf",
+   "Taille du fichier": "311.1 MiB"
+  },
+  "pdf": "a/2/3/a2334cc4a6d9aaed02b90f7f7b540b5caa49d96dbe53b9ff6d5c234c86761abd/CH-ACV_RN-ED-78-12.pdf"
+ },
+ {
+  "slug": "ed-78-13",
+  "parent": "ed-78-1-14",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 78/13",
+   "Titre": "Registre d'annonces de mariage 1866-1871.",
+   "Date(s)": "1866-05-27 - 1871-06-13 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 22 x 34,5",
+   "Portée et contenu": "Annonces de mariage (1866 mai 27 - 1871 juin 13).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 78/13 (microfilm: RM 22001.36, numérique: RN-ED-78-13), pages manuscrites, non datées",
+   "Cote de gestion": "RM 22001.36",
+   "Nom du fichier": "CH-ACV_RN-ED-78-13.pdf",
+   "Taille du fichier": "182.5 MiB"
+  },
+  "pdf": "e/5/5/e552fc5f492c4b2f8eb23a1e02276a551982c96ffe9625e26c7370e7caf2794c/CH-ACV_RN-ED-78-13.pdf"
+ },
+ {
+  "slug": "ed-78-14",
+  "parent": "ed-78-1-14",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 78/14",
+   "Titre": "Registre d'annonces de mariage 1871-1879.",
+   "Date(s)": "1871-06-04 - 1879-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,1 x 39,2",
+   "Portée et contenu": "Annonces de mariage (1871 juin 4 - 1879 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 78/14 (microfilm: RM 22001.36, numérique: RN-ED-78-14), pages manuscrites, non datées",
+   "Cote de gestion": "RM 22001.36",
+   "Nom du fichier": "CH-ACV_RN-ED-78-14.pdf",
+   "Taille du fichier": "331.3 MiB"
+  },
+  "pdf": "5/4/4/54491b910f1b48ca81a7e29da4393701696dfd927c40bf0ac9b55f64ccec162f/CH-ACV_RN-ED-78-14.pdf"
+ }
+]

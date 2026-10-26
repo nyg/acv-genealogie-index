@@ -1,0 +1,64 @@
+[
+ {
+  "slug": "sa-178346",
+  "parent": null,
+  "text": "Ec 68 bis/1-2 Paroisse réformée de Huémoz. (1824-1875)",
+  "children": [
+   "sa-178348",
+   "sa-178349"
+  ],
+  "f": {
+   "Ref. code": "Ec 68 bis/1-2",
+   "Title": "Paroisse réformée de Huémoz.",
+   "Dates": "1824-1875",
+   "Creation date(s)": "1824 - 1875",
+   "Level": "Série",
+   "Importance matérielle": "2 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Notes": "Voir aussi Ec 92 (Ollon).",
+   "Entries": "Ollon (Suisse, VD) - La Pousaz (Lieux\\O)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178346",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178348",
+  "parent": "sa-178346",
+  "text": "Ec 68 bis/1 - Mariages 1825-1864. (1825.01.01-1864.12.31)",
+  "f": {
+   "Ref. code": "Ec 68 bis/1",
+   "Title": "- Mariages 1825-1864.",
+   "Dates": "1825-1864",
+   "Creation date(s)": "1/1/1825 - 12/31/1864",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178348",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178349",
+  "parent": "sa-178346",
+  "text": "Ec 68 bis/2 - Naissances 1824-1870.\n- Annonces de mariage 1824-1848.\n- Mariages 1865-1869.\n- Décès 1824-1875. (1824.01.01-1875.12.31)",
+  "f": {
+   "Ref. code": "Ec 68 bis/2",
+   "Title": "- Naissances 1824-1870.- Annonces de mariage 1824-1848.- Mariages 1865-1869.- Décès 1824-1875.",
+   "Dates": "1824-1875",
+   "Creation date(s)": "1/1/1824 - 12/31/1875",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178349",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

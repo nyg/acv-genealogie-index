@@ -1,0 +1,405 @@
+[
+ {
+  "slug": "sb-267-49",
+  "parent": null,
+  "children": [
+   "sb-267-49-1",
+   "sb-267-49-2",
+   "sb-267-49-3",
+   "sb-267-49-4",
+   "sb-267-49-5"
+  ],
+  "f": {
+   "Cote": "SB 267/49",
+   "Titre": "Huémoz puis Villars-sur-Ollon (arrondissement de l'état civil)",
+   "Date(s)": "1876 - 2003 (Création)",
+   "Niveau de description": "Sous-fonds",
+   "Étendue matérielle et support": "21 registres",
+   "Unités de description associées": "Pièces justificatives:\nSB 23/47-51\nSB 23/1226-1228\nSB 115/108-109\nSB 115/623-624\nRegistres de publications de promesses de mariage:\nSB 268/49",
+   "Note": "Arrondissement (fraction de la commune d'Ollon) créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Aigle dès le 1er juin 2004.\nModifié par arrêté le 17 juin 1955 et devient l'arrondissement de Villars-sur-Ollon dès le 1er juillet 1955.\nComprend:\nHuémoz\nVillars-sur-Ollon\nArveyres\nChesières\nExergillod\nForchex\nLa Pousaz\nLes Combes\nPalluyères\nGlutières\nPanex\nPlambuit"
+  }
+ },
+ {
+  "slug": "sb-267-49-1",
+  "parent": "sb-267-49",
+  "type": "Series",
+  "children": [
+   "sb-267-49-1-1",
+   "sb-267-49-1-2",
+   "sb-267-49-1-3",
+   "sb-267-49-1-4",
+   "sb-267-49-1-5"
+  ],
+  "f": {
+   "Cote": "SB 267/49/1",
+   "Titre": "Registres des naissances",
+   "Date(s)": "1876 - 2002 (Création)",
+   "Niveau de description": "Série",
+   "Étendue matérielle et support": "5 registres"
+  }
+ },
+ {
+  "slug": "sb-267-49-2",
+  "parent": "sb-267-49",
+  "type": "Series",
+  "children": [
+   "sb-267-49-2-1",
+   "sb-267-49-2-2",
+   "sb-267-49-2-3",
+   "sb-267-49-2-4",
+   "sb-267-49-2-5",
+   "sb-267-49-2-6",
+   "sb-267-49-2-7",
+   "sb-267-49-2-8",
+   "sb-267-49-2-9",
+   "sb-267-49-2-10"
+  ],
+  "f": {
+   "Cote": "SB 267/49/2",
+   "Titre": "Registres des mariages",
+   "Date(s)": "1876 - 2003 (Création)",
+   "Niveau de description": "Série",
+   "Étendue matérielle et support": "10 registres"
+  }
+ },
+ {
+  "slug": "sb-267-49-3",
+  "parent": "sb-267-49",
+  "type": "Series",
+  "children": [
+   "sb-267-49-3-1",
+   "sb-267-49-3-2",
+   "sb-267-49-3-3",
+   "sb-267-49-3-4",
+   "sb-267-49-3-5"
+  ],
+  "f": {
+   "Cote": "SB 267/49/3",
+   "Titre": "Registres des décès",
+   "Date(s)": "1876 - 2003 (Création)",
+   "Niveau de description": "Série",
+   "Étendue matérielle et support": "5 registres"
+  }
+ },
+ {
+  "slug": "sb-267-49-4",
+  "parent": "sb-267-49",
+  "type": "Series",
+  "children": [
+   "sb-267-49-4-1"
+  ],
+  "f": {
+   "Cote": "SB 267/49/4",
+   "Titre": "Registres des reconnaissances d'enfant naturel",
+   "Date(s)": "1929 - 2003 (Création)",
+   "Niveau de description": "Série",
+   "Étendue matérielle et support": "1 registre"
+  }
+ },
+ {
+  "slug": "sb-267-49-5",
+  "parent": "sb-267-49",
+  "type": "Series",
+  "children": [
+   "sb-267-49-5-1"
+  ],
+  "f": {
+   "Cote": "SB 267/49/5",
+   "Titre": "Registre des légitimations par mariage subséquent des parents",
+   "Date(s)": "1931 - 1976 (Création)",
+   "Niveau de description": "Série",
+   "Étendue matérielle et support": "1 registre"
+  }
+ },
+ {
+  "slug": "sb-267-49-1-1",
+  "parent": "sb-267-49-1",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/1/1",
+   "Titre": "Registre des naissances",
+   "Date(s)": "1876 - 1897 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 399 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-49-1-1.pdf",
+   "Taille du fichier": "46.8 MiB"
+  },
+  "pdf": "7/c/0/7c01f7d7ca98a13fac1363f9a398e6d6fbd097778fa05d7e931943a78a2ff8a0/CH-ACV_SB-267-49-1-1.pdf"
+ },
+ {
+  "slug": "sb-267-49-1-2",
+  "parent": "sb-267-49-1",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/1/2",
+   "Titre": "Registre des naissances",
+   "Date(s)": "1897 - 1906 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 200 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-49-1-2.pdf",
+   "Taille du fichier": "5.5 MiB"
+  },
+  "pdf": "3/c/1/3c17f04a9ace8622dd0cc8da486c905773113d53f1ed147a180c32dee1bd137f/CH-ACV_SB-267-49-1-2.pdf"
+ },
+ {
+  "slug": "sb-267-49-1-3",
+  "parent": "sb-267-49-1",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/1/3",
+   "Titre": "Registre des naissances",
+   "Date(s)": "1906 - 1916 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 200 pages utiles et 1 répertoire"
+  }
+ },
+ {
+  "slug": "sb-267-49-1-4",
+  "parent": "sb-267-49-1",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/1/4",
+   "Titre": "Registre des naissances",
+   "Date(s)": "1916 - 1936 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 300 pages utiles et 1 répertoire"
+  }
+ },
+ {
+  "slug": "sb-267-49-1-5",
+  "parent": "sb-267-49-1",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/1/5",
+   "Titre": "Registre des naissances",
+   "Date(s)": "1936 - 2002 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 180 pages utiles et 1 répertoire",
+   "Portée et contenu": "Registre clos le 14 janvier 2004 (aucune inscription entre 2003 et 2004)."
+  }
+ },
+ {
+  "slug": "sb-267-49-2-1",
+  "parent": "sb-267-49-2",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/2/1",
+   "Titre": "Registre des mariages",
+   "Date(s)": "1876 - 1913 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 346 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-49-2-1.pdf",
+   "Taille du fichier": "52.6 MiB"
+  },
+  "pdf": "4/d/c/4dc78f942b258d7ce8b5a10f9b8b56107a9231dab288a86dbe00e6d8fa4b4821/CH-ACV_SB-267-49-2-1.pdf"
+ },
+ {
+  "slug": "sb-267-49-2-2",
+  "parent": "sb-267-49-2",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/2/2",
+   "Titre": "Registre des mariages",
+   "Date(s)": "1914 - 1928 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 142 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-49-2-2.pdf",
+   "Taille du fichier": "41.4 MiB"
+  },
+  "pdf": "b/1/e/b1ef430f05a6a15c5f36d0492dfa96c2c0a2818490a9001eef560d6e317ba62d/CH-ACV_SB-267-49-2-2.pdf"
+ },
+ {
+  "slug": "sb-267-49-2-3",
+  "parent": "sb-267-49-2",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/2/3",
+   "Titre": "Registre des mariages",
+   "Date(s)": "1929 - 1943 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 200 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-49-2-3.pdf",
+   "Taille du fichier": "1.5 MiB"
+  },
+  "pdf": "e/0/8/e08f46fb0631791f969caa44a7da8982938086423e6dec8ab893c618d19f9cd9/CH-ACV_SB-267-49-2-3.pdf"
+ },
+ {
+  "slug": "sb-267-49-2-4",
+  "parent": "sb-267-49-2",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/2/4",
+   "Titre": "Registre des mariages",
+   "Date(s)": "1943 - 1960 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 200 pages utiles et 1 répertoire"
+  }
+ },
+ {
+  "slug": "sb-267-49-2-5",
+  "parent": "sb-267-49-2",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/2/5",
+   "Titre": "Registre des mariages",
+   "Date(s)": "1960 - 1971 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 200 pages utiles et 1 répertoire"
+  }
+ },
+ {
+  "slug": "sb-267-49-2-6",
+  "parent": "sb-267-49-2",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/2/6",
+   "Titre": "Registre des mariages",
+   "Date(s)": "1971 - 1985 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 200 pages utiles et 1 répertoire"
+  }
+ },
+ {
+  "slug": "sb-267-49-2-7",
+  "parent": "sb-267-49-2",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/2/7",
+   "Titre": "Registre des mariages",
+   "Date(s)": "1985 - 1987 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 42 pages utiles et 1 répertoire"
+  }
+ },
+ {
+  "slug": "sb-267-49-2-8",
+  "parent": "sb-267-49-2",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/2/8",
+   "Titre": "Registre des mariages",
+   "Date(s)": "1988 - 1992 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 100 pages utiles et 1 répertoire"
+  }
+ },
+ {
+  "slug": "sb-267-49-2-9",
+  "parent": "sb-267-49-2",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/2/9",
+   "Titre": "Registre des mariages",
+   "Date(s)": "1992 - 2000 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 100 pages utiles et 1 répertoire"
+  }
+ },
+ {
+  "slug": "sb-267-49-2-10",
+  "parent": "sb-267-49-2",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/2/10",
+   "Titre": "Registre des mariages",
+   "Date(s)": "2000 - 2003 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 67 pages utiles et 1 répertoire"
+  }
+ },
+ {
+  "slug": "sb-267-49-3-1",
+  "parent": "sb-267-49-3",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/3/1",
+   "Titre": "Registre des décès",
+   "Date(s)": "1876 - 1906 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 396 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-49-3-1.pdf",
+   "Taille du fichier": "53.5 MiB"
+  },
+  "pdf": "2/5/4/25429ae673eaa255174d8864c3e7109b8e4085245ac938c6ac9a53d2de24b5e2/CH-ACV_SB-267-49-3-1.pdf"
+ },
+ {
+  "slug": "sb-267-49-3-2",
+  "parent": "sb-267-49-3",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/3/2",
+   "Titre": "Registre des décès",
+   "Date(s)": "1906 - 1924 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 200 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-49-3-2.pdf",
+   "Taille du fichier": "31 MiB"
+  },
+  "pdf": "c/5/3/c53291f2ca3d3b0425876db2dfa338bc120a503194af5b5b895ea4995cf6d207/CH-ACV_SB-267-49-3-2.pdf"
+ },
+ {
+  "slug": "sb-267-49-3-3",
+  "parent": "sb-267-49-3",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/3/3",
+   "Titre": "Registre des décès",
+   "Date(s)": "1924 - 1971 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 300 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-49-3-3.pdf",
+   "Taille du fichier": "35.8 MiB"
+  },
+  "pdf": "b/7/1/b71c876f4954a1bdd26399c1d84d19c0e608be999b8db176b6218ec3e1948c6b/CH-ACV_SB-267-49-3-3.pdf"
+ },
+ {
+  "slug": "sb-267-49-3-4",
+  "parent": "sb-267-49-3",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/3/4",
+   "Titre": "Registre des décès",
+   "Date(s)": "1972 - 1997 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 100 pages utiles et 1 répertoire"
+  }
+ },
+ {
+  "slug": "sb-267-49-3-5",
+  "parent": "sb-267-49-3",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/3/5",
+   "Titre": "Registre des décès",
+   "Date(s)": "1997 - 2003 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 32 pages utiles et 1 répertoire"
+  }
+ },
+ {
+  "slug": "sb-267-49-4-1",
+  "parent": "sb-267-49-4",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/4/1",
+   "Titre": "Registre des reconnaissances d'enfant naturel",
+   "Date(s)": "1929 - 2003 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 36 pages utiles et 1 répertoire",
+   "Portée et contenu": "Registre ouvert entre le 27 décembre 1928 et le 14 janvier 2004."
+  }
+ },
+ {
+  "slug": "sb-267-49-5-1",
+  "parent": "sb-267-49-5",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/49/5/1",
+   "Titre": "Registre des légitimations par mariage subséquent des parents",
+   "Date(s)": "1931 - 1976 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre de 32 pages utiles et 1 répertoire non paginé",
+   "Portée et contenu": "Registre ouvert entre le 27 décembre 1928 et le 31 décembre 1977"
+  }
+ }
+]

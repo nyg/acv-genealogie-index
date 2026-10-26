@@ -1,0 +1,4172 @@
+[
+ {
+  "locality": "Aclens",
+  "note": "",
+  "periods": {
+   "1876": "Colombier",
+   "1912": "Colombier",
+   "1928": "Colombier",
+   "1960": "Colombier"
+  }
+ },
+ {
+  "locality": "Agiez",
+  "note": "",
+  "periods": {
+   "1876": "Agiez",
+   "1912": "Agiez",
+   "1928": "Agiez > Orbe (dès 01.04.1940)",
+   "1960": "Orbe"
+  }
+ },
+ {
+  "locality": "Aigle",
+  "note": "",
+  "periods": {
+   "1876": "Aigle",
+   "1912": "Aigle",
+   "1928": "Aigle",
+   "1960": "Aigle"
+  }
+ },
+ {
+  "locality": "Allaman",
+  "note": "",
+  "periods": {
+   "1876": "Rolle",
+   "1912": "Rolle",
+   "1928": "Rolle",
+   "1960": "Rolle"
+  }
+ },
+ {
+  "locality": "Antagne",
+  "note": "",
+  "periods": {
+   "1876": "Ollon",
+   "1912": "Ollon",
+   "1928": "Ollon",
+   "1960": "Ollon"
+  }
+ },
+ {
+  "locality": "Apples",
+  "note": "",
+  "periods": {
+   "1876": "Apples",
+   "1912": "Apples",
+   "1928": "Apples > Bière (dès 01.05.1951)",
+   "1960": "Bière"
+  }
+ },
+ {
+  "locality": "Arnex-sur-Nyon",
+  "note": "",
+  "periods": {
+   "1876": "Crans-près-Céligny",
+   "1912": "Crans-près-Céligny",
+   "1928": "Crans-près-Céligny",
+   "1960": "Crans-près-Céligny"
+  }
+ },
+ {
+  "locality": "Arnex-sur-Orbe",
+  "note": "",
+  "periods": {
+   "1876": "Agiez",
+   "1912": "Agiez",
+   "1928": "Agiez > Orbe (dès 01.04.1940)",
+   "1960": "Orbe"
+  }
+ },
+ {
+  "locality": "Arrissoules",
+  "note": "",
+  "periods": {
+   "1876": "Yvonand",
+   "1912": "Yvonand",
+   "1928": "Yvonand",
+   "1960": "Yvonand"
+  }
+ },
+ {
+  "locality": "Arveyres",
+  "note": "",
+  "periods": {
+   "1876": "Huémoz",
+   "1912": "Huémoz",
+   "1928": "Huémoz > Villars-sur-Ollon (dès 01.07.1955)",
+   "1960": "Villars-sur-Ollon"
+  }
+ },
+ {
+  "locality": "Arzier",
+  "note": "",
+  "periods": {
+   "1876": "Arzier",
+   "1912": "Arzier",
+   "1928": "Arzier > Begnins (dès 01.02.1936)",
+   "1960": "Begnins"
+  }
+ },
+ {
+  "locality": "Assens",
+  "note": "",
+  "periods": {
+   "1876": "Echallens",
+   "1912": "Echallens",
+   "1928": "Echallens",
+   "1960": "Echallens"
+  }
+ },
+ {
+  "locality": "Aubonne",
+  "note": "",
+  "periods": {
+   "1876": "Aubonne",
+   "1912": "Aubonne",
+   "1928": "Aubonne",
+   "1960": "Aubonne"
+  }
+ },
+ {
+  "locality": "Avenches",
+  "note": "",
+  "periods": {
+   "1876": "Avenches",
+   "1912": "Avenches",
+   "1928": "Avenches",
+   "1960": "Avenches"
+  }
+ },
+ {
+  "locality": "Ballaigues",
+  "note": "",
+  "periods": {
+   "1876": "Ballaigues",
+   "1912": "Ballaigues",
+   "1928": "Ballaigues > Vallorbe (dès 01.01.1951)",
+   "1960": "Vallorbe"
+  }
+ },
+ {
+  "locality": "Ballens",
+  "note": "",
+  "periods": {
+   "1876": "Ballens",
+   "1912": "Ballens",
+   "1928": "Ballens",
+   "1960": "Ballens > Bière (dès 01.01.1958)"
+  }
+ },
+ {
+  "locality": "Bas-du-Chenit",
+  "note": "",
+  "periods": {
+   "1876": "Le Brassus",
+   "1912": "Le Brassus",
+   "1928": "Le Brassus > Le Chenit (dès 01.06.1942)",
+   "1960": "Le Chenit"
+  }
+ },
+ {
+  "locality": "Bassins",
+  "note": "",
+  "periods": {
+   "1876": "Begnins",
+   "1912": "Begnins",
+   "1928": "Begnins",
+   "1960": "Begnins"
+  }
+ },
+ {
+  "locality": "Baulmes",
+  "note": "",
+  "periods": {
+   "1876": "Baulmes",
+   "1912": "Baulmes",
+   "1928": "Baulmes",
+   "1960": "Baulmes"
+  }
+ },
+ {
+  "locality": "Bavois",
+  "note": "",
+  "periods": {
+   "1876": "Chavornay",
+   "1912": "Chavornay",
+   "1928": "Chavornay",
+   "1960": "Chavornay"
+  }
+ },
+ {
+  "locality": "Begnins",
+  "note": "",
+  "periods": {
+   "1876": "Begnins",
+   "1912": "Begnins",
+   "1928": "Begnins",
+   "1960": "Begnins"
+  }
+ },
+ {
+  "locality": "Bellerive",
+  "note": "",
+  "periods": {
+   "1876": "Constantine",
+   "1912": "Constantine",
+   "1928": "Constantine",
+   "1960": "Constantine"
+  }
+ },
+ {
+  "locality": "Belmont-sur-Lausanne",
+  "note": "",
+  "periods": {
+   "1876": "Pully",
+   "1912": "Pully",
+   "1928": "Pully",
+   "1960": "Pully"
+  }
+ },
+ {
+  "locality": "Belmont-sur-Yverdon",
+  "note": "",
+  "periods": {
+   "1876": "Belmont-sur-Yverdon",
+   "1912": "Belmont-sur-Yverdon",
+   "1928": "Belmont-sur-Yverdon",
+   "1960": "Belmont-sur-Yverdon"
+  }
+ },
+ {
+  "locality": "Bercher",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Cierges",
+   "1912": "Saint-Cierges",
+   "1928": "Saint-Cierges",
+   "1960": "Saint-Cierges"
+  }
+ },
+ {
+  "locality": "Berolle",
+  "note": "",
+  "periods": {
+   "1876": "Bière",
+   "1912": "Bière",
+   "1928": "Bière",
+   "1960": "Bière"
+  }
+ },
+ {
+  "locality": "Bettens",
+  "note": "",
+  "periods": {
+   "1876": "Sullens",
+   "1912": "Sullens",
+   "1928": "Sullens",
+   "1960": "Sullens"
+  }
+ },
+ {
+  "locality": "Bex",
+  "note": "",
+  "periods": {
+   "1876": "Bex",
+   "1912": "Bex",
+   "1928": "Bex",
+   "1960": "Bex"
+  }
+ },
+ {
+  "locality": "Bière",
+  "note": "",
+  "periods": {
+   "1876": "Bière",
+   "1912": "Bière",
+   "1928": "Bière",
+   "1960": "Bière"
+  }
+ },
+ {
+  "locality": "Bioley-Magnoux",
+  "note": "",
+  "periods": {
+   "1876": "Molondin",
+   "1912": "Molondin",
+   "1928": "Molondin",
+   "1960": "Molondin"
+  }
+ },
+ {
+  "locality": "Bioley-Orjulaz",
+  "note": "",
+  "periods": {
+   "1876": "Echallens",
+   "1912": "Echallens",
+   "1928": "Echallens",
+   "1960": "Echallens"
+  }
+ },
+ {
+  "locality": "Blonay",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Légier",
+   "1912": "Saint-Légier",
+   "1928": "Saint-Légier",
+   "1960": "Saint-Légier"
+  }
+ },
+ {
+  "locality": "Bofflens",
+  "note": "",
+  "periods": {
+   "1876": "Romainmôtier",
+   "1912": "Romainmôtier",
+   "1928": "Romainmôtier",
+   "1960": "Romainmôtier"
+  }
+ },
+ {
+  "locality": "Bogis-Bossey",
+  "note": "",
+  "periods": {
+   "1876": "Crans-près-Céligny",
+   "1912": "Crans-près-Céligny",
+   "1928": "Crans-près-Céligny",
+   "1960": "Crans-près-Céligny"
+  }
+ },
+ {
+  "locality": "Bonvillars",
+  "note": "",
+  "periods": {
+   "1876": "Concise > Bonvillars (dès 01.01.1885)",
+   "1912": "Bonvillars",
+   "1928": "Bonvillars",
+   "1960": "Bonvillars > Champagne (dès 01.01.1963)"
+  }
+ },
+ {
+  "locality": "Borex",
+  "note": "",
+  "periods": {
+   "1876": "Gingins",
+   "1912": "Gingins",
+   "1928": "Gingins",
+   "1960": "Gingins"
+  }
+ },
+ {
+  "locality": "Bottens",
+  "note": "",
+  "periods": {
+   "1876": "Bottens",
+   "1912": "Bottens",
+   "1928": "Bottens",
+   "1960": "Bottens"
+  }
+ },
+ {
+  "locality": "Bougy (-Villars)",
+  "note": "",
+  "periods": {
+   "1876": "Aubonne",
+   "1912": "Aubonne",
+   "1928": "Aubonne",
+   "1960": "Aubonne"
+  }
+ },
+ {
+  "locality": "Boulens",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Cierges",
+   "1912": "Saint-Cierges",
+   "1928": "Saint-Cierges",
+   "1960": "Saint-Cierges"
+  }
+ },
+ {
+  "locality": "Bournens",
+  "note": "",
+  "periods": {
+   "1876": "Sullens",
+   "1912": "Sullens",
+   "1928": "Sullens",
+   "1960": "Sullens"
+  }
+ },
+ {
+  "locality": "Boussens",
+  "note": "",
+  "periods": {
+   "1876": "Sullens",
+   "1912": "Sullens",
+   "1928": "Sullens",
+   "1960": "Sullens"
+  }
+ },
+ {
+  "locality": "Bremblens",
+  "note": "",
+  "periods": {
+   "1876": "Lonay",
+   "1912": "Lonay",
+   "1928": "Lonay > Morges (dès 01.01.1952)",
+   "1960": "Morges"
+  }
+ },
+ {
+  "locality": "Brenles",
+  "note": "",
+  "periods": {
+   "1876": "Lucens",
+   "1912": "Lucens",
+   "1928": "Lucens",
+   "1960": "Lucens"
+  }
+ },
+ {
+  "locality": "Bretigny-s.-Morrens",
+  "note": "",
+  "periods": {
+   "1876": "Bottens",
+   "1912": "Bottens",
+   "1928": "Bottens",
+   "1960": "Bottens"
+  }
+ },
+ {
+  "locality": "Bretonnières",
+  "note": "",
+  "periods": {
+   "1876": "Romainmôtier",
+   "1912": "Romainmôtier",
+   "1928": "Romainmôtier",
+   "1960": "Romainmôtier"
+  }
+ },
+ {
+  "locality": "Buchillon",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Prex",
+   "1912": "Saint-Prex",
+   "1928": "Saint-Prex",
+   "1960": "Saint-Prex"
+  }
+ },
+ {
+  "locality": "Bullet",
+  "note": "",
+  "periods": {
+   "1876": "Bullet",
+   "1912": "Bullet",
+   "1928": "Bullet",
+   "1960": "Bullet"
+  }
+ },
+ {
+  "locality": "Bursinel",
+  "note": "",
+  "periods": {
+   "1876": "Gilly",
+   "1912": "Gilly",
+   "1928": "Gilly",
+   "1960": "Gilly"
+  }
+ },
+ {
+  "locality": "Bursins",
+  "note": "",
+  "periods": {
+   "1876": "Gilly",
+   "1912": "Gilly",
+   "1928": "Gilly",
+   "1960": "Gilly"
+  }
+ },
+ {
+  "locality": "Burtigny",
+  "note": "",
+  "periods": {
+   "1876": "Gilly",
+   "1912": "Gilly",
+   "1928": "Gilly",
+   "1960": "Gilly"
+  }
+ },
+ {
+  "locality": "Bussigny-près-Lausanne",
+  "note": "",
+  "periods": {
+   "1876": "Bussigny-prés-Lausanne",
+   "1912": "Bussigny-prés-Lausanne",
+   "1928": "Bussigny-prés-Lausanne",
+   "1960": "Bussigny-prés-Lausanne"
+  }
+ },
+ {
+  "locality": "Bussigny-sur-Oron",
+  "note": "",
+  "periods": {
+   "1876": "Oron",
+   "1912": "Oron",
+   "1928": "Oron",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "Bussy-sur-Morges (-Chardonney)",
+  "note": "",
+  "periods": {
+   "1876": "Villars-sous-Yens",
+   "1912": "Villars-sous-Yens",
+   "1928": "Villars-sous-Yens",
+   "1960": "Villars-sous-Yens"
+  }
+ },
+ {
+  "locality": "Bussy-sur-Moudon",
+  "note": "",
+  "periods": {
+   "1876": "Moudon",
+   "1912": "Moudon",
+   "1928": "Moudon",
+   "1960": "Moudon"
+  }
+ },
+ {
+  "locality": "Campe (Le)",
+  "note": "",
+  "periods": {
+   "1876": "Le Brassus",
+   "1912": "Le Brassus",
+   "1928": "Le Brassus > Le Chenit (dès 01.06.1942)",
+   "1960": "Le Chenit"
+  }
+ },
+ {
+  "locality": "Carrouge",
+  "note": "",
+  "periods": {
+   "1876": "Mézières",
+   "1912": "Mézières",
+   "1928": "Mézières",
+   "1960": "Mézières"
+  }
+ },
+ {
+  "locality": "Cerniaz",
+  "note": "",
+  "periods": {
+   "1876": "Villarzel",
+   "1912": "Villarzel",
+   "1928": "Villarzel",
+   "1960": "Villarzel > Granges -près-Marnand (dès 10 10 1960)"
+  }
+ },
+ {
+  "locality": "Chabrey",
+  "note": "",
+  "periods": {
+   "1876": "Constantine",
+   "1912": "Constantine",
+   "1928": "Constantine",
+   "1960": "Constantine"
+  }
+ },
+ {
+  "locality": "Chamblon",
+  "note": "",
+  "periods": {
+   "1876": "Montagny-près-Yverdon",
+   "1912": "Montagny-près-Yverdon",
+   "1928": "Montagny-près-Yverdon",
+   "1960": "Montagny-près-Yverdon"
+  }
+ },
+ {
+  "locality": "Champmartin",
+  "note": "voir Cudrefin dès 2001",
+  "periods": {
+   "1876": "Cudrefin",
+   "1912": "Cudrefin",
+   "1928": "Cudrefin",
+   "1960": "Cudrefin"
+  }
+ },
+ {
+  "locality": "Champagne",
+  "note": "",
+  "periods": {
+   "1876": "Grandson > Champagne (dès 01.01.1885)",
+   "1912": "Champagne",
+   "1928": "Champagne",
+   "1960": "Champagne"
+  }
+ },
+ {
+  "locality": "Champtauroz",
+  "note": "",
+  "periods": {
+   "1876": "Combremont-le-Grand",
+   "1912": "Combremont-le-Grand",
+   "1928": "Combremont-le-Grand",
+   "1960": "Combremont-le-Grand > Granges-près-Marnand (dès 01 01 1965)"
+  }
+ },
+ {
+  "locality": "Champvent",
+  "note": "",
+  "periods": {
+   "1876": "Champvent",
+   "1912": "Champvent",
+   "1928": "Champvent",
+   "1960": "Champvent"
+  }
+ },
+ {
+  "locality": "Chanéaz",
+  "note": "",
+  "periods": {
+   "1876": "Molondin",
+   "1912": "Molondin",
+   "1928": "Molondin",
+   "1960": "Molondin"
+  }
+ },
+ {
+  "locality": "Chapelle-sur-Moudon",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Cierges",
+   "1912": "Saint-Cierges",
+   "1928": "Saint-Cierges",
+   "1960": "Saint-Cierges"
+  }
+ },
+ {
+  "locality": "Chardonnay",
+  "note": "voir Bussy-Chardonney dès 1961",
+  "periods": {
+   "1876": "Villars-sous-Yens",
+   "1912": "Villars-sous-Yens",
+   "1928": "Villars-sous-Yens",
+   "1960": "Villars-sous-Yens"
+  }
+ },
+ {
+  "locality": "Chardonne",
+  "note": "",
+  "periods": {
+   "1876": "Corsier",
+   "1912": "Corsier",
+   "1928": "Corsier",
+   "1960": "Corsier"
+  }
+ },
+ {
+  "locality": "Château-d'Oex",
+  "note": "",
+  "periods": {
+   "1876": "Château-d'Oex",
+   "1912": "Château-d'Oex",
+   "1928": "Château-d'Oex",
+   "1960": "Château-d'Oex"
+  }
+ },
+ {
+  "locality": "Châtillens",
+  "note": "",
+  "periods": {
+   "1876": "Oron",
+   "1912": "Oron",
+   "1928": "Oron",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "Chaux (La)",
+  "note": "",
+  "periods": {
+   "1876": "Cossonay",
+   "1912": "Cossonay",
+   "1928": "Cossonay",
+   "1960": "Cossonay"
+  }
+ },
+ {
+  "locality": "Chavannes-de-Bogis",
+  "note": "",
+  "periods": {
+   "1876": "Crans-près-Céligny",
+   "1912": "Crans-près-Céligny",
+   "1928": "Crans-près-Céligny",
+   "1960": "Crans-près-Céligny"
+  }
+ },
+ {
+  "locality": "Chavannes-des-Bois",
+  "note": "",
+  "periods": {
+   "1876": "Coppet",
+   "1912": "Coppet",
+   "1928": "Coppet",
+   "1960": "Coppet"
+  }
+ },
+ {
+  "locality": "Chavannes-le-Chêne",
+  "note": "",
+  "periods": {
+   "1876": "Yvonand",
+   "1912": "Yvonand",
+   "1928": "Yvonand",
+   "1960": "Yvonand"
+  }
+ },
+ {
+  "locality": "Chavannes-le-Veyron",
+  "note": "",
+  "periods": {
+   "1876": "Grancy",
+   "1912": "Grancy",
+   "1928": "Grancy > L'Isle (dès 01.01.1938)",
+   "1960": "L'Isle"
+  }
+ },
+ {
+  "locality": "Chavannes-près-Renens",
+  "note": "",
+  "periods": {
+   "1876": "Ecublens",
+   "1912": "Ecublens",
+   "1928": "Ecublens",
+   "1960": "Ecublens"
+  }
+ },
+ {
+  "locality": "Chavannes-sur-Moudon",
+  "note": "",
+  "periods": {
+   "1876": "Moudon",
+   "1912": "Moudon",
+   "1928": "Moudon",
+   "1960": "Moudon"
+  }
+ },
+ {
+  "locality": "Chavornay",
+  "note": "",
+  "periods": {
+   "1876": "Chavornay",
+   "1912": "Chavornay",
+   "1928": "Chavornay",
+   "1960": "Chavornay"
+  }
+ },
+ {
+  "locality": "Chêne-le-Pâquier",
+  "note": "",
+  "periods": {
+   "1876": "Molondin",
+   "1912": "Molondin",
+   "1928": "Molondin",
+   "1960": "Molondin"
+  }
+ },
+ {
+  "locality": "Chesalles-sur-Moudon",
+  "note": "",
+  "periods": {
+   "1876": "Lucens",
+   "1912": "Lucens",
+   "1928": "Lucens",
+   "1960": "Lucens"
+  }
+ },
+ {
+  "locality": "Chesalles-sur-Oron",
+  "note": "",
+  "periods": {
+   "1876": "Oron",
+   "1912": "Oron",
+   "1928": "Oron",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "Cheseaux-sur-Lausanne",
+  "note": "",
+  "periods": {
+   "1876": "Romanel-sur-Lausanne",
+   "1912": "Romanel-sur-Lausanne",
+   "1928": "Romanel-sur-Lausanne",
+   "1960": "Romanel-sur-Lausanne> Prilly"
+  }
+ },
+ {
+  "locality": "Cheseaux-Noréaz",
+  "note": "",
+  "periods": {
+   "1876": "Yverdon",
+   "1912": "Yverdon",
+   "1928": "Yverdon",
+   "1960": "Yverdon"
+  }
+ },
+ {
+  "locality": "Chéserex",
+  "note": "",
+  "periods": {
+   "1876": "Gingins",
+   "1912": "Gingins",
+   "1928": "Gingins",
+   "1960": "Gingins"
+  }
+ },
+ {
+  "locality": "Chesières",
+  "note": "",
+  "periods": {
+   "1876": "Huémoz",
+   "1912": "Huémoz",
+   "1928": "Huémoz > Villars-sur-Ollon (dès 01.07.1955)",
+   "1960": "Villars-sur-Ollon"
+  }
+ },
+ {
+  "locality": "Chessel",
+  "note": "",
+  "periods": {
+   "1876": "Villeneuve",
+   "1912": "Villeneuve",
+   "1928": "Villeneuve",
+   "1960": "Villeneuve"
+  }
+ },
+ {
+  "locality": "Chevilly",
+  "note": "",
+  "periods": {
+   "1876": "La Sarraz",
+   "1912": "La Sarraz",
+   "1928": "La Sarraz",
+   "1960": "La Sarraz"
+  }
+ },
+ {
+  "locality": "Chevroux",
+  "note": "",
+  "periods": {
+   "1876": "Grandcour",
+   "1912": "Grandcour",
+   "1928": "Grandcour",
+   "1960": "Grandcour"
+  }
+ },
+ {
+  "locality": "Chexbres",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Saphorin (Lavaux)",
+   "1912": "Saint-Saphorin (Lavaux)",
+   "1928": "Saint-Saphorin (Lavaux)",
+   "1960": "Saint-Saphorin (Lavaux)"
+  }
+ },
+ {
+  "locality": "Chigny",
+  "note": "",
+  "periods": {
+   "1876": "Vufflens-le-Château",
+   "1912": "Vufflens-le-Château",
+   "1928": "Vufflens-le-Château",
+   "1960": "Vufflens-le-Château"
+  }
+ },
+ {
+  "locality": "Clarmont",
+  "note": "",
+  "periods": {
+   "1876": "Colombier",
+   "1912": "Colombier",
+   "1928": "Colombier",
+   "1960": "Colombier"
+  }
+ },
+ {
+  "locality": "Coinsins",
+  "note": "",
+  "periods": {
+   "1876": "Begnins",
+   "1912": "Begnins",
+   "1928": "Begnins",
+   "1960": "Begnins"
+  }
+ },
+ {
+  "locality": "Colombier",
+  "note": "",
+  "periods": {
+   "1876": "Colombier",
+   "1912": "Colombier",
+   "1928": "Colombier",
+   "1960": "Colombier"
+  }
+ },
+ {
+  "locality": "Combremont-le-Grand",
+  "note": "",
+  "periods": {
+   "1876": "Combremont-le-Grand",
+   "1912": "Combremont-le-Grand",
+   "1928": "Combremont-le-Grand",
+   "1960": "Combremont-le-Grand > Granges-près-Marnand (dès 01 01 1965)"
+  }
+ },
+ {
+  "locality": "Combremont-le-Petit",
+  "note": "",
+  "periods": {
+   "1876": "Combremont-le-Grand",
+   "1912": "Combremont-le-Grand",
+   "1928": "Combremont-le-Grand",
+   "1960": "Combremont-le-Grand > Granges-près-Marnand (dès 01.01.1965)"
+  }
+ },
+ {
+  "locality": "Commugny",
+  "note": "",
+  "periods": {
+   "1876": "Coppet",
+   "1912": "Coppet",
+   "1928": "Coppet",
+   "1960": "Coppet"
+  }
+ },
+ {
+  "locality": "Concise",
+  "note": "",
+  "periods": {
+   "1876": "Concise",
+   "1912": "Concise",
+   "1928": "Concise",
+   "1960": "Concise"
+  }
+ },
+ {
+  "locality": "Constantine",
+  "note": "",
+  "periods": {
+   "1876": "Constantine",
+   "1912": "Constantine",
+   "1928": "Constantine",
+   "1960": "Constantine"
+  }
+ },
+ {
+  "locality": "Coppet",
+  "note": "",
+  "periods": {
+   "1876": "Coppet",
+   "1912": "Coppet",
+   "1928": "Coppet",
+   "1960": "Coppet"
+  }
+ },
+ {
+  "locality": "Corbeyrier",
+  "note": "",
+  "periods": {
+   "1876": "Aigle",
+   "1912": "Aigle",
+   "1928": "Aigle",
+   "1960": "Aigle"
+  }
+ },
+ {
+  "locality": "Corcelles-près-Concise",
+  "note": "",
+  "periods": {
+   "1876": "Concise",
+   "1912": "Concise",
+   "1928": "Concise",
+   "1960": "Concise"
+  }
+ },
+ {
+  "locality": "Corcelles-près-Payerne",
+  "note": "",
+  "periods": {
+   "1876": "Corcelles-près-Payerne",
+   "1912": "Corcelles-près-Payerne",
+   "1928": "Corcelles-près-Payerne",
+   "1960": "Corcelles-près-Payerne"
+  }
+ },
+ {
+  "locality": "Corcelles-le-Jorat",
+  "note": "",
+  "periods": {
+   "1876": "Corcelles-le-Jorat",
+   "1912": "Corcelles-le-Jorat",
+   "1928": "Corcelles-le-Jorat > Mézières (dès 01.01.1937)",
+   "1960": "Mézières"
+  }
+ },
+ {
+  "locality": "Corcelles-sur-Chavornay",
+  "note": "",
+  "periods": {
+   "1876": "Chavornay",
+   "1912": "Chavornay",
+   "1928": "Chavornay",
+   "1960": "Chavornay"
+  }
+ },
+ {
+  "locality": "Correvon",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Cierges",
+   "1912": "Saint-Cierges",
+   "1928": "Saint-Cierges",
+   "1960": "Saint-Cierges"
+  }
+ },
+ {
+  "locality": "Corseaux",
+  "note": "",
+  "periods": {
+   "1876": "Corsier",
+   "1912": "Corsier",
+   "1928": "Corsier",
+   "1960": "Corsier"
+  }
+ },
+ {
+  "locality": "Cossonay",
+  "note": "",
+  "periods": {
+   "1876": "Cossonay",
+   "1912": "Cossonay",
+   "1928": "Cossonay",
+   "1960": "Cossonay"
+  }
+ },
+ {
+  "locality": "Cottens",
+  "note": "",
+  "periods": {
+   "1876": "Grancy",
+   "1912": "Grancy",
+   "1928": "Grancy > Pampigny (dès 01.01.1938)",
+   "1960": "Pampigny > L'Isle (dès 01.05.1959)"
+  }
+ },
+ {
+  "locality": "Crans-près-Céligny",
+  "note": "",
+  "periods": {
+   "1876": "Crans-près-Céligny",
+   "1912": "Crans-près-Céligny",
+   "1928": "Crans-près-Céligny",
+   "1960": "Crans-près-Céligny"
+  }
+ },
+ {
+  "locality": "Crassier",
+  "note": "",
+  "periods": {
+   "1876": "Gingins",
+   "1912": "Gingins",
+   "1928": "Gingins",
+   "1960": "Gingins"
+  }
+ },
+ {
+  "locality": "Cremin",
+  "note": "",
+  "periods": {
+   "1876": "Lucens",
+   "1912": "Lucens",
+   "1928": "Lucens",
+   "1960": "Lucens"
+  }
+ },
+ {
+  "locality": "Crissier",
+  "note": "",
+  "periods": {
+   "1876": "Romanel-sur-Lausanne",
+   "1912": "Romanel-sur-Lausanne",
+   "1928": "Romanel-sur-Lausanne",
+   "1960": "Romanel-sur-Lausanne > Prilly"
+  }
+ },
+ {
+  "locality": "Cronay",
+  "note": "",
+  "periods": {
+   "1876": "Molondin",
+   "1912": "Molondin",
+   "1928": "Molondin",
+   "1960": "Molondin"
+  }
+ },
+ {
+  "locality": "Croy",
+  "note": "",
+  "periods": {
+   "1876": "Romainmôtier",
+   "1912": "Romainmôtier",
+   "1928": "Romainmôtier",
+   "1960": "Romainmôtier"
+  }
+ },
+ {
+  "locality": "Cuarnens",
+  "note": "",
+  "periods": {
+   "1876": "L'Isle",
+   "1912": "L'Isle",
+   "1928": "L'Isle",
+   "1960": "L'Isle"
+  }
+ },
+ {
+  "locality": "Cuarny",
+  "note": "",
+  "periods": {
+   "1876": "Yvonand",
+   "1912": "Yvonand",
+   "1928": "Yvonand",
+   "1960": "Yvonand"
+  }
+ },
+ {
+  "locality": "Cudrefin",
+  "note": "",
+  "periods": {
+   "1876": "Cudrefin",
+   "1912": "Cudrefin",
+   "1928": "Cudrefin",
+   "1960": "Cudrefin"
+  }
+ },
+ {
+  "locality": "Cugy",
+  "note": "",
+  "periods": {
+   "1876": "Bottens",
+   "1912": "Bottens",
+   "1928": "Bottens",
+   "1960": "Bottens"
+  }
+ },
+ {
+  "locality": "Cully",
+  "note": "",
+  "periods": {
+   "1876": "Cully",
+   "1912": "Cully",
+   "1928": "Cully",
+   "1960": "Cully"
+  }
+ },
+ {
+  "locality": "Curtilles (Courtilles)",
+  "note": "",
+  "periods": {
+   "1876": "Lucens",
+   "1912": "Lucens",
+   "1928": "Lucens",
+   "1960": "Lucens"
+  }
+ },
+ {
+  "locality": "Daillens",
+  "note": "",
+  "periods": {
+   "1876": "Sullens",
+   "1912": "Sullens",
+   "1928": "Sullens",
+   "1960": "Sullens"
+  }
+ },
+ {
+  "locality": "Démoret",
+  "note": "",
+  "periods": {
+   "1876": "Molondin",
+   "1912": "Molondin",
+   "1928": "Molondin",
+   "1960": "Molondin"
+  }
+ },
+ {
+  "locality": "Denens",
+  "note": "",
+  "periods": {
+   "1876": "Villars-sous-Yens",
+   "1912": "Villars-sous-Yens",
+   "1928": "Villars-sous-Yens",
+   "1960": "Villars-sous-Yens"
+  }
+ },
+ {
+  "locality": "Denezy",
+  "note": "",
+  "periods": {
+   "1876": "Denezy",
+   "1912": "Denezy",
+   "1928": "Denezy > Saint-Cierges (dès 01.01.1950)",
+   "1960": "Saint-Cierges"
+  }
+ },
+ {
+  "locality": "Denges",
+  "note": "",
+  "periods": {
+   "1876": "Morges",
+   "1912": "Lonay",
+   "1928": "Lonay > Morges (dès 01.01.1952)",
+   "1960": "Morges"
+  }
+ },
+ {
+  "locality": "Dizy",
+  "note": "",
+  "periods": {
+   "1876": "La Sarraz",
+   "1912": "La Sarraz",
+   "1928": "La Sarraz",
+   "1960": "La Sarraz"
+  }
+ },
+ {
+  "locality": "Dommartin",
+  "note": "",
+  "periods": {
+   "1876": "Bottens",
+   "1912": "Bottens",
+   "1928": "Bottens",
+   "1960": "Bottens"
+  }
+ },
+ {
+  "locality": "Dompierre",
+  "note": "",
+  "periods": {
+   "1876": "Lucens",
+   "1912": "Lucens",
+   "1928": "Lucens",
+   "1960": "Lucens"
+  }
+ },
+ {
+  "locality": "Donatyre",
+  "note": "",
+  "periods": {
+   "1876": "Avenches",
+   "1912": "Avenches",
+   "1928": "Avenches",
+   "1960": "Avenches"
+  }
+ },
+ {
+  "locality": "Donneloye",
+  "note": "",
+  "periods": {
+   "1876": "Molondin",
+   "1912": "Molondin",
+   "1928": "Molondin",
+   "1960": "Molondin"
+  }
+ },
+ {
+  "locality": "Duillier",
+  "note": "",
+  "periods": {
+   "1876": "Gingins",
+   "1912": "Gingins",
+   "1928": "Gingins",
+   "1960": "Gingins"
+  }
+ },
+ {
+  "locality": "Dully",
+  "note": "",
+  "periods": {
+   "1876": "Gilly",
+   "1912": "Gilly",
+   "1928": "Gilly",
+   "1960": "Gilly"
+  }
+ },
+ {
+  "locality": "Echallens",
+  "note": "",
+  "periods": {
+   "1876": "Echallens",
+   "1912": "Echallens",
+   "1928": "Echallens",
+   "1960": "Echallens"
+  }
+ },
+ {
+  "locality": "Echandens",
+  "note": "",
+  "periods": {
+   "1876": "Morges",
+   "1912": "Lonay",
+   "1928": "Lonay > Morges (dès 01.01.1952)",
+   "1960": "Morges"
+  }
+ },
+ {
+  "locality": "Echichens",
+  "note": "",
+  "periods": {
+   "1876": "Vufflens-le-Château",
+   "1912": "Vufflens-le-Château",
+   "1928": "Vufflens-le-Château",
+   "1960": "Vufflens-le-Château"
+  }
+ },
+ {
+  "locality": "Eclagnens",
+  "note": "",
+  "periods": {
+   "1876": "Echallens",
+   "1912": "Echallens",
+   "1928": "Echallens",
+   "1960": "Echallens"
+  }
+ },
+ {
+  "locality": "Eclépens",
+  "note": "",
+  "periods": {
+   "1876": "La Sarraz",
+   "1912": "La Sarraz",
+   "1928": "La Sarraz",
+   "1960": "La Sarraz"
+  }
+ },
+ {
+  "locality": "Ecoteaux",
+  "note": "",
+  "periods": {
+   "1876": "Palézieux",
+   "1912": "Palézieux",
+   "1928": "Palézieux > Oron (dès 30.06.1945)",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "Ecublens",
+  "note": "",
+  "periods": {
+   "1876": "Ecublens",
+   "1912": "Ecublens",
+   "1928": "Ecublens",
+   "1960": "Ecublens"
+  }
+ },
+ {
+  "locality": "Envy",
+  "note": "voir Romainmôtier dès 1969",
+  "periods": {
+   "1876": "Romainmôtier",
+   "1912": "Romainmôtier",
+   "1928": "Romainmôtier",
+   "1960": "Romainmôtier"
+  }
+ },
+ {
+  "locality": "Epalinges",
+  "note": "",
+  "periods": {
+   "1876": "Epalinges",
+   "1912": "Epalinges",
+   "1928": "Epalinges > Lausanne (dès 01.03.1955)",
+   "1960": "Lausanne"
+  }
+ },
+ {
+  "locality": "Ependes",
+  "note": "",
+  "periods": {
+   "1876": "Belmont-sur-Yverdon",
+   "1912": "Belmont-sur-Yverdon",
+   "1928": "Belmont-sur-Yverdon",
+   "1960": "Belmont-sur-Yverdon"
+  }
+ },
+ {
+  "locality": "Epesses",
+  "note": "",
+  "periods": {
+   "1876": "Cully",
+   "1912": "Cully",
+   "1928": "Cully",
+   "1960": "Cully"
+  }
+ },
+ {
+  "locality": "Essertes",
+  "note": "",
+  "periods": {
+   "1876": "Oron",
+   "1912": "Oron",
+   "1928": "Oron",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "Essertines-sur-Rolle",
+  "note": "",
+  "periods": {
+   "1876": "Gilly",
+   "1912": "Gilly",
+   "1928": "Gilly",
+   "1960": "Gilly"
+  }
+ },
+ {
+  "locality": "Essertines-sur-Yverdon",
+  "note": "",
+  "periods": {
+   "1876": "Vuarrens",
+   "1912": "Vuarrens",
+   "1928": "Vuarrens",
+   "1960": "Vuarrens"
+  }
+ },
+ {
+  "locality": "Essert-Pittet",
+  "note": "",
+  "periods": {
+   "1876": "Belmont-sur-Yverdon",
+   "1912": "Belmont-sur-Yverdon",
+   "1928": "Belmont-sur-Yverdon",
+   "1960": "Belmont-sur-Yverdon"
+  }
+ },
+ {
+  "locality": "Essert-sous-Champvent",
+  "note": "",
+  "periods": {
+   "1876": "Champvent",
+   "1912": "Champvent",
+   "1928": "Champvent",
+   "1960": "Champvent"
+  }
+ },
+ {
+  "locality": "Etagnières",
+  "note": "",
+  "periods": {
+   "1876": "Echallens",
+   "1912": "Echallens",
+   "1928": "Echallens",
+   "1960": "Echallens"
+  }
+ },
+ {
+  "locality": "Etoy",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Prex",
+   "1912": "Saint-Prex",
+   "1928": "Saint-Prex",
+   "1960": "Saint-Prex"
+  }
+ },
+ {
+  "locality": "Exergillod",
+  "note": "",
+  "periods": {
+   "1876": "Huémoz",
+   "1912": "Huémoz",
+   "1928": "Huémoz > Ollon (dès 01.07.1955)",
+   "1960": "Ollon"
+  }
+ },
+ {
+  "locality": "Eysins",
+  "note": "",
+  "periods": {
+   "1876": "Gingins",
+   "1912": "Gingins",
+   "1928": "Gingins",
+   "1960": "Gingins"
+  }
+ },
+ {
+  "locality": "Faoug",
+  "note": "",
+  "periods": {
+   "1876": "Avenches",
+   "1912": "Avenches",
+   "1928": "Avenches",
+   "1960": "Avenches"
+  }
+ },
+ {
+  "locality": "Féchy",
+  "note": "",
+  "periods": {
+   "1876": "Aubonne",
+   "1912": "Aubonne",
+   "1928": "Aubonne",
+   "1960": "Aubonne"
+  }
+ },
+ {
+  "locality": "Ferlens",
+  "note": "",
+  "periods": {
+   "1876": "Oron",
+   "1912": "Oron",
+   "1928": "Oron",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "Ferreyres",
+  "note": "",
+  "periods": {
+   "1876": "La Sarraz",
+   "1912": "La Sarraz",
+   "1928": "La Sarraz",
+   "1960": "La Sarraz"
+  }
+ },
+ {
+  "locality": "Fey",
+  "note": "",
+  "periods": {
+   "1876": "Fey",
+   "1912": "Fey",
+   "1928": "Fey",
+   "1960": "Fey > Echallens (dès 01.09.1959)"
+  }
+ },
+ {
+  "locality": "Fontaines",
+  "note": "",
+  "periods": {
+   "1876": "Fiez",
+   "1912": "Fiez",
+   "1928": "Fiez",
+   "1960": "Fiez"
+  }
+ },
+ {
+  "locality": "Fontanezier",
+  "note": "",
+  "periods": {
+   "1876": "Concise > Bonvillars (dès 01.01.1885)",
+   "1912": "Bonvillars",
+   "1928": "Bonvillars",
+   "1960": "Bonvillars > Champagne (dès 01.01.1963)"
+  }
+ },
+ {
+  "locality": "Forchex",
+  "note": "",
+  "periods": {
+   "1876": "Huémoz",
+   "1912": "Huémoz",
+   "1928": "Huémoz > Ollon (dès 01.07.1955)",
+   "1960": "Ollon"
+  }
+ },
+ {
+  "locality": "Forel-sur-Lucens",
+  "note": "",
+  "periods": {
+   "1876": "Lucens",
+   "1912": "Lucens",
+   "1928": "Lucens",
+   "1960": "Lucens"
+  }
+ },
+ {
+  "locality": "Forel (Lavaux)",
+  "note": "",
+  "periods": {
+   "1876": "Forel (Lavaux)",
+   "1912": "Forel (Lavaux)",
+   "1928": "Forel (Lavaux)",
+   "1960": "Forel (Lavaux) > Savigny (dès 01.01.1962)"
+  }
+ },
+ {
+  "locality": "Founex",
+  "note": "",
+  "periods": {
+   "1876": "Coppet",
+   "1912": "Coppet",
+   "1928": "Coppet",
+   "1960": "Coppet"
+  }
+ },
+ {
+  "locality": "Froideville",
+  "note": "",
+  "periods": {
+   "1876": "Bottens",
+   "1912": "Bottens",
+   "1928": "Bottens",
+   "1960": "Bottens"
+  }
+ },
+ {
+  "locality": "Genolier",
+  "note": "",
+  "periods": {
+   "1876": "Begnins",
+   "1912": "Begnins",
+   "1928": "Begnins",
+   "1960": "Begnins"
+  }
+ },
+ {
+  "locality": "Giez",
+  "note": "",
+  "periods": {
+   "1876": "Grandson",
+   "1912": "Grandson",
+   "1928": "Grandson",
+   "1960": "Grandson"
+  }
+ },
+ {
+  "locality": "Gilly",
+  "note": "",
+  "periods": {
+   "1876": "Gilly",
+   "1912": "Gilly",
+   "1928": "Gilly",
+   "1960": "Gilly"
+  }
+ },
+ {
+  "locality": "Gimel",
+  "note": "",
+  "periods": {
+   "1876": "Gimel",
+   "1912": "Gimel",
+   "1928": "Gimel",
+   "1960": "Gimel"
+  }
+ },
+ {
+  "locality": "Gingins",
+  "note": "",
+  "periods": {
+   "1876": "Gingins",
+   "1912": "Gingins",
+   "1928": "Gingins",
+   "1960": "Gingins"
+  }
+ },
+ {
+  "locality": "Givrins",
+  "note": "",
+  "periods": {
+   "1876": "Gingins",
+   "1912": "Gingins",
+   "1928": "Gingins",
+   "1960": "Gingins"
+  }
+ },
+ {
+  "locality": "Gland",
+  "note": "",
+  "periods": {
+   "1876": "Begnins",
+   "1912": "Begnins",
+   "1928": "Begnins",
+   "1960": "Begnins"
+  }
+ },
+ {
+  "locality": "Glutières",
+  "note": "",
+  "periods": {
+   "1876": "Huémoz",
+   "1912": "Huémoz",
+   "1928": "Huémoz > Ollon (dès 01.07.1955)",
+   "1960": "Ollon"
+  }
+ },
+ {
+  "locality": "Gollion",
+  "note": "",
+  "periods": {
+   "1876": "Cossonay",
+   "1912": "Cossonay",
+   "1928": "Cossonay",
+   "1960": "Cossonay"
+  }
+ },
+ {
+  "locality": "Gossens",
+  "note": "",
+  "periods": {
+   "1876": "Ursins",
+   "1912": "Ursins",
+   "1928": "Ursins",
+   "1960": "Ursins"
+  }
+ },
+ {
+  "locality": "Goumoens-la-ville",
+  "note": "",
+  "periods": {
+   "1876": "Echallens",
+   "1912": "Echallens",
+   "1928": "Echallens",
+   "1960": "Echallens"
+  }
+ },
+ {
+  "locality": "Goumoens-le-Jux",
+  "note": "",
+  "periods": {
+   "1876": "Echallens",
+   "1912": "Echallens",
+   "1928": "Echallens",
+   "1960": "Echallens"
+  }
+ },
+ {
+  "locality": "Grancy",
+  "note": "",
+  "periods": {
+   "1876": "Grancy",
+   "1912": "Grancy",
+   "1928": "Grancy > Cossonay (dès 01.01.1938)",
+   "1960": "Cossonay"
+  }
+ },
+ {
+  "locality": "Grandcour",
+  "note": "",
+  "periods": {
+   "1876": "Grandcour",
+   "1912": "Grandcour",
+   "1928": "Grandcour",
+   "1960": "Grandcour"
+  }
+ },
+ {
+  "locality": "Grandevent",
+  "note": "",
+  "periods": {
+   "1876": "Fiez",
+   "1912": "Fiez",
+   "1928": "Fiez",
+   "1960": "Fiez"
+  }
+ },
+ {
+  "locality": "Grandson",
+  "note": "",
+  "periods": {
+   "1876": "Grandson",
+   "1912": "Grandson",
+   "1928": "Grandson",
+   "1960": "Grandson"
+  }
+ },
+ {
+  "locality": "Grandvaux",
+  "note": "",
+  "periods": {
+   "1876": "Cully",
+   "1912": "Cully",
+   "1928": "Cully",
+   "1960": "Cully"
+  }
+ },
+ {
+  "locality": "Granges-près-Marnand",
+  "note": "",
+  "periods": {
+   "1876": "Granges-près-Marnand",
+   "1912": "Granges-près-Marnand",
+   "1928": "Granges-près-Marnand",
+   "1960": "Granges-près-Marnand"
+  }
+ },
+ {
+  "locality": "Grens",
+  "note": "",
+  "periods": {
+   "1876": "Gingins",
+   "1912": "Gingins",
+   "1928": "Gingins",
+   "1960": "Gingins"
+  }
+ },
+ {
+  "locality": "Gressy",
+  "note": "",
+  "periods": {
+   "1876": "Belmont-sur-Yverdon",
+   "1912": "Belmont-sur-Yverdon",
+   "1928": "Belmont-sur-Yverdon",
+   "1960": "Belmont-sur-Yverdon"
+  }
+ },
+ {
+  "locality": "Gryon",
+  "note": "",
+  "periods": {
+   "1876": "Gryon",
+   "1912": "Gryon",
+   "1928": "Gryon",
+   "1960": "Gryon"
+  }
+ },
+ {
+  "locality": "Henniez",
+  "note": "",
+  "periods": {
+   "1876": "Granges-près-Marnand",
+   "1912": "Granges-près-Marnand",
+   "1928": "Granges-près-Marnand",
+   "1960": "Granges-près-Marnand"
+  }
+ },
+ {
+  "locality": "Hermenches",
+  "note": "",
+  "periods": {
+   "1876": "Moudon",
+   "1912": "Moudon",
+   "1928": "Moudon",
+   "1960": "Moudon"
+  }
+ },
+ {
+  "locality": "Huémoz",
+  "note": "",
+  "periods": {
+   "1876": "Huémoz",
+   "1912": "Huémoz",
+   "1928": "Huémoz > Villars-sur-Ollon (dès 01.07.1955)",
+   "1960": "Villars-sur-Ollon"
+  }
+ },
+ {
+  "locality": "Jongny",
+  "note": "",
+  "periods": {
+   "1876": "Corsier",
+   "1912": "Corsier",
+   "1928": "Corsier",
+   "1960": "Corsier"
+  }
+ },
+ {
+  "locality": "Jouxtens-Mézery",
+  "note": "",
+  "periods": {
+   "1876": "Romanel-sur-Lausanne",
+   "1912": "Romanel-sur-Lausanne",
+   "1928": "Romanel-sur-Lausanne",
+   "1960": "Romanel-sur-Lausanne > Prilly"
+  }
+ },
+ {
+  "locality": "Juriens",
+  "note": "",
+  "periods": {
+   "1876": "Romainmôtier",
+   "1912": "Romainmôtier",
+   "1928": "Romainmôtier",
+   "1960": "Romainmôtier"
+  }
+ },
+ {
+  "locality": "La Combe",
+  "note": "",
+  "periods": {
+   "1876": "Le Brassus",
+   "1912": "Le Brassus",
+   "1928": "Le Brassus > Le Chenit (dès 01.06.1942)",
+   "1960": "Le Chenit"
+  }
+ },
+ {
+  "locality": "La Pousaz",
+  "note": "",
+  "periods": {
+   "1876": "Huémoz",
+   "1912": "Huémoz",
+   "1928": "Huémoz > Ollon (01071955)",
+   "1960": "Ollon"
+  }
+ },
+ {
+  "locality": "La Praz",
+  "note": "",
+  "periods": {
+   "1876": "Romainmôtier",
+   "1912": "Romainmôtier",
+   "1928": "Romainmôtier",
+   "1960": "Romainmôtier"
+  }
+ },
+ {
+  "locality": "La Rippe",
+  "note": "",
+  "periods": {
+   "1876": "Gingins",
+   "1912": "Gingins",
+   "1928": "Gingins",
+   "1960": "Gingins"
+  }
+ },
+ {
+  "locality": "La Rogivue",
+  "note": "voir Maracon dès 2003",
+  "periods": {
+   "1876": "Palézieux",
+   "1912": "Palézieux",
+   "1928": "Palézieux > Oron (dès 30.06.1945)",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "La Sarraz",
+  "note": "",
+  "periods": {
+   "1876": "La Sarraz",
+   "1912": "La Sarraz",
+   "1928": "La Sarraz",
+   "1960": "La Sarraz"
+  }
+ },
+ {
+  "locality": "La Tour-de-Peilz",
+  "note": "",
+  "periods": {
+   "1876": "La Tour-de-Peilz",
+   "1912": "La Tour-de-Peilz",
+   "1928": "La Tour-de-Peilz",
+   "1960": "La Tour-de-Peilz"
+  }
+ },
+ {
+  "locality": "L'Abbaye",
+  "note": "",
+  "periods": {
+   "1876": "L'Abbaye",
+   "1912": "L'Abbaye",
+   "1928": "L'Abbaye",
+   "1960": "L'Abbaye"
+  }
+ },
+ {
+  "locality": "L'Abergement",
+  "note": "",
+  "periods": {
+   "1876": "Lignerolle",
+   "1912": "Lignerolle",
+   "1928": "Lignerolle",
+   "1960": "Lignerolle"
+  }
+ },
+ {
+  "locality": "Lausanne",
+  "note": "",
+  "periods": {
+   "1876": "Lausanne",
+   "1912": "Lausanne",
+   "1928": "Lausanne",
+   "1960": "Lausanne"
+  }
+ },
+ {
+  "locality": "Lavey-Morcles",
+  "note": "",
+  "periods": {
+   "1876": "Bex",
+   "1912": "Bex",
+   "1928": "Bex",
+   "1960": "Bex"
+  }
+ },
+ {
+  "locality": "Lavigny",
+  "note": "",
+  "periods": {
+   "1876": "Villars-sous-Yens",
+   "1912": "Villars-sous-Yens",
+   "1928": "Villars-sous-Yens",
+   "1960": "Villars-sous-Yens"
+  }
+ },
+ {
+  "locality": "Le Brassus",
+  "note": "",
+  "periods": {
+   "1876": "Le Brassus",
+   "1912": "Le Brassus",
+   "1928": "Le Brassus > Le Chenit (dès 01.06.1942)",
+   "1960": "Le Chenit"
+  }
+ },
+ {
+  "locality": "Le Châtelard",
+  "note": "",
+  "periods": {
+   "1876": "Montreux",
+   "1912": "Montreux",
+   "1928": "Montreux",
+   "1960": "Montreux"
+  }
+ },
+ {
+  "locality": "Le Lieu",
+  "note": "",
+  "periods": {
+   "1876": "Le Lieu",
+   "1912": "Le Lieu",
+   "1928": "Le Lieu",
+   "1960": "Le Lieu"
+  }
+ },
+ {
+  "locality": "Le Mont-sur-Lausanne",
+  "note": "",
+  "periods": {
+   "1876": "Romanel-sur-Lausanne",
+   "1912": "Romanel-sur-Lausanne",
+   "1928": "Romanel-sur-Lausanne",
+   "1960": "Romanel-sur-Lausanne > Prilly"
+  }
+ },
+ {
+  "locality": "Le Pont",
+  "note": "",
+  "periods": {
+   "1876": "L'Abbaye",
+   "1912": "L'Abbaye",
+   "1928": "L'Abbaye",
+   "1960": "L'Abbaye"
+  }
+ },
+ {
+  "locality": "Le Sentier",
+  "note": "",
+  "periods": {
+   "1876": "Le Sentier",
+   "1912": "Le Sentier",
+   "1928": "Le Sentier > Le Chenit (dès 01. 06.1942)",
+   "1960": "Le Chenit"
+  }
+ },
+ {
+  "locality": "Le Solliat",
+  "note": "",
+  "periods": {
+   "1876": "Le Sentier",
+   "1912": "Le Sentier",
+   "1928": "Le Sentier > Le Chenit (dès 01.06.1942)",
+   "1960": "Le Chenit"
+  }
+ },
+ {
+  "locality": "Le Vaud",
+  "note": "",
+  "periods": {
+   "1876": "Begnins",
+   "1912": "Begnins",
+   "1928": "Begnins",
+   "1960": "Begnins"
+  }
+ },
+ {
+  "locality": "Les Aubert",
+  "note": "",
+  "periods": {
+   "1876": "Le Sentier",
+   "1912": "Le Sentier",
+   "1928": "Le Sentier > Le Chenit (dès 01.06.1942)",
+   "1960": "Le Chenit"
+  }
+ },
+ {
+  "locality": "Les Clées",
+  "note": "",
+  "periods": {
+   "1876": "Romainmôtier",
+   "1912": "Romainmôtier",
+   "1928": "Romainmôtier > Lignerolle (dès 01.05.1936)",
+   "1960": "Lignerolles"
+  }
+ },
+ {
+  "locality": "Les Combes",
+  "note": "",
+  "periods": {
+   "1876": "Huémoz",
+   "1912": "Huémoz",
+   "1928": "Huémoz > Ollon (dès 01.07.1955)",
+   "1960": "Ollon"
+  }
+ },
+ {
+  "locality": "Les Cullayes",
+  "note": "",
+  "periods": {
+   "1876": "Mézières",
+   "1912": "Mézières",
+   "1928": "Mézières",
+   "1960": "Mézières"
+  }
+ },
+ {
+  "locality": "Les Fontaines",
+  "note": "",
+  "periods": {
+   "1876": "Ollon",
+   "1912": "Ollon",
+   "1928": "Ollon",
+   "1960": "Ollon"
+  }
+ },
+ {
+  "locality": "Les Granges-de-Sainte-Croix",
+  "note": "",
+  "periods": {
+   "1876": "Les Granges-de-Sainte-Croix",
+   "1912": "Les Granges-de-Sainte-Croix",
+   "1928": "Les Granges-de-Sainte-Croix",
+   "1960": "Les Granges-de-Sainte-Croix > Sainte-Croix (dès 01.01.1960)"
+  }
+ },
+ {
+  "locality": "Les Piguet",
+  "note": "",
+  "periods": {
+   "1876": "Le Brassus",
+   "1912": "Le Brassus",
+   "1928": "Le Brassus > Le Chenit (dès 01.06.1942)",
+   "1960": "Le Chenit"
+  }
+ },
+ {
+  "locality": "Les Planches",
+  "note": "",
+  "periods": {
+   "1876": "Montreux",
+   "1912": "Montreux",
+   "1928": "Montreux",
+   "1960": "Montreux"
+  }
+ },
+ {
+  "locality": "Les Tavernes",
+  "note": "",
+  "periods": {
+   "1876": "Oron",
+   "1912": "Oron",
+   "1928": "Oron",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "Les Thiolleyres",
+  "note": "",
+  "periods": {
+   "1876": "Oron",
+   "1912": "Oron",
+   "1928": "Oron",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "L'Etivaz",
+  "note": "",
+  "periods": {
+   "1876": "L'Etivaz > Château-d'Oex (dès 1905)",
+   "1912": "Château-d'Oex",
+   "1928": "Château-d'Oex",
+   "1960": "Château-d'Oex"
+  }
+ },
+ {
+  "locality": "Leysin",
+  "note": "",
+  "periods": {
+   "1876": "Leysin",
+   "1912": "Leysin",
+   "1928": "Leysin",
+   "1960": "Leysin"
+  }
+ },
+ {
+  "locality": "Lignerolle",
+  "note": "",
+  "periods": {
+   "1876": "Lignerolle",
+   "1912": "Lignerolle",
+   "1928": "Lignerolle",
+   "1960": "Lignerolle"
+  }
+ },
+ {
+  "locality": "L'Isle",
+  "note": "",
+  "periods": {
+   "1876": "L'Isle",
+   "1912": "L'Isle",
+   "1928": "L'Isle",
+   "1960": "L'Isle"
+  }
+ },
+ {
+  "locality": "Lonay",
+  "note": "",
+  "periods": {
+   "1876": "Lonay",
+   "1912": "Lonay",
+   "1928": "Lonay > Morges (dès 01.01.1952)",
+   "1960": "Morges"
+  }
+ },
+ {
+  "locality": "Longirod",
+  "note": "",
+  "periods": {
+   "1876": "Longirod",
+   "1912": "Longirod",
+   "1928": "Longirod",
+   "1960": "Longirod > Gimel (dès 01.07.1964)"
+  }
+ },
+ {
+  "locality": "L'Orient-de-l'Orbe",
+  "note": "",
+  "periods": {
+   "1876": "Le Sentier",
+   "1912": "Le Sentier",
+   "1928": "Le Sentier > Le Chenit (dès 01.06.1942)",
+   "1960": "Le Chenit"
+  }
+ },
+ {
+  "locality": "Lovattens",
+  "note": "",
+  "periods": {
+   "1876": "Lucens",
+   "1912": "Lucens",
+   "1928": "Lucens",
+   "1960": "Lucens"
+  }
+ },
+ {
+  "locality": "Lucens",
+  "note": "",
+  "periods": {
+   "1876": "Lucens",
+   "1912": "Lucens",
+   "1928": "Lucens",
+   "1960": "Lucens"
+  }
+ },
+ {
+  "locality": "Luins",
+  "note": "",
+  "periods": {
+   "1876": "Gilly",
+   "1912": "Gilly",
+   "1928": "Gilly",
+   "1960": "Gilly"
+  }
+ },
+ {
+  "locality": "Lully",
+  "note": "",
+  "periods": {
+   "1876": "Villars-sous-Yens",
+   "1912": "Villars-sous-Yens",
+   "1928": "Villars-sous-Yens",
+   "1960": "Villars-sous-Yens"
+  }
+ },
+ {
+  "locality": "Lussery (-Villars)",
+  "note": "",
+  "periods": {
+   "1876": "La Sarraz",
+   "1912": "La Sarraz",
+   "1928": "La Sarraz",
+   "1960": "La Sarraz"
+  }
+ },
+ {
+  "locality": "Lussy (-sur-Morges)",
+  "note": "",
+  "periods": {
+   "1876": "Villars-sous-Yens",
+   "1912": "Villars-sous-Yens",
+   "1928": "Villars-sous-Yens",
+   "1960": "Villars-sous-Yens"
+  }
+ },
+ {
+  "locality": "Lutry",
+  "note": "",
+  "periods": {
+   "1876": "Lutry",
+   "1912": "Lutry",
+   "1928": "Lutry",
+   "1960": "Lutry"
+  }
+ },
+ {
+  "locality": "Malapalud",
+  "note": "",
+  "periods": {
+   "1876": "Bottens",
+   "1912": "Bottens",
+   "1928": "Bottens",
+   "1960": "Bottens"
+  }
+ },
+ {
+  "locality": "Maracon",
+  "note": "",
+  "periods": {
+   "1876": "Palézieux",
+   "1912": "Palézieux",
+   "1928": "Palézieux > Oron (dès 30.06.1945)",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "Marchissy",
+  "note": "",
+  "periods": {
+   "1876": "Longirod",
+   "1912": "Longirod",
+   "1928": "Longirod",
+   "1960": "Longirod > Gimel (dès 01.07.1964)"
+  }
+ },
+ {
+  "locality": "Marnand (Granges-près-Marnand)",
+  "note": "",
+  "periods": {
+   "1876": "Marnand (Granges-près-Marnand)",
+   "1912": "Marnand (Granges-près-Marnand)",
+   "1928": "Marnand (Granges-près-Marnand)",
+   "1960": "Marnand (Granges-près-Marnand)"
+  }
+ },
+ {
+  "locality": "Martherenges",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Cierges",
+   "1912": "Saint-Cierges",
+   "1928": "Saint-Cierges",
+   "1960": "Saint-Cierges"
+  }
+ },
+ {
+  "locality": "Mathod",
+  "note": "",
+  "periods": {
+   "1876": "Champvent",
+   "1912": "Champvent",
+   "1928": "Champvent",
+   "1960": "Champvent"
+  }
+ },
+ {
+  "locality": "Mauborget",
+  "note": "",
+  "periods": {
+   "1876": "Fiez",
+   "1912": "Fiez",
+   "1928": "Fiez",
+   "1960": "Fiez"
+  }
+ },
+ {
+  "locality": "Mauraz",
+  "note": "",
+  "periods": {
+   "1876": "Pampigny",
+   "1912": "Pampigny",
+   "1928": "Pampigny",
+   "1960": "Pampigny > L'Isle (dès 01.05.1959)"
+  }
+ },
+ {
+  "locality": "Mex",
+  "note": "",
+  "periods": {
+   "1876": "Sullens",
+   "1912": "Sullens",
+   "1928": "Sullens",
+   "1960": "Sullens"
+  }
+ },
+ {
+  "locality": "Mézery (-près-Donneloye)",
+  "note": "",
+  "periods": {
+   "1876": "Molondin",
+   "1912": "Molondin",
+   "1928": "Molondin",
+   "1960": "Molondin"
+  }
+ },
+ {
+  "locality": "Mézières",
+  "note": "",
+  "periods": {
+   "1876": "Mézières",
+   "1912": "Mézières",
+   "1928": "Mézières",
+   "1960": "Mézières"
+  }
+ },
+ {
+  "locality": "Mies",
+  "note": "",
+  "periods": {
+   "1876": "Coppet",
+   "1912": "Coppet",
+   "1928": "Coppet",
+   "1960": "Coppet"
+  }
+ },
+ {
+  "locality": "Missy",
+  "note": "",
+  "periods": {
+   "1876": "Grandcour",
+   "1912": "Grandcour",
+   "1928": "Grandcour",
+   "1960": "Grandcour"
+  }
+ },
+ {
+  "locality": "Moiry",
+  "note": "",
+  "periods": {
+   "1876": "La Sarraz",
+   "1912": "La Sarraz",
+   "1928": "La Sarraz",
+   "1960": "La Sarraz"
+  }
+ },
+ {
+  "locality": "Mollens",
+  "note": "",
+  "periods": {
+   "1876": "Ballens",
+   "1912": "Ballens",
+   "1928": "Ballens",
+   "1960": "Ballens > Bière (dès 01.01.1958)"
+  }
+ },
+ {
+  "locality": "Molondin",
+  "note": "",
+  "periods": {
+   "1876": "Molondin",
+   "1912": "Molondin",
+   "1928": "Molondin",
+   "1960": "Molondin"
+  }
+ },
+ {
+  "locality": "Monnaz",
+  "note": "",
+  "periods": {
+   "1876": "Vufflens-le-Château",
+   "1912": "Vufflens-le-Château",
+   "1928": "Vufflens-le-Château",
+   "1960": "Vufflens-le-Château"
+  }
+ },
+ {
+  "locality": "Montagny-près-Yverdon",
+  "note": "",
+  "periods": {
+   "1876": "Montagny-près-Yverdon",
+   "1912": "Montagny-près-Yverdon",
+   "1928": "Montagny-près-Yverdon",
+   "1960": "Montagny-près-Yverdon"
+  }
+ },
+ {
+  "locality": "Montaubion-Chardonnay",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Cierges",
+   "1912": "Saint-Cierges",
+   "1928": "Saint-Cierges",
+   "1960": "Saint-Cierges"
+  }
+ },
+ {
+  "locality": "Montcherand",
+  "note": "",
+  "periods": {
+   "1876": "Orbe",
+   "1912": "Orbe",
+   "1928": "Orbe",
+   "1960": "Orbe"
+  }
+ },
+ {
+  "locality": "Montherod",
+  "note": "",
+  "periods": {
+   "1876": "Gimel",
+   "1912": "Gimel",
+   "1928": "Gimel",
+   "1960": "Gimel"
+  }
+ },
+ {
+  "locality": "Mont-la-ville",
+  "note": "",
+  "periods": {
+   "1876": "L'Isle",
+   "1912": "L'Isle",
+   "1928": "L'Isle",
+   "1960": "L'Isle"
+  }
+ },
+ {
+  "locality": "Montmagny",
+  "note": "",
+  "periods": {
+   "1876": "Constantine",
+   "1912": "Constantine",
+   "1928": "Constantine",
+   "1960": "Constantine"
+  }
+ },
+ {
+  "locality": "Montpreveyres",
+  "note": "",
+  "periods": {
+   "1876": "Corcelles-le-Jorat",
+   "1912": "Corcelles-le-Jorat",
+   "1928": "Corcelles-le-Jorat >Mézières (dès 01.01.1937)",
+   "1960": "Mézières"
+  }
+ },
+ {
+  "locality": "Montreux",
+  "note": "",
+  "periods": {
+   "1876": "Montreux",
+   "1912": "Montreux",
+   "1928": "Montreux",
+   "1960": "Montreux"
+  }
+ },
+ {
+  "locality": "Montricher",
+  "note": "",
+  "periods": {
+   "1876": "L'Isle",
+   "1912": "L'Isle",
+   "1928": "L'Isle",
+   "1960": "L'Isle"
+  }
+ },
+ {
+  "locality": "Mont-sur-Rolle",
+  "note": "",
+  "periods": {
+   "1876": "Rolle",
+   "1912": "Rolle",
+   "1928": "Rolle",
+   "1960": "Rolle"
+  }
+ },
+ {
+  "locality": "Morges",
+  "note": "",
+  "periods": {
+   "1876": "Morges",
+   "1912": "Morges",
+   "1928": "Morges",
+   "1960": "Morges"
+  }
+ },
+ {
+  "locality": "Morrens",
+  "note": "",
+  "periods": {
+   "1876": "Bottens",
+   "1912": "Bottens",
+   "1928": "Bottens",
+   "1960": "Bottens"
+  }
+ },
+ {
+  "locality": "Moudon",
+  "note": "",
+  "periods": {
+   "1876": "Moudon",
+   "1912": "Moudon",
+   "1928": "Moudon",
+   "1960": "Moudon"
+  }
+ },
+ {
+  "locality": "Moussillon",
+  "note": "",
+  "periods": {
+   "1876": "Le Brassus",
+   "1912": "Le Brassus",
+   "1928": "Le Brassus > Le Chenit (dès 01.06.1942)",
+   "1960": "Le Chenit"
+  }
+ },
+ {
+  "locality": "Mur",
+  "note": "",
+  "periods": {
+   "1876": "Cudrefin",
+   "1912": "Cudrefin",
+   "1928": "Cudrefin",
+   "1960": "Cudrefin"
+  }
+ },
+ {
+  "locality": "Mutrux",
+  "note": "",
+  "periods": {
+   "1876": "Provence",
+   "1912": "Provence",
+   "1928": "Provence",
+   "1960": "Provence"
+  }
+ },
+ {
+  "locality": "Naz",
+  "note": "",
+  "periods": {
+   "1876": "Fey",
+   "1912": "Fey",
+   "1928": "Fey",
+   "1960": "Fey > Echallens (dès 01.09.1959)"
+  }
+ },
+ {
+  "locality": "Neyruz",
+  "note": "",
+  "periods": {
+   "1876": "Denezy",
+   "1912": "Denezy",
+   "1928": "Denezy > Saint-Cierges (dès 01.01.1950)",
+   "1960": "Saint-Cierges"
+  }
+ },
+ {
+  "locality": "Novalles",
+  "note": "",
+  "periods": {
+   "1876": "Fiez",
+   "1912": "Fiez",
+   "1928": "Fiez",
+   "1960": "Fiez"
+  }
+ },
+ {
+  "locality": "Noville",
+  "note": "",
+  "periods": {
+   "1876": "Villeneuve",
+   "1912": "Villeneuve",
+   "1928": "Villeneuve",
+   "1960": "Villeneuve"
+  }
+ },
+ {
+  "locality": "Nyon",
+  "note": "",
+  "periods": {
+   "1876": "Nyon",
+   "1912": "Nyon",
+   "1928": "Nyon",
+   "1960": "Nyon"
+  }
+ },
+ {
+  "locality": "Ogens",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Cierges",
+   "1912": "Saint-Cierges",
+   "1928": "Saint-Cierges",
+   "1960": "Saint-Cierges"
+  }
+ },
+ {
+  "locality": "Oleyres",
+  "note": "",
+  "periods": {
+   "1876": "Avenches",
+   "1912": "Avenches",
+   "1928": "Avenches",
+   "1960": "Avenches"
+  }
+ },
+ {
+  "locality": "Ollon",
+  "note": "",
+  "periods": {
+   "1876": "Ollon",
+   "1912": "Ollon",
+   "1928": "Ollon",
+   "1960": "Ollon"
+  }
+ },
+ {
+  "locality": "Onnens",
+  "note": "",
+  "periods": {
+   "1876": "Concise",
+   "1912": "Concise",
+   "1928": "Concise",
+   "1960": "Concise"
+  }
+ },
+ {
+  "locality": "Oppens",
+  "note": "",
+  "periods": {
+   "1876": "Ursins",
+   "1912": "Ursins",
+   "1928": "Ursins",
+   "1960": "Ursins"
+  }
+ },
+ {
+  "locality": "Orbe",
+  "note": "",
+  "periods": {
+   "1876": "Orbe",
+   "1912": "Orbe",
+   "1928": "Orbe",
+   "1960": "Orbe"
+  }
+ },
+ {
+  "locality": "Orges",
+  "note": "",
+  "periods": {
+   "1876": "Montagny-près-Yverdon",
+   "1912": "Montagny-près-Yverdon",
+   "1928": "Montagny-près-Yverdon",
+   "1960": "Montagny-près-Yverdon"
+  }
+ },
+ {
+  "locality": "Ormont-dessous",
+  "note": "",
+  "periods": {
+   "1876": "Ormont-dessous",
+   "1912": "Ormont-dessous",
+   "1928": "Ormont-dessous",
+   "1960": "Ormont-dessous"
+  }
+ },
+ {
+  "locality": "Ormont-dessus",
+  "note": "",
+  "periods": {
+   "1876": "Ormont-dessus",
+   "1912": "Ormont-dessus",
+   "1928": "Ormont-dessus",
+   "1960": "Ormont-dessus"
+  }
+ },
+ {
+  "locality": "Orny",
+  "note": "",
+  "periods": {
+   "1876": "La Sarraz",
+   "1912": "La Sarraz",
+   "1928": "La Sarraz",
+   "1960": "La Sarraz"
+  }
+ },
+ {
+  "locality": "Oron",
+  "note": "",
+  "periods": {
+   "1876": "Oron",
+   "1912": "Oron",
+   "1928": "Oron",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "Oron-le-Châtel",
+  "note": "",
+  "periods": {
+   "1876": "Oron",
+   "1912": "Oron",
+   "1928": "Oron",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "Orzens",
+  "note": "",
+  "periods": {
+   "1876": "Ursins",
+   "1912": "Ursins",
+   "1928": "Ursins",
+   "1960": "Ursins"
+  }
+ },
+ {
+  "locality": "Oulens-sous-Echallens",
+  "note": "",
+  "periods": {
+   "1876": "Echallens",
+   "1912": "Echallens",
+   "1928": "Echallens",
+   "1960": "Echallens"
+  }
+ },
+ {
+  "locality": "Oulens",
+  "note": "",
+  "periods": {
+   "1876": "Lucens",
+   "1912": "Lucens",
+   "1928": "Lucens",
+   "1960": "Lucens"
+  }
+ },
+ {
+  "locality": "Pailly",
+  "note": "",
+  "periods": {
+   "1876": "Vuarrens",
+   "1912": "Vuarrens",
+   "1928": "Vuarrens",
+   "1960": "Vuarrens"
+  }
+ },
+ {
+  "locality": "Palézieux",
+  "note": "",
+  "periods": {
+   "1876": "Palézieux",
+   "1912": "Palézieux",
+   "1928": "Palézieux > Oron (30061945)",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "Pampigny",
+  "note": "",
+  "periods": {
+   "1876": "Pampigny",
+   "1912": "Pampigny",
+   "1928": "Pampigny",
+   "1960": "Pampigny > L'Isle (dès 01.05.1959)"
+  }
+ },
+ {
+  "locality": "Panex",
+  "note": "",
+  "periods": {
+   "1876": "Huémoz",
+   "1912": "Huémoz",
+   "1928": "Huémoz > Ollon (dès 01.07.1955)",
+   "1960": "Ollon"
+  }
+ },
+ {
+  "locality": "Paudex",
+  "note": "",
+  "periods": {
+   "1876": "Pully",
+   "1912": "Pully",
+   "1928": "Pully",
+   "1960": "Pully"
+  }
+ },
+ {
+  "locality": "Payerne",
+  "note": "",
+  "periods": {
+   "1876": "Payerne",
+   "1912": "Payerne",
+   "1928": "Payerne",
+   "1960": "Payerne"
+  }
+ },
+ {
+  "locality": "Peney-le-Jorat",
+  "note": "",
+  "periods": {
+   "1876": "Corcelles-le-Jorat",
+   "1912": "Corcelles-le-Jorat",
+   "1928": "Corcelles-le-Jorat > Mézières (dès 01.01.1937)",
+   "1960": "Mézières"
+  }
+ },
+ {
+  "locality": "Penthalaz",
+  "note": "",
+  "periods": {
+   "1876": "Cossonay",
+   "1912": "Cossonay",
+   "1928": "Cossonay",
+   "1960": "Cossonay"
+  }
+ },
+ {
+  "locality": "Penthaz",
+  "note": "",
+  "periods": {
+   "1876": "Sullens",
+   "1912": "Sullens",
+   "1928": "Sullens",
+   "1960": "Sullens"
+  }
+ },
+ {
+  "locality": "Penthéréaz",
+  "note": "",
+  "periods": {
+   "1876": "Vuarrens > Penthéréaz",
+   "1912": "Penthéréaz",
+   "1928": "Penthéréaz",
+   "1960": "Penthéréaz > Vuarrens (dès 01.01.1963)"
+  }
+ },
+ {
+  "locality": "Perroy",
+  "note": "",
+  "periods": {
+   "1876": "Rolle",
+   "1912": "Rolle",
+   "1928": "Rolle",
+   "1960": "Rolle"
+  }
+ },
+ {
+  "locality": "Peyrres-et-Possens",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Cierges",
+   "1912": "Saint-Cierges",
+   "1928": "Saint-Cierges",
+   "1960": "Saint-Cierges"
+  }
+ },
+ {
+  "locality": "Pizy",
+  "note": "",
+  "periods": {
+   "1876": "Gimel",
+   "1912": "Gimel",
+   "1928": "Gimel",
+   "1960": "Gimel"
+  }
+ },
+ {
+  "locality": "Plambuit",
+  "note": "",
+  "periods": {
+   "1876": "Huémoz",
+   "1912": "Huémoz",
+   "1928": "Huémoz > Ollon (dès 01.07.1955)",
+   "1960": "Ollon"
+  }
+ },
+ {
+  "locality": "Poliez-le-Grand",
+  "note": "",
+  "periods": {
+   "1876": "Bottens",
+   "1912": "Bottens",
+   "1928": "Bottens",
+   "1960": "Bottens"
+  }
+ },
+ {
+  "locality": "Poliez-Pittet",
+  "note": "",
+  "periods": {
+   "1876": "Bottens",
+   "1912": "Bottens",
+   "1928": "Bottens",
+   "1960": "Bottens"
+  }
+ },
+ {
+  "locality": "Pompaples",
+  "note": "",
+  "periods": {
+   "1876": "La Sarraz",
+   "1912": "La Sarraz",
+   "1928": "La Sarraz",
+   "1960": "La Sarraz"
+  }
+ },
+ {
+  "locality": "Pomy",
+  "note": "",
+  "periods": {
+   "1876": "Ursins",
+   "1912": "Ursins",
+   "1928": "Ursins",
+   "1960": "Ursins"
+  }
+ },
+ {
+  "locality": "Prahins",
+  "note": "",
+  "periods": {
+   "1876": "Molondin",
+   "1912": "Molondin",
+   "1928": "Molondin",
+   "1960": "Molondin"
+  }
+ },
+ {
+  "locality": "Prangins",
+  "note": "",
+  "periods": {
+   "1876": "Nyon",
+   "1912": "Nyon",
+   "1928": "Nyon",
+   "1960": "Nyon"
+  }
+ },
+ {
+  "locality": "Premier",
+  "note": "",
+  "periods": {
+   "1876": "Romainmôtier",
+   "1912": "Romainmôtier",
+   "1928": "Romainmôtier",
+   "1960": "Romainmôtier"
+  }
+ },
+ {
+  "locality": "Prévenloup",
+  "note": "",
+  "periods": {
+   "1876": "Lucens",
+   "1912": "Lucens",
+   "1928": "Lucens",
+   "1960": "Lucens"
+  }
+ },
+ {
+  "locality": "Préverenges",
+  "note": "",
+  "periods": {
+   "1876": "Lonay",
+   "1912": "Lonay",
+   "1928": "Lonay > Morges (dès 26.12.1951)",
+   "1960": "Morges"
+  }
+ },
+ {
+  "locality": "Prilly",
+  "note": "",
+  "periods": {
+   "1876": "Romanel-sur-Lausanne",
+   "1912": "Romanel-sur-Lausanne",
+   "1928": "Romanel-sur-Lausanne",
+   "1960": "Romanel-sur-Lausanne > Prilly"
+  }
+ },
+ {
+  "locality": "Provence",
+  "note": "",
+  "periods": {
+   "1876": "Provence",
+   "1912": "Provence",
+   "1928": "Provence",
+   "1960": "Provence"
+  }
+ },
+ {
+  "locality": "Puidoux",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Saphorin (Lavaux)",
+   "1912": "Saint-Saphorin (Lavaux)",
+   "1928": "Saint-Saphorin (Lavaux)",
+   "1960": "Saint-Saphorin (Lavaux)"
+  }
+ },
+ {
+  "locality": "Pully",
+  "note": "",
+  "periods": {
+   "1876": "Pully",
+   "1912": "Pully",
+   "1928": "Pully",
+   "1960": "Pully"
+  }
+ },
+ {
+  "locality": "Rances",
+  "note": "",
+  "periods": {
+   "1876": "Baulmes",
+   "1912": "Baulmes",
+   "1928": "Baulmes",
+   "1960": "Baulmes"
+  }
+ },
+ {
+  "locality": "Renens",
+  "note": "",
+  "periods": {
+   "1876": "Romanel-sur-Lausanne",
+   "1912": "Romanel-sur-Lausanne",
+   "1928": "Romanel-sur-Lausanne",
+   "1960": "Romanel-sur-Lausanne > Prilly"
+  }
+ },
+ {
+  "locality": "Rennaz",
+  "note": "",
+  "periods": {
+   "1876": "Villeneuve",
+   "1912": "Villeneuve",
+   "1928": "Villeneuve",
+   "1960": "Villeneuve"
+  }
+ },
+ {
+  "locality": "Reverolles",
+  "note": "",
+  "periods": {
+   "1876": "Colombier",
+   "1912": "Colombier",
+   "1928": "Colombier",
+   "1960": "Colombier"
+  }
+ },
+ {
+  "locality": "Riex",
+  "note": "",
+  "periods": {
+   "1876": "Cully",
+   "1912": "Cully",
+   "1928": "Cully",
+   "1960": "Cully"
+  }
+ },
+ {
+  "locality": "Rivaz",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Saphorin (Lavaux)",
+   "1912": "Saint-Saphorin (Lavaux)",
+   "1928": "Saint-Saphorin (Lavaux)",
+   "1960": "Saint-Saphorin (Lavaux)"
+  }
+ },
+ {
+  "locality": "Roche",
+  "note": "",
+  "periods": {
+   "1876": "Villeneuve",
+   "1912": "Villeneuve",
+   "1928": "Villeneuve",
+   "1960": "Villeneuve"
+  }
+ },
+ {
+  "locality": "Rolle",
+  "note": "",
+  "periods": {
+   "1876": "Rolle",
+   "1912": "Rolle",
+   "1928": "Rolle",
+   "1960": "Rolle"
+  }
+ },
+ {
+  "locality": "Romainmôtier (-Envy)",
+  "note": "",
+  "periods": {
+   "1876": "Romainmôtier",
+   "1912": "Romainmôtier",
+   "1928": "Romainmôtier",
+   "1960": "Romainmôtier"
+  }
+ },
+ {
+  "locality": "Romairon",
+  "note": "",
+  "periods": {
+   "1876": "Fiez > Champagne (dès 01.07.1885)",
+   "1912": "Champagne",
+   "1928": "Champagne",
+   "1960": "Champagne"
+  }
+ },
+ {
+  "locality": "Romanel-sur-Lausanne",
+  "note": "",
+  "periods": {
+   "1876": "Romanel-sur-Lausanne",
+   "1912": "Romanel-sur-Lausanne",
+   "1928": "Romanel-sur-Lausanne",
+   "1960": "Romanel-sur-Lausanne> Prilly"
+  }
+ },
+ {
+  "locality": "Romanel-sur-Morges",
+  "note": "",
+  "periods": {
+   "1876": "Colombier",
+   "1912": "Colombier",
+   "1928": "Colombier",
+   "1960": "Colombier"
+  }
+ },
+ {
+  "locality": "Ropraz",
+  "note": "",
+  "periods": {
+   "1876": "Corcelles-le-Jorat",
+   "1912": "Corcelles-le-Jorat",
+   "1928": "Corcelles-le-Jorat > Mézières (dès 01.01.1937)",
+   "1960": "Mézières"
+  }
+ },
+ {
+  "locality": "Rossenges",
+  "note": "",
+  "periods": {
+   "1876": "Moudon",
+   "1912": "Moudon",
+   "1928": "Moudon",
+   "1960": "Moudon"
+  }
+ },
+ {
+  "locality": "Rossens",
+  "note": "",
+  "periods": {
+   "1876": "Villarzel",
+   "1912": "Villarzel",
+   "1928": "Villarzel",
+   "1960": "Villarzel > Granges-près-Marnand (dès 01.01.1960)"
+  }
+ },
+ {
+  "locality": "Rossignières",
+  "note": "",
+  "periods": {
+   "1876": "Rossignières",
+   "1912": "Rossignières",
+   "1928": "Rossignières",
+   "1960": "Rossignières > Château-d'Oex (dès 01.01.1963)"
+  }
+ },
+ {
+  "locality": "Rougemont",
+  "note": "",
+  "periods": {
+   "1876": "Rougemont",
+   "1912": "Rougemont",
+   "1928": "Rougemont",
+   "1960": "Rougemont"
+  }
+ },
+ {
+  "locality": "Rovray",
+  "note": "",
+  "periods": {
+   "1876": "Yvonand",
+   "1912": "Yvonand",
+   "1928": "Yvonand",
+   "1960": "Yvonand"
+  }
+ },
+ {
+  "locality": "Rueyres",
+  "note": "",
+  "periods": {
+   "1876": "Fey",
+   "1912": "Fey",
+   "1928": "Fey",
+   "1960": "Fey > Echallens (01091959)"
+  }
+ },
+ {
+  "locality": "Saint-Berthélemy",
+  "note": "",
+  "periods": {
+   "1876": "Echallens",
+   "1912": "Echallens",
+   "1928": "Echallens",
+   "1960": "Echallens"
+  }
+ },
+ {
+  "locality": "Saint-Cergue",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Cergue",
+   "1912": "Saint-Cergue",
+   "1928": "Saint-Cergue",
+   "1960": "Saint-Cergue"
+  }
+ },
+ {
+  "locality": "Saint-Cierges",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Cierges",
+   "1912": "Saint-Cierges",
+   "1928": "Saint-Cierges",
+   "1960": "Saint-Cierges"
+  }
+ },
+ {
+  "locality": "Sainte-Croix",
+  "note": "",
+  "periods": {
+   "1876": "Sainte-Croix",
+   "1912": "Sainte-Croix",
+   "1928": "Sainte-Croix",
+   "1960": "Sainte-Croix"
+  }
+ },
+ {
+  "locality": "Saint-George",
+  "note": "",
+  "periods": {
+   "1876": "Longirod",
+   "1912": "Longirod",
+   "1928": "Longirod",
+   "1960": "Longirod > Gimel (dès 01.07.1964)"
+  }
+ },
+ {
+  "locality": "Saint-Légier - La Chiésaz",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Légier",
+   "1912": "Saint-Légier",
+   "1928": "Saint-Légier",
+   "1960": "Saint-Légier"
+  }
+ },
+ {
+  "locality": "Saint-Livre",
+  "note": "",
+  "periods": {
+   "1876": "Aubonne",
+   "1912": "Aubonne",
+   "1928": "Aubonne",
+   "1960": "Aubonne"
+  }
+ },
+ {
+  "locality": "Saint-Oyens",
+  "note": "",
+  "periods": {
+   "1876": "Gimel",
+   "1912": "Gimel",
+   "1928": "Gimel",
+   "1960": "Gimel"
+  }
+ },
+ {
+  "locality": "Saint-Prex",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Prex",
+   "1912": "Saint-Prex",
+   "1928": "Saint-Prex",
+   "1960": "Saint-Prex"
+  }
+ },
+ {
+  "locality": "Saint-Saphorin (Lavaux)",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Saphorin (Lavaux)",
+   "1912": "Saint-Saphorin (Lavaux)",
+   "1928": "Saint-Saphorin (Lavaux)",
+   "1960": "Saint-Saphorin (Lavaux)"
+  }
+ },
+ {
+  "locality": "Saint-Saphorin",
+  "note": "",
+  "periods": {
+   "1876": "Colombier",
+   "1912": "Colombier",
+   "1928": "Colombier",
+   "1960": "Colombier"
+  }
+ },
+ {
+  "locality": "Saint-Sulpice",
+  "note": "",
+  "periods": {
+   "1876": "Ecublens",
+   "1912": "Ecublens",
+   "1928": "Ecublens",
+   "1960": "Ecublens"
+  }
+ },
+ {
+  "locality": "Saint-Triphon",
+  "note": "",
+  "periods": {
+   "1876": "Ollon",
+   "1912": "Ollon",
+   "1928": "Ollon",
+   "1960": "Ollon"
+  }
+ },
+ {
+  "locality": "Salaz",
+  "note": "",
+  "periods": {
+   "1876": "Ollon",
+   "1912": "Ollon",
+   "1928": "Ollon",
+   "1960": "Ollon"
+  }
+ },
+ {
+  "locality": "Sarzens",
+  "note": "",
+  "periods": {
+   "1876": "Lucens",
+   "1912": "Lucens",
+   "1928": "Lucens",
+   "1960": "Lucens"
+  }
+ },
+ {
+  "locality": "Sassel",
+  "note": "",
+  "periods": {
+   "1876": "Granges-près-Marnand",
+   "1912": "Granges-près-Marnand",
+   "1928": "Granges-près-Marnand",
+   "1960": "Granges-près-Marnand"
+  }
+ },
+ {
+  "locality": "Saubraz",
+  "note": "",
+  "periods": {
+   "1876": "Gimel",
+   "1912": "Gimel",
+   "1928": "Gimel",
+   "1960": "Gimel"
+  }
+ },
+ {
+  "locality": "Savigny",
+  "note": "",
+  "periods": {
+   "1876": "Savigny",
+   "1912": "Savigny",
+   "1928": "Savigny",
+   "1960": "Savigny"
+  }
+ },
+ {
+  "locality": "Sédeilles",
+  "note": "",
+  "periods": {
+   "1876": "Villarzel",
+   "1912": "Villarzel",
+   "1928": "Villarzel",
+   "1960": "Villarzel > Granges-près-Marnand (dès 01.01.1960)"
+  }
+ },
+ {
+  "locality": "Seigneux",
+  "note": "",
+  "periods": {
+   "1876": "Villarzel",
+   "1912": "Villarzel",
+   "1928": "Villarzel",
+   "1960": "Villarzel > Granges-près-Marnand (dès 01.01.1960)"
+  }
+ },
+ {
+  "locality": "Senarclens",
+  "note": "",
+  "periods": {
+   "1876": "Cossonay",
+   "1912": "Cossonay",
+   "1928": "Cossonay",
+   "1960": "Cossonay"
+  }
+ },
+ {
+  "locality": "Sergey",
+  "note": "",
+  "periods": {
+   "1876": "Lignerolle",
+   "1912": "Lignerolle",
+   "1928": "Lignerolle",
+   "1960": "Lignerolle"
+  }
+ },
+ {
+  "locality": "Servion",
+  "note": "",
+  "periods": {
+   "1876": "Oron",
+   "1912": "Oron",
+   "1928": "Oron",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "Sévery",
+  "note": "",
+  "periods": {
+   "1876": "Grancy",
+   "1912": "Grancy",
+   "1928": "Grancy > Pampigny (dès 01.01.1938)",
+   "1960": "Pampigny > L'Isle (dès 01.05.1959)"
+  }
+ },
+ {
+  "locality": "Signy-Avenex",
+  "note": "",
+  "periods": {
+   "1876": "Gingins",
+   "1912": "Gingins",
+   "1928": "Gingins",
+   "1960": "Gingins"
+  }
+ },
+ {
+  "locality": "Sottens",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Cierges",
+   "1912": "Saint-Cierges",
+   "1928": "Saint-Cierges",
+   "1960": "Saint-Cierges"
+  }
+ },
+ {
+  "locality": "Suchy",
+  "note": "",
+  "periods": {
+   "1876": "Belmont-sur-Yverdon",
+   "1912": "Belmont-sur-Yverdon",
+   "1928": "Belmont-sur-Yverdon",
+   "1960": "Belmont-sur-Yverdon"
+  }
+ },
+ {
+  "locality": "Sugnens",
+  "note": "",
+  "periods": {
+   "1876": "Fey",
+   "1912": "Fey",
+   "1928": "Fey",
+   "1960": "Fey > Echallens (dès 01.09.1959)"
+  }
+ },
+ {
+  "locality": "Sullens",
+  "note": "",
+  "periods": {
+   "1876": "Sullens",
+   "1912": "Sullens",
+   "1928": "Sullens",
+   "1960": "Sullens"
+  }
+ },
+ {
+  "locality": "Suscévaz",
+  "note": "",
+  "periods": {
+   "1876": "Champvent",
+   "1912": "Champvent",
+   "1928": "Champvent",
+   "1960": "Champvent"
+  }
+ },
+ {
+  "locality": "Syens",
+  "note": "",
+  "periods": {
+   "1876": "Moudon",
+   "1912": "Moudon",
+   "1928": "Moudon",
+   "1960": "Moudon"
+  }
+ },
+ {
+  "locality": "Tannay",
+  "note": "",
+  "periods": {
+   "1876": "Coppet",
+   "1912": "Coppet",
+   "1928": "Coppet",
+   "1960": "Coppet"
+  }
+ },
+ {
+  "locality": "Tartegnin",
+  "note": "",
+  "periods": {
+   "1876": "Gilly",
+   "1912": "Gilly",
+   "1928": "Gilly",
+   "1960": "Gilly"
+  }
+ },
+ {
+  "locality": "Thierrens",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Cierges",
+   "1912": "Saint-Cierges",
+   "1928": "Saint-Cierges",
+   "1960": "Saint-Cierges"
+  }
+ },
+ {
+  "locality": "Tolochenaz",
+  "note": "",
+  "periods": {
+   "1876": "Morges",
+   "1912": "Morges",
+   "1928": "Morges",
+   "1960": "Morges"
+  }
+ },
+ {
+  "locality": "Trélex",
+  "note": "",
+  "periods": {
+   "1876": "Gingins",
+   "1912": "Gingins",
+   "1928": "Gingins",
+   "1960": "Gingins"
+  }
+ },
+ {
+  "locality": "Trey",
+  "note": "",
+  "periods": {
+   "1876": "Trey",
+   "1912": "Trey",
+   "1928": "Trey > Payerne (01041939)",
+   "1960": "Payerne"
+  }
+ },
+ {
+  "locality": "Treycovagnes",
+  "note": "",
+  "periods": {
+   "1876": "Montagny-près-Yverdon",
+   "1912": "Montagny-près-Yverdon",
+   "1928": "Montagny-près-Yverdon",
+   "1960": "Montagny-près-Yverdon"
+  }
+ },
+ {
+  "locality": "Treytorrens",
+  "note": "",
+  "periods": {
+   "1876": "Combremont-le-Grand",
+   "1912": "Combremont-le-Grand",
+   "1928": "Combremont-le-Grand",
+   "1960": "Combremont-le-Grand > Granges-près-Marnand (dès 01.01.1965)"
+  }
+ },
+ {
+  "locality": "Ursins",
+  "note": "",
+  "periods": {
+   "1876": "Ursins",
+   "1912": "Ursins",
+   "1928": "Ursins",
+   "1960": "Ursins"
+  }
+ },
+ {
+  "locality": "Valeyres-sous-Ursins",
+  "note": "",
+  "periods": {
+   "1876": "Ursins",
+   "1912": "Ursins",
+   "1928": "Ursins",
+   "1960": "Ursins"
+  }
+ },
+ {
+  "locality": "Vallamand",
+  "note": "",
+  "periods": {
+   "1876": "Cudrefin",
+   "1912": "Cudrefin",
+   "1928": "Cudrefin",
+   "1960": "Cudrefin"
+  }
+ },
+ {
+  "locality": "Valeyres-sous-Montagny",
+  "note": "",
+  "periods": {
+   "1876": "Montagny-près-Yverdon",
+   "1912": "Montagny-près-Yverdon",
+   "1928": "Montagny-près-Yverdon",
+   "1960": "Montagny-près-Yverdon"
+  }
+ },
+ {
+  "locality": "Valeyres-sous-Rances",
+  "note": "",
+  "periods": {
+   "1876": "Baulmes",
+   "1912": "Baulmes",
+   "1928": "Baulmes",
+   "1960": "Baulmes"
+  }
+ },
+ {
+  "locality": "Valeyres-sous-Ursins",
+  "note": "",
+  "periods": {
+   "1876": "Ursins",
+   "1912": "Ursins",
+   "1928": "Ursins",
+   "1960": "Ursins"
+  }
+ },
+ {
+  "locality": "Vallorbe",
+  "note": "",
+  "periods": {
+   "1876": "Vallorbe",
+   "1912": "Vallorbe",
+   "1928": "Vallorbe",
+   "1960": "Vallorbe"
+  }
+ },
+ {
+  "locality": "Vaugondry",
+  "note": "",
+  "periods": {
+   "1876": "Fiez > Champagne (dès 01.07.1885)",
+   "1912": "Champagne",
+   "1928": "Champagne",
+   "1960": "Champagne"
+  }
+ },
+ {
+  "locality": "Vaulion",
+  "note": "",
+  "periods": {
+   "1876": "Vaulion",
+   "1912": "Vaulion",
+   "1928": "Vaulion",
+   "1960": "Vaulion"
+  }
+ },
+ {
+  "locality": "Vaux-sur-Morges",
+  "note": "",
+  "periods": {
+   "1876": "Vufflens-le-Château",
+   "1912": "Vufflens-le-Château",
+   "1928": "Vufflens-le-Château",
+   "1960": "Vufflens-le-Château"
+  }
+ },
+ {
+  "locality": "Verschiez",
+  "note": "",
+  "periods": {
+   "1876": "Ollon",
+   "1912": "Ollon",
+   "1928": "Ollon",
+   "1960": "Ollon"
+  }
+ },
+ {
+  "locality": "Vevey",
+  "note": "",
+  "periods": {
+   "1876": "Vevey",
+   "1912": "Vevey",
+   "1928": "Vevey",
+   "1960": "Vevey"
+  }
+ },
+ {
+  "locality": "Veytaux",
+  "note": "",
+  "periods": {
+   "1876": "Montreux",
+   "1912": "Montreux",
+   "1928": "Montreux",
+   "1960": "Montreux"
+  }
+ },
+ {
+  "locality": "Vich",
+  "note": "",
+  "periods": {
+   "1876": "Begnins",
+   "1912": "Begnins",
+   "1928": "Begnins",
+   "1960": "Begnins"
+  }
+ },
+ {
+  "locality": "Villars-sur-Ollon",
+  "note": "",
+  "periods": {
+   "1876": "Huémoz",
+   "1912": "Huémoz",
+   "1928": "Huémoz > Villars-sur-Ollon (dès 01.07.1955)",
+   "1960": "Villars-sur-Ollon"
+  }
+ },
+ {
+  "locality": "Villars-Bourquin",
+  "note": "",
+  "periods": {
+   "1876": "Fiez",
+   "1912": "Fiez",
+   "1928": "Fiez",
+   "1960": "Fiez"
+  }
+ },
+ {
+  "locality": "Villars-Bramard",
+  "note": "",
+  "periods": {
+   "1876": "Villarzel",
+   "1912": "Villarzel",
+   "1928": "Villarzel",
+   "1960": "Villarzel > Granges-près-Marnand (dès 01.01.1960)"
+  }
+ },
+ {
+  "locality": "Villars-Epenay",
+  "note": "",
+  "periods": {
+   "1876": "Yvonand",
+   "1912": "Yvonand",
+   "1928": "Yvonand",
+   "1960": "Yvonand"
+  }
+ },
+ {
+  "locality": "Villars-le-Comte",
+  "note": "",
+  "periods": {
+   "1876": "Denezy",
+   "1912": "Denezy",
+   "1928": "Denezy > Lucens (dès 01.01.1950)",
+   "1960": "Lucens"
+  }
+ },
+ {
+  "locality": "Villars-le-Grand",
+  "note": "",
+  "periods": {
+   "1876": "Constantine",
+   "1912": "Constantine",
+   "1928": "Constantine",
+   "1960": "Constantine"
+  }
+ },
+ {
+  "locality": "Villars-le-Terroir",
+  "note": "",
+  "periods": {
+   "1876": "Echallens",
+   "1912": "Echallens",
+   "1928": "Echallens",
+   "1960": "Echallens"
+  }
+ },
+ {
+  "locality": "Villars-Lussery",
+  "note": "voir Lussery-Villars dès 1999",
+  "periods": {
+   "1876": "La Sarraz",
+   "1912": "La Sarraz",
+   "1928": "La Sarraz",
+   "1960": "La Sarraz"
+  }
+ },
+ {
+  "locality": "Villars-Mendraz",
+  "note": "",
+  "periods": {
+   "1876": "Saint-Cierges",
+   "1912": "Saint-Cierges",
+   "1928": "Saint-Cierges",
+   "1960": "Saint-Cierges"
+  }
+ },
+ {
+  "locality": "Villars-sous-Champvent",
+  "note": "",
+  "periods": {
+   "1876": "Champvent",
+   "1912": "Champvent",
+   "1928": "Champvent",
+   "1960": "Champvent"
+  }
+ },
+ {
+  "locality": "Villars-sous-Yens",
+  "note": "",
+  "periods": {
+   "1876": "Villars-sous-Yens",
+   "1912": "Villars-sous-Yens",
+   "1928": "Villars-sous-Yens",
+   "1960": "Villars-sous-Yens"
+  }
+ },
+ {
+  "locality": "Villars-Sainte-Croix",
+  "note": "",
+  "periods": {
+   "1876": "Bussigny-prés-Lausanne",
+   "1912": "Bussigny-prés-Lausanne",
+   "1928": "Bussigny-prés-Lausanne",
+   "1960": "Bussigny-prés-Lausanne"
+  }
+ },
+ {
+  "locality": "Villars-Tiercelin",
+  "note": "",
+  "periods": {
+   "1876": "Bottens",
+   "1912": "Bottens",
+   "1928": "Bottens",
+   "1960": "Bottens"
+  }
+ },
+ {
+  "locality": "Villarzel",
+  "note": "",
+  "periods": {
+   "1876": "Villarzel",
+   "1912": "Villarzel",
+   "1928": "Villarzel",
+   "1960": "Villarzel > Granges-près-Marnand (dès 01.01.1960)"
+  }
+ },
+ {
+  "locality": "Villeneuve",
+  "note": "",
+  "periods": {
+   "1876": "Villeneuve",
+   "1912": "Villeneuve",
+   "1928": "Villeneuve",
+   "1960": "Villeneuve"
+  }
+ },
+ {
+  "locality": "Villette",
+  "note": "",
+  "periods": {
+   "1876": "Cully",
+   "1912": "Cully",
+   "1928": "Cully",
+   "1960": "Cully"
+  }
+ },
+ {
+  "locality": "Villy",
+  "note": "",
+  "periods": {
+   "1876": "Ollon",
+   "1912": "Ollon",
+   "1928": "Ollon",
+   "1960": "Ollon"
+  }
+ },
+ {
+  "locality": "Vinzel",
+  "note": "",
+  "periods": {
+   "1876": "Gilly",
+   "1912": "Gilly",
+   "1928": "Gilly",
+   "1960": "Gilly"
+  }
+ },
+ {
+  "locality": "Vuarrens",
+  "note": "",
+  "periods": {
+   "1876": "Vuarrens",
+   "1912": "Vuarrens",
+   "1928": "Vuarrens",
+   "1960": "Vuarrens"
+  }
+ },
+ {
+  "locality": "Vucherens",
+  "note": "",
+  "periods": {
+   "1876": "Moudon",
+   "1912": "Moudon",
+   "1928": "Moudon",
+   "1960": "Moudon"
+  }
+ },
+ {
+  "locality": "Vufflens-la-ville",
+  "note": "",
+  "periods": {
+   "1876": "Sullens",
+   "1912": "Sullens",
+   "1928": "Sullens",
+   "1960": "Sullens"
+  }
+ },
+ {
+  "locality": "Vufflens-le-Château",
+  "note": "",
+  "periods": {
+   "1876": "Vufflens-le-Château",
+   "1912": "Vufflens-le-Château",
+   "1928": "Vufflens-le-Château",
+   "1960": "Vufflens-le-Château"
+  }
+ },
+ {
+  "locality": "Vugelles-la-Mothe",
+  "note": "",
+  "periods": {
+   "1876": "Montagny-près-Yverdon",
+   "1912": "Montagny-près-Yverdon",
+   "1928": "Montagny-près-Yverdon",
+   "1960": "Montagny-près-Yverdon"
+  }
+ },
+ {
+  "locality": "Vuibroye",
+  "note": "",
+  "periods": {
+   "1876": "Oron",
+   "1912": "Oron",
+   "1928": "Oron",
+   "1960": "Oron"
+  }
+ },
+ {
+  "locality": "Vuiteboeuf",
+  "note": "",
+  "periods": {
+   "1876": "Baulmes",
+   "1912": "Baulmes",
+   "1928": "Baulmes",
+   "1960": "Baulmes"
+  }
+ },
+ {
+  "locality": "Vulliens",
+  "note": "",
+  "periods": {
+   "1876": "Mézières",
+   "1912": "Mézières",
+   "1928": "Mézières",
+   "1960": "Mézières"
+  }
+ },
+ {
+  "locality": "Vullierens",
+  "note": "",
+  "periods": {
+   "1876": "Colombier",
+   "1912": "Colombier",
+   "1928": "Colombier",
+   "1960": "Colombier"
+  }
+ },
+ {
+  "locality": "Yens",
+  "note": "",
+  "periods": {
+   "1876": "Villars-sous-Yens",
+   "1912": "Villars-sous-Yens",
+   "1928": "Villars-sous-Yens",
+   "1960": "Villars-sous-Yens"
+  }
+ },
+ {
+  "locality": "Yverdon-les-Bains",
+  "note": "",
+  "periods": {
+   "1876": "Yverdon",
+   "1912": "Yverdon",
+   "1928": "Yverdon",
+   "1960": "Yverdon"
+  }
+ },
+ {
+  "locality": "Yvonand",
+  "note": "",
+  "periods": {
+   "1876": "Yvonand",
+   "1912": "Yvonand",
+   "1928": "Yvonand",
+   "1960": "Yvonand"
+  }
+ },
+ {
+  "locality": "Yvorne",
+  "note": "",
+  "periods": {
+   "1876": "Aigle",
+   "1912": "Aigle",
+   "1928": "Aigle",
+   "1960": "Aigle"
+  }
+ }
+]

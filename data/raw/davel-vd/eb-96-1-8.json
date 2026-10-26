@@ -1,0 +1,187 @@
+[
+ {
+  "slug": "eb-96-1-8",
+  "parent": null,
+  "children": [
+   "eb-96-1",
+   "eb-96-2",
+   "eb-96-3",
+   "eb-96-3-bis",
+   "eb-96-4",
+   "eb-96-5",
+   "eb-96-6",
+   "eb-96-7",
+   "eb-96-8"
+  ],
+  "f": {
+   "Cote": "Eb 96/1-8",
+   "Titre": "Registres de la paroisse réformée d'Ormont-Dessous et de la commune d'Ormont-Dessous.",
+   "Date(s)": "1627-03-04 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse d'Ormont-Dessous :\nFraction de la paroisse médiévale des Ormonts réformée en 1529.\nRegistres de remplacement 1627-1821, la cure du Sépey ayant brûlé en 1866, puis dès 1821, tenus en 1845-1846 par le pasteur de Leysin."
+  }
+ },
+ {
+  "slug": "eb-96-1",
+  "parent": "eb-96-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 96/1",
+   "Titre": "Paroisse réformée d'Ormont-Dessous",
+   "Date(s)": "1627-03-04 - 1803-08-29 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,7 x 39",
+   "Portée et contenu": "Baptêmes (1627 mars 4 - 1803 août 29), pp. 0-50.\nIl s'agit d'une copie de remplacement. Les registres d'état civil de la paroisse ayant été totalement détruits par l'incendie survenu à la cure du Sépey le 25 octobre 1866, le Département de Justice et Police prit la décision de rétablir dans la mesure du possible les registres anciens.",
+   "Instruments de recherche": "Répertoire incorporé des baptêmes Eb 96/1 (microfilm: RMS 1/128.747, numérique: RN-EB-96-1), pages manuscrites, non datées",
+   "Note": "Série de pages de blanches, de la page 51 jusqu'au répertoire incorporé.",
+   "Cote de gestion": "RMS 1/128.747",
+   "Nom du fichier": "CH-ACV_RN-EB-96-1.pdf",
+   "Taille du fichier": "102.1 MiB"
+  },
+  "pdf": "d/5/6/d562dbbbd98adff6fb6797e74b3bcf6ed41470d0c65fdcbdac3bb2efb1c7b998/CH-ACV_RN-EB-96-1.pdf"
+ },
+ {
+  "slug": "eb-96-2",
+  "parent": "eb-96-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 96/2",
+   "Titre": "Paroisse réformée d'Ormont-Dessous",
+   "Date(s)": "1577-07-21 - 1749-12-25 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 28,8 x 39,5 (répertoire)",
+   "Portée et contenu": "Répertoire des Baptêmes (1577 juillet 21 - 1749 décembre 25), établi en 1915 par François Isabel, instituteur, sur la base du vidimus du notaire Emmanuel Aviolat, au Sépey, conservé par Paul Hubert au Velard (Ormont-Dessous), en remplacement des registres perdus dans l'incendie du 25 octobre 1866, pp. 1-70.",
+   "Cote de gestion": "RMS 1/128.747",
+   "Nom du fichier": "CH-ACV_RN-EB-96-2.pdf",
+   "Taille du fichier": "114.2 MiB"
+  },
+  "pdf": "5/c/0/5c0b2081ef41f35f2e4c6b1c98cb04a694957717cdf16642b377d9f0f22bb779/CH-ACV_RN-EB-96-2.pdf"
+ },
+ {
+  "slug": "eb-96-3",
+  "parent": "eb-96-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 96/3",
+   "Titre": "Paroisse réformée d'Ormont-Dessous",
+   "Date(s)": "1620-01-01 - 1749-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 28,8 x 39,6 (répertoire)",
+   "Portée et contenu": "Répertoire des Mariages (1620 - 1749), établi en 1914 par François Isabel, instituteur, sur la base du vidimus du notaire Emmanuel Aviolat, au Sépey, conservé par Paul Hubert au Velard (Ormont-Dessous), en remplacement des registres perdus dans l'incendie du 25 octobre 1866, pp. 1-70.",
+   "Cote de gestion": "RMS 1/128.747",
+   "Nom du fichier": "CH-ACV_RN-EB-96-3.pdf",
+   "Taille du fichier": "99.7 MiB"
+  },
+  "pdf": "c/4/2/c421614559b67101a319e01c297dd0fbbddfb74efc1fc05edff61d456b42e6ee/CH-ACV_RN-EB-96-3.pdf"
+ },
+ {
+  "slug": "eb-96-3-bis",
+  "parent": "eb-96-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 96/3 bis",
+   "Titre": "Paroisse réformée d'Ormont-Dessous",
+   "Date(s)": "1750-01-01 - 1781-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 27,4 x 37,6",
+   "Portée et contenu": "Répertoire des Baptêmes (1750 - 1781) réalisé en en 1928 par François Isabel sur la base d'un répertoire dressé par le notaire Emmanuel Aviolat, au Sépey, pp. 1-49.",
+   "Note": "Dès la page 50, pages blanches jusqu'à la fin du répertoire.",
+   "Cote de gestion": "RMS 1/128.747",
+   "Nom du fichier": "CH-ACV_RN-EB-96-3BIS.pdf",
+   "Taille du fichier": "69.5 MiB"
+  },
+  "pdf": "e/8/5/e856f1de3ac52e588bb006fbe2a031a61cdd1c42b0b523ea2e22952a2104fc83/CH-ACV_RN-EB-96-3BIS.pdf"
+ },
+ {
+  "slug": "eb-96-4",
+  "parent": "eb-96-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 96/4",
+   "Titre": "Paroisse réformée d'Ormont-Dessous",
+   "Date(s)": "1803-08-29 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,2 x 38,5",
+   "Portée et contenu": "Baptêmes (1803 août 29 - 1821 juin 30), pp. 0-146.\nIl s'agit d'une copie de remplacement. Les registres d'état civil de la paroisse ayant été totalement détruits par l'incendie qui a éclaté à la cure du Sépey le 25 octobre 1866, le Département de Justice et Police prit la décision de rétablir dans la mesure du possible les registres anciens. Ce registre est en fait la copie du \"registre officiel\" tenu par la Municipalité d'Ormont-Dessous en vertu de l'article 39 de la loi du 18 mars 1803 et qui porte la cote Eb 96/7.",
+   "Instruments de recherche": "Répertoire incorporé des baptêmes Eb 96/4 (microfilm: RMS 1/128.747, numérique: RN-EB-96-4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.747",
+   "Nom du fichier": "CH-ACV_RN-EB-96-4.pdf",
+   "Taille du fichier": "216.1 MiB"
+  },
+  "pdf": "2/f/3/2f31e3e9e06ebff0068b7ed0da8bed7d2b8f623dc2b53cb14a93e8837b60d45a/CH-ACV_RN-EB-96-4.pdf"
+ },
+ {
+  "slug": "eb-96-5",
+  "parent": "eb-96-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 96/5",
+   "Titre": "Paroisse réformée d'Ormont-Dessous",
+   "Date(s)": "1803-12-09 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,4 x 38,6",
+   "Portée et contenu": "Mariages (1803 décembre 9 - 1821 juin 3), pp. 0-50.\nIl s'agit d'une copie de remplacement. Les registres d'état civil de la paroisse ayant été totalement détruits par l'incendie qui a éclaté à la cure du Sépey le 25 octobre 1866, le Département de Justice et Police prit la décision de rétablir dans la mesure du possible les registres anciens. Dans ce registre ont été recopiées les inscriptions qui figurent dans le registre tenu par la Municipalité d'Ormont-Dessous et qui porte la cote Eb 96/8.",
+   "Instruments de recherche": "Répertoire incorporé des mariages Eb 96/5 (microfilm: RMS 1/128.747, numérique: RN-EB-96-5), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.747",
+   "Nom du fichier": "CH-ACV_RN-EB-96-5.pdf",
+   "Taille du fichier": "83.5 MiB"
+  },
+  "pdf": "0/a/d/0adc90bab19faf148e0a1e5b6bf434f3383417486d16e706c33335b554ab8f64/CH-ACV_RN-EB-96-5.pdf"
+ },
+ {
+  "slug": "eb-96-6",
+  "parent": "eb-96-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 96/6",
+   "Titre": "Paroisse réformée d'Ormont-Dessous",
+   "Date(s)": "1803-09-14 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,2 x 38,7",
+   "Portée et contenu": "Décès (1803 septembre 14 - 1821 juin 30), pp. 0-67.\nIl s'agit d'une copie de remplacement. Les registres d'état civil de la paroisse ayant été totalement détruits par l'incendie qui a éclaté à la cure du Sépey le 25 octobre 1866, le Département de Justice et Police prit la décision de rétablir dans la mesure du possible les registres anciens.",
+   "Instruments de recherche": "Répertoire incorporé des décès Eb 96/6 (microfilm: RMS 1/128.747, numérique: RN-EB-96-6), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.747",
+   "Nom du fichier": "CH-ACV_RN-EB-96-6.pdf",
+   "Taille du fichier": "110.4 MiB"
+  },
+  "pdf": "1/5/5/1552ecfd904c0cc8ae52afa283010295fc6419e3c0110e7f9493ab9ecd743eab/CH-ACV_RN-EB-96-6.pdf"
+ },
+ {
+  "slug": "eb-96-7",
+  "parent": "eb-96-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 96/7",
+   "Titre": "Commune d'Ormont-Dessous",
+   "Date(s)": "1803-08-29 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 22,7 x 35,4",
+   "Portée et contenu": "Naissances et Baptêmes (1803 août 29 - 1821 juin 30), pp. 0-150.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Dès la page 151, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RM 22006.13",
+   "Nom du fichier": "CH-ACV_RN-EB-96-7.pdf",
+   "Taille du fichier": "169.3 MiB"
+  },
+  "pdf": "8/b/c/8bc4e3ed976b6cfefa7b7d7850855683f6d6d0763c672c1e66dd9a814dd0a04e/CH-ACV_RN-EB-96-7.pdf"
+ },
+ {
+  "slug": "eb-96-8",
+  "parent": "eb-96-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 96/8",
+   "Titre": "Commune d'Ormont-Dessous",
+   "Date(s)": "1803-09-14 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 22,5 x 35,5",
+   "Portée et contenu": "Mariages (1803 décembre 9 - 1821 juin 30), pp. 0-50;\nDécès (1803 septembre 14 - 1821 juin 30), pp.tête-bêche 0-69.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série de pages blanches, de la page 51 jusqu'à la partie des décès.",
+   "Cote de gestion": "RM 22006.13",
+   "Nom du fichier": "CH-ACV_RN-EB-96-8.pdf",
+   "Taille du fichier": "139.7 MiB"
+  },
+  "pdf": "0/1/8/01809cbba0f40bf177cd8e6aa8e4cc4e004ef294d46927ea9fad5f7e83a8374e/CH-ACV_RN-EB-96-8.pdf"
+ }
+]

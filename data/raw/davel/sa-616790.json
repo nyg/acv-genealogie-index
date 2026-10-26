@@ -1,0 +1,62 @@
+[
+ {
+  "slug": "sa-616790",
+  "parent": null,
+  "text": "SB 115/623-624 Huémoz (arrondissement de l'état civil), 1929-1950 (Série)",
+  "children": [
+   "sa-621556",
+   "sa-621557"
+  ],
+  "f": {
+   "Ref. code": "SB 115/623-624",
+   "Title": "Huémoz (arrondissement de l'état civil)",
+   "Dates": "1929-1950",
+   "Creation date(s)": "1929 - 1950",
+   "Level": "Série",
+   "Importance matérielle": "2 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement (fraction de la commune d'Ollon) créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Aigle dès le 1er juin 2004. Modifié par arrêté le 17 juin 1955 et devient l'arrondissement de Villars-sur-Ollon dès le 1er juillet 1955.\nComprend:\n- Huémoz\n- Villars-sur-Ollon\n- Arveyres\n- Chesières\n- Exergillod\n- Forchex\n- La Pousaz\n- Les Combes\n- Palluyères\n- Glutières\n- Panex\n- Plambuit",
+   "Entries": "Huémoz (Suisse, VD) (Lieux\\H)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=616790",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621556",
+  "parent": "sa-616790",
+  "text": "SB 115/623 - Mariages 1929-1936 (l'année 1937 manque) \\ - Publications de promesses de mariage 1929-1936 (l'année 1937 manque), 1929-1936 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/623",
+   "Title": "- Mariages 1929-1936 (l'année 1937 manque)\n- Publications de promesses de mariage 1929-1936 (l'année 1937 manque)",
+   "Dates": "1929-1936",
+   "Creation date(s)": "1929 - 1936",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621556",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621557",
+  "parent": "sa-616790",
+  "text": "SB 115/624 - Mariages 1940, 1944-1950 (les années 1938-1939, 1941-1943 manquent) \\ - Publications de promesses de mariage 1940, 1944-1950 (les années 1938-1939, 1941-1943 manquent) \\ - Pièces diverses relatives à l'état civil 1938-1950 : principalement constatations de décès, divorces, rectificati",
+  "f": {
+   "Ref. code": "SB 115/624",
+   "Title": "- Mariages 1940, 1944-1950 (les années 1938-1939, 1941-1943 manquent)\n- Publications de promesses de mariage 1940, 1944-1950 (les années 1938-1939, 1941-1943 manquent)\n- Pièces diverses relatives à l'état civil 1938-1950 : principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1938-1950",
+   "Creation date(s)": "1938 - 1950",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621557",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

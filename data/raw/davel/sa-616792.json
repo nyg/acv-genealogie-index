@@ -1,0 +1,62 @@
+[
+ {
+  "slug": "sa-616792",
+  "parent": null,
+  "text": "SB 115/632-633 Ollon (arrondissement de l'état civil), 1929-1950 (Série)",
+  "children": [
+   "sa-621565",
+   "sa-621566"
+  ],
+  "f": {
+   "Ref. code": "SB 115/632-633",
+   "Title": "Ollon (arrondissement de l'état civil)",
+   "Dates": "1929-1950",
+   "Creation date(s)": "1929 - 1950",
+   "Level": "Série",
+   "Importance matérielle": "2 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Aigle dès le 1er juin 2004.\nComprend:\n- Ollon\n- Antagnes\n- Les Fontaines\n- Saint-Triphon\n- Salaz\n- Verschiez\n- Villy",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=616792",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621565",
+  "parent": "sa-616792",
+  "text": "SB 115/632 - Mariages 1929, 1931-1942 \\ - Publications de promesses de mariage 1941, 1929-1942 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/632",
+   "Title": "- Mariages 1929, 1931-1942\n- Publications de promesses de mariage 1941",
+   "Dates": "1929-1942",
+   "Creation date(s)": "1929 - 1942",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621565",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621566",
+  "parent": "sa-616792",
+  "text": "SB 115/633 - Mariages 1943-1950 \\ - Publications de promesses de mariage 1943-1950 \\ - Pièces diverses relatives à l'état civil 1945-1950: principalement constatations de décès, divorces, rectifications de nom, 1943-1950 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/633",
+   "Title": "- Mariages 1943-1950\n- Publications de promesses de mariage 1943-1950\n- Pièces diverses relatives à l'état civil 1945-1950: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1943-1950",
+   "Creation date(s)": "1943 - 1950",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621566",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

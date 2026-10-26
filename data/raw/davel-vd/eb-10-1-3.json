@@ -1,0 +1,75 @@
+[
+ {
+  "slug": "eb-10-1-3",
+  "parent": null,
+  "children": [
+   "eb-10-1",
+   "eb-10-2",
+   "eb-10-3"
+  ],
+  "f": {
+   "Cote": "Eb 10/1-3",
+   "Titre": "Registres de la paroisse réformée de Ballaigues.",
+   "Date(s)": "1725-01-25 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Ballaigues :\nParoisse médiévale devenue annexe de Lignerolle à la Réformation, érigée en suffragance pastorale en 1724, redevenue annexe de Lignerolle en 1846 puis de Vallorbe en 1849, paroisse rétablie en 1862.\nRegistres dès 1725, sans discontinuité en 1846."
+  }
+ },
+ {
+  "slug": "eb-10-1",
+  "parent": "eb-10-1-3",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 10/1",
+   "Titre": "Paroisse réformée de Ballaigues",
+   "Date(s)": "1725-01-25 - 1811-02-10 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "4 volumes en 4 parties\nFormat LxH(cm): 16,5 x 23,2 / AR: 27,9 x 39,1 (répertoire) / BR: 27,9 x 39,2 (répertoire) / DR: 27,9 x 39,3 (répertoire), Répertoire mariage épaisseur 0,5",
+   "Portée et contenu": "Baptêmes (1725 janvier 25 - 1810 juillet 12): pages 0-250;\nMariages (1725 juillet 28 - 1811 février 10): pages 251-338;\nCatéchumènes (1742 - 1810): pages 343-375;\nDécès (1728 janvier 16 - 1810 février 10) (fin en tête-bêche): pages 421-500 et pages tête-bêche 537-542.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 10/1 (microfilm: RMS 1/128.590, numérique: RN-EB-10-1), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 10/1 (microfilm: RMS 1/128.590, numérique: RN-EB-10-1), pages manuscrites, non datées\nRépertoire séparé des décès Eb 10/1 (microfilm: RMS 1/128.590, numérique: RN-EB-10-1), pages manuscrites, non datées\nSans répertoire pour les catéchumènes",
+   "Note": "Série pages blanches, de la page 376 à la page 420 et de la page 501 à la page 536;\nLa page lettre M du répertoire des mariages est consolidée.",
+   "Cote de gestion": "RMS 1/128.590",
+   "Nom du fichier": "CH-ACV_RN-EB-10-1.pdf",
+   "Taille du fichier": "432.6 MiB"
+  },
+  "pdf": "9/f/d/9fd101d4666c78dbed03d1a2e011be51f05bac25d024fac656277ea6b8ee7dac/CH-ACV_RN-EB-10-1.pdf"
+ },
+ {
+  "slug": "eb-10-2",
+  "parent": "eb-10-1-3",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 10/2",
+   "Titre": "Paroisse réformée de Ballaigues",
+   "Date(s)": "1810-02-10 - 1886-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 2 parties\nFormat LxH(cm): 20 x 24,5 / 27,9 x 39,2 (répertoire)",
+   "Portée et contenu": "Décès (1810 février 10 - 1821 juin 30): pages 0-16;\nCatéchumènes (1811 - 1886) (tête-bêche): pages tête-bêche 0-92.",
+   "Instruments de recherche": "Répertoire séparé des décès Eb 10/2 (microfilm: RMS 1/128.590, numérique: RN-EB-10-2), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes.",
+   "Note": "Série pages blanches, de la page 17 jusqu'aux catéchumènes en tête-bêche.",
+   "Cote de gestion": "RMS 1/128.590",
+   "Nom du fichier": "CH-ACV_RN-EB-10-2.pdf",
+   "Taille du fichier": "131 MiB"
+  },
+  "pdf": "f/3/b/f3b476036a68dcc8cbe15c5ddc6538357e7ae84e170f7bad4fa8547a0bc12031/CH-ACV_RN-EB-10-2.pdf"
+ },
+ {
+  "slug": "eb-10-3",
+  "parent": "eb-10-1-3",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 10/3",
+   "Titre": "Paroisse réformée de Ballaigues",
+   "Date(s)": "1810-08-12 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 20,2 x 24,2 / A: 28 x 39,2 (répertoire) / B: 28 x 39,2 (répertoire)",
+   "Portée et contenu": "Baptêmes (1810 août 12 - 1821 juin 30): pages 1-64;\nMariages (1811 février 10 - 1821 juin 30) (tête-bêche): pages tête-bêche 1-23.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 10/3 (microfilm: RMS 1/128.590, numérique: RN-EB-10-3), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 10/3 (microfilm: RMS 1/128.590, numérique: RN-EB-10-3), pages manuscrites, non datées",
+   "Note": "Série de pages blanches, de la page 65 jusqu'aux mariages en tête-bêche.",
+   "Cote de gestion": "RMS 1/128.590",
+   "Nom du fichier": "CH-ACV_RN-EB-10-3.pdf",
+   "Taille du fichier": "172.2 MiB"
+  },
+  "pdf": "0/d/7/0d706306f133d587fa56b211b6e2aa080630ba3d7068f0c983cfc73f28a96615/CH-ACV_RN-EB-10-3.pdf"
+ }
+]

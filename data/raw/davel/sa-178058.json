@@ -1,0 +1,143 @@
+[
+ {
+  "slug": "sa-178058",
+  "parent": null,
+  "text": "Ec 15/1-6 Paroisse réformée de Bex. (1816-1898)",
+  "children": [
+   "sa-178059",
+   "sa-178060",
+   "sa-178061",
+   "sa-178062",
+   "sa-178063",
+   "sa-178064"
+  ],
+  "f": {
+   "Ref. code": "Ec 15/1-6",
+   "Title": "Paroisse réformée de Bex.",
+   "Dates": "1816-1898",
+   "Creation date(s)": "1816 - 1898",
+   "Level": "Série",
+   "Importance matérielle": "6 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178058",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178059",
+  "parent": "sa-178058",
+  "text": "Ec 15/1 - Mariages 1821-1845. (1821.01.01-1845.12.31)",
+  "f": {
+   "Ref. code": "Ec 15/1",
+   "Title": "- Mariages 1821-1845.",
+   "Dates": "1821-1845",
+   "Creation date(s)": "1/1/1821 - 12/31/1845",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178059",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178060",
+  "parent": "sa-178058",
+  "text": "Ec 15/2 - Mariages 1846-1857. (1821.01.01-1857.12.31)",
+  "f": {
+   "Ref. code": "Ec 15/2",
+   "Title": "- Mariages 1846-1857.",
+   "Dates": "1846-1857",
+   "Creation date(s)": "1/1/1821 - 12/31/1857",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178060",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178061",
+  "parent": "sa-178058",
+  "text": "Ec 15/3 - Mariages 1858-1867. (1858.01.01-1867.12.31)",
+  "f": {
+   "Ref. code": "Ec 15/3",
+   "Title": "- Mariages 1858-1867.",
+   "Dates": "1858-1867",
+   "Creation date(s)": "1/1/1858 - 12/31/1867",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178061",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178062",
+  "parent": "sa-178058",
+  "text": "Ec 15/4 - Mariages 1867-1875.\n- Annonces de mariage 1821-1850. (1821.01.01-1875.12.31)",
+  "f": {
+   "Ref. code": "Ec 15/4",
+   "Title": "- Mariages 1867-1875.- Annonces de mariage 1821-1850.",
+   "Dates": "1821-1875",
+   "Creation date(s)": "1/1/1821 - 12/31/1875",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178062",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178063",
+  "parent": "sa-178058",
+  "text": "Ec 15/5 - Naissances 1821-1875.\n- Décès 1821-1849. (1821.01.01-1875.12.31)",
+  "f": {
+   "Ref. code": "Ec 15/5",
+   "Title": "- Naissances 1821-1875.- Décès 1821-1849.",
+   "Dates": "1821-1875",
+   "Creation date(s)": "1/1/1821 - 12/31/1875",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178063",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178064",
+  "parent": "sa-178058",
+  "text": "Ec 15/6 - Pièces diverses relatives à l'état civil.\n- Décès 1851. (1816.01.01-1898.12.31)",
+  "f": {
+   "Ref. code": "Ec 15/6",
+   "Title": "- Pièces diverses relatives à l'état civil.- Décès 1851.",
+   "Dates": "1816-1898",
+   "Creation date(s)": "1/1/1816 - 12/31/1898",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "décès (Matières\\D)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178064",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

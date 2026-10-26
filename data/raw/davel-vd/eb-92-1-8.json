@@ -1,0 +1,170 @@
+[
+ {
+  "slug": "eb-92-1-8",
+  "parent": null,
+  "children": [
+   "eb-92-1",
+   "eb-92-2",
+   "eb-92-3",
+   "eb-92-4",
+   "eb-92-5",
+   "eb-92-6",
+   "eb-92-7",
+   "eb-92-8"
+  ],
+  "f": {
+   "Cote": "Eb 92/1-8",
+   "Titre": "Registres de la paroisse réformée d'Ollon.",
+   "Date(s)": "1602-02-28 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse d'Ollon :\nParoisse médiévale réformée en 1528. Une fraction de la commune en a été détachée avec la création en 1824 de la suffragance pastorale d'Huémoz, supprimée de 1846 à 1863.\nRegistres dès 1602.\nVoir aussi Huémoz.\nComprend depuis 1824 : Ollon, Vers-Chiez, Saint-Triphon, Villy, Antagnes, les Fontaines, Salaz.\nAnnexe : Huémoz (1824-1846 et dès 1860), avec ses registres propres."
+  }
+ },
+ {
+  "slug": "eb-92-1",
+  "parent": "eb-92-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 92/1",
+   "Titre": "Paroisse réformée d'Ollon",
+   "Date(s)": "1602-02-28 - 1700-12-29 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 21 x 31,7 / AR: 27,4 x 37,9 (répertoire) / BR: 27,6 x 37,7 (répertoire)",
+   "Portée et contenu": "Baptêmes (1602 février 28 - 1700 décembre 29), pp. 1-318;\nMariages (1619 janvier 3 - 1700 décembre 9), pp.tête-bêche 1-4, pp. 5-12, et pp.tête-bêche 13-51;\n*- \"Commentaires\" en p. 1.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 92/1 (microfilm: RMS 1/128.739, numérique: RN-EB-92-1), pages manuscrites, daté du 31 décembre 1917\nRépertoire séparé des mariages Eb 92/1 (microfilm: RMS 1/128.739, numérique: RN-EB-92-1), pages manuscrites, daté de janvier - février 1918",
+   "Cote de gestion": "RMS 1/128.739",
+   "Nom du fichier": "CH-ACV_RN-EB-92-1.pdf",
+   "Taille du fichier": "517.7 MiB"
+  },
+  "pdf": "a/b/5/ab5926d311c8a305512e78f021377aa065bc33e98dea1d82c89fbbc979047723/CH-ACV_RN-EB-92-1.pdf"
+ },
+ {
+  "slug": "eb-92-2",
+  "parent": "eb-92-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 92/2",
+   "Titre": "Paroisse réformée d'Ollon",
+   "Date(s)": "1701-01-28 - 1760-09-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "4 volumes en 4 parties\nFormat LxH(cm): 22,6 x 36,5 / AR: 27,4 x 37,7 (répertoire) / BR: 27,4 x 37,7 (répertoire) / DR: 27,5 x 37,6 (répertoire)",
+   "Portée et contenu": "Baptêmes (1701 janvier 28 - 1748 décembre 29), pp. 1-280;\nDécès (1708 juin 21 - 1757 décembre), pp. 281-378;\nCatéchumènes (1741 - 1759), pp. 379-400;\nMariages (1701 janvier 31 - 1760 septembre 30), pp.tête-bêche 0-69 (470-400, en ordre dégressif).",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 92/2 (microfilm: RMS 1/128.739, numérique: RN-EB-92-2), pages manuscrites, daté de février - mars 1918\nRépertoire séparé des mariages Eb 92/2 (microfilm: RMS 1/128.739, numérique: RN-EB-92-2), pages manuscrites, daté de mars 1918\nRépertoire séparé des décès Eb 92/2 (microfilm: RMS 1/128.739, numérique: RN-EB-92-2), pages manuscrites, daté du 28 mars 1918",
+   "Cote de gestion": "RMS 1/128.739",
+   "Nom du fichier": "CH-ACV_RN-EB-92-2.pdf",
+   "Taille du fichier": "797.3 MiB"
+  },
+  "pdf": "1/e/8/1e834109929d1563c0bfb9197bbab2386b052b0a86f267d4742beafe8ecab81f/CH-ACV_RN-EB-92-2.pdf"
+ },
+ {
+  "slug": "eb-92-3",
+  "parent": "eb-92-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 92/3",
+   "Titre": "Paroisse réformée d'Ollon",
+   "Date(s)": "1749-01-07 - 1805-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 2 parties\nFormat LxH(cm): 25 x 37,7 / 27,3 x 37,7 (répertoire)",
+   "Portée et contenu": "Baptêmes (1749 janvier 7 - 1803 décembre 30), pp. 0-507;\n*- Interfolio entre pp. 507-508;\nCatéchumènes (1760 - 1805), pp.tête-bêche 0a-71;\n*- Pages de garde: Arrêté en matière foncière (1802).",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 92/3 (microfilm: RMS 1/128.739, numérique: RN-EB-92-3), pages manuscrites, daté de 1918",
+   "Cote de gestion": "RMS 1/128.739",
+   "Nom du fichier": "CH-ACV_RN-EB-92-3.pdf",
+   "Taille du fichier": "811.9 MiB"
+  },
+  "pdf": "3/b/2/3b221cf9b6cd00bc3c80e230177a93cc10924dcfbdf672b9937df8efbea4d65f/CH-ACV_RN-EB-92-3.pdf"
+ },
+ {
+  "slug": "eb-92-4",
+  "parent": "eb-92-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 92/4",
+   "Titre": "Paroisse réformée d'Ollon",
+   "Date(s)": "1758-01-04 - 1787-02-03 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 14,8 x 23,3 / AR: 27,4 x 37,7 (répertoire) / BR: 27,3 x 37,7 (répertoire)",
+   "Portée et contenu": "Mariages (1760 octobre 10 - 1787 février 3), pp. 1-135;\nDécès (1758 janvier 4 - 1786 décembre 23), pp.tête-bêche 1-177.",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 92/4 (microfilm: RMS 1/128.739, numérique: RN-EB-92-4), pages manuscrites, du 31 janvier 1919\nRépertoire séparé des décès Eb 92/4 (microfilm: RMS 1/128.740, numérique: RN-EB-92-4), pages manuscrites, non daté",
+   "Cote de gestion": "RMS 1/128.740",
+   "Nom du fichier": "CH-ACV_RN-EB-92-4.pdf",
+   "Taille du fichier": "312.2 MiB"
+  },
+  "pdf": "3/f/e/3fe4848e25ff4b201b6113a74a0ec41689d2c06b879b8fcf415566136ccbc444/CH-ACV_RN-EB-92-4.pdf"
+ },
+ {
+  "slug": "eb-92-5",
+  "parent": "eb-92-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 92/5",
+   "Titre": "Paroisse réformée d'Ollon",
+   "Date(s)": "1804-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 25 x 38,3 / 27,5 x 37,6 (répertoire)",
+   "Portée et contenu": "Baptêmes (1804 janvier 1 - 1821 juin 30), pp. 0-118;\n\"Rescrit\", p. 120;\nCirculaire, pp. 121-122 (interfolio recto verso cacheté en 3e de couverture).",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 92/5 (microfilm: RMS 1/128.740, numérique: RN-EB-92-5), pages manuscrites, non daté",
+   "Note": "Série de pages blanches, de la page 119 à l'avant-dernière page, p. 120.",
+   "Cote de gestion": "RMS 1/128.740",
+   "Nom du fichier": "CH-ACV_RN-EB-92-5.pdf",
+   "Taille du fichier": "223.8 MiB"
+  },
+  "pdf": "d/a/2/da2780fb5e58341da85b25d11c3b91569882dc408a1fcf586908da0cb0c9a35f/CH-ACV_RN-EB-92-5.pdf"
+ },
+ {
+  "slug": "eb-92-6",
+  "parent": "eb-92-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 92/6",
+   "Titre": "Paroisse réformée d'Ollon",
+   "Date(s)": "1787-01-02 - 1815-01-06 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 21,5 x 35 / AR: 27,2 x 37,7 (répertoire) / BR: 27,5 X 37,7 (répertoire)",
+   "Portée et contenu": "Mariages (1787 janvier 9 - 1814 décembre 30), pp. 2-114;\n*- Interfolio entre pp. 71-72;\nDécès (1787 janvier 2 - 1815 janvier 6), pp.tête-bêche 1-162 (pp. 277-116 en ordre dégressif);\n*- Interfolio en 3e de couverture.",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 92/6 (microfilm: RMS 1/128.740, numérique: RN-EB-92-6), pages manuscrites, non daté\nRépertoire séparé des décès Eb 92/6 (microfilm: RMS 1/128.740, numérique: RN-EB-92-6), pages manuscrites, non daté",
+   "Cote de gestion": "RMS 1/128.740",
+   "Nom du fichier": "CH-ACV_RN-EB-92-6.pdf",
+   "Taille du fichier": "397.5 MiB"
+  },
+  "pdf": "0/f/a/0fa094d992c03b7c978e541dc30f3f29bde45b075fca350424d6eabd8b6b34f3/CH-ACV_RN-EB-92-6.pdf"
+ },
+ {
+  "slug": "eb-92-7",
+  "parent": "eb-92-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 92/7",
+   "Titre": "Paroisse réformée d'Ollon",
+   "Date(s)": "1815-01-10 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 22,5 x 36,2",
+   "Portée et contenu": "Décès (1815 janvier 10 - 1821 juin 30), pp. 0-39;\nMariages (1815 janvier 27 - 1821 juin 30), pp.tête-bêche 1-28; - Répertoire incorporé des mariages, pp.tête-bêche 29-39; - Répertoire incorporé des décès, pp.tête-bêche 39-48.",
+   "Instruments de recherche": "Répertoire incorporé des décès Eb 92/7, pp.tête-bêche 39-48 (microfilm: RMS 1/128.740, numérique: RN-EB-92-7), pages manuscrites, non daté\nRépertoire incorporé des mariages Eb 92/7, pp.tête-bêche 29-39 (microfilm: RMS 1/128.740, numérique: RN-EB-92-7), pages manuscrites, non daté",
+   "Note": "Série de pages blanches, de la page 42 au répertoire.",
+   "Cote de gestion": "RMS 1/128.740",
+   "Nom du fichier": "CH-ACV_RN-EB-92-7.pdf",
+   "Taille du fichier": "97.1 MiB"
+  },
+  "pdf": "f/4/3/f432c3c33a539042973483849e885749d738f7cb98500d3c5e4978f2af3d9b3f/CH-ACV_RN-EB-92-7.pdf"
+ },
+ {
+  "slug": "eb-92-8",
+  "parent": "eb-92-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 92/8",
+   "Titre": "Paroisse réformée d'Ollon",
+   "Date(s)": "1803-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 10,6 x 33,4",
+   "Portée et contenu": "Annonces de mariages (1803 janvier 1 - 1821 juin 30), pp. 0-106.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Dès la page 107, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.740",
+   "Nom du fichier": "CH-ACV_RN-EB-92-8.pdf",
+   "Taille du fichier": "65.8 MiB"
+  },
+  "pdf": "4/7/8/478ed91808d03f56e6a3b602f50173cc90946593743dbd9c17dc3b6e4fdc5a4f/CH-ACV_RN-EB-92-8.pdf"
+ }
+]

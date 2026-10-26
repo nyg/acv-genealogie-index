@@ -1,0 +1,81 @@
+[
+ {
+  "slug": "sa-589442",
+  "parent": null,
+  "text": "SB 23/1226-1228 Huémoz (arrondissement de l'état civil), 1895-1909 (Série)",
+  "children": [
+   "sa-608052",
+   "sa-608053",
+   "sa-608054"
+  ],
+  "f": {
+   "Ref. code": "SB 23/1226-1228",
+   "Title": "Huémoz (arrondissement de l'état civil)",
+   "Dates": "1895-1909 (dates de constitution des lots qui comprennent des pièces antérieures)",
+   "Creation date(s)": "1895 - 1909",
+   "Level": "Série",
+   "Importance matérielle": "3 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement (fraction de la commune d'Ollon) créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Aigle dès le 1er juin 2004. Modifié par arrêté le 17 juin 1955 et devient l'arrondissement de Villars-sur-Ollon dès le 1er juillet 1955.\nComprend:\n- Huémoz\n- Villars-sur-Ollon\n- Arveyres\n- Chesières\n- Exergillod\n- Forchex\n- La Pousaz\n- Les Combes\n- Palluyères\n- Glutières\n- Panex\n- Plambuit",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=589442",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-608052",
+  "parent": "sa-589442",
+  "text": "SB 23/1226 - Mariages A et B 1895-1898, 1895-1898 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/1226",
+   "Title": "- Mariages A et B 1895-1898",
+   "Dates": "1895-1898",
+   "Creation date(s)": "1895 - 1898",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=608052",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-608053",
+  "parent": "sa-589442",
+  "text": "SB 23/1227 - Mariages A et B 1900-1904, 1900-1904 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/1227",
+   "Title": "- Mariages A et B 1900-1904",
+   "Dates": "1900-1904",
+   "Creation date(s)": "1900 - 1904",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=608053",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-608054",
+  "parent": "sa-589442",
+  "text": "SB 23/1228 - Mariages A et B 1905-1909, 1905-1909 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/1228",
+   "Title": "- Mariages A et B 1905-1909",
+   "Dates": "1905-1909",
+   "Creation date(s)": "1905 - 1909",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=608054",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

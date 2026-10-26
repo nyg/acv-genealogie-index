@@ -1,0 +1,95 @@
+[
+ {
+  "slug": "eb-68-1-4",
+  "parent": null,
+  "children": [
+   "eb-68-1",
+   "eb-68-2",
+   "eb-68-3",
+   "eb-68-4"
+  ],
+  "f": {
+   "Cote": "Eb 68/1-4",
+   "Titre": "Registres de la paroisse réformée de Gryon.",
+   "Date(s)": "1592-01-02 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Gryon :\nChapelle médiévale de la paroisse de Bex, érigée en paroisse peu avant la Réformation, entre 1465 et 1540.\nRegistres dès 1592.\nComprend : Les Posses (Bex), rattachées en 1846-1863.\nVoir aussi : Baptêmes 1591-1652 : Ea 24."
+  }
+ },
+ {
+  "slug": "eb-68-1",
+  "parent": "eb-68-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 68/1",
+   "Titre": "Paroisse réformée de Gryon",
+   "Date(s)": "1591-10-17 - 1845 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "4 volumes en 3 parties\nFormat LxH(cm): 11,1 x 32,3 / AR1: 27,5 X 37,6 (répertoire) / AR2: 27,5 X 37,8 (répertoire) / AR3: 27,5 x 37,8 (répertoire)",
+   "Portée et contenu": "Baptêmes (1591 octobre 17 - 1769 décembre 15), pp.0-261 et 261a;\nMariages (tête-bêche) (1591 octobre 17 - 1769 septembre 22), pp.tête-bêche 262-324;\nDécès (tête-bêche) (1708 avril - 1786 avril 12) et Catéchumènes (1717 mars 27 - 1773 avril 10) avec des informations jusqu'en 1845, pp.tête-bêche 325-413, 414-417 et 417a-444\nDescription au fil des pages\nPages 0 à 50:\nBaptêmes (1591 octobre 17 - 1630 août 8), avec lacunes: 1592 octobre 20 - 1594 octobre 13 (pages 2-3); 1601 septembre 30 - 1603 novembre 6 (pages 12-13); 1621 juillet 29 - 1622 fin mars (page 35); 1624 août - 1625 avril (page 39).\nMariages (1591 octobre 17 - 1630 mars 7) mêlés aux baptême, sans doute très lacunaire.\nPage 0:\nMention sans date de l'incendie de Gryon [sans doute du 13 juillet 1719] et, à cet occasion, de l'arrestation d'une personne demeurant dans les montagnes d'Ollon \"qui s'amusoit a friponned\".\nOrdre du 2 décembre 1727 de LL.EE. de Berne concernant la tenue des \"registres baptismaux et mortuaires\".\nOrdre du 11 décembre 1727 de LL.EE. de Berne concernant les enfants des bourgeois de Berne.\nPages 51-261:\nBaptêmes (1630 novembre 26 - 1769 décembre 15) avec probablement des lacunes: 1652 novembre 28 - 1653 avril 17 (pages 70-71); 1679 juillet 6 - 1680 janvier 11 (page 112); 1700 octobre 13 - 1701 juillet 24 (page 138); 1702 mai 28 - 1703 février 20 (pages 138-139); 1732 septembre 28 - 1733 juin 21 (page 185); 1733 août - 1734 février 14 (page 186); 1746 mai 20 - 1747 mars 21 (page 203).\nNotes\nLe registre des baptêmes est clos à la page 256, suivent des extraits de registres de baptêmes d'autres paroisses (pages 257-261).\nTête-bêche, pages 445 et 262-324:\nMariages (1631 février 27 - 1769 septembre 22).\nNotes\nMention des dates de baptêmes de diverses personnes (châtelains, régent, lieutenant, justicier notamment) (1686 janvier 31 - 1714 avril 5 et s.d.).\nListe de personnes enterrées au cimetière de Gryon depuis le 15 novembre 1646 (page 262).\nListe des pasteurs de l'église de Gryon depuis le 16e siècle jusqu'en 1691 (page 263).\nCertaines années, aucun mariage n'est enregistré (par exemple: 1632, 1639, 1665, 1690, 1699, 1725).\nLes mariages de 1761 sont reportés de la page 315 à la page 324.\nTête-bêche, pages 325-444:\nDécès (1708 avril - 1786 avril 12) (pages 325-413 et, plus loin après les listes de catéchumènes, pages 414-417).\nCatéchumènes (1717 mars 27 - 1773 avril 10) (pages 421-444).\nNotes\nNotes sur les conditions météorologiques difficiles de l'hiver et du printemps 1717 (page 328).\nListe des pasteurs de Gryon depuis la réforme jusqu'en 1845 (pages 417-419).\nNotes sur des travaux à la cure (1707-1767) (page 420).\nNotes sur des baptêmes \"rapportés hors de leur dates\" (1756 et 1758) (page 420).\nPagination:\nDu fait vraisemblablement de la reliure, les pages 414 à 417 se trouvent après les pages 417 à 444.\nLa deuxième page 417 est en tête-bêche de la page 261.\nLa page 445 se trouve en tête bêche avant la page 262.\nLe répertoire des baptêmes, établi par François Isabel en 1919, comporte des observations très intéressantes relatives aux lacunes et aux autres informations contenues dans le registre.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 68/1 (microfilm: RMS 1/128.671, numérique: RN-EB-68-1), pages manuscrites, par François Isabel, septembre 1919.\nRépertoire séparé des mariages Eb 68/1 et Eb 68/3 (microfilm: RMS 1/128.671, numérique: RN-EB-68-1), pages manuscrites, par François Isabel, juillet 1920.\nRépertoire séparé des décès Eb 68/1 et 3 (microfilm: RMS 1/128.671, numérique: RN-EB-68-1), pages manuscrites, par François Isabel, juillet 1920.\nPas de répertoire pour les catéchumènes",
+   "Unités de description associées": "Pour les baptêmes des années 1591 à 1652, voir aussi Ea 24 qui comprend une copie du registre des baptêmes de Gryon, 1591-1652, un rôle des pasteurs et des notes historiques (copie H. Jomini).",
+   "Note": "Page 358-359: bas de page manquant parce que coupé.\nPage 365: petit papier collé avec une addition de chiffres.",
+   "Cote de gestion": "RMS 1/128.671",
+   "Nom du fichier": "CH-ACV_RN-EB-68-1.pdf",
+   "Taille du fichier": "449.7 MiB"
+  },
+  "pdf": "8/3/9/83956d2ac794dcad8f56e1e43ee6f278a69ee3c8274bfcb10d4e08cac456c439/CH-ACV_RN-EB-68-1.pdf"
+ },
+ {
+  "slug": "eb-68-2",
+  "parent": "eb-68-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 68/2",
+   "Titre": "Paroisse réformée de Gryon",
+   "Date(s)": "1770-01-21 - 1875-03-21 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 2 parties\nFormat LxH(cm): 18 x 27,2 / 27,5 x 37,6 (répertoire)",
+   "Portée et contenu": "Baptêmes (1770 janvier 21 - 1821 juin 30), pp. 1-147;\nCatéchumènes (tête-bêche) (1774 mars 25 - 1875 mars 21), pp.tête-bêche 148-279).",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 68/2 (microfilm: RMS 1/128.671, numérique: RN-EB-68-2), pages manuscrites, 1920, par François Isabel pour les Archives cantonales vaudoises.\nPas de répertoire pour les catéchumènes",
+   "Note": "Série pages blanches, entre la page 147 et la partie B en tête-bêche",
+   "Cote de gestion": "RMS 1/128.671",
+   "Nom du fichier": "CH-ACV_RN-EB-68-2.pdf",
+   "Taille du fichier": "249.6 MiB"
+  },
+  "pdf": "9/f/5/9f593899c2bbcc6eeeb1fdfd1d8d49aa32c6137d3db50ea27732eb510072052b/CH-ACV_RN-EB-68-2.pdf"
+ },
+ {
+  "slug": "eb-68-3",
+  "parent": "eb-68-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 68/3",
+   "Titre": "Paroisse réformée de Gryon",
+   "Date(s)": "1769-10-06 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 18,2 x 26,8",
+   "Portée et contenu": "Mariages (1769 octobre 6 - 1821 juin 30), pp. 1-62;\nDécès (tête-bêche) (1786 mai 3 - 1821 juin 30), pp.tête-bêche 418-476.",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 68/1 et Eb 68/3 (microfilm: RMS 1/128.671, numérique: RN-EB-68-1), pages manuscrites, par François Isabel, juillet 1920.\nRépertoire séparé des décès Eb 68/1 et Eb 68/3 (microfilm: RMS 1/128.671, numérique: RN-EB-68-1), pages manuscrites, par François Isabel, juillet 1920.",
+   "Note": "Série pages blanches, de la page 63 jusqu'aux décès.\nDeux paginations parallèles et non concordantes: la pagination inscrite en bord de page est plus fiable et couvre l'ensemble des pages utiles du volume.",
+   "Cote de gestion": "RMS 1/128.671",
+   "Nom du fichier": "CH-ACV_RN-EB-68-3.pdf",
+   "Taille du fichier": "94 MiB"
+  },
+  "pdf": "3/a/d/3ad209773180f32d7342c39992e46e6c86d7e7559e0d7cab7723a5dce6a512f3/CH-ACV_RN-EB-68-3.pdf"
+ },
+ {
+  "slug": "eb-68-4",
+  "parent": "eb-68-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 68/4",
+   "Titre": "Paroisse réformée de Gryon",
+   "Date(s)": "1802-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie dans une enveloppe\nFormat LxH(cm): 16,9 x 22,4",
+   "Portée et contenu": "Annonces de mariages (1802 janvier 1er - 1821 juin 30), pp. 1-25 et p. 25a.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 299.100",
+   "Nom du fichier": "CH-ACV_RN-EB-68-4.pdf",
+   "Taille du fichier": "16.2 MiB"
+  },
+  "pdf": "f/c/c/fccfdc4aad6d0f5d4c278f801abb449230b549f644fe0d94884d51c1a99d8145/CH-ACV_RN-EB-68-4.pdf"
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "slug": "ed-68-1-4",
+  "parent": null,
+  "children": [
+   "ed-68-1",
+   "ed-68-2",
+   "ed-68-3",
+   "ed-68-4"
+  ],
+  "f": {
+   "Cote": "Ed 68/1-4",
+   "Titre": "Paroisse réformée de Gryon.",
+   "Date(s)": "1821-07-01 - 1882-07-23 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Gryon :\nChapelle médiévale de la paroisse de Bex, érigée en paroisse peu avant la Réformation, entre 1465 et 1540.\nRegistres dès 1592.\nComprend : Les Posses (Bex), rattachées en 1846-1863.\nVoir aussi : Baptêmes 1591-1652 : Ea 24."
+  }
+ },
+ {
+  "slug": "ed-68-1",
+  "parent": "ed-68-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 68/1",
+   "Titre": "Registre de naissances 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,5 x 41",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 68/1 (microfilm: RMS 1/1.044.848, numérique: RN-ED-68-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.848",
+   "Nom du fichier": "CH-ACV_RN-ED-68-1.pdf",
+   "Taille du fichier": "377.4 MiB"
+  },
+  "pdf": "4/5/7/457f943cad42c75e69eff77475882b9cc25765085071ebb39e5d0b113ae79a0f/CH-ACV_RN-ED-68-1.pdf"
+ },
+ {
+  "slug": "ed-68-2",
+  "parent": "ed-68-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 68/2",
+   "Titre": "Registre de mariages 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31 x 41,6",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 68/2 (microfilm: RMS 1/1.044.848, numérique: RN-ED-68-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.848",
+   "Nom du fichier": "CH-ACV_RN-ED-68-2.pdf",
+   "Taille du fichier": "235.4 MiB"
+  },
+  "pdf": "6/4/1/6415b647ee716f2639046ebbbdd427e44f65a1474738df4e5c9eeac4869b641d/CH-ACV_RN-ED-68-2.pdf"
+ },
+ {
+  "slug": "ed-68-3",
+  "parent": "ed-68-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 68/3",
+   "Titre": "Registre de décès 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,5 x 41,5 / 26,9 x 38,4 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 68/3 (microfilm: RMS 1/1.044.848, numérique: RN-ED-68-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.848",
+   "Nom du fichier": "CH-ACV_RN-ED-68-3.pdf",
+   "Taille du fichier": "258.2 MiB"
+  },
+  "pdf": "4/d/5/4d57bd8cb12ab9d83efdca2da8c00b53b4116a0174c17126c9a166194e7bd2b3/CH-ACV_RN-ED-68-3.pdf"
+ },
+ {
+  "slug": "ed-68-4",
+  "parent": "ed-68-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 68/4",
+   "Titre": "Registre d'annonces de mariage 1821-1882.",
+   "Date(s)": "1821-07-01 - 1882-07-23 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 24,1 x 35,6",
+   "Portée et contenu": "Annonces de mariage (1821 juillet 1 - 1882 juillet 23).",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Dès la page 80, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RM 22001.13",
+   "Nom du fichier": "CH-ACV_RN-ED-68-4.pdf",
+   "Taille du fichier": "108.9 MiB"
+  },
+  "pdf": "9/0/f/90f6087d3e17a7110366dceb69856207a8172decadb2f9f07efc949ffb4164e1/CH-ACV_RN-ED-68-4.pdf"
+ }
+]

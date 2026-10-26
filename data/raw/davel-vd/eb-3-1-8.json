@@ -1,0 +1,171 @@
+[
+ {
+  "slug": "eb-3-1-8",
+  "parent": null,
+  "children": [
+   "eb-3-1",
+   "eb-3-2",
+   "eb-3-3",
+   "eb-3-4",
+   "eb-3-5",
+   "eb-3-6",
+   "eb-3-7",
+   "eb-3-8"
+  ],
+  "f": {
+   "Cote": "Eb 3/1-8",
+   "Titre": "Registres de la paroisse réformée d'Aigle.",
+   "Date(s)": "1629-12-06 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse d'Aigle :\nParoisse médiévale réformée en 1528. Registres dès 1629.\nComprend : Corbeyrier jusqu'en 1840 et 1846-1865, Leysin jusqu'en 1702, Yvorne jusqu'en 1837 et 1846-1865.\nAnnexe : Yvorne (1846)."
+  }
+ },
+ {
+  "slug": "eb-3-1",
+  "parent": "eb-3-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 3/1",
+   "Titre": "Paroisse réformée d'Aigle",
+   "Date(s)": "1629-12-06 - 1651-11-16 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 16,5 x 41,1 / AR: 27,7 x 39,3 (répertoire) / BR: 28 x 39 (répertoire)",
+   "Portée et contenu": "Baptêmes (1629 décembre 10 - 1651 novembre 16), pp. 0-121;\nMariages (tête-bêche) (1629 décembre 6 - 1651 septembre 17), pp.tête-bêche 0-30;",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 3/1 (microfilm: RMS 1/128.578, numérique: RN-EB-3-1), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 3/1 (microfilm: RMS 1/128.576, numérique: RN-EB-3-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.578",
+   "Nom du fichier": "CH-ACV_RN-EB-3-1.pdf",
+   "Taille du fichier": "280.3 MiB"
+  },
+  "pdf": "6/3/8/6388d5379035cc4e916b5550fcaf05c7483feb87a963b360b43f169e5114f5ca/CH-ACV_RN-EB-3-1.pdf"
+ },
+ {
+  "slug": "eb-3-2",
+  "parent": "eb-3-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 3/2",
+   "Titre": "Paroisse réformée d'Aigle",
+   "Date(s)": "1653-05-22 - 1727-12-21 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "6 volumes en 2 parties\nFormat LxH(cm): 10,4 x 31,5 / AR1: 27,6 x 39,3 (répertoire) / AR2: 27,6 x 39,1 (répertoire) / AR3: 27,9 x 39,2 (répertoire) / BR1: 27,7 x 39,2 (répertoire) / BR2: 27,7 x 39,1 (répertoire)",
+   "Portée et contenu": "Baptêmes (1654 septembre 22 - 1727 décembre 21), pp. 0-456;\nMariages (tête-bêche) (1653 mai 22 - 1727 octobre 24), pp.tête-bêche 0-95.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes en trois volumes Eb 3/2 (microfilm: RMS 1/128.578, numérique: RN-EB-3-2), pages manuscrites, non datées\nRépertoire séparé des mariages en deux volumes Eb 3/2 (microfilm: RMS 1/128.576, numérique: RN-EB-3-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.578",
+   "Nom du fichier": "CH-ACV_RN-EB-3-2.pdf",
+   "Taille du fichier": "592 MiB"
+  },
+  "pdf": "6/b/7/6b7e060e8d657b6869d98debd93ba1cfb6081988b140bd2d9a7e25043a04cb42/CH-ACV_RN-EB-3-2.pdf"
+ },
+ {
+  "slug": "eb-3-3",
+  "parent": "eb-3-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 3/3",
+   "Titre": "Paroisse réformée d'Aigle",
+   "Date(s)": "1727-12-30 - 1767-07-21 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "4 volumes en 2 parties\nFormat LxH(cm): 19,2 x 25,5 / AR1: 27,7 x 39,2 (répertoire) / AR2: 27,7 x 39,2 (répertoire) / BR: 27,7 x 39,1 (répertoire)",
+   "Portée et contenu": "Baptêmes (1728 juillet 27 - 1767 avril 5) et Naissances (1752 juillet 31 - 1767 avril 1), pp.1-365;\nMariages (tête-bêche) (1727 décembre 30 - 1767 juillet 21), pp.tête-bêche 1-65.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes en deux volumes Eb 3/3 (microfilm: RMS 1/128.578, numérique: RN-EB-3-3), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 3/3 (microfilm: RMS 1/128.578, numérique: RN-EB-3-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.578",
+   "Nom du fichier": "CH-ACV_RN-EB-3-3.pdf",
+   "Taille du fichier": "489.8 MiB"
+  },
+  "pdf": "a/2/f/a2f88bfe62006a376d4f83c91f6ab1d987d205f66c7b3684162bd0847ee5ce0c/CH-ACV_RN-EB-3-3.pdf"
+ },
+ {
+  "slug": "eb-3-4",
+  "parent": "eb-3-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 3/4",
+   "Titre": "Paroisse réformée d'Aigle",
+   "Date(s)": "1767-03-21 - 1821-01-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 1 partie\nFormat LxH(cm): 21,9 x 34,6 / AR1: 28 x 38,7 (répertoire) / AR2: 27,9 x 38,9 (répertoire)",
+   "Portée et contenu": "Baptêmes (1767 mars 21 - 1821 janvier 30), pp. 0-463.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes en deux volumes Eb 3/4 (microfilm: RMS 1/128.578, numérique: RN-EB-3-4), pages manuscrites, non datées",
+   "Note": "Les pages 444 et 445 n'existent pas.",
+   "Cote de gestion": "RMS 1/128.579",
+   "Nom du fichier": "CH-ACV_RN-EB-3-4.pdf",
+   "Taille du fichier": "674.8 MiB"
+  },
+  "pdf": "7/e/b/7eb3e322d25675cd894f5ab68205e0b891969b615f95e429d7ec554617a5f4c8/CH-ACV_RN-EB-3-4.pdf"
+ },
+ {
+  "slug": "eb-3-5",
+  "parent": "eb-3-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 3/5",
+   "Titre": "Paroisse réformée d'Aigle",
+   "Date(s)": "1767-08-04 - 1821-07-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 22,9 x 35,8 x 0,5 / 27,8 x 38,9 (répertoire)",
+   "Portée et contenu": "Mariages (1767 août 4 - 1821 juillet 30), pp. 0-122.",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 3/5 (microfilm: RMS 1/128.578, numérique: RN-EB-3-5), pages manuscrites, non datées",
+   "Note": "Dès la page 123, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.579",
+   "Nom du fichier": "CH-ACV_RN-EB-3-5.pdf",
+   "Taille du fichier": "207.1 MiB"
+  },
+  "pdf": "3/c/a/3ca5d250e1ab3db75dd4a5efe9da41690ae539f9c2b0183fa15378f3507e10e2/CH-ACV_RN-EB-3-5.pdf"
+ },
+ {
+  "slug": "eb-3-6",
+  "parent": "eb-3-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 3/6",
+   "Titre": "Paroisse réformée d'Aigle",
+   "Date(s)": "1767-10-27 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 2 parties\nFormat LxH(cm): 22,3 x 35,7 / 25 x 38 (répertoire)",
+   "Portée et contenu": "Annonces de mariage (1768 septembre 22 - 1821 juin 30), pp. 1-17;\nMariages forains (tête-bêche) (1767 octobre 27 - 1785 juillet 16), pp.tête-bêche 1-25",
+   "Instruments de recherche": "Répertoire séparé des mariages et des annonces de mariage Eb 3/6 (microfilm: RMS 1/128.578, numérique: RN-EB-3-6), pages manuscrites, non datées",
+   "Note": "Série de pages blanches, de la page 18 jusqu'aux mariages forains tête-bêche.",
+   "Cote de gestion": "RMS 1/128.579",
+   "Nom du fichier": "CH-ACV_RN-EB-3-6.pdf",
+   "Taille du fichier": "105.1 MiB"
+  },
+  "pdf": "2/7/c/27cbd6f489b33f0aa5e948a2d1045ce3440dd293bb7b36bd0224c2a18403e9db/CH-ACV_RN-EB-3-6.pdf"
+ },
+ {
+  "slug": "eb-3-7",
+  "parent": "eb-3-1-8",
+  "type": "File",
+  "f": {
+   "Cote": "Eb 3/7",
+   "Titre": "Paroisse réformée d'Aigle",
+   "Date(s)": "1728-01-01 - 1797-12-31 (Création)",
+   "Niveau de description": "Dossier",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 19,3 x 24,7 / AR1: 27,7 x 38,9 (répertoire) / AR2: 28 x 38,8 (répertoire)",
+   "Portée et contenu": "Décès (1728 janvier 1 - 1797 décembre 31), pp.1-320;\nCatéchumènes (tête-bêche) (1728 à 1797), pp.tête-bêche 1-97.",
+   "Instruments de recherche": "Répertoire séparé des décès en deux volumes Eb 3/7 (microfilm: RMS 1/128.578, numérique: RN-EB-3-7), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes.",
+   "Cote de gestion": "RMS 1/128.579",
+   "Nom du fichier": "CH-ACV_RN-EB-3-7.pdf",
+   "Taille du fichier": "446.6 MiB"
+  },
+  "pdf": "c/c/5/cc58e186759212ab1aaac2ef4202a158f002636cd4cbe4efd702e975f9eec64b/CH-ACV_RN-EB-3-7.pdf"
+ },
+ {
+  "slug": "eb-3-8",
+  "parent": "eb-3-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 3/8",
+   "Titre": "Paroisse réformée d'Aigle",
+   "Date(s)": "1798-07-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 26,4 x 41,8 / 28x 39 (répertoire)",
+   "Portée et contenu": "Décès (1798 juillet 1 - 1821 juin 30), pp. 1-107.",
+   "Instruments de recherche": "Répertoire séparé des décès Eb 3/8 (microfilm: RMS 1/128.578, numérique: RN-EB-3-8), pages manuscrites, non datées",
+   "Note": "Dès la page 108, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.579",
+   "Nom du fichier": "CH-ACV_RN-EB-3-8.pdf",
+   "Taille du fichier": "207.8 MiB"
+  },
+  "pdf": "9/8/4/9840e430979f42859a4b4e09b73a960bc26c7a45f64597e9eda27c8ed15b80b0/CH-ACV_RN-EB-3-8.pdf"
+ }
+]

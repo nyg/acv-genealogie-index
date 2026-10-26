@@ -1,0 +1,200 @@
+[
+ {
+  "slug": "eb-78-1-10",
+  "parent": null,
+  "children": [
+   "eb-78-1",
+   "eb-78-2",
+   "eb-78-3",
+   "eb-78-4",
+   "eb-78-5",
+   "eb-78-6",
+   "eb-78-7",
+   "eb-78-8",
+   "eb-78-9",
+   "eb-78-10"
+  ],
+  "f": {
+   "Cote": "Eb 78/1-10",
+   "Titre": "Registres de la paroisse réformée de Lutry et de la commune de Lutry.",
+   "Date(s)": "1607-04-06 - 1867-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Lutry :\nParoisse médiévale.\nRegistres dès 1607, avec lacune 1644-1714/1719 (baptêmes/mariages).\nComprend : Savigny (détaché en 1598).\nAnnexe : Belmont (1766-1846 et dès 1864) avec Corsy et les Monts ; puis Villette (1846-1863)."
+  }
+ },
+ {
+  "slug": "eb-78-1",
+  "parent": "eb-78-1-10",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 78/1",
+   "Titre": "Paroisse réformée de Lutry",
+   "Date(s)": "1607-04-06 - 1644-05-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 13,7 x 34,4 / AR1: 28,2 x 40 (répertoire) / AR2: 28,2 x 40 (répertoire)",
+   "Portée et contenu": "Baptêmes (1607 avril 12 - 1644 mai 30), pp. 0-95;\n*- Interfolio de 3 pages détachées (représentant le répertoire volume III (années 1719-1750) à la lettre A du répertoire séparé des baptêmes Eb 78/1-2-3;\nMariages (1607 avril 6 - 1644 mars 26), pp. 96-133, avec une liste des pasteurs et diacres de la paroisse (pages 131-132), p.tête-bêche 135;\n*- Interfolio détaché à la lettre A du répertoire séparé des mariages Eb 78/1-3-7.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 78/1, Eb 78/2 et Eb 78/3 (interfolio) (microfilm: RMS 1/128.702, numérique: RN-EB-78-1), pages manuscrites, non datées.\nRépertoire séparé des mariages Eb 78/1, Eb 78/3 et Eb 78/7 (microfilm: RMS 1/128.702, numérique: RN-EB-78-1), pages manuscrites, non datées.",
+   "Cote de gestion": "RMS 1/128.702",
+   "Nom du fichier": "CH-ACV_RN-EB-78-1.pdf",
+   "Taille du fichier": "272.6 MiB"
+  },
+  "pdf": "0/b/1/0b1d9312bf309b32be01a84d0cfa0f08f8088e8aefef039d81f8598002464ca3/CH-ACV_RN-EB-78-1.pdf"
+ },
+ {
+  "slug": "eb-78-2",
+  "parent": "eb-78-1-10",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 78/2",
+   "Titre": "Paroisse réformée de Lutry",
+   "Date(s)": "1714-03-10 - 1774-01-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17,2 x 41,6",
+   "Portée et contenu": "Baptêmes (1714 mars 10 - 1774 janvier 1), pp. 0-180;\n*- Interfolio entre pp. 0-1, figurant le serment prêté par les ministres à la Chancellerie de Berne;\nMariages (1714 septembre 22 - 1760 avril 15) (en tête-bêche), pp. 0-21.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 78/1, Eb 78/2 et Eb 78/3 (microfilm: RMS 1/128.702, numérique: RN-EB-78-1), pages manuscrites, non datées.\nIl existe une liste-répertoire manuscrite, établie du registre des baptêmes (1714-1774), par l'archiviste privé Franz-Raoul Campiche dans les années 1920 (ACV, P Campiche 624).",
+   "Cote de gestion": "RMS 1/128.702",
+   "Nom du fichier": "CH-ACV_RN-EB-78-2.pdf",
+   "Taille du fichier": "246.7 MiB"
+  },
+  "pdf": "8/6/4/864c966bd6cbd1bb65f4f09e91ff1e523bf2c639b68636873362b498e812cfa9/CH-ACV_RN-EB-78-2.pdf"
+ },
+ {
+  "slug": "eb-78-3",
+  "parent": "eb-78-1-10",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 78/3",
+   "Titre": "Paroisse réformée de Lutry",
+   "Date(s)": "1719-04-18 - 1856-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 3 parties\nFormat LxH(cm): 12 x 32,3",
+   "Portée et contenu": "Baptêmes (1719 avril 18 - 1753 mai 6), pp. 0-80;\n*- Interfolio de 3 pages détachées, représentant le répertoire du volume III (années 1719-1750) à la lettre A du répertoire séparé des baptêmes Eb 78/1-2-3;\nCatéchumènes (1738 - 1856), pp. 81-261;\nMariages (1719 avril 22 - 1808 septembre 27) (en tête-bêche), pp. 0-98;\nContient la transcription de mandats souverains concernant les registres, une liste des meubles attachés à la cure et des notes comptables (pages 1 à 6).",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 78/1, Eb 78/2 et Eb 78/3 (microfilm: RMS 1/128.702, numérique: RN-EB-78-1), pages manuscrites, non datées.\nRépertoire séparé des mariages Eb 78/1, Eb 78/3 et Eb 78/7 (microfilm: RMS 1/128.702, numérique: RN-EB-78-1), pages manuscrites, non datées.\nIl existe deux listes-répertoires manuscrites, établies du registre des baptêmes (1714-1774) et du registre des mariages (1809-1821), par l'archiviste privé Franz-Raoul Campiche dans les années 1920 (ACV, P Campiche 624).",
+   "Cote de gestion": "RMS 1/128.702",
+   "Nom du fichier": "CH-ACV_RN-EB-78-3.pdf",
+   "Taille du fichier": "224.7 MiB"
+  },
+  "pdf": "f/8/4/f84a9ea81d75fa17753362e625c0d153b1d00ceae3e564b2f0626da258613b27/CH-ACV_RN-EB-78-3.pdf"
+ },
+ {
+  "slug": "eb-78-4",
+  "parent": "eb-78-1-10",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 78/4",
+   "Titre": "Paroisse réformée de Lutry",
+   "Date(s)": "1774-01-09 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 21 x 33,2 / 28 x 39,1 (répertoire)",
+   "Portée et contenu": "Baptêmes (1774 janvier 9 - 1821 juin 30), pp. 1-453, p. 454.\nContient, en dernière page, la liste des pasteurs de la paroisse.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes et des décès Eb 78/4 et Eb 78/5 (microfilm: RMS 1/128.702, numérique: RN-EB-78-4), pages manuscrites, non datées.\nIl existe deux listes-répertoires manuscrites, établies du registre des baptêmes (1714-1774) et du registre des mariages (1809-1821), par l'archiviste privé Franz-Raoul Campiche dans les années 1920 (ACV, P Campiche 624).",
+   "Note": "Série de pages blanches, entres les pages 453 et 454.",
+   "Cote de gestion": "RMS 1/128.703",
+   "Nom du fichier": "CH-ACV_RN-EB-78-4.pdf",
+   "Taille du fichier": "540.6 MiB"
+  },
+  "pdf": "7/9/8/79805abe90e9807332dbe23b434490286aeb489faecd488263ebae99d80d5515/CH-ACV_RN-EB-78-4.pdf"
+ },
+ {
+  "slug": "eb-78-5",
+  "parent": "eb-78-1-10",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 78/5",
+   "Titre": "Paroisse réformée de Lutry",
+   "Date(s)": "1791-01-06 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 20,6 x 30,6",
+   "Portée et contenu": "Décès (1791 janvier 6 - 1821 juin 30), pp. 0a-131.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes et des décès Eb 78/4 et Eb 78/5 (microfilm: RMS 1/128.702, numérique: RN-EB-78-4), pages manuscrites, non datées.",
+   "Unités de description associées": "Registre des décès tenu par le secrétaire du Conseil, 1716-1828, Archives communales de Lutry, Jaune D 1-3.",
+   "Note de publication": "Louis-Daniel Perret, Lutry sous le régime bernois (1536-1798), Lutry, 2000, p. 191: \"les registres de décès ne furent ouverts qu'en 1716\" ; illustration du registre des morts de la paroisse de Lutry de 1769, p. 197 ; de 1754, p. 198.",
+   "Cote de gestion": "RMS 1/128.703",
+   "Nom du fichier": "CH-ACV_RN-EB-78-5.pdf",
+   "Taille du fichier": "120.1 MiB"
+  },
+  "pdf": "e/d/6/ed63a926b9ba036dfcf39e1f9fbc6203b97b2087c365eee02394670c1811b7bb/CH-ACV_RN-EB-78-5.pdf"
+ },
+ {
+  "slug": "eb-78-6",
+  "parent": "eb-78-1-10",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 78/6",
+   "Titre": "Paroisse réformée de Lutry",
+   "Date(s)": "1790-05-01 - 1808-12-25 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 18,4 x 24,2",
+   "Portée et contenu": "Annonces de mariages (1790 mai - 1808 décembre 25), pp. 1-160.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.703",
+   "Nom du fichier": "CH-ACV_RN-EB-78-6.pdf",
+   "Taille du fichier": "103.4 MiB"
+  },
+  "pdf": "f/3/8/f38800ea56be29dd1fc1df267c811701296f1cef00a95747b43054043eaae70a/CH-ACV_RN-EB-78-6.pdf"
+ },
+ {
+  "slug": "eb-78-7",
+  "parent": "eb-78-1-10",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 78/7",
+   "Titre": "Paroisse réformée de Lutry",
+   "Date(s)": "1809-01-01 - 1867-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 22,7 x 35",
+   "Portée et contenu": "Annonces de mariages (1809 janvier 1 - 1821 juin 30) (en partie en tête-bêche), pp. 0-102j et pp.tête-bêche 100-118;\nProduit des collectes faites en faveur des malades pauvres déclarés incurables (1863 - 1867).\nLes pages 101 et 102 n'existent pas.",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 78/1, Eb 78/3 et Eb 78/7 (microfilm: RMS 1/128.702, numérique: RN-EB-78-1), pages manuscrites, non datées.",
+   "Cote de gestion": "RMS 1/128.703",
+   "Nom du fichier": "CH-ACV_RN-EB-78-7.pdf",
+   "Taille du fichier": "129.4 MiB"
+  },
+  "pdf": "0/6/7/067f8f66f3c440538733c15269606ec72867ed1b0eae4f319e229ee41ad96c68/CH-ACV_RN-EB-78-7.pdf"
+ },
+ {
+  "slug": "eb-78-8",
+  "parent": "eb-78-1-10",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 78/8",
+   "Titre": "Commune de Lutry",
+   "Date(s)": "1716-01-01 - 1753-12-22 (Création)",
+   "Niveau de description": "Pièce",
+   "Portée et contenu": "Décès (1716 janvier 1 - 1753 décembre 22).\nLe registre est intitulé \"Livre mortuaire de la ville de Lustry commencé le 1r janvier de lannée 1716 jusques en 1753 compris\", la première page débute par la mention : \"Liste de ceux qui sont morts et ensevelis au cimetiere de Lustry depuis le premier janvier 1716 jusques au à (sic) dernier de mars ditte année Maistre Jean J. Bron marguillier\". Le nombre de morts durant l'année est inscrit systématiquement.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note de publication": "Louis-Daniel Perret, Lutry sous le régime bernois (1536-1798), Lutry, 2000, p. 191 : \"les registres de décès ne furent ouverts qu'en 1716\" ; illustration du registre des morts de la paroisse de Lutry de 1769, p. 197 ; de 1754, p. 198.",
+   "Cote de gestion": "RMS 22006.2"
+  }
+ },
+ {
+  "slug": "eb-78-9",
+  "parent": "eb-78-1-10",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 78/9",
+   "Titre": "Commune de Lutry",
+   "Date(s)": "1754-01-01 - 1795-07-08 (Création)",
+   "Niveau de description": "Pièce",
+   "Portée et contenu": "Décès (1754 janvier 1 - 1795 juillet 8).\nLe registre est intitulé \"Second livre mortuaire commencé en 1754 à 1795\"; la première page débute par la mention : \"Morts ensevelis par les marguiliers Charles Baatard et Nicolaz Crausaz, tous deux\nmaistres menuziers\". Le nombre de morts durant l'année est inscrit systématiquement.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note de publication": "Louis-Daniel Perret, Lutry sous le régime bernois (1536-1798), Lutry, 2000, p. 191 : \"les registres de décès ne furent ouverts qu'en 1716\" ; illustration du registre des morts de la paroisse de Lutry de 1769, p. 197 ; de 1754, p. 198.",
+   "Cote de gestion": "RMS 22006.2"
+  }
+ },
+ {
+  "slug": "eb-78-10",
+  "parent": "eb-78-1-10",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 78/10",
+   "Titre": "Commune de Lutry",
+   "Date(s)": "1798-01-03 - 1828-05-15 (Création)",
+   "Niveau de description": "Pièce",
+   "Portée et contenu": "Décès (1798 janvier 3 - 1828 mai 15).\nLe registre est intitulé : \"Registre mortuaires des ressortissants de la commune de Lutry commence le premier janvier l'an mille sept cent nonante huit 1798\".",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Unités de description associées": "Registre des décès tenu par le secrétaire du Conseil, 1716-1828, Archives communales de Lutry, Jaune D 1-3",
+   "Note de publication": "Louis-Daniel Perret, Lutry sous le régime bernois (1536-1798), Lutry, 2000, p. 191 : \"les registres de décès ne furent ouverts qu'en 1716\" ; illustration du registre des morts de la paroisse de Lutry de 1769, p. 197 ; de 1754, p. 198.",
+   "Cote de gestion": "RMS 22006.2"
+  }
+ }
+]

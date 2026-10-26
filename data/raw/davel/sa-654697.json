@@ -1,0 +1,144 @@
+[
+ {
+  "slug": "sa-654697",
+  "parent": null,
+  "text": "SB 268/59 Leysin (arrondissement de l'état civil) (1882-1994)",
+  "children": [
+   "sa-680979",
+   "sa-680980",
+   "sa-680981",
+   "sa-680982",
+   "sa-680983",
+   "sa-680984"
+  ],
+  "f": {
+   "Ref. code": "SB 268/59",
+   "Title": "Leysin (arrondissement de l'état civil)",
+   "Dates": "1882-1994",
+   "Creation date(s)": "1882 - 1994",
+   "Level": "Sous-fonds",
+   "Importance matérielle": "6 registres",
+   "Access regulations": "Seules les promesses de mariage de plus de 80 ans sont consultables librement. Pour les promesses de mariage postérieures une autorisation écrite est nécessaire.",
+   "Language": "Français",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).Supprimé par l'arrêté du 20 juillet 1994 et rattaché à l'arrondissement d'Ormont-Dessous dès le 1er juillet 1994.",
+   "Entries": "[annonces de mariage] (Matières\\ Subdivisions\\de forme)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=654697",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680979",
+  "parent": "sa-654697",
+  "text": "SB 268/59/1 Registre de publications de promesses de mariage (1882-1905)",
+  "f": {
+   "Ref. code": "SB 268/59/1",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1882 octobre 14 - 1905 octobre 25",
+   "Creation date(s)": "1882 - 1905",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 201 pages utiles sur 201 et 1 répertoire non paginé",
+   "Content": "- Publications (1882 octobre 14 - 1905 octobre 25).",
+   "Access regulations": "Libre",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680979",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680980",
+  "parent": "sa-654697",
+  "text": "SB 268/59/2 Registre de publications de promesses de mariage (1905-1913)",
+  "f": {
+   "Ref. code": "SB 268/59/2",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1905 octobre 20 - 1913 décembre 13",
+   "Creation date(s)": "1905 - 1913",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 100 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1905 octobre 20 - 1913 décembre 13).",
+   "Access regulations": "Libre",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680980",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680981",
+  "parent": "sa-654697",
+  "text": "SB 268/59/3 Registre de publications de promesses de mariage (1914-1931)",
+  "f": {
+   "Ref. code": "SB 268/59/3",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1914 janvier 9 - 1931 janvier 31",
+   "Creation date(s)": "1914 - 1931",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 200 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1914 janvier 9 - 1931 janvier 31).",
+   "Access regulations": "Seules les promesses de mariage de plus de 80 ans sont consultables sans autorisation.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680981",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680982",
+  "parent": "sa-654697",
+  "text": "SB 268/59/4 Registre de publications de promesses de mariage (1931-1945)",
+  "f": {
+   "Ref. code": "SB 268/59/4",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1931 avril 9 - 1945 octobre 23",
+   "Creation date(s)": "1931 - 1945",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 200 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1931 avril 9 - 1945 octobre 23).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680982",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680983",
+  "parent": "sa-654697",
+  "text": "SB 268/59/5 Registre de publications de promesses de mariage (1945-1958)",
+  "f": {
+   "Ref. code": "SB 268/59/5",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1945 novembre 2 - 1958 septembre 15",
+   "Creation date(s)": "1945 - 1958",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 200 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1945 novembre 2 - 1958 septembre 15).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680983",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680984",
+  "parent": "sa-654697",
+  "text": "SB 268/59/6 Registre de publications de promesses de mariage (1958-1994)",
+  "f": {
+   "Ref. code": "SB 268/59/6",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1958 octobre 18 - 1994 juin 29",
+   "Creation date(s)": "1958 - 1994",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 76 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1958 octobre 18 - 1994 juin 29).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680984",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

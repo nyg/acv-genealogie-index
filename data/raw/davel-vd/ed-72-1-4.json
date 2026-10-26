@@ -1,0 +1,91 @@
+[
+ {
+  "slug": "ed-72-1-4",
+  "parent": null,
+  "children": [
+   "ed-72-1",
+   "ed-72-2",
+   "ed-72-3",
+   "ed-72-4"
+  ],
+  "f": {
+   "Cote": "Ed 72/1-4",
+   "Titre": "Paroisse réformée de Leysin.",
+   "Date(s)": "1821-07-01 - 1882-07-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Leysin :\nChapelle médiévale dépendant d'Aigle, érigée en paroisse en 1702.\nRegistres dès 1702."
+  }
+ },
+ {
+  "slug": "ed-72-1",
+  "parent": "ed-72-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 72/1",
+   "Titre": "Registre de naissances 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,5 x 41",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 72/1 (microfilm: RMS 1/1.044.886, numérique: RN-ED-72-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.885",
+   "Nom du fichier": "CH-ACV_RN-ED-72-1.pdf",
+   "Taille du fichier": "357.5 MiB"
+  },
+  "pdf": "e/3/6/e363d93e73e92835f4299e89fb27b3a5e2c27b17900eb72a1583b76fc81beece/CH-ACV_RN-ED-72-1.pdf"
+ },
+ {
+  "slug": "ed-72-2",
+  "parent": "ed-72-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 72/2",
+   "Titre": "Registre de mariages 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31 x 41,2",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé (dans une enveloppe) des mariages Ed 72/2 (microfilm: RMS 1/1.044.886, numérique: RN-ED-72-2), pages dactylographiées, non datées",
+   "Cote de gestion": "RMS 1/1.044.885",
+   "Nom du fichier": "CH-ACV_RN-ED-72-2.pdf",
+   "Taille du fichier": "139.2 MiB"
+  },
+  "pdf": "6/e/8/6e8d044b8adc398c0890cd58ff03f2da9ca952c575f7eba117bfa97124b2cee8/CH-ACV_RN-ED-72-2.pdf"
+ },
+ {
+  "slug": "ed-72-3",
+  "parent": "ed-72-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 72/3",
+   "Titre": "Registre de décès 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 parties\nFormat LxH(cm): 30,6 x 41,2 / 29,1 x 38,9 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 72/3 (microfilm: RMS 1/1.044.886, numérique: RN-ED-72-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.885",
+   "Nom du fichier": "CH-ACV_RN-ED-72-3.pdf",
+   "Taille du fichier": "330.1 MiB"
+  },
+  "pdf": "b/5/5/b5521a38a8a4b6a70d2df2ebf523ce91e235431ea1d81ad523b6a4f7d5d47620/CH-ACV_RN-ED-72-3.pdf"
+ },
+ {
+  "slug": "ed-72-4",
+  "parent": "ed-72-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 72/4",
+   "Titre": "Registre d'annonces de mariage 1821-1882.",
+   "Date(s)": "1821-07-01 - 1882-07-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 24,2 x 35,7",
+   "Portée et contenu": "Annonces de mariage (1821 juillet 1 - 1882 juillet 31).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 72/4 (microfilm: RM 22001.16, numérique: RN-ED-72-4), pages manuscrites, non datées",
+   "Cote de gestion": "RM 22001.16",
+   "Nom du fichier": "CH-ACV_RN-ED-72-4.pdf",
+   "Taille du fichier": "289.9 MiB"
+  },
+  "pdf": "d/d/2/dd2e797be9d07d0d74fa866bb4148d4996c3f616f7b43b77fcd58727c7816ea2/CH-ACV_RN-ED-72-4.pdf"
+ }
+]

@@ -1,0 +1,327 @@
+[
+ {
+  "slug": "eb-23-1-15",
+  "parent": null,
+  "children": [
+   "eb-23-1",
+   "eb-23-2",
+   "eb-23-3",
+   "eb-23-4",
+   "eb-23-4-bis",
+   "eb-23-5",
+   "eb-23-6",
+   "eb-23-7",
+   "eb-23-8",
+   "eb-23-9",
+   "eb-23-10",
+   "eb-23-11",
+   "eb-23-12",
+   "eb-23-13",
+   "eb-23-14",
+   "eb-23-15"
+  ],
+  "f": {
+   "Cote": "Eb 23/1-15",
+   "Titre": "Registres de la paroisse réformée et de la commune de Château-d'Oex.",
+   "Date(s)": "1571-06-17 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Château-d'Oex :\nParoisse médiévale réformée en 1556.\nRegistres dès 1571.\nComprend : la commune, sauf L'Etivaz desservi par le diacre dès 1611, érigé en paroisse en 1713, avec registres distincts dès 1664 ; sauf aussi le Montelier et les Chabloz (les Moulins) 1846-1863."
+  }
+ },
+ {
+  "slug": "eb-23-1",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/1",
+   "Titre": "Paroisse réformée de Château-d'Oex",
+   "Date(s)": "1571-06-17 - 1578-04-20 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 11 x 33,3 / 27,6 x 33,6 (répertoire)",
+   "Portée et contenu": "Mariages (1571 juin 17 - 1578 avril 20), pages 4-68.",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 23/1-2-3 (microfilm: RMS 1/128.609, numérique: RN-EB-23-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.609",
+   "Nom du fichier": "CH-ACV_RN-EB-23-1.pdf",
+   "Taille du fichier": "81.1 MiB"
+  },
+  "pdf": "e/b/c/ebc9789c34968a26817a0e1a095b0c86c0cbe3a7af5f770fb425bce2722cd921/CH-ACV_RN-EB-23-1.pdf"
+ },
+ {
+  "slug": "eb-23-2",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/2",
+   "Titre": "Paroisse réformée de Château-d'Oex",
+   "Date(s)": "1578-10-05 - 1604-10-07 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 3 parties\nFormat LxH(cm): 19,9 x 30 / 27,6 x 33,6 (répertoire)",
+   "Portée et contenu": "Baptêmes (1578 novembre - 1581 février 12), pp.71-117;\nBaptêmes (1599 novembre 18 - 1604 octobre 7), pp.132-134;\nMariages (1578 octobre 5 - 1586 novembre), pp.119-131.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 23/1-2-3 (microfilm: RMS 1/128.609, numérique: RN-EB-23-2), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 23/1-2-3 (microfilm: RMS 1/128.609, numérique: RN-EB-23-1), pages manuscrites, non datées",
+   "Unités de description associées": "Pour les baptêmes des années 1586 à 1599, voir le deuxième registre de la paroisse de Château-d'Oex, Eb 23/3.",
+   "Cote de gestion": "RMS 1/128.609",
+   "Nom du fichier": "CH-ACV_RN-EB-23-2.pdf",
+   "Taille du fichier": "123.7 MiB"
+  },
+  "pdf": "5/5/b/55b91e27777d0ac0170f18d869f8cc0b71e544a8d4d4f594d628c38b21c54df1/CH-ACV_RN-EB-23-2.pdf"
+ },
+ {
+  "slug": "eb-23-3",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/3",
+   "Titre": "Paroisse réformée de Château-d'Oex",
+   "Date(s)": "1586-02-23 - 1605-01-20 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 22,5 x 33,2 / AR1: 27,7 x 37,6 (répertoire) / AR2: 27,6 x 33,6 (répertoire)",
+   "Portée et contenu": "Mariages: Pages 138-143 et 178-181 (1598 octobre 22 - 1605 janvier 20);\nBaptêmes: Pages 146-177 (1586 février 23 - 1599 octobre 21).",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 23/1-2-3 (microfilm: RMS 1/128.609, numérique: RN-EB-23-1), pages manuscrites, non datées\nRépertoire séparé des baptêmes Eb 23/1-2-3 (microfilm: RMS 1/128.609, numérique: RN-EB-23-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.609",
+   "Nom du fichier": "CH-ACV_RN-EB-23-3.pdf",
+   "Taille du fichier": "51.8 MiB"
+  },
+  "pdf": "5/2/6/526551f282887766799d71a6015b324e79da1c1ab392ea7718fca46ed9ce7004/CH-ACV_RN-EB-23-3.pdf"
+ },
+ {
+  "slug": "eb-23-4",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/4",
+   "Titre": "Paroisse réformée de Château-d'Oex",
+   "Date(s)": "1605-05-01 - 1702-12-28 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties",
+   "Portée et contenu": "Baptêmes (1605 mai 1 - 1702 décembre 28), pp. 95-641 et p. 643;\nMariages (tête-bêche) (1608 novembre 26 - 1702 novembre 18), pp.tête-bêche 2-93.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 23/4 (microfilm: RMS 1/128.609, numérique: RN-EB-23-4), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 23/4 (microfilm: RMS 1/128.609, numérique: RN-EB-23-4), pages manuscrites, non datées.",
+   "Cote de gestion": "RMS 1/128.609",
+   "Nom du fichier": "CH-ACV_RN-EB-23-4.pdf",
+   "Taille du fichier": "599.1 MiB"
+  },
+  "pdf": "5/b/0/5b000db8c6b5c6f9fb2603d5c9563132a2ce146a8f59a8d6b18bdbd0ba4702c9/CH-ACV_RN-EB-23-4.pdf"
+ },
+ {
+  "slug": "eb-23-4-bis",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/4 bis",
+   "Titre": "Paroisse réformée de Château-d'Oex",
+   "Date(s)": "1704-08-28 - 1751-09-04 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 9,5 x 25",
+   "Portée et contenu": "Catéchumènes (1704 août 28 - 1751 septembre 4), pp. 1-106.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.609",
+   "Nom du fichier": "CH-ACV_RN-EB-23-4BIS.pdf",
+   "Taille du fichier": "47.3 MiB"
+  },
+  "pdf": "f/b/5/fb50c7b19730ff380bc6e8095b65f29eb4dbe7459a25d78b73bfe5ef39e30f7e/CH-ACV_RN-EB-23-4BIS.pdf"
+ },
+ {
+  "slug": "eb-23-5",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/5",
+   "Titre": "Paroisse réformée de Château-d'Oex",
+   "Date(s)": "1703-01-27 - 1743-07-07 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 17 x 39,7 / A: 27,6 x 37,5 (répertoire) / B: 27,5 x 37,7 (répertoire)",
+   "Portée et contenu": "Baptêmes (1703 janvier 28 - 1743 juillet 7), pp. 52-290;\nMariages (tête-bêche) (1703 janvier 27 - 1741 février 22), pp.tête-bêche 6-50.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 23/5 (microfilm: RMS 1/128.609, numérique: RN-EB-23-5), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 23/5 (microfilm: RMS 1/128.609, numérique: RN-EB-23-5), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.610",
+   "Nom du fichier": "CH-ACV_RN-EB-23-5.pdf",
+   "Taille du fichier": "379.1 MiB"
+  },
+  "pdf": "b/2/1/b216226c98a5edf291533abc2e468e03df7b0d180901e22bfaeec83ddc8ed08c/CH-ACV_RN-EB-23-5.pdf"
+ },
+ {
+  "slug": "eb-23-6",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/6",
+   "Titre": "Paroisse réformée de Château-d'Oex",
+   "Date(s)": "1741-01-01 - 1752-06-25 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 16,7 x 21,5 / AR: 27,8 x 37,6 (répertoire) / BR: 27,6 x 37,7 (répertoire)",
+   "Portée et contenu": "Baptêmes (1743 novembre 1 - 1752 juin 25), pp. VI 24-VI 129;\nMariages (tête-bêche) (1741 - 1751), pp.tête-bêche 3-22.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 23/6, Eb 23/9 et Eb 23/11 (microfilm: RMS 1/128.609, numérique: RN-EB-23-6), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 23/6 et Eb 23/10 (microfilm: RMS 1/128.609, numérique: RN-EB-23-6), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.610",
+   "Nom du fichier": "CH-ACV_RN-EB-23-6.pdf",
+   "Taille du fichier": "228.5 MiB"
+  },
+  "pdf": "e/9/9/e9928f9f7a4d19a7d78f78c7be7b50eab3d858739162e2a9df54de987d7ad633/CH-ACV_RN-EB-23-6.pdf"
+ },
+ {
+  "slug": "eb-23-7",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/7",
+   "Titre": "Paroisse réformée de Château-d'Oex",
+   "Date(s)": "1708-01-07 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 10,6 x 30,6 x 1/ 27,8 x 37,6 (répertoire)",
+   "Portée et contenu": "Décès (1708 janvier 7 - 1821 juin 30), pp. 2-562.",
+   "Instruments de recherche": "Répertoire séparé des décès Eb 23/7 (microfilm: RMS 1/128.609, numérique: RN-EB-23-7), pages manuscrites, non datées",
+   "Note": "Les pages lettres MNO et VWXY du répertoire sont consolidées.",
+   "Cote de gestion": "RMS 1/128.610",
+   "Nom du fichier": "CH-ACV_RN-EB-23-7.pdf",
+   "Taille du fichier": "399.7 MiB"
+  },
+  "pdf": "2/3/e/23e21c40d8e271e0646203fde559bacfea4eb42816620888aaa055c4151096eb/CH-ACV_RN-EB-23-7.pdf"
+ },
+ {
+  "slug": "eb-23-8",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/8",
+   "Titre": "Paroisse réformée de Château-d'Oex",
+   "Date(s)": "1705-06-22 - 1812-05-17 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 12,7 x 39,5 / A: 27,2 x 37,6 (répertoire) / B: 27,6 x 37,6 (répertoire)",
+   "Portée et contenu": "Baptêmes forains (1705 juin 22 - 1812 début), pp. 1-191;\nAnnonces de mariages mêlées avec Mariages forains (tête-bêche) (1746 août 28 - 1812 mai 17), pp.tête-bêche 192-281.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 23/8-9 (microfilm: RMS 1/128.609, numérique: RN-EB-23-8), pages manuscrites, non datées (1705-1811)\nRépertoire séparé des mariages Eb 23/8 et Eb 23/12 (microfilm: RMS 1/128.609, numérique: RN-EB-23-8), pages manuscrites, non datées",
+   "Note": "Pour les besoins de la numérisation, les Mariages, bien qu'en tête-bêche sur le volume, précèdent les Baptêmes. Ainsi le répertoire commun des mariages Eb 23/8+12 coïncidera.",
+   "Cote de gestion": "RMS 1/128.610",
+   "Nom du fichier": "CH-ACV_RN-EB-23-8.pdf",
+   "Taille du fichier": "335.2 MiB"
+  },
+  "pdf": "3/4/e/34e4271fd05c889ff200e99bce15f4daab1e9b8ec5d0dd5edb4623729ec9e35a/CH-ACV_RN-EB-23-8.pdf"
+ },
+ {
+  "slug": "eb-23-9",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/9",
+   "Titre": "Paroisse réformée de Château-d'Oex",
+   "Date(s)": "1752-07-02 - 1804-03-10 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 16,6 x 40,5 / 27,8 x 37,6 (répertoire)",
+   "Portée et contenu": "Baptêmes (1752 juillet 2 - 1804 mars 10), pp. 0-427.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 23/9 (microfilm: RMS 1/128.609, numérique: RN-EB-23-9), pages manuscrites, non datées\nRépertoire séparé des baptêmes Eb 23/6, Eb 23/9 et Eb 23/11 (microfilm: RMS 1/128.609, numérique: RN-EB-23-6), pages manuscrites, non datées\nRépertoire séparé des baptêmes Eb 23/8-9 (microfilm: RMS 1/128.609, numérique: RN-EB-23-8), pages manuscrites, non datées, pages 18-24 (1764-1821)",
+   "Cote de gestion": "RMS 1/128.611",
+   "Nom du fichier": "CH-ACV_RN-EB-23-9.pdf",
+   "Taille du fichier": "556.9 MiB"
+  },
+  "pdf": "2/0/6/206fb599f0887c285ecc759526d71a3c544fa02674ef0414f524cd8d709d5152/CH-ACV_RN-EB-23-9.pdf"
+ },
+ {
+  "slug": "eb-23-10",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/10",
+   "Titre": "Paroisse réformée de Château-d'Oex",
+   "Date(s)": "1751-06-10 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 15,5 x 40,4",
+   "Portée et contenu": "Mariages (1751 juin 10 - 1821 juin 30), pp. 23-135.",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 23/6 et Eb 23/10 (microfilm: RMS 1/128.609, numérique: RN-EB-23-6), pages manuscrites, non datées",
+   "Note": "Dès la page 136, pages blanches jusqu'à la fin du volume.",
+   "Cote de gestion": "RMS 1/128.611",
+   "Nom du fichier": "CH-ACV_RN-EB-23-10.pdf",
+   "Taille du fichier": "116.1 MiB"
+  },
+  "pdf": "2/4/d/24d2a364733b304174e703face7bc68ccd9fbc8ec1375b063294e2c9d32d8304/CH-ACV_RN-EB-23-10.pdf"
+ },
+ {
+  "slug": "eb-23-11",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/11",
+   "Titre": "Paroisse réformée de Château-d'Oex",
+   "Date(s)": "1804-04-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 22,8 x 36,5",
+   "Portée et contenu": "Baptêmes (1804 avril 1 - 1821juin 30), pp. 0-125.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 23/6, Eb 23/9 et Eb 23/11 (microfilm: RMS 1/128.609, numérique: RN-EB-23-6), pages manuscrites, non datées\nRépertoire incorporé des baptêmes Eb 23/11 (microfilm: RMS 1/128.611, numérique: RN-EB-23-11), pages manuscrites, non datées",
+   "Note": "De la page 126 jusqu'au répertoire incorporé, série de pages blanches.",
+   "Cote de gestion": "RMS 1/128.611",
+   "Nom du fichier": "CH-ACV_RN-EB-23-11.pdf",
+   "Taille du fichier": "204 MiB"
+  },
+  "pdf": "2/b/6/2b663de37dc9949c9cebcc3d47481a42854e9be148e8cbe7248d43e4f1c9b3e6/CH-ACV_RN-EB-23-11.pdf"
+ },
+ {
+  "slug": "eb-23-12",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/12",
+   "Titre": "Paroisse réformée de Château-d'Oex",
+   "Date(s)": "1812-01-31 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 22,6 x 37,5",
+   "Portée et contenu": "Annonces de mariages mêlées avec Mariages forains (1812 juillet 12 - 1821 juin 30), pp. 1-38a;\nBaptêmes forains (tête-bêche) (1812 janvier 31 - 1821 juin 30), pp.tête-bêche 39-83.",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 23/8 et Eb 23/12 (microfilm: RMS 1/128.609, numérique: RN-EB-23-8), pages manuscrites, non datées.",
+   "Note": "Série de pages blanches entre les mariages et les baptêmes tête-bêche.",
+   "Cote de gestion": "RMS 1/128.611",
+   "Nom du fichier": "CH-ACV_RN-EB-23-12.pdf",
+   "Taille du fichier": "96.7 MiB"
+  },
+  "pdf": "8/b/6/8b699bdfe12763672ff23f07839b561fb7febb114572dea5c2aa7c7ed51a575c/CH-ACV_RN-EB-23-12.pdf"
+ },
+ {
+  "slug": "eb-23-13",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/13",
+   "Titre": "Commune de Château-d'Oex",
+   "Date(s)": "1799-04-07 - 1817-04-27 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 18,5 x 35,5",
+   "Portée et contenu": "Naissances (1799 avril 7 - 1817 avril 27), pp. 1-219.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.611",
+   "Nom du fichier": "CH-ACV_RN-EB-23-13.pdf",
+   "Taille du fichier": "221.7 MiB"
+  },
+  "pdf": "1/7/a/17a133d56b27c3386e3d4e7ca9f611947845cfcb3a2799280207981df6c674a9/CH-ACV_RN-EB-23-13.pdf"
+ },
+ {
+  "slug": "eb-23-14",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/14",
+   "Titre": "Commune de Château-d'Oex",
+   "Date(s)": "1799-04-11 - 1817-03-13 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 17,8 x 21,6",
+   "Portée et contenu": "Mariages (1799 avril 11 - 1817 mars 13), pp. 1-82.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Dès la page 83, pages blanches jusqu'à la fin du volume.",
+   "Cote de gestion": "RMS 1/128.611",
+   "Nom du fichier": "CH-ACV_RN-EB-23-14.pdf",
+   "Taille du fichier": "46.8 MiB"
+  },
+  "pdf": "0/5/8/058a137f17f2eccb2364fba529eb1a9cb02cff93799f0c4f33f03a9c48e42e71/CH-ACV_RN-EB-23-14.pdf"
+ },
+ {
+  "slug": "eb-23-15",
+  "parent": "eb-23-1-15",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 23/15",
+   "Titre": "Commune de Château-d'Oex",
+   "Date(s)": "1799-04-28 - 1816-05-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 18,5 x 35,8",
+   "Portée et contenu": "Décès (1799 avril 28 - 1816 mai 31), pp. 1-108.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Dès la page 109, pages blanches jusqu'à la fin du volume.",
+   "Cote de gestion": "RMS 1/128.611",
+   "Nom du fichier": "CH-ACV_RN-EB-23-15.pdf",
+   "Taille du fichier": "101.9 MiB"
+  },
+  "pdf": "4/4/2/442a9158cbfea31429fc8488f88d881e1f006cce111e1fec971c2b5112e24a82/CH-ACV_RN-EB-23-15.pdf"
+ }
+]

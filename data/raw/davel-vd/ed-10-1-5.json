@@ -1,0 +1,110 @@
+[
+ {
+  "slug": "ed-10-1-5",
+  "parent": null,
+  "children": [
+   "ed-10-1",
+   "ed-10-2",
+   "ed-10-3",
+   "ed-10-4",
+   "ed-10-5"
+  ],
+  "f": {
+   "Cote": "Ed 10/1-5",
+   "Titre": "Paroisse réformée de Ballaigues.",
+   "Date(s)": "1821-07-01 - 1882-07-20 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Ballaigues:\nParoisse médiévale devenue annexe de Lignerolle à la Réformation, érigée en suffragance pastorale en 1724, redevenue annexe de Lignerolle en 1846 puis de Vallorbe en 1849, paroisse rétablie en 1862.\nRegistres dès 1725, sans discontinuité en 1846."
+  }
+ },
+ {
+  "slug": "ed-10-1",
+  "parent": "ed-10-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 10/1",
+   "Titre": "Registre de naissances 1821-1865.",
+   "Date(s)": "1821-07-01 - 1865-04-07 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30 x 41,5",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1865 avril 7);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1865 avril 7).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 10/1 (microfilm: RMS 1/1.047.255, numérique: RN-ED-10-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.047.255",
+   "Nom du fichier": "CH-ACV_RN-ED-10-1.pdf",
+   "Taille du fichier": "141.6 MiB"
+  },
+  "pdf": "https://davel-vd.ch/uploads/r/archives-cantonales-vaudoises/f/f/3/ff34366feb4cd4e87034b42fbc16e57c29f6f910f5ef9fdbb15b2e963dfb0c5d/CH-ACV_RN-ED-10-1.pdf"
+ },
+ {
+  "slug": "ed-10-2",
+  "parent": "ed-10-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 10/2",
+   "Titre": "Registre de naissances 1865-1875.",
+   "Date(s)": "1865-05-17 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,2 x 41,5",
+   "Portée et contenu": "Naissances (1865 mai 17 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1865 mai 17 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 10/2 (microfilm: RMS 1/1.047.255, numérique: RN-ED-10-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.047.255",
+   "Nom du fichier": "CH-ACV_RN-ED-10-2.pdf",
+   "Taille du fichier": "156.9 MiB"
+  },
+  "pdf": "6/a/5/6a504ad668803b954456badce6799e764202757eabe36dc3a94bf4b6d426f8da/CH-ACV_RN-ED-10-2.pdf"
+ },
+ {
+  "slug": "ed-10-3",
+  "parent": "ed-10-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 10/3",
+   "Titre": "Registre de mariages 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 29,7 x 41,5 / 27,9 x 40,3 (répertoire)",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 10/3 (microfilm: RMS 1/1.047.255, numérique: RN-ED-10-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.047.255",
+   "Nom du fichier": "CH-ACV_RN-ED-10-3.pdf",
+   "Taille du fichier": "267.7 MiB"
+  },
+  "pdf": "e/b/0/eb0c10930cc6945954be9b80718ba3bf6c03b4457b60ed0eda0f9daa16a497c9/CH-ACV_RN-ED-10-3.pdf"
+ },
+ {
+  "slug": "ed-10-4",
+  "parent": "ed-10-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 10/4",
+   "Titre": "Registre de décès 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 29,7 x 41,5 / 28,2 x 40,5 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 10/4 (microfilm: RMS 1/1.047.255, numérique: RN-ED-10-4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.047.255",
+   "Nom du fichier": "CH-ACV_RN-ED-10-4.pdf",
+   "Taille du fichier": "311.6 MiB"
+  },
+  "pdf": "1/1/f/11f703edaa5881beb006f7f3ce742a32b36eca3407c5b53ec363275d30740a23/CH-ACV_RN-ED-10-4.pdf"
+ },
+ {
+  "slug": "ed-10-5",
+  "parent": "ed-10-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 10/5",
+   "Titre": "Registre d'annonces de mariage 1821-1882.",
+   "Date(s)": "1821-07-01 - 1882-07-20 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 23 x 36,2 x 4",
+   "Portée et contenu": "Annonces de mariage (1821 juillet 1 - 1882 juillet 20).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 10/5 (microfilm: RM 299.8, numérique: RN-ED-10-5), pages manuscrites, non datées",
+   "Cote de gestion": "RM 299.8",
+   "Nom du fichier": "CH-ACV_RN-ED-10-5.pdf",
+   "Taille du fichier": "318.5 MiB"
+  },
+  "pdf": "9/1/1/9116009d2cdaeaf9d9f4e70e53057815e5e43e2ec60e10273ac79cb5af12911a/CH-ACV_RN-ED-10-5.pdf"
+ }
+]

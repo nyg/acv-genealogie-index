@@ -1,0 +1,62 @@
+[
+ {
+  "slug": "sa-613686",
+  "parent": null,
+  "text": "SB 115/108-109 Huémoz (arrondissement de l'état civil), 1910-1928 (Série)",
+  "children": [
+   "sa-614198",
+   "sa-614640"
+  ],
+  "f": {
+   "Ref. code": "SB 115/108-109",
+   "Title": "Huémoz (arrondissement de l'état civil)",
+   "Dates": "1910-1928",
+   "Creation date(s)": "1910 - 1928",
+   "Level": "Série",
+   "Importance matérielle": "2 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement (fraction de la commune d'Ollon) créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Aigle dès le 1er juin 2004. Modifié par arrêté le 17 juin 1955 et devient l'arrondissement de Villars-sur-Ollon dès le 1er juillet 1955.\nComprend:\n- Huémoz\n- Villars-sur-Ollon\n- Arveyres\n- Chesières\n- Exergillod\n- Forchex\n- La Pousaz\n- Les Combes\n- Palluyères\n- Glutières\n- Panex\n- Plambuit",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=613686",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-614198",
+  "parent": "sa-613686",
+  "text": "SB 115/108 - Mariages A 1910-1918 \\ - Pièces diverses relatives à l'état civil 1913-1914: principalement publications de promesses de mariage, divorces, rectifications de nom, 1910-1918 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/108",
+   "Title": "- Mariages A 1910-1918\n- Pièces diverses relatives à l'état civil 1913-1914: principalement publications de promesses de mariage, divorces, rectifications de nom",
+   "Dates": "1910-1918",
+   "Creation date(s)": "1910 - 1918",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=614198",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-614640",
+  "parent": "sa-613686",
+  "text": "SB 115/109 - Mariages A 1919-1928, 1919-1928 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/109",
+   "Title": "- Mariages A 1919-1928",
+   "Dates": "1919-1928",
+   "Creation date(s)": "1919 - 1928",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=614640",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

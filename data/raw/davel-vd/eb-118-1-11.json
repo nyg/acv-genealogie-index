@@ -1,0 +1,230 @@
+[
+ {
+  "slug": "eb-118-1-11",
+  "parent": null,
+  "children": [
+   "eb-118-1",
+   "eb-118-2",
+   "eb-118-3",
+   "eb-118-4",
+   "eb-118-5",
+   "eb-118-6",
+   "eb-118-7",
+   "eb-118-8",
+   "eb-118-9",
+   "eb-118-10",
+   "eb-118-11"
+  ],
+  "f": {
+   "Cote": "Eb 118/1-11",
+   "Titre": "Registres de la paroisse réformée de Rougemont avec un registre de la paroisse réformée de Rossinière",
+   "Date(s)": "1582-01-05 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Rougemont :\nParoisse médiévale réformée en 1556.\nRegistres dès 1582."
+  }
+ },
+ {
+  "slug": "eb-118-1",
+  "parent": "eb-118-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 118/1",
+   "Titre": "Paroisse réformée de Rougemont",
+   "Date(s)": "1582-01-05 - 1706-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 13,8 x 33,2 / AR: 27,1 x 37,5 (répertoire) / BR: 27 x 37,6 (répertoire)",
+   "Portée et contenu": "Baptêmes (1582 janvier 5 - 1706 décembre 26, lacunes pour les années de 1593 à 1609), pp. 0-201 bis (chacune des pages possède 1 page bis, la p. 39 de bis à X-decies);\n*- Notes chronologiques comportant en outre la liste des baillis, pp. 1 ter-1 octo.\nMariages (1609 mai 14 - 1706 décembre 31), pp.tête-bêche 0-35 bis (chacune des pages possède 1 page bis);\n*- Considérations sur le temps historique et climatique, pp. 0a1-0b2.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 118/1 (microfilm: RMS 1/128.780, numérique: RN-EB-118-1), pages manuscrites, de février 1929\nRépertoire séparé des mariages Eb 118/1 (microfilm: RMS 1/128.780, numérique: RN-EB-118-1), pages manuscrites, non datées",
+   "Note": "Toutes les pages de 0 à 201 possèdent une page bis et la page 39 à 10 subdivisions. Dans la seconde partie, les pages 0 à 35 ont une page bis.",
+   "Cote de gestion": "RMS 1/128.780",
+   "Nom du fichier": "CH-ACV_RN-EB-118-1.pdf",
+   "Taille du fichier": "483.7 MiB"
+  },
+  "pdf": "f/8/f/f8f5ca64903ae1c94641d59036172c9c96856101583a7e2820d00e8581d95f10/CH-ACV_RN-EB-118-1.pdf"
+ },
+ {
+  "slug": "eb-118-2",
+  "parent": "eb-118-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 118/2",
+   "Titre": "Paroisse réformée de Rougemont",
+   "Date(s)": "1707-01-14 - 1811-11-12 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 15,5 x 36,7 / AR: 27,1 x 37,5 (répertoire) / BR: 27 X 37,5 (répertoire)",
+   "Portée et contenu": "Baptêmes (1707 janvier 16 - 1752 mars 31), pp. 1-247; - Observations sur la rénovation du temple en 1814, 2e de couverture, p. 1; - Notes sur les événements dans la région, pp. 2-8.\nMariages (1707 janvier 14 - 1811 novembre 12), pp.tête-bêche 0-152; - Annotations, 3e de couverture; - Liste des ministres, pp. 0a-0b.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 118/2 et Eb 118/3 (microfilm: RMS 1/128.780, numérique: RN-EB-118-2), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 118/2 et Eb 118/9 (microfilm: RMS 1/128.780, RMS 1/128.781 et RMS 1/128.782, numérique: RN-EB-118-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.780",
+   "Nom du fichier": "CH-ACV_RN-EB-118-2.pdf",
+   "Taille du fichier": "494.4 MiB"
+  },
+  "pdf": "e/1/0/e1034aaf9db325f8ae3614e1fd6257e84fe9524d0c58d53a6545c5eef39f4c61/CH-ACV_RN-EB-118-2.pdf"
+ },
+ {
+  "slug": "eb-118-3",
+  "parent": "eb-118-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 118/3",
+   "Titre": "Paroisse réformée de Rougemont",
+   "Date(s)": "1752-04-01 - 1786-01-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 21,5 x 33,4",
+   "Portée et contenu": "Baptêmes (1752 avril - 1786 janvier 1), pp. 0-243.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 118/2 et Eb 118/3 (microfilm: RMS 1/128.780, numérique: RN-EB-118-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.780",
+   "Nom du fichier": "CH-ACV_RN-EB-118-3.pdf",
+   "Taille du fichier": "260.8 MiB"
+  },
+  "pdf": "b/6/8/b688c9fbd6cf968c7a477ba42d0e4521d7277514ba72b957201b4f80f27d0a28/CH-ACV_RN-EB-118-3.pdf"
+ },
+ {
+  "slug": "eb-118-4",
+  "parent": "eb-118-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 118/4",
+   "Titre": "Paroisse réformée de Rougemont",
+   "Date(s)": "1788-01-08 - 1814-07-10 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 16,7 x 32 / AR: 27,1 X 37,5 (répertoire)",
+   "Portée et contenu": "Baptêmes (1788 janvier 8 - 1814 juillet 10), pp. 0a-261.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 118/4 et Eb 118/11 (microfilm: RMS 1/128.780, numérique: RN-EB-118-4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.781",
+   "Nom du fichier": "CH-ACV_RN-EB-118-4.pdf",
+   "Taille du fichier": "250.4 MiB"
+  },
+  "pdf": "5/7/b/57bfeed3bec1797d2d148d77d2f166a197d9358c4d3fd38ad7670dc0ef721724/CH-ACV_RN-EB-118-4.pdf"
+ },
+ {
+  "slug": "eb-118-5",
+  "parent": "eb-118-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 118/5",
+   "Titre": "Paroisse réformée de Rougemont",
+   "Date(s)": "1719-01-01 - 1785-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 10,8 x 31,6 x 3",
+   "Portée et contenu": "Baptêmes forains (1719 - 1785 ), pp. 0-264;\nAnnonces de mariages (1752 - 1785), pp. tête-bêche 1-103;\n*- Interfolio entre pp. 58-59.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.781",
+   "Nom du fichier": "CH-ACV_RN-EB-118-5.pdf",
+   "Taille du fichier": "215.8 MiB"
+  },
+  "pdf": "9/3/8/938f4e6790bb8d377ae5fa27a4c9d7061c85d45ebf8fa69826af1330fe871223/CH-ACV_RN-EB-118-5.pdf"
+ },
+ {
+  "slug": "eb-118-6",
+  "parent": "eb-118-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 118/6",
+   "Titre": "Paroisse réformée de Rougemont",
+   "Date(s)": "1785-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 20,7 x 33,8",
+   "Portée et contenu": "Baptêmes forains (1785 - 1821 juin 30), pp. 0-255;\nAnnonces de mariages (1785 - 1821 juin 30), pp.tête-bêche 1-162;\n*- Un index/répertoire tête-bêche inutilisé figure en fin de volume.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.781",
+   "Nom du fichier": "CH-ACV_RN-EB-118-6.pdf",
+   "Taille du fichier": "434.5 MiB"
+  },
+  "pdf": "a/4/f/a4f7a19ca513680a9e78a4fc04d84e97823c9de74acb1ef6bb74f32e72817490/CH-ACV_RN-EB-118-6.pdf"
+ },
+ {
+  "slug": "eb-118-7",
+  "parent": "eb-118-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 118/7",
+   "Titre": "Paroisse réformée de Rougemont",
+   "Date(s)": "1708-01-03 - 1808-11-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 11,8 x 31,4/ 27,6 x 37,5 (répertoire)",
+   "Portée et contenu": "Décès (1708 janvier 3 - 1808 novembre 1), pp. 0-362;\n*- Evénements, p. 0a.",
+   "Instruments de recherche": "Répertoire séparé des décès Eb 118/7 (microfilm: RMS 1/128.781, numérique: RN-EB-118-7), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.781",
+   "Nom du fichier": "CH-ACV_RN-EB-118-7.pdf",
+   "Taille du fichier": "307.4 MiB"
+  },
+  "pdf": "f/b/c/fbc355600f0553ba694fd6ccc9d2b79b72fd20cc8b1f6d032aa4263e4bf540bd/CH-ACV_RN-EB-118-7.pdf"
+ },
+ {
+  "slug": "eb-118-8",
+  "parent": "eb-118-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 118/8",
+   "Titre": "Paroisse réformée de Rougemont",
+   "Date(s)": "1808-11-06 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 17,7 x 24 / 27 x 37,5 (répertoire)",
+   "Portée et contenu": "Décès (1808 novembre 6 - 1821 juin 30), pp. 0-93.",
+   "Instruments de recherche": "Répertoire séparé des décès Eb 118/8 (microfilm: RMS 1/128.782, numérique: RN-EB-118-8), pages manuscrites, non datées",
+   "Note": "Dès la page 94, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.782",
+   "Nom du fichier": "CH-ACV_RN-EB-118-8.pdf",
+   "Taille du fichier": "96.6 MiB"
+  },
+  "pdf": "9/6/a/96acedf3716522f908671a24e6e13bf14aaf32179479a4df381570a27e4a3584/CH-ACV_RN-EB-118-8.pdf"
+ },
+ {
+  "slug": "eb-118-9",
+  "parent": "eb-118-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 118/9",
+   "Titre": "Paroisse réformée de Rougemont",
+   "Date(s)": "1811-12-10 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 18 x 24,6",
+   "Portée et contenu": "Mariages (1811 décembre 10 - 1821 juin 30), pp. 0-32.",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 118/2 et Eb 118/9 (microfilm: RMS 1/128.780, RMS 1/128.781 et RMS 1/128.782, numérique: RN-EB-118-2), pages manuscrites, non datées",
+   "Note": "Dès la page 33, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.782",
+   "Nom du fichier": "CH-ACV_RN-EB-118-9.pdf",
+   "Taille du fichier": "22.5 MiB"
+  },
+  "pdf": "b/7/b/b7b900210c21a711601b03d12ff80b8dbf81d7bb92dd883b5a1ac40bb9e66f80/CH-ACV_RN-EB-118-9.pdf"
+ },
+ {
+  "slug": "eb-118-10",
+  "parent": "eb-118-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 118/10",
+   "Titre": "Paroisse réformée de Rossinière",
+   "Date(s)": "1816-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 18,7 x 23",
+   "Portée et contenu": "Baptêmes forains (1816 - 1821 juin 30), pp. 1-18;\nAnnonces de mariages forains (1816 - 1821 juin 30), pp.tête-bêche 1-17.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Unités de description associées": "Pour les annonces de mariages des bourgeois forains de 1759 à 1764, voir le registre Eb 117/5",
+   "Note": "Série de pages blanches, de la page 19 jusqu'à la partie tête-bêche des annonces de mariages forains.",
+   "Cote de gestion": "RMS 1/128.782",
+   "Nom du fichier": "CH-ACV_RN-EB-118-10.pdf",
+   "Taille du fichier": "23.7 MiB"
+  },
+  "pdf": "b/d/1/bd1c786801515aa9c27cb63635cd35e36225ef80afa7455d91ee36a00a29b523/CH-ACV_RN-EB-118-10.pdf"
+ },
+ {
+  "slug": "eb-118-11",
+  "parent": "eb-118-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 118/11",
+   "Titre": "Paroisse réformée de Rougemont",
+   "Date(s)": "1814-07-03 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 22 x 35",
+   "Portée et contenu": "Baptêmes (1814 juillet 3 - 1821 juin 30), pp. 0-61.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 118/4 et Eb 118/11 (microfilm: RMS 1/128.780, numérique: RN-EB-118-4), pages manuscrites, non datées",
+   "Note": "Dès la page 62, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.782",
+   "Nom du fichier": "CH-ACV_RN-EB-118-11.pdf",
+   "Taille du fichier": "64.2 MiB"
+  },
+  "pdf": "d/c/6/dc6f972de7d5c05eb8dce7ee4f985e75c9ab78282d83bf84dc55d391fda46977/CH-ACV_RN-EB-118-11.pdf"
+ }
+]

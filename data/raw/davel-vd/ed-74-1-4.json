@@ -1,0 +1,92 @@
+[
+ {
+  "slug": "ed-74-1-4",
+  "parent": null,
+  "children": [
+   "ed-74-1",
+   "ed-74-2",
+   "ed-74-3",
+   "ed-74-4"
+  ],
+  "f": {
+   "Cote": "Ed 74/1-4",
+   "Titre": "Paroisse réformée de Lignerolle.",
+   "Date(s)": "1821-07-01 - 1882-05-23 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Lignerolle :\nParoisse médiévale.\nRegistres dès 1647.\nComprend : Ballaigues (jusqu'en 1724 et 1846-1849).\nAnnexe : Les Clées."
+  }
+ },
+ {
+  "slug": "ed-74-1",
+  "parent": "ed-74-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 74/1",
+   "Titre": "Registre de naissances 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,6 x 41",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 74/1 (microfilm: RMS 1/1.044.888, numérique: RN-ED-74-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.888",
+   "Nom du fichier": "CH-ACV_RN-ED-74-1.pdf",
+   "Taille du fichier": "475.2 MiB"
+  },
+  "pdf": "d/3/9/d39a751342daa2154b1eeb767091134d98be34d78e4a0800f2ae2b341aac7e0f/CH-ACV_RN-ED-74-1.pdf"
+ },
+ {
+  "slug": "ed-74-2",
+  "parent": "ed-74-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 74/2",
+   "Titre": "Registre de mariages 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,5 x 41,2 / 28,1 x 38,9 (répertoire)",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 74/2 (microfilm: RMS 1/1.044.888, numérique: RN-ED-74-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.888",
+   "Nom du fichier": "CH-ACV_RN-ED-74-2.pdf",
+   "Taille du fichier": "319 MiB"
+  },
+  "pdf": "1/9/7/197430d7ea66c11d051392324ad0661f7660224c1fdf9d0ba287113f38bbceee/CH-ACV_RN-ED-74-2.pdf"
+ },
+ {
+  "slug": "ed-74-3",
+  "parent": "ed-74-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 74/3",
+   "Titre": "Registre de décès 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 41,3 x 30,6 / 29,2 x 38,8 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 74/3 (microfilm: RMS 1/1.044.888, numérique: RN-ED-74-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.888",
+   "Nom du fichier": "CH-ACV_RN-ED-74-3.pdf",
+   "Taille du fichier": "389.6 MiB"
+  },
+  "pdf": "2/9/3/29392849f595e981f75529d56e28aa817c7a608dfc831d52c216cc20ae2ed4b0/CH-ACV_RN-ED-74-3.pdf"
+ },
+ {
+  "slug": "ed-74-4",
+  "parent": "ed-74-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 74/4",
+   "Titre": "Registre d'annonces de mariage 1821-1882.",
+   "Date(s)": "1821-06-17 - 1882-05-23 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 24,2 x 37,2",
+   "Portée et contenu": "Annonces de mariage (1821 juin 17 - 1882 mai 23).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 74/4 (microfilm: RM 22001.17, numérique: RN-ED-74-4), pages manuscrites, non datées",
+   "Note": "Pages 1 à 199, puis 1 à 57, suit une série de pages blanches jusqu'au répertoire.",
+   "Cote de gestion": "RM 22001.17",
+   "Nom du fichier": "CH-ACV_RN-ED-74-4.pdf",
+   "Taille du fichier": "333.4 MiB"
+  },
+  "pdf": "6/1/0/61038975b01adead2daab8014978b9158a7490650d10dbf82431de2ba597f2dc/CH-ACV_RN-ED-74-4.pdf"
+ }
+]

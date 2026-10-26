@@ -1,0 +1,100 @@
+[
+ {
+  "slug": "sa-554389",
+  "parent": null,
+  "text": "SB 23/52-55 Leysin (arrondissement de l'état civil), 1876-1894 (Série)",
+  "children": [
+   "sa-590469",
+   "sa-590470",
+   "sa-590471",
+   "sa-590472"
+  ],
+  "f": {
+   "Ref. code": "SB 23/52-55",
+   "Title": "Leysin (arrondissement de l'état civil)",
+   "Dates": "1876-1894 (dates de constitution des lots qui comprennent des pièces antérieures)",
+   "Creation date(s)": "1876 - 1894",
+   "Level": "Série",
+   "Importance matérielle": "4 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 20 juillet 1994 (?) et rattaché à l'arrondissement d'Ormont-Dessous dès le 1er juillet 1994.",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=554389",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590469",
+  "parent": "sa-554389",
+  "text": "SB 23/52 - Mariages A et B 1876-1879 \\ - Naissances 1876-1879 \\ - Décès 1876-1879, 1876-1879 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/52",
+   "Title": "- Mariages A et B 1876-1879\n- Naissances 1876-1879\n- Décès 1876-1879",
+   "Dates": "1876-1879",
+   "Creation date(s)": "1876 - 1879",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590469",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590470",
+  "parent": "sa-554389",
+  "text": "SB 23/53 - Mariages A 1881-1884 \\ - Mariages B 1880-1884 \\ - Naissances 1880-1884 \\ - Décès 1880-1884, 1880-1884 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/53",
+   "Title": "- Mariages A 1881-1884\n- Mariages B 1880-1884\n- Naissances 1880-1884\n- Décès 1880-1884",
+   "Dates": "1880-1884",
+   "Creation date(s)": "1880 - 1884",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590470",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590471",
+  "parent": "sa-554389",
+  "text": "SB 23/54 - Mariages A et B 1885-1890 \\ - Naissances 1885-1890 \\ - Décès 1885-1888, 1890, 1885-1890 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/54",
+   "Title": "- Mariages A et B 1885-1890\n- Naissances 1885-1890\n- Décès 1885-1888, 1890",
+   "Dates": "1885-1890",
+   "Creation date(s)": "1885 - 1890",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590471",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590472",
+  "parent": "sa-554389",
+  "text": "SB 23/55 - Mariages A 1891, 1893-1894 \\ - Mariage B 1891-1894 \\ - Naissances 1891-1894 \\ - Décès 1891-1894, 1891-1894 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/55",
+   "Title": "- Mariages A 1891, 1893-1894\n- Mariage B 1891-1894\n- Naissances 1891-1894\n- Décès 1891-1894",
+   "Dates": "1898-1894",
+   "Creation date(s)": "1891 - 1894",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590472",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

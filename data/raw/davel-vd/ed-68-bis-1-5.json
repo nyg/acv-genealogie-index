@@ -1,0 +1,111 @@
+[
+ {
+  "slug": "ed-68-bis-1-5",
+  "parent": null,
+  "children": [
+   "ed-68-bis-1",
+   "ed-68-bis-2",
+   "ed-68-bis-3",
+   "ed-68-bis-4",
+   "ed-68-bis-5"
+  ],
+  "f": {
+   "Cote": "Ed 68 bis/1-5",
+   "Titre": "Paroisse réformée de Huémoz.",
+   "Date(s)": "1824-10-01 - 1882-07-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Fraction de la paroisse d'Ollon, constituée en suffragance pastorale en 1824, réunie à Ollon de 1846 à 1863.\nRegistres dès 1824.\nComprend une partie des hameaux d'Ollon : Huémoz, Chessières, Villars, Arveyes, Forchex, Pallueyres, les Combes, Glutières, la Pousaz, Panex, Plambuit, Exergillod."
+  }
+ },
+ {
+  "slug": "ed-68-bis-1",
+  "parent": "ed-68-bis-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 68 bis/1",
+   "Titre": "Registre de naissances 1824-1863.",
+   "Date(s)": "1824-10-01 - 1863-11-15 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31 x 41 x 4,5",
+   "Portée et contenu": "Naissances (1824 octobre 1 - 1863 novembre 15)\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1863 novembre 15).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 68bis/1 (microfilm: RMS 1/1.044.849, numérique: RN-ED-68BIS-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.849",
+   "Nom du fichier": "CH-ACV_RN-ED-68BIS-1.pdf",
+   "Taille du fichier": "589.4 MiB"
+  },
+  "pdf": "e/7/6/e763a4f14454bdb554b470ac0e74e8fa75c99cb8008484cde8eef06f2183e52c/CH-ACV_RN-ED-68BIS-1.pdf"
+ },
+ {
+  "slug": "ed-68-bis-2",
+  "parent": "ed-68-bis-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 68 bis/2",
+   "Titre": "Registre de naissances 1863-1875.",
+   "Date(s)": "1863-11-24 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,4 x 41 x 2",
+   "Portée et contenu": "Naissances (1863 novembre 24 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1863 novembre 24 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 68bis/2 (microfilm: RMS 1/1.044.849, numérique: RN-ED-68BIS-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.849",
+   "Nom du fichier": "CH-ACV_RN-ED-68BIS-2.pdf",
+   "Taille du fichier": "199 MiB"
+  },
+  "pdf": "9/d/0/9d028a1671fdf6fd46fce74aa54fee9d84f24dcc73b40459222d167e5d4127c3/CH-ACV_RN-ED-68BIS-2.pdf"
+ },
+ {
+  "slug": "ed-68-bis-3",
+  "parent": "ed-68-bis-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 68 bis/3",
+   "Titre": "Registre de mariages 1824-1875.",
+   "Date(s)": "1824-10-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,5 x 41,3 x 3,4 / 28,1 x 39 (répertoire)",
+   "Portée et contenu": "Mariages (1824 octobre 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 68bis/3 (microfilm: RMS 1/1.044.849, numérique: RN-ED-68BIS-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.849",
+   "Nom du fichier": "CH-ACV_RN-ED-68BIS-3.pdf",
+   "Taille du fichier": "352.4 MiB"
+  },
+  "pdf": "8/3/f/83f9ab19c09225fdc700b3e88c4fbc5e500842b6de724c2df77abeda0841b2ac/CH-ACV_RN-ED-68BIS-3.pdf"
+ },
+ {
+  "slug": "ed-68-bis-4",
+  "parent": "ed-68-bis-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 68 bis/4",
+   "Titre": "Registre de décès 1824-1875.",
+   "Date(s)": "1824-10-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 29,6 x 41,4 / 26,9 x 38,5 (répertoire)",
+   "Portée et contenu": "Décès (1824 octobre 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 68bis/4 (microfilm: RMS 1/1.044.849, numérique: RN-ED-68BIS-4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.849",
+   "Nom du fichier": "CH-ACV_RN-ED-68BIS-4.pdf",
+   "Taille du fichier": "446.9 MiB"
+  },
+  "pdf": "0/2/8/028ec9d3d770083822cf937a1b351efa03faff7373b43a20695abd3a3361249a/CH-ACV_RN-ED-68BIS-4.pdf"
+ },
+ {
+  "slug": "ed-68-bis-5",
+  "parent": "ed-68-bis-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 68 bis/5",
+   "Titre": "Registre d'annonces de mariage 1824-1882.",
+   "Date(s)": "1824-10-01 - 1882-07-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 25,7 x 36,1 x 4",
+   "Portée et contenu": "Annonces de mariage (1824 octobre 1 - 1882 juillet 31).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 68bis/5 (microfilm: RM 22001.13, numérique: RN-ED-68BIS-5), pages manuscrites, non datées",
+   "Note": "Série de pages blanches, de la page 232 jusqu'au répertoire.",
+   "Cote de gestion": "RM 22001.13",
+   "Nom du fichier": "CH-ACV_RN-ED-68BIS-5.pdf",
+   "Taille du fichier": "312.8 MiB"
+  },
+  "pdf": "d/3/8/d38548accf3a724e3afbdf5ca0856e57a509846e7a53c85f7bb15a733a3fdb73/CH-ACV_RN-ED-68BIS-5.pdf"
+ }
+]

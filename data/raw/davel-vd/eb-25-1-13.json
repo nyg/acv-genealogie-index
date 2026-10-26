@@ -1,0 +1,283 @@
+[
+ {
+  "slug": "eb-25-1-13",
+  "parent": null,
+  "children": [
+   "eb-25-1",
+   "eb-25-2",
+   "eb-25-3",
+   "eb-25-4",
+   "eb-25-5",
+   "eb-25-6",
+   "eb-25-7",
+   "eb-25-7-bis",
+   "eb-25-8",
+   "eb-25-9",
+   "eb-25-10",
+   "eb-25-11",
+   "eb-25-12",
+   "eb-25-13"
+  ],
+  "f": {
+   "Cote": "Eb 25/1-13",
+   "Titre": "Registres de la paroisse réformée de Cheseaux et de la commune de Bournens.",
+   "Date(s)": "1573-07-05 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Cheseaux :\nParoisse médiévale devenue annexe de Morrens en 1846 et rétablie en 1849.\nRegistres dès 1573.\nComprend : Bournens et Boussens (jusqu'en 1837), chacun avec registres propres 1765-1821 ; les Vernands (dès 1837).\nAnnexe : Sullens (jusqu'en 1837), avec registres propres 1765-1821 ; Romanel (1837-1846 et dès 1849)."
+  }
+ },
+ {
+  "slug": "eb-25-1",
+  "parent": "eb-25-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 25/1",
+   "Titre": "Paroisse réformée de Cheseaux",
+   "Date(s)": "1573-07-05 - 1614-04-28 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "4 volumes en 5 parties\nFormat LxH(cm): 15,5 x 19,5 / AR2: 28,1 x 39,4 (répertoire) / AR3: 28,2 x 39,5 (répertoire) / AR4: 28,2 x 39,5 (répertoire)",
+   "Portée et contenu": "Paroisse réformée de Cheseaux:\nBaptêmes (1575 février 13 - 1614 janvier 9), pp. 0-58;\nMariages (1573 août 2 - 1614 avril 28), pp. 59-75.\nSullens annexe de la paroisse réformée de Cheseaux:\nBaptêmes (1573 juillet 5 - 1614 avril 17), pp. 111-258;\nMariages (1574 mai 4 - 1614 mars 6), pp. 271-301;\nListe de noms sans indication d'objets, pp. 310-314.",
+   "Instruments de recherche": "Table des matière incorporée Eb 25/1 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR1), page manuscrite, non datée, page 318\nRépertoire séparé des baptêmes Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR2), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/5, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/10, Eb 25/11 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR3), pages manuscrites, non datées\nRépertoire séparé des décès Eb 25/1, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.614",
+   "Nom du fichier": "CH-ACV_RN-EB-25-1.pdf",
+   "Taille du fichier": "405.7 MiB"
+  },
+  "pdf": "4/4/f/44f7c0505a90902cd1a5d4dca8ea9b9b577e6aee411e18185c8a2b68ce095fcd/CH-ACV_RN-EB-25-1.pdf"
+ },
+ {
+  "slug": "eb-25-2",
+  "parent": "eb-25-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 25/2",
+   "Titre": "Paroisse réformée de Cheseaux",
+   "Date(s)": "1626-06-18 - 1693-01-22 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 6 parties\nFormat LxH(cm): 13,2 x 16,9",
+   "Portée et contenu": "Paroisse réformée de Cheseaux :\nBaptêmes (1626 juillet 13 - 1630 janvier), pp. 1-4;\nBaptêmes (1652 décembre 5 - 1676 juillet 30), pp. 19-39;\nMariages (1627 mars 13 - 1676 février 17), pp. 67-74.\nSullens annexe de la paroisse réformée de Sullens :\nBaptêmes (1626 juin 18 - 1676 juillet 30), pp. 79-123;\nMariages (1626 juillet 10 - 1676 juin 26), pp. 145-154.\nParoisse réformée de Cheseaux avec Sullens :\nBaptêmes (1676 octobre 1 - 1693 janvier 22), pp. 169-214;\nMariages (1676 décembre 28 - 1693 janvier), pp. 170-215.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR2), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/5, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/10, Eb 25/11 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR3), pages manuscrites, non datées",
+   "Note": "Pages blanches entre les parties.",
+   "Cote de gestion": "RMS 1/128.614",
+   "Nom du fichier": "CH-ACV_RN-EB-25-2.pdf",
+   "Taille du fichier": "57.2 MiB"
+  },
+  "pdf": "b/5/d/b5db414a1693c4a02435e3814bc3284c7ef1a61e37a08ac660c3d48dd0046391/CH-ACV_RN-EB-25-2.pdf"
+ },
+ {
+  "slug": "eb-25-3",
+  "parent": "eb-25-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 25/3",
+   "Titre": "Paroisse réformée de Cheseaux",
+   "Date(s)": "1693-01-22 - 1725-01-14 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 3 parties\nFormat LxH(cm): 16,8 x 24",
+   "Portée et contenu": "Paroisse réformée de Cheseaux avec Sullens :\nBaptêmes (1693 janvier 22 - 1725 janvier 14), pp. 1-107 et p.tête-bêche 227;\nMariages (tête-bêche) (1693 janvier - 1724 novembre 30), pp.tête-bêche 201-218 et 221-226 et 227;\nDécès (tête-bêche) (1708 août 5 - 1710 février 6), pp.tête-bêche 219-221.",
+   "Instruments de recherche": "Répertoire incorporé de Eb 25/3 (microfilm: RMS 1/128.614, numérique: RN-EB-25-3), page manuscrite, non datées\nRépertoire séparé des baptêmes Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR2), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/5, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/10, Eb 25/11 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.614",
+   "Nom du fichier": "CH-ACV_RN-EB-25-3.pdf",
+   "Taille du fichier": "79.1 MiB"
+  },
+  "pdf": "a/e/d/aeda2efd571b8698816b734695d2cad63d536459563d6592de3c5c999f9f4835/CH-ACV_RN-EB-25-3.pdf"
+ },
+ {
+  "slug": "eb-25-4",
+  "parent": "eb-25-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 25/4",
+   "Titre": "Paroisse réformée de Cheseaux",
+   "Date(s)": "1725-02-23 - 1750-11-05 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 3 parties\nFormat LxH(cm): 17 x 23,3",
+   "Portée et contenu": "Paroisse réformée de Cheseaux avec Sullens :\nBaptêmes (1725 février 23 - 1747 septembre 3), pp. 1-26 et 30-89;\nDécès (1729 juillet - 1750 novembre 5), pp. 27-29 et pp.tête-bêche 11-29;\nMariages (tête-bêche) (1725 mars 2 - 1729 février 11), pp.tête-bêche 1-8.",
+   "Instruments de recherche": "Répertoire incorporé Eb 25/4 (microfilm: RMS 1/128.614, numérique: RN-EB-25-4), pages manuscrites, non datées\nRépertoire séparé des baptêmes Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR2), pages manuscrites, non datées\nRépertoire séparé des décès Eb 25/1, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR4), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/5, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/10, Eb 25/11 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.614",
+   "Nom du fichier": "CH-ACV_RN-EB-25-4.pdf",
+   "Taille du fichier": "76.1 MiB"
+  },
+  "pdf": "3/4/d/34dc4f2638c06a27b37541896ab72e80f93aae2c9fed4389d04b44171bfe4aaa/CH-ACV_RN-EB-25-4.pdf"
+ },
+ {
+  "slug": "eb-25-5",
+  "parent": "eb-25-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 25/5",
+   "Titre": "Paroisse réformée de Cheseaux",
+   "Date(s)": "1729-06-15 - 1808-01-14 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 4 parties\nFormat LxH(cm): 17,2 x 23 / 28,2 x 39,5 (répertoire)",
+   "Portée et contenu": "Paroisse réformée de Cheseaux avec Sullens :\nMariages (1729 juin 15 - 1764), pp. 3-34.\nParoisse réformée de Cheseaux :\nMariages (1765 - 1796), pp. 35-51;\nAnnonces de mariage (1797 - 1808 janvier 14), pp. 51-70.\nParoisse réformée de Cheseaux avec Sullens :\nCatéchumènes (tête-bêche) (1729 - 1764), pp.tête-bêche 1-28;\nParoisse réformée de Cheseaux :\nCatéchumènes (tête-bêche) (1765 - 1808), pp.tête-bêche 28-48.",
+   "Instruments de recherche": "Répertoire incorporé Eb 25/5 (microfilm: RMS 1/128.614, numérique: RN-EB-25-5), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/5, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/10, Eb 25/11 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.614",
+   "Nom du fichier": "CH-ACV_RN-EB-25-5.pdf",
+   "Taille du fichier": "74.8 MiB"
+  },
+  "pdf": "f/5/6/f56ecb42f944df1b514726204050d9d8ed608302e50bf783d0e26c6d2e32d6f5/CH-ACV_RN-EB-25-5.pdf"
+ },
+ {
+  "slug": "eb-25-6",
+  "parent": "eb-25-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 25/6",
+   "Titre": "Sullens annexe de la paroisse réformée de Cheseaux",
+   "Date(s)": "1765-01-06 - 1812-07-17 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 4 parties\nFormat LxH(cm): 19,9 x 25,3",
+   "Portée et contenu": "Baptêmes (1765 janvier 6 - 1812 mars 29), pp. 0-66 et 86-116;\nCatéchumènes (1765 - 1812), pp. 67-85;\nDécès (tête-bêche) (1765 janvier 4 - 1812 avril 11), pp.tête-bêche 0-42;\nMariages (tête-bêche) (1766 mars 13 - 1812 juillet 17), pp.tête-bêche 51-78.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR2), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes\nRépertoire séparé des mariages Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/5, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/10, Eb 25/11 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR3), pages manuscrites, non datées\nRépertoire séparé des décès Eb 25/1, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.614",
+   "Nom du fichier": "CH-ACV_RN-EB-25-6.pdf",
+   "Taille du fichier": "155.2 MiB"
+  },
+  "pdf": "9/6/a/96af17f3287ec28ae519f57196a91a1cb0fbedfc7ad28b7270c8134353a009ca/CH-ACV_RN-EB-25-6.pdf"
+ },
+ {
+  "slug": "eb-25-7",
+  "parent": "eb-25-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 25/7",
+   "Titre": "Bournens annexe de la paroisse réformée de Cheseaux",
+   "Date(s)": "1765-01-17 - 1821-07-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 4 parties\nFormat LxH(cm): 19,8 x 25",
+   "Portée et contenu": "Baptêmes (1765 janvier 17 - 1821 juin 30), pp. 1-65, 70 et 100-105;\nCatéchumènes (1765 Pâques - 1821 juillet 1), pp. 71-87;\nDécès (tête-bêche) (1765 décembre 17 - 1821 juin 30), pp.tête-bêche 1-29;\nMariages (tête-bêche) (1766 janvier 1 - 1821 juin 30), pp.tête-bêche 51-70.\n*L'interfolio 32 a été décacheté pour permettre le projet de numérisation 2014- 2017. L'annexe volante a été réinsérée à sa place correspondante.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR2), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes\nRépertoire séparé des décès Eb 25/1, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR4), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/5, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/10, Eb 25/11 et Eb 25/13 (microfilm: RMS 1/128.614, numérique: RN-EB-25-1_AR3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.614",
+   "Nom du fichier": "CH-ACV_RN-EB-25-7.pdf",
+   "Taille du fichier": "100.7 MiB"
+  },
+  "pdf": "d/a/a/daa7d2156309737aa71426e270301f3be133af0b5e5df6229980921f2e019cad/CH-ACV_RN-EB-25-7.pdf"
+ },
+ {
+  "slug": "eb-25-7-bis",
+  "parent": "eb-25-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 25/7 bis",
+   "Titre": "Commune de Bournens",
+   "Date(s)": "1799-09-15 - 1823-02-23 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 3 parties\nFormat LxH(cm): 20 x 25,2",
+   "Portée et contenu": "Baptêmes (1799 octobre 13 - 1823 février 23), pp. 0-31;\nAnnonces de mariages et Mariages (tête-bêche) (1799 septembre 15 - 1819 avril 30), pp.tête-bêche 1-13;\nDécès (tête-bêche) (1800 avril 14 - 1819 janvier 12), pp.tête-bêche 15-32.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.614",
+   "Nom du fichier": "CH-ACV_RN-EB-25-7BIS.pdf",
+   "Taille du fichier": "41.8 MiB"
+  },
+  "pdf": "e/d/9/ed9688e0e566ed8a64d3fc7dbb60ff4a362a63bcf4aaf5ea2e3adbdd8412d479/CH-ACV_RN-EB-25-7BIS.pdf"
+ },
+ {
+  "slug": "eb-25-8",
+  "parent": "eb-25-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 25/8",
+   "Titre": "Boussens annexe de la paroisse réformée de Cheseaux",
+   "Date(s)": "1765-03-25 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 4 parties\nFormat LxH(cm): 19,4 x 25",
+   "Portée et contenu": "Baptêmes (1765 juin 24 - 1819 octobre 21), pp. 0-65, 70 et 101-107;\nCatéchumènes (1765 mars 25 - 1821 avril 15), pp. 71-84;\nDécès (tête-bêche) (1765 novembre 5 - 1821 juin 30), pp.tête-bêche 1-21;\nMariages (tête-bêche) (1765 août 15 - 1821 juin 30), pp.tête-bêche 51-71.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.615, numérique: RN-EB-25-1_AR2), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes\nRépertoire séparé des décès Eb 25/1, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.615, numérique: RN-EB-25-1_AR4), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/5, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/10, Eb 25/11 et Eb 25/13 (microfilm: RMS 1/128.615, numérique: RN-EB-25-1_AR3), pages manuscrites, non datées",
+   "Note": "Reliure endommagée sur la tranche.",
+   "Cote de gestion": "RMS 1/128.615",
+   "Nom du fichier": "CH-ACV_RN-EB-25-8.pdf",
+   "Taille du fichier": "101.2 MiB"
+  },
+  "pdf": "b/7/b/b7b3b0de783728ae392b5557771c12fe0029151d4563235419532337312b966e/CH-ACV_RN-EB-25-8.pdf"
+ },
+ {
+  "slug": "eb-25-9",
+  "parent": "eb-25-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 25/9",
+   "Titre": "Paroisse réformée de Cheseaux",
+   "Date(s)": "1747-10-08 - 1809-10-23 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 4 parties\nFormat LxH(cm): 18,4 x 25,4",
+   "Portée et contenu": "Paroisse réformée de Cheseaux avec Sullens :\nBaptêmes (1747 octobre 8 - 1764 décembre 30), pp. 0-78;\nDécès (tête-bêche) (1751 janvier 4 - 1764 juillet 9), pp.tête-bêche 0-18.\nParoisse réformée de Cheseaux :\nBaptêmes (1765 janvier 20 - 1809 mai 14), pp. 79-216;\nDécès (tête-bêche) (1765 janvier 2 - 1809 octobre 23), pp.tête-bêche 19-68.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.615, numérique: RN-EB-25-1_AR2), pages manuscrites, non datées\nRépertoire séparé des décès Eb 25/1, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.615, numérique: RN-EB-25-1_AR4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.615",
+   "Nom du fichier": "CH-ACV_RN-EB-25-9.pdf",
+   "Taille du fichier": "193.9 MiB"
+  },
+  "pdf": "3/2/f/32fd58f49d46e24571530da5a9fdd9b6cf58597d891c1b1a5142952b37a5bb28/CH-ACV_RN-EB-25-9.pdf"
+ },
+ {
+  "slug": "eb-25-10",
+  "parent": "eb-25-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 25/10",
+   "Titre": "Paroisse réformée de Cheseaux",
+   "Date(s)": "1799-08-11 - 1811-10-28 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 18,5 x 23,5",
+   "Portée et contenu": "Sullens, annexe de la paroisse réformée de Cheseaux:\nAnnonces de mariages célébrés ailleurs (1799 août 11 - 1811 octobre 28), pp. 37-90.\nParoisse réformée de Cheseaux:\nAnnonces de mariages célébrés ailleurs (tête-bêche) (1801 janvier 1 - 1811 octobre 28), pp.tête-bêche 0-36.",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/5, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/10, Eb 25/11 et Eb 25/13 (microfilm: RMS 1/128.615, numérique: RN-EB-25-1_AR3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.615",
+   "Nom du fichier": "CH-ACV_RN-EB-25-10.pdf",
+   "Taille du fichier": "61.2 MiB"
+  },
+  "pdf": "9/0/1/9012374389237ef5a4ed536e4c4536b7cb1493711e590df47aed3d6d26e9c297/CH-ACV_RN-EB-25-10.pdf"
+ },
+ {
+  "slug": "eb-25-11",
+  "parent": "eb-25-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 25/11",
+   "Titre": "Paroisse réformée de Cheseaux",
+   "Date(s)": "1809-03-25 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 19 x 23",
+   "Portée et contenu": "Mariages (1809 novembre 2 - 1821 juin 30), pp. 0-39;\nCatéchumènes (tête-bêche) (1809 mars 25 - 1875), pp.tête-bêche 0-116.",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/5, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/10, Eb 25/11 et Eb 25/13 (microfilm: RMS 1/128.615, numérique: RN-EB-25-1_AR3), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes",
+   "Cote de gestion": "RMS 1/128.615",
+   "Nom du fichier": "CH-ACV_RN-EB-25-11.pdf",
+   "Taille du fichier": "100.2 MiB"
+  },
+  "pdf": "2/3/d/23d8af18c1fb8179cb791eafd64dcdee904a9c3f7cc286bb93185bf1461d4eff/CH-ACV_RN-EB-25-11.pdf"
+ },
+ {
+  "slug": "eb-25-12",
+  "parent": "eb-25-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 25/12",
+   "Titre": "Paroisse réformée de Cheseaux",
+   "Date(s)": "1809-07-29 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 21,5 x 13",
+   "Portée et contenu": "Baptêmes (1809 juillet 29 - 1821 juin 30), pp. 0-47;\nDécès (tête-bêche) (1809 décembre 19 - 1821 juin 30), pp.tête-bêche 0-17.",
+   "Instruments de recherche": "Répertoire (table) incorporé des baptêmes Eb 25/12 (microfilm: RMS 1/128.615, numérique: RN-EB-25-12_AR1), pages manuscrites, non datées\nRépertoire séparé des décès Eb 25/1, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.615, numérique: RN-EB-25-1_AR4), pages manuscrites, non datées\nRépertoire séparé des baptêmes Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.615, numérique: RN-EB-25-1_AR2), pages manuscrites, non datées\nRépertoire (table) incorporé des décès Eb 25/12 (microfilm: RMS 1/128.615, numérique: RN-EB-25-12_AR3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.615",
+   "Nom du fichier": "CH-ACV_RN-EB-25-12.pdf",
+   "Taille du fichier": "72.5 MiB"
+  },
+  "pdf": "2/c/9/2c9744e0cca2c38a281edd8a81bbbf79dba7c5c441dde0a67df7f625dfaa4394/CH-ACV_RN-EB-25-12.pdf"
+ },
+ {
+  "slug": "eb-25-13",
+  "parent": "eb-25-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 25/13",
+   "Titre": "Sullens annexe de la paroisse réformée de Cheseaux",
+   "Date(s)": "1812-03-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 4 parties\nFormat LxH(cm): 20,4 x 24,5",
+   "Portée et contenu": "Baptêmes (1812 mars 1 - 1821 juin 30), pp. 0-26 et 35-39 et 67-68;\nCatéchumènes (1812 mars 25 - 1821), pp. 27-32;\nDécès (tête-bêche) (1812 avril 12 - 1821 juin 30), pp.tête-bêche 0-12;\nMariages (tête-bêche) (1812 juillet 17 - 1821 juin 30), pp.tête-bêche 21-48 et p. tête-bêche 16.",
+   "Instruments de recherche": "Répertoire incorporé des baptêmes Eb 25/13 (microfilm: RMS 1/128.615, numérique: RN-EB-25-13), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes\nRépertoire séparé des décès Eb 25/1, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.615, numérique: RN-EB-25-1_AR4), pages manuscrites, non datées\nRépertoire séparé des baptêmes Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/9, Eb 25/12 et Eb 25/13 (microfilm: RMS 1/128.615, numérique: RN-EB-25-1_AR2), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 25/1, Eb 25/2, Eb 25/3, Eb 25/4, Eb 25/5, Eb 25/6, Eb 25/7, Eb 25/8, Eb 25/10, Eb 25/11 et Eb 25/13 (microfilm: RMS 1/128.615, numérique: RN-EB-25-1_AR3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.615",
+   "Nom du fichier": "CH-ACV_RN-EB-25-13.pdf",
+   "Taille du fichier": "72.7 MiB"
+  },
+  "pdf": "f/2/4/f24e5a94c6277eadc83c727c392aa7655d6998ceea6ffceb97730ca147880fdd/CH-ACV_RN-EB-25-13.pdf"
+ }
+]

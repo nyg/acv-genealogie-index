@@ -1,0 +1,95 @@
+[
+ {
+  "slug": "eb-72-1-4",
+  "parent": null,
+  "children": [
+   "eb-72-1",
+   "eb-72-2",
+   "eb-72-3",
+   "eb-72-4"
+  ],
+  "f": {
+   "Cote": "Eb 72/1-4",
+   "Titre": "Registres de la paroisse réformée de Leysin et de la commune de Leysin.",
+   "Date(s)": "1702-07-28 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Leysin :\nChapelle médiévale dépendant d'Aigle, érigée en paroisse en 1702.\nRegistres dès 1702."
+  }
+ },
+ {
+  "slug": "eb-72-1",
+  "parent": "eb-72-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 72/1",
+   "Titre": "Paroisse réformée de Leysin",
+   "Date(s)": "1702-07-28 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volumes en 2 parties\nFormat LxH(cm): 21,6 x 31,2",
+   "Portée et contenu": "Baptêmes (1702 juillet 28 - 1821 juin 30), pp. 1-211;\nMariages (1703 décembre 14 - 1821 juin 30) (en tête-bêche), pp. tête-bêche 1-68.",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Note": "Série de pages blanches, de la page 212 jusqu'aux mariages tête-bêche.\nA la page 139, mention d'une importante avalanche le 11 février 1793.",
+   "Cote de gestion": "RMS 1/128.695",
+   "Nom du fichier": "CH-ACV_RN-EB-72-1.pdf",
+   "Taille du fichier": "297.4 MiB"
+  },
+  "pdf": "4/b/d/4bd71fee745599cc1c4b108ff1e94b726a68c127d961c34c1c588955883d0f9c/CH-ACV_RN-EB-72-1.pdf"
+ },
+ {
+  "slug": "eb-72-2",
+  "parent": "eb-72-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 72/2",
+   "Titre": "Paroisse réformée de Leysin",
+   "Date(s)": "1702-11-08 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 22,9 x 32",
+   "Portée et contenu": "Décès (1702 novembre 8 - 1821 juin 30), pp. 0a-119, et p.tête-bêche 120.\n*- Interfolio p. 119 a\nEgalement: liste des pasteurs de la paroisse.",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Note": "Série de pages blanches, après la page 119 jusqu'à l'avant-dernière page du registre.\nAu début et à la fin du registre, mentions d'un incendie le 3 septembre 1755, d'une avalanche en février 1793, d'un ouragan le 3 juillet 1804, d'une tempête le 2 décembre 1806, d'un incendie dû à la foudre le 23 septembre 1807.",
+   "Cote de gestion": "RMS 1/128.695",
+   "Nom du fichier": "CH-ACV_RN-EB-72-2.pdf",
+   "Taille du fichier": "132.4 MiB"
+  },
+  "pdf": "3/1/2/312f65ce4d77ff5ba8bab614fd8aafc8b47898fc442f228cd46a38eb08f7aaf7/CH-ACV_RN-EB-72-2.pdf"
+ },
+ {
+  "slug": "eb-72-3",
+  "parent": "eb-72-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 72/3",
+   "Titre": "Commune de Leysin",
+   "Date(s)": "1803-10-22 - 1820-11-26 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 21,5 x 34",
+   "Portée et contenu": "Naissances et Baptêmes (1803 octobre 22 - 1820 novembre 26) (Registre baptistaire pour la municipalité de Leysin), pp. 0-38.",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Note": "Dès la page 39, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RM 22006.13",
+   "Nom du fichier": "CH-ACV_RN-EB-72-3.pdf",
+   "Taille du fichier": "46 MiB"
+  },
+  "pdf": "7/7/7/7770a30c8f94b9aa268dafde9b1a669debdbe5231610879a657af427efbac148/CH-ACV_RN-EB-72-3.pdf"
+ },
+ {
+  "slug": "eb-72-4",
+  "parent": "eb-72-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 72/4",
+   "Titre": "Commune de Leysin",
+   "Date(s)": "1801-01-01 - 1820-11-21 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 18,1 x 21,5",
+   "Portée et contenu": "Mariages (1803 octobre 28 - 1820 février 15), pp. 1-26;\nDécès (1803 octobre 8 - 1820 novembre 21) (en tête-bêche), pp. 0-37.\nAvant les décès : \"extraits des actes stipulés par divers notaires\", pour la perception des droits de mutation (1801-1803).",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Note": "Série de pages blanches, de la page 27 jusqu'aux décès tête-bêche.",
+   "Cote de gestion": "RM 22006.13",
+   "Nom du fichier": "CH-ACV_RN-EB-72-4.pdf",
+   "Taille du fichier": "40.2 MiB"
+  },
+  "pdf": "7/c/6/7c6bd1a7a7a2b23e3e8cf48b58583f996862f550e9ba8c243f4fbe439341238e/CH-ACV_RN-EB-72-4.pdf"
+ }
+]

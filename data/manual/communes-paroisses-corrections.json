@@ -1,0 +1,9 @@
+{
+ "Prilly": {"description": "Prilly [110]", "parishes": ["110"]},
+ "Pulh": {"locality": "Pully", "description": "Pully [112]", "parishes": ["112"]},
+ "Salaz(Oll on)": {"locality": "Salaz (Ollon)", "description": "Ollon [92]", "parishes": ["92"]},
+ "Sentier (Le) (Le Chenit)": {"description": "Le Sentier [126]", "parishes": ["126"]},
+ "Jouxtens-Mézery": {"description": "Prilly [110]", "parishes": ["110"]},
+ "Lavey (aujourd'hui Lavey-Morcles)": {"description": "Bex [15] dès 1529", "parishes": ["15"]},
+ "Mordes 1529 (aujourd'hui Lavey-Morcles)": {"locality": "Morcles (aujourd'hui Lavey-Morcles)", "description": "Bex [15] dès 1529", "parishes": ["15"]}
+}

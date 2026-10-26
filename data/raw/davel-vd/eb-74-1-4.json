@@ -1,0 +1,92 @@
+[
+ {
+  "slug": "eb-74-1-4",
+  "parent": null,
+  "children": [
+   "eb-74-1",
+   "eb-74-2",
+   "eb-74-3",
+   "eb-74-4"
+  ],
+  "f": {
+   "Cote": "Eb 74/1-4",
+   "Titre": "Registres de la paroisse réformée de Lignerolle.",
+   "Date(s)": "1647-05-02 - 1870-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Lignerolle :\nParoisse médiévale.\nRegistres dès 1647.\nComprend : Ballaigues (jusqu'en 1724 et 1846-1849).\nAnnexe : Les Clées."
+  }
+ },
+ {
+  "slug": "eb-74-1",
+  "parent": "eb-74-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 74/1",
+   "Titre": "Paroisse réformée de Lignerolle",
+   "Date(s)": "1647-05-02 - 1693-08-20 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 10,5 x 15,5",
+   "Portée et contenu": "Baptêmes (1647 mai 2 - 1693 août 20), pp. 0-236;\nMariages (1647 mai 30 - 1693 mars 31) (en tête-bêche), pp. 299-334.",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Cote de gestion": "RMS 1/128.698",
+   "Nom du fichier": "CH-ACV_RN-EB-74-1.pdf",
+   "Taille du fichier": "82.3 MiB"
+  },
+  "pdf": "5/b/3/5b37d58dfa44c4d5c48e56ee7ad5565198355017be4cfb085b9a8e15c82bd177/CH-ACV_RN-EB-74-1.pdf"
+ },
+ {
+  "slug": "eb-74-2",
+  "parent": "eb-74-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 74/2",
+   "Titre": "Paroisse réformée de Lignerolle",
+   "Date(s)": "1693-08-24 - 1747-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 3 parties\nFormat LxH(cm): 16,3 x 21",
+   "Portée et contenu": "Baptêmes (1693 août 24 - 1747 septembre 29), pp. 1-265;\nMariages (1698 novembre 11 - 1747 novembre 7, lacune pour la période du 24 mars 1724 au 20 mai 1733) (en tête-bêche), pp. 1-36;\nCatéchumènes (1705 septembre 3 - 1747 Noël), pp.tête-bêche 39-62.",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Cote de gestion": "RMS 1/128.698",
+   "Nom du fichier": "CH-ACV_RN-EB-74-2.pdf",
+   "Taille du fichier": "176.8 MiB"
+  },
+  "pdf": "b/a/8/ba8979f9ae97dfb95f6a8b236ed4a7b4951996e241b22c171a8f6e832d7436dc/CH-ACV_RN-EB-74-2.pdf"
+ },
+ {
+  "slug": "eb-74-3",
+  "parent": "eb-74-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 74/3",
+   "Titre": "Paroisse réformée de Lignerolle",
+   "Date(s)": "1728-01-10 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 18,8 x 20,6",
+   "Portée et contenu": "Décès aux Clées (1728 janvier 10 - 1821 juin 30), pp. 0-61;\nDécès à Lignerolles (1729 février 14 - 1821 juin 30) (en tête-bêche), pp. 0-80.",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Note": "Série de pages blanches entre les deux parties du volume.",
+   "Cote de gestion": "RMS 1/128.698",
+   "Nom du fichier": "CH-ACV_RN-EB-74-3.pdf",
+   "Taille du fichier": "75.9 MiB"
+  },
+  "pdf": "1/4/9/149ced0382267309853ed79272638d84537eee0b891b0a709a2239f400b411b2/CH-ACV_RN-EB-74-3.pdf"
+ },
+ {
+  "slug": "eb-74-4",
+  "parent": "eb-74-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 74/4",
+   "Titre": "Paroisse réformée de Lignerolle",
+   "Date(s)": "1747-12-17 - 1869-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 4 parties\nFormat LxH(cm): 21,5 x 34",
+   "Portée et contenu": "Baptêmes (1747 décembre 17 - 1821 juin 30), pp. 0-195;\n*- Interfolio entre pp. 28-29;\nMariages (1796 février 25 - 1821 juin 30), pp. 203-251;\nCatéchumènes (1822 - 1869 / 1748 - 1821), pp. 253-338;\nMariages et annonces de mariages mêlés (1748 juillet 2 - 1796 février 25), pp. 339-374.",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Cote de gestion": "RMS 1/128.698",
+   "Nom du fichier": "CH-ACV_RN-EB-74-4.pdf",
+   "Taille du fichier": "401 MiB"
+  },
+  "pdf": "8/e/8/8e8c98b70070190a73bdbe30f8f0266ffce2e416a33f5b46b5ffd6d9909cb53f/CH-ACV_RN-EB-74-4.pdf"
+ }
+]

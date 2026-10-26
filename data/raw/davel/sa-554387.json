@@ -1,0 +1,62 @@
+[
+ {
+  "slug": "sa-554387",
+  "parent": null,
+  "text": "SB 23/45-46 Gryon (arrondissement de l'état civil), 1876-1894 (Série)",
+  "children": [
+   "sa-590444",
+   "sa-590445"
+  ],
+  "f": {
+   "Ref. code": "SB 23/45-46",
+   "Title": "Gryon (arrondissement de l'état civil)",
+   "Dates": "1876-1894 (dates de constitution des lots qui comprennent des pièces antérieures)",
+   "Creation date(s)": "1876 - 1894",
+   "Level": "Série",
+   "Importance matérielle": "2 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Aigle dès le 1er juin 2004.",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=554387",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590444",
+  "parent": "sa-554387",
+  "text": "SB 23/45 - Mariages A 1876, 1879-1883 \\ - Mariages B 1876-1879, 1881-1883 \\ - Naissances 1876-1883 \\ - Décès 1876, 1878-1881, 1883, 1876-1883 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/45",
+   "Title": "- Mariages A 1876, 1879-1883\n- Mariages B 1876-1879, 1881-1883\n- Naissances 1876-1883\n- Décès 1876, 1878-1881, 1883",
+   "Dates": "1876-1883",
+   "Creation date(s)": "1876 - 1883",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590444",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590445",
+  "parent": "sa-554387",
+  "text": "SB 23/46 - Mariages A 1884, 1886-1887, 1889-1894 \\ - Mariages B 1884-1889, 1891-1894 \\ - Naissances 1884-1894 \\ - Décès 1884-1894, 1884-1894 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/46",
+   "Title": "- Mariages A 1884, 1886-1887, 1889-1894\n- Mariages B 1884-1889, 1891-1894\n- Naissances 1884-1894\n- Décès 1884-1894",
+   "Dates": "1884-1894",
+   "Creation date(s)": "1884 - 1894",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590445",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

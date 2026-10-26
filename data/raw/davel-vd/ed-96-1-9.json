@@ -1,0 +1,188 @@
+[
+ {
+  "slug": "ed-96-1-9",
+  "parent": null,
+  "children": [
+   "ed-96-1",
+   "ed-96-2",
+   "ed-96-3",
+   "ed-96-4",
+   "ed-96-5",
+   "ed-96-6",
+   "ed-96-7",
+   "ed-96-8",
+   "ed-96-9"
+  ],
+  "f": {
+   "Cote": "Ed 96/1-9",
+   "Titre": "Paroisse réformée d'Ormont-Dessous.",
+   "Date(s)": "1821-07-01 - 1882-07-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse d'Ormont-Dessous :\nFraction de la paroisse médiévale des Ormonts réformée en 1529.\nRegistres de remplacement 1627-1821, la cure du Sépey ayant brûlé en 1866, puis dès 1821, tenus en 1845-1846 par le pasteur de Leysin."
+  }
+ },
+ {
+  "slug": "ed-96-1",
+  "parent": "ed-96-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 96/1",
+   "Titre": "Registre de naissances 1821-1842.",
+   "Date(s)": "1821-07-01 - 1842-11-20 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,4 x 41,1 x 5,3",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1842 novembre 20);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1842 novembre 20).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 96/1 (microfilm: RMS 1/1.048.044, numérique: RN-ED-96-1), pages manuscrites, non datées",
+   "Note": "Onglets de 1822 et 1823 arrachés.",
+   "Cote de gestion": "RMS 1/1.048.044",
+   "Nom du fichier": "CH-ACV_RN-ED-96-1.pdf",
+   "Taille du fichier": "711.8 MiB"
+  },
+  "pdf": "f/0/d/f0d8c3371029ba12c0d91217b5d0c861f9b75a60f07b79a856eaee3316ec3d7f/CH-ACV_RN-ED-96-1.pdf"
+ },
+ {
+  "slug": "ed-96-2",
+  "parent": "ed-96-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 96/2",
+   "Titre": "Registre de naissances 1842-1866.",
+   "Date(s)": "1842-12-02 - 1866-10-20 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,4 x 41",
+   "Portée et contenu": "Naissances (1842 décembre 2 - 1866 octobre 20);\nBaptêmes de l'Eglise évangélique réformée (1842 décembre 2 - 1866 octobre 20).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 96/2 (microfilm: RMS 1/1.048.044, numérique: RN-ED-96-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.044",
+   "Nom du fichier": "CH-ACV_RN-ED-96-2.pdf",
+   "Taille du fichier": "580.6 MiB"
+  },
+  "pdf": "3/e/0/3e073d9ba4c2daf33b664f177f1b3d872cc2dca082e6bf4d1d15088a25e69fa9/CH-ACV_RN-ED-96-2.pdf"
+ },
+ {
+  "slug": "ed-96-3",
+  "parent": "ed-96-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 96/3",
+   "Titre": "Registre de naissances 1866-1875.",
+   "Date(s)": "1866-10-28 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,3 x 41,7",
+   "Portée et contenu": "Naissances (1866 octobre 28 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1866 octobre 28 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 96/3 (microfilm: RMS 1/1.048.044, numérique: RN-ED-96-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.044",
+   "Nom du fichier": "CH-ACV_RN-ED-96-3.pdf",
+   "Taille du fichier": "333.7 MiB"
+  },
+  "pdf": "c/c/c/cccea2ef9d5703f3238d231ad397546311b3f3dc20000fb9e6565f312b12550f/CH-ACV_RN-ED-96-3.pdf"
+ },
+ {
+  "slug": "ed-96-4",
+  "parent": "ed-96-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 96/4",
+   "Titre": "Registre de mariages 1821-1850.",
+   "Date(s)": "1821-07-01 - 1850-01-18 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31,1 x 41,2",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1850 janvier 18).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 96/4 (microfilm: RMS 1/1.048.045, numérique: RN-ED-96-4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.045",
+   "Nom du fichier": "CH-ACV_RN-ED-96-4.pdf",
+   "Taille du fichier": "625.2 MiB"
+  },
+  "pdf": "f/c/c/fccbb76bcd1735661478fe37376e787a87e1937dfed16eecf648f277466b76a3/CH-ACV_RN-ED-96-4.pdf"
+ },
+ {
+  "slug": "ed-96-5",
+  "parent": "ed-96-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 96/5",
+   "Titre": "Registre de mariages 1850-1866.",
+   "Date(s)": "1850-02-15 - 1866-09-14 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,6 x 41,2",
+   "Portée et contenu": "Mariages (1850 février 15 - 1866 septembre 14).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 96/5 (microfilm: RMS 1/1.048.045, numérique: RN-ED-96-5), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.045",
+   "Nom du fichier": "CH-ACV_RN-ED-96-5.pdf",
+   "Taille du fichier": "315 MiB"
+  },
+  "pdf": "4/b/2/4b2a900be095156a33da9efd1e2709717e5c0e4000cd427c9b2d49ca53dc0b5b/CH-ACV_RN-ED-96-5.pdf"
+ },
+ {
+  "slug": "ed-96-6",
+  "parent": "ed-96-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 96/6",
+   "Titre": "Registre de mariages 1866-1875.",
+   "Date(s)": "1866-11-02 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,9 x 42,1",
+   "Portée et contenu": "Mariages (1866 novembre 2 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 96/6 (microfilm: RMS 1/1.048.045, numérique: RN-ED-96-6), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.045",
+   "Nom du fichier": "CH-ACV_RN-ED-96-6.pdf",
+   "Taille du fichier": "232.5 MiB"
+  },
+  "pdf": "3/1/d/31d1ba235fcbd1862ab66b09d9324520e2d5fe448d0e0fcb8f10ce68822a40ba/CH-ACV_RN-ED-96-6.pdf"
+ },
+ {
+  "slug": "ed-96-7",
+  "parent": "ed-96-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 96/7",
+   "Titre": "Registre de décès 1821-1865.",
+   "Date(s)": "1821-07-01 - 1865-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30 x 41,2 / 28,5 x 38,8 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1865 décembre 30).",
+   "Instruments de recherche": "Répertoire incorporé des décès Ed 96/7 (microfilm: RMS 1/1.048.046, numérique: RN-ED-96-7), pages manuscrites, non datées\nRépertoire séparé des décès Ed 96/7 (microfilm: RMS 1/1.048.046, numérique: RN-ED-96-7), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.046",
+   "Nom du fichier": "CH-ACV_RN-ED-96-7.pdf",
+   "Taille du fichier": "710.6 MiB"
+  },
+  "pdf": "1/b/d/1bdab600c6bd8201e243e085e2d282690a2f345a48af96e7e15ef7d28aac1378/CH-ACV_RN-ED-96-7.pdf"
+ },
+ {
+  "slug": "ed-96-8",
+  "parent": "ed-96-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 96/8",
+   "Titre": "Registre de décès 1866-1875.",
+   "Date(s)": "1866-01-12 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,2 x 41,9",
+   "Portée et contenu": "Décès (1866 janvier 12 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des décès Ed 96/8 (microfilm: RMS 1/1.048.046, numérique: RN-ED-96-8), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.046",
+   "Nom du fichier": "CH-ACV_RN-ED-96-8.pdf",
+   "Taille du fichier": "198.6 MiB"
+  },
+  "pdf": "f/a/4/fa4266d29ff70252d4df2ce2bd3e4146f56f8f7741068e2a927941146a77d8be/CH-ACV_RN-ED-96-8.pdf"
+ },
+ {
+  "slug": "ed-96-9",
+  "parent": "ed-96-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 96/9",
+   "Titre": "Registre d'annonces de mariage 1866-1882.",
+   "Date(s)": "1866-10-25 - 1882-07-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 25,5 x 37,9",
+   "Portée et contenu": "Annonces de mariage (1866 octobre 25 - 1882 juillet 31).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 96/9 (microfilm: RM 22002.15, numérique: RN-ED-96-9), pages manuscrites, non datées",
+   "Note": "Série pages blanches, de la page 177 jusqu'au répertoire.",
+   "Cote de gestion": "RM 22002.15",
+   "Nom du fichier": "CH-ACV_RN-ED-96-9.pdf",
+   "Taille du fichier": "240.9 MiB"
+  },
+  "pdf": "e/f/4/ef4225d4ed459047d3d743534d2e14f592b128a0174b70c7c508efb39beadc32/CH-ACV_RN-ED-96-9.pdf"
+ }
+]

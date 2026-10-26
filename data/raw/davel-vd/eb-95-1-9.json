@@ -1,0 +1,195 @@
+[
+ {
+  "slug": "eb-95-1-9",
+  "parent": null,
+  "children": [
+   "eb-95-1",
+   "eb-95-2",
+   "eb-95-3",
+   "eb-95-4",
+   "eb-95-5",
+   "eb-95-6",
+   "eb-95-7",
+   "eb-95-8",
+   "eb-95-9"
+  ],
+  "f": {
+   "Cote": "Eb 95/1-9",
+   "Titre": "Registres de la paroisse réformée d'Ormont-Dessus et de la commune d'Ormont-Dessus.",
+   "Date(s)": "1605-02-10 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse d'Ormont-Dessus :\nFraction de la paroisse médiévale des Ormonts réformée en 1529.\nRegistres dès 1605."
+  }
+ },
+ {
+  "slug": "eb-95-1",
+  "parent": "eb-95-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 95/1",
+   "Titre": "Paroisse réformée d'Ormont-Dessus",
+   "Date(s)": "1605-02-10 - 1681-12-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 18,1 x 26,7 x 4 / AR: 28,7 X 37,6 (répertoire) / BR: 27,4 x 37,8 (répertoire)",
+   "Portée et contenu": "Baptêmes (1605 février 10 - 1681 décembre 30), pp. 2-3, pp. 130-358, pp. 4-129;\nMariages (1605 mars 10 - 1681 décembre 2), (pages tête-bêche) 401, 403-359 (ordre dégressif), et 422-406 (ordre dégressif).\nBaptêmes et mariages sont mélangés. Le registre est constitué de plusieurs cahiers reliés dans le désordre. De ce fait, les événements ne sont pas dans l'ordre chronologique.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 95/1 (microfilm: RMS 1/128.745, numérique: RN-EB-95-1), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 95/1 (microfilm: RMS 1/128.745, numérique: RN-EB-95-1), pages manuscrites, non datées",
+   "Note": "Répertoires réalisés par François Isabel, datés de 1916 (indications en page 156 du registre).\n3 folios déchirés (pp. 262-267). La reliure du répertoire BR est endommagée.",
+   "Cote de gestion": "RMS 1/128.745",
+   "Nom du fichier": "CH-ACV_RN-EB-95-1.pdf",
+   "Taille du fichier": "478.4 MiB"
+  },
+  "pdf": "c/f/b/cfbfd47565d08088e7667d5750f95656d0a93c66e4cb83c27f8eb73e34ee054e/CH-ACV_RN-EB-95-1.pdf"
+ },
+ {
+  "slug": "eb-95-2",
+  "parent": "eb-95-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 95/2",
+   "Titre": "Paroisse réformée d'Ormont-Dessus",
+   "Date(s)": "1682-01-06 - 1750-03-23 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "4 volumes en 2 parties\nFormat LxH(cm): 24,5 x 34,2 x 3,5/ AR: 27,4 X 37,6 (répertoire) / BR1: 27,2 x 37,2 (répertoire) / BR2: 27,2 x 37,7 (répertoire)",
+   "Portée et contenu": "Notes et copies de documents divers (notations météorologiques, statistiques mortuaires, censes dues à la cure...), pp. 73-76 et 78-80;\nListe de décès ainsi que promesses de mariages (1714 à 1726), p. 77 et pp. 81 à 84;\nBaptêmes (1682 janvier 6 - 1750 mars 23), pp. 85-288;\n*- Interfolios p. 75 et entre pp. 86-87, 202-203, 242-243, 254-255, 286-287, 288-289;\nDécès et mariages mélangés, pp.tête-bêche 2-68; - Interfolio p. 2; - Mariages (1682 février 24 - 1750 mai 12)\n*- Décès (1705 - 1749 décembre 14)",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 95/2 (microfilm: RMS 1/128.745, numérique: RN-EB-95-2), pages manuscrites, 1917\nRépertoire séparé des mariages Eb 95/2 (microfilm: RMS 1/128.745, numérique: RN-EB-95-2), pages manuscrites, non datées\nRépertoire séparé des décès Eb 95/2 (microfilm: RMS 1/128.745, numérique: RN-EB-95-2), pages manuscrites, du 14 mars 1917",
+   "Note": "Répertoires réalisés par François Isabel en 1917.",
+   "Cote de gestion": "RMS 1/128.745",
+   "Nom du fichier": "CH-ACV_RN-EB-95-2.pdf",
+   "Taille du fichier": "594.8 MiB"
+  },
+  "pdf": "3/d/5/3d5033e5132e0f1392835319a9b84585a9623248f4396ca6fd86a595fd1bffb5/CH-ACV_RN-EB-95-2.pdf"
+ },
+ {
+  "slug": "eb-95-3",
+  "parent": "eb-95-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 95/3",
+   "Titre": "Paroisse réformée d'Ormont-Dessus",
+   "Date(s)": "1728-01-11 - 1874-05-24 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 22,5 x 35,2 / AR: 27,4 x 37,7 (répertoire) / BR: 27,3 x 37,6 (répertoire)",
+   "Portée et contenu": "Interfolio 121 a-n (1728-1874), p. 121, concernant les catéchumènes, les mariages, les décès et les lieux locaux d'habitat des Favre d'Ormont-Dessus;\nDécès (1750 janvier 2 - 1804 février 26), pp. 121-267;\nNotice historique (Rome-1524) et liste des pasteurs d'Ormont-Dessus (1533-1917), pp. 268-278;\nMariages (1750 janvier 6 - 1821 mai 11), pp.tête-bêche 0-121.",
+   "Instruments de recherche": "Répertoire séparé des décès Eb 95/3 (microfilm: RMS 1/128.746, numérique: RN-EB-95-3), pages manuscrites, 1917\nRépertoire séparé des mariages Eb 95/3 (microfilm: RMS 1/128.746, numérique: RN-EB-95-3), pages manuscrites, 1917",
+   "Note": "Répertoires réalisés par François Isabel.",
+   "Cote de gestion": "RMS 1/128.746",
+   "Nom du fichier": "CH-ACV_RN-EB-95-3.pdf",
+   "Taille du fichier": "442.7 MiB"
+  },
+  "pdf": "c/7/4/c74894e1492856f49aaa127ad7559ffb5790b46615c7438c37cb486191f35bf5/CH-ACV_RN-EB-95-3.pdf"
+ },
+ {
+  "slug": "eb-95-4",
+  "parent": "eb-95-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 95/4",
+   "Titre": "Paroisse réformée d'Ormont-Dessus",
+   "Date(s)": "1749-01-01 - 1790-12-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 2 parties\nFormat LxH(cm): 22,5 x 34,2 / 27,2 x 37,9 (répertoire)",
+   "Portée et contenu": "Baptêmes (1750 janvier 6 - 1790 décembre 1), pp. 1-239; - Page 5, note sur le grand froid de 1789; - Baptêmes forains (1752 - 1805), à la suite des baptêmes;\n*- Interfolios entre pages 39 et 40, 57 et 58, 103 et 104, 105 et 106, 107 et 108, 117 et 118, 139 et 140, 183 et 184, 197 et 198, 203 et 204, 207 et 208;\nCatéchumènes (1749 - 1790), pp.tête-bêche 0-40.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 95/4 (microfilm: RMS 1/128.746, numérique: RN-EB-95-4), pages manuscrites, non datées",
+   "Note": "Répertoire réalisé par François Isabel.",
+   "Cote de gestion": "RMS 1/128.746",
+   "Nom du fichier": "CH-ACV_RN-EB-95-4.pdf",
+   "Taille du fichier": "414 MiB"
+  },
+  "pdf": "c/2/e/c2eca3042cdc65b4b6abebed1bf47cf39692335d53d69ea8abc0bab1455ab81a/CH-ACV_RN-EB-95-4.pdf"
+ },
+ {
+  "slug": "eb-95-5",
+  "parent": "eb-95-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 95/5",
+   "Titre": "Paroisse réformée d'Ormont-Dessus",
+   "Date(s)": "1791-01-09 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 2 parties\nFormat LxH(cm): 24,8 x 37, 2 / 27,3 x 37,7 (répertoire)",
+   "Portée et contenu": "Baptêmes (1791 janvier 9 - 1821 juin 30), pp. 0-182;\n*- Interfolios entre pages 39 et 40, 57 et 58, 103 et 104, 105 et 106, 107 et 108, 117 et 118, 139 et 140, 183 et 184, 197 et 198, 203 et 204, 207 et 208;\nCatéchumènes (1791 - 1875), pp.tête-bêche 0-83;\n*- Liste des pasteurs jusqu'en 1917.",
+   "Instruments de recherche": "Répertoire séparé des baptèmes Eb 95/5 (microfilm: RMS 1/128.746, numérique: RN-EB-95-5), pages manuscrites, 1917\nPas de répertoire pour les catéchumènes",
+   "Note": "Série de pages blanche de la page 183 à la partie B.\nRépertoire réalisé par François Isabel.",
+   "Cote de gestion": "RMS 1/128.746",
+   "Nom du fichier": "CH-ACV_RN-EB-95-5.pdf",
+   "Taille du fichier": "416.6 MiB"
+  },
+  "pdf": "b/2/b/b2bcfe723d883ba0e28a6c5f0e10e1485942fe1e86a65ccec48b05510323de24/CH-ACV_RN-EB-95-5.pdf"
+ },
+ {
+  "slug": "eb-95-6",
+  "parent": "eb-95-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 95/6",
+   "Titre": "Paroisse réformée d'Ormont-Dessus",
+   "Date(s)": "1804-05-18 - 1862-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 17 x 21,7 x 2,6 / 17,4 x 23,5 x 0,2 / 27,4 x 37,8 x 0,6 (répertoire)",
+   "Portée et contenu": "Décès (1804 mai 18 - 1862, lacunes pour la période du 30 juin 1831 au 1er janvier 1849), pp. 2-95;\nDécès (1849-1862) en un cahier séparé, pp. 99-114.",
+   "Instruments de recherche": "Répertoire séparé des décès Eb 95/6 (microfilm: RMS 1/128.746, numérique: RN-EB-95-6), pages manuscrites, 09 juillet 1917",
+   "Note": "Partie A: Dès la page 96, pages blanches jusqu'à la fin du registre.\nPartie B: Dès la page 115, pages blanches jusqu'à la fin du registre.\nRépertoire réalisé par François Isabel.",
+   "Cote de gestion": "RMS 1/128.746",
+   "Nom du fichier": "CH-ACV_RN-EB-95-6.pdf",
+   "Taille du fichier": "119.3 MiB"
+  },
+  "pdf": "7/c/2/7c2953f1c7157c3350dbae414a4d78e1f282b57332ba15fc9f6cde71976aa448/CH-ACV_RN-EB-95-6.pdf"
+ },
+ {
+  "slug": "eb-95-7",
+  "parent": "eb-95-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 95/7",
+   "Titre": "Paroisse réformée d'Ormont-Dessus",
+   "Date(s)": "1783-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 16,3 x 22,3",
+   "Portée et contenu": "Annonces de mariages (1783 janvier 1 - 1821 juin 30), pp. 0-194;\n*- Interfolio entre pp. 194-195.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Dès la page 195, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.746",
+   "Nom du fichier": "CH-ACV_RN-EB-95-7.pdf",
+   "Taille du fichier": "108.3 MiB"
+  },
+  "pdf": "6/e/5/6e529f3ca00fc8e05e034234925c19279904772ed4ecc389b33c13da661b956e/CH-ACV_RN-EB-95-7.pdf"
+ },
+ {
+  "slug": "eb-95-8",
+  "parent": "eb-95-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 95/8",
+   "Titre": "Commune d'Ormont-Dessus",
+   "Date(s)": "1803-07-21 - 1818-01-02 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volumes en 3 parties\nFormat LxH(cm): 17,5 x 21,2",
+   "Portée et contenu": "Naissances et Baptêmes (1803 juillet 21 - 1816 mars 8), pp. 1-174;\nMariages (1803 novembre 25 - 1818 janvier 2), pp. 175-214;\nDécès (1803 août 12 - 1809 février), pp.tête-bêche 215-242.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série de pages blanches, de la page 215 jusqu'aux décès.",
+   "Cote de gestion": "RM 22006.13",
+   "Nom du fichier": "CH-ACV_RN-EB-95-8.pdf",
+   "Taille du fichier": "128 MiB"
+  },
+  "pdf": "0/6/0/060aeb2eedd2b83dc5a7e2fb2f82deb42b61827664a0cf3d3522eed0f9d84110/CH-ACV_RN-EB-95-8.pdf"
+ },
+ {
+  "slug": "eb-95-9",
+  "parent": "eb-95-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 95/9",
+   "Titre": "Commune d'Ormont-Dessus",
+   "Date(s)": "1809-03-06 - 1821-03-29 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 26 x 36,6",
+   "Portée et contenu": "Naissances et Baptêmes (1816 mars 3 - 1821 mars 15), pp. 0-23;\nDécès (1809 mars 6 - 1821 mars 29), pp.tête-bêche 0-36.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série de pages blanches, de la page 24 jusqu'aux décès.",
+   "Cote de gestion": "RM 22006.13",
+   "Nom du fichier": "CH-ACV_RN-EB-95-9.pdf",
+   "Taille du fichier": "85.9 MiB"
+  },
+  "pdf": "8/6/2/862d5caf409a3b02d8282f77568f50d9f28b85ade786ee42342cda6656e4842b/CH-ACV_RN-EB-95-9.pdf"
+ }
+]

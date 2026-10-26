@@ -1,0 +1,84 @@
+[
+ {
+  "slug": "sa-654643",
+  "parent": null,
+  "text": "SB 268/48 Gryon (arrondissement de l'état civil) (1882-1999)",
+  "children": [
+   "sa-680790",
+   "sa-680791",
+   "sa-680792"
+  ],
+  "f": {
+   "Ref. code": "SB 268/48",
+   "Title": "Gryon (arrondissement de l'état civil)",
+   "Dates": "1882-1999",
+   "Creation date(s)": "1882 - 1999",
+   "Level": "Sous-fonds",
+   "Importance matérielle": "3 registres",
+   "Access regulations": "Seules les promesses de mariage de plus de 80 ans sont consultables librement. Pour les promesses de mariage postérieures une autorisation écrite est nécessaire.",
+   "Language": "Français",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Aigle dès le 1er juin 2004.",
+   "Entries": "Gryon (Suisse, VD) (Lieux\\G)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=654643",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680790",
+  "parent": "sa-654643",
+  "text": "SB 268/48/1 Registre de publications de promesses de mariage (1882-1913)",
+  "f": {
+   "Ref. code": "SB 268/48/1",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1882 août 5 - 1913 octobre 17",
+   "Creation date(s)": "1882 - 1913",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 91 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1882 août 5 - 1913 octobre 17).",
+   "Access regulations": "Libre",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680790",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680791",
+  "parent": "sa-654643",
+  "text": "SB 268/48/2 Registre de publications de promesses de mariage (1914-1963)",
+  "f": {
+   "Ref. code": "SB 268/48/2",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1914 juin 2 - 1963 octobre 31",
+   "Creation date(s)": "1914 - 1963",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 198 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1914 juin 2 - 1963 octobre 31).",
+   "Access regulations": "Seules les promesses de mariage de plus de 80 ans sont consultables sans autorisation.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680791",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680792",
+  "parent": "sa-654643",
+  "text": "SB 268/48/3 Registre de publications de promesses de mariage (1964-1999)",
+  "f": {
+   "Ref. code": "SB 268/48/3",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1964 janvier 7 - 1999 octobre 18",
+   "Creation date(s)": "1964 - 1999",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 40 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1964 janvier 7 - 1999 octobre 18).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680792",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

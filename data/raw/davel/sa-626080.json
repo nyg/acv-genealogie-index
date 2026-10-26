@@ -1,0 +1,66 @@
+[
+ {
+  "slug": "sa-626080",
+  "parent": null,
+  "text": "SB 115/1109-1110 Leysin (arrondissement de l'état civil), 1951-1954 (Série)",
+  "children": [
+   "sa-626083",
+   "sa-626084"
+  ],
+  "f": {
+   "Ref. code": "SB 115/1109-1110",
+   "Title": "Leysin (arrondissement de l'état civil)",
+   "Dates": "1951-1954",
+   "Creation date(s)": "1951 - 1954",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 20 juillet 1994 et rattaché à l'arrondissement d'Ormont-Dessous dès le 1er juillet 1994.",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=626080",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-626083",
+  "parent": "sa-626080",
+  "text": "SB 115/1109 - Mariages 1951-1952 \\ - Publications de promesses de mariage 1951-1952 \\ - Pièces diverses relatives à l'état civil 1951-1952: principalement constatations de décès, divorces, rectifications de nom, 1951-1952 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/1109",
+   "Title": "- Mariages 1951-1952\n- Publications de promesses de mariage 1951-1952\n- Pièces diverses relatives à l'état civil 1951-1952: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1951-1952",
+   "Creation date(s)": "1951 - 1952",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Concerne la commune de Leysin.",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=626083",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-626084",
+  "parent": "sa-626080",
+  "text": "SB 115/1110 - Mariages 1953-1954 \\ - Naissances 1953-1954 \\ - Publications de promesses de mariage 1953-1954 \\ - Pièces diverses relatives à l'état civil 1953-1954: principalement constatations de décès, divorces, rectifications de nom, registre des reconnaissances et des légitimations, 1953-1954",
+  "f": {
+   "Ref. code": "SB 115/1110",
+   "Title": "- Mariages 1953-1954\n- Naissances 1953-1954\n- Publications de promesses de mariage 1953-1954\n- Pièces diverses relatives à l'état civil 1953-1954: principalement constatations de décès, divorces, rectifications de nom, registre des reconnaissances et des légitimations",
+   "Dates": "1953-1954",
+   "Creation date(s)": "1953 - 1954",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Concerne la commune de Leysin.",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=626084",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]
