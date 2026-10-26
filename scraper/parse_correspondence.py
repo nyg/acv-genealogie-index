@@ -8,8 +8,6 @@ from collections import Counter
 from difflib import SequenceMatcher
 from pathlib import Path
 
-import pdfplumber
-
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "build"))
 
@@ -22,6 +20,8 @@ PAGE_FURNITURE = re.compile(r"^(Pierre-Yves Favez\b.*|\d{1,3}|[|I]|(\d{1,3}\s+)?
 BRACKET = re.compile(r"[\[|Ï1Il]\s?[0-9ÏIlO]{1,3}(?:\s?(?:bis|ter))?\s?[\]|Ï1Il]")
 STRICT_BRACKET = re.compile(r"\[(\d{1,3}(?: ?(?:bis|ter))?)\]")
 OCR_DIGITS = str.maketrans({"Ï": "1", "I": "1", "l": "1", "O": "0", "|": "", "[": "", "]": ""})
+SMALL_WORDS = {"la", "le", "les", "de", "du", "des", "sur", "sous", "en", "près", "et", "soit", "puis", "dit", "ou"}
+SPURIOUS_DIACRITICS = re.compile(r"[ÄÖÜÔÀÂäöü]")
 
 
 def _rows(page, tolerance=3):
@@ -38,7 +38,14 @@ def _column(x, columns):
     return next(name for limit, name in columns if x < limit)
 
 
+def official_spelling(locality):
+    expanded = re.sub(r"-s\.-", "-sur-", locality)
+    return re.sub(r"-(ville|dessous|dessus)\b", lambda match: f"-{match[1].capitalize()}", expanded)
+
+
 def parse_arrondissements():
+    import pdfplumber
+
     entries = []
     with pdfplumber.open(RAW_DIR / "doc-etat-civil_correspondance_communes-arrondissements.pdf") as pdf:
         for page in pdf.pages:
@@ -55,7 +62,7 @@ def parse_arrondissements():
                     continue
                 locality, note = re.match(r"^(.*?)\s*(\(voir [^)]*\))?$", cells.get("locality", "")).groups()
                 entries.append({
-                    "locality": locality,
+                    "locality": official_spelling(locality),
                     "note": (note or "").strip("()"),
                     "periods": {period: cells[period] for period in ("1876", "1912", "1928", "1960") if period in cells},
                 })
@@ -72,6 +79,69 @@ def parish_names_by_number():
             if number:
                 names.setdefault(number, set()).add(normalize(parish_name(rest.rsplit(", ", 1)[0])).split(" (")[0])
     return names
+
+
+def parish_display_names():
+    index = json.loads((ROOT / "data" / "raw" / "davel-vd" / "_series_index.json").read_text(encoding="utf-8"))
+    return {parish_name(label.split(" - ", 1)[1].rsplit(", ", 1)[0]).split(" (")[0]
+            for fonds in ("eb", "ed") for _, label in index[fonds] if " - " in label}
+
+
+def _name_key(text):
+    # The OCR mixes up l and i, and spaces out letters or drops hyphens inside names.
+    return re.sub(r"[^a-z]", "", normalize(text)).replace("l", "i")
+
+
+def _spelling_variants(name):
+    base = name.split(" (")[0]
+    for part in base.split(" - "):
+        yield part
+        yield re.sub(r"^(?:La|Le|Les) |^L'", "", part)
+    alternative = re.search(r"\((-?)([^)]{4,})\)", name)
+    if alternative:
+        yield f"{base}-{alternative[2]}" if alternative[1] else alternative[2]
+
+
+def reference_spellings(arrondissement_entries):
+    spellings = {}
+    for name in sorted(parish_display_names()) + [entry["locality"] for entry in arrondissement_entries]:
+        for variant in _spelling_variants(name):
+            if len(_name_key(variant)) >= 4:
+                spellings.setdefault(_name_key(variant), variant)
+    return spellings
+
+
+def _has_fragments(text):
+    tokens = [re.sub(r"^[dlDL]['’]", "", token) for token in re.split(r"[\s-]+", text)]
+    return any(len(token) == 1 or token[:1].islower() and token not in SMALL_WORDS for token in tokens if token)
+
+
+def _is_damaged(piece, reference):
+    if normalize(piece) == normalize(reference):
+        return bool(SPURIOUS_DIACRITICS.search(piece))
+    if normalize(piece).replace("-", " ") == normalize(reference).replace("-", " "):
+        return True
+    if re.sub(r"[^a-z]", "", normalize(piece)) != re.sub(r"[^a-z]", "", normalize(reference)):
+        return True
+    return _has_fragments(piece)
+
+
+def respell_locality(text, spellings):
+    def respell(piece):
+        piece = " ".join(piece.split())
+        reference = spellings.get(_name_key(piece))
+        if not reference or not _is_damaged(piece, reference):
+            return piece
+        # Both reference tables drop the accent on capitals.
+        return f"É{reference[1:]}" if piece.startswith("É") and reference.startswith("E") else reference
+
+    main, _, rest = text.partition("(")
+    rest = f"({rest}" if rest else ""
+    respelled_main = respell(main)
+    respelled_rest = re.sub(r"\(([^()]*)\)", lambda match: f"({respell(match[1])})", rest)
+    if respelled_main == main.strip() and respelled_rest == rest:
+        return text
+    return f"{respelled_main} {respelled_rest}".strip()
 
 
 def fix_ocr_letters(text):
@@ -189,7 +259,7 @@ def _resolve_references(results):
             entry["parishes"] = target["parishes"]
 
 
-def parse_parishes():
+def parse_parishes(spellings):
     names = parish_names_by_number()
     entries = []
     for line, column in _table_a_lines():
@@ -208,7 +278,7 @@ def parse_parishes():
         raw = re.sub(r"\s+", " ", entry["raw"]).strip()
         numbers, description = decode_parishes(raw, names)
         results.append({
-            "locality": fix_ocr_letters(re.sub(r"\s+", " ", entry["locality"])).strip(),
+            "locality": respell_locality(fix_ocr_letters(re.sub(r"\s+|(?<=\w)(?=\()", " ", entry["locality"])).strip(), spellings),
             "description": description,
             "parishes": numbers or _parishes_named_in(raw, names) or _parish_by_fuzzy_name(raw, names),
         })
@@ -223,5 +293,6 @@ def _write(name, entries, label):
 
 
 if __name__ == "__main__":
-    _write("communes-arrondissements.json", parse_arrondissements(), "localités")
-    _write("communes-paroisses.json", parse_parishes(), "localités")
+    arrondissements = parse_arrondissements()
+    _write("communes-arrondissements.json", arrondissements, "localités")
+    _write("communes-paroisses.json", parse_parishes(reference_spellings(arrondissements)), "localités")

@@ -430,7 +430,7 @@
   }
  },
  {
-  "locality": "Bretigny-s.-Morrens",
+  "locality": "Bretigny-sur-Morrens",
   "note": "",
   "periods": {
    "1876": "Bottens",
@@ -1730,7 +1730,7 @@
   }
  },
  {
-  "locality": "Goumoens-la-ville",
+  "locality": "Goumoens-la-Ville",
   "note": "",
   "periods": {
    "1876": "Echallens",
@@ -2550,7 +2550,7 @@
   }
  },
  {
-  "locality": "Mont-la-ville",
+  "locality": "Mont-la-Ville",
   "note": "",
   "periods": {
    "1876": "L'Isle",
@@ -2790,7 +2790,7 @@
   }
  },
  {
-  "locality": "Ormont-dessous",
+  "locality": "Ormont-Dessous",
   "note": "",
   "periods": {
    "1876": "Ormont-dessous",
@@ -2800,7 +2800,7 @@
   }
  },
  {
-  "locality": "Ormont-dessus",
+  "locality": "Ormont-Dessus",
   "note": "",
   "periods": {
    "1876": "Ormont-dessus",
@@ -4060,7 +4060,7 @@
   }
  },
  {
-  "locality": "Vufflens-la-ville",
+  "locality": "Vufflens-la-Ville",
   "note": "",
   "periods": {
    "1876": "Sullens",

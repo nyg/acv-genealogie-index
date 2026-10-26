@@ -243,7 +243,7 @@
   ]
  },
  {
-  "locality": "Belmont-sur Lausanne",
+  "locality": "Belmont-sur-Lausanne",
   "description": "Annexe de Pully |l l2], puis de Lutry [78] en 1766, de Pully en 1846, paroisse en 1862, annexe de Pully en 1863 et de Lutry dès 1864; registres particuliers de Belmont [13] dès 1766",
   "parishes": [
    "78",
@@ -251,7 +251,7 @@
   ]
  },
  {
-  "locality": "Belmont-s ur-Yverdon",
+  "locality": "Belmont-sur-Yverdon",
   "description": "Gressy [67]",
   "parishes": [
    "67"
@@ -274,7 +274,7 @@
   ]
  },
  {
-  "locality": "Be roi le",
+  "locality": "Berolle",
   "description": "Bière [16]",
   "parishes": [
    "16"
@@ -346,7 +346,7 @@
   ]
  },
  {
-  "locality": "B()gis:B()ssey",
+  "locality": "B ()gis:B ()ssey",
   "description": "Crassier [37]",
   "parishes": [
    "37"
@@ -501,7 +501,7 @@
   ]
  },
  {
-  "locality": "Bretigny-s ur-Morrens",
+  "locality": "Bretigny-sur-Morrens",
   "description": "Morrens [87]",
   "parishes": [
    "87"
@@ -549,7 +549,7 @@
   ]
  },
  {
-  "locality": "Bur sins",
+  "locality": "Bursins",
   "description": "Bursins [20]",
   "parishes": [
    "20"
@@ -571,7 +571,7 @@
   ]
  },
  {
-  "locality": "B us signy-s ur-Oron",
+  "locality": "Bussigny-sur-Oron",
   "description": "Oron [97]; avant la Réformation: Saint-Martin de Vaud (Lribourg)",
   "parishes": [
    "97"
@@ -585,7 +585,7 @@
   ]
  },
  {
-  "locality": "B us sy-s ur-Mo udon",
+  "locality": "Bussy-sur-Moudon",
   "description": "Moudon [88]",
   "parishes": [
    "88"
@@ -712,7 +712,7 @@
   ]
  },
  {
-  "locality": "Chape lle-s u r-Mo u do n (ancien Chapelle-Vaudanne)",
+  "locality": "Chapelle-sur-Moudon (ancien Chapelle-Vaudanne)",
   "description": "Saint-Cierges [120], avec registres propres l6l0-l82l",
   "parishes": [
    "120"
@@ -1046,7 +1046,7 @@
   ]
  },
  {
-  "locality": "C ombremont-le-Grand",
+  "locality": "Combremont-le-Grand",
   "description": "C ombremont-le-Grand [29]",
   "parishes": [
    "29"
@@ -1060,7 +1060,7 @@
   ]
  },
  {
-  "locality": "C ommugny",
+  "locality": "Commugny",
   "description": "C ommugny [30]",
   "parishes": [
    "30"
@@ -1149,7 +1149,7 @@
   ]
  },
  {
-  "locality": "Cor seaux",
+  "locality": "Corseaux",
   "description": "Corsier [34]",
   "parishes": [
    "34"
@@ -1454,7 +1454,7 @@
   ]
  },
  {
-  "locality": "Échaliens (catholique)",
+  "locality": "Échallens (catholique)",
   "description": "Échallens (catholique) [50]",
   "parishes": [
    "50"
@@ -1554,7 +1554,7 @@
   ]
  },
  {
-  "locality": "Éssert sous-Champvent",
+  "locality": "Éssert-sous-Champvent",
   "description": "Montagny [81] jusqu'en 1834 et 1846 1849, Champvent [22] 1834-1846 et dès 1849",
   "parishes": [
    "81",
@@ -1569,7 +1569,7 @@
   ]
  },
  {
-  "locality": "Éssertines-sur Rolle",
+  "locality": "Éssertines-sur-Rolle",
   "description": "Gimel [60] ; une partie des hameaux d'Éssertines (Bugnaux, Chatagneréaz, Roussillon, Creux du Mas et Châtel), auparavant à Gimel jusqu'en 1837, réunis à Rolle [115] en 1837, à Bursins [20] 1846-1863, puis à Rolle",
   "parishes": [
    "60",
@@ -1578,7 +1578,7 @@
   ]
  },
  {
-  "locality": "E s s er tine s-s ur-Yverdon",
+  "locality": "Essertines-sur-Yverdon",
   "description": "Vuarrens [137] ; Gressy [67] pour Epautheyres",
   "parishes": [
    "137",
@@ -1833,7 +1833,7 @@
   ]
  },
  {
-  "locality": "Goumoen s-la-V ille",
+  "locality": "Goumoens-la-Ville",
   "description": "Goumoens-la-Ville [62]",
   "parishes": [
    "62"
@@ -1891,14 +1891,14 @@
   ]
  },
  {
-  "locality": "Grange s-près-Marnand",
+  "locality": "Granges-près-Marnand",
   "description": "Granges [65]",
   "parishes": [
    "65"
   ]
  },
  {
-  "locality": "Granges de Sainte Croix (Les)",
+  "locality": "Granges de Sainte-Croix (Les)",
   "description": "Sainte-Croix [121], Les Granges de Sainte-Croix [65 bis] dès 1829 (réunies à Sainte-Croix 1845-1853)",
   "parishes": [
    "121",
@@ -1930,7 +1930,7 @@
   ]
  },
  {
-  "locality": "Grenel(Le) (Forel)",
+  "locality": "Grenel (Le) (Forel)",
   "description": "Savigny [125]",
   "parishes": [
    "125"
@@ -2141,7 +2141,7 @@
   ]
  },
  {
-  "locality": "Le Châteîard (aujourd'hui Montreux)",
+  "locality": "Le Châtelard (aujourd'hui Montreux)",
   "description": "Montreux [85]",
   "parishes": [
    "85"
@@ -2490,7 +2490,7 @@
   ]
  },
  {
-  "locality": "Möllens",
+  "locality": "Mollens",
   "description": "Bière [16], puis Ballens [10 bis] (1592-1593 et dès 1834)",
   "parishes": [
    "16",
@@ -2766,7 +2766,7 @@
   ]
  },
  {
-  "locality": "Ôllon",
+  "locality": "Ollon",
   "description": "Ollon [92] ; voir aussi Huémoz [68 bis] (avec ses hameaux) dès 1824",
   "parishes": [
    "92",
@@ -2774,7 +2774,7 @@
   ]
  },
  {
-  "locality": "Önnens",
+  "locality": "Onnens",
   "description": "Onnens [93], puis annexe de Concise [31] dès 1846",
   "parishes": [
    "93",
@@ -2805,7 +2805,7 @@
   ]
  },
  {
-  "locality": "Orient de l'Orbe (V) (Le Chenit)",
+  "locality": "Orient-de-l'Orbe (V) (Le Chenit)",
   "description": "______",
   "parishes": []
  },
@@ -2946,7 +2946,7 @@
   ]
  },
  {
-  "locality": "Peney-le Jorat",
+  "locality": "Peney-le-Jorat",
   "description": "Dommartin [46], puis Peney [104] dès 1794; avec Dommartin 1845-1847",
   "parishes": [
    "46",
@@ -3025,7 +3025,7 @@
   ]
  },
  {
-  "locality": "Piambuit (Ôllonj",
+  "locality": "Plambuit (Ôllonj",
   "description": "Ollon [92], puis Huémoz [68 bis] dès 1824",
   "parishes": [
    "92",
@@ -3071,7 +3071,7 @@
   ]
  },
  {
-  "locality": "Poliez Pittet (protestant)",
+  "locality": "Poliez-Pittet (protestant)",
   "description": "Dommartin [46], puis Poliez-le-Grand [107] dès 1705/1714",
   "parishes": [
    "46",
@@ -3125,7 +3125,7 @@
   ]
  },
  {
-  "locality": "Praz(La)",
+  "locality": "Praz (La)",
   "description": "Cuarnens [41], puis Mont-la-Ville [83 bis] dès 1838",
   "parishes": [
    "41",
@@ -3330,7 +3330,7 @@
   ]
  },
  {
-  "locality": "Romanel-sur Lausanne",
+  "locality": "Romanel-sur-Lausanne",
   "description": "Chapelle médiévale comprenant les Vernands (Lausanne) au spirituel, dépendant du Mont [80], devenue annexe dès 1811, puis de Cheseaux [25] en 1837, de Prilly [110] en 1846 et de Cheseaux dès1849",
   "parishes": [
    "80",
@@ -3339,7 +3339,7 @@
   ]
  },
  {
-  "locality": "Romanel-s ur-Morge s",
+  "locality": "Romanel-sur-Morges",
   "description": "Vullierens [140]",
   "parishes": [
    "140"
@@ -3481,7 +3481,7 @@
   ]
  },
  {
-  "locality": "Saint-Öyens",
+  "locality": "Saint-Oyens",
   "description": "Annexe de Gimel [60]",
   "parishes": [
    "60"
@@ -3538,7 +3538,7 @@
   ]
  },
  {
-  "locality": "Salaz(Oll on)",
+  "locality": "Salaz (Ollon)",
   "description": "OÎIonJ92]",
   "parishes": []
  },
@@ -3622,7 +3622,7 @@
   "parishes": []
  },
  {
-  "locality": "Sépey(Les) (Vulliens)",
+  "locality": "Sépey (Les) (Vulliens)",
   "description": "Mézières [79], puis Syens [89] 1842-1846 et dès 1864",
   "parishes": [
    "79",
@@ -3667,7 +3667,7 @@
   ]
  },
  {
-  "locality": "Signy-Ävenex",
+  "locality": "Signy-Avenex",
   "description": "Nyon [91]",
   "parishes": [
    "91"
@@ -3703,7 +3703,7 @@
   ]
  },
  {
-  "locality": "Suilens",
+  "locality": "Sullens",
   "description": "Annexe de Che seaux [25], puis de Penthaz [105] en 1837 et de Vufflens-la-Ville [139] en 1852",
   "parishes": [
    "25",
@@ -3972,7 +3972,7 @@
   ]
  },
  {
-  "locality": "Verney(Le)",
+  "locality": "Verney (Le)",
   "description": "Commune dissoute en 1830 et partagée entre Bursins, Dully et Luins : Bursins [20]",
   "parishes": [
    "20"
@@ -4065,7 +4065,7 @@
   ]
  },
  {
-  "locality": "Viliars-ie-Comte",
+  "locality": "Villars-le-Comte",
   "description": "Thierrens [128], puis annexe de Denezy [45] en 1328, de Thierrens en 1846 et de Denezy dès 1849",
   "parishes": [
    "128",
