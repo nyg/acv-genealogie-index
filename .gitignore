@@ -1,7 +1,6 @@
 *.numbers
 data/raw/vd-ch/*.pdf
 data/acv.sqlite
-site/artifact.html
 __pycache__/
 .pytest_cache/
 .venv/

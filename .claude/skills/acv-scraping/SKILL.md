@@ -19,13 +19,13 @@ Work in **batches**: plan → scrape → export → save → check → publish. 
    - an OCR-damaged locality → add it to `data/manual/communes-paroisses-corrections.json`;
    - a batch covering a place the user researches → add a case to `tests/site_smoke.mjs`.
 7. **Look** at `site/preview.html` in the browser pane; `python3 build/preview.py <place-id>…` chooses its places (ids like `paroisse-92`, `arrondissement-73`).
-8. **Publish**: republish `site/artifact.html` with the Artifact tool (same file path, keeps the URL); commit and push `docs/` to update the GitHub Pages site.
+8. **Publish**: commit and push, which updates the GitHub Pages site from `docs/`.
 
 ## Browser pane
 
 - A tab in the background is throttled to about one timer per minute after a few minutes, so a hidden scraping tab crawls. Run one scraping tab at a time and keep it in front.
 - Editing an `.html` file with the Edit tool opens a preview tab in front of the others. During a batch, patch HTML with a script, or re-front the scraping tab afterwards.
-- The pane blocks `localhost`, refuses `file://` previews around 1 MB (hence `site/preview.html`), and claude.ai artifact pages ask for a sign-in it does not have. Check the site through `site/preview.html` and `tests/site_smoke.mjs`.
+- The pane blocks `localhost` and refuses `file://` previews around 1 MB (hence `site/preview.html`). Check the site through `site/preview.html` and `tests/site_smoke.mjs`.
 - davel.vd.ch's CSP blocks blob workers, so timers cannot move off the page.
 
 ## davel-vd.ch (Eb, Ed, SB 267, with PDFs)

@@ -20,7 +20,6 @@ CORRECTIONS = ROOT / "data" / "manual" / "communes-paroisses-corrections.json"
 DATABASE = ROOT / "data" / "acv.sqlite"
 SITE_TEMPLATE = ROOT / "site" / "template.html"
 SITE_OUTPUT = ROOT / "docs" / "index.html"
-ARTIFACT_OUTPUT = ROOT / "site" / "artifact.html"
 STANDALONE_HEAD = '<!doctype html>\n<html lang="fr">\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
 
 FONDS_LABEL = {"eb": "Eb", "ed": "Ed", "sb-267": "SB 267"}
@@ -281,7 +280,6 @@ def write_site(places, units, segments):
     }
     data = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     page = SITE_TEMPLATE.read_text(encoding="utf-8").replace("/*__DATA__*/null", data)
-    ARTIFACT_OUTPUT.write_text(page, encoding="utf-8")
     SITE_OUTPUT.parent.mkdir(exist_ok=True)
     SITE_OUTPUT.write_text(STANDALONE_HEAD + page, encoding="utf-8")
 

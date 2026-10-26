@@ -10,9 +10,8 @@ Index of the Archives cantonales vaudoises (ACV) civil-status registers for the 
 - Run `scripts/check.sh` after any change to `build/`, `site/template.html` or `data/`.
 - Run `build/build.py` without `python3 -I`: it imports its sibling modules.
 
-## Published copies
+## Published site
 
-- Artifact (private): https://claude.ai/artifact/WTuMXSDGgVLo7yAFjvjTYF, published from `site/artifact.html`.
 - Public repo https://github.com/nyg/acv-genealogie-index, GitHub Pages from `docs/` on `master`: https://nyg.github.io/acv-genealogie-index/. Pushing `docs/index.html` to `master` publishes the site.
 
 ## Next goal
