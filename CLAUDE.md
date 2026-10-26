@@ -13,7 +13,7 @@ Index of the Archives cantonales vaudoises (ACV) civil-status registers for the 
 ## Published copies
 
 - Artifact (private): https://claude.ai/artifact/WTuMXSDGgVLo7yAFjvjTYF, published from `site/artifact.html`.
-- Private repo https://github.com/nyg/acv-genealogie-index (branch `main`). GitHub Pages from `docs/` is not enabled: a Pages site is public even for a private repo, so enable it only once the user asks for a public site.
+- Public repo https://github.com/nyg/acv-genealogie-index, GitHub Pages from `docs/` on `main`: https://nyg.github.io/acv-genealogie-index/. Pushing `docs/index.html` to `main` publishes the site.
 
 ## Next goal
 

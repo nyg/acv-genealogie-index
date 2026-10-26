@@ -19,7 +19,7 @@ Work in **batches**: plan → scrape → export → save → check → publish. 
    - an OCR-damaged locality → add it to `data/manual/communes-paroisses-corrections.json`;
    - a batch covering a place the user researches → add a case to `tests/site_smoke.mjs`.
 7. **Look** at `site/preview.html` in the browser pane; `python3 build/preview.py <place-id>…` chooses its places (ids like `paroisse-92`, `arrondissement-73`).
-8. **Publish**: republish `site/artifact.html` with the Artifact tool (same file path, keeps the URL); commit and push `docs/` to the private repo too.
+8. **Publish**: republish `site/artifact.html` with the Artifact tool (same file path, keeps the URL); commit and push `docs/` to update the GitHub Pages site.
 
 ## Browser pane
 
