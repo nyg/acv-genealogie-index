@@ -55,6 +55,17 @@ def test_register_part_must_have_one_pdf_page_per_register_page():
     assert "318 pages du registre pour 313 pages du PDF" in str(error.value)
 
 
+def test_one_pdf_page_may_carry_several_register_page_numbers():
+    # Given
+    entries = {"Eb 10/1": {"pdfPages": 614, "parts": [{"pdf": "229", "content": "Baptêmes", "pages": "218-224"}]}}
+
+    # When
+    parts = parse_pdf_pages(entries)["Eb 10/1"]["parts"]
+
+    # Then
+    assert (parts[0]["pdf"], parts[0]["pages"]) == ([229, 229], [218, 224])
+
+
 def test_parts_must_not_overlap():
     # Given
     entries = {"Eb 92/7": {"pdfPages": 98, "parts": [

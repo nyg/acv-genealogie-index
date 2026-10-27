@@ -13,6 +13,7 @@ const pageSpan = ([first, last], roman = false) => {
 const within = (value, a, b) => value >= Math.min(a, b) && value <= Math.max(a, b);
 
 function locatePage(part, page) {
+  if (part.pdf[0] === part.pdf[1]) return { pdf: part.pdf[0], approx: false };
   const points = [[part.pages[0], part.pdf[0]], ...part.anchors, [part.pages[1], part.pdf[1]]];
   const exact = points.find(([known]) => known === page);
   if (exact || !(part.anchors.length || part.spread)) return { pdf: exact ? exact[1] : part.pdf[0] + Math.abs(page - part.pages[0]), approx: false };

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Registres vaudois : aperçu des PDF
 // @namespace    https://nyg.github.io/acv-genealogie-index/
-// @version      1.1.0
+// @version      1.1.1
 // @description  Affiche une page d'un PDF de davel-vd.ch sans télécharger le fichier entier, avec le sommaire des registres indexés.
 // @match        https://davel-vd.ch/*
 // @match        https://nyg.github.io/acv-genealogie-index/*

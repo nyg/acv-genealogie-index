@@ -31,7 +31,8 @@ def _check_parts(cote, pdf_pages, parts):
             _check_anchors(cote, part)
         elif part["pages"]:
             first, last = part["pages"]
-            if abs(last - first) != end - start:
+            several_numbers_on_one_page = start == end
+            if not several_numbers_on_one_page and abs(last - first) != end - start:
                 raise ValueError(f"{cote} : {part['content']} compte {abs(last - first) + 1} pages du registre pour {end - start + 1} pages du PDF")
 
 
