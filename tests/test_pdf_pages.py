@@ -70,6 +70,21 @@ def test_parts_must_not_overlap():
     assert "chevauchant" in str(error.value)
 
 
+def test_part_may_sit_inside_the_previous_one_when_pages_carry_two_numbers():
+    # Given
+    entries = {"Eb 15/1": {"pdfPages": 470, "parts": [
+        {"pdf": "399-418", "content": "Baptêmes 1616-1618", "pages": "338-357"},
+        {"pdf": "400-417", "content": "Mariages 1616-1618", "pages": "72-89"},
+        {"pdf": "420-470", "content": "Répertoire des mariages"},
+    ]}}
+
+    # When
+    parts = parse_pdf_pages(entries)["Eb 15/1"]["parts"]
+
+    # Then
+    assert [part["pdf"] for part in parts] == [[399, 418], [400, 417], [420, 470]]
+
+
 def test_manual_page_map_names_registers_with_a_pdf():
     # Given
     registers = load_pdf_pages(ROOT / "data" / "manual" / "pdf-pages.json")
@@ -121,3 +136,30 @@ def test_anchor_cannot_put_more_register_pages_than_pdf_pages():
 
     # Then
     assert "repère p. 192 → PDF 150" in str(error.value)
+
+
+def test_spread_part_holds_two_register_pages_per_pdf_page():
+    # Given
+    entries = {"Ed 15/2": {"pdfPages": 236, "parts": [
+        {"pdf": "5-202", "content": "Naissances", "pages": "1-368", "spread": True, "anchors": [[177, 100]]},
+    ]}}
+
+    # When
+    parts = parse_pdf_pages(entries)["Ed 15/2"]["parts"]
+
+    # Then
+    assert (parts[0]["spread"], parts[0]["roman"]) == (True, False)
+
+
+def test_spread_part_cannot_hold_more_than_two_register_pages_per_pdf_page():
+    # Given
+    entries = {"Ed 15/2": {"pdfPages": 236, "parts": [
+        {"pdf": "5-202", "content": "Naissances", "pages": "1-368", "spread": True, "anchors": [[177, 60]]},
+    ]}}
+
+    # When
+    with pytest.raises(ValueError) as error:
+        parse_pdf_pages(entries)
+
+    # Then
+    assert "repère p. 177 → PDF 60" in str(error.value)

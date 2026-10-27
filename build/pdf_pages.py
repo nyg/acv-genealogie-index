@@ -19,13 +19,15 @@ def part_kind(part):
 
 
 def _check_parts(cote, pdf_pages, parts):
-    previous_end = 0
+    previous_start, previous_end = 0, 0
     for part in parts:
         start, end = part["pdf"]
-        if not previous_end < start <= end <= pdf_pages:
+        nested = previous_start <= start and end <= previous_end
+        if not (start <= end <= pdf_pages and (previous_end < start or nested)):
             raise ValueError(f"{cote} : PDF p. {start}-{end} hors du PDF ({pdf_pages} pages) ou chevauchant la partie précédente")
-        previous_end = end
-        if part["anchors"]:
+        if not nested:
+            previous_start, previous_end = start, end
+        if part["anchors"] or part["spread"]:
             _check_anchors(cote, part)
         elif part["pages"]:
             first, last = part["pages"]
@@ -37,8 +39,9 @@ def _check_anchors(cote, part):
     (first, last), (start, end) = part["pages"], part["pdf"]
     points = [(first, start), *part["anchors"], (last, end)]
     direction = 1 if last >= first else -1
+    pages_per_pdf_page = 2 if part["spread"] else 1
     for (page, pdf), (next_page, next_pdf) in zip(points, points[1:]):
-        if (next_page - page) * direction <= 0 or next_pdf - pdf < abs(next_page - page):
+        if (next_page - page) * direction <= 0 or (next_pdf - pdf) * pages_per_pdf_page < abs(next_page - page):
             raise ValueError(f"{cote} : repère p. {next_page} → PDF {next_pdf} incompatible avec p. {page} → PDF {pdf}")
 
 
@@ -52,6 +55,8 @@ def parse_pdf_pages(entries):
             "kind": part_kind(part),
             "kinds": classify(part["content"]),
             "anchors": [list(anchor) for anchor in part.get("anchors", [])],
+            "spread": part.get("spread", False),
+            "roman": part.get("roman", False),
             "note": part.get("note", ""),
         } for part in entry["parts"]]
         _check_parts(cote, entry["pdfPages"], parts)

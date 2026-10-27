@@ -394,24 +394,36 @@ function partMatchesKind(part) {
 }
 
 const pdfLink = (unit, page, text) => `<a href="${DATA.pdfBase}${escapeHtml(unit.pdf)}#page=${page}" target="_blank" rel="noopener">${text}</a>`;
-const pageSpan = ([first, last]) => first === last ? `${first}` : `${first}–${last}`;
+const ROMAN = [[1000, "M"], [900, "CM"], [500, "D"], [400, "CD"], [100, "C"], [90, "XC"], [50, "L"], [40, "XL"], [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]];
+const toRoman = number => ROMAN.reduce(([text, rest], [value, letters]) => [text + letters.repeat(Math.floor(rest / value)), rest % value], ["", number])[0];
+function fromRoman(text) {
+  const values = [...text.toUpperCase()].map(letter => ROMAN.find(([, letters]) => letters === letter)[0]);
+  return values.reduce((sum, value, index) => sum + (value < (values[index + 1] ?? 0) ? -value : value), 0);
+}
+
+const pageSpan = ([first, last], roman = false) => {
+  const [a, b] = roman ? [toRoman(first), toRoman(last)] : [first, last];
+  return first === last ? `${a}` : `${a}–${b}`;
+};
 
 const within = (value, a, b) => value >= Math.min(a, b) && value <= Math.max(a, b);
 
 function locatePage(part, page) {
   const points = [[part.pages[0], part.pdf[0]], ...part.anchors, [part.pages[1], part.pdf[1]]];
   const exact = points.find(([known]) => known === page);
-  if (exact || !part.anchors.length) return { pdf: exact ? exact[1] : part.pdf[0] + Math.abs(page - part.pages[0]), approx: false };
+  if (exact || !(part.anchors.length || part.spread)) return { pdf: exact ? exact[1] : part.pdf[0] + Math.abs(page - part.pages[0]), approx: false };
   const next = points.findIndex(([known], index) => index > 0 && within(page, points[index - 1][0], known));
   const [[fromPage, fromPdf], [toPage, toPdf]] = [points[next - 1], points[next]];
   return { pdf: Math.round(fromPdf + (page - fromPage) * (toPdf - fromPdf) / (toPage - fromPage)), approx: true };
 }
 
 function pdfTargets(unit, text) {
-  if (!/^\s*\d+\s*$/.test(text)) return null;
-  const page = +text;
+  const value = text.trim();
+  const roman = /^[ivxlcdm]+$/i.test(value);
+  if (!roman && !/^\d+$/.test(value)) return null;
+  const page = roman ? fromRoman(value) : +value;
   return (unit.pdfParts ?? [])
-    .filter(part => part.pages && within(page, ...part.pages))
+    .filter(part => part.pages && within(page, ...part.pages) && (!roman || part.roman))
     .map(part => ({ part, ...locatePage(part, page) }));
 }
 
@@ -419,7 +431,7 @@ function renderPageTargets(unit, text) {
   if (!text.trim()) return "";
   const targets = pdfTargets(unit, text);
   if (!targets) return "Entrez un numéro de page.";
-  if (!targets.length) return `Pas dans les pages connues (${unit.pdfParts.filter(part => part.pages).map(part => pageSpan(part.pages)).join(", ")}).`;
+  if (!targets.length) return `Pas dans les pages connues (${unit.pdfParts.filter(part => part.pages).map(part => pageSpan(part.pages, part.roman)).join(", ")}).`;
   return targets
     .sort((a, b) => partMatchesKind(b.part) - partMatchesKind(a.part))
     .map(({ part, pdf, approx }) => `${pdfLink(unit, pdf, `${approx ? "≈ " : ""}PDF p. ${pdf}`)} ${escapeHtml(part.content)}`)
@@ -429,10 +441,10 @@ function renderPageTargets(unit, text) {
 function renderPdfParts(unit) {
   const parts = unit.pdfParts.map(part => `<li class="${partMatchesKind(part) ? "relevant" : ""}">
       ${pdfLink(unit, part.pdf[0], `PDF p. ${pageSpan(part.pdf)}`)}
-      <div><span class="part-content">${escapeHtml(part.content)}</span>${part.pages ? ` <span class="part-pages">registre p. ${pageSpan(part.pages)}${part.anchors.length ? ", position approchée entre les repères" : ""}</span>` : ""}${part.note ? `<span class="part-note">${escapeHtml(part.note)}</span>` : ""}</div>
+      <div><span class="part-content">${escapeHtml(part.content)}</span>${part.pages ? ` <span class="part-pages">registre p. ${pageSpan(part.pages, part.roman)}${part.spread ? ", deux pages par image" : ""}${part.anchors.length ? ", position approchée entre les repères" : ""}</span>` : ""}${part.note ? `<span class="part-note">${escapeHtml(part.note)}</span>` : ""}</div>
     </li>`).join("");
   const jump = unit.pdfParts.some(part => part.pages)
-    ? `<div class="page-jump"><label>Page du registre<input type="text" inputmode="numeric" autocomplete="off" data-page-unit="${escapeHtml(unit.slug)}"></label><output aria-live="polite"></output></div>`
+    ? `<div class="page-jump"><label>Page du registre<input type="text" inputmode="${unit.pdfParts.some(part => part.roman) ? "text" : "numeric"}" autocomplete="off" data-page-unit="${escapeHtml(unit.slug)}"></label><output aria-live="polite"></output></div>`
     : "";
   return `<ul class="pdf-parts">${parts}</ul>${jump}`;
 }

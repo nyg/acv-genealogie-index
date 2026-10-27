@@ -24,10 +24,10 @@ Les données sont publiées par les ACV sous licence [CC BY-SA 4.0](https://crea
 - `data/raw/davel-vd/_series_index.json` : liste des 410 séries de davel-vd.ch (paroisses Eb/Ed, arrondissements SB 267).
 - `data/raw/davel-vd/_pdf_profiles.json` : profil de chaque PDF relevé (pages, bandes, formats).
 - `data/raw/davel/_index.json` : identifiants des entrées de davel.vd.ch par fonds, construit par lots.
-- `data/manual/` : corrections manuelles de l'OCR de la table des paroisses, et `pdf-pages.json`, saisi à la main : par registre, les pages du PDF de chaque partie (registre, répertoire) et la pagination du registre correspondante, avec des repères quand des feuillets blancs décalent la pagination.
+- `data/manual/` : corrections manuelles de l'OCR de la table des paroisses, et `pdf-pages.json`, saisi à la main : par registre, les pages du PDF de chaque partie (registre, répertoire) et la pagination du registre correspondante, avec des repères quand des feuillets blancs décalent la pagination. Ollon (Eb 92, Ed 92) et Bex (Eb 15, Ed 15) sont saisis.
 - `build/scope_parser.py` : analyse le champ « Portée et contenu » (type d'acte, dates, pages, tête-bêche, partie du registre).
 - `build/places.py` : noms de paroisses et localités rattachées.
-- `build/pdf_pages.py` : lit et vérifie `data/manual/pdf-pages.json` (une page du PDF par page du registre dans chaque partie).
+- `build/pdf_pages.py` : lit et vérifie `data/manual/pdf-pages.json` (une page du PDF par page du registre dans chaque partie, deux pour les doubles pages, parties imbriquées quand des pages portent deux numéros).
 - `build/scopearchiv.py` : registres et pièces de davel.vd.ch.
 - `build/build.py` : construit `data/acv.sqlite` et le site `docs/index.html` (un seul fichier, données incluses).
 - `build/report.py` : couverture par fonds et problèmes de données (contenus non analysés, dates incohérentes, localités sans paroisse).
