@@ -53,10 +53,28 @@
   :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 
   .page { max-width: 1180px; margin: 0 auto; display: grid; gap: 28px; }
-  header.masthead { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; border-bottom: 1px solid var(--rule); padding-bottom: 14px; }
+  header.masthead { position: relative; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; border-bottom: 1px solid var(--rule); padding-bottom: 14px; }
   header h1 { font: 600 clamp(1.6rem, 3vw, 2.1rem)/1.1 var(--display); margin: 0; text-wrap: balance; }
   header h1 span { color: var(--vaud); }
+  .masthead-tools { display: flex; align-items: center; gap: 12px; }
   .coverage { color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+  .coverage-toggle { font: inherit; color: inherit; background: none; border: 0; padding: 4px 0; cursor: pointer; text-align: left; text-decoration: underline dotted; text-underline-offset: 3px; }
+  .coverage-toggle::after { content: " ▾"; }
+  .coverage-panel { display: none; position: absolute; z-index: 10; top: 100%; right: 0; width: min(520px, 100%); margin-top: 6px; gap: 10px; background: var(--surface); color: var(--ink); border: 1px solid var(--rule); border-radius: 6px; box-shadow: 0 8px 24px rgb(0 0 0 / 0.12); padding: 14px 16px; }
+  .coverage-panel::before { content: ""; position: absolute; inset: -28px 0 100%; }
+  @media (hover: hover) { .coverage:hover:not(.closed) .coverage-panel { display: grid; } }
+  .coverage.open .coverage-panel { display: grid; }
+  .coverage-panel h2 { font: 600 1.05rem/1.2 var(--display); margin: 0; }
+  .coverage-panel p { margin: 0; }
+  .coverage-panel .muted { color: var(--muted); }
+  .coverage-panel table { border-collapse: collapse; width: 100%; }
+  .coverage-panel td { padding: 5px 10px 5px 0; vertical-align: baseline; border-top: 1px solid var(--rule); }
+  .coverage-panel td:first-child, .coverage-panel td:last-child { white-space: nowrap; }
+  .coverage-panel td:last-child { padding-right: 0; text-align: right; }
+  .coverage-panel td small { display: block; color: var(--muted); font-size: 0.78rem; }
+  .coverage-panel .places button { font: inherit; color: var(--vaud); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+  .repo { display: inline-flex; color: var(--muted); padding: 4px; border-radius: 4px; }
+  .repo:hover { color: var(--ink); }
 
   .layout { display: grid; grid-template-columns: minmax(280px, 340px) minmax(0, 1fr); gap: 28px; align-items: start; }
   @media (max-width: 820px) { .layout { grid-template-columns: minmax(0, 1fr); } }
@@ -160,14 +178,20 @@
   h3.group { font: 600 1rem var(--display); margin: 6px 0 0; color: var(--muted); }
   .group-note { margin: -14px 0 0; font-size: 0.85rem; color: var(--muted); max-width: 70ch; }
   footer { color: var(--muted); font-size: 0.8rem; border-top: 1px solid var(--rule); padding-top: 14px; }
-  footer p { margin: 0; max-width: 75ch; }
+  footer p { margin: 0; }
   @media (prefers-reduced-motion: no-preference) { .result.flash { transition: box-shadow 0.3s, border-color 0.3s; } }
 </style>
 
 <div class="page">
   <header class="masthead">
     <h1>Registres <span>vaudois</span></h1>
-    <div class="coverage" id="coverage"></div>
+    <div class="masthead-tools">
+      <div class="coverage" id="coverage">
+        <button type="button" class="coverage-toggle" id="coverage-toggle" aria-expanded="false" aria-controls="coverage-panel"></button>
+        <div class="coverage-panel" id="coverage-panel" role="region" aria-label="Ce que l'index contient"></div>
+      </div>
+      <a class="repo" href="https://github.com/nyg/acv-genealogie-index" target="_blank" rel="noopener" title="Code source sur GitHub" aria-label="Code source sur GitHub"><svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+    </div>
   </header>
 
   <div class="layout">
@@ -715,7 +739,66 @@ let resizeTimer;
 addEventListener("resize", () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(render, 150); });
 
 const allSeries = DATA.places.flatMap(place => place.series);
-document.getElementById("coverage").textContent = `${allSeries.filter(s => s.scraped).length} séries indexées sur ${allSeries.length} · ${DATA.units.length} registres`;
+const listFormat = new Intl.ListFormat("fr", { type: "conjunction" });
+const plural = (count, word) => `${count} ${word}${count > 1 ? "s" : ""}`;
+
+function fondsCoverageRow(fonds) {
+  const units = DATA.units.filter(unit => unit.fonds === fonds);
+  const years = [...units.map(unit => unit.start), ...units.map(unit => unit.end)].filter(Boolean).map(date => date.slice(0, 4)).sort();
+  const series = allSeries.filter(s => s.fonds === fonds);
+  const indexedSeries = series.filter(s => s.scraped).length;
+  const seriesText = DIGITIZED_FONDS.has(fonds) ? `${indexedSeries} séries sur ${series.length}` : series.length ? plural(series.length, "série") : "";
+  const source = DIGITIZED_FONDS.has(fonds) ? "davel-vd.ch, avec PDF" : "davel.vd.ch, sans PDF";
+  return `<tr><td><span class="chip ${fondsClass(fonds)}">${escapeHtml(fonds)}</span></td>
+    <td>${escapeHtml(FONDS_ERA[fonds] ?? fonds)}<small>${years[0]}-${years.at(-1)} · ${source}</small></td>
+    <td>${plural(units.length, "registre")}${seriesText ? `<small>${seriesText}</small>` : ""}</td></tr>`;
+}
+
+function placeButtons(places) {
+  return places.sort((a, b) => a.name.localeCompare(b.name, "fr")).map(place => `<button type="button" data-place="${place.id}">${escapeHtml(place.name)}</button>`).join(", ");
+}
+
+function renderCoverage() {
+  const indexed = DATA.places.filter(place => place.series.some(s => s.scraped && DIGITIZED_FONDS.has(s.fonds)));
+  const parishes = indexed.filter(place => place.kind === "paroisse");
+  const arrondissements = indexed.filter(place => place.kind === "arrondissement");
+  const parishTotal = DATA.places.filter(place => place.kind === "paroisse").length;
+  const arrondissementTotal = DATA.places.filter(place => place.kind === "arrondissement").length;
+  const mapped = DATA.units.filter(unit => unit.pdfParts);
+  const mappedNames = [...new Set(mapped.map(unit => placesById.get(unit.place).name))].sort((a, b) => a.localeCompare(b, "fr"));
+  const fonds = [...new Set(DATA.units.map(unit => unit.fonds))].sort((a, b) => FONDS_ORDER[a] - FONDS_ORDER[b]);
+  document.getElementById("coverage-toggle").textContent = `Indexé : ${parishes.length} paroisses sur ${parishTotal}, ${arrondissements.length} arrondissements sur ${arrondissementTotal}`;
+  document.getElementById("coverage-panel").innerHTML = `<h2>Ce que l'index contient</h2>
+    <p>Les registres sont détaillés (actes, dates, pages) pour ${plural(parishes.length, "paroisse")} et ${plural(arrondissements.length, "arrondissement")} d'état civil. Les ${parishTotal - parishes.length} autres paroisses et ${arrondissementTotal - arrondissements.length} autres arrondissements apparaissent avec la liste de leurs séries et un lien vers l'inventaire, sans le détail des registres (« non indexé »).</p>
+    <p class="places"><strong>Paroisses</strong> : ${placeButtons(parishes)}</p>
+    <p class="places"><strong>Arrondissements</strong> : ${placeButtons(arrondissements)}</p>
+    <table>${fonds.map(fondsCoverageRow).join("")}</table>
+    ${mapped.length ? `<p><strong>Pages du PDF</strong> : pour ${escapeHtml(listFormat.format(mappedNames))} (${plural(mapped.length, "registre")}), la page du registre citée par le répertoire donne la page du PDF à ouvrir. Ailleurs, le PDF s'ouvre à sa première page.</p>` : ""}
+    <p class="muted">Inventaires extraits le ${new Date(DATA.generatedAt).toLocaleDateString("fr-CH")}.</p>`;
+}
+
+const coverage = document.getElementById("coverage");
+const coverageToggle = document.getElementById("coverage-toggle");
+function setCoverageOpen(open) {
+  coverage.classList.toggle("open", open);
+  coverageToggle.setAttribute("aria-expanded", String(open));
+}
+coverageToggle.addEventListener("click", () => {
+  coverage.classList.remove("closed");
+  setCoverageOpen(!coverage.classList.contains("open"));
+});
+coverage.addEventListener("click", event => {
+  const button = event.target.closest("[data-place]");
+  if (!button) return;
+  const entry = SUGGESTIONS.find(s => s.key === normalize(placesById.get(button.dataset.place).name));
+  if (entry) selectEntry(entry);
+  setCoverageOpen(false);
+  coverage.classList.add("closed");
+});
+coverage.addEventListener("mouseleave", () => coverage.classList.remove("closed"));
+addEventListener("click", event => { if (!coverage.contains(event.target)) setCoverageOpen(false); });
+addEventListener("keydown", event => { if (event.key === "Escape") setCoverageOpen(false); });
+renderCoverage();
 document.getElementById("provenance").innerHTML = `Index non officiel construit à partir des inventaires des <a href="https://www.vd.ch/etat-droit-finances/archives-acv" target="_blank" rel="noopener">Archives cantonales vaudoises</a> (davel-vd.ch, davel.vd.ch) et de leurs tables de correspondance, extraits le ${new Date(DATA.generatedAt).toLocaleDateString("fr-CH")}. Données sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="noopener">CC BY-SA 4.0</a>. Les dates et pages viennent des descriptions d'archives : vérifiez toujours sur la fiche descriptive.`;
 restore();
 </script>

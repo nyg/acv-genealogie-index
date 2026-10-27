@@ -79,4 +79,9 @@ const linked = repertoireLink.test(answers);
 failures += linked ? 0 : 1;
 console.log(`${linked ? "ok  " : "FAIL"} Ollon / deces / 1760 → lien vers le répertoire des décès d'Eb 92/4 (PDF p. 382)`);
 
+const coveragePanel = elements.get("coverage-panel").innerHTML;
+const covered = coveragePanel.includes(`data-place="paroisse-15">Bex</button>`) && /Pages du PDF<\/strong> : pour [^(]*Ollon \(\d+ registres\)/.test(coveragePanel);
+failures += covered ? 0 : 1;
+console.log(`${covered ? "ok  " : "FAIL"} couverture → Bex parmi les paroisses indexées, Ollon parmi les pages du PDF reliées`);
+
 process.exit(failures ? 1 : 0);
