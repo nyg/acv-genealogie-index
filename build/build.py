@@ -22,6 +22,8 @@ PDF_PAGES = ROOT / "data" / "manual" / "pdf-pages.json"
 DATABASE = ROOT / "data" / "acv.sqlite"
 SITE_TEMPLATE = ROOT / "site" / "template.html"
 SITE_OUTPUT = ROOT / "docs" / "index.html"
+PAGE_MAP = ROOT / "site" / "page_map.js"
+PAGE_MAP_OUTPUT = ROOT / "docs" / "pdf-pages.json"
 VIEWER_SOURCE = ROOT / "site" / "apercu.user.js"
 VIEWER_OUTPUT = ROOT / "docs" / "apercu.user.js"
 PDF_READER = ROOT / "scraper" / "davel_pdf.js"
@@ -298,14 +300,23 @@ def write_site(places, units, segments):
         "segments": segments,
     }
     data = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    page = SITE_TEMPLATE.read_text(encoding="utf-8").replace("/*__DATA__*/null", data)
+    page = SITE_TEMPLATE.read_text(encoding="utf-8").replace("/*__DATA__*/null", data).replace("/*__PAGE_MAP__*/", PAGE_MAP.read_text(encoding="utf-8"))
     SITE_OUTPUT.parent.mkdir(exist_ok=True)
     SITE_OUTPUT.write_text(STANDALONE_HEAD + page, encoding="utf-8")
 
 
-def write_viewer():
-    viewer = VIEWER_SOURCE.read_text(encoding="utf-8").replace("/*__PDF_READER__*/", PDF_READER.read_text(encoding="utf-8").strip())
+def write_viewer(units):
+    viewer = (VIEWER_SOURCE.read_text(encoding="utf-8")
+              .replace("/*__PDF_READER__*/", PDF_READER.read_text(encoding="utf-8").strip())
+              .replace("/*__PAGE_MAP__*/", PAGE_MAP.read_text(encoding="utf-8").strip()))
     VIEWER_OUTPUT.write_text(viewer, encoding="utf-8")
+    page_map = {
+        unit["pdf"]: {"cote": unit["cote"], "pdfParts": [
+            {key: part[key] for key in ("pdf", "pages", "content", "anchors", "spread", "roman", "note")} for part in unit["pdfParts"]
+        ]}
+        for unit in units if unit.get("pdfParts")
+    }
+    PAGE_MAP_OUTPUT.write_text(json.dumps(page_map, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
 def main():
@@ -319,7 +330,7 @@ def main():
     segments += other_segments
     write_database(places, units, segments)
     write_site(places, units, segments)
-    write_viewer()
+    write_viewer(units)
     scraped = sum(series["scraped"] for place in places.values() for series in place["series"])
     print(f"{len(places)} lieux, {scraped} séries indexées, {len(units)} registres, {len(segments)} segments")
 

@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Registres vaudois : aperçu des PDF
 // @namespace    https://nyg.github.io/acv-genealogie-index/
-// @version      1.0.0
-// @description  Affiche une page d'un PDF de davel-vd.ch sans télécharger le fichier entier.
+// @version      1.1.0
+// @description  Affiche une page d'un PDF de davel-vd.ch sans télécharger le fichier entier, avec le sommaire des registres indexés.
 // @match        https://davel-vd.ch/*
 // @match        https://nyg.github.io/acv-genealogie-index/*
 // @run-at       document-start
@@ -13,9 +13,12 @@
 
 (() => {
   const SITE_HOST = 'nyg.github.io';
+  const PAGE_MAP_URL = 'https://nyg.github.io/acv-genealogie-index/pdf-pages.json';
+  const UPLOADS_PATH = '/uploads/r/null/';
   const CHALLENGE_PATH = '/js_challenge.html';
   const PENDING_KEY = 'acv-apercu';
   const ZOOM_KEY = 'acv-apercu-zoom';
+  const TOC_KEY = 'acv-apercu-sommaire';
   const ZOOMS = [0, 1, 1.5, 2, 3, 4];
   const PREFETCH_DELAY_MS = 1500;
   const NAVIGATION_DELAY_MS = 150;
@@ -24,6 +27,8 @@
   const hashParams = () => new URLSearchParams(location.hash.slice(1));
   const whenReady = callback => document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', callback, { once: true }) : callback();
   const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+  const stored = (key, fallback) => { try { return localStorage.getItem(key) ?? fallback; } catch { return fallback; } };
+  const store = (key, value) => { try { localStorage.setItem(key, value); } catch {} };
 
   if (location.hostname === SITE_HOST) {
     const announce = () => {
@@ -52,10 +57,20 @@
     button:hover, .full:hover { background: #3c3c3c; }
     button:disabled { opacity: 0.4; cursor: default; }
     input { font: inherit; width: 4em; text-align: right; color: inherit; background: #000; border: 1px solid #484848; border-radius: 4px; padding: 2px 6px; }
-    .count { color: #aaa; }
+    .count, .also { color: #aaa; }
+    .also { display: inline-flex; align-items: center; gap: 4px; }
+    .where { color: #9fd9b9; }
     .status { color: #bbb; }
     .status.error { color: #ff8a80; }
-    .stage { flex: 1; min-height: 0; overflow: auto; display: flex; padding: ${STAGE_PADDING}px; box-sizing: border-box; }
+    .main { flex: 1; min-height: 0; display: flex; }
+    .toc { width: min(300px, 70vw); flex: none; overflow: auto; background: #161616; border-right: 1px solid #333; }
+    .toc ol { list-style: none; margin: 0; padding: 6px 0; }
+    .toc button { display: grid; gap: 2px; width: 100%; text-align: left; background: none; border: 0; border-left: 3px solid transparent; border-radius: 0; padding: 6px 10px; }
+    .toc button:hover { background: #262626; }
+    .toc .current button { border-left-color: #4cc48b; background: #202a25; }
+    .toc .content { font-weight: 600; }
+    .toc .range, .toc .note { color: #aaa; font-size: 12px; }
+    .stage { flex: 1; min-width: 0; overflow: auto; display: flex; padding: ${STAGE_PADDING}px; box-sizing: border-box; }
     .frame { position: relative; flex: none; margin: auto; }
     img { position: absolute; left: 50%; top: 50%; max-width: none; background: #fff; cursor: zoom-in; }
     .zoomed img { cursor: zoom-out; }
@@ -68,17 +83,27 @@
     const reader = window.pdf;
     reader.state.delay = 0;
 
+    /*__PAGE_MAP__*/
+
+    let pageMaps = null;
+    const pageMapOf = pdfPath => (pageMaps ??= fetch(PAGE_MAP_URL).then(response => response.ok ? response.json() : {}).catch(() => ({})))
+      .then(maps => maps[pdfPath] ?? null);
+
     const host = document.createElement('acv-apercu');
     host.style.cssText = 'all: initial; position: fixed; inset: 0; z-index: 2147483647';
     const root = host.attachShadow({ mode: 'open' });
     root.innerHTML = `<style>${STYLE}</style>
       <div class="viewer">
         <div class="bar">
+          <button class="toc-toggle" title="Sommaire du registre (S)" hidden>☰</button>
           <span class="title"></span>
           <button class="prev" title="Page précédente (←)">‹</button>
           <label>PDF p. <input class="page" inputmode="numeric" autocomplete="off"></label>
           <span class="count"></span>
           <button class="next" title="Page suivante (→)">›</button>
+          <label class="register" hidden>Registre p. <input class="register-page" autocomplete="off"></label>
+          <span class="also"></span>
+          <span class="where"></span>
           <span class="status" aria-live="polite"></span>
           <button class="retry" hidden>Réessayer</button>
           <span class="tools">
@@ -90,25 +115,27 @@
             <button class="close" title="Fermer (Échap)">×</button>
           </span>
         </div>
-        <div class="stage"><div class="frame"><img alt=""></div></div>
+        <div class="main">
+          <nav class="toc" aria-label="Sommaire du registre" hidden><ol></ol></nav>
+          <div class="stage"><div class="frame"><img alt=""></div></div>
+        </div>
       </div>`;
     const $ = selector => root.querySelector(selector);
-    const [stage, frame, image, pageInput] = ['.stage', '.frame', 'img', '.page'].map($);
+    const [stage, frame, image, pageInput, registerInput, toc] = ['.stage', '.frame', 'img', '.page', '.register-page', '.toc'].map($);
 
     let path = null;
     let title = '';
     let opening = null;
     let doc = null;
+    let entry = null;
     let current = 0;
     let natural = null;
     let pageRotation = 0;
     let rotation = 0;
     let originalTitle = null;
     let zoom = 0;
-    try {
-      const saved = +localStorage.getItem(ZOOM_KEY);
-      if (ZOOMS.includes(saved)) zoom = saved;
-    } catch {}
+    const savedZoom = +stored(ZOOM_KEY, 0);
+    if (ZOOMS.includes(savedZoom)) zoom = savedZoom;
 
     const loading = new Map();
     const load = n => {
@@ -146,13 +173,55 @@
         y: (stage.scrollTop + stage.clientHeight * focus.y) / stage.scrollHeight,
       };
       zoom = value;
-      try { localStorage.setItem(ZOOM_KEY, zoom); } catch {}
+      store(ZOOM_KEY, zoom);
       layout();
       stage.scrollLeft = point.x * stage.scrollWidth - stage.clientWidth * focus.x;
       stage.scrollTop = point.y * stage.scrollHeight - stage.clientHeight * focus.y;
     };
     const stepZoom = step => setZoom(ZOOMS[Math.min(Math.max(ZOOMS.indexOf(zoom) + step, 0), ZOOMS.length - 1)]);
     const rotate = () => { rotation = (rotation + 90) % 360; layout(); };
+
+    const pageLabel = (part, page) => (part.roman ? toRoman(page) : page);
+
+    const markPosition = () => {
+      if (!entry) return;
+      const items = toc.querySelectorAll('li');
+      const here = entry.pdfParts.flatMap((part, index) => {
+        const inside = within(current, ...part.pdf);
+        items[index].classList.toggle('current', inside);
+        if (!inside) return [];
+        const at = registerPageAt(part, current);
+        return [at ? `${part.content}, p. ${at.approx ? '≈ ' : ''}${pageLabel(part, at.page)}` : part.content];
+      });
+      $('.where').textContent = here.join(' · ');
+    };
+
+    const setEntry = found => {
+      entry = found;
+      $('.toc-toggle').hidden = !entry;
+      $('.register').hidden = !entry;
+      toc.hidden = !entry || stored(TOC_KEY, '1') !== '1';
+      $('.where').textContent = '';
+      if (!entry) return;
+      registerInput.inputMode = entry.pdfParts.some(part => part.roman) ? 'text' : 'numeric';
+      toc.querySelector('ol').replaceChildren(...entry.pdfParts.map(part => {
+        const line = (className, text) => Object.assign(document.createElement('span'), { className, textContent: text });
+        const button = document.createElement('button');
+        button.append(line('content', part.content), line('range', `PDF p. ${pageSpan(part.pdf)}${part.pages ? ` · registre p. ${pageSpan(part.pages, part.roman)}` : ''}`));
+        if (part.note) button.append(line('note', part.note));
+        button.addEventListener('click', () => show(part.pdf[0]));
+        const item = document.createElement('li');
+        item.append(button);
+        return item;
+      }));
+      markPosition();
+    };
+
+    const toggleToc = () => {
+      if (!entry) return;
+      toc.hidden = !toc.hidden;
+      store(TOC_KEY, toc.hidden ? '0' : '1');
+    };
 
     const prefetch = async n => {
       for (const neighbour of [n + 1, n - 1]) {
@@ -167,6 +236,9 @@
       n = Math.min(Math.max(n, 1), doc.pages.length);
       current = n;
       pageInput.value = n;
+      registerInput.value = '';
+      $('.also').replaceChildren();
+      markPosition();
       $('.prev').disabled = n === 1;
       $('.next').disabled = n === doc.pages.length;
       $('.full').href = `${doc.url}#page=${n}`;
@@ -197,18 +269,41 @@
       }
     };
 
-    const open = async (newPath, n, newTitle) => {
-      whenReady(() => {
-        if (host.isConnected) return;
-        document.body.append(host);
-        document.documentElement.style.overflow = 'hidden';
+    const showRegisterPage = () => {
+      const typed = registerInput.value;
+      const targets = pdfTargets(entry, typed);
+      registerInput.blur();
+      if (!targets?.length) {
+        $('.also').replaceChildren(targets ? 'hors des pages connues' : 'numéro de page ?');
+        return;
+      }
+      const chosen = targets.find(target => within(current, ...target.part.pdf)) ?? targets[0];
+      show(chosen.pdf);
+      registerInput.value = typed;
+      const others = targets.filter(target => target !== chosen).map(target => {
+        const button = Object.assign(document.createElement('button'), { textContent: `${target.approx ? '≈ ' : ''}PDF p. ${target.pdf}`, title: target.part.content });
+        button.addEventListener('click', () => show(target.pdf));
+        return button;
       });
+      if (others.length) $('.also').append('aussi', ...others);
+    };
+
+    const mount = () => {
+      if (host.isConnected) return;
+      document.body.append(host);
+      document.documentElement.style.overflow = 'hidden';
+    };
+
+    const open = async (newPath, n, newTitle) => {
+      whenReady(mount);
       title = newTitle || 'PDF';
       $('.title').textContent = title;
       if (newPath !== path || !opening) {
         path = newPath;
         doc = null;
+        setEntry(null);
         opening = reader.openDoc(path).catch(error => { opening = null; throw error; });
+        pageMapOf(path).then(found => path === newPath && setEntry(found));
       }
       setStatus('Ouverture du PDF…');
       try {
@@ -221,10 +316,11 @@
       }
       $('.count').textContent = `/ ${doc.pages.length}`;
       $('.full').textContent = `PDF entier (${Math.round(doc.size / 1048576)} Mo)`;
-      show(n);
+      show(n ?? (await pageMapOf(path))?.pdfParts[0].pdf[0] ?? 1);
     };
 
     const close = () => {
+      if (!host.isConnected) return;
       host.remove();
       document.documentElement.style.overflow = '';
       if (originalTitle !== null) document.title = originalTitle;
@@ -241,12 +337,14 @@
       0: () => setZoom(0),
       r: rotate,
       R: rotate,
+      s: toggleToc,
+      S: toggleToc,
       Escape: close,
     };
     addEventListener('keydown', event => {
       const action = keys[event.key];
       if (!host.isConnected || !action || event.metaKey || event.ctrlKey || event.altKey) return;
-      if (event.composedPath()[0] === pageInput && event.key !== 'Escape') return;
+      if (event.composedPath()[0].tagName === 'INPUT' && event.key !== 'Escape') return;
       event.preventDefault();
       event.stopPropagation();
       action();
@@ -259,6 +357,8 @@
       show(Math.round(+pageInput.value) || current);
       pageInput.blur();
     });
+    registerInput.addEventListener('change', showRegisterPage);
+    $('.toc-toggle').addEventListener('click', toggleToc);
     $('.prev').addEventListener('click', () => show(current - 1));
     $('.next').addEventListener('click', () => show(current + 1));
     $('.zoom-out').addEventListener('click', () => stepZoom(-1));
@@ -267,17 +367,30 @@
     $('.rotate').addEventListener('click', rotate);
     $('.close').addEventListener('click', close);
     $('.retry').addEventListener('click', () => location.reload());
-    addEventListener('resize', layout);
-    return { open };
+    new ResizeObserver(layout).observe(stage);
+    return { open, close };
+  };
+
+  const addBrowseButton = () => {
+    const link = document.querySelector(`a[href*="${UPLOADS_PATH}"][href$=".pdf"]`);
+    if (!link) return;
+    const params = new URLSearchParams({ apercu: '', pdf: link.pathname.slice(UPLOADS_PATH.length), titre: document.querySelector('.referenceCode')?.textContent.trim() ?? '' });
+    const button = Object.assign(document.createElement('a'), { href: `#${params}`, textContent: 'Feuilleter le PDF page par page' });
+    button.style.cssText = 'display: inline-block; margin: 0 0 10px; padding: 6px 14px; border-radius: 4px; background: #127a4b; color: #fff; font-weight: 600; text-decoration: none';
+    (link.closest('.digital-object-reference, .filename') ?? link).before(button);
   };
 
   let viewer = null;
   const start = () => {
     const params = hashParams();
-    if (!params.has('apercu') || !params.get('pdf')) return;
+    if (!params.has('apercu') || !params.get('pdf')) {
+      viewer?.close();
+      return;
+    }
     viewer ??= createViewer();
-    viewer.open(params.get('pdf'), Math.round(+params.get('page')) || 1, params.get('titre'));
+    viewer.open(params.get('pdf'), Math.round(+params.get('page')) || null, params.get('titre'));
   };
   addEventListener('hashchange', start);
+  whenReady(addBrowseButton);
   start();
 })();

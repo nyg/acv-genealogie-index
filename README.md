@@ -15,7 +15,9 @@ Installation dans Chrome :
 3. Ouvrir https://nyg.github.io/acv-genealogie-index/apercu.user.js et cliquer sur « Installer ».
 4. Recharger le site de l'index.
 
-Les liens « PDF p. » ouvrent alors la fiche du registre sur davel-vd.ch avec la page demandée par-dessus, et « Feuilleter le PDF » s'ajoute aux liens de chaque registre. ← et → changent de page (les pages voisines sont chargées à l'avance), un clic sur la page l'agrandit à la largeur de l'écran, + et − règlent le zoom, R fait pivoter la page et Échap ferme l'aperçu. « PDF entier » ouvre le fichier complet à la même page. Tampermonkey met le script à jour depuis la même adresse.
+Les liens « PDF p. » ouvrent alors la fiche du registre sur davel-vd.ch avec la page demandée par-dessus, et « Feuilleter le PDF » s'ajoute aux liens de chaque registre. Sur davel-vd.ch, chaque fiche qui a un PDF reçoit aussi un bouton « Feuilleter le PDF page par page ».
+
+Dans l'aperçu, ← et → changent de page (les pages voisines sont chargées à l'avance), un clic sur la page l'agrandit à la largeur de l'écran, + et − règlent le zoom, R fait pivoter la page et Échap ferme l'aperçu. « PDF entier » ouvre le fichier complet à la même page. Pour les registres dont les pages sont reliées au PDF, le sommaire (☰ ou S) liste les parties du registre, « Registre p. » mène à la page citée par le répertoire, et la barre indique la partie et la page du registre affichées. Tampermonkey met le script à jour depuis la même adresse.
 
 ## Sources
 
@@ -43,7 +45,8 @@ Les données sont publiées par les ACV sous licence [CC BY-SA 4.0](https://crea
 - `build/pdf_pages.py` : lit et vérifie `data/manual/pdf-pages.json` (une page du PDF par page du registre dans chaque partie, deux pour les doubles pages, parties imbriquées quand des pages portent deux numéros).
 - `build/scopearchiv.py` : registres et pièces de davel.vd.ch.
 - `site/apercu.user.js` : script d'aperçu des PDF pour Tampermonkey (voir « Aperçu des PDF »).
-- `build/build.py` : construit `data/acv.sqlite`, le site `docs/index.html` (un seul fichier, données incluses) et `docs/apercu.user.js`, le script d'aperçu avec `scraper/davel_pdf.js` inclus.
+- `site/page_map.js` : passage entre page du registre et page du PDF, commun au site et au script d'aperçu.
+- `build/build.py` : construit `data/acv.sqlite`, le site `docs/index.html` (un seul fichier, données incluses), `docs/apercu.user.js`, le script d'aperçu avec `scraper/davel_pdf.js` et `site/page_map.js` inclus, et `docs/pdf-pages.json`, les pages du PDF par registre que le script lit pour son sommaire.
 - `build/report.py` : couverture par fonds et problèmes de données (contenus non analysés, dates incohérentes, localités sans paroisse).
 - `build/preview.py` : version réduite du site (`site/preview.html`) pour l'aperçu du navigateur intégré.
 - `scripts/check.sh` : reconstruit, lance les tests, génère l'aperçu et affiche le rapport.
