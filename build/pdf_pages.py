@@ -39,9 +39,9 @@ def _check_anchors(cote, part):
     (first, last), (start, end) = part["pages"], part["pdf"]
     points = [(first, start), *part["anchors"], (last, end)]
     direction = 1 if last >= first else -1
-    pages_per_pdf_page = 2 if part["spread"] else 1
     for (page, pdf), (next_page, next_pdf) in zip(points, points[1:]):
-        if (next_page - page) * direction <= 0 or (next_pdf - pdf) * pages_per_pdf_page < abs(next_page - page):
+        most_pages = 2 * (next_pdf - pdf) + 1 if part["spread"] else next_pdf - pdf
+        if (next_page - page) * direction <= 0 or most_pages < abs(next_page - page):
             raise ValueError(f"{cote} : repère p. {next_page} → PDF {next_pdf} incompatible avec p. {page} → PDF {pdf}")
 
 

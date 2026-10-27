@@ -151,6 +151,19 @@ def test_spread_part_holds_two_register_pages_per_pdf_page():
     assert (parts[0]["spread"], parts[0]["roman"]) == (True, False)
 
 
+def test_spread_part_may_end_on_the_right_hand_page_of_its_last_image():
+    # Given
+    entries = {"Ed 3/2": {"pdfPages": 246, "parts": [
+        {"pdf": "5-213", "content": "Naissances", "pages": "1-367", "spread": True, "anchors": [[364, 212]]},
+    ]}}
+
+    # When
+    parts = parse_pdf_pages(entries)["Ed 3/2"]["parts"]
+
+    # Then
+    assert parts[0]["pages"] == [1, 367]
+
+
 def test_spread_part_cannot_hold_more_than_two_register_pages_per_pdf_page():
     # Given
     entries = {"Ed 15/2": {"pdfPages": 236, "parts": [

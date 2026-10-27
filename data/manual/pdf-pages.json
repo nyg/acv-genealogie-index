@@ -1,4 +1,89 @@
 {
+  "Eb 3/1": {
+    "pdfPages": 299,
+    "parts": [
+      {"pdf": "11-55", "content": "Baptêmes 1629-1651", "pages": "1-23", "anchors": [[2, 13]], "note": "Chaque page est précédée de sa traduction (« Traduction de la page ci-contre ») : la page originale est en PDF impair, sa traduction juste avant."},
+      {"pdf": "56-153", "content": "Baptêmes 1629-1651", "pages": "24-121"},
+      {"pdf": "155-206", "content": "Répertoire des baptêmes 1629-1651"},
+      {"pdf": "216-236", "content": "Mariages 1629-1651, tête-bêche", "pages": "1-21", "note": "PDF 215 : traduction de la p. 1."},
+      {"pdf": "238-246", "content": "Mariages 1629-1651, tête-bêche", "pages": "22-30", "note": "PDF 237 : page blanche numérotée 20, entre les pp. 21 et 22."},
+      {"pdf": "248-299", "content": "Répertoire des mariages 1629-1651"}
+    ]
+  },
+  "Eb 3/2": {
+    "pdfPages": 847,
+    "parts": [
+      {"pdf": "12-14", "content": "Baptêmes 1654-1727", "pages": "1-3"},
+      {"pdf": "16-22", "content": "Baptêmes 1654-1727", "pages": "4-10", "note": "PDF 15 : billet volant entre les pp. 3 et 4."},
+      {"pdf": "24-146", "content": "Baptêmes 1654-1727", "pages": "11-133", "note": "PDF 23 : billet volant entre les pp. 10 et 11."},
+      {"pdf": "149-347", "content": "Baptêmes 1654-1727", "pages": "134-332", "note": "La p. 133 est photographiée deux fois (PDF 146 et 147)."},
+      {"pdf": "350-433", "content": "Baptêmes 1654-1727", "pages": "333-416", "note": "PDF 348 : p. 332 photographiée une seconde fois ; PDF 349 : billet volant."},
+      {"pdf": "438-466", "content": "Baptêmes 1654-1727", "pages": "417-445", "note": "PDF 434-437 : billets volants 416a-416d."},
+      {"pdf": "469-479", "content": "Baptêmes 1654-1727", "pages": "446-456", "note": "PDF 467-468 : billet volant posé sur la p. 445, recto et verso."},
+      {"pdf": "481-532", "content": "Répertoire des baptêmes 1654-1727, premier volume"},
+      {"pdf": "534-585", "content": "Répertoire des baptêmes 1654-1727, deuxième volume"},
+      {"pdf": "587-638", "content": "Répertoire des baptêmes 1654-1727, troisième volume"},
+      {"pdf": "647-741", "content": "Mariages 1653-1727, tête-bêche", "pages": "1-95"},
+      {"pdf": "743-794", "content": "Répertoire des mariages 1653-1727, premier volume"},
+      {"pdf": "796-847", "content": "Répertoire des mariages 1653-1727, second volume"}
+    ]
+  },
+  "Eb 3/3": {
+    "pdfPages": 598,
+    "parts": [
+      {"pdf": "6-230", "content": "Baptêmes 1728-1767 et naissances 1752-1767", "pages": "1-225"},
+      {"pdf": "233-290", "content": "Baptêmes 1728-1767 et naissances 1752-1767", "pages": "226-283", "note": "La p. 225 est photographiée deux fois (PDF 230 et 231)."},
+      {"pdf": "291-310", "content": "Baptêmes 1728-1767 et naissances 1752-1767", "pages": "285-304", "note": "La pagination saute la p. 284."},
+      {"pdf": "311-370", "content": "Baptêmes 1728-1767 et naissances 1752-1767", "pages": "306-365", "note": "La pagination saute la p. 305."},
+      {"pdf": "372-423", "content": "Répertoire des baptêmes 1728-1767, premier volume"},
+      {"pdf": "425-476", "content": "Répertoire des baptêmes 1728-1767, second volume"},
+      {"pdf": "481-545", "content": "Mariages 1727-1767, tête-bêche", "pages": "1-65"},
+      {"pdf": "547-598", "content": "Répertoire des mariages 1727-1767"}
+    ]
+  },
+  "Eb 3/4": {
+    "pdfPages": 581,
+    "parts": [
+      {"pdf": "10-452", "content": "Baptêmes 1767-1821", "pages": "1-443"},
+      {"pdf": "453-470", "content": "Baptêmes 1767-1821", "pages": "446-463", "note": "Les pp. 444 et 445 n'existent pas."},
+      {"pdf": "477-528", "content": "Répertoire des baptêmes 1767-1821, premier volume"},
+      {"pdf": "530-581", "content": "Répertoire des baptêmes 1767-1821, second volume"}
+    ]
+  },
+  "Eb 3/5": {
+    "pdfPages": 190,
+    "parts": [
+      {"pdf": "8-12", "content": "Mariages 1767-1821", "pages": "1-5"},
+      {"pdf": "15-131", "content": "Mariages 1767-1821", "pages": "6-122", "note": "PDF 13-14 : billet volant entre les pp. 5 et 6, recto et verso."},
+      {"pdf": "139-190", "content": "Répertoire des mariages 1767-1821"}
+    ]
+  },
+  "Eb 3/6": {
+    "pdfPages": 114,
+    "parts": [
+      {"pdf": "6-21", "content": "Mariages forains 1767-1785", "pages": "1-16", "note": "« Mariages de bourgeois et paroissiens d'Aigle bénis hors de l'église d'Aigle ». L'inventaire attribue ces pp. 1-17 aux annonces de mariage."},
+      {"pdf": "32", "content": "Mariages forains 1767-1785", "pages": "17", "note": "PDF 22-31 : billets et lettres (16a et suivants) entre les pp. 16 et 17."},
+      {"pdf": "34-85", "content": "Répertoire des mariages forains et des annonces de mariage"},
+      {"pdf": "90-114", "content": "Annonces de mariage 1816-1821, tête-bêche", "pages": "1-25", "note": "L'inventaire attribue ces pp. 1-25 aux mariages forains."}
+    ]
+  },
+  "Eb 3/7": {
+    "pdfPages": 537,
+    "parts": [
+      {"pdf": "6-273", "content": "Décès 1728-1797", "pages": "1-268"},
+      {"pdf": "276-327", "content": "Décès 1728-1797", "pages": "269-320", "note": "PDF 274-275 : lettre volante entre les pp. 268 et 269, recto et verso."},
+      {"pdf": "330-381", "content": "Répertoire des décès 1728-1797, premier volume"},
+      {"pdf": "383-434", "content": "Répertoire des décès 1728-1797, second volume"},
+      {"pdf": "441-537", "content": "Catéchumènes 1728-1797, tête-bêche", "pages": "1-97"}
+    ]
+  },
+  "Eb 3/8": {
+    "pdfPages": 168,
+    "parts": [
+      {"pdf": "6-112", "content": "Décès 1798-1821", "pages": "1-107"},
+      {"pdf": "117-168", "content": "Répertoire des décès 1798-1821"}
+    ]
+  },
   "Eb 15/1": {
     "pdfPages": 470,
     "parts": [
@@ -173,6 +258,103 @@
     "pdfPages": 115,
     "parts": [
       {"pdf": "6-112", "content": "Annonces de mariages 1803-1821", "pages": "0-106", "note": "Sans répertoire."}
+    ]
+  },
+  "Ed 3/1": {
+    "pdfPages": 465,
+    "parts": [
+      {"pdf": "6-413", "content": "Naissances et baptêmes 1821-1834", "pages": "1-376", "anchors": [[41, 50], [87, 100], [112, 125], [134, 150], [226, 250], [272, 300], [295, 325], [317, 350], [365, 400]], "note": "Le décalage croît tout au long du registre ; la p. 180 est numérotée deux fois (180 bis en PDF 200) ; la dernière page (PDF 413) n'est pas numérotée."},
+      {"pdf": "416-465", "content": "Répertoire des naissances et baptêmes 1821-1834"}
+    ]
+  },
+  "Ed 3/2": {
+    "pdfPages": 246,
+    "parts": [
+      {"pdf": "5-213", "content": "Naissances et baptêmes 1834-1850", "pages": "1-367", "spread": true, "anchors": [[2, 6], [38, 25], [84, 50], [172, 101], [216, 125], [244, 140], [260, 150], [276, 160], [304, 175], [344, 200], [352, 204], [356, 206], [360, 210], [364, 212]], "note": "Photographié en doubles pages, avec des pages blanches intercalées."},
+      {"pdf": "218-246", "content": "Répertoire des naissances et baptêmes 1834-1850", "note": "Photographié en doubles pages."}
+    ]
+  },
+  "Ed 3/3": {
+    "pdfPages": 558,
+    "parts": [
+      {"pdf": "6-494", "content": "Naissances et baptêmes 1850-1866", "pages": "1-473", "anchors": [[41, 50], [89, 100], [138, 150], [186, 200], [210, 225], [235, 250], [284, 300], [334, 350], [384, 400], [409, 425], [433, 450], [459, 480], [469, 490]], "note": "Le décalage croît tout au long du registre."},
+      {"pdf": "497-558", "content": "Répertoire des naissances et baptêmes 1850-1866"}
+    ]
+  },
+  "Ed 3/4": {
+    "pdfPages": 430,
+    "parts": [
+      {"pdf": "8-375", "content": "Naissances et baptêmes 1866-1875", "pages": "1-355", "anchors": [[42, 50], [92, 100], [142, 150], [165, 175], [189, 200], [237, 250], [285, 300], [309, 325], [332, 350], [350, 370]], "note": "Le décalage croît tout au long du registre."},
+      {"pdf": "381-430", "content": "Répertoire des naissances et baptêmes 1866-1875"}
+    ]
+  },
+  "Ed 3/5": {
+    "pdfPages": 480,
+    "parts": [
+      {"pdf": "6-423", "content": "Mariages 1821-1838", "pages": "1-384", "anchors": [[37, 50], [78, 100], [127, 150], [152, 175], [175, 200], [223, 250], [267, 300], [292, 325], [315, 350], [361, 400], [376, 415], [381, 420]], "note": "Le décalage croît tout au long du registre."},
+      {"pdf": "429-480", "content": "Répertoire des mariages 1821-1838"}
+    ]
+  },
+  "Ed 3/6": {
+    "pdfPages": 564,
+    "parts": [
+      {"pdf": "6-509", "content": "Mariages 1838-1856", "pages": "1-461", "anchors": [[41, 50], [87, 100], [133, 150], [181, 200], [204, 225], [229, 250], [275, 300], [317, 350], [363, 400], [384, 425], [406, 450], [434, 480], [447, 495], [452, 500], [457, 505], [460, 508]], "note": "Le décalage croît tout au long du registre."},
+      {"pdf": "513-564", "content": "Répertoire des mariages 1838-1856"}
+    ]
+  },
+  "Ed 3/7": {
+    "pdfPages": 465,
+    "parts": [
+      {"pdf": "10-416", "content": "Mariages 1856-1868", "pages": "1-407"},
+      {"pdf": "420-465", "content": "Répertoire des mariages 1856-1868"}
+    ]
+  },
+  "Ed 3/8": {
+    "pdfPages": 293,
+    "parts": [
+      {"pdf": "6-201", "content": "Mariages 1868-1875", "pages": "1-194", "anchors": [[45, 50], [95, 100], [120, 125], [144, 150], [154, 160], [164, 170], [173, 180], [183, 190], [188, 195], [193, 200]], "note": "Feuillets intercalés et pages bis (173 bis en PDF 180)."},
+      {"pdf": "202-209", "content": "Mariages 1868-1875", "pages": "198-205", "note": "Pages renumérotées : 195 à 202 corrigés en 198 à 205, il n'y a pas de pp. 195-197."},
+      {"pdf": "210-234", "content": "Mariages 1868-1875", "pages": "205-229", "note": "PDF 210 : p. 205 bis."},
+      {"pdf": "242-293", "content": "Répertoire des mariages 1868-1875"}
+    ]
+  },
+  "Ed 3/9": {
+    "pdfPages": 516,
+    "parts": [
+      {"pdf": "6-459", "content": "Décès 1821-1851", "pages": "1-375", "anchors": [[17, 25], [30, 40], [39, 49], [47, 60], [58, 75], [80, 100], [102, 125], [124, 150], [145, 175], [166, 200], [187, 225], [210, 250], [231, 275], [252, 300], [262, 312], [273, 325], [312, 375], [331, 400], [367, 450], [374, 458]], "note": "Pages non numérotées intercalées tout au long du registre."},
+      {"pdf": "465-516", "content": "Répertoire des décès 1821-1851"}
+    ]
+  },
+  "Ed 3/10": {
+    "pdfPages": 441,
+    "parts": [
+      {"pdf": "10-220", "content": "Décès 1851-1870", "pages": "1-202", "anchors": [[39, 50], [62, 75], [82, 100], [132, 150], [182, 200], [192, 210]], "note": "Feuillets intercalés au début du registre."},
+      {"pdf": "221-391", "content": "Décès 1851-1870", "pages": "204-374", "note": "La pagination saute la p. 203."},
+      {"pdf": "396-441", "content": "Répertoire des décès 1851-1870"}
+    ]
+  },
+  "Ed 3/11": {
+    "pdfPages": 227,
+    "parts": [
+      {"pdf": "6-28", "content": "Décès 1870-1875", "pages": "1-23"},
+      {"pdf": "30-169", "content": "Décès 1870-1875", "pages": "24-163", "note": "La p. 23 est photographiée une seconde fois avec un billet posé dessus (PDF 29)."},
+      {"pdf": "176-227", "content": "Répertoire des décès 1870-1875"}
+    ]
+  },
+  "Ed 3/12": {
+    "pdfPages": 295,
+    "parts": [
+      {"pdf": "6-115", "content": "Annonces de mariage 1865-1882", "pages": "1-110"},
+      {"pdf": "118-246", "content": "Annonces de mariage 1865-1882", "pages": "111-239", "note": "PDF 116-117 : billet volant entre les pp. 110 et 111, recto et verso."},
+      {"pdf": "252-295", "content": "Répertoire des annonces de mariage 1865-1882"}
+    ]
+  },
+  "Ed 3/13": {
+    "pdfPages": 535,
+    "parts": [
+      {"pdf": "8-440", "content": "Annonces de mariage 1821-1865", "pages": "1-433"},
+      {"pdf": "441-462", "content": "Annonces de mariage 1821-1865", "pages": "444-465", "note": "La pagination saute de 433 à 444 ; la dernière page (PDF 462) n'est pas numérotée."},
+      {"pdf": "466-535", "content": "Répertoire des annonces de mariage 1821-1865"}
     ]
   },
   "Ed 15/1": {
