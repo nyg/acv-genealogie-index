@@ -16,7 +16,7 @@
   const sleep = ms => new Promise(resolve => { const id = ++sequence; waiting.set(id, resolve); timer.postMessage({ id, ms }); });
 
   const pace = async () => {
-    const wait = state.last + DELAY_MS - Date.now();
+    const wait = state.last + (state.delay ?? DELAY_MS) - Date.now();
     if (wait > 0) await sleep(wait);
     state.last = Date.now();
     state.requests++;
@@ -346,6 +346,6 @@
     requests: state.requests,
   });
 
-  window.pdf = { enqueue, status, profile, view, close, exportProfiles, openDoc, pageInfo, segment, unpredict, state };
+  window.pdf = { enqueue, status, profile, view, close, exportProfiles, openDoc, pageInfo, imageOf, segment, unpredict, state };
   return 'pdf probe ready';
 })();

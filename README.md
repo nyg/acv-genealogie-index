@@ -4,6 +4,19 @@ Index des registres d'état civil des Archives cantonales vaudoises (ACV) : pour
 
 Site : https://nyg.github.io/acv-genealogie-index/
 
+## Aperçu des PDF
+
+Les PDF de davel-vd.ch pèsent souvent plusieurs centaines de Mo, et le navigateur en télécharge l'essentiel avant d'afficher la page demandée. Le script d'aperçu ne lit que la page affichée (environ 1 Mo). Il tourne sur davel-vd.ch, car davel-vd.ch n'autorise pas les autres sites, dont celui de l'index, à lire ses PDF.
+
+Installation dans Chrome :
+
+1. Installer l'extension [Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
+2. Dans `chrome://extensions`, ouvrir les détails de Tampermonkey et activer « Autoriser les scripts utilisateur » (« Allow User Scripts »).
+3. Ouvrir https://nyg.github.io/acv-genealogie-index/apercu.user.js et cliquer sur « Installer ».
+4. Recharger le site de l'index.
+
+Les liens « PDF p. » ouvrent alors la fiche du registre sur davel-vd.ch avec la page demandée par-dessus, et « Feuilleter le PDF » s'ajoute aux liens de chaque registre. ← et → changent de page (les pages voisines sont chargées à l'avance), un clic sur la page l'agrandit à la largeur de l'écran, + et − règlent le zoom, R fait pivoter la page et Échap ferme l'aperçu. « PDF entier » ouvre le fichier complet à la même page. Tampermonkey met le script à jour depuis la même adresse.
+
 ## Sources
 
 - [davel-vd.ch](https://davel-vd.ch) : registres numérisés, avec PDF. Registres paroissiaux (Eb, 1562-1821), état civil cantonal (Ed, 1821-1875), état civil fédéral par arrondissement (SB 267, dès 1876).
@@ -16,7 +29,7 @@ Les données sont publiées par les ACV sous licence [CC BY-SA 4.0](https://crea
 
 - `scraper/davel_vd.js` : scraper pour davel-vd.ch, exécuté dans un vrai navigateur (le site bloque les clients HTTP sans navigateur). Il parcourt l'arbre d'une série et lit chaque fiche, une requête toutes les 1,5 s.
 - `scraper/davel_scopearchiv.js` : même rôle pour davel.vd.ch, en suivant les liens « entrée inférieure / entrée suivante » de chaque fiche.
-- `scraper/davel_pdf.js` : lit les PDF de davel-vd.ch par requêtes partielles, dans le navigateur : nombre de pages, bandes de numérisation, formats de page, et affichage d'une page sans télécharger le PDF entier.
+- `scraper/davel_pdf.js` : lit les PDF de davel-vd.ch par requêtes partielles, dans le navigateur : nombre de pages, bandes de numérisation, formats de page, et affichage d'une page sans télécharger le PDF entier. Le script d'aperçu l'inclut.
 - `scraper/pdf_plan.py` : pour les registres sans correspondance PDF, résume l'inventaire, le profil du PDF et les tables « Contenu PDF » de `index_paroisses.numbers`.
 - `scraper/plan.py` : calcule le prochain lot (séries pas encore dans `data/raw/`) et affiche les appels à lancer dans le navigateur.
 - `scraper/save_export.py` : enregistre un export d'un des scrapers dans `data/raw/`.
@@ -29,7 +42,8 @@ Les données sont publiées par les ACV sous licence [CC BY-SA 4.0](https://crea
 - `build/places.py` : noms de paroisses et localités rattachées.
 - `build/pdf_pages.py` : lit et vérifie `data/manual/pdf-pages.json` (une page du PDF par page du registre dans chaque partie, deux pour les doubles pages, parties imbriquées quand des pages portent deux numéros).
 - `build/scopearchiv.py` : registres et pièces de davel.vd.ch.
-- `build/build.py` : construit `data/acv.sqlite` et le site `docs/index.html` (un seul fichier, données incluses).
+- `site/apercu.user.js` : script d'aperçu des PDF pour Tampermonkey (voir « Aperçu des PDF »).
+- `build/build.py` : construit `data/acv.sqlite`, le site `docs/index.html` (un seul fichier, données incluses) et `docs/apercu.user.js`, le script d'aperçu avec `scraper/davel_pdf.js` inclus.
 - `build/report.py` : couverture par fonds et problèmes de données (contenus non analysés, dates incohérentes, localités sans paroisse).
 - `build/preview.py` : version réduite du site (`site/preview.html`) pour l'aperçu du navigateur intégré.
 - `scripts/check.sh` : reconstruit, lance les tests, génère l'aperçu et affiche le rapport.
@@ -66,4 +80,4 @@ Les deux PDF vont dans `data/raw/vd-ch/`.
 
 ## Tests
 
-`scripts/check.sh` lance `uvx pytest -q tests`, `node tests/site_smoke.mjs` et `node tests/pdf_probe.mjs`. Le test de fumée exécute le script du site sur des recherches réelles (lieu, acte, date) et vérifie que la bonne cote ressort, et que les pages du registre tombent sur la bonne page du PDF.
+`scripts/check.sh` lance `uvx pytest -q tests`, `node tests/site_smoke.mjs`, `node tests/pdf_probe.mjs` et `node tests/apercu.mjs`. Le test de fumée exécute le script du site sur des recherches réelles (lieu, acte, date) et vérifie que la bonne cote ressort, et que les pages du registre tombent sur la bonne page du PDF.

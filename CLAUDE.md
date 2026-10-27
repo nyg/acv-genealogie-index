@@ -7,7 +7,8 @@ Index of the Archives cantonales vaudoises (ACV) civil-status registers for the 
 - Scrape only through the in-app browser, at one request every 1.5 s. Both ACV sites reject plain HTTP clients; work inside the real browser session instead of replaying its cookies or challenge.
 - Keep `*.numbers` out of git: `sources_pierre_henri_durand.numbers` holds the user's family data. `index_paroisses.numbers` is the user's older hand-made index (read it with `numbers-parser`), a reference to check scraped data against.
 - Data is CC BY-SA 4.0 (ACV): keep the attribution in the site footer and README.
-- Run `scripts/check.sh` after any change to `build/`, `site/template.html` or `data/`.
+- Run `scripts/check.sh` after any change to `build/`, `site/`, `scraper/davel_pdf.js` or `data/`.
+- `docs/apercu.user.js` is built from `site/apercu.user.js` with `scraper/davel_pdf.js` inlined. Bump its `@version` whenever either file changes: Tampermonkey only updates installed copies to a higher version.
 - Run `build/build.py` without `python3 -I`: it imports its sibling modules.
 
 ## Published site

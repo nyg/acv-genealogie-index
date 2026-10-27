@@ -22,6 +22,9 @@ PDF_PAGES = ROOT / "data" / "manual" / "pdf-pages.json"
 DATABASE = ROOT / "data" / "acv.sqlite"
 SITE_TEMPLATE = ROOT / "site" / "template.html"
 SITE_OUTPUT = ROOT / "docs" / "index.html"
+VIEWER_SOURCE = ROOT / "site" / "apercu.user.js"
+VIEWER_OUTPUT = ROOT / "docs" / "apercu.user.js"
+PDF_READER = ROOT / "scraper" / "davel_pdf.js"
 STANDALONE_HEAD = '<!doctype html>\n<html lang="fr">\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
 
 FONDS_LABEL = {"eb": "Eb", "ed": "Ed", "sb-267": "SB 267"}
@@ -300,6 +303,11 @@ def write_site(places, units, segments):
     SITE_OUTPUT.write_text(STANDALONE_HEAD + page, encoding="utf-8")
 
 
+def write_viewer():
+    viewer = VIEWER_SOURCE.read_text(encoding="utf-8").replace("/*__PDF_READER__*/", PDF_READER.read_text(encoding="utf-8").strip())
+    VIEWER_OUTPUT.write_text(viewer, encoding="utf-8")
+
+
 def main():
     places = build_places(json.loads((RAW_DIR / "_series_index.json").read_text(encoding="utf-8")))
     add_official_localities(places)
@@ -311,6 +319,7 @@ def main():
     segments += other_segments
     write_database(places, units, segments)
     write_site(places, units, segments)
+    write_viewer()
     scraped = sum(series["scraped"] for place in places.values() for series in place["series"])
     print(f"{len(places)} lieux, {scraped} séries indexées, {len(units)} registres, {len(segments)} segments")
 

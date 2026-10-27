@@ -417,7 +417,11 @@ function partMatchesKind(part) {
   return Boolean(kind.match) && part.kinds.some(k => kind.match.includes(k));
 }
 
-const pdfLink = (unit, page, text) => `<a href="${DATA.pdfBase}${escapeHtml(unit.pdf)}#page=${page}" target="_blank" rel="noopener">${text}</a>`;
+const VIEWER_HELP = "https://github.com/nyg/acv-genealogie-index#aperçu-des-pdf";
+const viewerInstalled = () => "acvApercu" in document.documentElement.dataset;
+const viewerUrl = (unit, page) => `${unit.url}#${new URLSearchParams({ apercu: "", page, pdf: unit.pdf, titre: unit.cote })}`;
+const pdfPageUrl = (unit, page) => viewerInstalled() ? viewerUrl(unit, page) : `${DATA.pdfBase}${unit.pdf}#page=${page}`;
+const pdfLink = (unit, page, text) => `<a href="${escapeHtml(pdfPageUrl(unit, page))}" target="_blank" rel="noopener">${text}</a>`;
 const ROMAN = [[1000, "M"], [900, "CM"], [500, "D"], [400, "CD"], [100, "C"], [90, "XC"], [50, "L"], [40, "XL"], [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]];
 const toRoman = number => ROMAN.reduce(([text, rest], [value, letters]) => [text + letters.repeat(Math.floor(rest / value)), rest % value], ["", number])[0];
 function fromRoman(text) {
@@ -483,6 +487,7 @@ function renderResult({ unit, segments }) {
   const pdf = unit.pdf
     ? `<a href="${DATA.pdfBase}${escapeHtml(unit.pdf)}" target="_blank" rel="noopener">Ouvrir le PDF${unit.pdfSize ? ` (${escapeHtml(unit.pdfSize.replace("MiB", "Mo"))})` : ""}</a>`
     : `<span class="no-pdf">${DIGITIZED_FONDS.has(unit.fonds) ? "Pas de PDF en ligne (délai de protection ou pas encore numérisé) : consultable aux ACV." : "Non numérisé : à consulter en salle de lecture ou à demander aux ACV."}</span>`;
+  const browse = unit.pdf && viewerInstalled() ? pdfLink(unit, unit.pdfParts?.[0].pdf[0] ?? 1, "Feuilleter le PDF") : "";
   return `<li class="result" id="${unitAnchor(unit.slug)}">
     <div class="result-head">
       <span class="chip ${fondsClass(unit.fonds)}">${escapeHtml(unit.fonds)}</span>
@@ -491,7 +496,7 @@ function renderResult({ unit, segments }) {
     </div>
     <ul class="segments">${segments.map(renderSegmentLine).join("")}</ul>
     ${rows.length ? `<dl class="meta">${rows.map(([dt, dd]) => `<dt>${dt}</dt><dd>${dd}</dd>`).join("")}</dl>` : ""}
-    <div class="links">${pdf}<a href="${escapeHtml(unit.url)}" target="_blank" rel="noopener">Fiche descriptive</a></div>
+    <div class="links">${browse}${pdf}<a href="${escapeHtml(unit.url)}" target="_blank" rel="noopener">Fiche descriptive</a></div>
     ${unit.scope ? `<details class="raw"><summary>Description d'origine</summary><pre>${escapeHtml(unit.scope)}</pre></details>` : ""}
   </li>`;
 }
@@ -774,6 +779,9 @@ function renderCoverage() {
     <p class="places"><strong>Arrondissements</strong> : ${placeButtons(arrondissements)}</p>
     <table>${fonds.map(fondsCoverageRow).join("")}</table>
     ${mapped.length ? `<p><strong>Pages du PDF</strong> : pour ${escapeHtml(listFormat.format(mappedNames))} (${plural(mapped.length, "registre")}), la page du registre citée par le répertoire donne la page du PDF à ouvrir. Ailleurs, le PDF s'ouvre à sa première page.</p>` : ""}
+    <p><strong>Aperçu</strong> : ${viewerInstalled()
+      ? "le script d'aperçu est installé : les liens « PDF p. » n'affichent que la page demandée, sans télécharger le PDF entier."
+      : `les PDF pèsent souvent plusieurs centaines de Mo. Avec le <a href="${VIEWER_HELP}" target="_blank" rel="noopener">script d'aperçu</a> (Chrome et Tampermonkey), les liens « PDF p. » n'en chargent que la page demandée.`}</p>
     <p class="muted">Inventaires extraits le ${new Date(DATA.generatedAt).toLocaleDateString("fr-CH")}.</p>`;
 }
 
@@ -799,6 +807,7 @@ coverage.addEventListener("mouseleave", () => coverage.classList.remove("closed"
 addEventListener("click", event => { if (!coverage.contains(event.target)) setCoverageOpen(false); });
 addEventListener("keydown", event => { if (event.key === "Escape") setCoverageOpen(false); });
 renderCoverage();
+document.addEventListener("acv-apercu", () => { render(); renderCoverage(); });
 document.getElementById("provenance").innerHTML = `Index non officiel construit à partir des inventaires des <a href="https://www.vd.ch/etat-droit-finances/archives-acv" target="_blank" rel="noopener">Archives cantonales vaudoises</a> (davel-vd.ch, davel.vd.ch) et de leurs tables de correspondance, extraits le ${new Date(DATA.generatedAt).toLocaleDateString("fr-CH")}. Données sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="noopener">CC BY-SA 4.0</a>. Les dates et pages viennent des descriptions d'archives : vérifiez toujours sur la fiche descriptive.`;
 restore();
 </script>

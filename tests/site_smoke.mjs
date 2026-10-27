@@ -10,12 +10,13 @@ const element = () => ({
   setAttribute() {}, addEventListener() {}, dispatchEvent() {}, querySelector: () => null, querySelectorAll: () => [],
 });
 const elements = new Map();
+const documentElement = { dataset: {} };
 const context = vm.createContext({
-  document: { getElementById: id => elements.get(id) ?? elements.set(id, element()).get(id) },
+  document: { getElementById: id => elements.get(id) ?? elements.set(id, element()).get(id), documentElement, addEventListener() {} },
   localStorage: { getItem: () => null, setItem() {} },
   matchMedia: () => ({ matches: true }),
   addEventListener() {},
-  setTimeout, clearTimeout, Event: class {}, console,
+  setTimeout, clearTimeout, Event: class {}, console, URLSearchParams,
 });
 vm.runInContext(`${script}\n;globalThis.__site = { state, SUGGESTIONS, selectEntry, parseQueryDate, render, normalize, unitsBySlug, pdfTargets };`, context);
 const site = context.__site;
@@ -82,6 +83,13 @@ const repertoireLink = /CH-ACV_RN-EB-92-4\.pdf#page=382"[^>]*>PDF p\. 382–441<
 const linked = repertoireLink.test(answers);
 failures += linked ? 0 : 1;
 console.log(`${linked ? "ok  " : "FAIL"} Ollon / deces / 1760 → lien vers le répertoire des décès d'Eb 92/4 (PDF p. 382)`);
+
+documentElement.dataset.acvApercu = "";
+const { answers: viewerAnswers } = search("Ollon", "deces", "1760");
+delete documentElement.dataset.acvApercu;
+const viewerLink = /href="https:\/\/davel-vd\.ch\/eb-92-4#apercu=&amp;page=382&amp;pdf=[^"]*CH-ACV_RN-EB-92-4\.pdf&amp;titre=Eb\+92%2F4"[^>]*>PDF p\. 382–441<\/a>/.test(viewerAnswers);
+failures += viewerLink ? 0 : 1;
+console.log(`${viewerLink ? "ok  " : "FAIL"} Ollon / deces / 1760, aperçu installé → le lien PDF p. 382 ouvre l'aperçu sur la fiche d'Eb 92/4`);
 
 const coveragePanel = elements.get("coverage-panel").innerHTML;
 const covered = coveragePanel.includes(`data-place="paroisse-15">Bex</button>`) && /Pages du PDF<\/strong> : pour [^(]*Ollon \(\d+ registres\)/.test(coveragePanel);
