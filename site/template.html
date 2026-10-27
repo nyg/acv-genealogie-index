@@ -133,6 +133,17 @@
   .links a { font-weight: 600; text-decoration: none; }
   .links a:hover { text-decoration: underline; }
   .no-pdf { color: var(--muted); font-size: 0.85rem; }
+  .pdf-parts { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+  .pdf-parts li { display: grid; grid-template-columns: 9.5em minmax(0, 1fr); gap: 0 10px; align-items: baseline; }
+  .pdf-parts a { font: 500 0.82rem var(--mono); white-space: nowrap; }
+  .pdf-parts .relevant .part-content { font-weight: 600; }
+  .part-pages, .part-note { color: var(--muted); font-size: 0.8rem; }
+  .part-note { display: block; }
+  @media (max-width: 560px) { .pdf-parts li { grid-template-columns: minmax(0, 1fr); } }
+  .page-jump { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin-top: 8px; }
+  .page-jump label { color: var(--muted); }
+  .page-jump input[type="text"] { width: 6.5em; font: 500 0.9rem var(--mono); padding: 4px 8px; margin-left: 6px; }
+  .page-jump output a { font: 500 0.85rem var(--mono); }
   details.raw summary { cursor: pointer; font-size: 0.8rem; color: var(--muted); }
   details.raw pre { white-space: pre-wrap; font: 0.8rem/1.45 var(--mono); margin: 6px 0 0; color: var(--muted); }
 
@@ -377,9 +388,59 @@ function renderSegmentLine(segment) {
   </li>`;
 }
 
+function partMatchesKind(part) {
+  const kind = KINDS.find(k => k.id === state.kind);
+  return Boolean(kind.match) && part.kinds.some(k => kind.match.includes(k));
+}
+
+const pdfLink = (unit, page, text) => `<a href="${DATA.pdfBase}${escapeHtml(unit.pdf)}#page=${page}" target="_blank" rel="noopener">${text}</a>`;
+const pageSpan = ([first, last]) => first === last ? `${first}` : `${first}–${last}`;
+
+const within = (value, a, b) => value >= Math.min(a, b) && value <= Math.max(a, b);
+
+function locatePage(part, page) {
+  const points = [[part.pages[0], part.pdf[0]], ...part.anchors, [part.pages[1], part.pdf[1]]];
+  const exact = points.find(([known]) => known === page);
+  if (exact || !part.anchors.length) return { pdf: exact ? exact[1] : part.pdf[0] + Math.abs(page - part.pages[0]), approx: false };
+  const next = points.findIndex(([known], index) => index > 0 && within(page, points[index - 1][0], known));
+  const [[fromPage, fromPdf], [toPage, toPdf]] = [points[next - 1], points[next]];
+  return { pdf: Math.round(fromPdf + (page - fromPage) * (toPdf - fromPdf) / (toPage - fromPage)), approx: true };
+}
+
+function pdfTargets(unit, text) {
+  if (!/^\s*\d+\s*$/.test(text)) return null;
+  const page = +text;
+  return (unit.pdfParts ?? [])
+    .filter(part => part.pages && within(page, ...part.pages))
+    .map(part => ({ part, ...locatePage(part, page) }));
+}
+
+function renderPageTargets(unit, text) {
+  if (!text.trim()) return "";
+  const targets = pdfTargets(unit, text);
+  if (!targets) return "Entrez un numéro de page.";
+  if (!targets.length) return `Pas dans les pages connues (${unit.pdfParts.filter(part => part.pages).map(part => pageSpan(part.pages)).join(", ")}).`;
+  return targets
+    .sort((a, b) => partMatchesKind(b.part) - partMatchesKind(a.part))
+    .map(({ part, pdf, approx }) => `${pdfLink(unit, pdf, `${approx ? "≈ " : ""}PDF p. ${pdf}`)} ${escapeHtml(part.content)}`)
+    .join(" · ");
+}
+
+function renderPdfParts(unit) {
+  const parts = unit.pdfParts.map(part => `<li class="${partMatchesKind(part) ? "relevant" : ""}">
+      ${pdfLink(unit, part.pdf[0], `PDF p. ${pageSpan(part.pdf)}`)}
+      <div><span class="part-content">${escapeHtml(part.content)}</span>${part.pages ? ` <span class="part-pages">registre p. ${pageSpan(part.pages)}${part.anchors.length ? ", position approchée entre les repères" : ""}</span>` : ""}${part.note ? `<span class="part-note">${escapeHtml(part.note)}</span>` : ""}</div>
+    </li>`).join("");
+  const jump = unit.pdfParts.some(part => part.pages)
+    ? `<div class="page-jump"><label>Page du registre<input type="text" inputmode="numeric" autocomplete="off" data-page-unit="${escapeHtml(unit.slug)}"></label><output aria-live="polite"></output></div>`
+    : "";
+  return `<ul class="pdf-parts">${parts}</ul>${jump}`;
+}
+
 function renderResult({ unit, segments }) {
   const rows = [
     unit.aids ? ["Répertoire", tidyAids(unit.aids).map(escapeHtml).join("<br>")] : null,
+    unit.pdfParts ? ["Dans le PDF", renderPdfParts(unit)] : null,
     unit.extent ? ["Volume", escapeHtml(unit.extent.split("\n")[0])] : null,
     unit.note ? ["Remarque", escapeHtml(unit.note).replace(/\n/g, "<br>")] : null,
   ].filter(Boolean);
@@ -605,6 +666,10 @@ document.getElementById("answers").addEventListener("click", event => {
   }
   const bar = event.target.closest(".bar");
   if (bar) jumpTo(bar.dataset.target);
+});
+document.getElementById("answers").addEventListener("input", event => {
+  const field = event.target.closest("[data-page-unit]");
+  if (field) field.closest(".page-jump").querySelector("output").innerHTML = renderPageTargets(unitsBySlug.get(field.dataset.pageUnit), field.value);
 });
 document.getElementById("answers").addEventListener("keydown", event => {
   const bar = event.target.closest(".bar");

@@ -7,6 +7,7 @@ import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
 
+from pdf_pages import load_pdf_pages
 from places import arrondissement_history, arrondissement_name, localities_from_note, parish_name, parish_number, split_official_locality
 from scope_parser import normalize, parse_date_range, parse_scope_content
 from scopearchiv import fonds_of, load_scopearchiv, place_for, related_ranges
@@ -17,6 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "data" / "raw" / "davel-vd"
 CORRESPONDENCE_DIR = ROOT / "data" / "raw" / "vd-ch"
 CORRECTIONS = ROOT / "data" / "manual" / "communes-paroisses-corrections.json"
+PDF_PAGES = ROOT / "data" / "manual" / "pdf-pages.json"
 DATABASE = ROOT / "data" / "acv.sqlite"
 SITE_TEMPLATE = ROOT / "site" / "template.html"
 SITE_OUTPUT = ROOT / "docs" / "index.html"
@@ -232,6 +234,14 @@ def load_scraped(places):
     return units, segments
 
 
+def attach_pdf_pages(units):
+    units_by_cote = {unit["cote"]: unit for unit in units if unit["pdf"]}
+    for cote, register in load_pdf_pages(PDF_PAGES).items():
+        if cote not in units_by_cote:
+            raise ValueError(f"{PDF_PAGES.name} : {cote} n'est pas un registre indexé avec PDF")
+        units_by_cote[cote]["pdfParts"] = register["parts"]
+
+
 SCHEMA = """
 CREATE TABLE places (id TEXT PRIMARY KEY, kind TEXT, name TEXT, aliases TEXT);
 CREATE TABLE localities (place_id TEXT REFERENCES places(id), name TEXT, qualifier TEXT, source TEXT, since INTEGER);
@@ -242,6 +252,8 @@ CREATE TABLE units (slug TEXT PRIMARY KEY, place_id TEXT REFERENCES places(id), 
 CREATE TABLE segments (unit_slug TEXT REFERENCES units(slug), kinds TEXT, label TEXT, date_start TEXT, date_end TEXT, dates TEXT,
     pages TEXT, head_to_tail INTEGER, foreign_events INTEGER, section TEXT);
 CREATE INDEX segments_dates ON segments(date_start, date_end);
+CREATE TABLE pdf_parts (unit_slug TEXT REFERENCES units(slug), pdf_start INTEGER, pdf_end INTEGER, kind TEXT, content TEXT,
+    page_first INTEGER, page_last INTEGER, note TEXT);
 """
 
 PDF_BASE = "https://davel-vd.ch/uploads/r/null/"
@@ -267,6 +279,10 @@ def write_database(places, units, segments):
             (s["unit"], ",".join(s["kinds"]), s["label"], s["start"], s["end"], s["dates"], s["pages"], int(s["tb"]), int(s["foreign"]), s["section"])
             for s in segments
         ])
+        connection.executemany("INSERT INTO pdf_parts VALUES (?, ?, ?, ?, ?, ?, ?, ?)", [
+            (u["slug"], *part["pdf"], part["kind"], part["content"], *(part["pages"] or (None, None)), part["note"])
+            for u in units for part in u.get("pdfParts", [])
+        ])
 
 
 def write_site(places, units, segments):
@@ -288,6 +304,7 @@ def main():
     places = build_places(json.loads((RAW_DIR / "_series_index.json").read_text(encoding="utf-8")))
     add_official_localities(places)
     units, segments = load_scraped(places)
+    attach_pdf_pages(units)
     add_scopearchiv_series(places)
     other_units, other_segments = load_scopearchiv(places)
     units += other_units

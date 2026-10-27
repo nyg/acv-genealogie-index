@@ -17,7 +17,7 @@ const context = vm.createContext({
   addEventListener() {},
   setTimeout, clearTimeout, Event: class {}, console,
 });
-vm.runInContext(`${script}\n;globalThis.__site = { state, SUGGESTIONS, selectEntry, parseQueryDate, render, normalize };`, context);
+vm.runInContext(`${script}\n;globalThis.__site = { state, SUGGESTIONS, selectEntry, parseQueryDate, render, normalize, unitsBySlug, pdfTargets };`, context);
 const site = context.__site;
 
 const search = (place, kind, date) => {
@@ -28,7 +28,7 @@ const search = (place, kind, date) => {
   const answers = elements.get("answers").innerHTML;
   const summary = answers.match(/<p class="summary">([\s\S]*?)<\/p>/)[1].replace(/<[^>]+>/g, "");
   const cotes = [...answers.matchAll(/<span class="cote">([^<]+)<\/span>/g)].map(match => match[1]);
-  return { summary, cotes };
+  return { summary, cotes, answers };
 };
 
 const cases = [
@@ -47,4 +47,30 @@ for (const [place, kind, date, expected] of cases) {
   failures += ok ? 0 : 1;
   console.log(`${ok ? "ok  " : "FAIL"} ${place} / ${kind} / ${date} → attendu ${expected}\n     ${summary}\n     ${cotes.join(", ")}`);
 }
+
+const pdfCases = [
+  ["eb-92-2", "466", ["544"]],
+  ["eb-92-2", "400", ["535", "610"]],
+  ["eb-92-4", "179", ["139"]],
+  ["eb-92-7", "355", ["6"]],
+  ["eb-92-1", "166", ["171", "172"]],
+  ["eb-92-1", "330", ["432"]],
+  ["ed-92-7", "195", ["200"]],
+  ["ed-92-7", "999", []],
+  ["ed-92-1", "192", ["230"]],
+  ["ed-92-1", "150", ["≈180"]],
+];
+for (const [slug, page, expected] of pdfCases) {
+  const pdfPages = site.pdfTargets(site.unitsBySlug.get(slug), page).map(target => `${target.approx ? "≈" : ""}${target.pdf}`);
+  const ok = JSON.stringify(pdfPages) === JSON.stringify(expected);
+  failures += ok ? 0 : 1;
+  console.log(`${ok ? "ok  " : "FAIL"} ${slug} p. ${page} → attendu PDF ${expected.join(", ") || "aucune"}, obtenu ${pdfPages.join(", ") || "aucune"}`);
+}
+
+const { answers } = search("Ollon", "deces", "1760");
+const repertoireLink = /CH-ACV_RN-EB-92-4\.pdf#page=382"[^>]*>PDF p\. 382–441<\/a>\s*<div><span class="part-content">Répertoire des décès/;
+const linked = repertoireLink.test(answers);
+failures += linked ? 0 : 1;
+console.log(`${linked ? "ok  " : "FAIL"} Ollon / deces / 1760 → lien vers le répertoire des décès d'Eb 92/4 (PDF p. 382)`);
+
 process.exit(failures ? 1 : 0);
