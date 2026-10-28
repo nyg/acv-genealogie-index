@@ -17,4 +17,4 @@ Index of the Archives cantonales vaudoises (ACV) civil-status registers for the 
 
 ## Next goal
 
-Question 2, started: from a register found by the site, reach the act's page in the PDF (répertoire → name → register page → PDF page). `data/manual/pdf-pages.json` maps all Ollon (17), Bex (24), Aigle (21), Ballaigues (8) and Château-d'Oex (26) Eb/Ed registers; the skill `acv-pdf-pages` adds more. Not done: other parishes (the « Contenu PDF » tables in `index_paroisses.numbers` cover Cheseaux, Lignerolle, Ormont-Dessus, Rougemont), SB 267, and a letter → PDF page index for répertoires.
+Question 2, started: from a register found by the site, reach the act's page in the PDF (répertoire → name → register page → PDF page). `data/manual/pdf-pages.json` maps all Ollon (17), Bex (24), Aigle (21), Ballaigues (8), Château-d'Oex (26) and L'Étivaz (8) Eb/Ed registers; the skill `acv-pdf-pages` adds more. Not done: other parishes (the « Contenu PDF » tables in `index_paroisses.numbers` cover Cheseaux, Lignerolle, Ormont-Dessus, Rougemont), SB 267, and a letter → PDF page index for répertoires.
