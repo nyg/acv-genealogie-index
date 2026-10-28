@@ -1,0 +1,92 @@
+[
+ {
+  "slug": "ed-54-1-4",
+  "parent": null,
+  "children": [
+   "ed-54-1",
+   "ed-54-2",
+   "ed-54-3",
+   "ed-54-4"
+  ],
+  "f": {
+   "Cote": "Ed 54/1-4",
+   "Titre": "Paroisse réformée de L'Etivaz.",
+   "Date(s)": "1821-07-01 - 1882-08-01 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de L'Etivaz :\nChapelle médiévale filiale de Château-d'Oex, réformée en 1556, desservie par le diacre de Château-d'Oex dès 1611, érigée en paroisse en 1713.\nRegistres distincts dès 1664."
+  }
+ },
+ {
+  "slug": "ed-54-1",
+  "parent": "ed-54-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 54/1",
+   "Titre": "Registre de naissances 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,5 x 41,7",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 54/1 (microfilm: RMS 1/1.044.812, numérique: RN-ED-54-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.812",
+   "Nom du fichier": "CH-ACV_RN-ED-54-1.pdf",
+   "Taille du fichier": "347.8 MiB"
+  },
+  "pdf": "5/b/c/5bc72e6e06963a337f12a9768ba21bdc19fac9b52d6345f42d4b0a3aa16fde21/CH-ACV_RN-ED-54-1.pdf"
+ },
+ {
+  "slug": "ed-54-2",
+  "parent": "ed-54-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 54/2",
+   "Titre": "Registre de mariages 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30 x 41,2 x 2,5 / 22,1 x 36 (répertoire)",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire détaché des mariages Ed 54/2 (microfilm: RMS 1/1.044.812, numérique: RN-ED-54-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.812",
+   "Nom du fichier": "CH-ACV_RN-ED-54-2.pdf",
+   "Taille du fichier": "212.7 MiB"
+  },
+  "pdf": "a/e/3/ae397dc6ccb56ea37b9b319975370a5abb2cdf023a1fefe3d45a17e98b34e191/CH-ACV_RN-ED-54-2.pdf"
+ },
+ {
+  "slug": "ed-54-3",
+  "parent": "ed-54-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 54/3",
+   "Titre": "Registre de décès 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30 x 41,2 / 27 x 38,9 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 54/3 (microfilm: RMS 1/1.044.812, numérique: RN-ED-54-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.812",
+   "Nom du fichier": "CH-ACV_RN-ED-54-3.pdf",
+   "Taille du fichier": "199.8 MiB"
+  },
+  "pdf": "9/e/8/9e83ce4072553c6cf0e490bab6de260b64e794dcb4c854b943b4503ce6b9722e/CH-ACV_RN-ED-54-3.pdf"
+ },
+ {
+  "slug": "ed-54-4",
+  "parent": "ed-54-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 54/4",
+   "Titre": "Registre d'annonces de mariage 1821-1882.",
+   "Date(s)": "1821-11-25 - 1882-08-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 24 x 37,5",
+   "Portée et contenu": "Annonces de mariage (1821 novembre 25 - 1882 août 1) pages 0-63;\nCirculaires (tête-bêche) 1875 - 1876: pages tête-bêche non numérotées.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Dès la page 64, série de pages blanches jusqu'à la partie B tête-bêche.",
+   "Cote de gestion": "RM 22001.7",
+   "Nom du fichier": "CH-ACV_RN-ED-54-4.pdf",
+   "Taille du fichier": "109 MiB"
+  },
+  "pdf": "a/f/0/af0c61fc71bff1a945efd65d68ed9e2307a15a51bd2502d6e7a457c38204a039/CH-ACV_RN-ED-54-4.pdf"
+ }
+]

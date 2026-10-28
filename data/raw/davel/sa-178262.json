@@ -1,0 +1,44 @@
+[
+ {
+  "slug": "sa-178262",
+  "parent": null,
+  "text": "Ec 54/1-1 Paroisse réformée de L'Etivaz., 1816-1875 (Série)",
+  "children": [
+   "sa-178263"
+  ],
+  "f": {
+   "Ref. code": "Ec 54/1-1",
+   "Title": "Paroisse réformée de L'Etivaz.",
+   "Dates": "1816-1875",
+   "Creation date(s)": "1816 - 1875",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Notes": "Voir aussi Ec 23 (Château-d'Oex).",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178262",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178263",
+  "parent": "sa-178262",
+  "text": "Ec 54/1 - Naissances 1818-1875. \\ - Mariages 1822-1869. \\ - Annonces de mariage 1816-1871. \\ - Décès 1857-1871., 1816.01.01-1875.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 54/1",
+   "Title": "- Naissances 1818-1875.\n- Mariages 1822-1869.\n- Annonces de mariage 1816-1871.\n- Décès 1857-1871.",
+   "Dates": "1816-1875",
+   "Creation date(s)": "1/1/1816 - 12/31/1875",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178263",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

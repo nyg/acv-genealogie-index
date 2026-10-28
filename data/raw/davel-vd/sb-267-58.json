@@ -1,0 +1,110 @@
+[
+ {
+  "slug": "sb-267-58",
+  "parent": null,
+  "children": [
+   "sb-267-58-1",
+   "sb-267-58-2",
+   "sb-267-58-3"
+  ],
+  "f": {
+   "Cote": "SB 267/58",
+   "Titre": "L'Etivaz (arrondissement de l'état civil)",
+   "Date(s)": "1876 - 1905 (Création)",
+   "Niveau de description": "Sous-fonds",
+   "Étendue matérielle et support": "3 registres",
+   "Portée et contenu": "Sans registres de reconnaissances et de légitimations puisque cet arrondissement a été supprimé avant l'introduction de ces derniers.",
+   "Note": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé en 1905 et rattaché à l'arrondissement de Château-d'Oex."
+  }
+ },
+ {
+  "slug": "sb-267-58-1",
+  "parent": "sb-267-58",
+  "type": "Series",
+  "children": [
+   "sb-267-58-1-1"
+  ],
+  "f": {
+   "Cote": "SB 267/58/1",
+   "Titre": "Registres des naissances",
+   "Date(s)": "1876 - 1905 (Création)",
+   "Niveau de description": "Série",
+   "Étendue matérielle et support": "1 registre"
+  }
+ },
+ {
+  "slug": "sb-267-58-2",
+  "parent": "sb-267-58",
+  "type": "Series",
+  "children": [
+   "sb-267-58-2-1"
+  ],
+  "f": {
+   "Cote": "SB 267/58/2",
+   "Titre": "Registres des mariages",
+   "Date(s)": "1876 - 1904 (Création)",
+   "Niveau de description": "Série",
+   "Étendue matérielle et support": "1 registre"
+  }
+ },
+ {
+  "slug": "sb-267-58-3",
+  "parent": "sb-267-58",
+  "type": "Series",
+  "children": [
+   "sb-267-58-3-1"
+  ],
+  "f": {
+   "Cote": "SB 267/58/3",
+   "Titre": "Registres des décès",
+   "Date(s)": "1876 - 1905 (Création)",
+   "Niveau de description": "Série",
+   "Étendue matérielle et support": "1 registre"
+  }
+ },
+ {
+  "slug": "sb-267-58-1-1",
+  "parent": "sb-267-58-1",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/58/1/1",
+   "Titre": "Registre des naissances",
+   "Date(s)": "1876 - 1905 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 193 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-58-1-1.pdf",
+   "Taille du fichier": "21.8 MiB"
+  },
+  "pdf": "0/5/2/052c2644e0cf3e81eb3bcec2524b9d3c98e47ec39d134d89f17b3ea5bbe2c2f0/CH-ACV_SB-267-58-1-1.pdf"
+ },
+ {
+  "slug": "sb-267-58-2-1",
+  "parent": "sb-267-58-2",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/58/2/1",
+   "Titre": "Registre des mariages",
+   "Date(s)": "1876 - 1904 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 59 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-58-2-1.pdf",
+   "Taille du fichier": "13 MiB"
+  },
+  "pdf": "9/6/6/9662fc1acbb936b4e969a05f61a7adcc2f4ef6957445c125fe0aa9edacb0f793/CH-ACV_SB-267-58-2-1.pdf"
+ },
+ {
+  "slug": "sb-267-58-3-1",
+  "parent": "sb-267-58-3",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/58/3/1",
+   "Titre": "Registre des décès",
+   "Date(s)": "1876 - 1905 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 97 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-58-3-1.pdf",
+   "Taille du fichier": "17.7 MiB"
+  },
+  "pdf": "c/d/2/cd2e600792e1ef592118799e269ad04880df00201f5345e9f3fdbafe00c72809/CH-ACV_SB-267-58-3-1.pdf"
+ }
+]

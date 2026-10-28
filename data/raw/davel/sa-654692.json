@@ -1,0 +1,104 @@
+[
+ {
+  "slug": "sa-654692",
+  "parent": null,
+  "text": "SB 268/58 L'Etivaz (arrondissement de l'état civil), 1893-1905 (Sous-fonds)",
+  "children": [
+   "sa-680976",
+   "sa-680977",
+   "sa-680978",
+   "sa-836108"
+  ],
+  "f": {
+   "Ref. code": "SB 268/58",
+   "Title": "L'Etivaz (arrondissement de l'état civil)",
+   "Dates": "1893-1905 (lacune: 1882-1893)",
+   "Creation date(s)": "1893 - 1905",
+   "Level": "Sous-fonds",
+   "Importance matérielle": "3 registres",
+   "Access regulations": "Seules les promesses de mariage de plus de 80 ans sont consultables librement. Pour les promesses de mariage postérieures une autorisation écrite est nécessaire.",
+   "Language": "Français",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé en 1905 et rattaché à l'arrondissement de Château-d'Oex.",
+   "Entries": "état civil (Matières\\E)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=654692",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680976",
+  "parent": "sa-654692",
+  "text": "SB 268/58/1 Registre de publications de promesses de mariage, 1893-1896 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/58/1",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1893 février 24 - 1896 juin 9",
+   "Creation date(s)": "1893 - 1896",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 203 pages utiles sur 203 et 1 répertoire non paginé",
+   "Content": "- Publications (1893 février 24 - 1896 juin 9).",
+   "Access regulations": "Libre",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680976",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680977",
+  "parent": "sa-654692",
+  "text": "SB 268/58/2 Registre de publications de promesses de mariage, 1896-1904 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/58/2",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1896 juin 14 - 1904 mars 16",
+   "Creation date(s)": "1896 - 1904",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 200 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1896 juin 14 - 1904 mars 16).",
+   "Access regulations": "Libre",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680977",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680978",
+  "parent": "sa-654692",
+  "text": "SB 268/58/3 Registre de publications de promesses de mariage, 1904-1905 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/58/3",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1904 mars 18 - 1905 mai 10",
+   "Creation date(s)": "1904 - 1905",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 31 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1904 mars 18 - 1905 mai 10).",
+   "Access regulations": "Libre",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680978",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-836108",
+  "parent": "sa-654692",
+  "text": "SB 268/58/4 FANTOME Registre(s) de publications de promesses de mariage manquant(s), 1111 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/58/4 FANTOME",
+   "Title": "Registre(s) de publications de promesses de mariage manquant(s)",
+   "Dates": "Lacune: 1882 août 1 - 1893 février 24",
+   "Creation date(s)": "1111",
+   "Level": "Pièce",
+   "Importance matérielle": "-",
+   "Content": "Le(s) registre(s) de publications de promesses de mariage 1882 -1893 de cet arrondissement n'a/ont pas été versé(s) aux ACV.",
+   "Access regulations": "Libre",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=836108",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

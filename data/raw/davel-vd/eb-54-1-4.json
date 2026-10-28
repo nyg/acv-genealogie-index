@@ -1,0 +1,94 @@
+[
+ {
+  "slug": "eb-54-1-4",
+  "parent": null,
+  "children": [
+   "eb-54-1",
+   "eb-54-2",
+   "eb-54-3",
+   "eb-54-4"
+  ],
+  "f": {
+   "Cote": "Eb 54/1-4",
+   "Titre": "Registres de la paroisse réformée de L'Etivaz.",
+   "Date(s)": "1664-07-03 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de L'Etivaz :\nChapelle médiévale filiale de Château-d'Oex, réformée en 1556, desservie par le diacre de Château-d'Oex dès 1611, érigée en paroisse en 1713.\nRegistres distincts dès 1664."
+  }
+ },
+ {
+  "slug": "eb-54-1",
+  "parent": "eb-54-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 54/1",
+   "Titre": "Paroisse réformée de L'Etivaz",
+   "Date(s)": "1664-07-03 - 1725-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "4 volumes en 3 parties\nFormat LxH(cm): 10,7 x 32,1 /\nAR1: 27,1 x 37,1 (répertoire des baptêmes Eb 54/1 et Eb 54/2) /\nAR2: 27,1 x 37,5 (répertoire des baptêmes et des mariages Eb 54/1 et Eb 54/3) /\nAR3: 27,5 x 37,6 (répertoire des mariages et des décès Eb 54/1, Eb 54/2, Eb 54/3 et Eb 54/4)",
+   "Portée et contenu": "Baptêmes (1664 juillet 3 - 1723 septembre 17), pp. 1-77 ;\nMariages (tête-bêche) (1664 octobre 13 - 1723 mars 5, lacunes), pp.tête-bêche 2-23;\nCatéchumènes (tête-bêche) (1693 Pâques - 1725), pp.tête-bêche 28-35.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 54/1 et Eb 54/2 (microfilm: RMS 1/128.676, numérique: RN-EB-54-1), pages manuscrites, non datées\nRépertoire séparé des baptêmes et des mariages Eb 54/1 et Eb 54/3 (microfilm: RMS 1/128.676, numérique: RN-EB-54-1), pages manuscrites, non datées\nRépertoire séparé des mariages et des décès Eb 54/1, Eb 54/2, Eb 54/3 et Eb 54/4 (microfilm: RMS 1/128.676, numérique: RN-EB-54-1), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes",
+   "Cote de gestion": "RMS 1/128.676",
+   "Nom du fichier": "CH-ACV_RN-EB-54-1.pdf",
+   "Taille du fichier": "215.8 MiB"
+  },
+  "pdf": "d/f/6/df644c1af95f54db491fbd223263b7e8cad49dcaea2f391b166ebe5d1369d752/CH-ACV_RN-EB-54-1.pdf"
+ },
+ {
+  "slug": "eb-54-2",
+  "parent": "eb-54-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 54/2",
+   "Titre": "Paroisse réformée de L'Etivaz",
+   "Date(s)": "1721-12-14 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 4 parties\nFormat LxH(cm): 11,5 x 31,2 /\nAR4: 27,1 x 37,5 (répertoire des baptêmes, des mariages et des décès Eb 54/2 et Eb 54/4)",
+   "Portée et contenu": "Baptêmes (1721 décembre 14 - 1821 juin 30), pp. 0-176;\nBaptêmes hors de l'église (tête-bêche) (1733 novembre 29 - 1809 septembre 10), pp.tête-bêche 133-137;\nMariages (tête-bêche) (1721 octobre 24 - 1752 janvier 14), pp.tête-bêche 0-17;\nCatéchumènes (tête-bêche) (1721 décembre - 1752 mars 25), pp.tête-bêche 87-95;\nDécès (tête-bêche) (1728 mai 1 - 1752 avril 23), pp.tête-bêche 121-132.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 54/1 et Eb 54/2 (microfilm: RMS 1/128.676, numérique: RN-EB-54-1), pages manuscrites, non datées\nRépertoire séparé des mariages et des décès Eb 54/1, Eb 54/2, Eb 54/3 et Eb 54/4 (microfilm: RMS 1/128.676, numérique: RN-EB-54-1), pages manuscrites, non datées\nRépertoire séparé des baptêmes, des mariages et des décès Eb 54/2 et Eb 54/4 (microfilm: RMS 1/128.676, numérique: RN-EB-54-2), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes.",
+   "Note": "Séries de pages blanches, des pages 138 à page tête-bêche 137, des page tête-bêche 18-85 et des page tête-bêche 96-119.",
+   "Cote de gestion": "RMS 1/128.676",
+   "Nom du fichier": "CH-ACV_RN-EB-54-2.pdf",
+   "Taille du fichier": "205.9 MiB"
+  },
+  "pdf": "b/0/b/b0b355b60f233893b7aa5e45250364bb7b12f8e92dcc8ff6d8016609f505ce1d/CH-ACV_RN-EB-54-2.pdf"
+ },
+ {
+  "slug": "eb-54-3",
+  "parent": "eb-54-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 54/3",
+   "Titre": "Paroisse réformée de L'Etivaz",
+   "Date(s)": "1754-07-26 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 13,7 x 23,6",
+   "Portée et contenu": "Mariages (1754 juillet 26 - 1821 juin 30), pp. 0-54;\nAnnonces de mariages (tête-bêche) (1763 février 27 - 1821 mars 25), pp.tête-bêche 61-81.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes et des mariages Eb 54/1 et Eb 54/3 (microfilm: RMS 1/128.676, numérique: RN-EB-54-1), pages manuscrites, non datées\nRépertoire séparé des mariages et des décès Eb 54/1, Eb 54/2, Eb 54/3 et Eb 54/4 (microfilm: RMS 1/128.676, numérique: RN-EB-54-1), pages manuscrites, non datées",
+   "Note": "Série de pages blanches, de la page 55 jusqu'aux annonces de mariage tête-bêche.",
+   "Cote de gestion": "RMS 1/128.676",
+   "Nom du fichier": "CH-ACV_RN-EB-54-3.pdf",
+   "Taille du fichier": "39.4 MiB"
+  },
+  "pdf": "a/c/1/ac11b46258719496dec32584452edf629ca9d0067f3e98d05cd10d1fad291390/CH-ACV_RN-EB-54-3.pdf"
+ },
+ {
+  "slug": "eb-54-4",
+  "parent": "eb-54-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 54/4",
+   "Titre": "Paroisse réformée de L'Etivaz",
+   "Date(s)": "1752-07-19 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 13,5 x 23,7",
+   "Portée et contenu": "Décès (1752 juillet 19 - 1821 juin 30), pp. 0-57.",
+   "Instruments de recherche": "Répertoire séparé des mariages et des décès Eb 54/1, Eb 54/2, Eb 54/3 et Eb 54/4 (microfilm: RMS 1/128.676, numérique: RN-EB-54-1), pages manuscrites, non datées\nRépertoire séparé des baptêmes, des mariages et des décès Eb 54/2 et Eb 54/4 (microfilm: RMS 1/128.676, numérique: RN-EB-54-2), pages manuscrites, non datées",
+   "Note": "Dès la page 58, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.676",
+   "Nom du fichier": "CH-ACV_RN-EB-54-4.pdf",
+   "Taille du fichier": "30.1 MiB"
+  },
+  "pdf": "8/7/8/878d978e2c0be068f0daee2bf1772477935b21a0b4234110400a1c292b1df771/CH-ACV_RN-EB-54-4.pdf"
+ }
+]
