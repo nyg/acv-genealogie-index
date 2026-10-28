@@ -63,7 +63,8 @@ def _dates(fields):
     return parse_date_range(re.sub(r"Concernant.*", "", fields.get("Dates", "")))
 
 
-LISTED_CONTENT = re.compile(r"^[-–]?\s*(?P<label>[^\d()]+?)\s+(?P<dates>\d{4}[^()]*?)\.?(?:\s*\([\d.\-]+\))?$")
+LISTED_CONTENT = re.compile(r"^[-–]?\s*(?P<label>[^\d()]+?)\s+(?P<dates>\d{4}[^()]*?)\.?$")
+REMARK = re.compile(r"\s*\(([^()]*)\)")
 
 
 def _segment_row(unit, kinds, label, start, end, dates):
@@ -71,14 +72,25 @@ def _segment_row(unit, kinds, label, start, end, dates):
             "dates": dates, "pages": "", "tb": False, "foreign": False, "section": ""}
 
 
-def _justificative_segments(unit):
+def _listed_line(line):
+    listed = LISTED_CONTENT.match(REMARK.sub("", line).strip())
+    if not listed or not classify(listed["label"]):
+        return None
+    years = re.findall(r"\b\d{4}\b", listed["dates"])
+    if not years:
+        return None
+    missing = "".join(f" ({remark})" for remark in REMARK.findall(line) if "manque" in remark)
+    return listed["label"], missing, listed["dates"], years
+
+
+def justificative_segments(unit):
     segments = []
     for line in re.split(r"\n|(?<=\.)\s*(?=[-–]\s)", f"{unit['title']}\n{unit['scope']}"):
-        listed = LISTED_CONTENT.match(line.strip())
-        if listed and classify(listed["label"]):
-            years = re.findall(r"\b\d{4}\b", listed["dates"])
-            start, end = f"{min(years)}-01-01", f"{max(years)}-12-31"
-            segments.append(_segment_row(unit, ["pj", *classify(listed["label"])], f"Pièces justificatives : {listed['label']}", start, end, listed["dates"]))
+        listed = _listed_line(line.strip())
+        if listed:
+            label, missing, dates, years = listed
+            segments.append(_segment_row(unit, ["pj", *classify(label)], f"Pièces justificatives : {label}{missing}",
+                                         f"{min(years)}-01-01", f"{max(years)}-12-31", dates))
     return segments or [_segment_row(unit, ["pj", *classify(unit["title"])], f"Pièces justificatives : {unit['title']}", unit["start"], unit["end"], unit["dates"])]
 
 
@@ -89,7 +101,7 @@ def _segments(unit, fonds, series_title):
         lowered = series_title.lower()
         kinds = next(([kind] for keyword, kind in CIVIL_REGISTER_KINDS if keyword in lowered), ["inconnu"])
         return [_segment_row(unit, kinds, f"{series_title} (bourgeois, événements hors arrondissement)", unit["start"], unit["end"], unit["dates"])]
-    return _justificative_segments(unit)
+    return justificative_segments(unit)
 
 
 def load_scopearchiv(places):
