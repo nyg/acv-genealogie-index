@@ -232,6 +232,130 @@
       {"pdf": "169-278", "content": "Répertoires des baptêmes 1804-1821, récapitulation de mai 1915", "note": "Deux répertoires incorporés séparés par des pages blanches."}
     ]
   },
+  "Eb 23/1": {
+    "pdfPages": 61,
+    "parts": [
+      {"pdf": "5-37", "content": "Mariages 1571-1578", "pages": "4-68", "spread": true, "anchors": [[38, 22]], "note": "Photographié en doubles pages."},
+      {"pdf": "45-61", "content": "Répertoire des mariages 1571-1605 (Eb 23/1 à Eb 23/3)", "note": "Cite la pagination continue d'Eb 23/1 à Eb 23/3."}
+    ]
+  },
+  "Eb 23/2": {
+    "pdfPages": 119,
+    "parts": [
+      {"pdf": "6-52", "content": "Baptêmes 1578-1581", "pages": "71-117"},
+      {"pdf": "53-55", "content": "Baptêmes 1599-1604", "pages": "132-134"},
+      {"pdf": "59-104", "content": "Répertoire des baptêmes 1571-1605 (Eb 23/1 à Eb 23/3)"},
+      {"pdf": "105-117", "content": "Mariages 1578-1586", "pages": "119-131", "note": "Reliés entre les pp. 117 et 132, photographiés après le répertoire des baptêmes. Répertoire des mariages : PDF d'Eb 23/1."}
+    ]
+  },
+  "Eb 23/3": {
+    "pdfPages": 49,
+    "parts": [
+      {"pdf": "6-11", "content": "Mariages 1598-1605", "pages": "138-143", "note": "Feuillets lacunaires, montés sur papier. Répertoire des mariages : PDF d'Eb 23/1."},
+      {"pdf": "12-15", "content": "Mariages 1598-1605", "pages": "178-181", "note": "Fragments montés sur papier, reliés entre les pp. 143 et 146."},
+      {"pdf": "16-47", "content": "Baptêmes 1586-1605", "pages": "146-177", "note": "Feuillets lacunaires, montés sur papier. Répertoire des baptêmes : PDF d'Eb 23/2."}
+    ]
+  },
+  "Eb 23/4": {
+    "pdfPages": 794,
+    "parts": [
+      {"pdf": "6-552", "content": "Baptêmes 1605-1702", "pages": "95-641"},
+      {"pdf": "553", "content": "Baptêmes 1702", "pages": "643"},
+      {"pdf": "555-646", "content": "Répertoire des baptêmes 1605-1702"},
+      {"pdf": "651-742", "content": "Mariages 1608-1702, tête-bêche", "pages": "2-93"},
+      {"pdf": "745-794", "content": "Répertoire des mariages 1608-1702"}
+    ]
+  },
+  "Eb 23/4 bis": {
+    "pdfPages": 117,
+    "parts": [
+      {"pdf": "6-111", "content": "Catéchumènes 1704-1751", "pages": "1-106"}
+    ]
+  },
+  "Eb 23/5": {
+    "pdfPages": 361,
+    "parts": [
+      {"pdf": "4-242", "content": "Baptêmes 1703-1743", "pages": "52-290"},
+      {"pdf": "244-283", "content": "Répertoire des baptêmes 1703-1743"},
+      {"pdf": "290-334", "content": "Mariages 1703-1741, tête-bêche", "pages": "6-50"},
+      {"pdf": "336-361", "content": "Répertoire des mariages 1703-1741"}
+    ]
+  },
+  "Eb 23/6": {
+    "pdfPages": 250,
+    "parts": [
+      {"pdf": "6-41", "content": "Baptêmes 1743-1752", "pages": "25-60", "note": "Pages numérotées « VI 25 » à « VI 129 » ; l'inventaire indique pp. VI 24-VI 129."},
+      {"pdf": "44-112", "content": "Baptêmes 1743-1752", "pages": "61-129", "note": "PDF 42-43 : pp. VI 60 bis et VI 60 ter."},
+      {"pdf": "115-126", "content": "Répertoire des baptêmes 1743-1752 (volume VI, Eb 23/6)"},
+      {"pdf": "127-166", "content": "Répertoire des baptêmes 1752-1804 (volume VII, Eb 23/9)"},
+      {"pdf": "167-186", "content": "Répertoire des baptêmes 1804-1821 (volume VIII, Eb 23/11)"},
+      {"pdf": "191-210", "content": "Mariages 1741-1751, tête-bêche", "pages": "3-22"},
+      {"pdf": "213-250", "content": "Répertoire des mariages 1741-1821 (Eb 23/6 et Eb 23/10)", "note": "Cite la pagination continue des mariages d'Eb 23/6 (pp. 3-22) et d'Eb 23/10 (pp. 23-135)."}
+    ]
+  },
+  "Eb 23/7": {
+    "pdfPages": 331,
+    "parts": [
+      {"pdf": "4-284", "content": "Décès 1708-1821", "pages": "2-562", "spread": true, "anchors": [[194, 100], [294, 150], [434, 220]], "note": "Photographié en doubles pages."},
+      {"pdf": "289-331", "content": "Répertoire des décès 1708-1821"}
+    ]
+  },
+  "Eb 23/8": {
+    "pdfPages": 194,
+    "parts": [
+      {"pdf": "5-100", "content": "Baptêmes forains 1705-1812", "pages": "1-191", "spread": true, "anchors": [[2, 5], [92, 50], [142, 75], [190, 99]], "note": "Photographié en doubles pages."},
+      {"pdf": "100", "content": "Annonces et mariages forains 1746-1812, tête-bêche", "pages": "281", "note": "Moitié droite de l'image, à l'envers."},
+      {"pdf": "101-143", "content": "Annonces et mariages forains 1746-1812, tête-bêche", "pages": "280-195", "spread": true, "anchors": [[279, 101], [241, 120]], "note": "Photographié en doubles pages, à l'envers : la p. 280 est au PDF 101, la p. 195 au PDF 143."},
+      {"pdf": "144", "content": "Annonces et mariages forains 1746-1812, tête-bêche", "pages": "192", "note": "Page de titre des mariages forains ; la pagination passe ensuite à 195."},
+      {"pdf": "148-165", "content": "Répertoire des baptêmes forains 1705-1821 (Eb 23/8 et Eb 23/9)"},
+      {"pdf": "167-194", "content": "Répertoire des mariages forains 1746-1821 (Eb 23/8 et Eb 23/12)"}
+    ]
+  },
+  "Eb 23/9": {
+    "pdfPages": 510,
+    "parts": [
+      {"pdf": "8-434", "content": "Baptêmes 1752-1804", "pages": "1-427", "note": "PDF 6-7 : ordonnance de LL. EE. placée avant la p. 1 ; l'inventaire indique pp. 0-427. Autre répertoire : PDF d'Eb 23/6 (volume VII)."},
+      {"pdf": "445-510", "content": "Répertoire des baptêmes 1752-1804"}
+    ]
+  },
+  "Eb 23/10": {
+    "pdfPages": 119,
+    "parts": [
+      {"pdf": "3-115", "content": "Mariages 1751-1821", "pages": "23-135", "note": "Pagination continue de celle des mariages d'Eb 23/6, citée par leur répertoire commun (PDF d'Eb 23/6) ; une ancienne pagination, commencée à 1 sur la p. 24, est aussi écrite."}
+    ]
+  },
+  "Eb 23/11": {
+    "pdfPages": 183,
+    "parts": [
+      {"pdf": "6-130", "content": "Baptêmes 1804-1821", "pages": "1-125", "note": "L'inventaire indique pp. 0-125. Autre répertoire : PDF d'Eb 23/6 (volume VIII)."},
+      {"pdf": "132-181", "content": "Répertoire des baptêmes 1804-1821"}
+    ]
+  },
+  "Eb 23/12": {
+    "pdfPages": 89,
+    "parts": [
+      {"pdf": "4-41", "content": "Annonces et mariages forains 1812-1821", "pages": "1-38", "note": "PDF 42 : p. 38a, renvoi aux baptêmes à l'autre bout du registre. Répertoire des mariages forains : PDF d'Eb 23/8."},
+      {"pdf": "45-89", "content": "Baptêmes forains 1812-1821, tête-bêche", "pages": "39-83"}
+    ]
+  },
+  "Eb 23/13": {
+    "pdfPages": 227,
+    "parts": [
+      {"pdf": "4-222", "content": "Naissances 1799-1817", "pages": "1-219", "note": "Pagination au crayon, en bas de page."}
+    ]
+  },
+  "Eb 23/14": {
+    "pdfPages": 89,
+    "parts": [
+      {"pdf": "4-85", "content": "Mariages 1799-1817", "pages": "1-82", "note": "Pagination au crayon, en bas de page."}
+    ]
+  },
+  "Eb 23/15": {
+    "pdfPages": 115,
+    "parts": [
+      {"pdf": "4-111", "content": "Décès 1799-1816", "pages": "1-108", "note": "Pagination au crayon, en bas de page."}
+    ]
+  },
   "Eb 92/1": {
     "pdfPages": 502,
     "parts": [
@@ -546,6 +670,79 @@
     "parts": [
       {"pdf": "5-326", "content": "Annonces de mariage 1858-1879", "pages": "1-322"},
       {"pdf": "330-353", "content": "Répertoire des annonces de mariage 1858-1879"}
+    ]
+  },
+  "Ed 23/1": {
+    "pdfPages": 471,
+    "parts": [
+      {"pdf": "8-417", "content": "Naissances et baptêmes 1821-1839", "pages": "1-374", "anchors": [[38, 50], [85, 100], [131, 150], [173, 196], [223, 250], [246, 275], [267, 300], [313, 350], [359, 400]], "note": "Le décalage entre pages du registre et du PDF augmente tout au long du registre."},
+      {"pdf": "422-470", "content": "Répertoire des naissances et baptêmes 1821-1839"}
+    ]
+  },
+  "Ed 23/2": {
+    "pdfPages": 533,
+    "parts": [
+      {"pdf": "10-316", "content": "Naissances et baptêmes 1839-1863", "pages": "1-307"},
+      {"pdf": "318-458", "content": "Naissances et baptêmes 1839-1863", "pages": "307-447", "note": "La p. 307 est photographiée avec (PDF 316) puis sans (PDF 318) le billet volant posé dessus, photographié seul au PDF 317."},
+      {"pdf": "461-471", "content": "Naissances et baptêmes 1839-1863", "pages": "448-458", "note": "PDF 459-460 : la p. 447 photographiée une seconde fois et un billet volant."},
+      {"pdf": "474-532", "content": "Répertoire des naissances et baptêmes 1839-1863"}
+    ]
+  },
+  "Ed 23/3": {
+    "pdfPages": 365,
+    "parts": [
+      {"pdf": "10-312", "content": "Naissances et baptêmes 1863-1875", "pages": "1-303"},
+      {"pdf": "316-365", "content": "Répertoire des naissances et baptêmes 1863-1875"}
+    ]
+  },
+  "Ed 23/4": {
+    "pdfPages": 440,
+    "parts": [
+      {"pdf": "10-380", "content": "Mariages 1821-1875", "pages": "1-340", "anchors": [[3, 12], [6, 20], [14, 31], [32, 55], [35, 62], [56, 86], [79, 110], [100, 135], [123, 160], [173, 210], [220, 260], [270, 310], [320, 360]], "note": "Formulaires vierges ou sans numéro intercalés tout au long du registre."},
+      {"pdf": "389-440", "content": "Répertoire des mariages 1821-1875"}
+    ]
+  },
+  "Ed 23/5": {
+    "pdfPages": 508,
+    "parts": [
+      {"pdf": "6-450", "content": "Décès 1821-1853", "pages": "1-373", "anchors": [[3, 8], [37, 60], [77, 110], [121, 162], [168, 210], [207, 260], [253, 312], [295, 360], [339, 410]], "note": "Formulaires vierges, sans numéro, intercalés tout au long du registre."},
+      {"pdf": "457-508", "content": "Répertoire des décès 1821-1853"}
+    ]
+  },
+  "Ed 23/6": {
+    "pdfPages": 328,
+    "parts": [
+      {"pdf": "8-99", "content": "Décès 1853-1875", "pages": "1-92"},
+      {"pdf": "101-269", "content": "Décès 1853-1875", "pages": "93-261", "note": "PDF 100 : p. 92 bis."},
+      {"pdf": "277-328", "content": "Répertoire des décès 1853-1875"}
+    ]
+  },
+  "Ed 23/7": {
+    "pdfPages": 128,
+    "parts": [
+      {"pdf": "6-127", "content": "Décès 1862-1875", "note": "Tableau sans pagination."}
+    ]
+  },
+  "Ed 23/8": {
+    "pdfPages": 433,
+    "parts": [
+      {"pdf": "4-81", "content": "Annonces de mariage 1821-1844", "pages": "1-78"},
+      {"pdf": "86-383", "content": "Annonces de mariage 1821-1844", "pages": "79-376", "note": "PDF 82-85 : quatre billets photographiés entre les pp. 78 et 79."},
+      {"pdf": "386-432", "content": "Répertoire des annonces de mariage 1821-1844"}
+    ]
+  },
+  "Ed 23/9": {
+    "pdfPages": 263,
+    "parts": [
+      {"pdf": "6-211", "content": "Annonces de mariage 1844-1860", "pages": "1-206"},
+      {"pdf": "214-262", "content": "Répertoire des annonces de mariage 1844-1860"}
+    ]
+  },
+  "Ed 23/10": {
+    "pdfPages": 285,
+    "parts": [
+      {"pdf": "8-237", "content": "Annonces de mariage 1860-1874", "pages": "1-230"},
+      {"pdf": "240-283", "content": "Répertoire des annonces de mariage 1860-1874"}
     ]
   },
   "Ed 92/1": {
