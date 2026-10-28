@@ -40,6 +40,7 @@ const cases = [
   ["Aigle", "deces", "1959", "SB 267/2/3/12"],
   ["Bex", "mariage", "1888", "SB 267/12/2/2"],
   ["Leysin", "naissance", "1880", "SB 269/59/1/1"],
+  ["Château d'Oex", "naissance", "1850", "Ed 23/2"],
 ];
 let failures = 0;
 for (const [place, kind, date, expected] of cases) {

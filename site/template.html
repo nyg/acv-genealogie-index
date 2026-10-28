@@ -261,7 +261,7 @@ DATA.segments.forEach((segment, index) => {
   segmentsByPlace.get(place).push(segment);
 });
 
-const normalize = text => text.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[’']/g, "'").replace(/\s+/g, " ").trim();
+const normalize = text => text.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/œ/g, "oe").replace(/æ/g, "ae").replace(/[’']/g, "'").replace(/-/g, " ").replace(/\s+/g, " ").trim();
 const escapeHtml = text => String(text ?? "").replace(/[&<>"]/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[char]));
 const fondsClass = fonds => FONDS_CLASS[fonds] ?? "PJ";
 const fondsColor = fonds => `var(--${{ Eb: "eb", Ed: "ed", SB: "sb", SB268: "sb268", SB269: "sb269", PJ: "pj" }[fondsClass(fonds)]})`;
