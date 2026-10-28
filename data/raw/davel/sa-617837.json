@@ -1,0 +1,100 @@
+[
+ {
+  "slug": "sa-617837",
+  "parent": null,
+  "text": "SB 115/892-895 Cully (arrondissement de l'état civil), 1929-1950 (Série)",
+  "children": [
+   "sa-621608",
+   "sa-621690",
+   "sa-621691",
+   "sa-621692"
+  ],
+  "f": {
+   "Ref. code": "SB 115/892-895",
+   "Title": "Cully (arrondissement de l'état civil)",
+   "Dates": "1929-1950",
+   "Creation date(s)": "1929 - 1950",
+   "Level": "Série",
+   "Importance matérielle": "4 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Fusionne par l'arrêté du 5 juin 2004 avec les arrondissements de Lutry, Oron-la-ville, et Savigny pour former l'arrondissement de Lavaux dès le 1er juin 2004.\nComprend:\n- Cully\n- Epesses\n- Grandvaux\n- Riex\n- Villette\nAdjonction de l'arrondissement de:\n- Saint-Saphorin en 2002",
+   "Entries": "décès (Matières\\D)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=617837",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621608",
+  "parent": "sa-617837",
+  "text": "SB 115/892 - Mariages 1929-1935 \\ - Publications de promesses de mariage 1929-1935 \\ - Pièces diverses relatives à l'état civil 1932-1935: principalement constatations de décès, divorces, rectifications de nom, 1929-1935 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/892",
+   "Title": "- Mariages 1929-1935\n- Publications de promesses de mariage 1929-1935\n- Pièces diverses relatives à l'état civil 1932-1935: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1929-1935",
+   "Creation date(s)": "1929 - 1935",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621608",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621690",
+  "parent": "sa-617837",
+  "text": "SB 115/893 - Mariages 1936-1941 \\ - Publications de promesses de mariage 1936-1938, 1940 \\ - Pièces diverses relatives à l'état civil 1936-1941: principalement constatations de décès, divorces, rectifications de nom, 1936-1941 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/893",
+   "Title": "- Mariages 1936-1941\n- Publications de promesses de mariage 1936-1938, 1940\n- Pièces diverses relatives à l'état civil 1936-1941: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1936-1941",
+   "Creation date(s)": "1936 - 1941",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621690",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621691",
+  "parent": "sa-617837",
+  "text": "SB 115/894 - Mariages 1942-1947 \\ - Publications de promesses de mariage 1942, 1945-1947 \\ - Pièces diverses relatives à l'état civil 1942-1947: principalement constatations de décès, divorces, rectifications de nom, 1942-1947 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/894",
+   "Title": "- Mariages 1942-1947\n- Publications de promesses de mariage 1942, 1945-1947\n- Pièces diverses relatives à l'état civil 1942-1947: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1942-1947",
+   "Creation date(s)": "1942 - 1947",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621691",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621692",
+  "parent": "sa-617837",
+  "text": "SB 115/895 - Mariages 1948-1950 \\ - Publications de promesses de mariage 1948-1950 \\ - Pièces diverses relatives à l'état civil 1948-1950: principalement constatations de décès, divorces, rectifications de nom, 1948-1950 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/895",
+   "Title": "- Mariages 1948-1950\n- Publications de promesses de mariage 1948-1950\n- Pièces diverses relatives à l'état civil 1948-1950: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1948-1950",
+   "Creation date(s)": "1948 - 1950",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621692",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

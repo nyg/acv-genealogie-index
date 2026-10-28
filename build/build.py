@@ -234,7 +234,9 @@ def load_scraped(places):
             unit = make_unit(record, place["id"], fonds)
             units.append(unit)
             if fonds == "sb-267":
-                segments.append(civil_register_segment(unit, by_slug[record["parent"]]["f"].get("Titre", "")))
+                parent = by_slug[record["parent"]]
+                series = record if parent is root else parent
+                segments.append(civil_register_segment(unit, series["f"].get("Titre", "")))
             else:
                 segments.extend(parish_segments(unit))
     return units, segments

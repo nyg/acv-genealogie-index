@@ -1,0 +1,284 @@
+[
+ {
+  "slug": "sa-655019",
+  "parent": null,
+  "text": "SB 268/83 Pully (arrondissement de l'état civil), 1923-1999 (Sous-fonds)",
+  "children": [
+   "sa-681329",
+   "sa-681330",
+   "sa-681331",
+   "sa-681332",
+   "sa-681333",
+   "sa-681334",
+   "sa-681335",
+   "sa-681336",
+   "sa-681337",
+   "sa-681338",
+   "sa-681339",
+   "sa-681340",
+   "sa-681341"
+  ],
+  "f": {
+   "Ref. code": "SB 268/83",
+   "Title": "Pully (arrondissement de l'état civil)",
+   "Dates": "1923-1999 (lacune: 1882-1923)",
+   "Creation date(s)": "1923 - 1999",
+   "Level": "Sous-fonds",
+   "Importance matérielle": "12 registres",
+   "Access regulations": "Seules les promesses de mariage de plus de 80 ans sont consultables librement. Pour les promesses de mariage postérieures une autorisation écrite est nécessaire.",
+   "Language": "Français",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement de Lausanne dès le 1er juin 2004.\nTransféré à l'office de l'état civil de l'Est vaudois en 2006.\nComprend:\n- Pully\n- Belmont-sur-Lausanne\n- Paudex",
+   "Entries": "[annonces de mariage] (Matières\\ Subdivisions\\de forme)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=655019",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681329",
+  "parent": "sa-655019",
+  "text": "SB 268/83/1 FANTOME Registre(s) de publications de promesses de mariage manquant(s), 1111 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/83/1 FANTOME",
+   "Title": "Registre(s) de publications de promesses de mariage manquant(s)",
+   "Dates": "Lacune: 1882 août 1 - 1923 mars 7",
+   "Creation date(s)": "1111",
+   "Level": "Pièce",
+   "Importance matérielle": "-",
+   "Content": "Le(s) registre(s) de publications de promesses de mariage 1882 à 1923 de cet arrondissement n'a/ont pas été versé(s) aux ACV.",
+   "Access regulations": "Non consultable.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681329",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681330",
+  "parent": "sa-655019",
+  "text": "SB 268/83/2 Registre de publications de promesses de mariage, 1923-1930 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/83/2",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1923 mars 7 - 1930 août 9",
+   "Creation date(s)": "1923 - 1930",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 200 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1923 mars 7 - 1930 août 9).",
+   "Access regulations": "Seules les promesses de mariage de plus de 80 ans sont consultables sans autorisation.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681330",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681331",
+  "parent": "sa-655019",
+  "text": "SB 268/83/3 Registre de publications de promesses de mariage, 1930-1936 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/83/3",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1930 août 19 - 1936 septembre 29",
+   "Creation date(s)": "1930 - 1936",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 200 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1930 août 19 - 1936 septembre 29).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681331",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681332",
+  "parent": "sa-655019",
+  "text": "SB 268/83/4 Registre de publications de promesses de mariage, 1936-1942 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/83/4",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1936 octobre 8 - 1942 décembre 5",
+   "Creation date(s)": "1936 - 1942",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 200 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1936 octobre 8 - 1942 décembre 5).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681332",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681333",
+  "parent": "sa-655019",
+  "text": "SB 268/83/5 Registre de publications de promesses de mariage, 1943-1948 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/83/5",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1943 janvier 8 - 1948 mars 6",
+   "Creation date(s)": "1943 - 1948",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 200 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1943 janvier 8 - 1948 mars 6).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681333",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681334",
+  "parent": "sa-655019",
+  "text": "SB 268/83/6 Registre de publications de promesses de mariage, 1948-1954 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/83/6",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1948 mars 9 - 1954 mars 25",
+   "Creation date(s)": "1948 - 1954",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 200 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1948 mars 9 - 1954 mars 25).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681334",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681335",
+  "parent": "sa-655019",
+  "text": "SB 268/83/7 Registre de publications de promesses de mariage, 1954-1958 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/83/7",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1954 avril 2 - 1958 décembre 18",
+   "Creation date(s)": "1954 - 1958",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 200 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1954 avril 2 - 1958 décembre 18).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681335",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681336",
+  "parent": "sa-655019",
+  "text": "SB 268/83/8 Registre de publications de promesses de mariage, 1958-1976 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/83/8",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1958 novembre 22 - 1976 décembre 29",
+   "Creation date(s)": "1958 - 1976",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 182 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1958 novembre 22 - 1976 décembre 29).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681336",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681337",
+  "parent": "sa-655019",
+  "text": "SB 268/83/9 Registre de publications de promesses de mariage, 1977-1983 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/83/9",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1977 janvier 19 - 1983 février 18",
+   "Creation date(s)": "1977 - 1983",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 100 pages utiles sur 100 et 1 répertoire non paginé",
+   "Content": "- Publications (1977 janvier 19 - 1983 février 18).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681337",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681338",
+  "parent": "sa-655019",
+  "text": "SB 268/83/10 Registre de publications de promesses de mariage, 1983-1987 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/83/10",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1983 mars 10 - 1987 décembre 11",
+   "Creation date(s)": "1983 - 1987",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 100 pages utiles sur 100 et 1 répertoire non paginé",
+   "Content": "- Publications (1983 mars 10 - 1987 décembre 11).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681338",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681339",
+  "parent": "sa-655019",
+  "text": "SB 268/83/11 Registre de publications de promesses de mariage, 1987-1992 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/83/11",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1987 décembre 15 - 1992 avril 2",
+   "Creation date(s)": "1987 - 1992",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 100 pages utiles sur 100 et 1 répertoire non paginé",
+   "Content": "- Publications (1987 décembre 15 - 1992 avril 2).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681339",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681340",
+  "parent": "sa-655019",
+  "text": "SB 268/83/12 Registre de publications de promesses de mariage, 1992-1996 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/83/12",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1992 mars 23 - 1996 novembre 21",
+   "Creation date(s)": "1992 - 1996",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 100 pages utiles sur 100 et 1 répertoire non paginé",
+   "Content": "- Publications (1992 mars 23 - 1996 novembre 21).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681340",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681341",
+  "parent": "sa-655019",
+  "text": "SB 268/83/13 Registre de publications de promesses de mariage, 1996-1999 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/83/13",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1996 novembre 28 - 1999 décembre 17",
+   "Creation date(s)": "1996 - 1999",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 58 pages utiles sur 100 et 1 répertoire non paginé",
+   "Content": "- Publications (1996 novembre 28 - 1999 décembre 17).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681341",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]
