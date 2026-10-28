@@ -47,6 +47,13 @@ def place_for(cote, ranges):
     return min(containing)[1] if containing else None
 
 
+US_DATE = re.compile(r"\b(\d{1,2})/(\d{1,2})/(\d{4})\b")
+
+
+def creation_dates(fields):
+    return US_DATE.sub(lambda match: f"{int(match[2]):02}.{int(match[1]):02}.{match[3]}", fields.get("Creation date(s)", ""))
+
+
 def _dates(fields):
     content = fields.get("Content", "")
     if "entre le" in content:

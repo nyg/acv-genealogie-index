@@ -10,7 +10,7 @@ from pathlib import Path
 from pdf_pages import load_pdf_pages
 from places import arrondissement_history, arrondissement_name, localities_from_note, parish_name, parish_number, split_official_locality
 from scope_parser import normalize, parse_date_range, parse_scope_content
-from scopearchiv import fonds_of, load_scopearchiv, place_for, related_ranges
+from scopearchiv import creation_dates, fonds_of, load_scopearchiv, place_for, related_ranges
 from scopearchiv import PAGE_BASE as SCOPEARCHIV_PAGE_BASE
 from scopearchiv import RAW_DIR as SCOPEARCHIV_RAW_DIR
 
@@ -148,7 +148,7 @@ def add_scopearchiv_series(places):
         if place_id in places:
             places[place_id]["series"].append({
                 "slug": root["slug"], "fonds": fonds_of(cote), "cote": cote, "title": root["f"].get("Title", ""),
-                "dates": root["f"].get("Creation date(s)", ""), "scraped": True, "note": root["f"].get("Notes", ""),
+                "dates": creation_dates(root["f"]), "scraped": True, "note": root["f"].get("Notes", ""),
                 "url": SCOPEARCHIV_PAGE_BASE + root["slug"].removeprefix("sa-"),
             })
 
