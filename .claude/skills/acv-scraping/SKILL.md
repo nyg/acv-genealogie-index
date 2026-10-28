@@ -17,6 +17,7 @@ Work in **batches**: plan → scrape → export → save → check → publish. 
 6. **Check** with `scripts/check.sh` and read every report section:
    - a new inventory wording under "contenu non analysé" → extend `build/scope_parser.py`, with a test in `tests/`;
    - an OCR-damaged locality → add it to `data/manual/communes-paroisses-corrections.json`;
+   - a segment outside its register's dates, or a record whose dates, title or cote contradict each other → add it to `data/manual/erreurs-acv.md`, the list of inventory errors to report to the ACV. SB 267 registers « ouvert entre le … et le … » are not errors: their contents give the opening period, their dates the acts;
    - a batch covering a place the user researches → add a case to `tests/site_smoke.mjs`.
 7. **Look** at `site/preview.html` in the browser pane; `python3 build/preview.py <place-id>…` chooses its places (ids like `paroisse-92`, `arrondissement-73`).
 8. **Publish**: commit and push, which updates the GitHub Pages site from `docs/`.
