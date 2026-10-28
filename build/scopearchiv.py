@@ -8,7 +8,6 @@ from scope_parser import classify, parse_date_range
 
 RAW_DIR = Path(__file__).resolve().parent.parent / "data" / "raw" / "davel"
 PAGE_BASE = "https://davel.vd.ch/detail.aspx?ID="
-CONTAINER_LEVELS = {"Fonds", "Sous-fonds", "Série", "Sous-série"}
 JUSTIFICATIVE_FONDS = {"Ec", "SB 23", "SB 115", "SB 324"}
 CIVIL_REGISTER_KINDS = [
     ("reconnaissance", "reconnaissance"), ("légitimation", "legitimation"),
@@ -94,7 +93,7 @@ def load_scopearchiv(places):
         by_slug = {record["slug"]: record for record in records}
         for record in records:
             fields = record["f"]
-            if record.get("children") or (record["parent"] is None and fields.get("Level") in CONTAINER_LEVELS):
+            if record.get("children"):
                 continue
             cote = fields.get("Ref. code", "")
             fonds = fonds_of(cote)
