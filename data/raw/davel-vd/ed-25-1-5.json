@@ -1,0 +1,110 @@
+[
+ {
+  "slug": "ed-25-1-5",
+  "parent": null,
+  "children": [
+   "ed-25-1",
+   "ed-25-2",
+   "ed-25-3",
+   "ed-25-4",
+   "ed-25-5"
+  ],
+  "f": {
+   "Cote": "Ed 25/1-5",
+   "Titre": "Paroisse réformée de Cheseaux.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Cheseaux :\nParoisse médiévale devenue annexe de Morrens en 1846 et rétablie en 1849.\nRegistres dès 1573.\nComprend : Bournens et Boussens (jusqu'en 1837), chacun avec registres propres 1765-1821 ; les Vernands (dès 1837).\nAnnexe : Sullens (jusqu'en 1837), avec registres propres 1765-1821 ; Romanel (1837-1846 et dès 1849)."
+  }
+ },
+ {
+  "slug": "ed-25-1",
+  "parent": "ed-25-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 25/1",
+   "Titre": "Registre de naissances 1821-1849.",
+   "Date(s)": "1821-07-01 - 1849-12-28 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31,2 x 41,3 / 28 x 40,5 (répertoire)",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1849 décembre 28);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1849 décembre 28).",
+   "Instruments de recherche": "Répertoire séparé des naissances et baptêmes Ed 25/1 (microfilm: RMS 1/1.047.371, numérique RN-ED-25-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.047.371",
+   "Nom du fichier": "CH-ACV_RN-ED-25-1.pdf",
+   "Taille du fichier": "632.7 MiB"
+  },
+  "pdf": "1/a/8/1a87664cb431d4f930d08449eff1978b8b73fb467072f27375fb7792ee63f737/CH-ACV_RN-ED-25-1.pdf"
+ },
+ {
+  "slug": "ed-25-2",
+  "parent": "ed-25-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 25/2",
+   "Titre": "Registre de naissances 1850-1875.",
+   "Date(s)": "1850-01-20 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volumes en 1 partie\nFormat LxH(cm): 30.3 x 41,2",
+   "Portée et contenu": "Naissances (1850 janvier 20 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1850 janvier 20 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 25/2 (microfilm: RMS 1/1.047.371, numérique RN-ED-25-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.047.371",
+   "Nom du fichier": "CH-ACV_RN-ED-25-2.pdf",
+   "Taille du fichier": "358.1 MiB"
+  },
+  "pdf": "f/d/a/fda4ae3838329f9205a8f6ab35e1970abbf43920ab9619639564410b0262e550/CH-ACV_RN-ED-25-2.pdf"
+ },
+ {
+  "slug": "ed-25-3",
+  "parent": "ed-25-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 25/3",
+   "Titre": "Registre de mariages 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30 x 41,2 / 28 x 40,3 (répertoire)",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 25/3 (microfilm: RMS 1/1.047.372, numérique RN-ED-25-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.047.372",
+   "Nom du fichier": "CH-ACV_RN-ED-25-3.pdf",
+   "Taille du fichier": "510.1 MiB"
+  },
+  "pdf": "b/a/7/ba7bf05695b66993583450635406c8616ef86995abddda487c3fbe438bd1c622/CH-ACV_RN-ED-25-3.pdf"
+ },
+ {
+  "slug": "ed-25-4",
+  "parent": "ed-25-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 25/4",
+   "Titre": "Registre de décès 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,3 x 42,3 / 27,8 x 40,3 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 25/4 (microfilm: RMS 1/1.047.372, numérique RN-ED-25-4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.047.372",
+   "Nom du fichier": "CH-ACV_RN-ED-25-4.pdf",
+   "Taille du fichier": "500.2 MiB"
+  },
+  "pdf": "1/e/7/1e7df18135e7af85275e75eeabb7d19d9ab85357677e53f6e1b9129042fe2065/CH-ACV_RN-ED-25-4.pdf"
+ },
+ {
+  "slug": "ed-25-5",
+  "parent": "ed-25-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 25/5",
+   "Titre": "Registre d'annonces de mariage 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,5 x 43,6",
+   "Portée et contenu": "Annonces de mariage (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 25/5 (microfilm: RM 22000.8, RN-ED-25-5), pages manuscrites, non datées",
+   "Cote de gestion": "RM 22000.8",
+   "Nom du fichier": "CH-ACV_RN-ED-25-5.pdf",
+   "Taille du fichier": "451.5 MiB"
+  },
+  "pdf": "9/e/9/9e9c145f8486bea56df029b1a0e1fd6f42f8c2a24c6808b7ed08f98b8ab99563/CH-ACV_RN-ED-25-5.pdf"
+ }
+]

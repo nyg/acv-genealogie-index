@@ -1,0 +1,103 @@
+[
+ {
+  "slug": "sa-178117",
+  "parent": null,
+  "text": "Ec 25/1-4 Paroisse réformée de Cheseaux., 1798-1875 (Série)",
+  "children": [
+   "sa-178118",
+   "sa-178119",
+   "sa-178120",
+   "sa-178121"
+  ],
+  "f": {
+   "Ref. code": "Ec 25/1-4",
+   "Title": "Paroisse réformée de Cheseaux.",
+   "Dates": "1798-1875",
+   "Creation date(s)": "1798 - 1875",
+   "Level": "Série",
+   "Importance matérielle": "4 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178117",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178118",
+  "parent": "sa-178117",
+  "text": "Ec 25/1 - Mariages 1809-1839., 1809.01.01-1839.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 25/1",
+   "Title": "- Mariages 1809-1839.",
+   "Dates": "1809-1839",
+   "Creation date(s)": "1/1/1809 - 12/31/1839",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178118",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178119",
+  "parent": "sa-178117",
+  "text": "Ec 25/2 - Mariages 1840-1875., 1840.01.01-1875.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 25/2",
+   "Title": "- Mariages 1840-1875.",
+   "Dates": "1840-1875",
+   "Creation date(s)": "1/1/1840 - 12/31/1875",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178119",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178120",
+  "parent": "sa-178117",
+  "text": "Ec 25/3 - Annonces de mariage 1799-1875. \\ - Naissances 1798-1859., 1798.01.01-1875.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 25/3",
+   "Title": "- Annonces de mariage 1799-1875.\n- Naissances 1798-1859.",
+   "Dates": "1798-1875",
+   "Creation date(s)": "1/1/1798 - 12/31/1875",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "[annonces de mariage] (Matières\\ Subdivisions\\de forme)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178120",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178121",
+  "parent": "sa-178117",
+  "text": "Ec 25/4 - Naissances 1860-1875. \\ - Décès 1821-1874., 1821.01.01-1875.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 25/4",
+   "Title": "- Naissances 1860-1875.\n- Décès 1821-1874.",
+   "Dates": "1821-1875",
+   "Creation date(s)": "1/1/1821 - 12/31/1875",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178121",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]
