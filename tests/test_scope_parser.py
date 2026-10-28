@@ -46,6 +46,20 @@ def test_two_events_sharing_pages_both_get_the_pages():
     ]
 
 
+def test_pages_written_before_the_dates_are_read():
+    # Given
+    scope = "Mariages: Pages 138-143 et 178-181 (1598 octobre 22 - 1605 janvier 20);\nBaptêmes: Pages 146-177 (1586 février 23 - 1599 octobre 21)."
+
+    # When
+    segments = parse_scope_content(scope)
+
+    # Then
+    assert [(s.label, s.kinds, s.start, s.end, s.pages) for s in segments] == [
+        ("Mariages", ["mariage"], "1598-10-22", "1605-01-20", "Pages 138-143 et 178-181"),
+        ("Baptêmes", ["naissance"], "1586-02-23", "1599-10-21", "Pages 146-177"),
+    ]
+
+
 def test_section_headers_apply_to_following_lines():
     # Given
     scope = "Paroisse réformée de Cheseaux:\nBaptêmes (1575 février 13 - 1614 janvier 9), pp. 0-58;\nSullens annexe de la paroisse réformée de Cheseaux:\nMariages (1574 mai 4 - 1614 mars 6), pp. 271-301;"

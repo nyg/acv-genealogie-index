@@ -20,6 +20,8 @@ SEGMENT = re.compile(
     r"\((?P<dates>[^()]*\d{4}[^()]*)\)"
 )
 
+PAGES_BEFORE_DATES = re.compile(r"^(?P<label>[^:()]+):\s*(?P<pages>pages?\s[^()]*?)\s*(?P<dates>\([^()]*\d{4}[^()]*\))", re.IGNORECASE)
+
 ANNOUNCEMENT_PHRASE = re.compile(r"(annonces?|promesses?|publications?) de mariages?( celebres ailleurs)?")
 
 KIND_PATTERNS = [
@@ -95,7 +97,8 @@ def _clean_label(raw_label):
 
 
 def _segments_in_line(line, section):
-    matches = [match for match in SEGMENT.finditer(line) if classify(_clean_label(match["label"]))]
+    line = PAGES_BEFORE_DATES.sub(r"\g<label> \g<dates>, \g<pages>", line)
+    matches =[match for match in SEGMENT.finditer(line) if classify(_clean_label(match["label"]))]
     segments = []
     for index, match in enumerate(matches):
         label = _clean_label(match["label"])
