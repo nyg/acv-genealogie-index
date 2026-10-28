@@ -14,11 +14,19 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [SB 267/75/5/2](https://davel-vd.ch/sb-267-75-5-2) | Ormont-Dessous | Portée et contenu | Registre ouvert ouventre entre le 27 décembre 1928… | Registre ouvert entre le 27 décembre 1928… | Mot en trop. | |
 | [SB 23/1246](https://davel.vd.ch/detail.aspx?ID=608076) | Ormont-Dessous | Dates | 1879-1880 | 1900 | Titre et dates de création : 1900. | |
 | [SB 23/1253](https://davel.vd.ch/detail.aspx?ID=608083) | Ormont-Dessous | Titre | Décès B 1880 | Décès B 1907 | Le reste de la boîte et ses dates : 1907. | |
+| [SB 23/1262](https://davel.vd.ch/detail.aspx?ID=608289) | Ormont-Dessus | Titre | Décès B 11907 | Décès B 1907 | Dates de la boîte : 1906-1907. | |
 | [SB 267/33/5/1](https://davel-vd.ch/sb-267-33-5-1) | Cully | Niveau supérieur | SB 267/33 | SB 267/33/5 | La série SB 267/33/5, de même titre, n'a aucune pièce. | |
 | [SB 23/549](https://davel.vd.ch/detail.aspx?ID=599293) | Cully | Dates | 1876-1877 | 1880 | Titre : Mariages A et B 1880 ; les boîtes voisines couvrent 1879-1880 et 1880-1881. | |
 | [SB 23/1666](https://davel.vd.ch/detail.aspx?ID=599310) | Cully | Titre | Naissances B 1885 ; Décès B 1885-1886 | Naissances B 1895 ; Décès B 1895-1896 | Le reste de la boîte et ses dates : 1895-1896. | |
 | [B 268/65/31](https://davel.vd.ch/detail.aspx?ID=681067) | Lutry | Cote | B 268/65/31 | SB 268/65/31 | Rangée sous SB 268/65, après SB 268/65/30. | |
 | [SB 23/480](https://davel.vd.ch/detail.aspx?ID=598586) | Pully | Titre | Naissances 1890-1882 | Naissances 1890-1892 | Dates de la boîte : 1890-1892. | |
+| [SB 23/1714](https://davel.vd.ch/detail.aspx?ID=609847) | Savigny | Titre | Naissances A et 1895-897 ; Décès A et 1895-1897 | Naissances A et B 1895-1897 ; Décès A et B 1895-1897 | Dates de la boîte : 1895-1897 ; la ligne des mariages porte « A et B ». | |
+| [SB 23/195](https://davel.vd.ch/detail.aspx?ID=593495) | Sullens | Dates de création | 1876 - 1880 | 1882 | Titre et dates : 1882. | |
+| [SB 23/197](https://davel.vd.ch/detail.aspx?ID=593497) | Sullens | Titre | Naissances 1884 (Il manque les naissances 1884) | Naissances 1884 (Il manque les naissances A) | Les boîtes voisines portent toutes « Il manque les naissances A ». | |
+| [SB 23/202](https://davel.vd.ch/detail.aspx?ID=593502) | Sullens | Titre | Décès 1889-1880 | Décès 1889-1890 | Dates de la boîte : 1889-1890. | |
+| [SB 23/486](https://davel.vd.ch/detail.aspx?ID=598671) | Romanel-sur-Lausanne | Dates | 1876-1877 | 1879 | Titre : 1879 ; SB 23/485 couvre 1878 et SB 23/487 1879-1880. | |
+| [SB 23/502](https://davel.vd.ch/detail.aspx?ID=598823) | Romanel-sur-Lausanne | Titre ou dates | Titre : 1893 ; dates : 1892 | 1892 ou 1893 | SB 23/501 couvre 1891 et SB 23/503 1894 : l'une des deux années n'a pas de boîte. | |
+| [SB 115/258](https://davel.vd.ch/detail.aspx?ID=615459) | Romanel-sur-Lausanne | Titre | Décès A et B 1813 | Décès A et B 1913 | Le reste de la boîte et ses dates : 1913. | |
 
 ## À vérifier sur le PDF
 
@@ -37,3 +45,4 @@ Les dates de la fiche ne couvrent pas celles du contenu, ou la pagination du PDF
 | Cote | Lieu | Indice | Signalé |
 |---|---|---|---|
 | SB 23/995 et SB 23/997 | Rougemont | La fiche SB 23/994 renvoie directement à SB 23/996, puis SB 23/996 à SB 23/998. D'après les boîtes voisines, elles couvriraient 1884 et 1887-1888. | |
+| SB 23/500 | Romanel-sur-Lausanne | La fiche SB 23/499 (1890) renvoie directement à SB 23/501 (1891). | |

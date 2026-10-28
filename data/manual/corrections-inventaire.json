@@ -11,5 +11,13 @@
  {"cote": "SB 23/549", "field": "Dates", "published": "1876-1877", "corrected": "1880"},
  {"cote": "SB 23/1666", "field": "Title", "published": "Naissances B 1885\n- Décès B 1885-1886", "corrected": "Naissances B 1895\n- Décès B 1895-1896"},
  {"cote": "B 268/65/31", "field": "Ref. code", "published": "B 268/65/31", "corrected": "SB 268/65/31"},
- {"cote": "SB 23/480", "field": "Title", "published": "Naissances 1890-1882", "corrected": "Naissances 1890-1892"}
+ {"cote": "SB 23/480", "field": "Title", "published": "Naissances 1890-1882", "corrected": "Naissances 1890-1892"},
+ {"cote": "SB 23/195", "field": "Creation date(s)", "published": "1876 - 1880", "corrected": "1882"},
+ {"cote": "SB 23/202", "field": "Title", "published": "Décès 1889-1880", "corrected": "Décès 1889-1890"},
+ {"cote": "SB 23/486", "field": "Dates", "published": "1876-1877", "corrected": "1879"},
+ {"cote": "SB 115/258", "field": "Title", "published": "Décès A et B 1813", "corrected": "Décès A et B 1913"},
+ {"cote": "SB 23/1262", "field": "Title", "published": "Décès B 11907", "corrected": "Décès B 1907"},
+ {"cote": "SB 23/1714", "field": "Title", "published": "Naissances A et 1895-897", "corrected": "Naissances A et B 1895-1897"},
+ {"cote": "SB 23/1714", "field": "Title", "published": "Décès A et 1895-1897", "corrected": "Décès A et B 1895-1897"},
+ {"cote": "SB 23/197", "field": "Title", "published": "(Il manque les naissances 1884)", "corrected": "(Il manque les naissances A)"}
 ]
