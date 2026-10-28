@@ -1,0 +1,143 @@
+[
+ {
+  "slug": "sa-178903",
+  "parent": null,
+  "text": "Ec 118/1-6 Paroisse réformée de Rougemont., 1801-1870 (Série)",
+  "children": [
+   "sa-178904",
+   "sa-178905",
+   "sa-178906",
+   "sa-178907",
+   "sa-178908",
+   "sa-178909"
+  ],
+  "f": {
+   "Ref. code": "Ec 118/1-6",
+   "Title": "Paroisse réformée de Rougemont.",
+   "Dates": "1801-1870",
+   "Creation date(s)": "1801 - 1870",
+   "Level": "Série",
+   "Importance matérielle": "6 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "[annonces de mariage] (Matières\\ Subdivisions\\de forme)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178903",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178904",
+  "parent": "sa-178903",
+  "text": "Ec 118/1 - Mariages 1818-1845., 1818.01.01-1845.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 118/1",
+   "Title": "- Mariages 1818-1845.",
+   "Dates": "1818-1845",
+   "Creation date(s)": "1/1/1818 - 12/31/1845",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178904",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178905",
+  "parent": "sa-178903",
+  "text": "Ec 118/2 - Mariages 1846-1860., 1846.01.01-1860.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 118/2",
+   "Title": "- Mariages 1846-1860.",
+   "Dates": "1846-1860",
+   "Creation date(s)": "1/1/1846 - 12/31/1860",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178905",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178906",
+  "parent": "sa-178903",
+  "text": "Ec 118/3 - Naissances 1801-1823. \\ - Mariages 1861-1870. \\ - Annonces de mariage 1817-1864., 1801.01.01-1870.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 118/3",
+   "Title": "- Naissances 1801-1823.\n- Mariages 1861-1870.\n- Annonces de mariage 1817-1864.",
+   "Dates": "1801-1870",
+   "Creation date(s)": "1/1/1801 - 12/31/1870",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178906",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178907",
+  "parent": "sa-178903",
+  "text": "Ec 118/4 - Naissances 1824-1842., 1824.01.01-1842.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 118/4",
+   "Title": "- Naissances 1824-1842.",
+   "Dates": "1824-1842",
+   "Creation date(s)": "1/1/1824 - 12/31/1842",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178907",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178908",
+  "parent": "sa-178903",
+  "text": "Ec 118/5 - Naissances 1843-1858., 1843.01.01-1858.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 118/5",
+   "Title": "- Naissances 1843-1858.",
+   "Dates": "1843-1858",
+   "Creation date(s)": "1/1/1843 - 12/31/1858",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178908",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178909",
+  "parent": "sa-178903",
+  "text": "Ec 118/6 - Naissances 1858-1870. \\ - Décès 1865-1870., 1858.01.01-1870.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 118/6",
+   "Title": "- Naissances 1858-1870.\n- Décès 1865-1870.",
+   "Dates": "1858-1870",
+   "Creation date(s)": "1/1/1858 - 12/31/1870",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178909",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

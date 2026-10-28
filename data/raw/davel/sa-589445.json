@@ -1,0 +1,366 @@
+[
+ {
+  "slug": "sa-589445",
+  "parent": null,
+  "text": "SB 23/66-83 Ormont-dessous (arrondissement de l'état civil), 1876-1894 (Série)",
+  "children": [
+   "sa-590559",
+   "sa-590671",
+   "sa-590672",
+   "sa-590673",
+   "sa-590674",
+   "sa-590675",
+   "sa-590704",
+   "sa-590676",
+   "sa-590677",
+   "sa-590678",
+   "sa-590679",
+   "sa-590680",
+   "sa-590681",
+   "sa-590682",
+   "sa-590683",
+   "sa-590684",
+   "sa-590685",
+   "sa-590686"
+  ],
+  "f": {
+   "Ref. code": "SB 23/66-83",
+   "Title": "Ormont-dessous (arrondissement de l'état civil)",
+   "Dates": "1876-1894 (dates de constitution des lots qui comprennent des pièces antérieures)",
+   "Creation date(s)": "1876 - 1894",
+   "Level": "Série",
+   "Importance matérielle": "18 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 18 décembre 2000 et rattaché à l'arrondissement d'Aigle dès le 1er janvier 2001.\nAdjonction des arrondissements de\n- Leysin en 1994\n- Ormont-Dessus en 1997",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=589445",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590559",
+  "parent": "sa-589445",
+  "text": "SB 23/66 - Mariages A et B 1876-1877 \\ - Naissances 1876-1877 \\ - Décès 1876-1877 \\ - Pièces diverses relatives à l'état civil 1877: principalement publications de mariage, divorces, rectifications de nom, 1876-1877 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/66",
+   "Title": "- Mariages A et B 1876-1877\n- Naissances 1876-1877\n- Décès 1876-1877\n- Pièces diverses relatives à l'état civil 1877: principalement publications de mariage, divorces, rectifications de nom",
+   "Dates": "1876-1877",
+   "Creation date(s)": "1876 - 1877",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590559",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590671",
+  "parent": "sa-589445",
+  "text": "SB 23/67 - Mariages A et B 1878 \\ - Naissances 1878 \\ - Décès 1878, 1878 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/67",
+   "Title": "- Mariages A et B 1878\n- Naissances 1878\n- Décès 1878",
+   "Dates": "1878",
+   "Creation date(s)": "1878",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590671",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590672",
+  "parent": "sa-589445",
+  "text": "SB 23/68 - Mariages A et B 1879, 1879 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/68",
+   "Title": "- Mariages A et B 1879",
+   "Dates": "1879",
+   "Creation date(s)": "1879",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590672",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590673",
+  "parent": "sa-589445",
+  "text": "SB 23/69 - Naissances 1879 \\ - Décès 1879 \\ - Pièces diverses relatives à l'état civil 1879: principalement publications de mariage, divorces, rectifications de nom, 1879 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/69",
+   "Title": "- Naissances 1879\n- Décès 1879\n- Pièces diverses relatives à l'état civil 1879: principalement publications de mariage, divorces, rectifications de nom",
+   "Dates": "1879",
+   "Creation date(s)": "1879",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590673",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590674",
+  "parent": "sa-589445",
+  "text": "SB 23/70 - Mariages A et B 1880 \\ - Naissances 1880 \\ - Décès 1880 \\ - Pièces diverses relatives à l'état civil 1880: principalement publications de mariage, divorces, rectifications de nom, 1880 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/70",
+   "Title": "- Mariages A et B 1880\n- Naissances 1880\n- Décès 1880\n- Pièces diverses relatives à l'état civil 1880: principalement publications de mariage, divorces, rectifications de nom",
+   "Dates": "1880",
+   "Creation date(s)": "1880",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590674",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590675",
+  "parent": "sa-589445",
+  "text": "SB 23/71 - Mariages A et B 1881 \\ - Naissances 1881 \\ - Décès 1881 \\ - Pièces diverses relatives à l'état civil 1881: principalement publications de mariage, divorces, rectifications de nom, 1881 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/71",
+   "Title": "- Mariages A et B 1881\n- Naissances 1881\n- Décès 1881\n- Pièces diverses relatives à l'état civil 1881: principalement publications de mariage, divorces, rectifications de nom",
+   "Dates": "1881",
+   "Creation date(s)": "1881",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590675",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590676",
+  "parent": "sa-589445",
+  "text": "SB 23/73 - Mariages A et B 1883 \\ - Naissances 1883 \\ - Décès 1883, 1883 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/73",
+   "Title": "- Mariages A et B 1883\n- Naissances 1883\n- Décès 1883",
+   "Dates": "1883",
+   "Creation date(s)": "1883",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590676",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590677",
+  "parent": "sa-589445",
+  "text": "SB 23/74 - Mariages A et B 1884 \\ - Naissances 1884 \\ - Décès 1884, 1884 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/74",
+   "Title": "- Mariages A et B 1884\n- Naissances 1884\n- Décès 1884",
+   "Dates": "1884",
+   "Creation date(s)": "1884",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590677",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590678",
+  "parent": "sa-589445",
+  "text": "SB 23/75 - Mariages A et B 1885 \\ - Naissances 1885 \\ - Décès 1885, 1885 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/75",
+   "Title": "- Mariages A et B 1885\n- Naissances 1885\n- Décès 1885",
+   "Dates": "1885",
+   "Creation date(s)": "1885",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590678",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590679",
+  "parent": "sa-589445",
+  "text": "SB 23/76 - Mariages A et B 1886 \\ - Naissances 1886 \\ - Décès 1886, 1886 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/76",
+   "Title": "- Mariages A et B 1886\n- Naissances 1886\n- Décès 1886",
+   "Dates": "1886",
+   "Creation date(s)": "1886",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590679",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590680",
+  "parent": "sa-589445",
+  "text": "SB 23/77 - Mariages A et B 1887 \\ - Naissances 1887 \\ - Décès 1887, 1887 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/77",
+   "Title": "- Mariages A et B 1887\n- Naissances 1887\n- Décès 1887",
+   "Dates": "1887",
+   "Creation date(s)": "1887",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590680",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590681",
+  "parent": "sa-589445",
+  "text": "SB 23/78 - Mariages A et B 1888 \\ - Naissances 1888 \\ - Décès 1888, 1888 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/78",
+   "Title": "- Mariages A et B 1888\n- Naissances 1888\n- Décès 1888",
+   "Dates": "1888",
+   "Creation date(s)": "1888",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590681",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590682",
+  "parent": "sa-589445",
+  "text": "SB 23/79 - Mariages A et B 1889 \\ - Naissances 1889 \\ - Décès 1889 \\ - Pièces diverses relatives à l'état civil 1889: principalement publications de mariage, divorces, rectifications de nom, 1889 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/79",
+   "Title": "- Mariages A et B 1889\n- Naissances 1889\n- Décès 1889\n- Pièces diverses relatives à l'état civil 1889: principalement publications de mariage, divorces, rectifications de nom",
+   "Dates": "1889",
+   "Creation date(s)": "1889",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590682",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590683",
+  "parent": "sa-589445",
+  "text": "SB 23/80 - Mariages A et B 1890-1891 \\ - Naissances 1890 \\ - Décès 1890, 1890-1891 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/80",
+   "Title": "- Mariages A et B 1890-1891\n- Naissances 1890\n- Décès 1890",
+   "Dates": "1890-1891",
+   "Creation date(s)": "1890 - 1891",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590683",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590684",
+  "parent": "sa-589445",
+  "text": "SB 23/81 - Mariages A et B 1892 \\ - Naissances 1891-1892 \\ - Décès 1891-1892, 1891-1892 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/81",
+   "Title": "- Mariages A et B 1892\n- Naissances 1891-1892\n- Décès 1891-1892",
+   "Dates": "1891-1892",
+   "Creation date(s)": "1891 - 1892",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590684",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590685",
+  "parent": "sa-589445",
+  "text": "SB 23/82 - Mariages B 1893 \\ - Naissances 1893 \\ - Décès 1893, 1893 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/82",
+   "Title": "- Mariages B 1893\n- Naissances 1893\n- Décès 1893",
+   "Dates": "1893",
+   "Creation date(s)": "1893",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590685",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590686",
+  "parent": "sa-589445",
+  "text": "SB 23/83 - Mariages A et B 1894 \\ - Naissances 1894 \\ - Décès 1894, 1894 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/83",
+   "Title": "- Mariages A et B 1894\n- Naissances 1894\n- Décès 1894",
+   "Dates": "1894",
+   "Creation date(s)": "1894",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590686",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-590704",
+  "parent": "sa-589445",
+  "text": "SB 23/72 - Mariages A et B 1882 \\ - Naissances 1882 \\ - Décès 1882 \\ - Pièces diverses relatives à l'état civil 1882: principalement publications de mariage, divorces, rectifications de nom, 1882 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/72",
+   "Title": "- Mariages A et B 1882\n- Naissances 1882\n- Décès 1882\n- Pièces diverses relatives à l'état civil 1882: principalement publications de mariage, divorces, rectifications de nom",
+   "Dates": "1882",
+   "Creation date(s)": "1882",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=590704",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

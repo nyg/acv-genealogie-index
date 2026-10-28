@@ -1,0 +1,43 @@
+[
+ {
+  "slug": "sa-178772",
+  "parent": null,
+  "text": "Ec 96/1-1 Paroisse réformée d'Ormont-Dessous., 1866-1869 (Série)",
+  "children": [
+   "sa-178773"
+  ],
+  "f": {
+   "Ref. code": "Ec 96/1-1",
+   "Title": "Paroisse réformée d'Ormont-Dessous.",
+   "Dates": "1866-1869",
+   "Creation date(s)": "1866 - 1869",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178772",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178773",
+  "parent": "sa-178772",
+  "text": "Ec 96/1 - Mariages 1866-1869. \\ - Annonces de mariage 1868-1869. \\ - Naissances 1868-1869. \\ - Décès 1868., 1866.01.01-1869.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 96/1",
+   "Title": "- Mariages 1866-1869.\n- Annonces de mariage 1868-1869.\n- Naissances 1868-1869.\n- Décès 1868.",
+   "Dates": "1866-1869",
+   "Creation date(s)": "1/1/1866 - 12/31/1869",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178773",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]
