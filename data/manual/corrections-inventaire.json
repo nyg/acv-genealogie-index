@@ -7,5 +7,9 @@
  {"cote": "SB 267/59", "field": "Unités de description associées", "published": "SB 23/1229-1332", "corrected": "SB 23/1229-1232"},
  {"cote": "SB 23/1246", "field": "Dates", "published": "1879-1880", "corrected": "1900"},
  {"cote": "SB 23/1253", "field": "Title", "published": "Décès B 1880", "corrected": "Décès B 1907"},
- {"cote": "SB 267/75/5/2", "field": "Portée et contenu", "published": "ouvert ouventre entre", "corrected": "ouvert entre"}
+ {"cote": "SB 267/75/5/2", "field": "Portée et contenu", "published": "ouvert ouventre entre", "corrected": "ouvert entre"},
+ {"cote": "SB 23/549", "field": "Dates", "published": "1876-1877", "corrected": "1880"},
+ {"cote": "SB 23/1666", "field": "Title", "published": "Naissances B 1885\n- Décès B 1885-1886", "corrected": "Naissances B 1895\n- Décès B 1895-1896"},
+ {"cote": "B 268/65/31", "field": "Ref. code", "published": "B 268/65/31", "corrected": "SB 268/65/31"},
+ {"cote": "SB 23/480", "field": "Title", "published": "Naissances 1890-1882", "corrected": "Naissances 1890-1892"}
 ]
