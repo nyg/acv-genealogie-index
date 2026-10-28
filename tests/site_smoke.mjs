@@ -49,6 +49,7 @@ const cases = [
   ["L'Étivaz", "naissance", "1910", "SB 267/20/1/6"],
   ["Ormont-Dessous", "naissance", "1880", "SB 269/75/1/1"],
   ["Ormont-Dessous", "mariage", "1867", "Ec 96/1"],
+  ["Ormont-Dessous", "deces", "1907", "SB 23/1253"],
   ["Ormont-Dessus", "mariage", "1900", "SB 268/76/2"],
   ["Ormont-Dessus", "deces", "1920", "SB 115/128"],
   ["Rougemont", "deces", "1950", "SB 267/88/3/3"],

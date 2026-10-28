@@ -17,7 +17,8 @@ Work in **batches**: plan → scrape → export → save → check → publish. 
 6. **Check** with `scripts/check.sh` and read every report section:
    - a new inventory wording under "contenu non analysé" → extend `build/scope_parser.py`, with a test in `tests/`;
    - an OCR-damaged locality → add it to `data/manual/communes-paroisses-corrections.json`;
-   - a segment outside its register's dates, or a record whose dates, title or cote contradict each other → add it to `data/manual/erreurs-acv.md`, the list of inventory errors to report to the ACV. SB 267 registers « ouvert entre le … et le … » are not errors: their contents give the opening period, their dates the acts;
+   - a segment outside its register's dates, or a record whose dates, title or cote contradict each other → add it to `data/manual/erreurs-acv.md`, the list of inventory errors to report to the ACV. When the record itself shows the right value, also add a correction to `data/manual/corrections-inventaire.json` (cote, field, published text, corrected text), which the build applies to the raw records; when only the PDF can tell, list it under « À vérifier sur le PDF » without a correction;
+   - a correction under « Corrections sans effet » → the ACV probably fixed its inventory: remove the correction and its line in `erreurs-acv.md`;
    - a batch covering a place the user researches → add a case to `tests/site_smoke.mjs`.
 7. **Look** at `site/preview.html` in the browser pane; `python3 build/preview.py <place-id>…` chooses its places (ids like `paroisse-92`, `arrondissement-73`).
 8. **Publish**: commit and push, which updates the GitHub Pages site from `docs/`.
@@ -40,6 +41,6 @@ Work in **batches**: plan → scrape → export → save → check → publish. 
 - scopeArchiv. The default `nav` mode follows each record's "lower-level entry" and "next entry" links, one request per record, from any davel.vd.ch page. The archive-plan tree (`mode 'tree'`, on `archivplansuche.aspx` only) pages children by 100 and silently misses the rest.
 - Field labels come in English (UI language), values in French.
 - SB 268/N and SB 269/N reuse SB 267's arrondissement numbers; Ec N reuses the Eb/Ed parish numbers.
-- SB 23 and SB 115 split into periods, then arrondissement groups (`SB 23/56-65 Ollon`). The build maps groups to arrondissements through the cote ranges in SB 267's "Unités de description associées", narrowest range first (SB 267/59 lists `SB 23/1229-1332`, a typo for 1232).
+- SB 23 and SB 115 split into periods, then arrondissement groups (`SB 23/56-65 Ollon`). The build maps groups to arrondissements through the cote ranges in SB 267's "Unités de description associées", narrowest range first.
 - Titles containing `FANTOME` are placeholders; `plan.py` skips them.
 - SB 324 splits by district, which the build cannot map to arrondissements yet.

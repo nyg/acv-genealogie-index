@@ -8,6 +8,9 @@ import json
 import sqlite3
 from pathlib import Path
 
+from inventory_corrections import CORRECTIONS as INVENTORY_CORRECTIONS
+from inventory_corrections import unused_corrections
+
 ROOT = Path(__file__).resolve().parent.parent
 DATABASE = ROOT / "data" / "acv.sqlite"
 DAVEL_INDEX = ROOT / "data" / "raw" / "davel" / "_index.json"
@@ -56,13 +59,16 @@ def quality(connection, limit):
     outside = connection.execute("""
         SELECT u.cote, s.label, s.date_start, s.date_end, u.date_start, u.date_end
         FROM segments s JOIN units u ON u.slug = s.unit_slug
-        WHERE u.date_start IS NOT NULL AND s.date_start IS NOT NULL
+        WHERE u.date_start IS NOT NULL AND s.date_start IS NOT NULL AND u.scope_content NOT LIKE 'Registre ouvert entre%'
           AND (CAST(substr(s.date_start, 1, 4) AS INTEGER) < CAST(substr(u.date_start, 1, 4) AS INTEGER) - 1
             OR CAST(substr(s.date_end, 1, 4) AS INTEGER) > CAST(substr(u.date_end, 1, 4) AS INTEGER) + 1)
         ORDER BY u.cote
     """).fetchall()
     section("Segments hors des dates du registre (souvent une coquille de l'inventaire)", outside, limit,
             lambda row: f"{row[0]} : {row[1]} {row[2]} → {row[3]}, registre {row[4]} → {row[5]}")
+
+    section(f"Corrections sans effet, l'inventaire a peut-être été corrigé (retirer de {INVENTORY_CORRECTIONS.relative_to(ROOT)} et de data/manual/erreurs-acv.md)",
+            unused_corrections(), limit, lambda correction: f"{correction['cote']} : {correction['field']} {correction['published']!r}")
 
     corrections = json.loads(CORRECTIONS.read_text(encoding="utf-8"))
     orphans = [entry for entry in json.loads(PARISH_TABLE.read_text(encoding="utf-8"))

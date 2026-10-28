@@ -1,9 +1,9 @@
 """Units and segments from the davel.vd.ch (scopeArchiv) records in data/raw/davel."""
 
-import json
 import re
 from pathlib import Path
 
+from inventory_corrections import read_raw
 from scope_parser import classify, parse_date_range
 
 RAW_DIR = Path(__file__).resolve().parent.parent / "data" / "raw" / "davel"
@@ -96,7 +96,7 @@ def load_scopearchiv(places):
     ranges = related_ranges(places)
     units, segments = [], []
     for path in sorted(RAW_DIR.glob("sa-*.json")):
-        records = json.loads(path.read_text(encoding="utf-8"))
+        records = read_raw(path)
         by_slug = {record["slug"]: record for record in records}
         for record in records:
             fields = record["f"]

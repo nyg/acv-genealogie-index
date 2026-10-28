@@ -7,6 +7,7 @@ import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
 
+from inventory_corrections import read_raw
 from pdf_pages import load_pdf_pages
 from places import arrondissement_history, arrondissement_name, localities_from_note, parish_name, parish_number, split_official_locality
 from scope_parser import normalize, parse_date_range, parse_scope_content
@@ -142,7 +143,7 @@ def add_official_localities(places):
 def add_scopearchiv_series(places):
     ranges = related_ranges(places)
     for path in sorted(SCOPEARCHIV_RAW_DIR.glob("sa-*.json")):
-        root = next(record for record in json.loads(path.read_text(encoding="utf-8")) if record["parent"] is None)
+        root = next(record for record in read_raw(path) if record["parent"] is None)
         cote = root["f"].get("Ref. code", "")
         place_id = place_for(cote, ranges) if fonds_of(cote) in ("SB 268", "SB 269", "Ec") else None
         if place_id in places:
@@ -216,7 +217,7 @@ def load_scraped(places):
     series_by_slug = {series["slug"]: (place, series) for place in places.values() for series in place["series"]}
     units, segments = [], []
     for path in sorted(RAW_DIR.glob("[!_]*.json")):
-        records = json.loads(path.read_text(encoding="utf-8"))
+        records = read_raw(path)
         by_slug = {record["slug"]: record for record in records}
         root = next(record for record in records if record["parent"] is None)
         place, series = series_by_slug[root["slug"]]
