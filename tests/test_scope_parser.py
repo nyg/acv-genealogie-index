@@ -60,6 +60,63 @@ def test_pages_written_before_the_dates_are_read():
     ]
 
 
+def test_hyphenated_words_stay_in_the_label():
+    # Given
+    scope = "Mariages tête-bêche (1726 décembre 31 - 1781 avril 27), pp. 201-242;"
+
+    # When
+    segments = parse_scope_content(scope)
+
+    # Then
+    assert [(s.label, s.kinds, s.pages, s.head_to_tail) for s in segments] == [
+        ("Mariages tête-bêche", ["mariage"], "pp. 201-242", True),
+    ]
+
+
+def test_part_listing_replaces_the_summary_it_repeats():
+    # Given
+    scope = "\n".join([
+        "Baptêmes (1643 juillet 1 - 1713 avril 23), pp. 1-53; pp. 66-100 et 105-314;",
+        "Mariages (1643 juillet 1 - 1659 octobre 7), pp.tête-bêche 0-14;",
+        "Partie1",
+        "Pages 1 à 53: Baptêmes (1643 juillet 1 - 1659 octobre 26).",
+        "Pages 66 à 314: Baptêmes (1659 novembre 20 - 1713 avril 23).",
+        "Partie 2",
+        "Pages 0 à 14, tête-bêche: Mariages (1643 juillet 1 - 1659 octobre 7).",
+    ])
+
+    # When
+    segments = parse_scope_content(scope)
+
+    # Then
+    assert [(s.label, s.start, s.end, s.pages, s.head_to_tail) for s in segments] == [
+        ("Baptêmes", "1643-07-01", "1659-10-26", "Pages 1 à 53", False),
+        ("Baptêmes", "1659-11-20", "1713-04-23", "Pages 66 à 314", False),
+        ("Mariages", "1643-07-01", "1659-10-07", "Pages 0 à 14, tête-bêche", True),
+    ]
+
+
+def test_part_listing_keeps_the_summary_lines_it_does_not_cover():
+    # Given
+    scope = "\n".join([
+        "Décès (1798 janvier 17 - 1821 juin 30), p. 99 et pp.tête-bêche 101-171.",
+        "Partie 1:",
+        "Pages 0-41",
+        "Partie 2:",
+        "Page 98: copie de la demande de la municipalité;",
+        "Page 99: registre mortuaire (1816-1822).",
+    ])
+
+    # When
+    segments = parse_scope_content(scope)
+
+    # Then
+    assert [(s.label, s.start, s.end, s.pages, s.section) for s in segments] == [
+        ("Décès", "1798-01-17", "1821-06-30", "p. 99 et pp.tête-bêche 101-171", ""),
+        ("registre mortuaire", "1816-01-01", "1822-12-31", "Page 99", ""),
+    ]
+
+
 def test_section_headers_apply_to_following_lines():
     # Given
     scope = "Paroisse réformée de Cheseaux:\nBaptêmes (1575 février 13 - 1614 janvier 9), pp. 0-58;\nSullens annexe de la paroisse réformée de Cheseaux:\nMariages (1574 mai 4 - 1614 mars 6), pp. 271-301;"

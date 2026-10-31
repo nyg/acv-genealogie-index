@@ -213,6 +213,11 @@ def civil_register_segment(unit, series_title):
             "dates": unit["scope"] if start else unit["dates"], "pages": "", "tb": False, "foreign": False, "section": ""}
 
 
+def is_register(record):
+    fields = record["f"]
+    return fields.get("Niveau de description") not in CONTAINER_LEVELS and "FANTOME" not in fields.get("Cote", "")
+
+
 def load_scraped(places):
     series_by_slug = {series["slug"]: (place, series) for place in places.values() for series in place["series"]}
     units, segments = [], []
@@ -229,7 +234,7 @@ def load_scraped(places):
             _add_locality(place, locality["name"], locality["qualifier"], "note de l'inventaire", int(merged.group(1)) if merged else None)
         fonds = fonds_key(root["slug"])
         for record in records:
-            if record is root or record["f"].get("Niveau de description") in CONTAINER_LEVELS:
+            if record is root or not is_register(record):
                 continue
             unit = make_unit(record, place["id"], fonds)
             units.append(unit)

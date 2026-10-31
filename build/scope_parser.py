@@ -15,12 +15,16 @@ DATE_ATOM = re.compile(
 )
 
 SEGMENT = re.compile(
-    r"(?P<label>[A-Za-zÀ-ÿ'’][A-Za-zÀ-ÿ'’ ]*?)\s*"
+    r"(?P<label>[A-Za-zÀ-ÿ'’][A-Za-zÀ-ÿ'’ -]*?)\s*"
     r"(?P<qualifiers>(?:\([^()\d]*\)\s*)*)"
     r"\((?P<dates>[^()]*\d{4}[^()]*)\)"
 )
 
 PAGES_BEFORE_DATES = re.compile(r"^(?P<label>[^:()]+):\s*(?P<pages>pages?\s[^()]*?)\s*(?P<dates>\([^()]*\d{4}[^()]*\))", re.IGNORECASE)
+
+PART_HEADING = re.compile(r"^Partie\s*\d+\s*:?$", re.IGNORECASE)
+
+PAGES_BEFORE_LABEL = re.compile(r"^(?P<pages>pages?\s[^:]*):\s*(?P<rest>.*?)[;.]?$", re.IGNORECASE)
 
 ANNOUNCEMENT_PHRASE = re.compile(r"(annonces?|promesses?|publications?) de mariages?( celebres ailleurs)?")
 
@@ -125,15 +129,29 @@ def _segments_in_line(line, section):
     return segments
 
 
+def _repeated_in_parts(segment, part_segments):
+    same_kind = [part for part in part_segments if part.kinds == segment.kinds]
+    return bool(same_kind) and (
+        min(part.start[:4] for part in same_kind) <= segment.start[:4] and max(part.end[:4] for part in same_kind) >= segment.end[:4]
+    )
+
+
 def parse_scope_content(text):
-    segments = []
+    segments, part_segments = [], []
     section = ""
+    in_parts = False
     for raw_line in (text or "").splitlines():
         line = raw_line.strip()
         if not line:
             continue
+        if PART_HEADING.match(line):
+            in_parts = True
+            continue
         if line.endswith(":") and not SEGMENT.search(line):
             section = line.rstrip(" :")
             continue
-        segments.extend(_segments_in_line(line, section))
-    return segments
+        if in_parts:
+            part_segments.extend(_segments_in_line(PAGES_BEFORE_LABEL.sub(r"\g<rest>, \g<pages>", line), section))
+        else:
+            segments.extend(_segments_in_line(line, section))
+    return [segment for segment in segments if not _repeated_in_parts(segment, part_segments)] + part_segments
