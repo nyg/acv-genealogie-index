@@ -1,0 +1,151 @@
+[
+ {
+  "slug": "eb-87-1-7",
+  "parent": null,
+  "children": [
+   "eb-87-1",
+   "eb-87-2",
+   "eb-87-3",
+   "eb-87-4",
+   "eb-87-5",
+   "eb-87-6",
+   "eb-87-7"
+  ],
+  "f": {
+   "Cote": "Eb 87/1-7",
+   "Titre": "Registres de la paroisse réformée de Morrens.",
+   "Date(s)": "1643-07-09 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Morrens :\nParoisse médiévale unie à Montherond pour former une paroisse réformée le 19 décembre 1538.\nRegistres dès 1643; pour 1591, voir aussi Gryon (Eb 68/1).\nComprend: Bretigny-sur-Morrens, Cugy, Froideville.\nAnnexe: Montherond (dès 1538); Cheseaux (1846-1849)."
+  }
+ },
+ {
+  "slug": "eb-87-1",
+  "parent": "eb-87-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 87/1",
+   "Titre": "Paroisse réformée de Morrens",
+   "Date(s)": "1643-07-01 - 1713-04-23 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume Eb 87/1 en 2 parties (relié avec Eb 87/2)\nFormat LxH(cm): 14,9 x 18,9 x 3,9",
+   "Portée et contenu": "Baptêmes (1643 juillet 1 - 1713 avril 23), pp. 1-53; pp. 66-100 et 105-314;\nMariages (1643 juillet 1 - 1659 octobre 7), pp.tête-bêche 0-14;\n*- Mariages (1663 - 1668), pp.tête-bêche 101-104.\nPartie1\nPages 1 à 53: Baptêmes (1643 juillet 1 - 1659 octobre 26).\nPages 66 à 314: Baptêmes (1659 novembre 20 - 1713 avril 23).\nPartie 2\nPages 0 à 14, tête-bêche: Mariages (1643 juillet 1 - 1659 octobre 7).\nPages 101 à 104, tête-bêche : Mariages (1663 - 1668).",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.723",
+   "Nom du fichier": "CH-ACV_RN-EB-87-1.pdf",
+   "Taille du fichier": "140.5 MiB"
+  },
+  "pdf": "e/8/b/e8b7c8f95d178497ecd6d139dd5fddf9b69281721bd44b14532d1d1e523257ee/CH-ACV_RN-EB-87-1.pdf"
+ },
+ {
+  "slug": "eb-87-2",
+  "parent": "eb-87-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 87/2",
+   "Titre": "Paroisse réformée de Morrens",
+   "Date(s)": "1659-10-27 - 1713-01-28 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "Eb 87/2 en 4 parties (relié avec Eb 87/1)\nFormat LxH(cm): 14,9 x 18,9 x 3,9",
+   "Portée et contenu": "Mariages (1659 octobre 27 - 1694 janvier 11), pp.tête-bêche 1-5; p. 6; pp.tête-bêche 7-16;\nMandat baillival (1684 juin 4), pp. 17-18;\nMariages (1706 - 1713 janvier 28), pp. 325-341;\nCatéchumènes (1706-1709), pp. 319-321;\nCatéchumènes (1710-1713), pp.tête-bêche 315-318;\nBaptêmes (1716 septembre 20), p. 322.\nPartie 1\nPages tête-bêche 1 à 5; page 6; pages tête-bêche 7 à 16 : Mariages (1659 octobre 27 - 1694 janvier 11).\nPages 17 à 18: Mandat baillival.\nPartie 2\nPages 325 à 341: Mariages (1706 septembre 30 - 1713 janvier 28).\nPartie 3\nPages 319 à 321: Catéchumènes (1706 - 1709);\nPages 315 à 318, tête-bêche: Catéchumènes (1710 - 1713).\nPartie 4\nPage 322: un baptême (1716 septembre 20).",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.723",
+   "Nom du fichier": "CH-ACV_RN-EB-87-2.pdf",
+   "Taille du fichier": "18.6 MiB"
+  },
+  "pdf": "6/0/c/60ccd14d55b00c6f34e11e4e13bd85df5a275ab662fd2f39ad62d6653aef5bda/CH-ACV_RN-EB-87-2.pdf"
+ },
+ {
+  "slug": "eb-87-3",
+  "parent": "eb-87-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 87/3",
+   "Titre": "Paroisse réformée de Morrens",
+   "Date(s)": "1710-06-01 - 1786-03-22 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17,4 x 24,2 x 4,0",
+   "Portée et contenu": "Baptêmes (1710 juin 1 - 1786 mars 22), pp. 0-394;\n*- Interfolio entre pp. 2 et 3;\nCatéchumènes (1720 - 1785), pp.tête-bêche 401-454.\nPartie 1\nPages 1 à 4: approvisionnement en bois et incendies (1745-1760);\nPages 5 à 394: Baptêmes (1710 juin 1 - 1786 mars 22).\nPartie 2\nPages 401 à 402, tête-bêche: approvisionnement en bois (1747-1759);\nPages 403 à 454, tête-bêche: Catéchumènes (1720 - 1785).",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.723",
+   "Nom du fichier": "CH-ACV_RN-EB-87-3.pdf",
+   "Taille du fichier": "294.8 MiB"
+  },
+  "pdf": "3/c/6/3c62692cb9a13dfbdb064cab1c6739d22388b2012717f255051f7462c7e95a57/CH-ACV_RN-EB-87-3.pdf"
+ },
+ {
+  "slug": "eb-87-4",
+  "parent": "eb-87-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 87/4",
+   "Titre": "Paroisse réformée de Morrens",
+   "Date(s)": "1724-07-17 - 1797-12-25 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 18,6 x 24,2 x 2,9",
+   "Portée et contenu": "Mariages (1724 juillet 17 - 1796 décembre 30), pp. 201-288;\nDécès (1728 juillet 4 - 1797 décembre 25), pp.tête-bêche 0-105.\nPartie 1\nPage de garde: procédure entre Morrens et Lausanne (1757);\nPages 201 à 288: Mariages (1724 juillet 17 - 1796 décembre 30).\nPartie 2\nPages de garde, tête-bêche: procédure entre Morrens et Lausanne (1756-1771);\nPage de garde, tête-bêche: Mariages (1727 février 22 - 1780 décembre 5);\nPages 1 à 105, tête-bêche: Décès (1728 juillet 4 - 1797 décembre 25).",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.724",
+   "Nom du fichier": "CH-ACV_RN-EB-87-4.pdf",
+   "Taille du fichier": "130.4 MiB"
+  },
+  "pdf": "0/f/b/0fb18e2ae50632b2185a8a72cfc5d7a14f2cb41acf8b5b574a5ff3c0b875ab48/CH-ACV_RN-EB-87-4.pdf"
+ },
+ {
+  "slug": "eb-87-5",
+  "parent": "eb-87-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 87/5",
+   "Titre": "Paroisse réformée de Morrens",
+   "Date(s)": "1538-09-17 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 22,2 x 34,4 x 4,8",
+   "Portée et contenu": "Baptêmes (1786 avril 9 - 1821 juin 20), pp. 1-276;\n*- Répertoire incorporé des baptêmes Eb 87/5, pp. 279-306;\nCatéchumènes (1786 - 1875), pp.tête-bêche 201-361.\nPartie 1\nPages 1 à 270: Baptêmes (1786 avril 9 - 1821 juin 20);\nPages 270 à 272: note sur la famille Wulschleger (1821 juin 30);\nPages 274 à 276: liste des pasteurs (1538 septembre 17 - 1871 juillet 23);\nPages 279 à 306: répertoire incorporé des baptêmes (1786 - 1821).\nPartie 2\nPages 201 à 361, tête-bêche: Catéchumènes (1786 - 1875).",
+   "Instruments de recherche": "Répertoire incorporé des baptêmes Eb 87/5 (microfilm: RMS 1/128/724, numérique: RN-EB-87-5), pages manuscrites, non datées",
+   "Note": "Série de pages blanches, de la page 310 jusqu'à la partie des catéchumènes.",
+   "Cote de gestion": "RMS 1/128.724",
+   "Nom du fichier": "CH-ACV_RN-EB-87-5.pdf",
+   "Taille du fichier": "516.5 MiB"
+  },
+  "pdf": "2/4/8/2485b642d5873aee24afb08af41872da9b5de59d0182ffcd881881d06a5dcf86/CH-ACV_RN-EB-87-5.pdf"
+ },
+ {
+  "slug": "eb-87-6",
+  "parent": "eb-87-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 87/6",
+   "Titre": "Paroisse réformée de Morrens",
+   "Date(s)": "1797-02-24 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 21,6 x 35,1 x 5,5",
+   "Portée et contenu": "Mariages (1797 février 24 - 1821 juin 30), pp. 0-41;\n*- Copie de la demande de la municipalité concernant la bénédiction des mariages (1819 décembre 8);\nDécès (1798 janvier 17 - 1821 juin 30), p. 99 et pp.tête-bêche 101-171.\nPartie 1:\nPages 0-41\nPartie 2:\nPages 98-99 et pages tête-bêche 101 à 171;\nPage 98: copie de la demande de la municipalité concernant la bénédiction des mariages;\nPage 99: registre mortuaire (1816-1822).",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série de pages blanches, de la page 42 jusqu'à la partie tête-bêche des décès.",
+   "Cote de gestion": "RMS 1/128.724",
+   "Nom du fichier": "CH-ACV_RN-EB-87-6.pdf",
+   "Taille du fichier": "109 MiB"
+  },
+  "pdf": "c/f/5/cf5dfb055da053c74876b068cc36ec38bd876494946ccc5c4ee70d15205de8a4/CH-ACV_RN-EB-87-6.pdf"
+ },
+ {
+  "slug": "eb-87-7",
+  "parent": "eb-87-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 87/7",
+   "Titre": "Paroisse réformée de Morrens",
+   "Date(s)": "1749-10-24 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 22,0 x 34, 6 x 6,5",
+   "Portée et contenu": "Annonces de mariages (1781 juillet 3 - 1821 juin 30), pp. 1-155;\nMandats, ordonnances (1749 octobre 24 - 1790 décembre 4), pp. 198-199 et pp.tête-bêche 201-225.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série de pages blanches, de la page 156 jusqu'à la 2e partie.",
+   "Cote de gestion": "RMS 1/128.724",
+   "Nom du fichier": "CH-ACV_RN-EB-87-7.pdf",
+   "Taille du fichier": "177.5 MiB"
+  },
+  "pdf": "8/4/c/84cd3c426a785e25f230c2909f47264902bccb8aaf47b53bdf5128c0a9af087c/CH-ACV_RN-EB-87-7.pdf"
+ }
+]

@@ -19,5 +19,8 @@
  {"cote": "SB 23/1262", "field": "Title", "published": "Décès B 11907", "corrected": "Décès B 1907"},
  {"cote": "SB 23/1714", "field": "Title", "published": "Naissances A et 1895-897", "corrected": "Naissances A et B 1895-1897"},
  {"cote": "SB 23/1714", "field": "Title", "published": "Décès A et 1895-1897", "corrected": "Décès A et B 1895-1897"},
- {"cote": "SB 23/197", "field": "Title", "published": "(Il manque les naissances 1884)", "corrected": "(Il manque les naissances A)"}
+ {"cote": "SB 23/197", "field": "Title", "published": "(Il manque les naissances 1884)", "corrected": "(Il manque les naissances A)"},
+ {"cote": "Eb 139/2", "field": "Portée et contenu", "published": "1921 juin 30", "corrected": "1821 juin 30"},
+ {"cote": "Ec 80/3", "field": "Dates", "published": "1872-1875", "corrected": "1748-1875"},
+ {"cote": "Ec 87/2", "field": "Title", "published": ". - - Annonces", "corrected": ".\n- Annonces"}
 ]

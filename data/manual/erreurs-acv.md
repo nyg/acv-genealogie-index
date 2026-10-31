@@ -27,6 +27,9 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [SB 23/486](https://davel.vd.ch/detail.aspx?ID=598671) | Romanel-sur-Lausanne | Dates | 1876-1877 | 1879 | Titre : 1879 ; SB 23/485 couvre 1878 et SB 23/487 1879-1880. | |
 | [SB 23/502](https://davel.vd.ch/detail.aspx?ID=598823) | Romanel-sur-Lausanne | Titre ou dates | Titre : 1893 ; dates : 1892 | 1892 ou 1893 | SB 23/501 couvre 1891 et SB 23/503 1894 : l'une des deux années n'a pas de boîte. | |
 | [SB 115/258](https://davel.vd.ch/detail.aspx?ID=615459) | Romanel-sur-Lausanne | Titre | Décès A et B 1813 | Décès A et B 1913 | Le reste de la boîte et ses dates : 1913. | |
+| [Eb 139/2](https://davel-vd.ch/eb-139-2) | Vufflens-la-Ville | Portée et contenu | Mariages (1819 février 12 - 1921 juin 30) | Mariages (1819 février 12 - 1821 juin 30) | Dates de la fiche et de la série : jusqu'au 30 juin 1821. | |
+| [Ec 80/3](https://davel.vd.ch/detail.aspx?ID=178627) | Le Mont-sur-Lausanne | Dates | 1872-1875 | 1748-1875 | Le titre liste aussi Annonces de mariage 1832-1867 et Naissances 1748-1875 ; ces dates ne reprennent que la première ligne. | |
+| [Ec 87/2](https://davel.vd.ch/detail.aspx?ID=178689) | Morrens | Titre | Mariages 1842-1869. - - Annonces de mariage 1812-1869. | Mariages 1842-1869. ; Annonces de mariage 1812-1869. | Tiret doublé à la place du retour à la ligne des autres fiches Ec. | |
 
 ## À vérifier sur le PDF
 
@@ -37,8 +40,13 @@ Les dates de la fiche ne couvrent pas celles du contenu, ou la pagination du PDF
 | [Eb 15/3](https://davel-vd.ch/eb-15-3) | Bex | Date(s) | 1695-03-17 - 1721-08-10 | Portée et contenu : Décès (1701-1760), pages I-II. | |
 | [Eb 15/7](https://davel-vd.ch/eb-15-7) | Bex | Portée et contenu | Décès (1701 septembre 17 - 1821 juin 30) | Date(s) : 1768-12-31 - 1821-06-30 ; les décès de 1701-1760 sont dans Eb 15/3. | |
 | [Eb 23/6](https://davel-vd.ch/eb-23-6) | Château-d'Oex | Portée et contenu | Baptêmes, pp. VI 24-VI 129 | La première page numérotée du PDF est « VI 25 ». | |
+| [Eb 80/5](https://davel-vd.ch/eb-80-5) | Le Mont-sur-Lausanne | Date(s) | 1765-01-01 - 1828-12-31 | Portée et contenu : Annonces de mariages (1760 mars 9 - 1794 janvier 11). | |
+| [Eb 87/2](https://davel-vd.ch/eb-87-2) | Morrens | Date(s) | 1659-10-27 - 1713-01-28 | Portée et contenu : un baptême (1716 septembre 20), p. 322. | |
 | [Eb 95/4](https://davel-vd.ch/eb-95-4) | Ormont-Dessus | Date(s) | 1749-01-01 - 1790-12-01 | Portée et contenu : Baptêmes forains (1752 - 1805). | |
+| [Eb 105/7](https://davel-vd.ch/eb-105-7) | Penthaz | Date(s) | 1739-03-12 - 1864-12-31 | Portée et contenu : Décès (1729 mars 12 - 1821 juin 30). | |
 | [Ed 68 bis/1](https://davel-vd.ch/ed-68-bis-1) | Huémoz | Date(s) | 1824-10-01 - 1863-11-15 | Portée et contenu : Baptêmes de l'Église évangélique réformée (1821 juillet 1 - 1863 novembre 15). | |
+| [Ed 110/3](https://davel-vd.ch/ed-110-3) | Prilly | Date(s) | 1821-07-01 - 1832-12-28 | Portée et contenu : Mariages (1821 juillet 1 - 1832 décembre 31). | |
+| [Ed 110/9](https://davel-vd.ch/ed-110-9) | Prilly | Portée et contenu | Décès (1821 juillet 1er - 1875 décembre 12) | Date(s) : 1821-07-01 - 1875-12-31. | |
 
 ## Entrées absentes de davel.vd.ch
 

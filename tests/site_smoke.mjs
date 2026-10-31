@@ -70,6 +70,17 @@ const cases = [
   ["Prilly", "naissance", "1960", "SB 267/86/1/19"],
   ["Sullens", "deces", "1890", "SB 23/202"],
   ["Bournens", "deces", "1920", "SB 269/96/3/3"],
+  ["Bournens", "naissance", "1840", "Ed 105/1"],
+  ["Bournens", "deces", "1860", "Ed 139/4"],
+  ["Boussens", "mariage", "1840", "Ed 105/3"],
+  ["Sullens", "naissance", "1860", "Ed 139/1"],
+  ["Romanel-sur-Lausanne", "naissance", "1790", "Eb 80/2"],
+  ["Romanel-sur-Lausanne", "mariage", "1847", "Ed 110/5"],
+  ["Cheseaux-sur-Lausanne", "deces", "1847", "Ed 87/5"],
+  ["Le Mont-sur-Lausanne", "mariage", "1750", "Eb 80/1"],
+  ["Le Mont-sur-Lausanne", "naissance", "1800", "Ec 80/3"],
+  ["Morrens", "mariage", "1850", "Ec 87/2"],
+  ["Vufflens-la-Ville", "mariage", "1820", "Eb 139/2"],
 ];
 let failures = 0;
 for (const [place, kind, date, expected] of cases) {
@@ -126,6 +137,10 @@ delete documentElement.dataset.acvApercu;
 const viewerLink = /href="https:\/\/davel-vd\.ch\/eb-92-4#apercu=&amp;page=382&amp;pdf=[^"]*CH-ACV_RN-EB-92-4\.pdf&amp;titre=Eb\+92%2F4"[^>]*>PDF p\. 382–441<\/a>/.test(viewerAnswers);
 failures += viewerLink ? 0 : 1;
 console.log(`${viewerLink ? "ok  " : "FAIL"} Ollon / deces / 1760, aperçu installé → le lien PDF p. 382 ouvre l'aperçu sur la fiche d'Eb 92/4`);
+
+const placeholderHidden = !search("Prilly", "mariage", "1850").cotes.some(cote => cote.includes("FANTOME"));
+failures += placeholderHidden ? 0 : 1;
+console.log(`${placeholderHidden ? "ok  " : "FAIL"} Prilly / mariage / 1850 → pas de fiche FANTOME parmi les registres`);
 
 const coveragePanel = elements.get("coverage-panel").innerHTML;
 const covered = coveragePanel.includes(`data-place="paroisse-15">Bex</button>`) && /Pages du PDF<\/strong> : pour [^(]*Ollon \(\d+ registres\)/.test(coveragePanel);

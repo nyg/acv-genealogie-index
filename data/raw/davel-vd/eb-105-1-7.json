@@ -1,0 +1,151 @@
+[
+ {
+  "slug": "eb-105-1-7",
+  "parent": null,
+  "children": [
+   "eb-105-1",
+   "eb-105-2",
+   "eb-105-3",
+   "eb-105-4",
+   "eb-105-5",
+   "eb-105-6",
+   "eb-105-7"
+  ],
+  "f": {
+   "Cote": "Eb 105/1-7",
+   "Titre": "Registres de la paroisse réformée de Penthaz.",
+   "Date(s)": "1656-05-04 - 1864-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Penthaz :\nParoisse médiévale, devenue en fait annexe de Daillens en 1846.\nRegistres de 1656 à 1875."
+  }
+ },
+ {
+  "slug": "eb-105-1",
+  "parent": "eb-105-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 105/1",
+   "Titre": "Paroisse réformée de Penthaz",
+   "Date(s)": "1656-05-04 - 1678-01-13 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre Eb 105/1 en 2 parties (relié avec Eb 105/2, Eb 105/3 et Eb 105/4)\nFormat LxH(cm): 9,9 x 27 x",
+   "Portée et contenu": "Baptêmes (1656 mai 4 - 1678 janvier 13), pp. 0-55;\nMariages (tête-bêche) (1656 juillet 17 - 1678 janvier 8), pp.tête-bêche 99-122.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.761",
+   "Nom du fichier": "CH-ACV_RN-EB-105-1.pdf",
+   "Taille du fichier": "37.7 MiB"
+  },
+  "pdf": "3/8/3/383ea94909dc703c57be9ab7ae38a9070344bba1e320716189cc98480db10b1f/CH-ACV_RN-EB-105-1.pdf"
+ },
+ {
+  "slug": "eb-105-2",
+  "parent": "eb-105-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 105/2",
+   "Titre": "Paroisse réformée de Penthaz",
+   "Date(s)": "1678-01-24 - 1696-10-04 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "Eb 105/2 en 2 parties (relié avec Eb 105/1, Eb 105/3 et Eb 105/4)\nFormat LxH(cm): 9,9 x 27",
+   "Portée et contenu": "Baptêmes (1678 février 24 - 1696 octobre 4), pp. 0-62;\nMariages (tête-bêche) (1678 janvier 24 - 1696 juillet 26), pp.tête-bêche 99-114.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.761",
+   "Nom du fichier": "CH-ACV_RN-EB-105-2.pdf",
+   "Taille du fichier": "35.8 MiB"
+  },
+  "pdf": "d/7/1/d71777166d3b3a4d0a9a220e4b66ea2e65d2078b889ee831f3847a7a375076db/CH-ACV_RN-EB-105-2.pdf"
+ },
+ {
+  "slug": "eb-105-3",
+  "parent": "eb-105-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 105/3",
+   "Titre": "Paroisse réformée de Penthaz",
+   "Date(s)": "1696-10-11 - 1710-12-19 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "Eb 105/3 en 2 parties (relié avec Eb 105/1, Eb 105/2 et Eb 105/4)\nFormat LxH(cm): 9,9 x 27",
+   "Portée et contenu": "Baptêmes (1696 octobre 11 - 1710 décembre 19), pp. 0-64;\nMariages (tête-bêche) (1696 novembre 16 - 1710 mai 6), pp.tête-bêche 97-109.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.761",
+   "Nom du fichier": "CH-ACV_RN-EB-105-3.pdf",
+   "Taille du fichier": "36.5 MiB"
+  },
+  "pdf": "d/9/4/d94215f06d195257b8d285661518379857e753bc2107f8aa341df6c39c5966cf/CH-ACV_RN-EB-105-3.pdf"
+ },
+ {
+  "slug": "eb-105-4",
+  "parent": "eb-105-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 105/4",
+   "Titre": "Paroisse réformée de Penthaz",
+   "Date(s)": "1711-01-01 - 1736-12-12 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "Eb 105/4 en 2 parties (relié avec Eb 105/1, Eb 105/2 et Eb 105/3)\nFormat LxH(cm): 9,9 x 27",
+   "Portée et contenu": "Baptêmes (1711 janvier 1 - 1736 décembre 12), pp. 0-36;\nMariages (tête-bêche) (1711 janvier 6 - 1736 octobre 11), pp.tête-bêche 99-116",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.761",
+   "Nom du fichier": "CH-ACV_RN-EB-105-4.pdf",
+   "Taille du fichier": "26.9 MiB"
+  },
+  "pdf": "9/6/9/96985711cf18829ef991ac7c3fad23f5b7893bfc68d3c30c24cfe9aa1eff8c2b/CH-ACV_RN-EB-105-4.pdf"
+ },
+ {
+  "slug": "eb-105-5",
+  "parent": "eb-105-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 105/5",
+   "Titre": "Paroisse réformée de Penthaz",
+   "Date(s)": "1810-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 18,5 x 23,5",
+   "Portée et contenu": "Annonces de mariages (1810 - 1821 juin 30), pp. 1-24;\nCommentaires, pp.tête-bêche 26-28 et page 29;\n*- Interfolio p. 26.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série de pages blanches entre les pages 24 et 29.",
+   "Cote de gestion": "RMS 1/128.761",
+   "Nom du fichier": "CH-ACV_RN-EB-105-5.pdf",
+   "Taille du fichier": "22 MiB"
+  },
+  "pdf": "3/1/e/31e85964b2874e4466034ecee5a77767e1f3319c20beb1ea97b079b9495e9adf/CH-ACV_RN-EB-105-5.pdf"
+ },
+ {
+  "slug": "eb-105-6",
+  "parent": "eb-105-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 105/6",
+   "Titre": "Paroisse réformée de Penthaz",
+   "Date(s)": "1737-01-27 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17,4 x 23",
+   "Portée et contenu": "Baptêmes (1737 janvier 27 - 1821 juin 30), pp. 0-162;\nMariages (tête-bêche) (1737 octobre 12 - 1821 juin 30), pp.tête-bêche 0-55;\n*- Lettre au ministre de Penthaz adressée par \"Louis De Tavel Baillif de Morges\", du 12 mars 1780, p. 0.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série pages blanches, de la page 163 à la partie des mariages.",
+   "Cote de gestion": "RMS 1/128.761",
+   "Nom du fichier": "CH-ACV_RN-EB-105-6.pdf",
+   "Taille du fichier": "148.3 MiB"
+  },
+  "pdf": "0/9/2/092fb3103f678ea35636ad688c09cf1e6d13816371c6b5efa15ded996fd3caed/CH-ACV_RN-EB-105-6.pdf"
+ },
+ {
+  "slug": "eb-105-7",
+  "parent": "eb-105-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 105/7",
+   "Titre": "Paroisse réformée de Penthaz",
+   "Date(s)": "1739-03-12 - 1864-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 21,5 x 32,7",
+   "Portée et contenu": "Décès (1729 mars 12 - 1821 juin 30), pp. 0-38;\nCatéchumènes (1804 - 1864), pp.tête-bêche 0-110;\n*- Notices sur les aménagements à l'église (1758 - 1809) et transcription de règlements édictés par leur LL.EE. ou leurs représentants (1766 - 1792) dans les premières pages (pp. 0-9)",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série de pages blanches entre la partie des décès et la partie des catéchumènes, tête-bêche.",
+   "Cote de gestion": "RMS 1/128.761",
+   "Nom du fichier": "CH-ACV_RN-EB-105-7.pdf",
+   "Taille du fichier": "149.1 MiB"
+  },
+  "pdf": "3/7/b/37b51b7f891b6101e90ca7412f4d85ce00d9a2a2aaeb47391f7f390003589d34/CH-ACV_RN-EB-105-7.pdf"
+ }
+]

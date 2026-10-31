@@ -1,0 +1,73 @@
+[
+ {
+  "slug": "eb-139-1-3",
+  "parent": null,
+  "children": [
+   "eb-139-1",
+   "eb-139-2",
+   "eb-139-3"
+  ],
+  "f": {
+   "Cote": "Eb 139/1-3",
+   "Titre": "Registres de la paroisse réformée de Vufflens-la-Ville.",
+   "Date(s)": "1711-08-02 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Vufflens-la-Ville :\nAnnexe de Penthaz érigée en paroisse en 1711, jointe à Crissier 1846-1852.\nRegistres dès 1711; pour les années antérieures à cette date, voir Penthaz (Eb 105/1 à 3).\nComprend : Bournens et Boussens dès 1846.\nAnnexes : Mex dès 1711 ; Sullens dès 1852."
+  }
+ },
+ {
+  "slug": "eb-139-1",
+  "parent": "eb-139-1-3",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 139/1",
+   "Titre": "Paroisse réformée de Vufflens-la-Ville",
+   "Date(s)": "1711-08-02 - 1818-04-24 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 16,6 x 22,9 x 3,3",
+   "Portée et contenu": "Baptêmes (1711 août 2 - 1798 octobre 20) pages 1-255;\nMariages (1729 juin 12 - 1818 avril 24) pages 1-68 en tête-bêche.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Unités de description associées": "Pour les années antérieures à 1711, voir les registres de la paroisse réformée de Penthaz, Eb 105/1-3",
+   "Cote de gestion": "RMS 1/128.814",
+   "Nom du fichier": "CH-ACV_RN-EB-139-1.pdf",
+   "Taille du fichier": "180.5 MiB"
+  },
+  "pdf": "5/1/3/513742ec28bd9fc4d97652fe641c3a2f104ef765ccb24ff64a196e5b20dc90ce/CH-ACV_RN-EB-139-1.pdf"
+ },
+ {
+  "slug": "eb-139-2",
+  "parent": "eb-139-1-3",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 139/2",
+   "Titre": "Paroisse réformée de Vufflens-la-Ville",
+   "Date(s)": "1799-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 24,2 x 34,5",
+   "Portée et contenu": "Mariages (1819 février 12 - 1921 juin 30) pages 1-4;\nBaptêmes (1799 janvier 1 - 1821 juin 30) pages 1-65.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.814",
+   "Nom du fichier": "CH-ACV_RN-EB-139-2.pdf",
+   "Taille du fichier": "83.2 MiB"
+  },
+  "pdf": "0/f/8/0f89a8c98d5203ac4d64c1bf2bb7f560bbd22c22d5cd4fcf8719d20b94704558/CH-ACV_RN-EB-139-2.pdf"
+ },
+ {
+  "slug": "eb-139-3",
+  "parent": "eb-139-1-3",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 139/3",
+   "Titre": "Paroisse réformée de Vufflens-la-Ville",
+   "Date(s)": "1728-03-10 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 16,4 x 21,1x 3.3",
+   "Portée et contenu": "Annonces de mariages (1788 janvier 10 - 1821 juin 30) pages 1-13;\nDécès (1728 mars 10 - 1821 juin 30) pages 1-141 en tête-bêche.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.814",
+   "Nom du fichier": "CH-ACV_RN-EB-139-3.pdf",
+   "Taille du fichier": "82.7 MiB"
+  },
+  "pdf": "a/1/7/a173a0845e116c199e695d48280e29e1502c9f5cfddbea44d2102829fa6cd2ca/CH-ACV_RN-EB-139-3.pdf"
+ }
+]

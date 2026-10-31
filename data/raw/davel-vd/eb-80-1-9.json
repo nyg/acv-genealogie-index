@@ -1,0 +1,191 @@
+[
+ {
+  "slug": "eb-80-1-9",
+  "parent": null,
+  "children": [
+   "eb-80-1",
+   "eb-80-2",
+   "eb-80-3",
+   "eb-80-4",
+   "eb-80-5",
+   "eb-80-6",
+   "eb-80-7",
+   "eb-80-8",
+   "eb-80-9"
+  ],
+  "f": {
+   "Cote": "Eb 80/1-9",
+   "Titre": "Registres de la paroisse réformée du Mont-sur-Lausanne.",
+   "Date(s)": "1719-11-03 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse du Mont-sur-Lausanne :\nChapelle médiévale filiale de l'église paroissiale de Saint-Paul à Lausanne. Paroisse foraine de Lausanne 1545-1811, puis paroisse à résidence.\nRegistres dès 1719, les précédents ayant brûlé en 1726.\nComprend : Les Vernands jusqu'en 1837. Annexe : Romanel 1811-1837, avec registres propres 1720-1821."
+  }
+ },
+ {
+  "slug": "eb-80-1",
+  "parent": "eb-80-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 80/1",
+   "Titre": "Paroisse réformée du Mont-sur-Lausanne",
+   "Date(s)": "1719-11-03 - 1781-04-27 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 16,7 x 22",
+   "Portée et contenu": "Baptêmes (1719 novembre 3 - 1781 avril 1), pp. 0-192;\nMariages tête-bêche (1726 décembre 31 - 1781 avril 27), pp. 201-242;\n*- Interfolios entre pp. 218-219 et pp. 242-243 ( 3 feuilles séparées).",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Note": "Série de pages blanches de la page 192 jusqu'aux mariages.",
+   "Cote de gestion": "RMS 1/128.704",
+   "Nom du fichier": "CH-ACV_RN-EB-80-1.pdf",
+   "Taille du fichier": "139.1 MiB"
+  },
+  "pdf": "7/e/4/7e44140f3cf1827e8f045523804bdaa4459f447a91d028d6d0cb7566fc168422/CH-ACV_RN-EB-80-1.pdf"
+ },
+ {
+  "slug": "eb-80-2",
+  "parent": "eb-80-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 80/2",
+   "Titre": "Romanel-sur-Lausanne annexe de la paroisse réformée du Mont-sur-Lausanne",
+   "Date(s)": "1719-09-15 - 1809-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 3 parties.\nFormat LxH(cm): 20,2 x 31,9 x 2",
+   "Portée et contenu": "Baptêmes ajoutés a posteriori (1768-1779), pp. 1-5; - Interfolio avant p. 1; - Répertoire des baptêmes (1720-1809), pp. 7-13;\nBaptêmes (1720 janvier 28 - 1809 décembre 31), pp. 22-146;\nMariages (1719 septembre 15 - 1809 décembre 29), pp.tête-bêche 1-30.",
+   "Instruments de recherche": "Répertoire intégré des baptêmes Eb 80/2 (microfilm: RMS 1/128.704, numérique: RN-EB-80-2).",
+   "Cote de gestion": "RMS 1/128.704",
+   "Nom du fichier": "CH-ACV_RN-EB-80-2.pdf",
+   "Taille du fichier": "173.2 MiB"
+  },
+  "pdf": "d/e/9/de92fcaaa7f5bd8d46d38f80e56bfc4e7f45ae7d1ad5f419e489ea8c3eaee52f/CH-ACV_RN-EB-80-2.pdf"
+ },
+ {
+  "slug": "eb-80-3",
+  "parent": "eb-80-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 80/3",
+   "Titre": "Romanel-sur-Lausanne annexe de la paroisse réformée du Mont-sur-Lausanne",
+   "Date(s)": "1728-12-15 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 22 x 34,6 x 2",
+   "Portée et contenu": "Décès (1728 décembre 15 - 1821 juin 30), pp. 1-56.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Dès la page 57, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.704",
+   "Nom du fichier": "CH-ACV_RN-EB-80-3.pdf",
+   "Taille du fichier": "59.7 MiB"
+  },
+  "pdf": "e/2/3/e23510bddedd5e0812b23a89c91a6531a9c6b3395f16fc92629f01395a8ac3c8/CH-ACV_RN-EB-80-3.pdf"
+ },
+ {
+  "slug": "eb-80-4",
+  "parent": "eb-80-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 80/4",
+   "Titre": "Paroisse réformée du Mont-sur-Lausanne",
+   "Date(s)": "1766-01-06 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 21 x 34,3",
+   "Portée et contenu": "Décès (1766 janvier 6 - 1821 juin 30), pp. 0-103.",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Note": "Dès la page 104, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.704",
+   "Nom du fichier": "CH-ACV_RN-EB-80-4.pdf",
+   "Taille du fichier": "110.4 MiB"
+  },
+  "pdf": "a/0/8/a0884f1a7b823cbbf9991c4f2e9fd7a137d51ba2914b3a3648131d9ed3d39523/CH-ACV_RN-EB-80-4.pdf"
+ },
+ {
+  "slug": "eb-80-5",
+  "parent": "eb-80-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 80/5",
+   "Titre": "Paroisse réformée du Mont-sur-Lausanne",
+   "Date(s)": "1765-01-01 - 1828-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 18 x 23,9 x 7",
+   "Portée et contenu": "Annonces de mariages (1760 mars 9 - 1794 janvier 11), pp. 1-211;\nBrouillard (= brouillon) pour inscription d'annonces, de baptêmes et de morts (mêlés) dans les églises du Mont et de Romanel (1801 décembre 12 - 1828 novembre 13) (notices recopiées dans les registres correspondants), pp. 1-183.\n*-Interfolios entre pages 32 et 33, 82 et 83, 86 et 87, 88 et 89, 96 et 97, 98 et 99, 108 et 109.",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Cote de gestion": "RMS 1/128.704",
+   "Nom du fichier": "CH-ACV_RN-EB-80-5.pdf",
+   "Taille du fichier": "268.7 MiB"
+  },
+  "pdf": "b/8/f/b8f183e6ffcf229880d101cf8da0443f819a71c4017e667e05708a990397ec0a/CH-ACV_RN-EB-80-5.pdf"
+ },
+ {
+  "slug": "eb-80-6",
+  "parent": "eb-80-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 80/6",
+   "Titre": "Paroisse réformée du Mont-sur-Lausanne",
+   "Date(s)": "1781-01-16 - 1804-11-19 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 24,8 x 36,8",
+   "Portée et contenu": "Baptêmes (1781 janvier 16 - 1804 novembre 19), pp. 0-86;\n*- Interfolio entre pp. 84-85;\nMariages (1781 mars 29 - 1804 novembre 2) (en tête-bêche), pp. 0-10.",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Cote de gestion": "RMS 1/128.704",
+   "Nom du fichier": "CH-ACV_RN-EB-80-6.pdf",
+   "Taille du fichier": "134.5 MiB"
+  },
+  "pdf": "0/4/4/0447d606c2b9cb0ac508d0f0d93acaa53d7e826a98bc71248e9f37f79a1365c9/CH-ACV_RN-EB-80-6.pdf"
+ },
+ {
+  "slug": "eb-80-7",
+  "parent": "eb-80-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 80/7",
+   "Titre": "Paroisse réformée du Mont-sur-Lausanne",
+   "Date(s)": "1793-01-05 - 1821-01-28 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,5 x 35,8",
+   "Portée et contenu": "Annonces de mariages (1793 janvier 5 - 1821 janvier 28), pp. 1-94.",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Cote de gestion": "RMS 1/128.704",
+   "Nom du fichier": "CH-ACV_RN-EB-80-7.pdf",
+   "Taille du fichier": "115.4 MiB"
+  },
+  "pdf": "0/e/c/0ec7a4ef91a7d3ec0ba5128ab9de0bf2b9d2b33a7259d5ade6dec56d161430b4/CH-ACV_RN-EB-80-7.pdf"
+ },
+ {
+  "slug": "eb-80-8",
+  "parent": "eb-80-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 80/8",
+   "Titre": "Paroisse réformée du Mont-sur-Lausanne",
+   "Date(s)": "1804-12-02 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 24,5 x 39",
+   "Portée et contenu": "Baptêmes (1804 décembre 2 - 1821 juin 30), pp. 1-75;\n*- Interfolio entre pp. 74-75;\nMariages (1804 décembre 31 - 1821 juin 30) (en tête-bêche), pp. 99-122.",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Note": "Série de pages blanches de la page 75 jusqu'aux mariages.",
+   "Cote de gestion": "RMS 1/128.704",
+   "Nom du fichier": "CH-ACV_RN-EB-80-8.pdf",
+   "Taille du fichier": "138.5 MiB"
+  },
+  "pdf": "a/d/d/add0b0b032b9f590a92ff3d794a4b3196a1dd713ec185085af496768938b0be7/CH-ACV_RN-EB-80-8.pdf"
+ },
+ {
+  "slug": "eb-80-9",
+  "parent": "eb-80-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 80/9",
+   "Titre": "Romanel-sur-Lausanne annexe de la paroisse réformée du Mont-sur-Lausanne",
+   "Date(s)": "1810-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 3 parties\nFormat LxH(cm): 22,5 x 33,5",
+   "Portée et contenu": "Baptêmes (1810 janvier 1 - 1821 juin 30), pp. 0a-31;\n*- Répertoire incorporé des baptêmes (1810 janvier 1 - 1821 juin 30), pp. 33-35;\nMariages (1810 janvier 1 - 1821 juin 30) (en tête-bêche), pp. 0-3.",
+   "Instruments de recherche": "Répertoire intégré des baptêmes Eb 80/9 (microfilm: RMS 1/128.704, numérique: RN-EB-80-9).",
+   "Note": "Série de pages blanches de la page 35 jusqu'aux mariages.",
+   "Cote de gestion": "RMS 1/128.704",
+   "Nom du fichier": "CH-ACV_RN-EB-80-9.pdf",
+   "Taille du fichier": "46.7 MiB"
+  },
+  "pdf": "9/a/5/9a5a6a9e17a751600acf73744fbcb2fbd84959889b33189e4adf9f90451a3a7d/CH-ACV_RN-EB-80-9.pdf"
+ }
+]

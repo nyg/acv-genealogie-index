@@ -1,0 +1,108 @@
+[
+ {
+  "slug": "eb-110-1-4",
+  "parent": null,
+  "children": [
+   "eb-110-1",
+   "eb-110-2",
+   "eb-110-3",
+   "eb-110-4",
+   "eb-110-5-fantome"
+  ],
+  "f": {
+   "Cote": "Eb 110/1-4",
+   "Titre": "Registres de la paroisse réformée de Prilly.",
+   "Date(s)": "1589-08-10 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Prilly :\nParoisse foraine de Lausanne jusqu'en 1811, puis de résidence, dont le pasteur est devenu le chapelain de l'hospice des aliénés de Cery en 1873.\nRegistres dès 1589. Comprend : Jouxtens-Mézery ; sur Lausanne (entre 1720 environ et 1821 ?) : campagnes de la Blécherette, la Grangette, le Désert, le Gray (devenue Grey), Beau-Soleil, la Chablière, la Valombreuse, Valency, Prélaz, Sébeillon, le Cazard, Malley, Bois-de-Vaux, la Maladière, Vidy et la Bourdonnette ; Vernand (1846-1849). Annexes : Renens (avec cimetière à Vidy) ; Romanel (1846-1849).\nCf. Revue historique vaudoise 26, 1918, 122-124."
+  }
+ },
+ {
+  "slug": "eb-110-1",
+  "parent": "eb-110-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 110/1",
+   "Titre": "Paroisse réformée de Prilly",
+   "Date(s)": "1589-08-10 - 1779-12-26 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 19,9 x 29,1 x 4,5 / AR: 27,2 x 37,6 (répertoire) / BR: 26,9 x 37,4 (répertoire)",
+   "Portée et contenu": "Baptêmes (1589 août 10 - 1779 décembre 26), pp. 0-231;\n*- Liste des pasteurs de la paroisse (1589 - 1846), pp. 0-0e;\nMariages (tête-bêche) (1595 - 1779 février 12), pp.tête-bêche 0-102;\n*- Interfolio p. 1.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 110/1 (microfilm: RMS 1/128.766, numérique: RN-EB-110-1), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 110/1 (microfilm: RMS 1/128.766, numérique: RN-EB-110-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.766",
+   "Nom du fichier": "CH-ACV_RN-EB-110-1.pdf",
+   "Taille du fichier": "411.6 MiB"
+  },
+  "pdf": "0/b/8/0b8ce8490a8d6751a5b6e262aef97a56b811ce094b2a2088c5a7bbe3131bb334/CH-ACV_RN-EB-110-1.pdf"
+ },
+ {
+  "slug": "eb-110-2",
+  "parent": "eb-110-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 110/2",
+   "Titre": "Paroisse réformée de Prilly",
+   "Date(s)": "1721-04-05 - 1844-03-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 2 parties\nFormat LxH(cm): 16,6 x 22 x 3 /27,1 x 37,2 (répertoire)",
+   "Portée et contenu": "Décès (1728 décembre 12 - 1821 juin 21) pages 0-227;\n*- Liste des pasteurs de la paroisse (1589 - 1846), pp. 0-0a;\nCatéchumènes (tête-bêche) (1721 avril 5 - 1844 mars 31), pp.tête-bêche 0-99.",
+   "Instruments de recherche": "Répertoire séparé des décès Eb 110/2 (microfilm: RMS 1/128.766, numérique: RN-EB-110-2), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes.",
+   "Cote de gestion": "RMS 1/128.766",
+   "Nom du fichier": "CH-ACV_RN-EB-110-2.pdf",
+   "Taille du fichier": "250.1 MiB"
+  },
+  "pdf": "a/d/d/addf801f3cd3f91adb8075cd74c3b17cb61d063e90a925c08658af7fb3e7474e/CH-ACV_RN-EB-110-2.pdf"
+ },
+ {
+  "slug": "eb-110-3",
+  "parent": "eb-110-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 110/3",
+   "Titre": "Paroisse réformée de Prilly",
+   "Date(s)": "1780-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "4 volumes en 2 parties\nFormat LxH(cm): 23,7 x 36,1x 4,7 /AR1: 27,2 x 37,6 (répertoire) / AR2: 20,3 x 34,2 (répertoire) / BR2: 27 x 37,6 (répertoire)",
+   "Portée et contenu": "Extraits de lettres (1702 juillet 14 - 1816 octobre 10), pp. 0-0c;\nBaptêmes (1780 janvier 9 - 1821 juin 30), pp. 1-173;\n*- Interfolio entre pp. 172-173;\nMariages (tête-bêche) (1780 janvier 1 - 1821 juin 30), pp.tête-bêche 0-253;\n*- Répertoire incorporé des mariages, pp. 255-ss.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 110/3 (microfilm: RMS 1/128.766, numérique: RN-EB-110-3), différent du répertoire suivant, pages manuscrites, non datées\nRépertoire séparé des baptêmes Eb 110/3 (microfilm: RMS 1/128.766, numérique: RN-EB-110-3), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 110/3 (microfilm: RMS 1/128.766, numérique: RN-EB-110-3), copie du répertoire incorporé, pages manuscrites, non datées\nRépertoire incorporé des mariages Eb 110/3 (microfilm: RMS 1/128.766, numérique: RN-EB-110-3), pages manuscrites, non datées",
+   "Note": "Les répertoires sont à double. Deux répertoires séparés pour les baptêmes; un répertoire séparé et un répertoire incorporé pour les mariages.\nLa partie des naissances débute par des transcriptions de lettres du Petit Conseil et du Conseil d'Etat, ainsi que la partie des mariages par la liste des pasteurs (1589-1846).",
+   "Cote de gestion": "RMS 1/128.766",
+   "Nom du fichier": "CH-ACV_RN-EB-110-3.pdf",
+   "Taille du fichier": "741.8 MiB"
+  },
+  "pdf": "3/c/7/3c79d4ef9819c40e5792066bcaf469b2b15f723f3fdf90a19bb8a493b50082e0/CH-ACV_RN-EB-110-3.pdf"
+ },
+ {
+  "slug": "eb-110-4",
+  "parent": "eb-110-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 110/4",
+   "Titre": "Paroisse réformée de Prilly",
+   "Date(s)": "1809-01-15 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 20,3 x 26,6",
+   "Portée et contenu": "Annonces de mariages (1809 janvier 15 - 1821 juin 30), pp. 0-77;\n*- Interfolios pp. 0, 0a-0f;\nPasteurs de Prilly (tête-bêche) (1589 - 1846 avril 22), pp.tête-bêche 100;\nPopulation de Renens (tête-bêche) (vers 1800), pp.tête-bêche 102-109.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.766",
+   "Nom du fichier": "CH-ACV_RN-EB-110-4.pdf",
+   "Taille du fichier": "73.5 MiB"
+  },
+  "pdf": "3/3/4/3343bbd0884277252d1008179b7546b25e03b6b5136890eead3eb53d9d224de9/CH-ACV_RN-EB-110-4.pdf"
+ },
+ {
+  "slug": "eb-110-5-fantome",
+  "parent": "eb-110-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 110/5 FANTOME",
+   "Titre": "Paroisse réformée de Prilly",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 22,4 x 33,7",
+   "Portée et contenu": "Répertoire alphabétique des Annonces de mariages.\nCe répertoire ne renvoie pas aux annonces du registre Eb 110/4, auquel il est joint sur le microfilm, mais bien au registre d'annonces de mariages Ed 110/10 (1821-1875) arrivé aux ACV en 1997/1998. Il a été joint à ce registre et a été numérisé avec lui.",
+   "Instruments de recherche": "Répertoire séparé des annonces de mariages ED 110/10 (microfilm: RMS 1/128.766, numérique: RN-ED-110-10), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.766"
+  }
+ }
+]

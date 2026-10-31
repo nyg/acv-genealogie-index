@@ -1,0 +1,63 @@
+[
+ {
+  "slug": "sa-179041",
+  "parent": null,
+  "text": "Ec 139/1-2 Paroisse réformée de Vufflens-la-Ville., 1768-1871 (Série)",
+  "children": [
+   "sa-179042",
+   "sa-179043"
+  ],
+  "f": {
+   "Ref. code": "Ec 139/1-2",
+   "Title": "Paroisse réformée de Vufflens-la-Ville.",
+   "Dates": "1768-1871",
+   "Creation date(s)": "1768 - 1871",
+   "Level": "Série",
+   "Importance matérielle": "2 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=179041",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-179042",
+  "parent": "sa-179041",
+  "text": "Ec 139/1 - Mariages 1821-1869., 1821.01.01-1869.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 139/1",
+   "Title": "- Mariages 1821-1869.",
+   "Dates": "1821-1869",
+   "Creation date(s)": "1/1/1821 - 12/31/1869",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=179042",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-179043",
+  "parent": "sa-179041",
+  "text": "Ec 139/2 - Annonces de mariage 1768-1863. \\ - Naissances 1792-1869. \\ - Décès 1827-1871., 1768.01.01-1871.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 139/2",
+   "Title": "- Annonces de mariage 1768-1863.\n- Naissances 1792-1869.\n- Décès 1827-1871.",
+   "Dates": "1768-1871",
+   "Creation date(s)": "1/1/1768 - 12/31/1871",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "[annonces de mariage] (Matières\\ Subdivisions\\de forme)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=179043",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

@@ -57,5 +57,7 @@
  "Vilar s-Rouillier": {"locality": "Villars-Rouillier"},
  "Villars:Bozon (L'Isle)": {"locality": "Villars-Bozon (L'Isle)"},
  "Villy (Ollon) r//?r\\'(Gill\\)": {"locality": "Villy (Ollon)"},
- "Yvorne 1^11333:1^-": {"locality": "Yvorne"}
+ "Yvorne 1^11333:1^-": {"locality": "Yvorne"},
+ "Bournens Chapelle": {"locality": "Bournens", "description": "Chapelle médiévale filiale de Penthaz avant la Réforme, puis dépendance de Cheseaux [25] jusqu'en 1837 et rattachée alors à Penthaz [105], puis à Vufflens-la-Ville [139] en 1846 (annexe de Sullens dès 1852)"},
+ "Boussens Eglise": {"locality": "Boussens", "description": "Eglise paroissiale avant 1285, devenue filiale de Sullens puis annexe de Cheseaux [25] à la Réforme, rattaché à Penthaz [105] en 1837 et à Vufflens-la-Ville [139] en 1846 (annexe de Sullens dès 1852)"}
 }

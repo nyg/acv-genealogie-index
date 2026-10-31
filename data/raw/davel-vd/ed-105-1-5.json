@@ -1,0 +1,110 @@
+[
+ {
+  "slug": "ed-105-1-5",
+  "parent": null,
+  "children": [
+   "ed-105-1",
+   "ed-105-2",
+   "ed-105-3",
+   "ed-105-4",
+   "ed-105-5"
+  ],
+  "f": {
+   "Cote": "Ed 105/1-5",
+   "Titre": "Paroisse réformée de Penthaz.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Penthaz :\nParoisse médiévale, devenue en fait annexe de Daillens en 1846.\nRegistres de 1656 à 1875."
+  }
+ },
+ {
+  "slug": "ed-105-1",
+  "parent": "ed-105-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 105/1",
+   "Titre": "Registre de naissances 1821-1857.",
+   "Date(s)": "1821-07-01 - 1857-05-14 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31,5 x 42 x 5,2/ 28 x 38 (répertoire)",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1857 mai 14);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1857 mai 14).",
+   "Instruments de recherche": "Répertoire séparé des naissances et baptêmes Ed 105/1 (microfilm: RMS 1/1.048.085, numérique: RN-ED-105-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.085",
+   "Nom du fichier": "CH-ACV_RN-ED-105-1.pdf",
+   "Taille du fichier": "564 MiB"
+  },
+  "pdf": "8/8/f/88f57aa3e5b5a90fcc7075b856ab81492608b25bc5bd5f3edd8e747d6fb91147/CH-ACV_RN-ED-105-1.pdf"
+ },
+ {
+  "slug": "ed-105-2",
+  "parent": "ed-105-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 105/2",
+   "Titre": "Registre de naissances 1857-1875.",
+   "Date(s)": "1857-06-04 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,5 x 41,4",
+   "Portée et contenu": "Naissances (1857 juin 4 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1857 juin 4 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 105/2 (microfilm: RMS 1/1.048.085, numérique: RN-ED-105-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.085",
+   "Nom du fichier": "CH-ACV_RN-ED-105-2.pdf",
+   "Taille du fichier": "272.4 MiB"
+  },
+  "pdf": "0/b/6/0b664c09de8ca7e3dd9b6bf56ee46f98add586c3238974e4a5074a7111678a23/CH-ACV_RN-ED-105-2.pdf"
+ },
+ {
+  "slug": "ed-105-3",
+  "parent": "ed-105-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 105/3",
+   "Titre": "Registre de mariages 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,2 x 41,2 / 27,9 x 39,1 (répertoire)",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 105/3 (microfilm: RMS 1/1.048.086, numérique: RN-ED-105-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.086",
+   "Nom du fichier": "CH-ACV_RN-ED-105-3.pdf",
+   "Taille du fichier": "397.8 MiB"
+  },
+  "pdf": "d/7/0/d70aca0355246b4afacc9cea345f3435e20f26ca437e9c4f1234d5e4cb92684a/CH-ACV_RN-ED-105-3.pdf"
+ },
+ {
+  "slug": "ed-105-4",
+  "parent": "ed-105-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 105/4",
+   "Titre": "Registre de décès 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 29,5 x 41,3 / 29 x 39 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 105/4 (microfilm: RMS 1/1.048.086, numérique: RN-ED-105-4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.086",
+   "Nom du fichier": "CH-ACV_RN-ED-105-4.pdf",
+   "Taille du fichier": "536.2 MiB"
+  },
+  "pdf": "9/9/9/999fe4f9173402b217fac20a9c38e8e095d63ac6dfcd5bfaf0161465d275216b/CH-ACV_RN-ED-105-4.pdf"
+ },
+ {
+  "slug": "ed-105-5",
+  "parent": "ed-105-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 105/5",
+   "Titre": "Registre d'annonces de mariage 1821-1874.",
+   "Date(s)": "1821-07-01 - 1874-12-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 27,5 x 41,5",
+   "Portée et contenu": "Annonces de mariage (1821 juillet 1 - 1874 décembre 30).",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RM 22004.3",
+   "Nom du fichier": "CH-ACV_RN-ED-105-5.pdf",
+   "Taille du fichier": "416.7 MiB"
+  },
+  "pdf": "a/5/a/a5ae16d5a63fa39c4a88e72ea2aeb02e7513122e8a4cef06907ef8589ff426b3/CH-ACV_RN-ED-105-5.pdf"
+ }
+]

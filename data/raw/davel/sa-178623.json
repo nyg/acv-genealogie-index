@@ -1,0 +1,103 @@
+[
+ {
+  "slug": "sa-178623",
+  "parent": null,
+  "text": "Ec 80/1-4 Paroisse réformée de Mont-Romanel., 1780-1875 (Série)",
+  "children": [
+   "sa-178625",
+   "sa-178626",
+   "sa-178627",
+   "sa-178628"
+  ],
+  "f": {
+   "Ref. code": "Ec 80/1-4",
+   "Title": "Paroisse réformée de Mont-Romanel.",
+   "Dates": "1780-1875",
+   "Creation date(s)": "1780 - 1875",
+   "Level": "Série",
+   "Importance matérielle": "4 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178623",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178625",
+  "parent": "sa-178623",
+  "text": "Ec 80/1 - Mariages 1780-1838., 1780.01.01-1838.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 80/1",
+   "Title": "- Mariages 1780-1838.",
+   "Dates": "1780-1838",
+   "Creation date(s)": "1/1/1780 - 12/31/1838",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178625",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178626",
+  "parent": "sa-178623",
+  "text": "Ec 80/2 - Mariages 1839-1871., 1839.01.01-1871.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 80/2",
+   "Title": "- Mariages 1839-1871.",
+   "Dates": "1839-1871",
+   "Creation date(s)": "1/1/1839 - 12/31/1871",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178626",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178627",
+  "parent": "sa-178623",
+  "text": "Ec 80/3 - Mariages 1872-1875. \\ - Annonces de mariage 1832-1867. \\ - Naissances 1748-1875., 1872.01.01-1875.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 80/3",
+   "Title": "- Mariages 1872-1875.\n- Annonces de mariage 1832-1867.\n- Naissances 1748-1875.",
+   "Dates": "1872-1875",
+   "Creation date(s)": "1/1/1872 - 12/31/1875",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178627",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178628",
+  "parent": "sa-178623",
+  "text": "Ec 80/4 - Décès 1817-1875., 1817.01.01-1875.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 80/4",
+   "Title": "- Décès 1817-1875.",
+   "Dates": "1817-1875",
+   "Creation date(s)": "1/1/1817 - 12/31/1875",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "décès (Matières\\D)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178628",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

@@ -1,0 +1,83 @@
+[
+ {
+  "slug": "sa-178687",
+  "parent": null,
+  "text": "Ec 87/1-3 Paroisse réformée de Morrens., 1764-1869 (Série)",
+  "children": [
+   "sa-178688",
+   "sa-178689",
+   "sa-178690"
+  ],
+  "f": {
+   "Ref. code": "Ec 87/1-3",
+   "Title": "Paroisse réformée de Morrens.",
+   "Dates": "1764-1869",
+   "Creation date(s)": "1764 - 1869",
+   "Level": "Série",
+   "Importance matérielle": "3 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178687",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178688",
+  "parent": "sa-178687",
+  "text": "Ec 87/1 - Mariages 1768-1841., 1768.01.01-1841.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 87/1",
+   "Title": "- Mariages 1768-1841.",
+   "Dates": "1768-1841",
+   "Creation date(s)": "1/1/1768 - 12/31/1841",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178688",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178689",
+  "parent": "sa-178687",
+  "text": "Ec 87/2 - Mariages 1842-1869. - - Annonces de mariage 1812-1869., 1812.01.01-1869.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 87/2",
+   "Title": "- Mariages 1842-1869. - - Annonces de mariage 1812-1869.",
+   "Dates": "1812-1869",
+   "Creation date(s)": "1/1/1812 - 12/31/1869",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178689",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178690",
+  "parent": "sa-178687",
+  "text": "Ec 87/3 - Naissances 1764-1869. \\ - Décès 1820-1869., 1764.01.01-1869.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 87/3",
+   "Title": "- Naissances 1764-1869.\n- Décès 1820-1869.",
+   "Dates": "1764-1869",
+   "Creation date(s)": "1/1/1764 - 12/31/1869",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178690",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

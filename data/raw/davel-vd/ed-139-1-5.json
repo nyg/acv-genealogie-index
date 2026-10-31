@@ -1,0 +1,112 @@
+[
+ {
+  "slug": "ed-139-1-5",
+  "parent": null,
+  "children": [
+   "ed-139-1",
+   "ed-139-2",
+   "ed-139-3",
+   "ed-139-4",
+   "ed-139-5"
+  ],
+  "f": {
+   "Cote": "Ed 139/1-5",
+   "Titre": "Paroisse réformée de Vufflens-la-Ville.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Vufflens-la-Ville :\nAnnexe de Penthaz érigée en paroisse en 1711, jointe à Crissier 1846-1852.\nRegistres dès 1711.\nComprend : Bournens et Boussens dès 1846.\nAnnexes : Mex dès 1711 ; Sullens dès 1852.\nVoir aussi Penthaz."
+  }
+ },
+ {
+  "slug": "ed-139-1",
+  "parent": "ed-139-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 139/1",
+   "Titre": "Registre de naissances 1821-1870.",
+   "Date(s)": "1821-07-01 - 1870-10-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,5 x 42,2 x 4,5",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1870 octobre 1);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1870 octobre 1).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 139/1 (microfilm: RMS 1/1.048.689, numérique: RN-ED-139-1), pages manuscrites, non datées",
+   "Note": "Pages 174, 194, lettres O, T et U du répertoire et dernière page (de garde) consolidées.",
+   "Cote de gestion": "RMS 1/1.048.689",
+   "Nom du fichier": "CH-ACV_RN-ED-139-1.pdf",
+   "Taille du fichier": "522.4 MiB"
+  },
+  "pdf": "f/1/d/f1d88656ce162d997757b0ccc5bb75ab21f0d8bcbe4c906824a78bbb7f50df17/CH-ACV_RN-ED-139-1.pdf"
+ },
+ {
+  "slug": "ed-139-2",
+  "parent": "ed-139-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 139/2",
+   "Titre": "Registre de naissances 1870-1875.",
+   "Date(s)": "1870-10-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,3 x 41,1",
+   "Portée et contenu": "Naissances (1870 octobre 1 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1870 octobre 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 139/2 (microfilm: RMS 1/1.048.689, numérique: RN-ED-139-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.689",
+   "Nom du fichier": "CH-ACV_RN-ED-139-2.pdf",
+   "Taille du fichier": "43 MiB"
+  },
+  "pdf": "c/b/4/cb4b7040f4f0fd9d33a5a5b7ddb4d0fcdd3d316e76372d5c89670473086308dd/CH-ACV_RN-ED-139-2.pdf"
+ },
+ {
+  "slug": "ed-139-3",
+  "parent": "ed-139-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 139/3",
+   "Titre": "Registre de mariages 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,4 x 41,5",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 139/3 (microfilm: RMS 1/1.048.689, numérique: RN-ED-139-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.689",
+   "Nom du fichier": "CH-ACV_RN-ED-139-3.pdf",
+   "Taille du fichier": "301.3 MiB"
+  },
+  "pdf": "b/2/d/b2dade645577354bb6eef9389038d0f198bbc9a3e7fad592421426f9abb15103/CH-ACV_RN-ED-139-3.pdf"
+ },
+ {
+  "slug": "ed-139-4",
+  "parent": "ed-139-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 139/4",
+   "Titre": "Registre de décès 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,4 x 41,3 / 29 x 38,8 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 139/4 (microfilm: RMS 1/1.048.689, numérique: RN-ED-139-4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.689",
+   "Nom du fichier": "CH-ACV_RN-ED-139-4.pdf",
+   "Taille du fichier": "414.3 MiB"
+  },
+  "pdf": "a/d/1/ad15a55ba9f0c5c1a142065c8507b54c950fe9f1f1f4868ee5c2cd8c1999062e/CH-ACV_RN-ED-139-4.pdf"
+ },
+ {
+  "slug": "ed-139-5",
+  "parent": "ed-139-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 139/5",
+   "Titre": "Registre d'annonces de mariage 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 27,3 x 41,3",
+   "Portée et contenu": "Annonces de mariage (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Dès la page 195, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RM 22004.21",
+   "Nom du fichier": "CH-ACV_RN-ED-139-5.pdf",
+   "Taille du fichier": "234.2 MiB"
+  },
+  "pdf": "8/5/1/851d3bb1ccd81f8b59119ac667901edfd52b11d0363f04cebcd4f4e745b274c3/CH-ACV_RN-ED-139-5.pdf"
+ }
+]

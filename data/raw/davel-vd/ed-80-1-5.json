@@ -1,0 +1,110 @@
+[
+ {
+  "slug": "ed-80-1-5",
+  "parent": null,
+  "children": [
+   "ed-80-1",
+   "ed-80-2",
+   "ed-80-3",
+   "ed-80-4",
+   "ed-80-5"
+  ],
+  "f": {
+   "Cote": "Ed 80/1-5",
+   "Titre": "Paroisse réformée du Mont-sur-Lausanne.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse du Mont-sur-Lausanne :\nChapelle médiévale filiale de l'église paroissiale de Saint-Paul à Lausanne.\nParoisse foraine de Lausanne 1545-1811, puis paroisse à résidence.\nRegistres dès 1719, les précédents ayant brûlé en 1726.\nComprend : Les Vernands jusqu'en 1837.\nAnnexe : Romanel 1811-1837, avec registres propres 1720-1821."
+  }
+ },
+ {
+  "slug": "ed-80-1",
+  "parent": "ed-80-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 80/1",
+   "Titre": "Registre de naissances 1821-1854.",
+   "Date(s)": "1821-07-01 - 1854-11-16 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31,6 x 41,2 x 6",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1854 novembre 16);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1854 novembre 16).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 80/1 (microfilm: RMS 1/1.044.903, numérique: RN-ED-80-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.903",
+   "Nom du fichier": "CH-ACV_RN-ED-80-1.pdf",
+   "Taille du fichier": "703.5 MiB"
+  },
+  "pdf": "8/6/d/86dc832ccf628c36a2e63b2066fe2d81e910c40787ea0bdd2ce7db27b525e82b/CH-ACV_RN-ED-80-1.pdf"
+ },
+ {
+  "slug": "ed-80-2",
+  "parent": "ed-80-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 80/2",
+   "Titre": "Registre de naissances 1854-1875.",
+   "Date(s)": "1854-12-13 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31 x 41,1",
+   "Portée et contenu": "Naissances (1854 décembre 13 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1854 décembre 13 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 80/2 (microfilm: RMS 1/1.044.903, numérique: RN-ED-80-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.903",
+   "Nom du fichier": "CH-ACV_RN-ED-80-2.pdf",
+   "Taille du fichier": "319.9 MiB"
+  },
+  "pdf": "a/b/9/ab925d166f3aaba5da9fb6b9dc349e499210ff62d7bc287f22727eeb7fdc48e4/CH-ACV_RN-ED-80-2.pdf"
+ },
+ {
+  "slug": "ed-80-3",
+  "parent": "ed-80-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 80/3",
+   "Titre": "Registre de mariages 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31,6 x 41,4 / 28,1 x 38,9 (répertoire)",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 80/3 (microfilm: RMS 1/1.044.904, numérique: RN-ED-80-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.904",
+   "Nom du fichier": "CH-ACV_RN-ED-80-3.pdf",
+   "Taille du fichier": "395.8 MiB"
+  },
+  "pdf": "b/7/6/b76a64b090bb3e95bbca22d5fd1b9a737eeca4efb7c5f2d5a11750cc2a0f7844/CH-ACV_RN-ED-80-3.pdf"
+ },
+ {
+  "slug": "ed-80-4",
+  "parent": "ed-80-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 80/4",
+   "Titre": "Registre de décès 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 29,6 x 41,2 / 26,9 x 38,5 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 80/4 (microfilm: RMS 1/1.044.904, numérique: RN-ED-80-4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.904",
+   "Nom du fichier": "CH-ACV_RN-ED-80-4.pdf",
+   "Taille du fichier": "477.6 MiB"
+  },
+  "pdf": "2/1/5/21578f9781acfb2d9d3cbd22b8ce4114b3762e2fa23536c460f88e4753d80981/CH-ACV_RN-ED-80-4.pdf"
+ },
+ {
+  "slug": "ed-80-5",
+  "parent": "ed-80-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 80/5",
+   "Titre": "Registre d'annonces de mariage 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,6 x 43,6",
+   "Portée et contenu": "Annonces de mariage (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 80/5 (microfilm: RM 22001.39, numérique: RN-ED-80-5), pages manuscrites, non datées",
+   "Cote de gestion": "RM 22001.39",
+   "Nom du fichier": "CH-ACV_RN-ED-80-5.pdf",
+   "Taille du fichier": "440.4 MiB"
+  },
+  "pdf": "7/a/4/7a4c4d25aaf32b4a75f7623fd5998215cdbd880314bcca317f0014a86005e67b/CH-ACV_RN-ED-80-5.pdf"
+ }
+]
