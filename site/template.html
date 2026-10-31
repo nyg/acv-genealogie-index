@@ -417,7 +417,7 @@ function partMatchesKind(part) {
   return Boolean(kind.match) && part.kinds.some(k => kind.match.includes(k));
 }
 
-const VIEWER_HELP = "https://github.com/nyg/acv-genealogie-index#aperçu-des-pdf";
+const VIEWER_HELP = "https://github.com/nyg/acv-genealogie-index#installer-le-script";
 const viewerInstalled = () => "acvApercu" in document.documentElement.dataset;
 const viewerUrl = (unit, page) => `${unit.url}#${new URLSearchParams({ apercu: "", page, pdf: unit.pdf, titre: unit.cote })}`;
 const pdfPageUrl = (unit, page) => viewerInstalled() ? viewerUrl(unit, page) : `${DATA.pdfBase}${unit.pdf}#page=${page}`;
@@ -750,7 +750,7 @@ function renderCoverage() {
     ${mapped.length ? `<p><strong>Pages du PDF</strong> : pour ${escapeHtml(listFormat.format(mappedNames))} (${plural(mapped.length, "registre")}), la page du registre citée par le répertoire donne la page du PDF à ouvrir. Ailleurs, le PDF s'ouvre à sa première page.</p>` : ""}
     <p><strong>Aperçu</strong> : ${viewerInstalled()
       ? "le script d'aperçu est installé : les liens « PDF p. » n'affichent que la page demandée, sans télécharger le PDF entier."
-      : `les PDF pèsent souvent plusieurs centaines de Mo. Avec le <a href="${VIEWER_HELP}" target="_blank" rel="noopener">script d'aperçu</a> (Chrome et Tampermonkey), les liens « PDF p. » n'en chargent que la page demandée.`}</p>
+      : `les PDF pèsent souvent plusieurs centaines de Mo. Avec le <a href="${VIEWER_HELP}" target="_blank" rel="noopener">script d'aperçu</a> (Tampermonkey, dans Chrome ou Firefox), les liens « PDF p. » n'en chargent que la page demandée.`}</p>
     <p class="muted">Inventaires extraits le ${new Date(DATA.generatedAt).toLocaleDateString("fr-CH")}.</p>`;
 }
 
