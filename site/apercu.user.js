@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         Registres vaudois : aperçu des PDF
 // @namespace    https://nyg.github.io/acv-genealogie-index/
-// @version      1.2.0
-// @description  Affiche une page d'un PDF de davel-vd.ch sans télécharger le fichier entier, avec le sommaire des registres indexés.
+// @version      1.3.0
+// @description  Affiche une page d'un PDF de davel-vd.ch ou du Staatsarchiv Zürich sans télécharger le fichier entier, avec le sommaire des registres indexés.
 // @match        https://davel-vd.ch/*
+// @match        https://suche.staatsarchiv.djiktzh.ch/*
 // @match        https://nyg.github.io/acv-genealogie-index/*
 // @run-at       document-start
 // @grant        none
@@ -15,7 +16,6 @@
   const SITE_HOST = 'nyg.github.io';
   const PAGE_MAP_URL = 'https://nyg.github.io/acv-genealogie-index/pdf-pages.json';
   const UPLOADS_PATH = '/uploads/r/null/';
-  const CHALLENGE_PATH = '/js_challenge.html';
   const PENDING_KEY = 'acv-apercu';
   const ZOOM_KEY = 'acv-apercu-zoom';
   const TOC_KEY = 'acv-apercu-sommaire';
@@ -39,14 +39,87 @@
     return;
   }
 
-  if (location.pathname === CHALLENGE_PATH) {
-    if (hashParams().has('apercu')) sessionStorage.setItem(PENDING_KEY, JSON.stringify({ path: new URLSearchParams(location.search).get('redirect') ?? '/', hash: location.hash }));
-    return;
-  }
+  /*__PDFJS_READER__*/
 
-  const pending = JSON.parse(sessionStorage.getItem(PENDING_KEY));
-  sessionStorage.removeItem(PENDING_KEY);
-  if (pending && !location.hash && pending.path === location.pathname + location.search) history.replaceState(null, '', pending.hash);
+  const TEXT = {
+    fr: {
+      browse: 'Feuilleter le PDF page par page',
+      previous: 'Page précédente (←)',
+      next: 'Page suivante (→)',
+      pdfPage: 'PDF p.',
+      zoomOut: 'Réduire (−)',
+      fit: 'Ajuster',
+      fitTitle: 'Page entière (0)',
+      zoomIn: 'Agrandir (+)',
+      rotate: "Pivoter d'un quart de tour (R)",
+      wholePdf: 'PDF entier',
+      megabytes: 'Mo',
+      close: 'Fermer (Échap)',
+      retry: 'Réessayer',
+      opening: 'Ouverture du PDF…',
+      loading: 'Chargement…',
+      failure: 'Échec :',
+    },
+    de: {
+      browse: 'PDF seitenweise durchblättern',
+      previous: 'Vorherige Seite (←)',
+      next: 'Nächste Seite (→)',
+      pdfPage: 'PDF S.',
+      zoomOut: 'Verkleinern (−)',
+      fit: 'Einpassen',
+      fitTitle: 'Ganze Seite (0)',
+      zoomIn: 'Vergrössern (+)',
+      rotate: 'Um 90° drehen (R)',
+      wholePdf: 'Ganzes PDF',
+      megabytes: 'MB',
+      close: 'Schliessen (Esc)',
+      retry: 'Erneut versuchen',
+      opening: 'PDF wird geöffnet…',
+      loading: 'Wird geladen…',
+      failure: 'Fehler:',
+    },
+  };
+
+  const SITES = {
+    'davel-vd.ch': {
+      language: 'fr',
+      challengePath: '/js_challenge.html',
+      pageMap: true,
+      reader: () => {
+        if (!window.pdf) {
+          /*__PDF_READER__*/
+        }
+        window.pdf.state.delay = 0;
+        return window.pdf;
+      },
+      pdfs: () => {
+        const link = document.querySelector(`a[href*="${UPLOADS_PATH}"][href$=".pdf"]`);
+        if (!link) return [];
+        return [{ path: link.pathname.slice(UPLOADS_PATH.length), title: document.querySelector('.referenceCode')?.textContent.trim() ?? '', place: link.closest('.digital-object-reference, .filename') ?? link }];
+      },
+    },
+    'suche.staatsarchiv.djiktzh.ch': {
+      language: 'de',
+      reader: () => createPdfjsReader(path => `${location.origin}/${path}`),
+      pdfs: () => [...document.querySelectorAll('a[href*="openDoc(" i]')].flatMap(link => {
+        const path = /openDoc\('([^']+\.pdf)'\)/i.exec(link.getAttribute('href'))?.[1];
+        return path ? [{ path, title: document.querySelector('.veXDetailAttributValue')?.textContent.trim() ?? '', place: link }] : [];
+      }),
+    },
+  };
+  const site = SITES[location.hostname];
+  const text = TEXT[site.language];
+
+  if (site.challengePath) {
+    if (location.pathname === site.challengePath) {
+      if (hashParams().has('apercu')) sessionStorage.setItem(PENDING_KEY, JSON.stringify({ path: new URLSearchParams(location.search).get('redirect') ?? '/', hash: location.hash }));
+      return;
+    }
+
+    const pending = JSON.parse(sessionStorage.getItem(PENDING_KEY));
+    sessionStorage.removeItem(PENDING_KEY);
+    if (pending && !location.hash && pending.path === location.pathname + location.search) history.replaceState(null, '', pending.hash);
+  }
 
   const STYLE = `
     .viewer { position: fixed; inset: 0; display: flex; flex-direction: column; background: #1e1e1e; color: #eee; color-scheme: dark; font: 14px/1.4 system-ui, sans-serif; }
@@ -90,17 +163,12 @@
   `;
 
   const createViewer = () => {
-    if (!window.pdf) {
-      /*__PDF_READER__*/
-    }
-    const reader = window.pdf;
-    reader.state.delay = 0;
+    const reader = site.reader();
 
     /*__PAGE_MAP__*/
 
     let pageMaps = null;
-    const pageMapOf = pdfPath => (pageMaps ??= fetch(PAGE_MAP_URL).then(response => response.ok ? response.json() : {}).catch(() => ({})))
-      .then(maps => maps[pdfPath] ?? null);
+    const pageMapOf = async pdfPath => site.pageMap ? (await (pageMaps ??= fetch(PAGE_MAP_URL).then(response => response.ok ? response.json() : {}).catch(() => ({}))))[pdfPath] ?? null : null;
 
     const host = document.createElement('acv-apercu');
     host.style.cssText = 'all: initial; position: fixed; inset: 0; z-index: 2147483647';
@@ -111,11 +179,11 @@
           <div class="controls">
             <button class="cell toc-toggle" title="Sommaire du registre (S)" hidden>☰</button>
             <span class="cell">
-              <button class="prev" title="Page précédente (←)">←</button>
-              <button class="next" title="Page suivante (→)">→</button>
+              <button class="prev" title="${text.previous}">←</button>
+              <button class="next" title="${text.next}">→</button>
             </span>
             <span class="cell">
-              <label>PDF p. <input class="page" inputmode="numeric" autocomplete="off"></label>
+              <label>${text.pdfPage} <input class="page" inputmode="numeric" autocomplete="off"></label>
               <span class="count"></span>
             </span>
             <span class="cell register" hidden>
@@ -125,12 +193,12 @@
           </div>
           <div class="context"><span class="title"></span> <span class="where"></span></div>
           <span class="tools">
-            <button class="zoom-out" title="Réduire (−)">−</button>
-            <button class="fit" title="Page entière (0)">Ajuster</button>
-            <button class="zoom-in" title="Agrandir (+)">+</button>
-            <button class="rotate" title="Pivoter d'un quart de tour (R)">↻</button>
-            <a class="full" target="_blank" rel="noopener">PDF entier</a>
-            <button class="close" title="Fermer (Échap)">×</button>
+            <button class="zoom-out" title="${text.zoomOut}">−</button>
+            <button class="fit" title="${text.fitTitle}">${text.fit}</button>
+            <button class="zoom-in" title="${text.zoomIn}">+</button>
+            <button class="rotate" title="${text.rotate}">↻</button>
+            <a class="full" target="_blank" rel="noopener">${text.wholePdf}</a>
+            <button class="close" title="${text.close}">×</button>
           </span>
         </div>
         <div class="main">
@@ -138,7 +206,7 @@
           <div class="stage"><div class="frame"><img alt=""></div></div>
           <div class="notice" hidden>
             <span class="status" aria-live="polite"></span>
-            <button class="retry" hidden>Réessayer</button>
+            <button class="retry" hidden>${text.retry}</button>
           </div>
         </div>
       </div>`;
@@ -166,7 +234,7 @@
       return loading.get(key);
     };
 
-    const failure = error => `Échec : ${error.message.replace(/^\S+\.pdf: /, '')}`;
+    const failure = error => `${text.failure} ${error.message.replace(/^\S+\.pdf: /, '')}`;
 
     const setStatus = (text, failed = false) => {
       const status = $('.status');
@@ -268,9 +336,9 @@
       history.replaceState(null, '', `#${new URLSearchParams({ apercu: '', page: n, pdf: path, titre: title })}`);
       whenReady(() => {
         originalTitle ??= document.title;
-        document.title = `${title} · PDF p. ${n}`;
+        document.title = `${title} · ${text.pdfPage} ${n}`;
       });
-      setStatus('Chargement…');
+      setStatus(text.loading);
       await sleep(NAVIGATION_DELAY_MS);
       if (n !== current) return;
       try {
@@ -328,7 +396,7 @@
         opening = reader.openDoc(path).catch(error => { opening = null; throw error; });
         pageMapOf(path).then(found => path === newPath && setEntry(found));
       }
-      setStatus('Ouverture du PDF…');
+      setStatus(text.opening);
       try {
         const opened = await opening;
         if (path !== newPath) return;
@@ -338,7 +406,7 @@
         return;
       }
       $('.count').textContent = `/ ${doc.pages.length}`;
-      $('.full').textContent = `PDF entier (${Math.round(doc.size / 1048576)} Mo)`;
+      $('.full').textContent = `${text.wholePdf} (${Math.round(doc.size / 1048576)} ${text.megabytes})`;
       show(n ?? (await pageMapOf(path))?.pdfParts[0].pdf[0] ?? 1);
     };
 
@@ -394,13 +462,12 @@
     return { open, close };
   };
 
-  const addBrowseButton = () => {
-    const link = document.querySelector(`a[href*="${UPLOADS_PATH}"][href$=".pdf"]`);
-    if (!link) return;
-    const params = new URLSearchParams({ apercu: '', pdf: link.pathname.slice(UPLOADS_PATH.length), titre: document.querySelector('.referenceCode')?.textContent.trim() ?? '' });
-    const button = Object.assign(document.createElement('a'), { href: `#${params}`, textContent: 'Feuilleter le PDF page par page' });
-    button.style.cssText = 'display: inline-block; margin: 0 0 10px; padding: 6px 14px; border-radius: 4px; background: #127a4b; color: #fff; font-weight: 600; text-decoration: none';
-    (link.closest('.digital-object-reference, .filename') ?? link).before(button);
+  const addBrowseButtons = () => {
+    for (const { path, title, place } of site.pdfs()) {
+      const button = Object.assign(document.createElement('a'), { href: `#${new URLSearchParams({ apercu: '', pdf: path, titre: title })}`, textContent: text.browse });
+      button.style.cssText = 'display: inline-block; margin: 0 10px 10px 0; padding: 6px 14px; border-radius: 4px; background: #127a4b; color: #fff; font-weight: 600; text-decoration: none';
+      place.before(button);
+    }
   };
 
   let viewer = null;
@@ -414,6 +481,6 @@
     viewer.open(params.get('pdf'), Math.round(+params.get('page')) || null, params.get('titre'));
   };
   addEventListener('hashchange', start);
-  whenReady(addBrowseButton);
+  whenReady(addBrowseButtons);
   start();
 })();

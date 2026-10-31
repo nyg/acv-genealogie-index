@@ -5,21 +5,58 @@ import assert from "node:assert/strict";
 const script = readFileSync(new URL("../docs/apercu.user.js", import.meta.url), "utf8");
 const pageMap = JSON.parse(readFileSync(new URL("../docs/pdf-pages.json", import.meta.url), "utf8"));
 const { registerPageAt, locatePage } = vm.runInContext(`${readFileSync(new URL("../site/page_map.js", import.meta.url), "utf8")}\n;({ registerPageAt, locatePage })`, vm.createContext({}));
+const readerContext = vm.createContext({ URL: { createObjectURL: blob => `blob:${blob}`, revokeObjectURL() {} }, document: { createElement: () => ({ getContext() {}, toBlob: resolve => resolve("jpeg") }) } });
+const createPdfjsReader = vm.runInContext(`${readFileSync(new URL("../site/pdfjs_reader.js", import.meta.url), "utf8")}\n;createPdfjsReader`, readerContext);
 const HASH = "#apercu=&page=6&pdf=8%2Ff%2Fe%2FCH-ACV_RN-ED-15-1.pdf&titre=Ed+15%2F1";
+const ZURICH = "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=316880";
 
-const run = (href, storage = new Map()) => {
+const element = attributes => ({ ...attributes, inserted: [], getAttribute(name) { return this[name]; }, before(node) { this.inserted.push(node); }, closest: () => null, style: {} });
+
+const page = (links, cells = {}) => ({
+  readyState: "complete",
+  querySelector: selector => selector in cells ? { textContent: cells[selector] } : selector.includes(".pdf") ? links[0] ?? null : null,
+  querySelectorAll: selector => selector.includes('openDoc(" i') ? links : [],
+  createElement: () => ({ style: {} }),
+});
+
+const fakeElement = () => ({ style: {}, classList: { toggle() {} }, addEventListener() {}, append() {}, replaceChildren() {}, blur() {} });
+
+const viewerPage = () => {
+  const root = { querySelector: () => fakeElement() };
+  const host = { ...fakeElement(), attachShadow: () => root };
+  return { root, dom: { readyState: "complete", createElement: () => host, body: { append() {} }, querySelector: () => null, querySelectorAll: () => [] } };
+};
+
+const flush = () => new Promise(resolve => setTimeout(resolve));
+
+const fakePdfjs = () => {
+  const requests = [];
+  const pdfPage = { getViewport: ({ scale }) => ({ width: 1000 * scale, height: 600 * scale }), render: () => ({ promise: Promise.resolve() }), cleanup: () => { requests.push("cleanup"); } };
+  const pdf = { numPages: 3, getMetadata: async () => ({ contentLength: 2048 }), getPage: async n => { requests.push(n); return pdfPage; } };
+  return { requests, load: async () => ({ getDocument: options => { requests.push(options); return { promise: Promise.resolve(pdf) }; } }) };
+};
+
+const run = (href, storage = new Map(), dom = {}) => {
   const url = new URL(href);
   const replaced = [];
   const events = [];
   const dataset = {};
   vm.runInContext(script, vm.createContext({
-    location: { hostname: url.hostname, pathname: url.pathname, search: url.search, hash: url.hash },
-    document: { documentElement: { dataset }, readyState: "loading", addEventListener() {}, dispatchEvent: event => events.push(event.type) },
+    location: { hostname: url.hostname, origin: url.origin, pathname: url.pathname, search: url.search, hash: url.hash },
+    document: { documentElement: { dataset, style: {} }, readyState: "loading", addEventListener() {}, dispatchEvent: event => events.push(event.type), ...dom },
     Event: class { constructor(type) { this.type = type; } },
     history: { replaceState: (state, title, target) => replaced.push(target) },
     sessionStorage: { getItem: key => storage.get(key) ?? null, setItem: (key, value) => storage.set(key, value), removeItem: key => storage.delete(key) },
     addEventListener() {},
     URLSearchParams,
+    setTimeout,
+    ResizeObserver: class { observe() {} },
+    localStorage: { getItem: () => null, setItem() {} },
+    fetch: async () => ({ ok: false }),
+    Worker: class { postMessage() {} },
+    Blob: class {},
+    URL: { createObjectURL: () => "" },
+    window: {},
   }));
   return { replaced, events, dataset, storage };
 };
@@ -51,6 +88,74 @@ const tests = {
       }
     }
   },
+  "le script tourne sur le catalogue de Zurich": () => assert.match(script, /@match +https:\/\/suche\.staatsarchiv\.djiktzh\.ch\/\*/),
+  "pdf.js est chargé dans une version exacte": () => assert.match(script, /pdfjs-dist@\d+\.\d+\.\d+\/build/),
+  "une fiche de Zurich reçoit un bouton vers le PDF de son lien openDoc": () => {
+    const link = element({ href: "JavaScript:openDoc('Dateien/310/D1550397.pdf');" });
+    run(ZURICH, new Map(), page([link], { ".veXDetailAttributValue": " E III 21.1 " }));
+    assert.equal(link.inserted.length, 1);
+    const [button] = link.inserted;
+    assert.equal(button.textContent, "PDF seitenweise durchblättern");
+    const params = new URLSearchParams(button.href.slice(1));
+    assert.equal(params.get("pdf"), "Dateien/310/D1550397.pdf");
+    assert.equal(params.get("titre"), "E III 21.1");
+  },
+  "une fiche de Zurich à plusieurs PDF reçoit un bouton par PDF, sans les autres documents": () => {
+    const links = ["Dateien/1.pdf", "Dateien/2.pdf", "Dateien/3.jpg"].map(path => element({ href: `JavaScript:openDoc('${path}');` }));
+    run(ZURICH, new Map(), page(links));
+    assert.deepEqual(links.map(link => link.inserted.length), [1, 1, 0]);
+  },
+  "une fiche de davel-vd.ch garde son bouton et le chemin relatif au dossier uploads": () => {
+    const link = element({ pathname: "/uploads/r/null/8/f/e/CH-ACV_RN-ED-15-1.pdf" });
+    run("https://davel-vd.ch/ed-15-1", new Map(), page([link], { ".referenceCode": "Ed 15/1" }));
+    const params = new URLSearchParams(link.inserted[0].href.slice(1));
+    assert.equal(link.inserted[0].textContent, "Feuilleter le PDF page par page");
+    assert.equal(params.get("pdf"), "8/f/e/CH-ACV_RN-ED-15-1.pdf");
+    assert.equal(params.get("titre"), "Ed 15/1");
+  },
+  "le lecteur s'affiche en allemand à Zurich": async () => {
+    const { root, dom } = viewerPage();
+    run(`${ZURICH}#apercu=&page=2&pdf=Dateien%2F310%2FD1550397.pdf&titre=E+III+21.1`, new Map(), dom);
+    await flush();
+    assert.match(root.innerHTML, /Vorherige Seite/);
+    assert.match(root.innerHTML, /Einpassen/);
+    assert.doesNotMatch(root.innerHTML, /Page précédente|Ajuster|Réessayer|PDF entier|Pivoter/);
+  },
+  "le lecteur reste en français sur davel-vd.ch": async () => {
+    const { root, dom } = viewerPage();
+    run(`https://davel-vd.ch/ed-15-1${HASH}`, new Map(), dom);
+    await flush();
+    assert.match(root.innerHTML, /Page précédente/);
+    assert.doesNotMatch(root.innerHTML, /Vorherige Seite/);
+  },
+  "le catalogue de Zurich ignore la page en attente de davel-vd.ch": () => {
+    const pending = new Map([["acv-apercu", JSON.stringify({ path: "/detail.aspx?id=316880", hash: HASH })]]);
+    const { replaced, storage } = run(ZURICH, pending);
+    assert.deepEqual(replaced, []);
+    assert.equal(storage.size, 1);
+  },
+  "pdf.js ne lit le PDF que par plages et donne sa taille sans le télécharger": async () => {
+    const { requests, load } = fakePdfjs();
+    const reader = createPdfjsReader(path => `https://example.org/${path}`, load);
+    const doc = await reader.openDoc("a.pdf");
+    assert.deepEqual({ ...requests[0] }, { url: "https://example.org/a.pdf", disableAutoFetch: true, disableStream: true, rangeChunkSize: 1048576 });
+    assert.deepEqual([doc.url, doc.size, doc.pages.length], ["https://example.org/a.pdf", 2048, 3]);
+  },
+  "pdf.js réutilise le document ouvert et l'image déjà rendue": async () => {
+    const { requests, load } = fakePdfjs();
+    const reader = createPdfjsReader(path => path, load);
+    assert.equal(await reader.imageOf("a.pdf", 2), "blob:jpeg");
+    assert.equal(await reader.imageOf("a.pdf", 2), "blob:jpeg");
+    await reader.openDoc("a.pdf");
+    assert.deepEqual(requests.slice(1), [2, "cleanup"]);
+  },
+  "après un échec de chargement de pdf.js, un nouvel essai recharge la bibliothèque": async () => {
+    const { load } = fakePdfjs();
+    let attempts = 0;
+    const reader = createPdfjsReader(path => path, () => ++attempts === 1 ? Promise.reject(new Error("réseau")) : load());
+    await assert.rejects(reader.openDoc("a.pdf"), /réseau/);
+    assert.equal((await reader.openDoc("a.pdf")).size, 2048);
+  },
   "sur le site, le script signale sa présence": () => {
     const { dataset, events } = run("https://nyg.github.io/acv-genealogie-index/");
     assert.equal("acvApercu" in dataset, true);
@@ -77,7 +182,7 @@ const tests = {
 let failures = 0;
 for (const [name, test] of Object.entries(tests)) {
   try {
-    test();
+    await test();
     console.log(`ok   ${name}`);
   } catch (error) {
     failures++;
