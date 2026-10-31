@@ -31,6 +31,13 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [Ec 80/3](https://davel.vd.ch/detail.aspx?ID=178627) | Le Mont-sur-Lausanne | Dates | 1872-1875 | 1748-1875 | Le titre liste aussi Annonces de mariage 1832-1867 et Naissances 1748-1875 ; ces dates ne reprennent que la première ligne. | |
 | [Ec 87/2](https://davel.vd.ch/detail.aspx?ID=178689) | Morrens | Titre | Mariages 1842-1869. - - Annonces de mariage 1812-1869. | Mariages 1842-1869. ; Annonces de mariage 1812-1869. | Tiret doublé à la place du retour à la ligne des autres fiches Ec. | |
 | [Ed 68 bis/1](https://davel-vd.ch/ed-68-bis-1) | Huémoz | Portée et contenu | Baptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1863 novembre 15) | Baptêmes de l'Eglise évangélique réformée (1824 octobre 1 - 1863 novembre 15) | Le PDF, p. 1 : registre ouvert le 1er octobre 1824, après le décret du 22 mai 1824 qui établit la paroisse ; premier acte en décembre 1824. | |
+| [SB 23/844](https://davel.vd.ch/detail.aspx?ID=606070) | Lignerolle | Titre | Décès A et B 1887-1894 (Il manque l'année 1886 pour les décès A) | Décès A et B 1886-1894 (Il manque l'année 1886 pour les décès A) | La note suppose que la ligne commence en 1886, comme le reste de la boîte ; SB 23/843 s'arrête en 1885. | |
+| [SB 23/2016](https://davel.vd.ch/detail.aspx?ID=612894) | Lignerolle | Titre | Décès B 11905-1907 | Décès B 1905-1907 | Chiffre en trop. | |
+| [SB 23/2017](https://davel.vd.ch/detail.aspx?ID=612895) | Lignerolle | Titre | Décès B 1880 | Décès B 1908-1909 | Le reste de la boîte et ses dates : 1908-1909. | |
+| [SB 115/427](https://davel.vd.ch/detail.aspx?ID=615786) | Lignerolle | Titre | Décès A et B 1910-1913 (il manque les années 1914-1918 pour les décès A) | Décès A et B 1910-1918 (il manque les années 1914-1918 pour les décès A) | La note suppose que la ligne va jusqu'en 1918, comme le reste de la boîte et ses dates. | |
+| [SB 23/846](https://davel.vd.ch/detail.aspx?ID=606073) | Romainmôtier | Titre | Décès A et B 1887 | Décès A et B 1877 | Le reste de la boîte et ses dates : 1877. | |
+| [SB 23/864](https://davel.vd.ch/detail.aspx?ID=606243) | Vallorbe | Titre | Mariages A et B 1889.1890 | Mariages A et B 1889-1890 | Point à la place du tiret ; le reste de la boîte et ses dates : 1889-1890. | |
+| [SB 23/2046](https://davel.vd.ch/detail.aspx?ID=612956) | Vallorbe | Dates | 1908 | 1907 | Titre : 1907 ; SB 23/2045 couvre 1906 et SB 23/2047 1908. | |
 
 ## À vérifier sur le PDF
 
@@ -47,6 +54,7 @@ Les dates de la fiche ne couvrent pas celles du contenu, ou la pagination du PDF
 | [Eb 105/7](https://davel-vd.ch/eb-105-7) | Penthaz | Date(s) | 1739-03-12 - 1864-12-31 | Portée et contenu : Décès (1729 mars 12 - 1821 juin 30). | |
 | [Ed 110/3](https://davel-vd.ch/ed-110-3) | Prilly | Date(s) | 1821-07-01 - 1832-12-28 | Portée et contenu : Mariages (1821 juillet 1 - 1832 décembre 31). | |
 | [Ed 110/9](https://davel-vd.ch/ed-110-9) | Prilly | Portée et contenu | Décès (1821 juillet 1er - 1875 décembre 12) | Date(s) : 1821-07-01 - 1875-12-31. | |
+| [SB 269/85/2/4](https://davel.vd.ch/detail.aspx?ID=1336289) | Romainmôtier | Dates | 1911 juin 16 - 1928 décembre 28 | [SB 269/85/2/3](https://davel.vd.ch/detail.aspx?ID=1336288) va jusqu'au 9 juin 1922, soit 1922 ici, soit 1911 là-bas. SB 269 n'a pas de PDF en ligne : seul le registre peut trancher. | |
 
 ## Entrées absentes de davel.vd.ch
 
@@ -54,3 +62,5 @@ Les dates de la fiche ne couvrent pas celles du contenu, ou la pagination du PDF
 |---|---|---|---|
 | SB 23/995 et SB 23/997 | Rougemont | La fiche SB 23/994 renvoie directement à SB 23/996, puis SB 23/996 à SB 23/998. D'après les boîtes voisines, elles couvriraient 1884 et 1887-1888. | |
 | SB 23/500 | Romanel-sur-Lausanne | La fiche SB 23/499 (1890) renvoie directement à SB 23/501 (1891). | |
+| SB 23/859 et SB 23/860 | Vallorbe | Aucune boîte ne couvre 1882 : SB 23/859 s'arrête en 1881 et SB 23/860 commence en 1883, alors que les cotes se suivent. | |
+| SB 115/1214 à SB 115/1216 | Romainmôtier | La période 1951-1954 a une entrée pour Lignerolle (1214), Vaulion (1215) et Vallorbe (1216), mais aucune pour Romainmôtier, dont les registres SB 267/85 vont jusqu'en 2004. | |

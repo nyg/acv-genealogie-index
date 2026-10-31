@@ -1,0 +1,62 @@
+[
+ {
+  "slug": "sa-622379",
+  "parent": null,
+  "text": "SB 115/981-982 Romainmôtier (arrondissement de l'état civil), 1929-1950 (Série)",
+  "children": [
+   "sa-622759",
+   "sa-622787"
+  ],
+  "f": {
+   "Ref. code": "SB 115/981-982",
+   "Title": "Romainmôtier (arrondissement de l'état civil)",
+   "Dates": "1929-1950",
+   "Creation date(s)": "1929 - 1950",
+   "Level": "Série",
+   "Importance matérielle": "2 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Orbe dès le 1er juin 2004.\nAdjonction de la commune des Clées en 1936.\nComprend:\n- Romainmôtier\n- Bofflens\n- Bretonnières\n- Croy\n- Envy\n- Juriens\n- La Praz\n- Les Clées\n- Premier",
+   "Entries": "Romainmôtier (Suisse, VD) (Lieux\\R)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=622379",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-622759",
+  "parent": "sa-622379",
+  "text": "SB 115/981 - Mariages 1929-1943 \\ - Publications de promesses de mariage 1929-1933, 1935-1937, 1940-1943 \\ - Pièces diverses relatives à l'état civil 1930-1943: principalement constatations de décès, divorces, rectifications de nom, 1929-1943 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/981",
+   "Title": "- Mariages 1929-1943\n- Publications de promesses de mariage 1929-1933, 1935-1937, 1940-1943\n- Pièces diverses relatives à l'état civil 1930-1943: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1929-1943",
+   "Creation date(s)": "1929 - 1943",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=622759",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-622787",
+  "parent": "sa-622379",
+  "text": "SB 115/982 - Mariages 1944-1950 \\ - Publications de promesses de mariage 1944-1946, 1949 \\ - Pièces diverses relatives à l'état civil 1946, 1948-1950: principalement constatations de décès, divorces, rectifications de nom, 1944-1950 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/982",
+   "Title": "- Mariages 1944-1950\n- Publications de promesses de mariage 1944-1946, 1949\n- Pièces diverses relatives à l'état civil 1946, 1948-1950: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1944-1950",
+   "Creation date(s)": "1944 - 1950",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=622787",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

@@ -1,0 +1,104 @@
+[
+ {
+  "slug": "sa-653824",
+  "parent": null,
+  "text": "SB 268/7 Ballaigues (arrondissement de l'état civil), 1882-1950 (Sous-fonds)",
+  "children": [
+   "sa-680360",
+   "sa-680361",
+   "sa-680362",
+   "sa-680363"
+  ],
+  "f": {
+   "Ref. code": "SB 268/7",
+   "Title": "Ballaigues (arrondissement de l'état civil)",
+   "Dates": "1882-1950",
+   "Creation date(s)": "1882 - 1950",
+   "Level": "Sous-fonds",
+   "Importance matérielle": "4 registres",
+   "Access regulations": "Seules les promesses de mariage de plus de 80 ans sont consultables librement. Pour les promesses de mariage postérieures une autorisation écrite est nécessaire.",
+   "Language": "Français",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 15 décembre 1875).\nSupprimé par l'arrêté du 5 septembre 1950 et rattaché à l'arrondissement de Vallorbe dès le 1er janvier 1951.",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=653824",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680360",
+  "parent": "sa-653824",
+  "text": "SB 268/7/1 Registre de publications de promesses de mariage, 1882-1907 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/7/1",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1882 avril 12 - 1907 avril 6",
+   "Creation date(s)": "1882 - 1907",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 200 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1882 avril 12 - 1907 avril 6).",
+   "Access regulations": "Libre",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680360",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680361",
+  "parent": "sa-653824",
+  "text": "SB 268/7/2 Registre de publications de promesses de mariage, 1907-1913 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/7/2",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1907 octobre 17 - 1913 décembre 31",
+   "Creation date(s)": "1907 - 1913",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 48 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1907 octobre 17 - 1913 décembre 31).\nClôture du registre: [1914] \"par circulaire du 11 novembre 1911, le Département de justice et police a ordonné la clôture de ce registre pour le 31 décembre 1913\"",
+   "Access regulations": "Libre",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680361",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680362",
+  "parent": "sa-653824",
+  "text": "SB 268/7/3 Registre de publications de promesses de mariage, 1915-1939 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/7/3",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1915 janvier 26 - 1939 mars 22",
+   "Creation date(s)": "1915 - 1939",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 200 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1915 janvier 26 - 1939 mars 22).",
+   "Access regulations": "Seules les promesses de mariage de plus de 80 ans sont consultables sans autorisation.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680362",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680363",
+  "parent": "sa-653824",
+  "text": "SB 268/7/4 Registre de publications de promesses de mariage, 1939-1950 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/7/4",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1939 avril 5 - 1950 décembre 13",
+   "Creation date(s)": "1939 - 1950",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 122 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1939 avril 5 - 1950 décembre 13).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680363",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "slug": "sa-613757",
+  "parent": null,
+  "text": "SB 115/416-417 Ballaigues (arrondissement de l'état civil), 1910-1928 (Série)",
+  "children": [
+   "sa-615799",
+   "sa-615891"
+  ],
+  "f": {
+   "Ref. code": "SB 115/416-417",
+   "Title": "Ballaigues (arrondissement de l'état civil)",
+   "Dates": "1910-1928",
+   "Creation date(s)": "1910 - 1928",
+   "Level": "Série",
+   "Importance matérielle": "2 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 15 décembre 1875).\nSupprimé par l'arrêté du 5 septembre 1950 et rattaché à l'arrondissement de Vallorbe dès le 1er janvier 1951.",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=613757",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-615799",
+  "parent": "sa-613757",
+  "text": "SB 115/416 - Mariages A et B 1910-1924 \\ - Naissances B 1910-1924 \\ - Décès B 1910-1924 \\ - Pièces diverses relatives à l'état civil 1910-1911 et 1914-1924: principalement publications de promesses de mariage, divorces, rectifications de nom, 1910-1924 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/416",
+   "Title": "- Mariages A et B 1910-1924\n- Naissances B 1910-1924\n- Décès B 1910-1924\n- Pièces diverses relatives à l'état civil 1910-1911 et 1914-1924: principalement publications de promesses de mariage, divorces, rectifications de nom",
+   "Dates": "1910-1924",
+   "Creation date(s)": "1910 - 1924",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=615799",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-615891",
+  "parent": "sa-613757",
+  "text": "SB 115/417 - Mariages A et B 1925-1928 \\ - Naissances B 1925-1928 \\ - Décès B 1925-1928 \\ - Pièces diverses relatives à l'état civil 1925-1928: principalement publications de promesses de mariage, divorces, rectifications de nom, 1925-1928 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/417",
+   "Title": "- Mariages A et B 1925-1928\n- Naissances B 1925-1928\n- Décès B 1925-1928\n- Pièces diverses relatives à l'état civil 1925-1928: principalement publications de promesses de mariage, divorces, rectifications de nom",
+   "Dates": "1925-1928",
+   "Creation date(s)": "1925 - 1928",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=615891",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]
