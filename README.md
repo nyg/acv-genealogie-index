@@ -78,31 +78,6 @@ Les données sont publiées par les ACV sous licence [CC BY-SA 4.0](https://crea
 
 ## Développement
 
-### Structure
-
-- `scraper/davel_vd.js` : scraper pour davel-vd.ch, exécuté dans un vrai navigateur (le site bloque les clients HTTP sans navigateur). Il parcourt l'arbre d'une série et lit chaque fiche, une requête toutes les 1,5 s.
-- `scraper/davel_scopearchiv.js` : même rôle pour davel.vd.ch, en suivant les liens « entrée inférieure / entrée suivante » de chaque fiche.
-- `scraper/davel_pdf.js` : lit les PDF de davel-vd.ch par requêtes partielles, dans le navigateur : nombre de pages, bandes de numérisation, formats de page, et affichage d'une page sans télécharger le PDF entier. Le script d'aperçu l'inclut.
-- `scraper/pdf_plan.py` : pour les registres sans correspondance PDF, résume l'inventaire, le profil du PDF et les tables « Contenu PDF » de `index_paroisses.numbers`.
-- `scraper/plan.py` : calcule le prochain lot (séries pas encore dans `data/raw/`) et affiche les appels à lancer dans le navigateur.
-- `scraper/save_export.py` : enregistre un export d'un des scrapers dans `data/raw/`.
-- `scraper/parse_correspondence.py` : extrait les deux tables de correspondance (PDF) en JSON.
-- `data/raw/davel-vd/_series_index.json` : liste des 410 séries de davel-vd.ch (paroisses Eb/Ed, arrondissements SB 267).
-- `data/raw/davel-vd/_pdf_profiles.json` : profil de chaque PDF relevé (pages, bandes, formats).
-- `data/raw/davel/_index.json` : identifiants des entrées de davel.vd.ch par fonds, construit par lots.
-- `data/manual/` : corrections manuelles de l'OCR de la table des paroisses, et `pdf-pages.json`, saisi à la main : par registre, les pages du PDF de chaque partie (registre, répertoire) et la pagination du registre correspondante, avec des repères quand des feuillets blancs décalent la pagination. Ollon, Bex, Aigle, Ballaigues, Château-d'Oex et L'Étivaz sont saisis.
-- `data/manual/erreurs-acv.md` : erreurs des inventaires relevées en construisant l'index, à signaler aux ACV. Celles dont la correction est sûre sont dans `data/manual/corrections-inventaire.json`, que `build/inventory_corrections.py` applique aux fiches brutes ; le rapport signale une correction devenue sans effet.
-- `build/scope_parser.py` : analyse le champ « Portée et contenu » (type d'acte, dates, pages, tête-bêche, partie du registre).
-- `build/places.py` : noms de paroisses et localités rattachées.
-- `build/pdf_pages.py` : lit et vérifie `data/manual/pdf-pages.json` (une page du PDF par page du registre dans chaque partie, deux pour les doubles pages, parties imbriquées quand des pages portent deux numéros).
-- `build/scopearchiv.py` : registres et pièces de davel.vd.ch.
-- `site/apercu.user.js` : script d'aperçu des PDF pour Tampermonkey (voir « Installer le script »).
-- `site/page_map.js` : passage entre page du registre et page du PDF, commun au site et au script d'aperçu.
-- `build/build.py` : construit `data/acv.sqlite`, le site `docs/index.html` (un seul fichier, données incluses), `docs/apercu.user.js`, le script d'aperçu avec `scraper/davel_pdf.js` et `site/page_map.js` inclus, et `docs/pdf-pages.json`, les pages du PDF par registre que le script lit pour son sommaire.
-- `build/report.py` : couverture par fonds et problèmes de données (contenus non analysés, dates incohérentes, localités sans paroisse).
-- `build/preview.py` : version réduite du site (`site/preview.html`) pour l'aperçu du navigateur intégré.
-- `scripts/check.sh` : reconstruit, lance les tests, génère l'aperçu et affiche le rapport.
-
 ### Ajouter des séries
 
 La marche à suivre complète, pour un agent, est dans `.claude/skills/acv-scraping/SKILL.md`. En résumé :

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Registres vaudois : aperçu des PDF
 // @namespace    https://nyg.github.io/acv-genealogie-index/
-// @version      1.1.1
+// @version      1.2.0
 // @description  Affiche une page d'un PDF de davel-vd.ch sans télécharger le fichier entier, avec le sommaire des registres indexés.
 // @match        https://davel-vd.ch/*
 // @match        https://nyg.github.io/acv-genealogie-index/*
@@ -50,9 +50,20 @@
 
   const STYLE = `
     .viewer { position: fixed; inset: 0; display: flex; flex-direction: column; background: #1e1e1e; color: #eee; color-scheme: dark; font: 14px/1.4 system-ui, sans-serif; }
-    .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; padding: 6px 10px; background: #111; border-bottom: 1px solid #333; }
+    .bar { display: grid; grid-template-columns: minmax(max-content, 1fr) minmax(0, auto) minmax(max-content, 1fr); align-items: center; gap: 6px 16px; padding: 6px 10px; background: #111; border-bottom: 1px solid #333; }
+    .controls, .cell, .tools { display: flex; align-items: center; gap: 6px; }
+    .controls { gap: 10px; }
+    .cell[hidden] { display: none; }
+    .cell:not([hidden]) ~ .cell:not([hidden]) { border-left: 1px solid #484848; padding-left: 10px; }
+    .context { min-width: 0; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .title { font-weight: 600; margin-right: 4px; }
-    .tools { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-left: auto; }
+    .tools { justify-content: flex-end; }
+    @media (max-width: 1000px) {
+      .bar { display: flex; flex-wrap: wrap; }
+      .controls, .tools { flex-wrap: wrap; }
+      .tools { margin-left: auto; }
+      .context { order: 1; width: 100%; }
+    }
     button, .full { font: inherit; color: inherit; background: #2c2c2c; border: 1px solid #484848; border-radius: 4px; padding: 2px 10px; cursor: pointer; text-decoration: none; }
     button:hover, .full:hover { background: #3c3c3c; }
     button:disabled { opacity: 0.4; cursor: default; }
@@ -60,9 +71,11 @@
     .count, .also { color: #aaa; }
     .also { display: inline-flex; align-items: center; gap: 4px; }
     .where { color: #9fd9b9; }
+    .notice { position: absolute; right: 16px; bottom: 16px; display: flex; align-items: center; gap: 8px; padding: 4px 10px; background: #111; border: 1px solid #333; border-radius: 4px; }
+    .notice[hidden] { display: none; }
     .status { color: #bbb; }
     .status.error { color: #ff8a80; }
-    .main { flex: 1; min-height: 0; display: flex; }
+    .main { position: relative; flex: 1; min-height: 0; display: flex; }
     .toc { width: min(300px, 70vw); flex: none; overflow: auto; background: #161616; border-right: 1px solid #333; }
     .toc ol { list-style: none; margin: 0; padding: 6px 0; }
     .toc button { display: grid; gap: 2px; width: 100%; text-align: left; background: none; border: 0; border-left: 3px solid transparent; border-radius: 0; padding: 6px 10px; }
@@ -95,17 +108,22 @@
     root.innerHTML = `<style>${STYLE}</style>
       <div class="viewer">
         <div class="bar">
-          <button class="toc-toggle" title="Sommaire du registre (S)" hidden>☰</button>
-          <span class="title"></span>
-          <button class="prev" title="Page précédente (←)">‹</button>
-          <label>PDF p. <input class="page" inputmode="numeric" autocomplete="off"></label>
-          <span class="count"></span>
-          <button class="next" title="Page suivante (→)">›</button>
-          <label class="register" hidden>Registre p. <input class="register-page" autocomplete="off"></label>
-          <span class="also"></span>
-          <span class="where"></span>
-          <span class="status" aria-live="polite"></span>
-          <button class="retry" hidden>Réessayer</button>
+          <div class="controls">
+            <button class="cell toc-toggle" title="Sommaire du registre (S)" hidden>☰</button>
+            <span class="cell">
+              <button class="prev" title="Page précédente (←)">←</button>
+              <button class="next" title="Page suivante (→)">→</button>
+            </span>
+            <span class="cell">
+              <label>PDF p. <input class="page" inputmode="numeric" autocomplete="off"></label>
+              <span class="count"></span>
+            </span>
+            <span class="cell register" hidden>
+              <label>Registre p. <input class="register-page" autocomplete="off"></label>
+              <span class="also"></span>
+            </span>
+          </div>
+          <div class="context"><span class="title"></span> <span class="where"></span></div>
           <span class="tools">
             <button class="zoom-out" title="Réduire (−)">−</button>
             <button class="fit" title="Page entière (0)">Ajuster</button>
@@ -118,6 +136,10 @@
         <div class="main">
           <nav class="toc" aria-label="Sommaire du registre" hidden><ol></ol></nav>
           <div class="stage"><div class="frame"><img alt=""></div></div>
+          <div class="notice" hidden>
+            <span class="status" aria-live="polite"></span>
+            <button class="retry" hidden>Réessayer</button>
+          </div>
         </div>
       </div>`;
     const $ = selector => root.querySelector(selector);
@@ -151,6 +173,7 @@
       status.textContent = text;
       status.classList.toggle('error', failed);
       $('.retry').hidden = !failed;
+      $('.notice').hidden = !text;
     };
 
     const layout = () => {

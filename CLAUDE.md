@@ -1,6 +1,6 @@
 # Registres vaudois
 
-Index of the Archives cantonales vaudoises (ACV) civil-status registers for the user's genealogy research: for a place, an event and a date, `docs/index.html` names the register to open (cote, PDF, pages). The user writes in French; the site, README and data are in French. Layout and commands: `README.md`. Current coverage and data-quality issues: `python3 build/report.py`.
+Index of the Archives cantonales vaudoises (ACV) civil-status registers for the user's genealogy research: for a place, an event and a date, `docs/index.html` names the register to open (cote, PDF, pages). The user writes in French; the site, README and data are in French. Commands: `README.md`. Current coverage and data-quality issues: `python3 build/report.py`.
 
 ## Rules
 
