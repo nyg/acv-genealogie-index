@@ -66,7 +66,7 @@ Tampermonkey met ensuite le script à jour tout seul.
 
 Les liens « PDF p. » de l'index ouvrent la fiche du registre sur davel-vd.ch avec la page demandée par-dessus, et « Feuilleter le PDF » s'ajoute aux liens de chaque registre. Sur davel-vd.ch, chaque fiche qui a un PDF reçoit aussi un bouton « Feuilleter le PDF page par page ». Le script tourne sur davel-vd.ch, car ce site n'autorise pas les autres, dont celui de l'index, à lire ses PDF.
 
-Le script fonctionne aussi sur le catalogue du [Staatsarchiv Zürich](https://suche.staatsarchiv.djiktzh.ch/) : chaque fiche qui a un PDF reçoit un bouton « PDF seitenweise durchblättern ». Les pages de ces PDF sont au format JPEG 2000, que les navigateurs n'affichent pas : le script charge donc [pdf.js](https://mozilla.github.io/pdf.js/) depuis jsDelivr pour les décoder. Il n'y a pas de sommaire pour ces PDF.
+Le script fonctionne aussi sur le catalogue du [Staatsarchiv Zürich](https://suche.staatsarchiv.djiktzh.ch/) : chaque fiche qui a un PDF reçoit un bouton « PDF seitenweise durchblättern ». Les pages de ces PDF sont au format JPEG 2000, que les navigateurs n'affichent pas : le script charge donc [pdf.js](https://mozilla.github.io/pdf.js/) depuis jsDelivr pour les décoder. Il n'y a pas de sommaire pour ces PDF, et l'aperçu s'y affiche en allemand.
 
 | Commande | Effet |
 | --- | --- |

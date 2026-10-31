@@ -19,6 +19,16 @@ const page = (links, cells = {}) => ({
   createElement: () => ({ style: {} }),
 });
 
+const fakeElement = () => ({ style: {}, classList: { toggle() {} }, addEventListener() {}, append() {}, replaceChildren() {}, blur() {} });
+
+const viewerPage = () => {
+  const root = { querySelector: () => fakeElement() };
+  const host = { ...fakeElement(), attachShadow: () => root };
+  return { root, dom: { readyState: "complete", createElement: () => host, body: { append() {} }, querySelector: () => null, querySelectorAll: () => [] } };
+};
+
+const flush = () => new Promise(resolve => setTimeout(resolve));
+
 const fakePdfjs = () => {
   const requests = [];
   const pdfPage = { getViewport: ({ scale }) => ({ width: 1000 * scale, height: 600 * scale }), render: () => ({ promise: Promise.resolve() }), cleanup: () => { requests.push("cleanup"); } };
@@ -33,12 +43,20 @@ const run = (href, storage = new Map(), dom = {}) => {
   const dataset = {};
   vm.runInContext(script, vm.createContext({
     location: { hostname: url.hostname, origin: url.origin, pathname: url.pathname, search: url.search, hash: url.hash },
-    document: { documentElement: { dataset }, readyState: "loading", addEventListener() {}, dispatchEvent: event => events.push(event.type), ...dom },
+    document: { documentElement: { dataset, style: {} }, readyState: "loading", addEventListener() {}, dispatchEvent: event => events.push(event.type), ...dom },
     Event: class { constructor(type) { this.type = type; } },
     history: { replaceState: (state, title, target) => replaced.push(target) },
     sessionStorage: { getItem: key => storage.get(key) ?? null, setItem: (key, value) => storage.set(key, value), removeItem: key => storage.delete(key) },
     addEventListener() {},
     URLSearchParams,
+    setTimeout,
+    ResizeObserver: class { observe() {} },
+    localStorage: { getItem: () => null, setItem() {} },
+    fetch: async () => ({ ok: false }),
+    Worker: class { postMessage() {} },
+    Blob: class {},
+    URL: { createObjectURL: () => "" },
+    window: {},
   }));
   return { replaced, events, dataset, storage };
 };
@@ -94,6 +112,21 @@ const tests = {
     assert.equal(link.inserted[0].textContent, "Feuilleter le PDF page par page");
     assert.equal(params.get("pdf"), "8/f/e/CH-ACV_RN-ED-15-1.pdf");
     assert.equal(params.get("titre"), "Ed 15/1");
+  },
+  "le lecteur s'affiche en allemand à Zurich": async () => {
+    const { root, dom } = viewerPage();
+    run(`${ZURICH}#apercu=&page=2&pdf=Dateien%2F310%2FD1550397.pdf&titre=E+III+21.1`, new Map(), dom);
+    await flush();
+    assert.match(root.innerHTML, /Vorherige Seite/);
+    assert.match(root.innerHTML, /Einpassen/);
+    assert.doesNotMatch(root.innerHTML, /Page précédente|Ajuster|Réessayer|PDF entier|Pivoter/);
+  },
+  "le lecteur reste en français sur davel-vd.ch": async () => {
+    const { root, dom } = viewerPage();
+    run(`https://davel-vd.ch/ed-15-1${HASH}`, new Map(), dom);
+    await flush();
+    assert.match(root.innerHTML, /Page précédente/);
+    assert.doesNotMatch(root.innerHTML, /Vorherige Seite/);
   },
   "le catalogue de Zurich ignore la page en attente de davel-vd.ch": () => {
     const pending = new Map([["acv-apercu", JSON.stringify({ path: "/detail.aspx?id=316880", hash: HASH })]]);

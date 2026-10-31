@@ -102,11 +102,50 @@ const createPdfjsReader = (urlOf, load = loadPdfjs) => {
   return { openDoc, imageOf, pageInfo };
 };
 
+  const TEXT = {
+    fr: {
+      browse: 'Feuilleter le PDF page par page',
+      previous: 'Page précédente (←)',
+      next: 'Page suivante (→)',
+      pdfPage: 'PDF p.',
+      zoomOut: 'Réduire (−)',
+      fit: 'Ajuster',
+      fitTitle: 'Page entière (0)',
+      zoomIn: 'Agrandir (+)',
+      rotate: "Pivoter d'un quart de tour (R)",
+      wholePdf: 'PDF entier',
+      megabytes: 'Mo',
+      close: 'Fermer (Échap)',
+      retry: 'Réessayer',
+      opening: 'Ouverture du PDF…',
+      loading: 'Chargement…',
+      failure: 'Échec :',
+    },
+    de: {
+      browse: 'PDF seitenweise durchblättern',
+      previous: 'Vorherige Seite (←)',
+      next: 'Nächste Seite (→)',
+      pdfPage: 'PDF S.',
+      zoomOut: 'Verkleinern (−)',
+      fit: 'Einpassen',
+      fitTitle: 'Ganze Seite (0)',
+      zoomIn: 'Vergrössern (+)',
+      rotate: 'Um 90° drehen (R)',
+      wholePdf: 'Ganzes PDF',
+      megabytes: 'MB',
+      close: 'Schliessen (Esc)',
+      retry: 'Erneut versuchen',
+      opening: 'PDF wird geöffnet…',
+      loading: 'Wird geladen…',
+      failure: 'Fehler:',
+    },
+  };
+
   const SITES = {
     'davel-vd.ch': {
+      language: 'fr',
       challengePath: '/js_challenge.html',
       pageMap: true,
-      browseLabel: 'Feuilleter le PDF page par page',
       reader: () => {
         if (!window.pdf) {
           (() => {
@@ -471,7 +510,7 @@ const createPdfjsReader = (urlOf, load = loadPdfjs) => {
       },
     },
     'suche.staatsarchiv.djiktzh.ch': {
-      browseLabel: 'PDF seitenweise durchblättern',
+      language: 'de',
       reader: () => createPdfjsReader(path => `${location.origin}/${path}`),
       pdfs: () => [...document.querySelectorAll('a[href*="openDoc(" i]')].flatMap(link => {
         const path = /openDoc\('([^']+\.pdf)'\)/i.exec(link.getAttribute('href'))?.[1];
@@ -480,6 +519,7 @@ const createPdfjsReader = (urlOf, load = loadPdfjs) => {
     },
   };
   const site = SITES[location.hostname];
+  const text = TEXT[site.language];
 
   if (site.challengePath) {
     if (location.pathname === site.challengePath) {
@@ -593,11 +633,11 @@ function registerPageAt(part, pdf) {
           <div class="controls">
             <button class="cell toc-toggle" title="Sommaire du registre (S)" hidden>☰</button>
             <span class="cell">
-              <button class="prev" title="Page précédente (←)">←</button>
-              <button class="next" title="Page suivante (→)">→</button>
+              <button class="prev" title="${text.previous}">←</button>
+              <button class="next" title="${text.next}">→</button>
             </span>
             <span class="cell">
-              <label>PDF p. <input class="page" inputmode="numeric" autocomplete="off"></label>
+              <label>${text.pdfPage} <input class="page" inputmode="numeric" autocomplete="off"></label>
               <span class="count"></span>
             </span>
             <span class="cell register" hidden>
@@ -607,12 +647,12 @@ function registerPageAt(part, pdf) {
           </div>
           <div class="context"><span class="title"></span> <span class="where"></span></div>
           <span class="tools">
-            <button class="zoom-out" title="Réduire (−)">−</button>
-            <button class="fit" title="Page entière (0)">Ajuster</button>
-            <button class="zoom-in" title="Agrandir (+)">+</button>
-            <button class="rotate" title="Pivoter d'un quart de tour (R)">↻</button>
-            <a class="full" target="_blank" rel="noopener">PDF entier</a>
-            <button class="close" title="Fermer (Échap)">×</button>
+            <button class="zoom-out" title="${text.zoomOut}">−</button>
+            <button class="fit" title="${text.fitTitle}">${text.fit}</button>
+            <button class="zoom-in" title="${text.zoomIn}">+</button>
+            <button class="rotate" title="${text.rotate}">↻</button>
+            <a class="full" target="_blank" rel="noopener">${text.wholePdf}</a>
+            <button class="close" title="${text.close}">×</button>
           </span>
         </div>
         <div class="main">
@@ -620,7 +660,7 @@ function registerPageAt(part, pdf) {
           <div class="stage"><div class="frame"><img alt=""></div></div>
           <div class="notice" hidden>
             <span class="status" aria-live="polite"></span>
-            <button class="retry" hidden>Réessayer</button>
+            <button class="retry" hidden>${text.retry}</button>
           </div>
         </div>
       </div>`;
@@ -648,7 +688,7 @@ function registerPageAt(part, pdf) {
       return loading.get(key);
     };
 
-    const failure = error => `Échec : ${error.message.replace(/^\S+\.pdf: /, '')}`;
+    const failure = error => `${text.failure} ${error.message.replace(/^\S+\.pdf: /, '')}`;
 
     const setStatus = (text, failed = false) => {
       const status = $('.status');
@@ -750,9 +790,9 @@ function registerPageAt(part, pdf) {
       history.replaceState(null, '', `#${new URLSearchParams({ apercu: '', page: n, pdf: path, titre: title })}`);
       whenReady(() => {
         originalTitle ??= document.title;
-        document.title = `${title} · PDF p. ${n}`;
+        document.title = `${title} · ${text.pdfPage} ${n}`;
       });
-      setStatus('Chargement…');
+      setStatus(text.loading);
       await sleep(NAVIGATION_DELAY_MS);
       if (n !== current) return;
       try {
@@ -810,7 +850,7 @@ function registerPageAt(part, pdf) {
         opening = reader.openDoc(path).catch(error => { opening = null; throw error; });
         pageMapOf(path).then(found => path === newPath && setEntry(found));
       }
-      setStatus('Ouverture du PDF…');
+      setStatus(text.opening);
       try {
         const opened = await opening;
         if (path !== newPath) return;
@@ -820,7 +860,7 @@ function registerPageAt(part, pdf) {
         return;
       }
       $('.count').textContent = `/ ${doc.pages.length}`;
-      $('.full').textContent = `PDF entier (${Math.round(doc.size / 1048576)} Mo)`;
+      $('.full').textContent = `${text.wholePdf} (${Math.round(doc.size / 1048576)} ${text.megabytes})`;
       show(n ?? (await pageMapOf(path))?.pdfParts[0].pdf[0] ?? 1);
     };
 
@@ -878,7 +918,7 @@ function registerPageAt(part, pdf) {
 
   const addBrowseButtons = () => {
     for (const { path, title, place } of site.pdfs()) {
-      const button = Object.assign(document.createElement('a'), { href: `#${new URLSearchParams({ apercu: '', pdf: path, titre: title })}`, textContent: site.browseLabel });
+      const button = Object.assign(document.createElement('a'), { href: `#${new URLSearchParams({ apercu: '', pdf: path, titre: title })}`, textContent: text.browse });
       button.style.cssText = 'display: inline-block; margin: 0 10px 10px 0; padding: 6px 14px; border-radius: 4px; background: #127a4b; color: #fff; font-weight: 600; text-decoration: none';
       place.before(button);
     }
