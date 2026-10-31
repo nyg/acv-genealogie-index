@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         Registres vaudois : aperçu des PDF
 // @namespace    https://nyg.github.io/acv-genealogie-index/
-// @version      1.2.0
-// @description  Affiche une page d'un PDF de davel-vd.ch sans télécharger le fichier entier, avec le sommaire des registres indexés.
+// @version      1.3.0
+// @description  Affiche une page d'un PDF de davel-vd.ch ou du Staatsarchiv Zürich sans télécharger le fichier entier, avec le sommaire des registres indexés.
 // @match        https://davel-vd.ch/*
+// @match        https://suche.staatsarchiv.djiktzh.ch/*
 // @match        https://nyg.github.io/acv-genealogie-index/*
 // @run-at       document-start
 // @grant        none
@@ -15,7 +16,6 @@
   const SITE_HOST = 'nyg.github.io';
   const PAGE_MAP_URL = 'https://nyg.github.io/acv-genealogie-index/pdf-pages.json';
   const UPLOADS_PATH = '/uploads/r/null/';
-  const CHALLENGE_PATH = '/js_challenge.html';
   const PENDING_KEY = 'acv-apercu';
   const ZOOM_KEY = 'acv-apercu-zoom';
   const TOC_KEY = 'acv-apercu-sommaire';
@@ -39,14 +39,47 @@
     return;
   }
 
-  if (location.pathname === CHALLENGE_PATH) {
-    if (hashParams().has('apercu')) sessionStorage.setItem(PENDING_KEY, JSON.stringify({ path: new URLSearchParams(location.search).get('redirect') ?? '/', hash: location.hash }));
-    return;
-  }
+  /*__PDFJS_READER__*/
 
-  const pending = JSON.parse(sessionStorage.getItem(PENDING_KEY));
-  sessionStorage.removeItem(PENDING_KEY);
-  if (pending && !location.hash && pending.path === location.pathname + location.search) history.replaceState(null, '', pending.hash);
+  const SITES = {
+    'davel-vd.ch': {
+      challengePath: '/js_challenge.html',
+      pageMap: true,
+      browseLabel: 'Feuilleter le PDF page par page',
+      reader: () => {
+        if (!window.pdf) {
+          /*__PDF_READER__*/
+        }
+        window.pdf.state.delay = 0;
+        return window.pdf;
+      },
+      pdfs: () => {
+        const link = document.querySelector(`a[href*="${UPLOADS_PATH}"][href$=".pdf"]`);
+        if (!link) return [];
+        return [{ path: link.pathname.slice(UPLOADS_PATH.length), title: document.querySelector('.referenceCode')?.textContent.trim() ?? '', place: link.closest('.digital-object-reference, .filename') ?? link }];
+      },
+    },
+    'suche.staatsarchiv.djiktzh.ch': {
+      browseLabel: 'PDF seitenweise durchblättern',
+      reader: () => createPdfjsReader(path => `${location.origin}/${path}`),
+      pdfs: () => [...document.querySelectorAll('a[href*="openDoc(" i]')].flatMap(link => {
+        const path = /openDoc\('([^']+\.pdf)'\)/i.exec(link.getAttribute('href'))?.[1];
+        return path ? [{ path, title: document.querySelector('.veXDetailAttributValue')?.textContent.trim() ?? '', place: link }] : [];
+      }),
+    },
+  };
+  const site = SITES[location.hostname];
+
+  if (site.challengePath) {
+    if (location.pathname === site.challengePath) {
+      if (hashParams().has('apercu')) sessionStorage.setItem(PENDING_KEY, JSON.stringify({ path: new URLSearchParams(location.search).get('redirect') ?? '/', hash: location.hash }));
+      return;
+    }
+
+    const pending = JSON.parse(sessionStorage.getItem(PENDING_KEY));
+    sessionStorage.removeItem(PENDING_KEY);
+    if (pending && !location.hash && pending.path === location.pathname + location.search) history.replaceState(null, '', pending.hash);
+  }
 
   const STYLE = `
     .viewer { position: fixed; inset: 0; display: flex; flex-direction: column; background: #1e1e1e; color: #eee; color-scheme: dark; font: 14px/1.4 system-ui, sans-serif; }
@@ -90,17 +123,12 @@
   `;
 
   const createViewer = () => {
-    if (!window.pdf) {
-      /*__PDF_READER__*/
-    }
-    const reader = window.pdf;
-    reader.state.delay = 0;
+    const reader = site.reader();
 
     /*__PAGE_MAP__*/
 
     let pageMaps = null;
-    const pageMapOf = pdfPath => (pageMaps ??= fetch(PAGE_MAP_URL).then(response => response.ok ? response.json() : {}).catch(() => ({})))
-      .then(maps => maps[pdfPath] ?? null);
+    const pageMapOf = async pdfPath => site.pageMap ? (await (pageMaps ??= fetch(PAGE_MAP_URL).then(response => response.ok ? response.json() : {}).catch(() => ({}))))[pdfPath] ?? null : null;
 
     const host = document.createElement('acv-apercu');
     host.style.cssText = 'all: initial; position: fixed; inset: 0; z-index: 2147483647';
@@ -394,13 +422,12 @@
     return { open, close };
   };
 
-  const addBrowseButton = () => {
-    const link = document.querySelector(`a[href*="${UPLOADS_PATH}"][href$=".pdf"]`);
-    if (!link) return;
-    const params = new URLSearchParams({ apercu: '', pdf: link.pathname.slice(UPLOADS_PATH.length), titre: document.querySelector('.referenceCode')?.textContent.trim() ?? '' });
-    const button = Object.assign(document.createElement('a'), { href: `#${params}`, textContent: 'Feuilleter le PDF page par page' });
-    button.style.cssText = 'display: inline-block; margin: 0 0 10px; padding: 6px 14px; border-radius: 4px; background: #127a4b; color: #fff; font-weight: 600; text-decoration: none';
-    (link.closest('.digital-object-reference, .filename') ?? link).before(button);
+  const addBrowseButtons = () => {
+    for (const { path, title, place } of site.pdfs()) {
+      const button = Object.assign(document.createElement('a'), { href: `#${new URLSearchParams({ apercu: '', pdf: path, titre: title })}`, textContent: site.browseLabel });
+      button.style.cssText = 'display: inline-block; margin: 0 10px 10px 0; padding: 6px 14px; border-radius: 4px; background: #127a4b; color: #fff; font-weight: 600; text-decoration: none';
+      place.before(button);
+    }
   };
 
   let viewer = null;
@@ -414,6 +441,6 @@
     viewer.open(params.get('pdf'), Math.round(+params.get('page')) || null, params.get('titre'));
   };
   addEventListener('hashchange', start);
-  whenReady(addBrowseButton);
+  whenReady(addBrowseButtons);
   start();
 })();

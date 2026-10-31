@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         Registres vaudois : aperçu des PDF
 // @namespace    https://nyg.github.io/acv-genealogie-index/
-// @version      1.2.0
-// @description  Affiche une page d'un PDF de davel-vd.ch sans télécharger le fichier entier, avec le sommaire des registres indexés.
+// @version      1.3.0
+// @description  Affiche une page d'un PDF de davel-vd.ch ou du Staatsarchiv Zürich sans télécharger le fichier entier, avec le sommaire des registres indexés.
 // @match        https://davel-vd.ch/*
+// @match        https://suche.staatsarchiv.djiktzh.ch/*
 // @match        https://nyg.github.io/acv-genealogie-index/*
 // @run-at       document-start
 // @grant        none
@@ -15,7 +16,6 @@
   const SITE_HOST = 'nyg.github.io';
   const PAGE_MAP_URL = 'https://nyg.github.io/acv-genealogie-index/pdf-pages.json';
   const UPLOADS_PATH = '/uploads/r/null/';
-  const CHALLENGE_PATH = '/js_challenge.html';
   const PENDING_KEY = 'acv-apercu';
   const ZOOM_KEY = 'acv-apercu-zoom';
   const TOC_KEY = 'acv-apercu-sommaire';
@@ -39,59 +39,77 @@
     return;
   }
 
-  if (location.pathname === CHALLENGE_PATH) {
-    if (hashParams().has('apercu')) sessionStorage.setItem(PENDING_KEY, JSON.stringify({ path: new URLSearchParams(location.search).get('redirect') ?? '/', hash: location.hash }));
-    return;
-  }
+  const PDFJS_BUILD = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.10.38/build';
+const RANGE_BYTES = 1048576;
+const RENDER_SCALE = 300 / 72;
+const RENDER_MAX_SIDE = 8000;
+const JPEG_QUALITY = 0.9;
+const RENDER_CACHE = 20;
 
-  const pending = JSON.parse(sessionStorage.getItem(PENDING_KEY));
-  sessionStorage.removeItem(PENDING_KEY);
-  if (pending && !location.hash && pending.path === location.pathname + location.search) history.replaceState(null, '', pending.hash);
+const loadPdfjs = () => import(`${PDFJS_BUILD}/pdf.min.mjs`).then(pdfjs => {
+  pdfjs.GlobalWorkerOptions.workerSrc = `${PDFJS_BUILD}/pdf.worker.min.mjs`;
+  return pdfjs;
+});
 
-  const STYLE = `
-    .viewer { position: fixed; inset: 0; display: flex; flex-direction: column; background: #1e1e1e; color: #eee; color-scheme: dark; font: 14px/1.4 system-ui, sans-serif; }
-    .bar { display: grid; grid-template-columns: minmax(max-content, 1fr) minmax(0, auto) minmax(max-content, 1fr); align-items: center; gap: 6px 16px; padding: 6px 10px; background: #111; border-bottom: 1px solid #333; }
-    .controls, .cell, .tools { display: flex; align-items: center; gap: 6px; }
-    .controls { gap: 10px; }
-    .cell[hidden] { display: none; }
-    .cell:not([hidden]) ~ .cell:not([hidden]) { border-left: 1px solid #484848; padding-left: 10px; }
-    .context { min-width: 0; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .title { font-weight: 600; margin-right: 4px; }
-    .tools { justify-content: flex-end; }
-    @media (max-width: 1000px) {
-      .bar { display: flex; flex-wrap: wrap; }
-      .controls, .tools { flex-wrap: wrap; }
-      .tools { margin-left: auto; }
-      .context { order: 1; width: 100%; }
+const createPdfjsReader = (urlOf, load = loadPdfjs) => {
+  const documents = new Map();
+  const images = new Map();
+  let library = null;
+
+  const documentOf = path => {
+    if (!documents.has(path)) {
+      library ??= load().catch(error => { library = null; throw error; });
+      documents.set(path, library
+        .then(pdfjs => pdfjs.getDocument({ url: urlOf(path), disableAutoFetch: true, disableStream: true, rangeChunkSize: RANGE_BYTES }).promise)
+        .catch(error => { documents.delete(path); throw error; }));
     }
-    button, .full { font: inherit; color: inherit; background: #2c2c2c; border: 1px solid #484848; border-radius: 4px; padding: 2px 10px; cursor: pointer; text-decoration: none; }
-    button:hover, .full:hover { background: #3c3c3c; }
-    button:disabled { opacity: 0.4; cursor: default; }
-    input { font: inherit; width: 4em; text-align: right; color: inherit; background: #000; border: 1px solid #484848; border-radius: 4px; padding: 2px 6px; }
-    .count, .also { color: #aaa; }
-    .also { display: inline-flex; align-items: center; gap: 4px; }
-    .where { color: #9fd9b9; }
-    .notice { position: absolute; right: 16px; bottom: 16px; display: flex; align-items: center; gap: 8px; padding: 4px 10px; background: #111; border: 1px solid #333; border-radius: 4px; }
-    .notice[hidden] { display: none; }
-    .status { color: #bbb; }
-    .status.error { color: #ff8a80; }
-    .main { position: relative; flex: 1; min-height: 0; display: flex; }
-    .toc { width: min(300px, 70vw); flex: none; overflow: auto; background: #161616; border-right: 1px solid #333; }
-    .toc ol { list-style: none; margin: 0; padding: 6px 0; }
-    .toc button { display: grid; gap: 2px; width: 100%; text-align: left; background: none; border: 0; border-left: 3px solid transparent; border-radius: 0; padding: 6px 10px; }
-    .toc button:hover { background: #262626; }
-    .toc .current button { border-left-color: #4cc48b; background: #202a25; }
-    .toc .content { font-weight: 600; }
-    .toc .range, .toc .note { color: #aaa; font-size: 12px; }
-    .stage { flex: 1; min-width: 0; overflow: auto; display: flex; padding: ${STAGE_PADDING}px; box-sizing: border-box; }
-    .frame { position: relative; flex: none; margin: auto; }
-    img { position: absolute; left: 50%; top: 50%; max-width: none; background: #fff; cursor: zoom-in; }
-    .zoomed img { cursor: zoom-out; }
-  `;
+    return documents.get(path);
+  };
 
-  const createViewer = () => {
-    if (!window.pdf) {
-      (() => {
+  const openDoc = async path => {
+    const pdf = await documentOf(path);
+    // getDownloadInfo() would wait for the whole file, which auto-fetch being off never loads.
+    const { contentLength } = await pdf.getMetadata();
+    return { url: urlOf(path), size: contentLength, pages: Array.from({ length: pdf.numPages }) };
+  };
+
+  const render = async page => {
+    const { width, height } = page.getViewport({ scale: 1 });
+    const viewport = page.getViewport({ scale: Math.min(RENDER_SCALE, RENDER_MAX_SIDE / Math.max(width, height)) });
+    const canvas = Object.assign(document.createElement('canvas'), { width: Math.round(viewport.width), height: Math.round(viewport.height) });
+    await page.render({ canvasContext: canvas.getContext('2d'), viewport }).promise;
+    page.cleanup();
+    return new Promise(resolve => canvas.toBlob(resolve, 'image/jpeg', JPEG_QUALITY));
+  };
+
+  const imageOf = async (path, n) => {
+    const key = `${path}#${n}`;
+    if (images.has(key)) return images.get(key);
+    const pdf = await documentOf(path);
+    const source = URL.createObjectURL(await render(await pdf.getPage(n)));
+    images.set(key, source);
+    if (images.size > RENDER_CACHE) {
+      const [oldest, oldSource] = images.entries().next().value;
+      URL.revokeObjectURL(oldSource);
+      images.delete(oldest);
+    }
+    return source;
+  };
+
+  // The rendered image already includes the page's own rotation.
+  const pageInfo = async () => ({ rotate: 0 });
+
+  return { openDoc, imageOf, pageInfo };
+};
+
+  const SITES = {
+    'davel-vd.ch': {
+      challengePath: '/js_challenge.html',
+      pageMap: true,
+      browseLabel: 'Feuilleter le PDF page par page',
+      reader: () => {
+        if (!window.pdf) {
+          (() => {
   const DELAY_MS = 1500;
   const UPLOADS_PREFIX = 'https://davel-vd.ch/uploads/r/null/';
   const TAIL_BYTES = 262144;
@@ -442,9 +460,81 @@
   window.pdf = { enqueue, status, profile, view, close, exportProfiles, openDoc, pageInfo, imageOf, segment, unpredict, state };
   return 'pdf probe ready';
 })();
+        }
+        window.pdf.state.delay = 0;
+        return window.pdf;
+      },
+      pdfs: () => {
+        const link = document.querySelector(`a[href*="${UPLOADS_PATH}"][href$=".pdf"]`);
+        if (!link) return [];
+        return [{ path: link.pathname.slice(UPLOADS_PATH.length), title: document.querySelector('.referenceCode')?.textContent.trim() ?? '', place: link.closest('.digital-object-reference, .filename') ?? link }];
+      },
+    },
+    'suche.staatsarchiv.djiktzh.ch': {
+      browseLabel: 'PDF seitenweise durchblättern',
+      reader: () => createPdfjsReader(path => `${location.origin}/${path}`),
+      pdfs: () => [...document.querySelectorAll('a[href*="openDoc(" i]')].flatMap(link => {
+        const path = /openDoc\('([^']+\.pdf)'\)/i.exec(link.getAttribute('href'))?.[1];
+        return path ? [{ path, title: document.querySelector('.veXDetailAttributValue')?.textContent.trim() ?? '', place: link }] : [];
+      }),
+    },
+  };
+  const site = SITES[location.hostname];
+
+  if (site.challengePath) {
+    if (location.pathname === site.challengePath) {
+      if (hashParams().has('apercu')) sessionStorage.setItem(PENDING_KEY, JSON.stringify({ path: new URLSearchParams(location.search).get('redirect') ?? '/', hash: location.hash }));
+      return;
     }
-    const reader = window.pdf;
-    reader.state.delay = 0;
+
+    const pending = JSON.parse(sessionStorage.getItem(PENDING_KEY));
+    sessionStorage.removeItem(PENDING_KEY);
+    if (pending && !location.hash && pending.path === location.pathname + location.search) history.replaceState(null, '', pending.hash);
+  }
+
+  const STYLE = `
+    .viewer { position: fixed; inset: 0; display: flex; flex-direction: column; background: #1e1e1e; color: #eee; color-scheme: dark; font: 14px/1.4 system-ui, sans-serif; }
+    .bar { display: grid; grid-template-columns: minmax(max-content, 1fr) minmax(0, auto) minmax(max-content, 1fr); align-items: center; gap: 6px 16px; padding: 6px 10px; background: #111; border-bottom: 1px solid #333; }
+    .controls, .cell, .tools { display: flex; align-items: center; gap: 6px; }
+    .controls { gap: 10px; }
+    .cell[hidden] { display: none; }
+    .cell:not([hidden]) ~ .cell:not([hidden]) { border-left: 1px solid #484848; padding-left: 10px; }
+    .context { min-width: 0; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .title { font-weight: 600; margin-right: 4px; }
+    .tools { justify-content: flex-end; }
+    @media (max-width: 1000px) {
+      .bar { display: flex; flex-wrap: wrap; }
+      .controls, .tools { flex-wrap: wrap; }
+      .tools { margin-left: auto; }
+      .context { order: 1; width: 100%; }
+    }
+    button, .full { font: inherit; color: inherit; background: #2c2c2c; border: 1px solid #484848; border-radius: 4px; padding: 2px 10px; cursor: pointer; text-decoration: none; }
+    button:hover, .full:hover { background: #3c3c3c; }
+    button:disabled { opacity: 0.4; cursor: default; }
+    input { font: inherit; width: 4em; text-align: right; color: inherit; background: #000; border: 1px solid #484848; border-radius: 4px; padding: 2px 6px; }
+    .count, .also { color: #aaa; }
+    .also { display: inline-flex; align-items: center; gap: 4px; }
+    .where { color: #9fd9b9; }
+    .notice { position: absolute; right: 16px; bottom: 16px; display: flex; align-items: center; gap: 8px; padding: 4px 10px; background: #111; border: 1px solid #333; border-radius: 4px; }
+    .notice[hidden] { display: none; }
+    .status { color: #bbb; }
+    .status.error { color: #ff8a80; }
+    .main { position: relative; flex: 1; min-height: 0; display: flex; }
+    .toc { width: min(300px, 70vw); flex: none; overflow: auto; background: #161616; border-right: 1px solid #333; }
+    .toc ol { list-style: none; margin: 0; padding: 6px 0; }
+    .toc button { display: grid; gap: 2px; width: 100%; text-align: left; background: none; border: 0; border-left: 3px solid transparent; border-radius: 0; padding: 6px 10px; }
+    .toc button:hover { background: #262626; }
+    .toc .current button { border-left-color: #4cc48b; background: #202a25; }
+    .toc .content { font-weight: 600; }
+    .toc .range, .toc .note { color: #aaa; font-size: 12px; }
+    .stage { flex: 1; min-width: 0; overflow: auto; display: flex; padding: ${STAGE_PADDING}px; box-sizing: border-box; }
+    .frame { position: relative; flex: none; margin: auto; }
+    img { position: absolute; left: 50%; top: 50%; max-width: none; background: #fff; cursor: zoom-in; }
+    .zoomed img { cursor: zoom-out; }
+  `;
+
+  const createViewer = () => {
+    const reader = site.reader();
 
     const ROMAN = [[1000, "M"], [900, "CM"], [500, "D"], [400, "CD"], [100, "C"], [90, "XC"], [50, "L"], [40, "XL"], [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]];
 const toRoman = number => ROMAN.reduce(([text, rest], [value, letters]) => [text + letters.repeat(Math.floor(rest / value)), rest % value], ["", number])[0];
@@ -492,8 +582,7 @@ function registerPageAt(part, pdf) {
 }
 
     let pageMaps = null;
-    const pageMapOf = pdfPath => (pageMaps ??= fetch(PAGE_MAP_URL).then(response => response.ok ? response.json() : {}).catch(() => ({})))
-      .then(maps => maps[pdfPath] ?? null);
+    const pageMapOf = async pdfPath => site.pageMap ? (await (pageMaps ??= fetch(PAGE_MAP_URL).then(response => response.ok ? response.json() : {}).catch(() => ({}))))[pdfPath] ?? null : null;
 
     const host = document.createElement('acv-apercu');
     host.style.cssText = 'all: initial; position: fixed; inset: 0; z-index: 2147483647';
@@ -787,13 +876,12 @@ function registerPageAt(part, pdf) {
     return { open, close };
   };
 
-  const addBrowseButton = () => {
-    const link = document.querySelector(`a[href*="${UPLOADS_PATH}"][href$=".pdf"]`);
-    if (!link) return;
-    const params = new URLSearchParams({ apercu: '', pdf: link.pathname.slice(UPLOADS_PATH.length), titre: document.querySelector('.referenceCode')?.textContent.trim() ?? '' });
-    const button = Object.assign(document.createElement('a'), { href: `#${params}`, textContent: 'Feuilleter le PDF page par page' });
-    button.style.cssText = 'display: inline-block; margin: 0 0 10px; padding: 6px 14px; border-radius: 4px; background: #127a4b; color: #fff; font-weight: 600; text-decoration: none';
-    (link.closest('.digital-object-reference, .filename') ?? link).before(button);
+  const addBrowseButtons = () => {
+    for (const { path, title, place } of site.pdfs()) {
+      const button = Object.assign(document.createElement('a'), { href: `#${new URLSearchParams({ apercu: '', pdf: path, titre: title })}`, textContent: site.browseLabel });
+      button.style.cssText = 'display: inline-block; margin: 0 10px 10px 0; padding: 6px 14px; border-radius: 4px; background: #127a4b; color: #fff; font-weight: 600; text-decoration: none';
+      place.before(button);
+    }
   };
 
   let viewer = null;
@@ -807,6 +895,6 @@ function registerPageAt(part, pdf) {
     viewer.open(params.get('pdf'), Math.round(+params.get('page')) || null, params.get('titre'));
   };
   addEventListener('hashchange', start);
-  whenReady(addBrowseButton);
+  whenReady(addBrowseButtons);
   start();
 })();

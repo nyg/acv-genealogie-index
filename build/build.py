@@ -28,6 +28,7 @@ PAGE_MAP_OUTPUT = ROOT / "docs" / "pdf-pages.json"
 VIEWER_SOURCE = ROOT / "site" / "apercu.user.js"
 VIEWER_OUTPUT = ROOT / "docs" / "apercu.user.js"
 PDF_READER = ROOT / "scraper" / "davel_pdf.js"
+PDFJS_READER = ROOT / "site" / "pdfjs_reader.js"
 STANDALONE_HEAD = '<!doctype html>\n<html lang="fr">\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
 
 FONDS_LABEL = {"eb": "Eb", "ed": "Ed", "sb-267": "SB 267"}
@@ -316,6 +317,7 @@ def write_site(places, units, segments):
 def write_viewer(units):
     viewer = (VIEWER_SOURCE.read_text(encoding="utf-8")
               .replace("/*__PDF_READER__*/", PDF_READER.read_text(encoding="utf-8").strip())
+              .replace("/*__PDFJS_READER__*/", PDFJS_READER.read_text(encoding="utf-8").strip())
               .replace("/*__PAGE_MAP__*/", PAGE_MAP.read_text(encoding="utf-8").strip()))
     VIEWER_OUTPUT.write_text(viewer, encoding="utf-8")
     page_map = {
