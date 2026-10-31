@@ -10,7 +10,7 @@ const createPdfjsReader = vm.runInContext(`${readFileSync(new URL("../site/pdfjs
 const HASH = "#apercu=&page=6&pdf=8%2Ff%2Fe%2FCH-ACV_RN-ED-15-1.pdf&titre=Ed+15%2F1";
 const ZURICH = "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=316880";
 
-const element = attributes => ({ ...attributes, inserted: [], getAttribute(name) { return this[name]; }, before(node) { this.inserted.push(node); }, closest: () => null, style: {} });
+const element = attributes => ({ ...attributes, inserted: [], placedAfter: [], getAttribute(name) { return this[name]; }, before(node) { this.inserted.push(node); }, after(node) { this.placedAfter.push(node); }, closest: () => null, style: {} });
 
 const page = (links, cells = {}) => ({
   readyState: "complete",
@@ -93,8 +93,9 @@ const tests = {
   "une fiche de Zurich reçoit un bouton vers le PDF de son lien openDoc": () => {
     const link = element({ href: "JavaScript:openDoc('Dateien/310/D1550397.pdf');" });
     run(ZURICH, new Map(), page([link], { ".veXDetailAttributValue": " E III 21.1 " }));
-    assert.equal(link.inserted.length, 1);
-    const [button] = link.inserted;
+    assert.equal(link.inserted.length, 0);
+    assert.equal(link.placedAfter.length, 1);
+    const [button] = link.placedAfter;
     assert.equal(button.textContent, "PDF seitenweise durchblättern");
     const params = new URLSearchParams(button.href.slice(1));
     assert.equal(params.get("pdf"), "Dateien/310/D1550397.pdf");
@@ -103,11 +104,12 @@ const tests = {
   "une fiche de Zurich à plusieurs PDF reçoit un bouton par PDF, sans les autres documents": () => {
     const links = ["Dateien/1.pdf", "Dateien/2.pdf", "Dateien/3.jpg"].map(path => element({ href: `JavaScript:openDoc('${path}');` }));
     run(ZURICH, new Map(), page(links));
-    assert.deepEqual(links.map(link => link.inserted.length), [1, 1, 0]);
+    assert.deepEqual(links.map(link => link.placedAfter.length), [1, 1, 0]);
   },
   "une fiche de davel-vd.ch garde son bouton et le chemin relatif au dossier uploads": () => {
     const link = element({ pathname: "/uploads/r/null/8/f/e/CH-ACV_RN-ED-15-1.pdf" });
     run("https://davel-vd.ch/ed-15-1", new Map(), page([link], { ".referenceCode": "Ed 15/1" }));
+    assert.equal(link.placedAfter.length, 0);
     const params = new URLSearchParams(link.inserted[0].href.slice(1));
     assert.equal(link.inserted[0].textContent, "Feuilleter le PDF page par page");
     assert.equal(params.get("pdf"), "8/f/e/CH-ACV_RN-ED-15-1.pdf");

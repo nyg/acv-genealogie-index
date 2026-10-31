@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Registres vaudois : aperçu des PDF
 // @namespace    https://nyg.github.io/acv-genealogie-index/
-// @version      1.3.0
+// @version      1.3.1
 // @description  Affiche une page d'un PDF de davel-vd.ch ou du Staatsarchiv Zürich sans télécharger le fichier entier, avec le sommaire des registres indexés.
 // @match        https://davel-vd.ch/*
 // @match        https://suche.staatsarchiv.djiktzh.ch/*
@@ -92,6 +92,10 @@
         window.pdf.state.delay = 0;
         return window.pdf;
       },
+      addButton: (button, place) => {
+        button.style.margin = '0 10px 10px 0';
+        place.before(button);
+      },
       pdfs: () => {
         const link = document.querySelector(`a[href*="${UPLOADS_PATH}"][href$=".pdf"]`);
         if (!link) return [];
@@ -101,6 +105,10 @@
     'suche.staatsarchiv.djiktzh.ch': {
       language: 'de',
       reader: () => createPdfjsReader(path => `${location.origin}/${path}`),
+      addButton: (button, place) => {
+        button.style.margin = '0 0 0 10px';
+        place.after(button);
+      },
       pdfs: () => [...document.querySelectorAll('a[href*="openDoc(" i]')].flatMap(link => {
         const path = /openDoc\('([^']+\.pdf)'\)/i.exec(link.getAttribute('href'))?.[1];
         return path ? [{ path, title: document.querySelector('.veXDetailAttributValue')?.textContent.trim() ?? '', place: link }] : [];
@@ -465,8 +473,8 @@
   const addBrowseButtons = () => {
     for (const { path, title, place } of site.pdfs()) {
       const button = Object.assign(document.createElement('a'), { href: `#${new URLSearchParams({ apercu: '', pdf: path, titre: title })}`, textContent: text.browse });
-      button.style.cssText = 'display: inline-block; margin: 0 10px 10px 0; padding: 6px 14px; border-radius: 4px; background: #127a4b; color: #fff; font-weight: 600; text-decoration: none';
-      place.before(button);
+      button.style.cssText = 'display: inline-block; padding: 6px 14px; border-radius: 4px; background: #127a4b; color: #fff; font-weight: 600; text-decoration: none';
+      site.addButton(button, place);
     }
   };
 
