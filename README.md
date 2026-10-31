@@ -35,7 +35,7 @@ L'index analyse aussi le contenu des PDF. Pour Eb 3/4, il indique que le registr
 
 Une fois le nom trouvé dans le répertoire, il suffit de saisir dans « Page du registre » la page qu'il cite pour obtenir la page du PDF correspondante.
 
-Ce travail se fait registre par registre. Il couvre pour l'instant Ollon, Bex, Aigle, Ballaigues, Château-d'Oex et L'Étivaz. Ailleurs, le PDF s'ouvre à sa première page.
+Ce travail se fait registre par registre. Il couvre pour l'instant Ollon, Bex, Aigle, Ballaigues, Château-d'Oex, L'Étivaz, Gryon et Huémoz. Ailleurs, le PDF s'ouvre à sa première page.
 
 ## 3. Ouvrir le PDF à la bonne page, sans le télécharger
 

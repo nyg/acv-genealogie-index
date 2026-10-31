@@ -30,6 +30,7 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [Eb 139/2](https://davel-vd.ch/eb-139-2) | Vufflens-la-Ville | Portée et contenu | Mariages (1819 février 12 - 1921 juin 30) | Mariages (1819 février 12 - 1821 juin 30) | Dates de la fiche et de la série : jusqu'au 30 juin 1821. | |
 | [Ec 80/3](https://davel.vd.ch/detail.aspx?ID=178627) | Le Mont-sur-Lausanne | Dates | 1872-1875 | 1748-1875 | Le titre liste aussi Annonces de mariage 1832-1867 et Naissances 1748-1875 ; ces dates ne reprennent que la première ligne. | |
 | [Ec 87/2](https://davel.vd.ch/detail.aspx?ID=178689) | Morrens | Titre | Mariages 1842-1869. - - Annonces de mariage 1812-1869. | Mariages 1842-1869. ; Annonces de mariage 1812-1869. | Tiret doublé à la place du retour à la ligne des autres fiches Ec. | |
+| [Ed 68 bis/1](https://davel-vd.ch/ed-68-bis-1) | Huémoz | Portée et contenu | Baptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1863 novembre 15) | Baptêmes de l'Eglise évangélique réformée (1824 octobre 1 - 1863 novembre 15) | Le PDF, p. 1 : registre ouvert le 1er octobre 1824, après le décret du 22 mai 1824 qui établit la paroisse ; premier acte en décembre 1824. | |
 
 ## À vérifier sur le PDF
 
@@ -44,7 +45,6 @@ Les dates de la fiche ne couvrent pas celles du contenu, ou la pagination du PDF
 | [Eb 87/2](https://davel-vd.ch/eb-87-2) | Morrens | Date(s) | 1659-10-27 - 1713-01-28 | Portée et contenu : un baptême (1716 septembre 20), p. 322. | |
 | [Eb 95/4](https://davel-vd.ch/eb-95-4) | Ormont-Dessus | Date(s) | 1749-01-01 - 1790-12-01 | Portée et contenu : Baptêmes forains (1752 - 1805). | |
 | [Eb 105/7](https://davel-vd.ch/eb-105-7) | Penthaz | Date(s) | 1739-03-12 - 1864-12-31 | Portée et contenu : Décès (1729 mars 12 - 1821 juin 30). | |
-| [Ed 68 bis/1](https://davel-vd.ch/ed-68-bis-1) | Huémoz | Date(s) | 1824-10-01 - 1863-11-15 | Portée et contenu : Baptêmes de l'Église évangélique réformée (1821 juillet 1 - 1863 novembre 15). | |
 | [Ed 110/3](https://davel-vd.ch/ed-110-3) | Prilly | Date(s) | 1821-07-01 - 1832-12-28 | Portée et contenu : Mariages (1821 juillet 1 - 1832 décembre 31). | |
 | [Ed 110/9](https://davel-vd.ch/ed-110-9) | Prilly | Portée et contenu | Décès (1821 juillet 1er - 1875 décembre 12) | Date(s) : 1821-07-01 - 1875-12-31. | |
 
