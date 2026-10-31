@@ -399,6 +399,52 @@
       {"pdf": "6-62", "content": "Décès 1752-1821", "pages": "1-57", "note": "L'inventaire indique pp. 0-57. Répertoires : PDF d'Eb 54/1 et d'Eb 54/2."}
     ]
   },
+  "Eb 68/1": {
+    "pdfPages": 587,
+    "parts": [
+      {"pdf": "7-57", "content": "Baptêmes et mariages 1591-1630", "pages": "0-50", "note": "Mariages intercalés parmi les baptêmes. La p. 0 (PDF 7) porte « 1 bis » au crayon violet."},
+      {"pdf": "58-197", "content": "Baptêmes 1630-1769", "pages": "51-190"},
+      {"pdf": "198-199", "content": "Baptêmes 1630-1769", "pages": "190-191", "note": "PDF 198 : la p. 190 photographiée une seconde fois."},
+      {"pdf": "202-272", "content": "Baptêmes 1630-1769", "pages": "191-261", "note": "PDF 200-201 : deux billets volants ; PDF 202 : la p. 191 photographiée une seconde fois."},
+      {"pdf": "273", "content": "Mention de dates de baptêmes 1686-1714", "pages": "445", "note": "Porte aussi le n° 261a."},
+      {"pdf": "277-313", "content": "Répertoire des baptêmes 1591-1769"},
+      {"pdf": "320-349", "content": "Répertoire des mariages 1591-1769"},
+      {"pdf": "350-361", "content": "Répertoire des mariages 1769-1821 (Eb 68/3)"},
+      {"pdf": "366-385", "content": "Répertoire des décès 1708-1786"},
+      {"pdf": "386-398", "content": "Répertoire des décès 1786-1821 (Eb 68/3)"},
+      {"pdf": "403-465", "content": "Mariages 1631-1769, tête-bêche", "pages": "262-324"},
+      {"pdf": "466-506", "content": "Décès 1708-1786, tête-bêche", "pages": "325-365"},
+      {"pdf": "507-559", "content": "Décès 1708-1786, tête-bêche", "pages": "365-417", "note": "PDF 507 : la p. 365 photographiée une seconde fois, le papier collé déplacé. Dans le PDF, les pp. 414-417 suivent la p. 413 ; l'inventaire les place après les catéchumènes."},
+      {"pdf": "560", "content": "Liste des pasteurs de Gryon jusqu'en 1845", "note": "Seconde page numérotée 417, la p. 417a de l'inventaire."},
+      {"pdf": "561-563", "content": "Liste des pasteurs de Gryon jusqu'en 1845 ; notes sur la cure", "pages": "418-420"},
+      {"pdf": "564-587", "content": "Catéchumènes 1717-1773, tête-bêche", "pages": "421-444"}
+    ]
+  },
+  "Eb 68/2": {
+    "pdfPages": 171,
+    "parts": [
+      {"pdf": "5-78", "content": "Baptêmes 1770-1821", "pages": "1-147", "spread": true, "note": "Photographié en doubles pages : la p. 1 est à droite du PDF 5, la p. 147 à droite du PDF 78."},
+      {"pdf": "79-144", "content": "Catéchumènes 1774-1875, tête-bêche", "pages": "279-149", "spread": true, "note": "Photographié en doubles pages, à l'envers et du dernier feuillet au premier : la p. 279 est au PDF 79, la p. 149 au PDF 144."},
+      {"pdf": "145", "content": "Catéchumènes 1774-1875, tête-bêche", "pages": "148", "note": "À l'envers ; la p. 148 est photographiée une seconde fois en PDF 146."},
+      {"pdf": "150-169", "content": "Répertoire des baptêmes 1770-1821", "note": "Photographié en doubles pages."}
+    ]
+  },
+  "Eb 68/3": {
+    "pdfPages": 129,
+    "parts": [
+      {"pdf": "4-5", "content": "Mariages 1769-1821", "pages": "1-2", "note": "Pagination en bord de page, celle du répertoire (Eb 68/1) ; la pagination au centre de la page ne concorde pas."},
+      {"pdf": "6-7", "content": "Mariages 1769-1821", "pages": "1-2", "note": "Pages numérotées 1 bis et 2 bis."},
+      {"pdf": "8-67", "content": "Mariages 1769-1821", "pages": "3-62"},
+      {"pdf": "71-129", "content": "Décès 1786-1821, tête-bêche", "pages": "418-476"}
+    ]
+  },
+  "Eb 68/4": {
+    "pdfPages": 30,
+    "parts": [
+      {"pdf": "4", "content": "Arrêté, p. 25a", "note": "Feuillet écrit en travers, photographié avant la p. 1."},
+      {"pdf": "5-29", "content": "Annonces de mariage 1802-1821", "pages": "1-25"}
+    ]
+  },
   "Eb 92/1": {
     "pdfPages": 502,
     "parts": [
@@ -818,6 +864,82 @@
     "parts": [
       {"pdf": "6-60", "content": "Annonces de mariage 1821-1882", "pages": "1-55"},
       {"pdf": "61-69", "content": "Annonces de mariage 1821-1882", "pages": "55-63", "note": "La p. 55 est numérotée deux fois (PDF 60 et 61). Sans répertoire."}
+    ]
+  },
+  "Ed 68/1": {
+    "pdfPages": 291,
+    "parts": [
+      {"pdf": "10-120", "content": "Naissances et baptêmes 1821-1875", "pages": "1-92", "anchors": [[4, 13], [18, 30], [25, 40], [40, 60], [48, 70], [58, 80], [67, 90], [74, 100], [83, 110]], "note": "Formulaires blancs ou barrés et pages bis intercalés (p. 32 bis en PDF 50)."},
+      {"pdf": "121-149", "content": "Naissances et baptêmes 1821-1875", "pages": "93-121"},
+      {"pdf": "151-238", "content": "Naissances et baptêmes 1821-1875", "pages": "122-209", "note": "PDF 150 : formulaire barré, sans numéro."},
+      {"pdf": "239", "content": "Naissances et baptêmes 1821-1875", "note": "Dernière page, sans numéro."},
+      {"pdf": "242-290", "content": "Répertoire des naissances et baptêmes 1821-1875"}
+    ]
+  },
+  "Ed 68/2": {
+    "pdfPages": 203,
+    "parts": [
+      {"pdf": "8-117", "content": "Mariages 1821-1875", "pages": "1-64", "anchors": [[3, 12], [4, 16], [7, 20], [11, 36], [22, 50], [28, 56], [30, 64], [31, 68], [33, 70], [36, 76], [40, 80], [41, 84], [44, 90], [48, 96], [51, 100], [55, 104], [56, 108], [58, 110], [59, 112], [61, 114], [63, 116]], "note": "Formulaires vides, sans numéro, et pages bis intercalés (p. 11 bis en PDF 36)."},
+      {"pdf": "122-134", "content": "Mariages 1821-1875", "pages": "65-75", "anchors": [[69, 126], [72, 130]], "note": "PDF 120-121 : feuillets volants."},
+      {"pdf": "135-197", "content": "Mariages 1821-1875", "pages": "76-138", "note": "PDF 138 : formulaire sans numéro, la p. 79."},
+      {"pdf": "200-203", "content": "Répertoire des mariages 1821-1875", "note": "Feuilles collées en fin de volume, photographiées soulevées ; la p. 138 reparaît dessous en PDF 201 et 203."}
+    ]
+  },
+  "Ed 68/3": {
+    "pdfPages": 230,
+    "parts": [
+      {"pdf": "10-93", "content": "Décès 1821-1875", "pages": "1-39", "anchors": [[3, 14], [5, 18], [8, 22], [10, 30], [13, 34], [14, 38], [18, 46], [22, 54], [26, 62], [28, 70], [30, 78], [34, 86], [38, 92]], "note": "Formulaires vides, sans numéro, et pages bis intercalés (p. 9 bis en PDF 26)."},
+      {"pdf": "95-173", "content": "Décès 1821-1875", "pages": "39-117", "note": "Le n° 39 est porté deux fois, en PDF 93 et 95."},
+      {"pdf": "181-227", "content": "Répertoire des décès 1821-1875"}
+    ]
+  },
+  "Ed 68/4": {
+    "pdfPages": 101,
+    "parts": [
+      {"pdf": "6-35", "content": "Annonces de mariage 1821-1882", "pages": "1-30"},
+      {"pdf": "38-44", "content": "Annonces de mariage 1821-1882", "pages": "31-37", "note": "PDF 36-37 : billet volant, recto et verso."},
+      {"pdf": "45-57", "content": "Annonces de mariage 1821-1882", "pages": "28-40", "note": "La numérotation repart à 28 après la p. 37 : les pp. 28-37 existent deux fois."},
+      {"pdf": "58-98", "content": "Annonces de mariage 1821-1882", "note": "Pages sans numéro, sauf « 79 » au crayon en PDF 98 ; l'inventaire compte 80 pages utiles."}
+    ]
+  },
+  "Ed 68 bis/1": {
+    "pdfPages": 457,
+    "parts": [
+      {"pdf": "8-397", "content": "Naissances et baptêmes 1824-1863", "pages": "1-367", "anchors": [[71, 78], [72, 80], [80, 88], [81, 90], [99, 108], [100, 110], [108, 118], [109, 120], [117, 128], [118, 132], [150, 164], [151, 166], [169, 184], [170, 186], [171, 188], [183, 200], [195, 212], [207, 226], [208, 228], [216, 236], [221, 242], [222, 244], [233, 256], [234, 258], [249, 274], [250, 276], [267, 294], [268, 296], [312, 340], [325, 354], [326, 356]], "note": "Formulaires vides intercalés (PDF 79, 89, 109, 119, 129-131, 165) et feuilles blanches au numéro suivi de « b » (PDF 187, 227, 243, 257, 275, 295, 355)."},
+      {"pdf": "400-455", "content": "Répertoire des naissances et baptêmes 1824-1863"}
+    ]
+  },
+  "Ed 68 bis/2": {
+    "pdfPages": 165,
+    "parts": [
+      {"pdf": "10-113", "content": "Naissances et baptêmes 1863-1875", "pages": "1-104"},
+      {"pdf": "116-162", "content": "Répertoire des naissances et baptêmes 1863-1875"}
+    ]
+  },
+  "Ed 68 bis/3": {
+    "pdfPages": 318,
+    "parts": [
+      {"pdf": "8-260", "content": "Mariages 1824-1875", "pages": "1-229", "anchors": [[6, 16], [10, 20], [13, 24], [16, 28], [20, 32], [26, 40], [34, 50], [43, 60], [52, 70], [61, 80], [67, 88], [69, 92], [77, 100], [79, 102], [80, 106], [84, 110], [86, 114], [90, 118], [92, 122], [154, 184], [155, 186]], "note": "Formulaires vides, sans numéro, intercalés ; PDF 15 et 90 : feuilles intercalées."},
+      {"pdf": "269-316", "content": "Répertoire des mariages 1824-1875"}
+    ]
+  },
+  "Ed 68 bis/4": {
+    "pdfPages": 388,
+    "parts": [
+      {"pdf": "10-331", "content": "Décès 1824-1875", "pages": "1-304", "anchors": [[3, 14], [5, 16], [6, 18], [12, 24], [13, 26], [19, 32], [21, 36], [31, 46], [33, 50], [41, 58], [42, 60], [52, 70], [61, 80], [65, 84], [73, 92], [77, 96], [79, 100], [86, 107], [88, 112], [92, 116], [154, 178], [157, 182], [158, 184], [159, 186]], "note": "Formulaires vides, sans numéro, intercalés ; PDF 185 : feuille blanche numérotée « 158 b »."},
+      {"pdf": "339-386", "content": "Répertoire des décès 1824-1875"}
+    ]
+  },
+  "Ed 68 bis/5": {
+    "pdfPages": 295,
+    "parts": [
+      {"pdf": "8-92", "content": "Annonces de mariage 1824-1882", "pages": "1-85"},
+      {"pdf": "93-110", "content": "Annonces de mariage 1824-1882", "pages": "87-104", "note": "La pagination saute le n° 86."},
+      {"pdf": "111-112", "content": "Annonces de mariage 1824-1882", "pages": "103-104", "note": "Pages numérotées 103 bis et 104 bis."},
+      {"pdf": "113-232", "content": "Annonces de mariage 1824-1882", "pages": "105-224"},
+      {"pdf": "233-239", "content": "Annonces de mariage 1824-1882", "pages": "224-230", "note": "Le n° 224 est porté deux fois, en PDF 232 et 233 ; la p. 225 (PDF 234) n'a pas de numéro."},
+      {"pdf": "242", "content": "Annonces de mariage 1824-1882", "pages": "231", "note": "PDF 240-241 : feuillets volants, l'un à en-tête officiel."},
+      {"pdf": "248-294", "content": "Répertoire des annonces de mariage 1824-1882"}
     ]
   },
   "Ed 92/1": {
