@@ -1,0 +1,62 @@
+[
+ {
+  "slug": "sa-622375",
+  "parent": null,
+  "text": "SB 115/972-973 Ballaigues (arrondissement de l'état civil), 1929-1950 (Série)",
+  "children": [
+   "sa-622755",
+   "sa-622792"
+  ],
+  "f": {
+   "Ref. code": "SB 115/972-973",
+   "Title": "Ballaigues (arrondissement de l'état civil)",
+   "Dates": "1928-1950",
+   "Creation date(s)": "1929 - 1950",
+   "Level": "Série",
+   "Importance matérielle": "2 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 15 décembre 1875).\nSupprimé par l'arrêté du 5 septembre 1950 et rattaché à l'arrondissement de Vallorbe dès le 1er janvier 1951.",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=622375",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-622755",
+  "parent": "sa-622375",
+  "text": "SB 115/972 - Mariages 1929-1939 \\ - Publications de promesses de mariage 1929-1936, 1938-1939 \\ - Pièces diverses relatives à l'état civil 1929-1933, 1936, 1938-1939: principalement constatations de décès, divorces, rectifications de nom, 1929-1939 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/972",
+   "Title": "- Mariages 1929-1939\n- Publications de promesses de mariage 1929-1936, 1938-1939\n- Pièces diverses relatives à l'état civil 1929-1933, 1936, 1938-1939: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1929-1939",
+   "Creation date(s)": "1929 - 1939",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=622755",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-622792",
+  "parent": "sa-622375",
+  "text": "SB 115/973 - Mariages 1940-1950 \\ - Publications de promesses de mariage 1941-1942, 1944-1948, 1950 \\ - Pièces diverses relatives à l'état civil 1941, 1949: principalement constatations de décès, divorces, rectifications de nom, 1940-1950 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/973",
+   "Title": "- Mariages 1940-1950\n- Publications de promesses de mariage 1941-1942, 1944-1948, 1950\n- Pièces diverses relatives à l'état civil 1941, 1949: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1940-1950",
+   "Creation date(s)": "1940 - 1950",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=622792",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

@@ -1,0 +1,43 @@
+[
+ {
+  "slug": "sa-178035",
+  "parent": null,
+  "text": "Ec 10/1-1 Paroisse réformée de Ballaigues., 1742-1869 (Série)",
+  "children": [
+   "sa-178036"
+  ],
+  "f": {
+   "Ref. code": "Ec 10/1-1",
+   "Title": "Paroisse réformée de Ballaigues.",
+   "Dates": "1742-1869",
+   "Creation date(s)": "1742 - 1869",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178035",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178036",
+  "parent": "sa-178035",
+  "text": "Ec 10/1 - Naissances 1742-1869. \\ - Mariages 1819-1869. \\ - Annonces de mariage 1820-1869. \\ - Décès 1827-1869., 1742.01.01-1869.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 10/1",
+   "Title": "- Naissances 1742-1869.\n- Mariages 1819-1869.\n- Annonces de mariage 1820-1869.\n- Décès 1827-1869.",
+   "Dates": "1742-1869",
+   "Creation date(s)": "1/1/1742 - 12/31/1869",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178036",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]
