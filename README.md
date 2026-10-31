@@ -8,6 +8,21 @@ Le projet a trois fonctions :
 2. aller directement au bon endroit du PDF, par exemple au répertoire ;
 3. ouvrir le PDF à la page voulue sans le télécharger en entier, avec le sommaire du registre.
 
+## Sommaire
+
+- [1. Trouver le registre](#1-trouver-le-registre)
+- [2. Aller au répertoire dans le PDF](#2-aller-au-répertoire-dans-le-pdf)
+- [3. Ouvrir le PDF à la bonne page, sans le télécharger](#3-ouvrir-le-pdf-à-la-bonne-page-sans-le-télécharger)
+  - [Installer le script](#installer-le-script)
+  - [Utiliser le script](#utiliser-le-script)
+- [État du projet](#état-du-projet)
+- [Sources et licence](#sources-et-licence)
+- [Développement](#développement)
+  - [Ajouter des séries](#ajouter-des-séries)
+  - [Pages des PDF](#pages-des-pdf)
+  - [Tables de correspondance](#tables-de-correspondance)
+  - [Tests](#tests)
+
 ## 1. Trouver le registre
 
 Pour une paroisse ou une commune, un type d'événement et une date, l'index donne le registre à ouvrir. Par exemple, une naissance en 1800 à Aigle se trouve dans le registre Eb 3/4.
