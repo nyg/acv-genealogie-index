@@ -449,7 +449,7 @@
     "pdfPages": 286,
     "parts": [
       {"pdf": "4-26", "content": "Baptêmes 1702-1821", "pages": "1-23"},
-      {"pdf": "28-214", "content": "Baptêmes 1702-1821", "pages": "24-210", "note": "La p. 23 est photographiée deux fois (PDF 26 et 27). PDF 215 : extrait non numéroté des registres de baptêmes de Vevey (1816) ; l'inventaire indique pp. 1-211."},
+      {"pdf": "28-215", "content": "Baptêmes 1702-1821", "pages": "24-211", "note": "La p. 23 est photographiée deux fois (PDF 26 et 27). Pp. 210-211 : extraits des registres de baptêmes d'Aigle et de Vevey ; la p. 211 est numérotée au crayon en pied de page."},
       {"pdf": "218-285", "content": "Mariages 1703-1821, tête-bêche", "pages": "1-68"}
     ]
   },
@@ -464,7 +464,7 @@
   "Eb 72/3": {
     "pdfPages": 45,
     "parts": [
-      {"pdf": "6-43", "content": "Naissances et baptêmes 1803-1820", "pages": "1-38", "note": "PDF 4 : page de titre ; l'inventaire indique pp. 0-38."}
+      {"pdf": "6-43", "content": "Naissances et baptêmes 1803-1820", "pages": "1-38", "note": "PDF 4 : page de titre (p. 0 de l'inventaire) ; PDF 5 : son verso, blanc, numéroté 0a."}
     ]
   },
   "Eb 72/4": {
@@ -478,7 +478,7 @@
   "Eb 74/1": {
     "pdfPages": 283,
     "parts": [
-      {"pdf": "8-243", "content": "Baptêmes 1647-1693", "pages": "1-236", "note": "PDF 7 : page non numérotée avant la p. 1 (p. 0 de l'inventaire)."},
+      {"pdf": "7-243", "content": "Baptêmes 1647-1693", "pages": "0-236", "note": "La p. 0, sans numéro, porte une inscription de septembre 1654."},
       {"pdf": "248-283", "content": "Mariages 1647-1693, tête-bêche", "pages": "299-334"}
     ]
   },
@@ -496,13 +496,13 @@
     "parts": [
       {"pdf": "4", "content": "Décès aux Clées 1728-1821", "pages": "0"},
       {"pdf": "6-66", "content": "Décès aux Clées 1728-1821", "pages": "1-61", "note": "PDF 5 : billet numéroté 0a."},
-      {"pdf": "73-152", "content": "Décès à Lignerolle 1729-1821, tête-bêche", "pages": "1-80", "note": "PDF 71 : page de titre ; l'inventaire indique pp. 0-80."}
+      {"pdf": "73-152", "content": "Décès à Lignerolle 1729-1821, tête-bêche", "pages": "1-80", "note": "PDF 71 : page de titre, numérotée 0 ; PDF 72 : son verso, blanc, numéroté 0a."}
     ]
   },
   "Eb 74/4": {
     "pdfPages": 377,
     "parts": [
-      {"pdf": "6-34", "content": "Baptêmes 1747-1821", "pages": "1-29", "note": "La p. 1 porte la table des parties du volume ; l'inventaire indique pp. 0-195."},
+      {"pdf": "6-34", "content": "Baptêmes 1747-1821", "pages": "1-29", "note": "La p. 1 porte la table des parties du volume. PDF 4 : feuillet de garde blanc, numéroté 0 ; PDF 5 : feuillet volant blanc."},
       {"pdf": "37-202", "content": "Baptêmes 1747-1821", "pages": "30-195", "note": "La p. 29 est photographiée deux fois (PDF 34 et 35) ; PDF 36 : billet volant."},
       {"pdf": "204-252", "content": "Mariages 1796-1821", "pages": "203-251", "note": "Les pp. 196-201 ne sont pas photographiées ; PDF 203 : p. 202. Pagination ancienne biffée à côté."},
       {"pdf": "254-339", "content": "Catéchumènes 1748-1869", "pages": "253-338"},
@@ -1016,15 +1016,15 @@
   "Ed 72/2": {
     "pdfPages": 118,
     "parts": [
-      {"pdf": "10-110", "content": "Mariages 1821-1875", "pages": "1-65", "anchors": [[2, 11], [3, 15], [5, 23], [7, 36], [8, 37], [10, 40], [13, 50], [20, 60], [30, 70], [40, 80], [55, 100]], "note": "Formulaires inutilisés et pages bis intercalés (2 bis, 3 bis…) ; PDF 111 : dernière page, sans numéro."},
+      {"pdf": "10-110", "content": "Mariages 1821-1875", "pages": "1-65", "anchors": [[2, 11], [3, 15], [5, 23], [7, 36], [8, 37], [10, 40], [13, 50], [20, 60], [30, 70], [40, 80], [45, 88], [51, 96], [55, 100]], "note": "Formulaires inutilisés et pages bis intercalés (2 bis, 3 bis…) ; PDF 111 : dernière page, sans numéro."},
       {"pdf": "116-118", "content": "Répertoire des mariages 1821-1875", "note": "Dactylographié, dans une enveloppe (PDF 114)."}
     ]
   },
   "Ed 72/3": {
     "pdfPages": 284,
     "parts": [
-      {"pdf": "10-175", "content": "Décès 1821-1875", "pages": "1-120", "anchors": [[2, 18], [3, 23], [5, 27], [9, 33], [10, 40], [18, 55], [22, 60], [51, 100], [71, 120], [88, 141], [105, 160], [115, 170], [117, 172]], "note": "Formulaires inutilisés et pages bis intercalés."},
-      {"pdf": "185-282", "content": "Répertoire des décès 1821-1875"}
+      {"pdf": "10-175", "content": "Décès 1821-1875", "pages": "1-120", "anchors": [[2, 18], [3, 23], [5, 27], [9, 33], [10, 40], [18, 55], [22, 60], [29, 70], [44, 91], [51, 100], [71, 120], [88, 141], [105, 160], [115, 170], [117, 172]], "note": "Formulaires inutilisés et pages bis intercalés."},
+      {"pdf": "187-280", "content": "Répertoire des décès 1821-1875"}
     ]
   },
   "Ed 72/4": {
@@ -1045,23 +1045,23 @@
   "Ed 74/2": {
     "pdfPages": 294,
     "parts": [
-      {"pdf": "8-234", "content": "Mariages 1821-1875", "pages": "1-193", "anchors": [[2, 9], [3, 14], [5, 16], [11, 34], [15, 40], [19, 44], [37, 70], [51, 90], [69, 110], [89, 130]], "note": "Formulaires inutilisés intercalés."},
+      {"pdf": "8-234", "content": "Mariages 1821-1875", "pages": "1-193", "anchors": [[2, 9], [3, 14], [5, 16], [11, 34], [15, 40], [19, 44], [26, 55], [29, 60], [37, 70], [51, 90], [69, 110], [89, 130]], "note": "Formulaires inutilisés intercalés."},
       {"pdf": "245-292", "content": "Répertoire des mariages 1821-1875"}
     ]
   },
   "Ed 74/3": {
     "pdfPages": 316,
     "parts": [
-      {"pdf": "10-209", "content": "Décès 1821-1875", "pages": "1-164", "anchors": [[2, 14], [3, 18], [17, 40], [19, 46], [25, 56], [27, 62], [31, 70], [45, 90], [65, 110]], "note": "Formulaires inutilisés intercalés."},
-      {"pdf": "217-314", "content": "Répertoire des décès 1821-1875"}
+      {"pdf": "10-209", "content": "Décès 1821-1875", "pages": "1-164", "anchors": [[2, 14], [3, 18], [10, 29], [17, 40], [19, 46], [25, 56], [27, 62], [31, 70], [45, 90], [65, 110]], "note": "Formulaires inutilisés intercalés."},
+      {"pdf": "219-312", "content": "Répertoire des décès 1821-1875"}
     ]
   },
   "Ed 74/4": {
     "pdfPages": 311,
     "parts": [
       {"pdf": "6-204", "content": "Annonces de mariage 1821-1875", "pages": "1-199"},
-      {"pdf": "205-261", "content": "Annonces de mariage 1875-1882", "pages": "1-57", "note": "Seconde pagination, en folios."},
-      {"pdf": "266-310", "content": "Répertoire des annonces de mariage 1821-1882"}
+      {"pdf": "205-261", "content": "Annonces de mariage 1876-1882", "pages": "1-57", "note": "Seconde pagination, en folios."},
+      {"pdf": "266-310", "content": "Répertoire des annonces de mariage 1821-1882", "note": "Sous chaque lettre, les annonces de la première pagination, puis, sous un trait, celles de la seconde."}
     ]
   },
   "Ed 92/1": {

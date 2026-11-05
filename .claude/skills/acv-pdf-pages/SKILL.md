@@ -5,7 +5,7 @@ description: Map where each part of a davel-vd.ch register PDF sits (register pa
 
 # ACV PDF page map
 
-`data/manual/pdf-pages.json` tells the site, per cote, which PDF pages hold each part of the register and which register page sits on which PDF page. Work register by register: **plan → profile → read pages → write the entry → check**. A register is done when its entry passes `scripts/check.sh` and every register part has its first and last page read on the image.
+`data/manual/pdf-pages.json` tells the site, per cote, which PDF pages hold each part of the register and which register page sits on which PDF page. Work register by register: **plan → profile → read pages → write the entry → check → record doubts**. A register is done when its entry passes `scripts/check.sh`, every register part has its first and last page read on the image, and every reading not made on the image is listed in `data/manual/pdf-pages-a-verifier.md`.
 
 ## Steps
 
@@ -14,7 +14,7 @@ description: Map where each part of a davel-vd.ch register PDF sits (register pa
 3. **Read the profile.** `strips` are the narrow colour-chart scans the operator put before each physical volume: a strip after page 1 starts a separate répertoire volume (or a second scanning batch). `segments` group pages by format: separate répertoires are another format than the register. `text` is false on every PDF seen so far: no OCR.
 4. **Read pages.** `await pdf.view(path, [6, 285, 355], { band: 0.06, from: 0.02 })` draws a horizontal band of each page across the tab; screenshot it. `pdf.view(path, [58, 59, 60, 61])` shows whole pages side by side to recognise covers, title pages, blank leaves and répertoires. `left`/`right` (0-1) crop the band to one half to magnify a corner. One ~1 MB request per new page, cached afterwards. Screenshot again when a band shows blank: the pane can lag. `pdf.close()` removes the overlay.
    - Page numbers sit at `from` ≈ 0.01-0.05 on Eb pages and at ≈ 0.03-0.09 (printed « Page N ») on Ed forms; adjust `from` until the number shows, and crop with `left`/`right` to magnify a faint one. Several pages per call (one band each) save screenshots.
-   - For each register part, read its first and last page: the number written on the page and its PDF page. When the offset differs between the two ends, bisect with bands until you find where it changes.
+   - For each register part, read its first and last page: the number written on the page and its PDF page. When the offset differs between the two ends, bisect with bands until you find where it changes. When the two ends agree, still read one page every 100 PDF pages in between: a photographed-twice page and a skipped number cancel out at the ends.
    - Read one page of each répertoire: its references name the pagination the entry must use.
 5. **Write the entry** in `data/manual/pdf-pages.json`, parts in PDF order:
    ```json
@@ -28,7 +28,7 @@ description: Map where each part of a davel-vd.ch register PDF sits (register pa
    ```
    - `pages` is the pagination the répertoire cites, read on the page; a descending range is fine. When it differs from the inventory's `pp.`, say so in `note`. When the PDF shows the inventory is wrong (swapped parts, wrong pages or dates), also add it to `data/manual/erreurs-acv.md`, and a correction to `data/manual/corrections-inventaire.json` when the fix is certain.
    - Without `anchors`, a part has one PDF page per register page; `build/pdf_pages.py` rejects a mismatch. Split the part where the offset changes: a page number written twice (Eb 92/1 p. 166) goes in both parts, so the site offers both PDF pages.
-   - `anchors` are `[page, pdf]` pairs read on the images, for registers whose offset drifts every few pages (blank leaves bound between gatherings, common in Ed). The site interpolates between them and shows « ≈ PDF p. N ». Read one every 50 PDF pages and check one interpolated page; Ed 15/3 was 5 pages off with a 100-page gap. When the check calls an anchor « incompatible », the page was misread: read it again.
+   - `anchors` are `[page, pdf]` pairs read on the images, for registers whose offset drifts every few pages (blank leaves bound between gatherings, common in Ed). The site interpolates between them and shows « ≈ PDF p. N ». Read one every 50 PDF pages where only blank leaves drift the offset, one every 15-20 where unused forms or bis pages are bound in (all Leysin and Lignerolle Ed volumes), and read one page halfway between two anchors per 100 PDF pages; Ed 15/3 was 5 pages off with a 100-page gap. When the check calls an anchor « incompatible », the page was misread: read it again.
    - A part may sit inside the previous part's PDF range when pages carry two numbers (Eb 15/1: mariages pp. 72-89 are also baptêmes pp. 339-356). Put the outer part first.
    - `"spread": true` for parts photographed as double pages (Ed 15/2, Ed 3/2): two register pages per PDF page, positions always approximate between anchors. Read anchors on the right-hand page: the site rounds a half page up, so a left-hand anchor sends the right-hand page beside it to the next PDF page. The part may start or end on a right-hand page; one starting on a left-hand page needs an anchor on the right-hand page of the same image (Eb 23/8: `[[2, 5], …]`).
    - A page bound with its transcription before it (Eb 3/1 pp. 1-23, « Traduction de la page ci-contre ») takes two PDF pages: anchors two PDF pages apart on the originals give exact positions.
@@ -38,6 +38,7 @@ description: Map where each part of a davel-vd.ch register PDF sits (register pa
    - Name events in `content` (« Répertoire des décès », « Baptêmes ») so the site highlights the parts matching the searched event.
    - `pdfPages` equals the profile's `pages`; a test checks it.
 6. **Check.** `scripts/check.sh`. Add a case to `pdfCases` in `tests/site_smoke.mjs` for a register with a new kind of layout.
+7. **Settle or record doubts.** Settle a doubt on the spot when a few page reads answer it: the PDF is open and its pages cached, and a later session pays for them again. Record only what needs more, such as many pages or JPEG 2000 images, in `data/manual/pdf-pages-a-verifier.md`, one row per reading not made on the image: a page number guessed from its neighbours, a part start taken from the inventory, a date read only in part, a stretch between ends or anchors not sampled as above. Give the PDF pages that settle it, so a later pass reads only those. That pass reads the pages, fixes the entry when needed, runs the check and removes the row.
 
 ## What the PDFs look like
 
