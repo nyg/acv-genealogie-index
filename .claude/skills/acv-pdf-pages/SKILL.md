@@ -38,7 +38,7 @@ description: Map where each part of a davel-vd.ch register PDF sits (register pa
    - Name events in `content` (« Répertoire des décès », « Baptêmes ») so the site highlights the parts matching the searched event.
    - `pdfPages` equals the profile's `pages`; a test checks it.
 6. **Check.** `scripts/check.sh`. Add a case to `pdfCases` in `tests/site_smoke.mjs` for a register with a new kind of layout.
-7. **Record doubts** in `data/manual/pdf-pages-a-verifier.md`, one row per reading not made on the image: a page number guessed from its neighbours, a part start taken from the inventory, a date read only in part, a stretch between ends or anchors not sampled as above. Give the PDF pages that settle it, so a later pass reads only those. That pass reads the pages, fixes the entry when needed, runs the check and removes the row.
+7. **Settle or record doubts.** Settle a doubt on the spot when a few page reads answer it: the PDF is open and its pages cached, and a later session pays for them again. Record only what needs more, such as many pages or JPEG 2000 images, in `data/manual/pdf-pages-a-verifier.md`, one row per reading not made on the image: a page number guessed from its neighbours, a part start taken from the inventory, a date read only in part, a stretch between ends or anchors not sampled as above. Give the PDF pages that settle it, so a later pass reads only those. That pass reads the pages, fixes the entry when needed, runs the check and removes the row.
 
 ## What the PDFs look like
 
