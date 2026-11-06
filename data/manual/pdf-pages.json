@@ -1707,5 +1707,57 @@
       {"pdf": "6-213", "content": "Annonces de mariages 1871-1879", "pages": "1-208", "note": "PDF 214 : page blanche ; PDF 215 : feuille marbrée."},
       {"pdf": "216-254", "content": "Répertoire des annonces de mariages 1871-1879", "note": "Incorporé, à onglets alphabétiques ; pages blanches jusqu'à la fin du volume."}
     ]
+  },
+  "Ed 78/5": {
+    "pdfPages": 195,
+    "parts": [
+      {"pdf": "5-161", "content": "Mariages 1857-1875", "pages": "1-313", "spread": true, "note": "Photographié en doubles pages : p. 1 à droite du PDF 5, puis deux pages par image."},
+      {"pdf": "168-194", "content": "Répertoire des mariages 1857-1875", "note": "Volume séparé."}
+    ]
+  },
+  "Ed 78/7": {
+    "pdfPages": 462,
+    "parts": [
+      {"pdf": "8-84", "content": "Décès 1853-1859", "pages": "1-77"},
+      {"pdf": "85-294", "content": "Décès 1859-1869", "pages": "76-285", "note": "Pp. 76-77 photographiées deux fois (PDF 83-84 et 85-86)."},
+      {"pdf": "296-404", "content": "Décès 1869-1875", "pages": "286-394", "note": "PDF 295 : formulaire sans numéro ; PDF 405-409 : formulaires inutilisés."},
+      {"pdf": "413-460", "content": "Répertoire des décès 1853-1875", "note": "Volume séparé."}
+    ]
+  },
+  "Ed 78/3": {
+    "pdfPages": 453,
+    "parts": [
+      {"pdf": "10-37", "content": "Naissances et baptêmes 1861-1862", "pages": "1-28"},
+      {"pdf": "40-306", "content": "Naissances et baptêmes 1862-1872", "pages": "29-295", "note": "PDF 38 : p. 28 photographiée de nouveau ; PDF 39 : feuillet volant. PDF 307-309 : pp. 295, 294 et 295 photographiées de nouveau avant la bande de couleurs."},
+      {"pdf": "311-385", "content": "Naissances et baptêmes 1872-1875", "pages": "296-370"},
+      {"pdf": "386-399", "content": "État nominatif des enfants nés en 1874 et 1875, baptisés à Lutry, dont le baptême a été omis", "note": "Cahier volant (feuillets 380 a, 380 b…), photographié posé sur la p. 370 (PDF 386) ; l'inventaire le place entre les pp. 379 et 380."},
+      {"pdf": "400", "content": "Naissances et baptêmes 1875", "pages": "380", "note": "Numéro au crayon ; aucune p. 371-379 dans le PDF. PDF 401 : formulaire inutilisé."},
+      {"pdf": "404-451", "content": "Répertoire des naissances et baptêmes 1861-1875", "note": "Après un carton marbré (PDF 403)."}
+    ]
+  },
+  "Ed 78/2": {
+    "pdfPages": 589,
+    "parts": [
+      {"pdf": "8-195", "content": "Naissances et baptêmes 1838-1846", "pages": "1-172", "anchors": [[13, 20], [21, 30], [31, 40], [49, 60], [67, 80], [77, 90], [85, 100], [95, 110], [105, 120], [113, 130], [123, 140], [128, 145], [136, 155], [141, 160], [146, 165], [154, 175], [164, 185], [169, 190], [171, 194]], "note": "Feuillets blancs intercalés tout au long du registre : le décalage passe de 7 à 23 pages."},
+      {"pdf": "198-411", "content": "Naissances et baptêmes 1846-1856", "pages": "173-366", "anchors": [[185, 210], [193, 220], [201, 230], [211, 240], [221, 250], [229, 260], [239, 270], [247, 280], [255, 290], [265, 300], [273, 310], [283, 320], [291, 330], [301, 340], [311, 350], [319, 360], [329, 370], [337, 380], [355, 400], [360, 405]], "note": "PDF 196 : p. 172 photographiée de nouveau avant la bande de couleurs. Feuillets blancs intercalés : le décalage passe de 25 à 45 pages."},
+      {"pdf": "414-529", "content": "Naissances et baptêmes 1856-1861", "pages": "367-472", "anchors": [[371, 420], [381, 430], [389, 440], [399, 450], [409, 460], [417, 470], [427, 480], [437, 490], [445, 500], [455, 510], [465, 520], [468, 523]], "note": "PDF 412 : p. 366 photographiée de nouveau avant la bande de couleurs. Feuillets blancs intercalés : le décalage passe de 47 à 57 pages."},
+      {"pdf": "532-587", "content": "Répertoire des naissances et baptêmes 1838-1861", "note": "Après un carton (PDF 531)."}
+    ]
+  },
+  "Ed 78/4": {
+    "pdfPages": 512,
+    "parts": [
+      {"pdf": "6-9", "content": "Mariages 1821", "pages": "1-4"},
+      {"pdf": "13-457", "content": "Mariages 1821-1857", "pages": "5-375", "anchors": [[6, 16], [7, 17], [8, 20], [14, 35], [17, 40], [19, 45], [25, 52], [26, 55], [29, 60], [38, 75], [41, 80], [46, 85], [49, 90], [52, 95], [57, 100], [65, 110], [75, 120], [85, 130], [93, 140], [103, 150], [121, 170], [129, 180], [139, 190], [147, 200], [157, 210], [165, 220], [175, 230], [185, 240], [193, 250], [203, 260], [211, 270], [237, 300], [245, 310], [255, 320], [265, 330], [273, 340], [280, 350], [288, 360], [298, 370], [306, 380], [316, 390], [324, 400], [332, 410], [342, 420], [350, 430], [360, 440], [366, 448], [368, 450], [370, 452], [372, 454], [374, 456]], "note": "PDF 10-12 : feuillet sans numéro et p. 4 bis ; PDF 30 : p. 11 bis. Formulaires inutilisés et feuillets blancs intercalés tout au long du registre : le décalage passe de 8 à 82 pages."},
+      {"pdf": "463-510", "content": "Répertoire des mariages 1821-1857", "note": "Volume séparé."}
+    ]
+  },
+  "Ed 78/6": {
+    "pdfPages": 514,
+    "parts": [
+      {"pdf": "6-9", "content": "Décès 1821-1822", "pages": "1-4"},
+      {"pdf": "12-457", "content": "Décès 1822-1853", "pages": "5-379", "anchors": [[6, 13], [9, 16], [13, 20], [16, 25], [21, 30], [24, 35], [29, 40], [31, 45], [39, 55], [46, 65], [51, 70], [58, 80], [63, 85], [75, 100], [85, 110], [93, 120], [100, 130], [114, 150], [128, 170], [146, 190], [154, 200], [162, 210], [170, 220], [188, 240], [196, 250], [214, 270], [222, 280], [230, 290], [238, 300], [256, 320], [264, 330], [274, 340], [282, 350], [300, 370], [318, 390], [326, 400], [336, 410], [346, 420], [354, 430], [364, 440], [372, 450], [375, 453], [377, 455], [378, 456]], "note": "PDF 10-11 : onglet et feuille blanche intercalée ; PDF 160 : p. 121 bis. Formulaires inutilisés et feuillets blancs intercalés tout au long du registre : le décalage passe de 7 à 78 pages."},
+      {"pdf": "465-512", "content": "Répertoire des décès 1821-1853", "note": "Volume séparé, intitulé « Registre des décès » ; l'inventaire le dit « des mariages »."}
+    ]
   }
 }
