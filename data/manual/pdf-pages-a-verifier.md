@@ -14,6 +14,3 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Eb 25/3 | 139-141 | La p. 222 au PDF 139 est déduite de l'alternance recto-verso (numéro à demi caché) ; les pp. 223-224 (PDF 140-141) lues en partie. |
 | Eb 25/6 | 103-104 | Feuillet bis après la p. 95 : numéro lu « 9? bis », sans savoir s'il s'agit de 94 bis ou 95 bis. |
 | Eb 25/10 | 6-7 | La p. 37 n'est pas trouvée : PDF 6, page de titre « 1801 à 1811 », porte un numéro rouge à demi caché ; PDF 7 est une feuille « 37 b ». |
-| Ed 25/1 | 168, 201, 236, 259, 281, 284, 315 | Repères déduits de la suite des numéros entre deux feuillets blancs, sans lecture (au PDF 284, aucun numéro visible en tête). Les années 1830 de fin et de début des parties PDF 130-185 et 188-440 sont déduites aussi. |
-| Ed 25/3 | 18, 34, 38, 46-48, 80, 110 | PDF 14-56 : numéros répétés (3, 13, 15, peut-être 20), les repères suivent la première occurrence ; voir si les secondes sont des pages bis. PDF 80 et 110 lus 46 ou 49, 72 ou 74 : laissés hors des repères. |
-| Ed 25/3 | une ligne 1844-1846 du répertoire (PDF 385-436) | Les PDF 220-235 portent deux numéros (185 et « 182 du Registre »…) : l'entrée suit le premier ; vérifier que le répertoire le cite aussi dans ces années. |
