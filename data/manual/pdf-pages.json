@@ -1538,7 +1538,7 @@
     "pdfPages": 455,
     "parts": [
       {"pdf": "8-192", "content": "Mariages 1821-1846", "pages": "1-168", "anchors": [[3, 10], [13, 22], [18, 27], [28, 40], [36, 50], [56, 70], [66, 80], [76, 90], [86, 100], [92, 108], [101, 120], [110, 130], [120, 140], [130, 150], [136, 157], [137, 159], [148, 170], [158, 180], [162, 184], [164, 186], [166, 188]], "note": "Formulaires vierges et billets intercalés : le décalage passe de 7 à 24 pages."},
-      {"pdf": "194-243", "content": "Mariages 1847-1851", "pages": "160-208", "anchors": [[161, 196], [163, 198], [164, 199], [165, 200], [175, 210], [185, 220], [195, 230], [205, 240], [206, 241], [207, 242]], "note": "La pagination reprend à 160 après la p. 168 (PDF 192), les pp. 160-168 existent deux fois ; une correction au crayon (170, 172…) couvre le début de cette seconde série."},
+      {"pdf": "194-243", "content": "Mariages 1847-1851", "pages": "160-208", "anchors": [[161, 196], [163, 198], [164, 199], [165, 200], [175, 210], [185, 220], [195, 230], [205, 240], [206, 241], [207, 242]], "note": "La pagination à l'encre reprend à 160 après la p. 168 (PDF 192), les pp. 160-168 existent deux fois ; le répertoire cite l'encre (Saugy et Cottier, 1847 : p. 160, n° 211). Une correction au crayon (170, 172, 174) ne couvre que PDF 194, 198 et 200."},
       {"pdf": "244-403", "content": "Mariages 1851-1869", "pages": "269-427", "anchors": [[271, 246], [273, 248], [277, 252], [280, 255], [295, 270], [310, 285], [340, 315], [355, 330], [370, 345], [385, 360], [400, 375], [414, 390], [422, 398], [424, 400]], "note": "La pagination saute de 208 (PDF 243) à 269 (PDF 244)."},
       {"pdf": "406-452", "content": "Répertoire des mariages 1821-1869"}
     ]
@@ -1594,7 +1594,8 @@
       {"pdf": "103", "content": "Baptêmes 1607-1644, p. 91 bis"},
       {"pdf": "104-107", "content": "Baptêmes 1607-1644", "pages": "92-95"},
       {"pdf": "111-185", "content": "Répertoire des baptêmes 1607-1774 (Eb 78/1, Eb 78/2 et Eb 78/3)", "note": "Volume séparé. PDF 111-116 : liste des baptêmes 1719-1750 (Eb 78/3), puis le répertoire par lettre, sections I (1607-1644) et II (1714-1774)."},
-      {"pdf": "187-224", "content": "Mariages 1607-1644", "pages": "96-133", "note": "Photographiés après le répertoire des baptêmes. Liste des pasteurs et diacres aux pp. 131-132. PDF 225-229 : dernières pages, presque blanches, et la partie tête-bêche (p. 135 de l'inventaire)."},
+      {"pdf": "187-224", "content": "Mariages 1607-1644", "pages": "96-133", "note": "Photographiés après le répertoire des baptêmes. Liste des pasteurs et diacres aux pp. 131-132. PDF 225 : p. 134, blanche ; PDF 227-229 : pages blanches."},
+      {"pdf": "226", "content": "Dénombrement des tribus d'Israël (Nombres 1), tête-bêche", "pages": "135", "note": "Seule page de la partie tête-bêche, photographiée à l'envers."},
       {"pdf": "234-301", "content": "Répertoire des mariages 1607-1821 (Eb 78/1, Eb 78/3 et Eb 78/7)", "note": "Volume séparé. PDF 234-235 : billet récapitulant les volumes."}
     ]
   },
@@ -1610,7 +1611,7 @@
     "pdfPages": 381,
     "parts": [
       {"pdf": "12-91", "content": "Baptêmes 1719-1753", "pages": "1-80"},
-      {"pdf": "92-272", "content": "Catéchumènes 1738-1856", "pages": "81-261", "note": "Numéros lus jusqu'à la p. 170 (PDF 181) ; les dernières pages n'en montrent pas en tête."},
+      {"pdf": "92-272", "content": "Catéchumènes 1738-1856", "pages": "81-261", "note": "Après la p. 170 (PDF 181), les numéros sont au crayon en pied de page."},
       {"pdf": "282-380", "content": "Mariages 1719-1808", "pages": "0-98", "note": "Partie tête-bêche ; PDF 273-281 : couverture arrière et pages blanches."}
     ]
   },
@@ -1640,9 +1641,10 @@
   "Eb 78/7": {
     "pdfPages": 141,
     "parts": [
-      {"pdf": "8-109", "content": "Annonces de mariages 1809-1821", "pages": "1-102", "note": "Pagination à l'encre rouge, celle de l'inventaire ; une pagination à l'encre noire prend deux pages de retard vers la fin (p. 96 noire sur la p. 98 rouge, PDF 105). PDF 5-7 : pages préliminaires (pp. 0-0b)."},
+      {"pdf": "8-109", "content": "Annonces de mariages 1809-1821", "pages": "1-102", "note": "Pagination à l'encre rouge, celle de l'inventaire et du répertoire des mariages (dans Eb 78/1), qui place Battaly à la p. 100 (PDF 107, p. 98 noire) ; une pagination à l'encre noire prend deux pages de retard vers la fin. PDF 5-7 : pages préliminaires (pp. 0-0b)."},
       {"pdf": "110-119", "content": "Registre des collectes annuelles en faveur des malades pauvres incurables, 1860-1867 (pp. 102a-102j)"},
-      {"pdf": "125-140", "content": "Annonces de mariages 1809-1821 (partie tête-bêche)", "pages": "103-118", "note": "PDF 120-121 : couverture arrière, début de la partie tête-bêche. PDF 122-124 : pages sans numéro visible (pp. 100-102 de l'inventaire)."}
+      {"pdf": "123", "content": "Copie d'une lettre du Petit Conseil sur les annonces de mariage des ressortissants de la Direction des pauvres français réfugiés, 1809 (partie tête-bêche)", "note": "P. 100 au crayon, en pied de page ; PDF 122 et 124 : pages blanches. Les pp. 101-102 n'existent pas, selon l'inventaire."},
+      {"pdf": "125-140", "content": "Annonces de mariages 1809-1821 (partie tête-bêche)", "pages": "103-118", "note": "PDF 120-121 : couverture arrière, début de la partie tête-bêche."}
     ]
   },
   "Ed 78/1": {
@@ -1731,7 +1733,7 @@
       {"pdf": "40-306", "content": "Naissances et baptêmes 1862-1872", "pages": "29-295", "note": "PDF 38 : p. 28 photographiée de nouveau ; PDF 39 : feuillet volant. PDF 307-309 : pp. 295, 294 et 295 photographiées de nouveau avant la bande de couleurs."},
       {"pdf": "311-385", "content": "Naissances et baptêmes 1872-1875", "pages": "296-370"},
       {"pdf": "386-399", "content": "État nominatif des enfants nés en 1874 et 1875, baptisés à Lutry, dont le baptême a été omis", "note": "Cahier volant (feuillets 380 a, 380 b…), photographié posé sur la p. 370 (PDF 386) ; l'inventaire le place entre les pp. 379 et 380."},
-      {"pdf": "400", "content": "Naissances et baptêmes 1875", "pages": "380", "note": "Numéro au crayon ; aucune p. 371-379 dans le PDF. PDF 401 : formulaire inutilisé."},
+      {"pdf": "400", "content": "Naissances et baptêmes 1875 : clôture du registre, le 31 décembre", "pages": "380", "note": "Numéro au crayon, sans numéro à l'encre dessous. Les feuillets des pp. 371-379, restés vides, sont coupés (onglet à gauche) : le dernier acte, n° 1047 du 27 décembre 1875, est à la p. 370. PDF 401 : formulaire inutilisé."},
       {"pdf": "404-451", "content": "Répertoire des naissances et baptêmes 1861-1875", "note": "Après un carton marbré (PDF 403)."}
     ]
   },
@@ -1763,7 +1765,7 @@
   "Eb 25/1": {
     "pdfPages": 525,
     "parts": [
-      {"pdf": "6-16", "content": "Baptêmes 1575-1614, feuillets non paginés", "note": "Feuillets en tête du volume, avant la p. 1 (p. 0 de l'inventaire) : actes de 1588-1592 et une attestation en latin."},
+      {"pdf": "6-16", "content": "Décès 1581-1596 et notes diverses, feuillets non paginés", "note": "Feuillets en tête du volume, avant la p. 1 (p. 0 de l'inventaire), numérotés 0a, 0b… au crayon en pied de page. PDF 6 : deux ensevelissements, 1581 et 1596 ; PDF 7 : récit d'une tempête à Cheseaux en 1588, transcrit en PDF 8 ; PDF 9-10 : lettres citatoires du consistoire ; PDF 11 : attestation de mariage en latin du pasteur Jacques Vuthier ; PDF 12-13 : notes de 1590 et 1592 ; PDF 14 : attestation du même pasteur ; PDF 15-16 : pages blanches."},
       {"pdf": "17-74", "content": "Baptêmes 1575-1614", "pages": "1-58"},
       {"pdf": "75", "content": "Table des matières", "pages": "318", "note": "Photographiée à la suite de la p. 58 ; les pp. 59-312 suivent les répertoires séparés, dès PDF 323."},
       {"pdf": "81-93", "content": "Répertoire des baptêmes 1573-1614"},
@@ -1871,7 +1873,7 @@
       {"pdf": "75-85", "content": "Baptêmes de Sullens 1765-1812", "pages": "54-64", "note": "PDF 73-74 : un billet, posé sur la page puis seul."},
       {"pdf": "88-89", "content": "Baptêmes de Sullens 1765-1812", "pages": "65-66", "note": "PDF 86-87 : un billet."},
       {"pdf": "93-102", "content": "Baptêmes de Sullens 1765-1812", "pages": "86-95", "note": "PDF 90-92 : des billets. Les pp. 67-85, des catéchumènes, sont photographiées en PDF 126-144."},
-      {"pdf": "103-104", "content": "Baptêmes de Sullens 1765-1812", "note": "Feuillet bis après la p. 95."},
+      {"pdf": "103-104", "content": "Baptêmes de Sullens 1765-1812", "note": "Feuillet bis après la p. 95, numéroté « 94 bis » (PDF 103) et de nouveau « 95 » (PDF 104)."},
       {"pdf": "105-125", "content": "Baptêmes de Sullens 1765-1812", "pages": "96-116"},
       {"pdf": "126-144", "content": "Catéchumènes de Sullens 1765-1812", "pages": "67-85", "note": "Photographiés après les baptêmes."},
       {"pdf": "149-190", "content": "Décès de Sullens 1765-1812, tête-bêche", "pages": "1-42", "note": "PDF 148 : page de titre ornée d'un cœur (p. 0 de l'inventaire)."},
@@ -1943,7 +1945,7 @@
   "Eb 25/10": {
     "pdfPages": 107,
     "parts": [
-      {"pdf": "7", "content": "Annonces de mariages célébrés ailleurs 1799-1811", "note": "Feuille numérotée « 37 b » ; PDF 6 : page de titre « 1801 à 1811 »."},
+      {"pdf": "7", "content": "Annonces de mariages célébrés ailleurs 1799-1811", "note": "Feuille numérotée « 37 b ». PDF 5 : couverture, p. 37 au crayon en pied de page ; PDF 6 : page de titre « 1801 à 1811 », p. 37a."},
       {"pdf": "8-61", "content": "Annonces de mariages célébrés ailleurs 1799-1811", "pages": "38-91", "note": "Pagination au crayon rouge, celle du répertoire ; une pagination plus ancienne, à l'encre, est barrée. L'inventaire indique pp. 37-90."},
       {"pdf": "70-93", "content": "Annonces de mariages célébrés ailleurs 1801-1811, tête-bêche", "pages": "1-24", "note": "PDF 68 : page de titre (p. 0)."},
       {"pdf": "96-107", "content": "Annonces de mariages célébrés ailleurs 1801-1811, tête-bêche", "pages": "25-36", "note": "PDF 94 : la p. 24 photographiée une seconde fois ; PDF 95 : un billet."}
