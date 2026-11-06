@@ -38,6 +38,10 @@ def _check_parts(cote, pdf_pages, parts):
 
 def _check_anchors(cote, part):
     (first, last), (start, end) = part["pages"], part["pdf"]
+    ends = [[first, start], [last, end]]
+    for anchor in part["anchors"]:
+        if anchor in ends:
+            raise ValueError(f"{cote} : le repère p. {anchor[0]} → PDF {anchor[1]} est le début ou la fin de la partie, déjà pris comme repère : le retirer")
     points = [(first, start), *part["anchors"], (last, end)]
     direction = 1 if last >= first else -1
     for (page, pdf), (next_page, next_pdf) in zip(points, points[1:]):
