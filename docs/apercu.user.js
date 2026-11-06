@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Registres vaudois : aperçu des PDF
 // @namespace    https://nyg.github.io/acv-genealogie-index/
-// @version      1.3.1
+// @version      1.3.2
 // @description  Affiche une page d'un PDF de davel-vd.ch ou du Staatsarchiv Zürich sans télécharger le fichier entier, avec le sommaire des registres indexés.
 // @match        https://davel-vd.ch/*
 // @match        https://suche.staatsarchiv.djiktzh.ch/*
@@ -155,6 +155,7 @@ const createPdfjsReader = (urlOf, load = loadPdfjs) => {
   const CHUNK_BYTES = 4096;
   const STRIP_MAX_HEIGHT = 300;
   const IMAGE_CACHE = 40;
+  const NUMBER_ROWS = 12;
 
   const state = (window.__pdf ??= { docs: {}, profiles: {}, queue: [], running: false, errors: [], requests: 0, last: 0, images: new Map() });
 
@@ -450,7 +451,7 @@ const createPdfjsReader = (urlOf, load = loadPdfjs) => {
     context.fillText(String(n), 6, 18);
   };
 
-  const view = async (path, pages, { band = null, from = 0, left = 0, right = 1, rotate = false } = {}) => {
+  const loadImages = async (path, pages) => {
     const images = [];
     for (const n of pages) {
       const image = new Image();
@@ -458,25 +459,96 @@ const createPdfjsReader = (urlOf, load = loadPdfjs) => {
       await image.decode();
       images.push([n, image]);
     }
+    return images;
+  };
+
+  // A turned page (rotate) is cropped as it reads once turned: `from` counts from its top, `left` from its left.
+  const drawCrop = (context, image, { from, band, left, right, rotate }, dx, dw, dh) => {
+    const [width, height] = [image.naturalWidth * (right - left), image.naturalHeight * band];
+    const [sx, sy] = [image.naturalWidth * left, image.naturalHeight * from];
+    context.save();
+    if (rotate) {
+      context.translate(dx + dw, dh);
+      context.rotate(Math.PI);
+      context.drawImage(image, image.naturalWidth - sx - width, image.naturalHeight - sy - height, width, height, 0, 0, dw, dh);
+    } else context.drawImage(image, sx, sy, width, height, dx, 0, dw, dh);
+    context.restore();
+  };
+
+  const stack = (box, canvases) => {
+    box.style.cssText = 'position:fixed;inset:0;z-index:99999;background:#222;display:flex;flex-direction:column;gap:3px;overflow:hidden';
+    let used = 0;
+    const hidden = [];
+    for (const [n, canvas] of canvases) {
+      canvas.style.cssText = 'width:100%;flex:none';
+      box.appendChild(canvas);
+      used += canvas.height * box.clientWidth / canvas.width + 3;
+      if (used > innerHeight) hidden.push(n);
+    }
+    return hidden;
+  };
+
+  const view = async (path, pages, { band = null, from = 0, left = 0, right = 1, rotate = false } = {}) => {
+    const images = await loadImages(path, pages);
     const box = overlay();
-    box.style.cssText = `position:fixed;inset:0;z-index:99999;background:#222;display:${band ? 'flex;flex-direction:column;gap:3px' : `grid;grid-template-columns:repeat(${pages.length},1fr);gap:4px`};overflow:hidden`;
-    for (const [n, image] of images) {
+    const canvases = images.map(([n, image]) => {
       const canvas = document.createElement('canvas');
-      const sourceTop = image.naturalHeight * from;
-      const sourceHeight = band ? image.naturalHeight * band : image.naturalHeight;
-      const sourceLeft = image.naturalWidth * left;
+      const crop = { from, band: band ?? 1, left, right, rotate };
       const sourceWidth = image.naturalWidth * (right - left);
       canvas.width = band ? innerWidth : sourceWidth / 4;
-      canvas.height = Math.round(canvas.width * sourceHeight / sourceWidth);
+      canvas.height = Math.round(canvas.width * image.naturalHeight * crop.band / sourceWidth);
       const context = canvas.getContext('2d');
-      if (rotate) { context.translate(canvas.width, canvas.height); context.rotate(Math.PI); }
-      context.drawImage(image, rotate ? image.naturalWidth - sourceLeft - sourceWidth : sourceLeft, rotate ? image.naturalHeight - sourceTop - sourceHeight : sourceTop, sourceWidth, sourceHeight, 0, 0, canvas.width, canvas.height);
-      context.setTransform(1, 0, 0, 1, 0, 0);
+      drawCrop(context, image, crop, 0, canvas.width, canvas.height);
       label(context, n);
-      canvas.style.cssText = band ? 'width:100%;flex:none' : 'max-width:100%;max-height:calc(100vh - 8px);margin:auto';
+      return [n, canvas];
+    });
+    if (band) return { pages, hidden: stack(box, canvases), requests: state.requests };
+    box.style.cssText = `position:fixed;inset:0;z-index:99999;background:#222;display:grid;grid-template-columns:repeat(${pages.length},1fr);gap:4px;overflow:hidden`;
+    for (const [, canvas] of canvases) {
+      canvas.style.cssText = 'max-width:100%;max-height:calc(100vh - 8px);margin:auto';
       box.appendChild(canvas);
     }
     return { pages, requests: state.requests };
+  };
+
+  // Page numbers sit in the top left corner of versos and the top right corner of rectos: one row per page shows both corners.
+  // Rows shrink to fit the pane, widening the corners first, so every requested page shows in one screenshot.
+  const numbers = async (path, pages, { from = 0.01, band = 0.05, width = 0.3, rotate = false } = {}) => {
+    if (pages.length > NUMBER_ROWS) throw new Error(`pdf.numbers: ${NUMBER_ROWS} pages at most per call`);
+    const images = await loadImages(path, pages);
+    const box = overlay();
+    const half = Math.floor(innerWidth / 2) - 2;
+    const rowMax = Math.floor((innerHeight - 3 * pages.length) / pages.length);
+    const canvases = images.map(([n, image]) => {
+      const bandHeight = image.naturalHeight * band;
+      const corner = Math.min(0.5, Math.max(width, half * bandHeight / (rowMax * image.naturalWidth)));
+      const height = Math.min(rowMax, Math.round(half * bandHeight / (image.naturalWidth * corner)));
+      const drawWidth = Math.round(height * image.naturalWidth * corner / bandHeight);
+      const canvas = document.createElement('canvas');
+      canvas.width = innerWidth;
+      canvas.height = height;
+      const context = canvas.getContext('2d');
+      context.fillStyle = '#222';
+      context.fillRect(0, 0, canvas.width, canvas.height);
+      drawCrop(context, image, { from, band, left: 0, right: corner, rotate }, 0, drawWidth, height);
+      drawCrop(context, image, { from, band, left: 1 - corner, right: 1, rotate }, canvas.width - drawWidth, drawWidth, height);
+      label(context, n);
+      return [n, canvas];
+    });
+    return { pages, hidden: stack(box, canvases), requests: state.requests };
+  };
+
+  const sizes = async (path, first = 1, last = null) => {
+    const doc = await openDoc(path);
+    const result = [];
+    for (let n = first; n <= (last ?? doc.pages.length); n++) result.push([n, Math.round(doc.objectSize((await pageInfo(doc, n)).image) / 1000)]);
+    return result;
+  };
+
+  const small = async (path, first = 2, last = null, ratio = 0.5) => {
+    const all = await sizes(path, first, last);
+    const median = all.map(([, kb]) => kb).sort((a, b) => a - b)[all.length >> 1];
+    return all.filter(([, kb]) => kb < median * ratio).map(([n, kb]) => `${n}:${kb}`).join(' ');
   };
 
   const close = () => { document.getElementById('pdf-view')?.remove(); return 'closed'; };
@@ -496,7 +568,14 @@ const createPdfjsReader = (urlOf, load = loadPdfjs) => {
     requests: state.requests,
   });
 
-  window.pdf = { enqueue, status, profile, view, close, exportProfiles, openDoc, pageInfo, imageOf, segment, unpredict, state };
+  // Returns after maxMs at most, so the browser tool call ends before its own timeout; call again while the queue is not empty.
+  const idle = async (maxMs = 45000) => {
+    const until = Date.now() + maxMs;
+    while ((state.running || state.queue.length) && Date.now() < until) await sleep(1000);
+    return status();
+  };
+
+  window.pdf = { enqueue, status, idle, profile, view, numbers, sizes, small, close, exportProfiles, openDoc, pageInfo, imageOf, segment, unpredict, state };
   return 'pdf probe ready';
 })();
         }
