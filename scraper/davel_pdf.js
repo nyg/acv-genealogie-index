@@ -5,6 +5,7 @@
   const CHUNK_BYTES = 4096;
   const STRIP_MAX_HEIGHT = 300;
   const IMAGE_CACHE = 40;
+  const NUMBER_ROWS = 12;
 
   const state = (window.__pdf ??= { docs: {}, profiles: {}, queue: [], running: false, errors: [], requests: 0, last: 0, images: new Map() });
 
@@ -361,19 +362,26 @@
   };
 
   // Page numbers sit in the top left corner of versos and the top right corner of rectos: one row per page shows both corners.
+  // Rows shrink to fit the pane, widening the corners first, so every requested page shows in one screenshot.
   const numbers = async (path, pages, { from = 0.01, band = 0.05, width = 0.3, rotate = false } = {}) => {
+    if (pages.length > NUMBER_ROWS) throw new Error(`pdf.numbers: ${NUMBER_ROWS} pages at most per call`);
     const images = await loadImages(path, pages);
     const box = overlay();
+    const half = Math.floor(innerWidth / 2) - 2;
+    const rowMax = Math.floor((innerHeight - 3 * pages.length) / pages.length);
     const canvases = images.map(([n, image]) => {
+      const bandHeight = image.naturalHeight * band;
+      const corner = Math.min(0.5, Math.max(width, half * bandHeight / (rowMax * image.naturalWidth)));
+      const height = Math.min(rowMax, Math.round(half * bandHeight / (image.naturalWidth * corner)));
+      const drawWidth = Math.round(height * image.naturalWidth * corner / bandHeight);
       const canvas = document.createElement('canvas');
-      const half = Math.floor(innerWidth / 2) - 2;
       canvas.width = innerWidth;
-      canvas.height = Math.round(half * image.naturalHeight * band / (image.naturalWidth * width));
+      canvas.height = height;
       const context = canvas.getContext('2d');
       context.fillStyle = '#222';
       context.fillRect(0, 0, canvas.width, canvas.height);
-      drawCrop(context, image, { from, band, left: 0, right: width, rotate }, 0, half, canvas.height);
-      drawCrop(context, image, { from, band, left: 1 - width, right: 1, rotate }, canvas.width - half, half, canvas.height);
+      drawCrop(context, image, { from, band, left: 0, right: corner, rotate }, 0, drawWidth, height);
+      drawCrop(context, image, { from, band, left: 1 - corner, right: 1, rotate }, canvas.width - drawWidth, drawWidth, height);
       label(context, n);
       return [n, canvas];
     });
