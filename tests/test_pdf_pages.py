@@ -7,7 +7,7 @@ import pytest
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "build"))
 
-from pdf_pages import load_pdf_pages, parse_pdf_pages, parse_range  # noqa: E402
+from pdf_pages import load_pdf_pages, parse_pdf_pages, parse_range, sb267_default_parts  # noqa: E402
 
 
 def test_range_keeps_descending_pagination():
@@ -201,3 +201,52 @@ def test_spread_part_cannot_hold_more_than_two_register_pages_per_pdf_page():
 
     # Then
     assert "repère p. 177 → PDF 60" in str(error.value)
+
+
+def sb267_unit(title, start, end, pages):
+    return {"title": title, "start": start, "end": end, "extent": f"1 registre comprenant {pages} pages utiles et 1 répertoire"}
+
+
+def test_sb267_register_page_is_three_pdf_pages_further():
+    # Given
+    unit = sb267_unit("Registre des naissances", "1881-01-01", "1887-12-31", 400)
+
+    # When
+    register, repertoire = sb267_default_parts(unit)
+
+    # Then
+    assert (register["pdf"], register["pages"], register["kinds"], register["approx"]) == ([4, 403], [1, 400], ["naissance"], True)
+    assert (repertoire["pdf"], repertoire["kind"], repertoire["content"]) == ([404, 404], "repertoire", "Répertoire des naissances 1881-1887")
+
+
+def test_sb267_register_cut_off_by_the_protection_period_gets_no_default():
+    # Given
+    unit = sb267_unit("Registre des décès", "1952-01-01", "1960-12-31", 300)
+
+    # When
+    parts = sb267_default_parts(unit)
+
+    # Then
+    assert parts is None
+
+
+def test_sb267_register_ending_in_the_last_published_year_gets_a_default():
+    # Given
+    unit = sb267_unit("Registre des mariages", "1924-01-01", "1929-12-31", 125)
+
+    # When
+    parts = sb267_default_parts(unit)
+
+    # Then
+    assert parts[0]["pdf"] == [4, 128]
+
+
+def test_sb267_reconnaissances_get_no_default():
+    # Given
+    unit = sb267_unit("Registre des reconnaissances d'enfant naturel", "1876-01-01", "1900-12-31", 100)
+
+    # When
+    parts = sb267_default_parts(unit)
+
+    # Then
+    assert parts is None

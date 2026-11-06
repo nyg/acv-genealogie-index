@@ -2034,5 +2034,132 @@
       {"pdf": "6-273", "content": "Annonces de mariage 1821-1875", "pages": "1-267", "anchors": [[16, 21], [17, 23]], "note": "Papier ligné, numéro « p. N » en haut à gauche jusque vers la p. 45, puis au coin extérieur. Le PDF 22, entre les pp. 16 et 17, ne porte pas de numéro. Feuillets blancs aux PDF 274-276."},
       {"pdf": "278-320", "content": "Répertoire des annonces de mariage 1821-1875", "note": "Après un carton (PDF 277). Il cite les numéros des annonces, pas les pages."}
     ]
+  },
+  "SB 267/2/1/1": {
+    "pdfPages": 453,
+    "parts": [
+      {"pdf": "4-403", "content": "Naissances 1876-1881", "pages": "1-400", "note": "La p. 400 est photographiée deux fois (PDF 403 et 404)."},
+      {"pdf": "405-453", "content": "Répertoire des naissances 1876-1881"}
+    ]
+  },
+  "SB 267/2/3/12": {
+    "pdfPages": 289,
+    "parts": [
+      {"pdf": "4-289", "content": "Décès 1952-1959", "pages": "1-286", "note": "Le PDF s'arrête au dernier décès de 1959 (26 décembre) : les décès suivants et le répertoire ne sont pas publiés."}
+    ]
+  },
+  "SB 267/12/1/3": {
+    "pdfPages": 253,
+    "parts": [
+      {"pdf": "4-203", "content": "Naissances 1887-1889", "pages": "1-200", "note": "La p. 200 est photographiée deux fois (PDF 203 et 204)."},
+      {"pdf": "205-253", "content": "Répertoire des naissances 1887-1889"}
+    ]
+  },
+  "SB 267/12/2/1": {
+    "pdfPages": 453,
+    "parts": [
+      {"pdf": "4-48", "content": "Mariages 1876-1887", "pages": "1-45"},
+      {"pdf": "49-403", "content": "Mariages 1876-1887", "pages": "45-399", "note": "Le folio 45 est numéroté sur deux pages (PDF 48 et 49). La p. 399 est photographiée deux fois (PDF 403 et 404)."},
+      {"pdf": "405-453", "content": "Répertoire des mariages 1876-1887"}
+    ]
+  },
+  "SB 267/12/3/10": {
+    "pdfPages": 370,
+    "parts": [
+      {"pdf": "4-299", "content": "Décès 1919-1927", "pages": "1-296"},
+      {"pdf": "300-369", "content": "Répertoire des décès 1919-1927"}
+    ]
+  },
+  "SB 267/20/1/1": {
+    "pdfPages": 441,
+    "parts": [
+      {"pdf": "4-311", "content": "Naissances 1876-1885", "pages": "1-308"},
+      {"pdf": "314-355", "content": "Naissances 1876-1885", "pages": "309-350", "note": "PDF 312-313 : deux formulaires blancs non numérotés, entre les folios 308 et 309."},
+      {"pdf": "358-390", "content": "Naissances 1876-1885", "pages": "351-383", "note": "PDF 356-357 : deux formulaires blancs non numérotés, entre les folios 350 et 351. La p. 383 est photographiée deux fois (PDF 390 et 391)."},
+      {"pdf": "392-441", "content": "Répertoire des naissances 1876-1885"}
+    ]
+  },
+  "SB 267/20/2/5": {
+    "pdfPages": 278,
+    "parts": [
+      {"pdf": "4-138", "content": "Mariages 1922-1928", "pages": "1-135", "note": "La p. 135 est photographiée deux fois (PDF 138 et 139)."},
+      {"pdf": "140-277", "content": "Répertoire des mariages 1922-1928"}
+    ]
+  },
+  "SB 267/20/2/6": {
+    "pdfPages": 30,
+    "parts": [
+      {"pdf": "4-30", "content": "Mariages 1929", "pages": "1-27", "note": "Le PDF s'arrête au dernier mariage de 1929 (30 novembre) : les mariages suivants et le répertoire ne sont pas publiés."}
+    ]
+  },
+  "SB 267/20/3/5": {
+    "pdfPages": 255,
+    "parts": [
+      {"pdf": "4-205", "content": "Décès 1911-1918", "pages": "1-202", "note": "La p. 202 est photographiée deux fois (PDF 205 et 206)."},
+      {"pdf": "207-254", "content": "Répertoire des décès 1911-1918"}
+    ]
+  },
+  "SB 267/65/1/2": {
+    "pdfPages": 253,
+    "parts": [
+      {"pdf": "4-203", "content": "Naissances 1889-1896", "pages": "1-200", "note": "La p. 200 est photographiée deux fois (PDF 203 et 204)."},
+      {"pdf": "205-253", "content": "Répertoire des naissances 1889-1896"}
+    ]
+  },
+  "SB 267/65/3/5": {
+    "pdfPages": 356,
+    "parts": [
+      {"pdf": "4-303", "content": "Décès 1924-1947", "pages": "1-300"},
+      {"pdf": "304-355", "content": "Répertoire des décès 1924-1947", "note": "PDF 305 : la p. 300 photographiée une seconde fois, entre deux prises de la première page du répertoire (PDF 304 et 306)."}
+    ]
+  },
+  "SB 267/73/2/1": {
+    "pdfPages": 455,
+    "parts": [
+      {"pdf": "4-403", "content": "Mariages 1876-1906", "pages": "1-400"},
+      {"pdf": "404-454", "content": "Répertoire des mariages 1876-1906", "note": "PDF 405 : la p. 400 photographiée une seconde fois, entre deux prises de la première page du répertoire (PDF 404 et 406)."}
+    ]
+  },
+  "SB 267/73/3/3": {
+    "pdfPages": 251,
+    "parts": [
+      {"pdf": "4-203", "content": "Décès 1902-1913", "pages": "1-200"},
+      {"pdf": "204-250", "content": "Répertoire des décès 1902-1913"}
+    ]
+  },
+  "SB 267/73/3/6": {
+    "pdfPages": 141,
+    "parts": [
+      {"pdf": "4-141", "content": "Décès 1939-1959", "pages": "1-138", "note": "Le PDF s'arrête au dernier décès de 1959 (24 décembre) : les décès suivants et le répertoire ne sont pas publiés ; l'inventaire indique 53 pages."}
+    ]
+  },
+  "SB 267/86/2/8": {
+    "pdfPages": 452,
+    "parts": [
+      {"pdf": "4-248", "content": "Mariages 1914-1920", "pages": "1-245"},
+      {"pdf": "249", "content": "Mariages 1918, p. 245 bis"},
+      {"pdf": "250-404", "content": "Mariages 1914-1920", "pages": "246-400", "note": "PDF 405 et 407 : un formulaire vide après la p. 400, photographié deux fois."},
+      {"pdf": "406-452", "content": "Répertoire des mariages 1914-1920"}
+    ]
+  },
+  "SB 267/86/3/22": {
+    "pdfPages": 428,
+    "parts": [
+      {"pdf": "4-303", "content": "Décès 1940-1943", "pages": "1-300", "note": "PDF 304-305 : deux feuilles grises avant le répertoire."},
+      {"pdf": "306-427", "content": "Répertoire des décès 1940-1943"}
+    ]
+  },
+  "SB 267/88/1/2": {
+    "pdfPages": 54,
+    "parts": [
+      {"pdf": "4-54", "content": "Naissances 1897-1899", "pages": "1-51", "note": "Le PDF s'arrête à la fin de 1899 (folio 51, clôture du 31 décembre) : les naissances suivantes et le répertoire ne sont pas publiés."}
+    ]
+  },
+  "SB 267/88/3/1": {
+    "pdfPages": 440,
+    "parts": [
+      {"pdf": "4-389", "content": "Décès 1876-1905", "pages": "1-386"},
+      {"pdf": "390-439", "content": "Répertoire des décès 1876-1905", "note": "PDF 391 : la p. 386 photographiée une seconde fois, entre deux prises de la première page du répertoire (PDF 390 et 392)."}
+    ]
   }
 }

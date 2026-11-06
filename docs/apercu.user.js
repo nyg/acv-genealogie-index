@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Registres vaudois : aperçu des PDF
 // @namespace    https://nyg.github.io/acv-genealogie-index/
-// @version      1.3.2
+// @version      1.3.3
 // @description  Affiche une page d'un PDF de davel-vd.ch ou du Staatsarchiv Zürich sans télécharger le fichier entier, avec le sommaire des registres indexés.
 // @match        https://davel-vd.ch/*
 // @match        https://suche.staatsarchiv.djiktzh.ch/*
@@ -678,6 +678,11 @@ const pageSpan = ([first, last], roman = false) => {
 const within = (value, a, b) => value >= Math.min(a, b) && value <= Math.max(a, b);
 
 function locatePage(part, page) {
+  const found = pdfPageOf(part, page);
+  return part.approx ? { ...found, approx: true } : found;
+}
+
+function pdfPageOf(part, page) {
   if (part.pdf[0] === part.pdf[1]) return { pdf: part.pdf[0], approx: false };
   const points = [[part.pages[0], part.pdf[0]], ...part.anchors, [part.pages[1], part.pdf[1]]];
   const exact = points.find(([known]) => known === page);
@@ -698,6 +703,11 @@ function pdfTargets(unit, text) {
 }
 
 function registerPageAt(part, pdf) {
+  const found = registerPageOf(part, pdf);
+  return found && part.approx ? { ...found, approx: true } : found;
+}
+
+function registerPageOf(part, pdf) {
   if (!part.pages || !within(pdf, ...part.pdf)) return null;
   const points = [[part.pages[0], part.pdf[0]], ...part.anchors, [part.pages[1], part.pdf[1]]];
   const exact = points.find(([, known]) => known === pdf);

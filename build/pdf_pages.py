@@ -62,6 +62,7 @@ def parse_pdf_pages(entries):
             "anchors": [list(anchor) for anchor in part.get("anchors", [])],
             "spread": part.get("spread", False),
             "roman": part.get("roman", False),
+            "approx": False,
             "note": part.get("note", ""),
         } for part in entry["parts"]]
         _check_parts(cote, entry["pdfPages"], parts)
@@ -71,3 +72,35 @@ def parse_pdf_pages(entries):
 
 def load_pdf_pages(path):
     return parse_pdf_pages(json.loads(path.read_text(encoding="utf-8")))
+
+
+# Barcode sheet, title page and its verso come before register page 1 (sampled on 18 PDFs).
+SB267_OFFSET = 3
+# Acts after these years are left out of the PDFs, which then stop mid-volume.
+SB267_LAST_PUBLISHED_YEAR = {"naissance": 1899, "mariage": 1929, "deces": 1959}
+SB267_EVENTS = {"naissance": "naissances", "mariage": "mariages", "deces": "décès"}
+
+
+def sb267_default_parts(unit):
+    kinds = classify(unit["title"])
+    pages = re.search(r"(\d+) pages utiles", unit["extent"])
+    if len(kinds) != 1 or kinds[0] not in SB267_EVENTS or not pages:
+        return None
+    kind = kinds[0]
+    if int(unit["end"][:4]) > SB267_LAST_PUBLISHED_YEAR[kind]:
+        return None
+    last_page = int(pages[1])
+    events = SB267_EVENTS[kind]
+    years = f"{unit['start'][:4]}-{unit['end'][:4]}"
+    repertoire_start = last_page + SB267_OFFSET + 1
+    return [
+        _default_part([1 + SB267_OFFSET, last_page + SB267_OFFSET], [1, last_page], f"{events.capitalize()} {years}", kind,
+                      "Position déduite de la règle PDF = page + 3, non vérifiée sur ce registre : vers la fin, la page cherchée peut être 1 à 4 pages plus loin (page numérotée deux fois, page bis, formulaires blancs)."),
+        _default_part([repertoire_start, repertoire_start], None, f"Répertoire des {events} {years}", kind,
+                      "Début approché : souvent 1 ou 2 pages plus loin, la dernière page du registre étant souvent photographiée deux fois."),
+    ]
+
+
+def _default_part(pdf, pages, content, kind, note):
+    return {"pdf": pdf, "pages": pages, "content": content, "kind": "registre" if pages else "repertoire", "kinds": [kind],
+            "anchors": [], "spread": False, "roman": False, "approx": True, "note": note}

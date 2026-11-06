@@ -13,6 +13,11 @@ const pageSpan = ([first, last], roman = false) => {
 const within = (value, a, b) => value >= Math.min(a, b) && value <= Math.max(a, b);
 
 function locatePage(part, page) {
+  const found = pdfPageOf(part, page);
+  return part.approx ? { ...found, approx: true } : found;
+}
+
+function pdfPageOf(part, page) {
   if (part.pdf[0] === part.pdf[1]) return { pdf: part.pdf[0], approx: false };
   const points = [[part.pages[0], part.pdf[0]], ...part.anchors, [part.pages[1], part.pdf[1]]];
   const exact = points.find(([known]) => known === page);
@@ -33,6 +38,11 @@ function pdfTargets(unit, text) {
 }
 
 function registerPageAt(part, pdf) {
+  const found = registerPageOf(part, pdf);
+  return found && part.approx ? { ...found, approx: true } : found;
+}
+
+function registerPageOf(part, pdf) {
   if (!part.pages || !within(pdf, ...part.pdf)) return null;
   const points = [[part.pages[0], part.pdf[0]], ...part.anchors, [part.pages[1], part.pdf[1]]];
   const exact = points.find(([, known]) => known === pdf);
