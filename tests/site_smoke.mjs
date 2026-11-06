@@ -161,7 +161,7 @@ failures += placeholderHidden ? 0 : 1;
 console.log(`${placeholderHidden ? "ok  " : "FAIL"} Prilly / mariage / 1850 → pas de fiche FANTOME parmi les registres`);
 
 const coveragePanel = elements.get("coverage-panel").innerHTML;
-const covered = coveragePanel.includes(`data-place="paroisse-15">Bex</button>`) && /Pages du PDF<\/strong> : pour [^(]*Ollon \(\d+ registres\)/.test(coveragePanel);
+const covered = coveragePanel.includes(`data-place="paroisse-15">Bex</button>`) && /Pages du PDF<\/strong> : pour [^(]*Ollon[^(]* \(\d+ registres\)/.test(coveragePanel);
 failures += covered ? 0 : 1;
 console.log(`${covered ? "ok  " : "FAIL"} couverture → Bex parmi les paroisses indexées, Ollon parmi les pages du PDF reliées`);
 
