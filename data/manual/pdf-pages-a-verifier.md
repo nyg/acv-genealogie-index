@@ -5,3 +5,7 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Cote | PDF à lire | Doute |
 |---|---|---|
 | Ed 118/4 | 194-210, et les lignes 1847-1848 du répertoire (PDF 406-452) | La pagination à l'encre reprend à 160 au PDF 194 après la p. 168 (PDF 192) ; une correction au crayon (170 au PDF 194, 172 au PDF 198, 174 au PDF 200) couvre le début de cette seconde série. L'entrée suit l'encre, avec les pp. 160-168 dans deux parties ; reste à voir jusqu'où va le crayon et laquelle des deux paginations le répertoire cite. |
+| Eb 78/1 | 225-229 | Pages après la p. 133 : contenu non identifié (presque blanches ; l'inventaire cite une p. 135 tête-bêche). |
+| Eb 78/2 | 230, 249 | Mariages : numéros lus seulement aux PDF 235 (p. 7) et 241 (p. 13) ; les bornes pp. 2-21 en sont déduites. |
+| Eb 78/3 | 220, 250, 272 | Catéchumènes : aucun numéro visible en tête après la p. 170 (PDF 181) ; la fin p. 261 vient de l'inventaire. Chercher le numéro plus bas sur la page. |
+| Eb 78/7 | 236-301 (Eb 78/1), et 122-124 | Deux paginations, rouge et noire, qui divergent jusqu'à 2 pages vers la fin : l'entrée suit la rouge (celle de l'inventaire) ; lire une ligne 1819-1821 du répertoire des mariages (dans Eb 78/1) pour voir laquelle il cite. PDF 122-124 : numéros non lus (pp. 100-102 ?). |
