@@ -448,7 +448,7 @@ function renderPageTargets(unit, text) {
 
 function renderPdfParts(unit) {
   const parts = unit.pdfParts.map(part => `<li class="${partMatchesKind(part) ? "relevant" : ""}">
-      ${pdfLink(unit, part.pdf[0], `PDF p. ${pageSpan(part.pdf)}`)}
+      ${pdfLink(unit, part.pdf[0], `${part.approx ? "≈ " : ""}PDF p. ${pageSpan(part.pdf)}`)}
       <div><span class="part-content">${escapeHtml(part.content)}</span>${part.pages ? ` <span class="part-pages">registre p. ${pageSpan(part.pages, part.roman)}${part.spread ? ", deux pages par image" : ""}${part.anchors.length ? ", position approchée entre les repères" : ""}</span>` : ""}${part.note ? `<span class="part-note">${escapeHtml(part.note)}</span>` : ""}</div>
     </li>`).join("");
   const jump = unit.pdfParts.some(part => part.pages)
@@ -747,7 +747,8 @@ function renderCoverage() {
   const arrondissements = indexed.filter(place => place.kind === "arrondissement");
   const parishTotal = DATA.places.filter(place => place.kind === "paroisse").length;
   const arrondissementTotal = DATA.places.filter(place => place.kind === "arrondissement").length;
-  const mapped = DATA.units.filter(unit => unit.pdfParts);
+  const mapped = DATA.units.filter(unit => unit.pdfParts?.some(part => !part.approx));
+  const deduced = DATA.units.filter(unit => unit.pdfParts?.every(part => part.approx));
   const mappedNames = [...new Set(mapped.map(unit => placesById.get(unit.place).name))].sort((a, b) => a.localeCompare(b, "fr"));
   const fonds = [...new Set(DATA.units.map(unit => unit.fonds))].sort((a, b) => FONDS_ORDER[a] - FONDS_ORDER[b]);
   document.getElementById("coverage-toggle").textContent = `Indexé : ${parishes.length} paroisses sur ${parishTotal}, ${arrondissements.length} arrondissements sur ${arrondissementTotal}`;
@@ -757,6 +758,7 @@ function renderCoverage() {
     <p class="places"><strong>Arrondissements</strong> : ${placeButtons(arrondissements)}</p>
     <table>${fonds.map(fondsCoverageRow).join("")}</table>
     ${mapped.length ? `<p><strong>Pages du PDF</strong> : pour ${escapeHtml(listFormat.format(mappedNames))} (${plural(mapped.length, "registre")}), la page du registre citée par le répertoire donne la page du PDF à ouvrir. Ailleurs, le PDF s'ouvre à sa première page.</p>` : ""}
+    ${deduced.length ? `<p><strong>État civil fédéral (SB 267)</strong> : pour ${plural(deduced.length, "registre")} de plus, la page du PDF est déduite de la page du registre (« ≈ », page + 3), sans avoir été vérifiée ; vers la fin du registre, elle peut être 1 à 4 pages plus loin. Les registres qui dépassent 1899 (naissances), 1929 (mariages) ou 1959 (décès) ne sont publiés que jusqu'à cette année-là, sans répertoire : pas de page déduite.</p>` : ""}
     <p><strong>Aperçu</strong> : ${viewerInstalled()
       ? "le script d'aperçu est installé : les liens « PDF p. » n'affichent que la page demandée, sans télécharger le PDF entier."
       : `les PDF pèsent souvent plusieurs centaines de Mo. Avec le <a href="${VIEWER_HELP}" target="_blank" rel="noopener">script d'aperçu</a> (Tampermonkey, dans Chrome ou Firefox), les liens « PDF p. » n'en chargent que la page demandée.`}</p>

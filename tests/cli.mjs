@@ -33,7 +33,7 @@ const checks = [
     return status === 0 && stdout.includes("Eb 92/3 · Registres paroissiaux") && stdout.includes("CH-ACV_RN-EB-92-3.pdf");
   }],
   ["texte : --page sur un registre sans pages reliées le dit", () => {
-    const { stdout } = acv("chercher", "Huémoz", "naissance", "17.02.1889", "--page", "10");
+    const { stdout } = acv("chercher", "Bex", "naissance", "1899", "--page", "10");
     return stdout.includes("Page demandée : les pages de ce registre ne sont pas encore reliées au PDF.");
   }],
   ["lieu inconnu → code 2 et lieux proches", () => {
@@ -42,7 +42,11 @@ const checks = [
   }],
   ["date invalide → code 2", () => acv("chercher", "Ollon", "naissance", "31.02.1787").status === 2],
   ["acte inconnu → code 2", () => acv("chercher", "Ollon", "communion", "1787").status === 2],
-  ["registre sans pages reliées → code 2", () => acv("page", "SB 267/49/1/1", "10").status === 2],
+  ["registre sans pages reliées → code 2", () => acv("page", "SB 267/12/1/7", "10").status === 2],
+  ["page SB 267/49/1/1 10 → ≈ PDF p. 13, déduite", () => {
+    const [target] = json("page", "SB 267/49/1/1", "10").targets;
+    return target.pdf === 13 && target.approx;
+  }],
 ];
 
 let failures = 0;

@@ -120,6 +120,11 @@ const pdfCases = [
   ["eb-118-1", "xv", ["≈518"]],
   ["eb-118-2", "cxi", ["423"]],
   ["ed-118-4", "165", ["≈187", "200"]],
+  ["sb-267-2-1-2", "250", ["≈253"]],
+  ["sb-267-2-1-2", "401", []],
+  ["sb-267-12-2-1", "45", ["48", "49"]],
+  ["sb-267-20-1-1", "351", ["358"]],
+  ["sb-267-86-2-8", "300", ["304"]],
 ];
 for (const [slug, page, expected] of pdfCases) {
   const pdfPages = site.pdfTargets(site.unitsBySlug.get(slug), page).map(target => `${target.approx ? "≈" : ""}${target.pdf}`);
@@ -140,6 +145,10 @@ delete documentElement.dataset.acvApercu;
 const viewerLink = /href="https:\/\/davel-vd\.ch\/eb-92-4#apercu=&amp;page=382&amp;pdf=[^"]*CH-ACV_RN-EB-92-4\.pdf&amp;titre=Eb\+92%2F4"[^>]*>PDF p\. 382–441<\/a>/.test(viewerAnswers);
 failures += viewerLink ? 0 : 1;
 console.log(`${viewerLink ? "ok  " : "FAIL"} Ollon / deces / 1760, aperçu installé → le lien PDF p. 382 ouvre l'aperçu sur la fiche d'Eb 92/4`);
+
+const cutOff = !site.unitsBySlug.get("sb-267-2-1-5").pdfParts;
+failures += cutOff ? 0 : 1;
+console.log(`${cutOff ? "ok  " : "FAIL"} SB 267/2/1/5 (naissances 1898-1903, publiées jusqu'en 1899) → pas de page déduite`);
 
 const placeholderHidden = !search("Prilly", "mariage", "1850").cotes.some(cote => cote.includes("FANTOME"));
 failures += placeholderHidden ? 0 : 1;

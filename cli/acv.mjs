@@ -74,7 +74,7 @@ function describeUnit(unit, segments, kind, page) {
     })),
     repertoire: unit.aids ? site.tidyAids(unit.aids, kind) : [],
     pdfParts: (unit.pdfParts ?? []).map(part => ({
-      pdf: part.pdf, content: part.content, pages: part.pages ? site.pageSpan(part.pages, part.roman) : null,
+      pdf: part.pdf, approx: Boolean(part.approx), content: part.content, pages: part.pages ? site.pageSpan(part.pages, part.roman) : null,
       relevant: site.partMatchesKind(part, kind), note: part.note || null, url: pdfUrl(unit, part.pdf[0]),
     })),
     pageRequested: page !== undefined,
@@ -129,7 +129,7 @@ function formatUnit(unit) {
   unit.repertoire.forEach(line => lines.push(`  Répertoire : ${line}`));
   if (unit.pdfParts.length) {
     lines.push("  Dans le PDF :");
-    unit.pdfParts.forEach(part => lines.push(`  ${part.relevant ? "→" : " "} p. ${site.pageSpan(part.pdf)} ${part.content}${part.pages ? ` (registre p. ${part.pages})` : ""}${part.note ? ` : ${part.note}` : ""}`));
+    unit.pdfParts.forEach(part => lines.push(`  ${part.relevant ? "→" : " "} ${part.approx ? "≈ " : ""}p. ${site.pageSpan(part.pdf)} ${part.content}${part.pages ? ` (registre p. ${part.pages})` : ""}${part.note ? ` : ${part.note}` : ""}`));
   }
   if (unit.page) lines.push(unit.page.length ? unit.page.map(target => `  Page demandée : ${pdfLine(target)}`).join("\n") : "  Page demandée : pas dans les pages connues.");
   if (unit.page === null && unit.pageRequested) lines.push(`  Page demandée : ${unit.pdf ? "les pages de ce registre ne sont pas encore reliées au PDF." : "pas de PDF en ligne."}`);

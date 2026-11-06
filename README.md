@@ -36,6 +36,8 @@ L'index analyse aussi le contenu des PDF. Pour Eb 3/4, il indique que le registr
 
 Une fois le nom trouvé dans le répertoire, il suffit de saisir dans « Page du registre » la page qu'il cite pour obtenir la page du PDF correspondante.
 
+Pour l'état civil fédéral (SB 267), les pages sont déduites d'une règle, page du PDF = page du registre + 3, vérifiée sur 18 registres : l'index les marque « ≈ ». Les registres publiés seulement en partie (naissances après 1899, mariages après 1929, décès après 1959) n'ont ni répertoire dans le PDF ni page déduite.
+
 Ce travail se fait registre par registre. Il couvre pour l'instant Ollon, Bex, Aigle, Ballaigues, Château-d'Oex, L'Étivaz, Gryon, Huémoz, Leysin, Lignerolle, Ormont-Dessous et Ormont-Dessus. Ailleurs, le PDF s'ouvre à sa première page.
 
 ## 3. Ouvrir le PDF à la bonne page, sans le télécharger
@@ -115,6 +117,8 @@ scripts/check.sh
 ### Pages des PDF
 
 La marche à suivre pour ajouter des registres à `data/manual/pdf-pages.json` est dans `.claude/skills/acv-pdf-pages/SKILL.md`. Les PDF n'ont pas de texte : les numéros de page se lisent sur les images.
+
+Les registres SB 267 sans entrée dans ce fichier reçoivent la règle « page + 3 » de `build/pdf_pages.py` ; une entrée la remplace pour un registre lu sur les images.
 
 ### Tables de correspondance
 
