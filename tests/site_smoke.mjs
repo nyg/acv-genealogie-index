@@ -1,25 +1,6 @@
-import { readFileSync } from "node:fs";
-import vm from "node:vm";
+import { loadSite } from "../cli/site.mjs";
 
-const html = readFileSync(new URL("../docs/index.html", import.meta.url), "utf8");
-const script = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].at(-1)[1];
-
-const element = () => ({
-  innerHTML: "", textContent: "", value: "", hidden: false, clientWidth: 900, dataset: {},
-  classList: { toggle() {}, add() {}, remove() {} },
-  setAttribute() {}, addEventListener() {}, dispatchEvent() {}, querySelector: () => null, querySelectorAll: () => [],
-});
-const elements = new Map();
-const documentElement = { dataset: {} };
-const context = vm.createContext({
-  document: { getElementById: id => elements.get(id) ?? elements.set(id, element()).get(id), documentElement, addEventListener() {} },
-  localStorage: { getItem: () => null, setItem() {} },
-  matchMedia: () => ({ matches: true }),
-  addEventListener() {},
-  setTimeout, clearTimeout, Event: class {}, console, URLSearchParams,
-});
-vm.runInContext(`${script}\n;globalThis.__site = { state, SUGGESTIONS, selectEntry, parseQueryDate, render, normalize, unitsBySlug, pdfTargets };`, context);
-const site = context.__site;
+const { site, elements, documentElement } = loadSite();
 
 const search = (place, kind, date) => {
   site.selectEntry(site.SUGGESTIONS.find(entry => entry.key === site.normalize(place)));

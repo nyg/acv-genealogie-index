@@ -1,14 +1,15 @@
 # Registres vaudois
 
-Index of the Archives cantonales vaudoises (ACV) civil-status registers for the user's genealogy research: for a place, an event and a date, `docs/index.html` names the register to open (cote, PDF, pages). The user writes in French; the site, README and data are in French. Commands: `README.md`. Current coverage and data-quality issues: `python3 build/report.py`.
+Index of the Archives cantonales vaudoises (ACV) civil-status registers for the user's genealogy research: for a place, an event and a date, `docs/index.html` names the register to open (cote, PDF, pages). The user writes in French; the site, README and data are in French. Commands: `README.md`. To find the register, PDF and PDF page for a place, event and date, run `node cli/acv.mjs chercher <lieu> <acte> [date] [--page N] --json` instead of reading the data. Current coverage and data-quality issues: `python3 build/report.py`.
 
 ## Rules
 
 - Scrape only through the in-app browser, at one request every 1.5 s. Both ACV sites reject plain HTTP clients; work inside the real browser session instead of replaying its cookies or challenge.
 - Keep `*.numbers` out of git: `sources_pierre_henri_durand.numbers` holds the user's family data. `index_paroisses.numbers` is the user's older hand-made index (read it with `numbers-parser`), a reference to check scraped data against.
 - Data is CC BY-SA 4.0 (ACV): keep the attribution in the site footer and README.
-- Run `scripts/check.sh` after any change to `build/`, `site/`, `scraper/davel_pdf.js` or `data/`.
+- Run `scripts/check.sh` after any change to `build/`, `site/`, `cli/`, `scraper/davel_pdf.js` or `data/`.
 - `docs/apercu.user.js` is built from `site/apercu.user.js` with `scraper/davel_pdf.js`, `site/pdfjs_reader.js` and `site/page_map.js` inlined. Bump its `@version` whenever one of them changes: Tampermonkey only updates installed copies to a higher version. Its table of contents comes from `docs/pdf-pages.json`, fetched at run time, so new page maps need no bump.
+- `cli/acv.mjs` runs the site's own script from `docs/index.html` (via `cli/site.mjs`): put lookup logic in `site/template.html` as functions that take their inputs, not in the CLI, so both always answer the same.
 - Run `build/build.py` without `python3 -I`: it imports its sibling modules.
 
 ## Published site
