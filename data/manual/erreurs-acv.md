@@ -68,3 +68,9 @@ Les dates de la fiche ne couvrent pas celles du contenu, ou la pagination du PDF
 | SB 23/500 | Romanel-sur-Lausanne | La fiche SB 23/499 (1890) renvoie directement à SB 23/501 (1891). | |
 | SB 23/859 et SB 23/860 | Vallorbe | Aucune boîte ne couvre 1882 : SB 23/859 s'arrête en 1881 et SB 23/860 commence en 1883, alors que les cotes se suivent. | |
 | SB 115/1214 à SB 115/1216 | Romainmôtier | La période 1951-1954 a une entrée pour Lignerolle (1214), Vaulion (1215) et Vallorbe (1216), mais aucune pour Romainmôtier, dont les registres SB 267/85 vont jusqu'en 2004. | |
+
+## Questions
+
+| Cote | Lieu | Question | Indice | Signalé |
+|---|---|---|---|---|
+| [Eb 78/8](https://davel-vd.ch/eb-78-8), [Eb 78/9](https://davel-vd.ch/eb-78-9) et [Eb 78/10](https://davel-vd.ch/eb-78-10) | Lutry | Ces trois livres mortuaires de la commune de Lutry (1716-1753, 1754-1795, 1798-1828) pourraient-ils être numérisés ? | Seuls registres Eb sans PDF sur davel-vd.ch : leurs fiches ne citent que le microfilm RMS 22006.2, sans numéro RN-EB. Les registres communaux de Leysin et des Ormonts, sur le microfilm RM 22006.13, sont numérisés. | |
