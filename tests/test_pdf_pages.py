@@ -149,6 +149,20 @@ def test_anchor_cannot_put_more_register_pages_than_pdf_pages():
     assert "repère p. 192 → PDF 150" in str(error.value)
 
 
+def test_anchor_repeating_an_end_of_the_part_is_rejected_by_name():
+    # Given
+    entries = {"Ed 78/1": {"pdfPages": 472, "parts": [
+        {"pdf": "15-160", "content": "Naissances", "pages": "12-146", "anchors": [[61, 70], [146, 160]]},
+    ]}}
+
+    # When
+    with pytest.raises(ValueError) as error:
+        parse_pdf_pages(entries)
+
+    # Then
+    assert "p. 146 → PDF 160 est le début ou la fin de la partie" in str(error.value)
+
+
 def test_spread_part_holds_two_register_pages_per_pdf_page():
     # Given
     entries = {"Ed 15/2": {"pdfPages": 236, "parts": [
