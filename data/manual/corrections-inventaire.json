@@ -30,5 +30,7 @@
  {"cote": "SB 23/2016", "field": "Title", "published": "Décès B 11905-1907", "corrected": "Décès B 1905-1907"},
  {"cote": "SB 23/2017", "field": "Title", "published": "Décès B 1880", "corrected": "Décès B 1908-1909"},
  {"cote": "SB 23/2046", "field": "Dates", "published": "1908", "corrected": "1907"},
- {"cote": "SB 115/427", "field": "Title", "published": "Décès A et B 1910-1913", "corrected": "Décès A et B 1910-1918"}
+ {"cote": "SB 115/427", "field": "Title", "published": "Décès A et B 1910-1913", "corrected": "Décès A et B 1910-1918"},
+ {"cote": "Eb 118/3", "field": "Date(s)", "published": "1752-04-01 - 1786-01-01", "corrected": "1752-04-01 - 1787-12-31"},
+ {"cote": "Eb 118/3", "field": "Portée et contenu", "published": "1752 avril - 1786 janvier 1", "corrected": "1752 avril - 1787 décembre 31"}
 ]
