@@ -5,6 +5,7 @@ cd "$(dirname "$0")/.."
 python3 build/build.py
 uvx --quiet pytest -q tests
 node tests/site_smoke.mjs
+node tests/cli.mjs
 node tests/pdf_probe.mjs
 node tests/apercu.mjs
 python3 build/preview.py

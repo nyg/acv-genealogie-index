@@ -21,6 +21,7 @@ Le projet a trois fonctions :
   - [Ajouter des séries](#ajouter-des-séries)
   - [Pages des PDF](#pages-des-pdf)
   - [Tables de correspondance](#tables-de-correspondance)
+  - [Ligne de commande](#ligne-de-commande)
   - [Tests](#tests)
 
 ## 1. Trouver le registre
@@ -125,6 +126,28 @@ uv run --with pdfplumber scraper/parse_correspondence.py
 
 Les deux PDF vont dans `data/raw/vd-ch/`.
 
+### Ligne de commande
+
+`cli/acv.mjs` fait les mêmes recherches que le site, depuis un terminal, avec le même code et les mêmes données (`docs/index.html`, à reconstruire avec `build/build.py`). `--json` donne un résultat structuré, pour un script ou un agent.
+
+```bash
+node cli/acv.mjs chercher Ollon naissance 1787
+```
+
+```bash
+node cli/acv.mjs chercher Ollon deces 1760 --page 177 --json
+```
+
+```bash
+node cli/acv.mjs page "Eb 92/2" 466
+```
+
+```bash
+node cli/acv.mjs lieux chesi
+```
+
+`chercher` prend un lieu, un acte (`naissance`, `mariage`, `deces`, `catechumenes`, `autre`, `tous`) et une date facultative aux formats du site ; `--page` y ajoute la page du PDF pour une page citée par le répertoire. `page` convertit une page du registre en page du PDF, et `lieux` liste les lieux connus qui correspondent à un texte. Une erreur de saisie (lieu, acte ou date inconnus) sort avec le code 2.
+
 ### Tests
 
-`scripts/check.sh` lance `uvx pytest -q tests`, `node tests/site_smoke.mjs`, `node tests/pdf_probe.mjs` et `node tests/apercu.mjs`. Le test de fumée exécute le script du site sur des recherches réelles (lieu, acte, date) et vérifie que la bonne cote ressort, et que les pages du registre tombent sur la bonne page du PDF.
+`scripts/check.sh` lance `uvx pytest -q tests`, `node tests/site_smoke.mjs`, `node tests/cli.mjs`, `node tests/pdf_probe.mjs` et `node tests/apercu.mjs`. Le test de fumée exécute le script du site sur des recherches réelles (lieu, acte, date) et vérifie que la bonne cote ressort, et que les pages du registre tombent sur la bonne page du PDF.

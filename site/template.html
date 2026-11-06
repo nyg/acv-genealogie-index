@@ -348,19 +348,30 @@ function kindMatches(segment, kindId) {
   return segment.kinds.some(k => kind.match.includes(k));
 }
 
-function placesInForce(query) {
-  return state.placeIds.filter(id => !query || !state.placeSince.get(id) || query.year >= state.placeSince.get(id));
-}
-
-function candidateSegments(query) {
-  return placesInForce(query).flatMap(id => segmentsByPlace.get(id) ?? []).filter(segment => kindMatches(segment, state.kind));
-}
-
 function sortSegments(segments) {
   return segments.sort((a, b) => {
     const ua = unitsBySlug.get(a.unit), ub = unitsBySlug.get(b.unit);
     return (a.start ?? "").localeCompare(b.start ?? "") || FONDS_ORDER[ua.fonds] - FONDS_ORDER[ub.fonds] || ua.cote.localeCompare(ub.cote, "fr", { numeric: true });
   });
+}
+
+const entryPlaceIds = entry => [...entry.targets.keys()].sort((a, b) => (placesById.get(a).kind === "paroisse" ? 0 : 1) - (placesById.get(b).kind === "paroisse" ? 0 : 1));
+
+function findRegisters(placeIds, placeSince, kind, query) {
+  const segments = placeIds
+    .filter(id => !query || !placeSince.get(id) || query.year >= placeSince.get(id))
+    .flatMap(id => segmentsByPlace.get(id) ?? [])
+    .filter(segment => kindMatches(segment, kind));
+  const inQuery = query ? segments.filter(s => overlaps(s, query.start, query.end)) : [...segments];
+  const found = sortSegments(inQuery);
+  const foundUnits = new Set(found.map(s => s.unit));
+  const near = query ? sortSegments(segments.filter(s => !isJustificative(s) && !foundUnits.has(s.unit) && overlaps(s, shiftYears(query.start, -NEAR_YEARS), shiftYears(query.end, NEAR_YEARS)))) : [];
+  return {
+    segments,
+    registers: found.filter(s => !isJustificative(s)),
+    justificatives: found.filter(isJustificative),
+    near,
+  };
 }
 
 function formatDate(iso) {
@@ -379,9 +390,9 @@ function formatRange(segment) {
 
 const AID_KEYWORDS = { naissance: /bapt|naiss/i, mariage: /mariage/i, deces: /décès|deces|mortuaire/i, catechumenes: /catéchum|catechum/i, autre: /reconnaiss|légitim/i };
 
-function tidyAids(aids) {
+function tidyAids(aids, kind = state.kind) {
   const lines = aids.split("\n").map(line => line.replace(/\s*\(microfilm:[^)]*\)/, "").replace(/,\s*pages manuscrites, non datées\.?/, "").trim()).filter(Boolean);
-  const keyword = AID_KEYWORDS[state.kind];
+  const keyword = AID_KEYWORDS[kind];
   const relevant = keyword ? lines.filter(line => keyword.test(line)) : [];
   return relevant.length ? relevant : lines;
 }
@@ -412,8 +423,8 @@ function renderSegmentLine(segment) {
   </li>`;
 }
 
-function partMatchesKind(part) {
-  const kind = KINDS.find(k => k.id === state.kind);
+function partMatchesKind(part, kindId = state.kind) {
+  const kind = KINDS.find(k => k.id === kindId);
   return Boolean(kind.match) && part.kinds.some(k => kind.match.includes(k));
 }
 
@@ -518,22 +529,28 @@ function renderTimeline(segments, query) {
   </section>`;
 }
 
-function contextNotices(query) {
+function contextNotes(placeIds, kind, query) {
   const notes = [];
-  const places = state.placeIds.map(id => placesById.get(id));
-  const pending = places.flatMap(place => place.series.filter(series => !series.scraped).map(series => ({ place, series })));
-  if (pending.length) {
-    notes.push(`Pas encore indexé : ${pending.map(({ series }) => `<a href="${escapeHtml(series.url)}" target="_blank" rel="noopener">${escapeHtml(series.cote)}</a> (${escapeHtml(series.dates)})`).join(", ")}. Ces registres existent mais leur contenu n'est pas encore dans l'index.`);
-  }
+  const places = placeIds.map(id => placesById.get(id));
+  const pending = places.flatMap(place => place.series.filter(series => !series.scraped));
   if (query) {
     if (query.start <= "1821-06-30" && query.end >= "1821-01-01") notes.push("En 1821, les registres paroissiaux (Eb) s'arrêtent au 30 juin et l'état civil cantonal (Ed) commence le 1er juillet.");
     if (query.year >= 1876 && !places.some(place => place.kind === "arrondissement")) notes.push("Dès 1876, les actes sont dans les registres de l'arrondissement d'état civil (SB 267). Cherchez le nom de l'arrondissement dont dépendait la commune.");
     if (query.year < 1876 && !places.some(place => place.kind === "paroisse")) notes.push("Avant 1876, les actes sont dans les registres de la paroisse (Eb, Ed). Cherchez le nom de la paroisse.");
     const now = new Date().getUTCFullYear();
     const limits = { naissance: 110, mariage: 80, deces: 50 };
-    if (limits[state.kind] && query.year > now - limits[state.kind]) notes.push(`Les actes de ${KIND_NAMES[state.kind]} de moins de ${limits[state.kind]} ans ne sont pas librement consultables (délai de protection).`);
+    if (limits[kind] && query.year > now - limits[kind]) notes.push(`Les actes de ${KIND_NAMES[kind]} de moins de ${limits[kind]} ans ne sont pas librement consultables (délai de protection).`);
   }
-  return notes.length ? `<div class="notice">${notes.map(note => `<p>${note}</p>`).join("")}</div>` : "";
+  return { pending, notes };
+}
+
+function contextNotices(query) {
+  const { pending, notes } = contextNotes(state.placeIds, state.kind, query);
+  const paragraphs = notes.map(escapeHtml);
+  if (pending.length) {
+    paragraphs.unshift(`Pas encore indexé : ${pending.map(series => `<a href="${escapeHtml(series.url)}" target="_blank" rel="noopener">${escapeHtml(series.cote)}</a> (${escapeHtml(series.dates)})`).join(", ")}. Ces registres existent mais leur contenu n'est pas encore dans l'index.`);
+  }
+  return paragraphs.length ? `<div class="notice">${paragraphs.map(note => `<p>${note}</p>`).join("")}</div>` : "";
 }
 
 function render() {
@@ -544,19 +561,14 @@ function render() {
     return;
   }
   const query = state.query && !state.query.error ? state.query : null;
-  const segments = candidateSegments(query);
+  const { segments, registers, justificatives, near } = findRegisters(state.placeIds, state.placeSince, state.kind, query);
   const kindLabel = KINDS.find(k => k.id === state.kind).label.toLowerCase();
   const justificativeGroup = list => list.length
     ? `<h3 class="group">Pièces justificatives</h3><p class="group-note">Dossiers non numérisés qui accompagnent les actes (publications, certificats, consentements). À consulter ou commander aux ACV avec la cote.</p>${renderResults(list)}`
     : "";
+  const count = new Set(registers.map(s => s.unit)).size;
   let body;
   if (query) {
-    const exact = sortSegments(segments.filter(s => overlaps(s, query.start, query.end)));
-    const registers = exact.filter(s => !isJustificative(s));
-    const justificatives = exact.filter(isJustificative);
-    const exactUnits = new Set(exact.map(s => s.unit));
-    const near = sortSegments(segments.filter(s => !isJustificative(s) && !exactUnits.has(s.unit) && overlaps(s, shiftYears(query.start, -NEAR_YEARS), shiftYears(query.end, NEAR_YEARS))));
-    const count = new Set(registers.map(s => s.unit)).size;
     const headline = count
       ? `${count === 1 ? "Un registre couvre" : `${count} registres couvrent`} <em>${escapeHtml(kindLabel)}</em> ${escapeHtml(query.label)} pour <em>${escapeHtml(state.placeLabel)}</em>.`
       : `Aucun registre indexé ne couvre <em>${escapeHtml(kindLabel)}</em> ${escapeHtml(query.label)} pour <em>${escapeHtml(state.placeLabel)}</em>.`;
@@ -566,13 +578,10 @@ function render() {
       ${near.length ? `<h3 class="group">Registres voisins (± ${NEAR_YEARS} ans)</h3>${renderResults(near)}` : ""}
       ${renderTimeline(sortSegments(segments.filter(s => !isJustificative(s))), query)}`;
   } else {
-    const all = sortSegments([...segments]);
-    const registers = all.filter(s => !isJustificative(s));
-    const count = new Set(registers.map(s => s.unit)).size;
     body = `<p class="summary">${count} registres pour <em>${escapeHtml(kindLabel)}</em> à <em>${escapeHtml(state.placeLabel)}</em>. Ajoutez une date pour cibler.</p>${contextNotices(null)}
       ${renderTimeline(registers, null)}
       ${renderResults(registers)}
-      ${justificativeGroup(all.filter(isJustificative))}`;
+      ${justificativeGroup(justificatives)}`;
   }
   answers.innerHTML = body;
 }
@@ -599,7 +608,7 @@ function renderPlaceCard() {
 }
 
 function selectEntry(entry) {
-  state.placeIds = [...entry.targets.keys()].sort((a, b) => (placesById.get(a).kind === "paroisse" ? 0 : 1) - (placesById.get(b).kind === "paroisse" ? 0 : 1));
+  state.placeIds = entryPlaceIds(entry);
   state.placeLabel = entry.name;
   state.placeSince = entry.since;
   document.getElementById("place-input").value = entry.name;
