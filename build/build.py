@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from inventory_corrections import read_raw
-from pdf_pages import load_pdf_pages
+from pdf_pages import load_pdf_pages, sb267_default_parts
 from places import arrondissement_history, arrondissement_name, localities_from_note, parish_name, parish_number, split_official_locality
 from scope_parser import normalize, parse_date_range, parse_scope_content
 from scopearchiv import creation_dates, fonds_of, load_scopearchiv, place_for, related_ranges
@@ -254,6 +254,9 @@ def attach_pdf_pages(units):
         if cote not in units_by_cote:
             raise ValueError(f"{PDF_PAGES.name} : {cote} n'est pas un registre indexé avec PDF")
         units_by_cote[cote]["pdfParts"] = register["parts"]
+    for unit in units_by_cote.values():
+        if unit["fonds"] == "SB 267" and "pdfParts" not in unit and (parts := sb267_default_parts(unit)):
+            unit["pdfParts"] = parts
 
 
 SCHEMA = """
@@ -322,7 +325,7 @@ def write_viewer(units):
     VIEWER_OUTPUT.write_text(viewer, encoding="utf-8")
     page_map = {
         unit["pdf"]: {"cote": unit["cote"], "pdfParts": [
-            {key: part[key] for key in ("pdf", "pages", "content", "anchors", "spread", "roman", "note")} for part in unit["pdfParts"]
+            {key: part[key] for key in ("pdf", "pages", "content", "anchors", "spread", "roman", "approx", "note")} for part in unit["pdfParts"]
         ]}
         for unit in units if unit.get("pdfParts")
     }
