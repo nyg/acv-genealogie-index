@@ -696,6 +696,66 @@
       {"pdf": "39-74", "content": "Décès 1809-1821, tête-bêche", "pages": "1-36", "note": "PDF 33 : couverture arrière, début de la partie tête-bêche. L'inventaire indique pp. 0-36."}
     ]
   },
+  "Eb 96/1": {
+    "pdfPages": 83,
+    "parts": [
+      {"pdf": "8-57", "content": "Baptêmes 1627-1803", "pages": "1-50", "note": "Copie établie en 1868 d'après les actes produits après l'incendie du Sépey du 25 octobre 1866 (PDF 7). PDF 6 : titre, p. 0."},
+      {"pdf": "60-81", "content": "Répertoire des baptêmes 1627-1803"}
+    ]
+  },
+  "Eb 96/2": {
+    "pdfPages": 73,
+    "parts": [
+      {"pdf": "3-72", "content": "Répertoire des baptêmes 1577-1749", "pages": "1-70", "note": "Répertoire établi en 1915, sans registre ; p. 1 : introduction."}
+    ]
+  },
+  "Eb 96/3": {
+    "pdfPages": 73,
+    "parts": [
+      {"pdf": "3-72", "content": "Répertoire des mariages 1620-1749", "pages": "1-70", "note": "Répertoire établi en 1914, sans registre ; p. 1 : introduction."}
+    ]
+  },
+  "Eb 96/3 bis": {
+    "pdfPages": 55,
+    "parts": [
+      {"pdf": "4-52", "content": "Répertoire des baptêmes 1750-1781", "pages": "1-49", "note": "Répertoire établi en 1928, sans registre ; p. 1 : titre et liste des noms."}
+    ]
+  },
+  "Eb 96/4": {
+    "pdfPages": 187,
+    "parts": [
+      {"pdf": "6-151", "content": "Baptêmes 1803-1821", "pages": "1-146", "note": "La p. 1 porte le titre ; l'inventaire indique pp. 0-146."},
+      {"pdf": "152-180", "content": "Répertoire des baptêmes 1803-1821"}
+    ]
+  },
+  "Eb 96/5": {
+    "pdfPages": 75,
+    "parts": [
+      {"pdf": "6-55", "content": "Mariages 1803-1821", "pages": "1-50"},
+      {"pdf": "56-70", "content": "Répertoire des mariages 1803-1821"}
+    ]
+  },
+  "Eb 96/6": {
+    "pdfPages": 95,
+    "parts": [
+      {"pdf": "6-72", "content": "Décès 1803-1821", "pages": "1-67"},
+      {"pdf": "74-90", "content": "Répertoire des décès 1803-1821"}
+    ]
+  },
+  "Eb 96/7": {
+    "pdfPages": 157,
+    "parts": [
+      {"pdf": "6-85", "content": "Naissances et baptêmes 1803-1821", "pages": "1-80"},
+      {"pdf": "86-154", "content": "Naissances et baptêmes 1803-1821", "pages": "82-150", "note": "Le n° 81 est sauté (PDF 85 : p. 80, PDF 86 : p. 82, en vis-à-vis). Seules deux pages blanches (PDF 155-156) sont photographiées après la p. 150."}
+    ]
+  },
+  "Eb 96/8": {
+    "pdfPages": 129,
+    "parts": [
+      {"pdf": "6-55", "content": "Mariages 1803-1821", "pages": "1-50", "note": "Seule la p. 51, blanche, est photographiée (PDF 56) avant la partie des décès."},
+      {"pdf": "61-129", "content": "Décès 1803-1821, tête-bêche", "pages": "1-69"}
+    ]
+  },
   "Ed 3/1": {
     "pdfPages": 465,
     "parts": [
@@ -1290,6 +1350,75 @@
     "parts": [
       {"pdf": "6-142", "content": "Annonces de mariage 1865-1882", "pages": "1-137"},
       {"pdf": "145-190", "content": "Répertoire des annonces de mariage 1865-1882"}
+    ]
+  },
+  "Ed 96/1": {
+    "pdfPages": 534,
+    "parts": [
+      {"pdf": "8-16", "content": "Naissances et baptêmes 1821-1842", "pages": "1-7", "anchors": [[5, 14]], "note": "PDF 12-13 : feuillets blancs. PDF 17 : formulaire inutilisé."},
+      {"pdf": "18-470", "content": "Naissances et baptêmes 1821-1842", "pages": "7-381", "anchors": [[8, 19], [12, 23], [13, 26], [14, 27], [15, 30], [16, 31], [17, 34], [22, 39], [23, 42], [34, 53], [35, 56], [39, 60], [40, 63], [50, 73], [51, 76], [52, 77], [53, 80], [54, 82], [59, 87], [65, 93], [66, 94], [67, 99], [83, 117], [100, 137], [115, 152], [116, 159], [136, 181], [158, 208], [165, 215], [174, 224], [176, 228], [182, 236], [200, 256], [209, 267], [224, 284], [240, 302], [260, 324], [288, 354], [306, 374], [312, 382], [319, 389], [324, 397], [334, 409], [341, 418], [349, 427], [354, 434], [356, 438], [361, 445], [368, 454], [376, 464], [380, 469]], "note": "Pages de 1822 d'abord numérotées depuis « une », corrigées à la suite (« une » devenue « sept »). Pages numérotées en toutes lettres jusque vers la p. 160, en chiffres ensuite. Paires de feuillets blancs et onglets des années intercalés ; la page qui précède un onglet est souvent photographiée deux fois. P. 348 bis en PDF 426."},
+      {"pdf": "473-532", "content": "Répertoire des naissances et baptêmes 1821-1842"}
+    ]
+  },
+  "Ed 96/2": {
+    "pdfPages": 448,
+    "parts": [
+      {"pdf": "10-383", "content": "Naissances et baptêmes 1842-1866", "pages": "1-347", "anchors": [[2, 14], [10, 22], [11, 25], [24, 39], [25, 41], [26, 44], [54, 74], [62, 83], [101, 125], [125, 150], [126, 152], [174, 200], [223, 250], [224, 252], [272, 300], [316, 344], [318, 352], [319, 353], [340, 375], [341, 377]], "note": "PDF 11 : la p. 1 photographiée une seconde fois, billets posés dessus ; PDF 12-13 : ces billets. Onglets des années intercalés, la page qui précède un onglet photographiée deux fois ; PDF 346-351 : billets posés sur la p. 317. PDF 384 : formulaire sans numéro."},
+      {"pdf": "387-446", "content": "Répertoire des naissances et baptêmes 1842-1866"}
+    ]
+  },
+  "Ed 96/3": {
+    "pdfPages": 267,
+    "parts": [
+      {"pdf": "8-84", "content": "Naissances et baptêmes 1866-1875", "pages": "1-66", "anchors": [[22, 31], [23, 33], [24, 35], [45, 57], [46, 59], [55, 69], [56, 71], [60, 76], [61, 78]], "note": "Onglets et billets intercalés, la page qui précède souvent photographiée deux fois."},
+      {"pdf": "86-130", "content": "Naissances et baptêmes 1866-1875", "pages": "67-111", "note": "PDF 85 : onglet."},
+      {"pdf": "133-203", "content": "Naissances et baptêmes 1866-1875", "pages": "112-182", "note": "PDF 131-132 : formulaires barrés, sans numéro."},
+      {"pdf": "206-264", "content": "Répertoire des naissances et baptêmes 1866-1875"}
+    ]
+  },
+  "Ed 96/4": {
+    "pdfPages": 494,
+    "parts": [
+      {"pdf": "6-7", "content": "Mariages 1821-1850", "pages": "1-2"},
+      {"pdf": "10-441", "content": "Mariages 1821-1850", "pages": "2-376", "anchors": [[9, 17], [10, 20], [11, 21], [18, 30], [19, 31], [26, 40], [27, 41], [39, 55], [40, 56], [42, 60], [50, 70], [53, 74], [54, 75], [64, 87], [87, 112], [98, 125], [131, 162], [143, 175], [155, 187], [159, 193], [166, 200], [175, 212], [197, 237], [217, 262], [228, 275], [234, 283], [244, 295], [259, 312], [268, 323], [287, 344], [303, 360], [313, 372], [324, 385], [335, 398], [347, 412], [360, 425], [368, 433], [372, 437], [374, 439], [375, 440]], "note": "PDF 8-9 : feuillets blancs ; la p. 2 de 1822 (PDF 10) reprend la numérotation, corrigée en « deux ». Pages numérotées en toutes lettres jusque vers la p. 90, en chiffres ensuite. Feuillets blancs ou pages sans numéro intercalés tout au long du registre."},
+      {"pdf": "449-492", "content": "Répertoire des mariages 1821-1850", "note": "Répertoire séparé, photographié après une bande de couleur (PDF 446)."}
+    ]
+  },
+  "Ed 96/5": {
+    "pdfPages": 297,
+    "parts": [
+      {"pdf": "10-68", "content": "Mariages 1850-1866", "pages": "1-59"},
+      {"pdf": "71-246", "content": "Mariages 1850-1866", "pages": "60-235", "note": "PDF 69 : la p. 59 photographiée une seconde fois, un billet posé dessus ; PDF 70 : ce billet. PDF 247-249 : formulaires sans numéro."},
+      {"pdf": "252-295", "content": "Répertoire des mariages 1850-1866"}
+    ]
+  },
+  "Ed 96/6": {
+    "pdfPages": 205,
+    "parts": [
+      {"pdf": "6-143", "content": "Mariages 1866-1875", "pages": "1-138"},
+      {"pdf": "146-204", "content": "Répertoire des mariages 1866-1875"}
+    ]
+  },
+  "Ed 96/7": {
+    "pdfPages": 582,
+    "parts": [
+      {"pdf": "8-426", "content": "Décès 1821-1865", "pages": "1-384", "anchors": [[4, 11], [12, 20], [19, 28], [20, 30], [35, 45], [60, 70], [65, 75], [80, 90], [90, 100], [106, 117], [107, 119], [138, 150], [153, 165], [168, 180], [184, 196], [185, 200], [211, 228], [212, 230], [214, 234], [240, 260], [270, 290], [291, 312], [292, 314], [293, 317], [307, 333], [311, 339], [322, 352], [332, 364], [342, 376], [346, 382], [363, 401], [364, 404], [372, 414], [378, 420], [383, 425]], "note": "Pages numérotées en toutes lettres jusque vers la p. 100, en chiffres ensuite. Onglets des années et billets intercalés, la page qui précède un onglet souvent photographiée deux fois ; formulaires sans numéro en PDF 197-199 et 232-233. PDF 427 : formulaire sans numéro."},
+      {"pdf": "430-487", "content": "Répertoire des décès 1821-1865"},
+      {"pdf": "493-580", "content": "Répertoire des décès 1821-1865", "note": "Répertoire séparé, photographié après une bande de couleur (PDF 490)."}
+    ]
+  },
+  "Ed 96/8": {
+    "pdfPages": 173,
+    "parts": [
+      {"pdf": "6-108", "content": "Décès 1866-1875", "pages": "1-93", "anchors": [[5, 10], [6, 13], [7, 16], [62, 72], [63, 74], [77, 89], [78, 91], [87, 101], [88, 103]], "note": "Onglets et billets intercalés, la page qui précède un onglet photographiée deux fois (pp. 5 et 6 avec des billets posés dessus). PDF 109-111 : formulaires sans numéro."},
+      {"pdf": "114-173", "content": "Répertoire des décès 1866-1875"}
+    ]
+  },
+  "Ed 96/9": {
+    "pdfPages": 229,
+    "parts": [
+      {"pdf": "6-181", "content": "Annonces de mariage 1866-1882", "pages": "1-176", "note": "Les pages blanches après la p. 176 ne sont pas photographiées, sauf une (PDF 182)."},
+      {"pdf": "184-226", "content": "Répertoire des annonces de mariage 1866-1882"}
     ]
   }
 }
