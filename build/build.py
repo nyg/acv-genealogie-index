@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "data" / "raw" / "davel-vd"
 CORRESPONDENCE_DIR = ROOT / "data" / "raw" / "vd-ch"
 CORRECTIONS = ROOT / "data" / "manual" / "communes-paroisses-corrections.json"
+ARRONDISSEMENT_CORRECTIONS = ROOT / "data" / "manual" / "communes-arrondissements-corrections.json"
 PDF_PAGES = ROOT / "data" / "manual" / "pdf-pages.json"
 DATABASE = ROOT / "data" / "acv.sqlite"
 SITE_TEMPLATE = ROOT / "site" / "template.html"
@@ -150,7 +151,8 @@ def add_official_localities(places):
                 _add_locality(parish_places[number], name, " ".join(filter(None, [context, description])), "table des paroisses", *parish_period(description, number))
 
     find_arrondissement = _arrondissement_finder(places)
-    for entry in json.loads((CORRESPONDENCE_DIR / "communes-arrondissements.json").read_text(encoding="utf-8")):
+    arrondissement_corrections = json.loads(ARRONDISSEMENT_CORRECTIONS.read_text(encoding="utf-8"))
+    for entry in corrected_entries(json.loads((CORRESPONDENCE_DIR / "communes-arrondissements.json").read_text(encoding="utf-8")), arrondissement_corrections):
         history = arrondissement_history(entry["periods"])
         qualifier = ", ".join(f"{name} dès {since}" if since else name for name, since in history)
         if entry["note"]:

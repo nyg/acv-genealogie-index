@@ -133,7 +133,7 @@ uv run --with pdfplumber scraper/parse_correspondence.py
 
 Les deux PDF vont dans `data/raw/vd-ch/`.
 
-Le texte de ces PDF vient d'une reconnaissance de caractères imparfaite. À la construction, le nom écrit devant « [N] » dans la table des paroisses prend le nom de la paroisse N quand il en est une version abîmée (« VëvèyT[132] » devient « Vevey [132] »). `python3 build/report.py` liste les noms qui restent différents ; ils se corrigent dans `data/manual/communes-paroisses-corrections.json`.
+Le texte de ces PDF vient d'une reconnaissance de caractères imparfaite. À la construction, le nom écrit devant « [N] » dans la table des paroisses prend le nom de la paroisse N quand il en est une version abîmée (« VëvèyT[132] » devient « Vevey [132] »). `python3 build/report.py` liste les noms qui restent différents ; ils se corrigent dans `data/manual/communes-paroisses-corrections.json`. Une commune que la table des arrondissements nomme autrement que celle des paroisses (« Oron » pour Oron-la-Ville) prend son nom dans `data/manual/communes-arrondissements-corrections.json`, pour qu'une recherche trouve la paroisse et l'arrondissement.
 
 ### Ligne de commande
 

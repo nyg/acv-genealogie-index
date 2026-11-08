@@ -86,6 +86,7 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [SB 23/167](https://davel.vd.ch/detail.aspx?ID=592844) | La Sarraz | Titre | Naissances 1876-1885 | Naissances 1885 | Dates et dates de création : 1885, comme les mariages et décès de la boîte ; les naissances 1876-1884 sont dans SB 23/159 à 166. | |
 | [SB 23/173](https://davel.vd.ch/detail.aspx?ID=592849) | La Sarraz | Titre, dates et dates de création | Naissances 1882-1883 ; Décès 1882-1883 ; 1882-1883 | Naissances 1892-1893 ; Décès 1892-1893 ; 1892-1893 | Mariages de la boîte : 1892-1893 ; SB 23/172 s'arrête en 1891-1892, SB 23/174 reprend en 1894, et SB 23/165 couvre déjà les naissances 1882-1883. | |
 | [SB 23/281](https://davel.vd.ch/detail.aspx?ID=595136) | Bullet | Dates | 1876-1881 | 1881-1884 | Titre et dates de création : 1881-1884 ; SB 23/280 couvre 1876-1881 et SB 23/282 1885-1889. | |
+| [SB 23/2065](https://davel.vd.ch/detail.aspx?ID=613021) | Oron-la-Ville | Dates et dates de création | 1896 | 1898 | Titre : Mariages A et B 1898 ; SB 23/2061 couvre les mariages 1896, SB 23/2063 ceux de 1897 et SB 23/2067 ceux de 1899. | |
 
 ## À vérifier sur le PDF
 
@@ -114,3 +115,4 @@ Les dates de la fiche ne couvrent pas celles du contenu, ou la pagination du PDF
 | Cote | Lieu | Question | Indice | Signalé |
 |---|---|---|---|---|
 | [Eb 78/8](https://davel-vd.ch/eb-78-8), [Eb 78/9](https://davel-vd.ch/eb-78-9) et [Eb 78/10](https://davel-vd.ch/eb-78-10) | Lutry | Ces trois livres mortuaires de la commune de Lutry (1716-1753, 1754-1795, 1798-1828) pourraient-ils être numérisés ? | Seuls registres Eb sans PDF sur davel-vd.ch : leurs fiches ne citent que le microfilm RMS 22006.2, sans numéro RN-EB. Les registres communaux de Leysin et des Ormonts, sur le microfilm RM 22006.13, sont numérisés. | |
+| [SB 267/77/3/1/1](https://davel-vd.ch/sb-267-77-3-1-1) à [SB 267/77/3/1/8](https://davel-vd.ch/sb-267-77-3-1-8) | Oron | Ces huit registres des décès (1890-2004) sont rangés au même niveau que [SB 267/77/3/1](https://davel-vd.ch/sb-267-77-3-1) (1876-1890), directement sous SB 267/77/3, et non sous SB 267/77/3/1 : leurs cotes ne devraient-elles pas être SB 267/77/3/2 à 3/9 ? | Les registres des autres séries de SB 267/77 suivent la numérotation attendue (1/1 à 1/10, 2/1 à 2/14). Les noms des PDF (CH-ACV_SB-267-77-3-1-1.pdf…) reprennent ces cotes : l'index les garde telles quelles. | |
