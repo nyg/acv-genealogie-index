@@ -115,6 +115,19 @@ const cases = [
   ["Begnins", "naissance", "1800", "Eb 12/4"],
   ["Begnins", "mariage", "1850", "Ed 12/3"],
   ["Begnins", "deces", "1890", "SB 23/772"],
+  ["La Sarraz", "naissance", "1719", "Eb 70/2"],
+  ["La Sarraz", "naissance", "1719", "Eb 70/3"],
+  ["La Sarraz", "deces", "1764", "Eb 70/5"],
+  ["La Sarraz", "deces", "1788", "Eb 70/5"],
+  ["La Sarraz", "naissance", "1865", "Ed 70/3"],
+  ["La Sarraz", "naissance", "1840", "Ec 70/5"],
+  ["La Sarraz", "mariage", "1887", "SB 267/50/2/1"],
+  ["La Sarraz", "mariage", "1887", "SB 268/50/2"],
+  ["La Sarraz", "naissance", "1910", "SB 269/50/1/2"],
+  ["La Sarraz", "deces", "1893", "SB 23/173"],
+  ["La Sarraz", "naissance", "1922", "SB 115/181"],
+  ["La Sarraz", "deces", "1950", "SB 267/50/3/14"],
+  ["Éclépens", "naissance", "1800", "Eb 70/7"],
 ];
 let failures = 0;
 for (const [place, kind, date, expected] of cases) {
@@ -215,6 +228,10 @@ console.log(`${consultable ? "ok  " : "FAIL"} Aigle / mariage / 1950 → SB 267/
 const annexBounded = search("Arzier", "deces", "1847").cotes.includes("Ed 58/4") && !search("Arzier", "deces", "1837").cotes.includes("Ed 58/4");
 failures += annexBounded ? 0 : 1;
 console.log(`${annexBounded ? "ok  " : "FAIL"} Arzier / deces → Ed 58/4 de Genolier en 1847, pas en 1837 (annexe de Genolier 1846-1849)`);
+
+const sarrazCorrected = !search("La Sarraz", "naissance", "1865").cotes.includes("Ed 70/2") && !search("La Sarraz", "naissance", "1877").cotes.includes("SB 23/165");
+failures += sarrazCorrected ? 0 : 1;
+console.log(`${sarrazCorrected ? "ok  " : "FAIL"} La Sarraz / naissance → ni Ed 70/2 en 1865 (jusqu'en 1860), ni SB 23/165 en 1877 (1882-1883)`);
 
 const dataJson = JSON.parse(readFileSync(new URL("../docs/data.json", import.meta.url), "utf8"));
 const published = dataJson.generatedAt === site.DATA.generatedAt && dataJson.units.length === site.DATA.units.length;
