@@ -159,7 +159,15 @@ node cli/acv.mjs lieux chesi
 
 ### Données
 
-`build/build.py` écrit les mêmes données dans `docs/index.html`, `docs/data.json` (pour un script qui les réutilise) et `data/acv.sqlite` (non versée), avec leur date de génération (`generatedAt`, table `meta` dans la base). `python3 build/freshness.py` échoue quand `data/acv.sqlite` est plus ancienne que `docs/index.html`.
+`build/build.py` écrit les mêmes données dans `docs/index.html`, `docs/data.json` (pour un script qui les réutilise) et `data/acv.sqlite` (non versée), avec leur date de génération (`generatedAt`, table `meta` dans la base). Quand les données n'ont pas changé, une nouvelle construction garde la date de `docs/data.json`, et `docs/` reste identique. `python3 build/freshness.py` échoue quand `data/acv.sqlite` est plus ancienne que `docs/index.html`.
+
+Les hooks git de `scripts/hooks/` relancent `build/build.py` après un commit, un `git pull`, un rebase ou un changement de branche : `data/acv.sqlite` n'est ainsi jamais plus ancienne que le dernier commit. Ils s'activent une fois par clone (les worktrees en héritent) :
+
+```bash
+git config core.hooksPath scripts/hooks
+```
+
+Sans eux, ou après un `git reset`, qui n'appelle aucun hook, relancer `python3 build/build.py` à la main.
 
 ### Tests
 
