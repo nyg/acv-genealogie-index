@@ -34,6 +34,7 @@ STANDALONE_HEAD = '<!doctype html>\n<html lang="fr">\n<meta charset="utf-8">\n<m
 
 FONDS_LABEL = {"eb": "Eb", "ed": "Ed", "sb-267": "SB 267"}
 CONTAINER_LEVELS = {"Fonds", "Sous-fonds", "Série", "Sous-série"}
+INDEX_HEADINGS = ("repertoire", "liste")
 SB267_KINDS = [
     ("reconnaissance", "reconnaissance"), ("légitimation", "legitimation"),
     ("naissance", "naissance"), ("mariage", "mariage"), ("décès", "deces"),
@@ -224,7 +225,7 @@ def parish_segments(unit):
     if segments:
         return segments
     heading = unit["scope"].splitlines()[0].strip(" \"«».") if unit["scope"] else ""
-    kinds = classify(heading) if normalize(heading).startswith("repertoire") else []
+    kinds = classify(heading) if normalize(heading).startswith(INDEX_HEADINGS) else []
     return [{"unit": unit["slug"], "kinds": kinds or ["inconnu"], "label": heading if kinds else "Contenu non détaillé", "start": unit["start"], "end": unit["end"],
              "dates": unit["dates"], "pages": "", "tb": False, "foreign": False, "section": ""}]
 
