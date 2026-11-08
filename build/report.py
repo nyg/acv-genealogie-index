@@ -18,6 +18,7 @@ DATABASE = ROOT / "data" / "acv.sqlite"
 DAVEL_INDEX = ROOT / "data" / "raw" / "davel" / "_index.json"
 PARISH_TABLE = ROOT / "data" / "raw" / "vd-ch" / "communes-paroisses.json"
 CORRECTIONS = ROOT / "data" / "manual" / "communes-paroisses-corrections.json"
+GENUINE_OUTSIDE = ROOT / "data" / "manual" / "segments-hors-dates.json"
 DAVEL_PARENTS = {"SB 268": ["623416"], "SB 269": ["623415"], "Ec": ["10010"], "SB 23": ["557958", "589164"], "SB 115": ["613621", "615711", "626074"], "SB 324": ["1346604"]}
 
 
@@ -26,6 +27,12 @@ def parishless_localities(table, corrections):
         correction = corrections.get(entry["locality"], {})
         return entry["parishes"] or correction.get("parishes") or "continues" in correction
     return [entry for entry in table if not resolved(entry)]
+
+
+def split_genuine(rows, genuine):
+    known = {(entry["cote"], entry["segment"]) for entry in genuine}
+    listed = {(row[0], row[1]) for row in rows}
+    return [row for row in rows if (row[0], row[1]) not in known], [entry for entry in genuine if (entry["cote"], entry["segment"]) not in listed]
 
 
 def parish_names(connection):
@@ -92,8 +99,11 @@ def quality(connection, limit):
             OR CAST(substr(s.date_end, 1, 4) AS INTEGER) > CAST(substr(u.date_end, 1, 4) AS INTEGER) + 1)
         ORDER BY u.cote
     """).fetchall()
-    section("Segments hors des dates du registre (souvent une coquille de l'inventaire)", outside, limit,
+    unexplained, stale = split_genuine(outside, json.loads(GENUINE_OUTSIDE.read_text(encoding="utf-8")))
+    section(f"Segments hors des dates du registre (souvent une coquille de l'inventaire ; ceux vérifiés sur le PDF vont dans {GENUINE_OUTSIDE.relative_to(ROOT)})", unexplained, limit,
             lambda row: f"{row[0]} : {row[1]} {row[2]} → {row[3]}, registre {row[4]} → {row[5]}")
+    section(f"Segments vérifiés qui ne sont plus hors des dates du registre (retirer de {GENUINE_OUTSIDE.relative_to(ROOT)})", stale, limit,
+            lambda entry: f"{entry['cote']} : {entry['segment']}")
 
     section(f"Corrections sans effet, l'inventaire a peut-être été corrigé (retirer de {INVENTORY_CORRECTIONS.relative_to(ROOT)} et de data/manual/erreurs-acv.md)",
             unused_corrections(), limit, lambda correction: f"{correction['cote']} : {correction['field']} {correction['published']!r}")

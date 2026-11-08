@@ -61,5 +61,9 @@
  {"cote": "SB 23/414", "field": "Dates", "published": "1991-1892", "corrected": "1891-1892"},
  {"cote": "SB 23/434", "field": "Dates", "published": "1893-1894", "corrected": "1878"},
  {"cote": "SB 115/48", "field": "Title", "published": "Publications de promesses de mariage 1943", "corrected": "Publications de promesses de mariage 1923"},
- {"cote": "SB 23/635", "field": "Title", "published": "Mariages A 1884-1887", "corrected": "Mariages A et B 1884-1887"}
+ {"cote": "SB 23/635", "field": "Title", "published": "Mariages A 1884-1887", "corrected": "Mariages A et B 1884-1887"},
+ {"cote": "Eb 105/7", "field": "Date(s)", "published": "1739-03-12 - 1864-12-31", "corrected": "1729-03-12 - 1864-12-31"},
+ {"cote": "Eb 80/5", "field": "Date(s)", "published": "1765-01-01 - 1828-12-31", "corrected": "1760-03-09 - 1828-12-31"},
+ {"cote": "Eb 15/7", "field": "Portée et contenu", "published": "1701 septembre 17", "corrected": "1768 décembre 31"},
+ {"cote": "SB 115/80", "field": "Dates", "published": "1922-1928", "corrected": "1876-1928"}
 ]
