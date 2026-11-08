@@ -212,6 +212,10 @@ const consultable = aigle1950.answers.includes("Librement consultable en entier 
 failures += consultable ? 0 : 1;
 console.log(`${consultable ? "ok  " : "FAIL"} Aigle / mariage / 1950 → SB 267/2/2/13 librement consultable en entier dès 2038, rien pour 1900`);
 
+const annexBounded = search("Arzier", "deces", "1847").cotes.includes("Ed 58/4") && !search("Arzier", "deces", "1837").cotes.includes("Ed 58/4");
+failures += annexBounded ? 0 : 1;
+console.log(`${annexBounded ? "ok  " : "FAIL"} Arzier / deces → Ed 58/4 de Genolier en 1847, pas en 1837 (annexe de Genolier 1846-1849)`);
+
 const dataJson = JSON.parse(readFileSync(new URL("../docs/data.json", import.meta.url), "utf8"));
 const published = dataJson.generatedAt === site.DATA.generatedAt && dataJson.units.length === site.DATA.units.length;
 failures += published ? 0 : 1;
