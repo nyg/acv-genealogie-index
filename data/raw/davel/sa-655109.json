@@ -1,0 +1,84 @@
+[
+ {
+  "slug": "sa-655109",
+  "parent": null,
+  "text": "SB 268/104 Villeneuve (arrondissement de l'état civil), 1982-1999 (Sous-fonds)",
+  "children": [
+   "sa-681623",
+   "sa-681624",
+   "sa-681625"
+  ],
+  "f": {
+   "Ref. code": "SB 268/104",
+   "Title": "Villeneuve (arrondissement de l'état civil)",
+   "Dates": "1982-1999 (lacune: 1882-1982)",
+   "Creation date(s)": "1982 - 1999",
+   "Level": "Sous-fonds",
+   "Importance matérielle": "2 registres",
+   "Access regulations": "Seules les promesses de mariage de plus de 80 ans sont consultables librement. Pour les promesses de mariage postérieures une autorisation écrite est nécessaire.",
+   "Language": "Français",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 17 novembre 1999 et rattaché à l'arrondissement d'Aigle dès le 1er janvier 2000.\nComprend:\n- Villeneuve\n- Chessel\n- Noville\n- Rennaz\n- Roche",
+   "Entries": "Roche (Suisse, VD) (Lieux\\R)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=655109",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681623",
+  "parent": "sa-655109",
+  "text": "SB 268/104/1 FANTOME Registre(s) de publications de promesses de mariage manquant(s), 1111 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/104/1 FANTOME",
+   "Title": "Registre(s) de publications de promesses de mariage manquant(s)",
+   "Dates": "Lacune: 1882 août 1 - 1982 janvier 27",
+   "Creation date(s)": "1111",
+   "Level": "Pièce",
+   "Importance matérielle": "-",
+   "Content": "Le(s) registre(s) de publications de promesses de mariage 1882 -1982 de cet arrondissement n'a/ont pas été versé(s) aux ACV.",
+   "Access regulations": "Non consultable.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681623",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681624",
+  "parent": "sa-655109",
+  "text": "SB 268/104/2 Registre de publications de promesses de mariage, 1982-1990 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/104/2",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1982 janvier 27 - 1990 mars 21",
+   "Creation date(s)": "1982 - 1990",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 100 pages utiles sur 100 et 1 répertoire non paginé",
+   "Content": "- Publications (1982 janvier 27 - 1990 mars 21).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681624",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-681625",
+  "parent": "sa-655109",
+  "text": "SB 268/104/3 Registre de publications de promesses de mariage, 1990-1999 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/104/3",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1990 avril 6 - 1999 août 18",
+   "Creation date(s)": "1990 - 1999",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 24 pages utiles sur 100 et 1 répertoire non paginé",
+   "Content": "- Publications (1990 avril 6 - 1999 août 18).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=681625",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

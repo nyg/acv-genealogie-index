@@ -85,5 +85,6 @@
  "Villy (Ollon) r//?r\\'(Gill\\)": {"locality": "Villy (Ollon)", "description": "Ollon [92]", "parishes": ["92"], "followedBy": {"locality": "Vincy (Gilly)", "description": "Bursins [20]", "parishes": ["20"]}},
  "Yvorne 1^11333:1^-": {"locality": "Yvorne", "description": "Aigle [3] jusqu'en 1833 et 1845-1862, Yvorne [143] 1833-1845 et dès 1862", "parishes": ["3", "143"]},
  "Bournens Chapelle": {"locality": "Bournens", "description": "Chapelle médiévale filiale de Penthaz avant la Réforme, puis dépendance de Cheseaux [25] jusqu'en 1837 et rattachée alors à Penthaz [105], puis à Vufflens-la-Ville [139] en 1846 (annexe de Sullens dès 1852)"},
- "Boussens Eglise": {"locality": "Boussens", "description": "Eglise paroissiale avant 1285, devenue filiale de Sullens puis annexe de Cheseaux [25] à la Réforme, rattaché à Penthaz [105] en 1837 et à Vufflens-la-Ville [139] en 1846 (annexe de Sullens dès 1852)"}
+ "Boussens Eglise": {"locality": "Boussens", "description": "Eglise paroissiale avant 1285, devenue filiale de Sullens puis annexe de Cheseaux [25] à la Réforme, rattaché à Penthaz [105] en 1837 et à Vufflens-la-Ville [139] en 1846 (annexe de Sullens dès 1852)"},
+ "Roche": {"description": "Noville [90], puis Roche [114 bis] 1776/1821-1837; annexe d'Yvorne [143] dès 1837, Villeneuve [136] 1845-1863 et Yvorne", "parishes": ["90", "114 bis", "143", "136"]}
 }

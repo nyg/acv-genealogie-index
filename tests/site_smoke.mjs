@@ -178,6 +178,26 @@ const cases = [
   ["La Tour-de-Peilz", "mariage", "1952", "SB 115/1240"],
   ["La Tour-de-Peilz", "deces", "24.01.1955", "SB 267/51/3/6"],
   ["La Tour-de-Peilz", "deces", "1964", "SB 324/1/79"],
+  ["Roche", "mariage", "23.09.1859", "Ed 136/4"],
+  ["Roche", "mariage", "1859", "Ec 136/3"],
+  ["Roche", "naissance", "1790", "Eb 90/5"],
+  ["Roche", "mariage", "1800", "Eb 90/6"],
+  ["Roche", "naissance", "1830", "Ed 114 bis/1"],
+  ["Roche", "naissance", "1840", "Ed 143/1"],
+  ["Roche", "deces", "1850", "Ed 136/5"],
+  ["Roche", "deces", "1900", "SB 267/104/3/3"],
+  ["Villeneuve", "naissance", "1750", "Eb 136/3"],
+  ["Villeneuve", "deces", "1750", "Eb 136/4"],
+  ["Villeneuve", "deces", "1795", "Eb 136/5"],
+  ["Villeneuve", "naissance", "1900", "SB 267/104/1/4"],
+  ["Villeneuve", "mariage", "1900", "SB 23/1265"],
+  ["Villeneuve", "naissance", "1910", "SB 269/104/1/2"],
+  ["Villeneuve", "mariage", "1940", "SB 115/637"],
+  ["Villeneuve", "mariage", "1952", "SB 115/1114"],
+  ["Villeneuve", "mariage", "1990", "SB 268/104/3"],
+  ["Noville", "naissance", "1700", "Eb 90/2"],
+  ["Chessel", "naissance", "1800", "Eb 90/5"],
+  ["Yvorne", "mariage", "1850", "Ed 143/2"],
   ["Vevey", "naissance", "08.05.1807", "Eb 132/7"],
   ["Vevey", "mariage", "27.07.1804", "Eb 132/8"],
   ["Vevey", "mariage", "27.07.1804", "Eb 132/12"],
@@ -318,6 +338,10 @@ console.log(`${oronCorrected ? "ok  " : "FAIL"} Oron-la-Ville / mariage / 1896 �
 const startNoteOnlyWhenEmpty =!search("Ollon", "naissance", "1787").answers.includes("Registres dès") && search("Ollon", "naissance", "1590").answers.includes("Registres dès 1602");
 failures += startNoteOnlyWhenEmpty ? 0 : 1;
 console.log(`${startNoteOnlyWhenEmpty ? "ok  " : "FAIL"} Ollon / naissance → « Registres dès 1602 » en 1590, sans registre, pas en 1787`);
+
+const villeneuveCorrected = !search("Villeneuve", "mariage", "1940").answers.includes("1935-1951");
+failures += villeneuveCorrected ? 0 : 1;
+console.log(`${villeneuveCorrected ? "ok  " : "FAIL"} Villeneuve / mariage → SB 115/637 daté 1935-1941, pas 1935-1951`);
 
 const dataJson = JSON.parse(readFileSync(new URL("../docs/data.json", import.meta.url), "utf8"));
 const published = dataJson.generatedAt === site.DATA.generatedAt && dataJson.units.length === site.DATA.units.length;

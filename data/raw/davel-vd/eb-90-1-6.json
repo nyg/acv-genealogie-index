@@ -1,0 +1,132 @@
+[
+ {
+  "slug": "eb-90-1-6",
+  "parent": null,
+  "children": [
+   "eb-90-1",
+   "eb-90-2",
+   "eb-90-3",
+   "eb-90-4",
+   "eb-90-5",
+   "eb-90-6"
+  ],
+  "f": {
+   "Cote": "Eb 90/1-6",
+   "Titre": "Registres de la paroisse réformée de Noville.",
+   "Date(s)": "1615-08-06 - 1875-06-20 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Noville :\nParoisse médiévale réformée en 1528, temporairement jointe à Villeneuve (1845-1847).\nRegistres dès 1615.\nComprend : Rennaz.\nAnnexes : Chessel (1529-1728 et dès 1837), Roche (1582-1821), avec registres distincts 1776-1821, puis séparés."
+  }
+ },
+ {
+  "slug": "eb-90-1",
+  "parent": "eb-90-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 90/1",
+   "Titre": "Paroisse réformée de Noville",
+   "Date(s)": "1615-08-06 - 1698-10-16 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 13,3 x 17,9",
+   "Portée et contenu": "Baptêmes (1615 août 6 - 1698 octobre 16), pp. 1-333;\nMariages (1641 août 8 - 1691 décembre 10), pp.tête-bêche 399-446.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.731",
+   "Nom du fichier": "CH-ACV_RN-EB-90-1.pdf",
+   "Taille du fichier": "149.9 MiB"
+  },
+  "pdf": "2/e/3/2e39befd036a8d9a4ff23d0cedaf7af3a04700991570bbe3567290eeaaa458d9/CH-ACV_RN-EB-90-1.pdf"
+ },
+ {
+  "slug": "eb-90-2",
+  "parent": "eb-90-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 90/2",
+   "Titre": "Paroisse réformée de Noville",
+   "Date(s)": "1698-10-16 - 1839-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 4 parties\nFormat LxH(cm): 12,8 x 17,3",
+   "Portée et contenu": "Baptêmes (1698 octobre 16 - 1749 juin 29), pp. 1-305;\nDécès (1728 - 1749, lacunes pour la période de 1731 à 1741), pp.310-325;\nMariages (1705 février 13 - 1749 avril 18), pp.tête-bêche 401-440;\nCatéchumènes (1741 - 1839), pp.tête-bêche 441-576.\n*- Pages 445 à 450: fin des Mariages insérée au début des Catéchumènes.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.731",
+   "Nom du fichier": "CH-ACV_RN-EB-90-2.pdf",
+   "Taille du fichier": "183.6 MiB"
+  },
+  "pdf": "0/1/2/012e9405d94096ee2cba63b0592830d8f53e1d2679439679d69e19f3ecbfd988/CH-ACV_RN-EB-90-2.pdf"
+ },
+ {
+  "slug": "eb-90-3",
+  "parent": "eb-90-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 90/3",
+   "Titre": "Paroisse réformée de Noville",
+   "Date(s)": "1749-10-26 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 4 parties\nFormat LxH(cm): 18 x 24,5",
+   "Portée et contenu": "Baptêmes (1749 octobre 26 - 1813 mai 27), pp. 0-232;\nMariages (1750 janvier 22 - 1821 juin 30), pp. 233-345;\nAnnonces de mariage (1804 novembre 18 - 1821 juin 30), pp. 359-408;\nDécès (1749 septembre 9 - 1813 octobre 1813), pp. 411-525.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.731",
+   "Nom du fichier": "CH-ACV_RN-EB-90-3.pdf",
+   "Taille du fichier": "362.1 MiB"
+  },
+  "pdf": "5/0/8/50815569654acb327dafaad0ec5e76cb7c5544079bb7dd925247e02f19b63d1f/CH-ACV_RN-EB-90-3.pdf"
+ },
+ {
+  "slug": "eb-90-4",
+  "parent": "eb-90-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 90/4",
+   "Titre": "Paroisse réformée de Noville",
+   "Date(s)": "1813-05-30 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 3 parties\nFormat LxH(cm): 22,7 x 33,2",
+   "Portée et contenu": "Décès (1813 novembre 26 - 1821 juin 30), pp. 201-212;\nCatéchumènes (1840 avril 9 - 1875), pp. 213-274;\n*- Interfolio p. 215;\nBaptêmes (1813 mai 30 - 1821 juin 30), pp.tête-bêche 0-105;\n*- Interfolio entre pp. 2-3.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série de pages blanches, de la page 275 jusqu'à la partie des baptêmes.",
+   "Cote de gestion": "RMS 1/128.732",
+   "Nom du fichier": "CH-ACV_RN-EB-90-4.pdf",
+   "Taille du fichier": "171.8 MiB"
+  },
+  "pdf": "b/c/1/bc1cdcd1344b6cc27f4264bd96ef278af2b26d71a450e3d152bd33c565ece097/CH-ACV_RN-EB-90-4.pdf"
+ },
+ {
+  "slug": "eb-90-5",
+  "parent": "eb-90-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 90/5",
+   "Titre": "Chessel et Roche annexes de la paroisse réformée de Noville",
+   "Date(s)": "1776-09-01 - 1837-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17,1 x 20,9",
+   "Portée et contenu": "Décès (1776 septembre 1 - 1821 juin 30), pp. 0-86;\nBaptêmes (1776 septembre 1 - 1821 juin 30), pp.tête-bêche 0-197;\n*-Page de garde: liste des pasteurs (1775 - 1837).",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série de pages blanches entre les deux parties.",
+   "Cote de gestion": "RMS 1/128.732",
+   "Nom du fichier": "CH-ACV_RN-EB-90-5.pdf",
+   "Taille du fichier": "155.5 MiB"
+  },
+  "pdf": "5/3/5/53542bf324dc7193aab093e004a20b22334cd6bef7ed15233d4485cb52ba0083/CH-ACV_RN-EB-90-5.pdf"
+ },
+ {
+  "slug": "eb-90-6",
+  "parent": "eb-90-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 90/6",
+   "Titre": "Chessel et Roche annexes de la paroisse réformée de Noville",
+   "Date(s)": "1777-01-08 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17,2 x 21",
+   "Portée et contenu": "Mariages (1777 janvier 8 - 1821 juin 30), pp. 0-155;\nCatéchumènes (1777 - 1875 décembre 31), pp.tête-bêche 0-82.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série de pages blanches, de la page 156 à la partie des catéchumènes.",
+   "Cote de gestion": "RMS 1/128.732",
+   "Nom du fichier": "CH-ACV_RN-EB-90-6.pdf",
+   "Taille du fichier": "133.3 MiB"
+  },
+  "pdf": "9/9/b/99be28f62e8ed5f95839cc1ef9743c55049afd7765982d01b2197b6ec9b166c2/CH-ACV_RN-EB-90-6.pdf"
+ }
+]
