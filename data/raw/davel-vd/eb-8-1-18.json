@@ -1,0 +1,350 @@
+[
+ {
+  "slug": "eb-8-1-18",
+  "parent": null,
+  "children": [
+   "eb-8-1-2",
+   "eb-8-3",
+   "eb-8-4",
+   "eb-8-5",
+   "eb-8-6",
+   "eb-8-7",
+   "eb-8-8",
+   "eb-8-9",
+   "eb-8-10",
+   "eb-8-11",
+   "eb-8-12",
+   "eb-8-13",
+   "eb-8-14",
+   "eb-8-15",
+   "eb-8-16",
+   "eb-8-17",
+   "eb-8-18"
+  ],
+  "f": {
+   "Cote": "Eb 8/1-18",
+   "Titre": "Registres de la paroisse réformée d'Aubonne, de la paroisse réformée de langue allemande d'Aubonne et de la commune d'Aubonne.",
+   "Date(s)": "1629-07-02 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse d'Aubonne :\nParoisse médiévale réformée en 1536.\nRegistres dès 1629.\nComprend : Montherod, Pizy. Annexes : Féchy ; Lavigny (séparé de 1821 à 1837), avec registres propres sous Aubonne 1637-1821, détaché et joint à Saint-Livres en 1846, réintégré en 1863 ; Bougy-Villars (1837-1849, 1863-1868).\nParoisse allemande pour Morges et Nyon (1710-1809)."
+  }
+ },
+ {
+  "slug": "eb-8-1-2",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/1-2",
+   "Titre": "Paroisse réformée d'Aubonne",
+   "Date(s)": "1629-07-02 - 1704-09-12 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "Eb 8/1 et Eb 8/2 ne forment qu'un seul volume\n3 volumes en 2 parties\nFormat LxH(cm): 9,7 x 27,2 x 2,8/ A: 27,9 x 39,2 (répertoire) / B: 27,7 x 39,3 (répertoire)",
+   "Portée et contenu": "Baptêmes (1629 juillet 2 - 1695 juin, lacunes pour la période d'avril 1671 à 1676);\nBaptêmes (1704, avec lacunes) pages 1- 214 et pages tête-bêche 40-44.\nMariages (tête-bêche) (1629 août 27 - 1671 décembre 22) pages tête-bêche 1-40.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 8/1-2 (microfilm: RMS 1/128.584, numérique: RN-EB-8-1-2), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 8/1-2 (microfilm: RMS 1/128.584, numérique: RN-EB-8-1-2), pages manuscrites, non datées",
+   "Note": "Cahier pages 185-214 consolidé mais fragile.",
+   "Cote de gestion": "RMS 1/128.584",
+   "Nom du fichier": "CH-ACV_RN-EB-8-1-2.pdf",
+   "Taille du fichier": "241.3 MiB"
+  },
+  "pdf": "7/b/f/7bf9b5d6aa6a60a3f52560a1fb1d3d548185ca860437179c902344314b308884/CH-ACV_RN-EB-8-1-2.pdf"
+ },
+ {
+  "slug": "eb-8-3",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/3",
+   "Titre": "Paroisse réformée d'Aubonne",
+   "Date(s)": "1704-07-21 - 1783-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 3 parties\nFormat LxH(cm): 16 x 20 / 27,8 x 39,2 (répertoire)",
+   "Portée et contenu": "Baptêmes (1704 juillet 21 - 1718 décembre 3) pages 1-81;\nCatéchumènes (1704 septembre - 1783 septembre 6) pages 86-180 et page tête-bêche 194;\nMariages (1708 avril 28 - 1722 mars 12) pages 181-193.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 8/3 (microfilm: RMS 1/128.584, numérique: RN-EB-8-3), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes ni pour les mariages",
+   "Cote de gestion": "RMS 1/128.584",
+   "Nom du fichier": "CH-ACV_RN-EB-8-3.pdf",
+   "Taille du fichier": "151.3 MiB"
+  },
+  "pdf": "1/1/4/114ec68418a7173a3d7e118517da2cba710b434a9a86d3cd3a32deed31aae9bd/CH-ACV_RN-EB-8-3.pdf"
+ },
+ {
+  "slug": "eb-8-4",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/4",
+   "Titre": "Paroisse réformée d'Aubonne",
+   "Date(s)": "1719-05-18 - 1758-07-13 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17 x 23,9",
+   "Portée et contenu": "Baptêmes (1719 mai 18 - 1758 juillet 13), pp. 0-309;\nMariages (tête-bêche) (1719 octobre 5 - 1758 juillet 6), pp.tête-bêche 401-459.",
+   "Instruments de recherche": "Répertoire incorporé des baptêmes Eb 8/4 (microfilm: RMS 1/128.584, numérique: RN-EB-8-4), pages manuscrites, non datées\nPas de répertoire pour les mariages.",
+   "Cote de gestion": "RMS 1/128.584",
+   "Nom du fichier": "CH-ACV_RN-EB-8-4.pdf",
+   "Taille du fichier": "237.8 MiB"
+  },
+  "pdf": "0/d/b/0db129aa0f3a3d713467b9978c5319cc009005a45dd811045e6e3b303f72d38c/CH-ACV_RN-EB-8-4.pdf"
+ },
+ {
+  "slug": "eb-8-5",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/5",
+   "Titre": "Paroisse réformée d'Aubonne",
+   "Date(s)": "1719-01-02 - 1781-11-17 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 17 x 23,6 / A: 27,8 x 39,5 (répertoire) / B: 28 x 39,2 (répertoire) x 0.5",
+   "Portée et contenu": "Baptêmes (1719 janvier 2 - 1781 novembre 17), pp. 0-376;\nMariages (tête-bêche) (1723 juillet 12 - 1781 octobre 26), pp.tête-bêche 0-72.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 8/5 (microfilm: RMS 1/128.584, numérique: RN-EB-8-5), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 8/5 (microfilm: RMS 1/128.584, numérique: RN-EB-8-5), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.584",
+   "Nom du fichier": "CH-ACV_RN-EB-8-5.pdf",
+   "Taille du fichier": "397 MiB"
+  },
+  "pdf": "7/1/e/71eda0fa9dd5cae5022db0fe629cfd48b2ee43c3aabaabb9983350b64028c5d9/CH-ACV_RN-EB-8-5.pdf"
+ },
+ {
+  "slug": "eb-8-6",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/6",
+   "Titre": "Paroisse réformée d'Aubonne",
+   "Date(s)": "1712-01-01 - 1716-09-24 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 1 partie\nFormat LxH(cm): 17,4 x 24,9 / AR1: 27,7 x 39,2 (répertoire) / AR2: 28 x 39 (répertoire)",
+   "Portée et contenu": "Décès (1712 janvier - 1716 septembre 24), pp. 1-5.",
+   "Instruments de recherche": "Répertoire séparé des décès en deux volumes Eb 8/6 et Eb 8/8 (microfilm: RMS 1/128.585, numérique: RN-EB-8-6), pages manuscrites, non datées",
+   "Note": "Dès la page 6, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.584",
+   "Nom du fichier": "CH-ACV_RN-EB-8-6.pdf",
+   "Taille du fichier": "143.6 MiB"
+  },
+  "pdf": "5/e/0/5e0e38e8054b9577ebfeb16cc73bcaac997b31a6490cddce40697fd9b5046610/CH-ACV_RN-EB-8-6.pdf"
+ },
+ {
+  "slug": "eb-8-7",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/7",
+   "Titre": "Paroisse réformée de langue allemande d'Aubonne",
+   "Date(s)": "1711-01-18 - 1752-06-24 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 3 parties\nFormat LxH(cm): 10,8 x 34",
+   "Portée et contenu": "Baptêmes (1711 janvier 18 - 1752 janvier 17) pages 1-103;\nMariages (tête-bêche) (1711 avril 10 - 1752 juin 24) pages tête-bêche 131-161;\nCatéchumènes (tête-bêche) (1722 août 23 - 1752 mai 23) pages tête-bêche 222-232.",
+   "Instruments de recherche": "Répertoire incorporé des naissances Eb 8/7 (microfilm: RMS: 128.584, numérique: RN-EB-8-7), pages manuscrites, non datées\nRépertoire incorporé des mariages Eb 8/7 (microfilm: RMS: 128.584, numérique: RN-EB-8-7), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes",
+   "Note": "Série de pages blanches:\nde la page 130 des baptêmes jusqu'aux mariages;\nde la page 162 à 220 des mariages.",
+   "Cote de gestion": "RMS 1/128.584",
+   "Nom du fichier": "CH-ACV_RN-EB-8-7.pdf",
+   "Taille du fichier": "118.8 MiB"
+  },
+  "pdf": "1/3/4/13432241ed0c6fa3e5b4b2242f2c6c064ecaa76852540f7335e952f851bd50ab/CH-ACV_RN-EB-8-7.pdf"
+ },
+ {
+  "slug": "eb-8-8",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/8",
+   "Titre": "Paroisse réformée d'Aubonne",
+   "Date(s)": "1728-01-27 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 16,9 x 20,2",
+   "Portée et contenu": "Décès (1728 janvier 27 - 1821 juin 30), pp. 1-565.",
+   "Instruments de recherche": "Répertoire séparé des décès en deux volumes Eb 8/6 et Eb 8/8 (microfilm: RMS 1/128.585, numérique: RN-EB-8-6), pages manuscrites, non datées",
+   "Note": "Série de pages blanches, de la page 566 à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.585",
+   "Nom du fichier": "CH-ACV_RN-EB-8-8.pdf",
+   "Taille du fichier": "333.3 MiB"
+  },
+  "pdf": "e/2/1/e21bd8336df9c0e2daf2dbaaa4f906265d69441aab6ece586776e8eaa43ac488/CH-ACV_RN-EB-8-8.pdf"
+ },
+ {
+  "slug": "eb-8-9",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/9",
+   "Titre": "Paroisse réformée d'Aubonne",
+   "Date(s)": "1758-07-15 - 1786-10-03 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 18,2 x 25,6",
+   "Portée et contenu": "Baptêmes (1758 juillet 15 - 1780 avril 19), pp. 0-177;\nMariages (tête-bêche) (1758 septembre 18 - 1786 octobre 3) pp.tête-bêche 200-277.",
+   "Instruments de recherche": "Répertoire incorporé (cahier volant) des baptêmes Eb 8/9 (microfilm: RMS: 128.585, numérique: RN-EB-8-9), pages manuscrites, non datées\nPas de répertoire pour les mariages",
+   "Note": "Série de pages blanches, de la page 178 jusqu'aux mariages (tête-bêche).",
+   "Cote de gestion": "RMS 1/128.585",
+   "Nom du fichier": "CH-ACV_RN-EB-8-9.pdf",
+   "Taille du fichier": "180.6 MiB"
+  },
+  "pdf": "0/5/6/056af44092f7b1093ff3495d1c62a20cf38b3849fbd9fabdee3f8fc4979f1278/CH-ACV_RN-EB-8-9.pdf"
+ },
+ {
+  "slug": "eb-8-10",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/10",
+   "Titre": "Paroisse réformée d'Aubonne",
+   "Date(s)": "1782-01-12 - 1818-04-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 18,7 x 24,2 / 28 x 39,2 (répertoire)",
+   "Portée et contenu": "Baptêmes (1782 janvier 12 - 1818 avril 1), pp. 1-557.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 8/10 (microfilm: RMS 1/128.584, numérique: RN-EB-8-10), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.585",
+   "Nom du fichier": "CH-ACV_RN-EB-8-10.pdf",
+   "Taille du fichier": "467 MiB"
+  },
+  "pdf": "1/b/2/1b2389ffe83f8faf01c6ba7c5a60fd145c6e737e140bb72ddf10a73f1843a516/CH-ACV_RN-EB-8-10.pdf"
+ },
+ {
+  "slug": "eb-8-11",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/11",
+   "Titre": "Paroisse réformée d'Aubonne",
+   "Date(s)": "1782-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 19 x 24 / 28 x 39 (répertoire)",
+   "Portée et contenu": "Mariages (1782 janvier 1er - 1821 juin 30), pp. 1-199.",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 8/11 (microfilm: RMS 1/128.584, numérique: RN-EB-8-11), pages manuscrites, non datées",
+   "Note": "Dès la page 200, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.585",
+   "Nom du fichier": "CH-ACV_RN-EB-8-11.pdf",
+   "Taille du fichier": "189.1 MiB"
+  },
+  "pdf": "6/2/9/629c8e1fdbe39d2765dbb521c1f7cb8ac70c08bd0b8067c095610658c2e2f810/CH-ACV_RN-EB-8-11.pdf"
+ },
+ {
+  "slug": "eb-8-12",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/12",
+   "Titre": "Paroisse réformée d'Aubonne",
+   "Date(s)": "1818-04-19 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 20,7 x 25,6 / 28 x 39,1 (répertoire)",
+   "Portée et contenu": "Baptêmes (1818 avril 19 - 1821 juin 30), pp. 1-55.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 8/12 (microfilm: RMS 1/128.585, numérique: RN-EB-8-12), pages manuscrites, non datées",
+   "Note": "Dès la page 56, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.585",
+   "Nom du fichier": "CH-ACV_RN-EB-8-12.pdf",
+   "Taille du fichier": "103 MiB"
+  },
+  "pdf": "7/3/b/73b7dc04e960985aec06738db290fb07df989faf1f7a35d9d88fc1e862c280a0/CH-ACV_RN-EB-8-12.pdf"
+ },
+ {
+  "slug": "eb-8-13",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/13",
+   "Titre": "Lavigny annexe de la paroisse réformée d'Aubonne",
+   "Date(s)": "1637-01-22 - 1789-04-20 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 3 parties\nFormat LxH(cm): 17 x 22,5 / 27,7 x 39,2 (répertoire)",
+   "Portée et contenu": "Baptêmes (1637 janvier 22 - 1789 avril 17) pages 1-133;\nMariages (1640 juin 21 - 1789 avril 20); pages tête-bêche 190, 191-246;\nCatéchumènes (1721 - 1731) page 189.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, des mariages, des catéchumènes et des décès Eb 8/13, Eb 8/14 et Eb 8/15 (microfilm: RMS 1/128.584, numérique: RN-EB-8-13), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.586",
+   "Nom du fichier": "CH-ACV_RN-EB-8-13.pdf",
+   "Taille du fichier": "220.7 MiB"
+  },
+  "pdf": "d/4/0/d40e00b72b0a0dfe1f5508a59a523ce13a2515342683dd11835c4907d05a1335/CH-ACV_RN-EB-8-13.pdf"
+ },
+ {
+  "slug": "eb-8-14",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/14",
+   "Titre": "Lavigny annexe de la paroisse réformée d'Aubonne",
+   "Date(s)": "1728-08-02 - 1838-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 11,5 x 33",
+   "Portée et contenu": "Catéchumènes (1731 - 1738), pp.57bis, 57-101;\nDécès (tête-bêche) (1728 août 2 - 1821 juin 30) pp.tête-bêche 1-56.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, des mariages, des catéchumènes et des décès Eb 8/13, Eb 8/14 et Eb 8/15 (microfilm: RMS 1/128.584, numérique: RN-EB-8-13), pages manuscrites, non datées",
+   "Note": "Série de pages blanches de la page 102 des catéchumènes jusqu'aux décès en tête-bêche.",
+   "Cote de gestion": "RMS 1/128.586",
+   "Nom du fichier": "CH-ACV_RN-EB-8-14.pdf",
+   "Taille du fichier": "62.5 MiB"
+  },
+  "pdf": "2/8/f/28f62d01dd7260dc2a5ed290bb90cefca64768a6b58cd54ddf8d215e81a65a87/CH-ACV_RN-EB-8-14.pdf"
+ },
+ {
+  "slug": "eb-8-15",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/15",
+   "Titre": "Lavigny annexe de la paroisse réformée d'Aubonne",
+   "Date(s)": "1789-07-16 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17 x 22,5",
+   "Portée et contenu": "Baptêmes (1790 janvier 1 - 1821 juin 30), pp. 1-104;\nMariages (tête-bêche) (1789 juillet 16 - 1821 juin 30), pp.tête-bêche 1-40.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, des mariages, des catéchumènes et des décès Eb 8/13, Eb 8/14 et Eb 8/15 (microfilm: RMS 1/128.584, numérique: RN-EB-8-13), pages manuscrites, non datées",
+   "Note": "Série de pages blanches de la page 105 des baptêmes jusqu'aux mariages en tête-bêche.",
+   "Cote de gestion": "RMS 1/128.586",
+   "Nom du fichier": "CH-ACV_RN-EB-8-15.pdf",
+   "Taille du fichier": "86.6 MiB"
+  },
+  "pdf": "f/0/a/f0aed5c16675877e9132fcbeeeb6f4009e062af6d0045a919e4199fde1717837/CH-ACV_RN-EB-8-15.pdf"
+ },
+ {
+  "slug": "eb-8-16",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/16",
+   "Titre": "Paroisse réformée de langue allemande d'Aubonne",
+   "Date(s)": "1752-03-13 - 1783-05-09 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 11,9 x 33,6",
+   "Portée et contenu": "Baptêmes (1752 mars 13 - 1783 avril 6) pages 1-204;\nCatéchumènes (1752 août 24 - 1783 avril 11) pages 229-257;\nMariages (1752 avril 8 - 1783 mai 9) pages 267-323.",
+   "Instruments de recherche": "Répertoire incorporé des naissances Eb 8/16 (microfilm: RMS 1/128.587, numérique: RN-EB-8-16), pages manuscrites, non datées\nRépertoire incorporé des mariages Eb 8/16 (microfilm: RMS 1/128.587, numérique: RN-EB-8-16), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes.",
+   "Cote de gestion": "RMS 1/128.587",
+   "Nom du fichier": "CH-ACV_RN-EB-8-16.pdf",
+   "Taille du fichier": "232.9 MiB"
+  },
+  "pdf": "c/3/6/c364ff14410ce7ff1bbc90be9076bdaa094c4ab1b9a8ba3b2f511451f50f26b1/CH-ACV_RN-EB-8-16.pdf"
+ },
+ {
+  "slug": "eb-8-17",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/17",
+   "Titre": "Paroisse réformée de langue allemande d'Aubonne",
+   "Date(s)": "1783-06-22 - 1810-03-10 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 3 parties\nFormat LxH(cm): 15,5 x 39",
+   "Portée et contenu": "Baptêmes (1783 juin 22 - 1806 mars 20), pp. 1-114;\nMariages (1783 juillet 18 - 1810 mars 10), pp. 288-302;\nCatéchumènes (1784 - 1809 avril 1), pp. 332-343.",
+   "Instruments de recherche": "Répertoire incorporé des baptêmes Eb 8/17 (microfilm: RMS 1/128.587, numérique: RN-EB-8-17), pages manuscrites, non datées\nRépertoire incorporé des mariages Eb 8/17 (microfilm: RMS 1/128.587, numérique: RN-EB-8-17), pages manuscrites, non datées",
+   "Note": "Série de pages blanches, de la page 115 des baptêmes jusqu'au répertoire incorporé des baptêmes.\nSérie de pages blanches, de la page 320 (répertoire incorporé des mariages) jusqu'aux catéchumènes.",
+   "Cote de gestion": "RMS 1/128.587",
+   "Nom du fichier": "CH-ACV_RN-EB-8-17.pdf",
+   "Taille du fichier": "194.4 MiB"
+  },
+  "pdf": "0/6/b/06b6690165ab59e9b35d8f8366e36d277fd935da4cd10966dcc016cee5111b52/CH-ACV_RN-EB-8-17.pdf"
+ },
+ {
+  "slug": "eb-8-18",
+  "parent": "eb-8-1-18",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 8/18",
+   "Titre": "Commune d'Aubonne",
+   "Date(s)": "1806-01-05 - 1817-12-07 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 22,8 x 33,1",
+   "Portée et contenu": "Baptêmes et Naissances (1806 janvier 5 - 1817 décembre 7), pp. 1-62.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Unités de description associées": "Pour les baptêmes, voir le registre de la paroisse réformée d'Aubonne, Eb 8/10.",
+   "Note": "Dès la page 63, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.583",
+   "Nom du fichier": "CH-ACV_RN-EB-8-18.pdf",
+   "Taille du fichier": "62.5 MiB"
+  },
+  "pdf": "6/3/2/63211958a7bd08fe8acd74d7f4b107ae467f24906931a21311e681bb7be6d259/CH-ACV_RN-EB-8-18.pdf"
+ }
+]

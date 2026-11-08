@@ -36,11 +36,12 @@ Work in **batches**: plan → scrape → export → save → check → publish. 
 - The scraper reads children from `/<slug>/informationobject/fullWidthTreeView?firstLoad=false` and the fields from each record page. The site disables EAD export.
 - PDF links are hashed upload paths, found only on record pages.
 
-## davel.vd.ch (SB 268, SB 269, Ec, SB 23, SB 115, no PDFs)
+## davel.vd.ch (SB 268, SB 269, Ec, SB 23, SB 115, SB 324, no PDFs)
 
 - scopeArchiv. The default `nav` mode follows each record's "lower-level entry" and "next entry" links, one request per record, from any davel.vd.ch page. The archive-plan tree (`mode 'tree'`, on `archivplansuche.aspx` only) pages children by 100 and silently misses the rest.
 - Field labels come in English (UI language), values in French.
 - SB 268/N and SB 269/N reuse SB 267's arrondissement numbers; Ec N reuses the Eb/Ed parish numbers.
 - SB 23 and SB 115 split into periods, then arrondissement groups (`SB 23/56-65 Ollon`). The build maps groups to arrondissements through the cote ranges in SB 267's "Unités de description associées", narrowest range first.
 - Titles containing `FANTOME` are placeholders; `plan.py` skips them.
-- SB 324 splits by district, which the build cannot map to arrondissements yet.
+- SB 324 (1929-1970, fonds ID 1346604) splits into four regions (Est-vaudois, Nord-vaudois, La Côte, Lausanne), then one series per arrondissement (« Aigle (arrondissement d'état civil) »), then boxes. The build maps each box to the arrondissement named by its series; a name like « Cully/Lavaux » is also tried before the slash. Its region roots are large: scrape them one by one and export each when done.
+- SB 322 (cantonal copy of SB 269) stops in 1911, so it does not continue SB 269 after 1928.

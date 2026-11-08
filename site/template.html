@@ -248,6 +248,9 @@ const FONDS_ORDER = { "Eb": 0, "Ed": 1, "SB 267": 2, "SB 269": 3, "SB 268": 4, "
 const FONDS_CLASS = { "Eb": "Eb", "Ed": "Ed", "SB 267": "SB", "SB 268": "SB268", "SB 269": "SB269" };
 const DIGITIZED_FONDS = new Set(["Eb", "Ed", "SB 267"]);
 const NEAR_YEARS = 2;
+const PROMISE_MONTHS = 6;
+const PROTECTION_YEARS = { naissance: 110, mariage: 80, deces: 50 };
+const LAST_OUT_OF_DISTRICT_YEAR = 1928;
 
 const state = { placeIds: [], placeSince: new Map(), placeLabel: "", kind: "naissance", query: null };
 
@@ -278,7 +281,7 @@ function buildSuggestionIndex() {
   for (const place of DATA.places) {
     add(place.name, place.id, "");
     place.aliases.forEach(alias => add(alias, place.id, ""));
-    place.localities.forEach(locality => add(locality.name, place.id, locality.qualifier || "localité rattachée", locality.since));
+    place.localities.forEach(locality => [locality.name, ...(locality.aliases ?? [])].forEach(name => add(name, place.id, locality.qualifier || "localité rattachée", locality.since)));
   }
   return [...entries.values()];
 }
@@ -339,6 +342,12 @@ function parseQueryDate(text) {
 
 const yearOf = iso => +iso.slice(0, 4);
 const shiftYears = (iso, years) => `${String(yearOf(iso) + years).padStart(4, "0")}${iso.slice(4)}`;
+function shiftMonths(iso, months) {
+  const [y, m, d] = iso.split("-").map(Number);
+  const first = new Date(Date.UTC(y, m - 1 + months, 1));
+  const year = first.getUTCFullYear(), month = first.getUTCMonth() + 1;
+  return `${String(year).padStart(4, "0")}-${pad(month)}-${pad(Math.min(d, lastDayOf(year, month)))}`;
+}
 const overlaps = (segment, start, end) => segment.start && segment.end && segment.start <= end && segment.end >= start;
 
 function kindMatches(segment, kindId) {
@@ -355,6 +364,10 @@ function sortSegments(segments) {
   });
 }
 
+const isMissing = segment => Boolean(unitsBySlug.get(segment.unit).missing);
+const isPromiseOnly = segment => segment.kinds.includes("annonce") && !segment.kinds.includes("mariage");
+const searchStart = (segment, kind, query) => kind === "mariage" && isPromiseOnly(segment) ? shiftMonths(query.start, -PROMISE_MONTHS) : query.start;
+
 const entryPlaceIds = entry => [...entry.targets.keys()].sort((a, b) => (placesById.get(a).kind === "paroisse" ? 0 : 1) - (placesById.get(b).kind === "paroisse" ? 0 : 1));
 
 function findRegisters(placeIds, placeSince, kind, query) {
@@ -362,14 +375,17 @@ function findRegisters(placeIds, placeSince, kind, query) {
     .filter(id => !query || !placeSince.get(id) || query.year >= placeSince.get(id))
     .flatMap(id => segmentsByPlace.get(id) ?? [])
     .filter(segment => kindMatches(segment, kind));
-  const inQuery = query ? segments.filter(s => overlaps(s, query.start, query.end)) : [...segments];
+  const inQuery = query ? segments.filter(s => overlaps(s, searchStart(s, kind, query), query.end)) : [...segments];
   const found = sortSegments(inQuery);
   const foundUnits = new Set(found.map(s => s.unit));
-  const near = query ? sortSegments(segments.filter(s => !isJustificative(s) && !foundUnits.has(s.unit) && overlaps(s, shiftYears(query.start, -NEAR_YEARS), shiftYears(query.end, NEAR_YEARS)))) : [];
+  const near = query ? sortSegments(segments.filter(s => !isJustificative(s) && !isMissing(s) && !foundUnits.has(s.unit) && overlaps(s, shiftYears(query.start, -NEAR_YEARS), shiftYears(query.end, NEAR_YEARS)))) : [];
+  const registers = found.filter(s => !isJustificative(s) && !isMissing(s));
   return {
-    segments,
-    registers: found.filter(s => !isJustificative(s)),
+    segments: segments.filter(s => !isMissing(s)),
+    registers,
     justificatives: found.filter(isJustificative),
+    missing: found.filter(isMissing),
+    promisesBefore: query ? registers.filter(s => !overlaps(s, query.start, query.end)) : [],
     near,
   };
 }
@@ -457,12 +473,22 @@ function renderPdfParts(unit) {
   return `<ul class="pdf-parts">${parts}</ul>${jump}`;
 }
 
+function fullyConsultableYear(unit, segments) {
+  if (unit.fonds !== "SB 267" || !unit.end) return null;
+  const limits = segments.flatMap(segment => segment.kinds).map(kind => PROTECTION_YEARS[kind]).filter(Boolean);
+  if (!limits.length) return null;
+  const year = yearOf(unit.end) + Math.max(...limits);
+  return year > new Date().getUTCFullYear() ? { year, limit: Math.max(...limits) } : null;
+}
+
 function renderResult({ unit, segments }) {
+  const consultable = fullyConsultableYear(unit, segments);
   const rows = [
     unit.aids ? ["Répertoire", tidyAids(unit.aids).map(escapeHtml).join("<br>")] : null,
     unit.pdfParts ? ["Dans le PDF", renderPdfParts(unit)] : null,
     unit.extent ? ["Volume", escapeHtml(unit.extent.split("\n")[0])] : null,
     unit.note ? ["Remarque", escapeHtml(unit.note).replace(/\n/g, "<br>")] : null,
+    consultable ? ["Délai de protection", `Librement consultable en entier dès ${consultable.year}, ${consultable.limit} ans après ses derniers actes.`] : null,
   ].filter(Boolean);
   const pdf = unit.pdf
     ? `<a href="${DATA.pdfBase}${escapeHtml(unit.pdf)}" target="_blank" rel="noopener">Ouvrir le PDF${unit.pdfSize ? ` (${escapeHtml(unit.pdfSize.replace("MiB", "Mo"))})` : ""}</a>`
@@ -529,7 +555,7 @@ function renderTimeline(segments, query) {
   </section>`;
 }
 
-function contextNotes(placeIds, kind, query) {
+function contextNotes(placeIds, kind, query, found = null) {
   const notes = [];
   const places = placeIds.map(id => placesById.get(id));
   const pending = places.flatMap(place => place.series.filter(series => !series.scraped));
@@ -538,15 +564,30 @@ function contextNotes(placeIds, kind, query) {
     if (query.year >= 1876 && !places.some(place => place.kind === "arrondissement")) notes.push("Dès 1876, les actes sont dans les registres de l'arrondissement d'état civil (SB 267). Cherchez le nom de l'arrondissement dont dépendait la commune.");
     if (query.year < 1876 && !places.some(place => place.kind === "paroisse")) notes.push("Avant 1876, les actes sont dans les registres de la paroisse (Eb, Ed). Cherchez le nom de la paroisse.");
     const now = new Date().getUTCFullYear();
-    const limits = { naissance: 110, mariage: 80, deces: 50 };
-    if (limits[kind] && query.year > now - limits[kind]) notes.push(`Les actes de ${KIND_NAMES[kind]} de moins de ${limits[kind]} ans ne sont pas librement consultables (délai de protection).`);
+    if (PROTECTION_YEARS[kind] && query.year > now - PROTECTION_YEARS[kind]) {
+      const protectedPieces = (found?.justificatives ?? []).some(segment => unitsBySlug.get(segment.unit).fonds === "SB 324");
+      notes.push(`Les actes de ${KIND_NAMES[kind]} de moins de ${PROTECTION_YEARS[kind]} ans ne sont pas librement consultables (délai de protection).${protectedPieces ? " Les pièces justificatives SB 324 suivent les mêmes délais ; avant, elles ne se consultent qu'avec l'autorisation de l'état civil cantonal." : ""}`);
+    }
+    if (query.year > LAST_OUT_OF_DISTRICT_YEAR && ["naissance", "mariage", "deces", "tous"].includes(kind)) {
+      notes.push(`Le fonds SB 269 (événements survenus hors de l'arrondissement, inscrits pour les bourgeois de ses communes) s'arrête en ${LAST_OUT_OF_DISTRICT_YEAR} dans la plupart des arrondissements : pour un événement plus récent survenu ailleurs, cherchez le lieu de l'événement. Dès ${LAST_OUT_OF_DISTRICT_YEAR + 1}, ces événements seraient reportés au registre des familles de la commune d'origine (à confirmer) ; l'index ne couvre pas les registres des familles.`);
+    }
+    const promises = [...new Set((found?.promisesBefore ?? []).map(segment => unitsBySlug.get(segment.unit).cote))];
+    if (promises.length) notes.push(`La publication des promesses précède le mariage : la recherche inclut aussi les registres de promesses des ${PROMISE_MONTHS} mois précédents (${promises.join(", ")}).`);
   }
   return { pending, notes };
 }
 
-function contextNotices(query) {
-  const { pending, notes } = contextNotes(state.placeIds, state.kind, query);
+const gapCote = unit => unit.cote.replace(/\s*FANTOME$/, "");
+
+function renderMissing(segments) {
+  const units = groupByUnit(segments).map(({ unit, segments: unitSegments }) => `<a href="${escapeHtml(unit.url)}" target="_blank" rel="noopener">${escapeHtml(gapCote(unit))}</a> (${escapeHtml(unitSegments[0].kinds.includes("annonce") ? "promesses de mariage" : unit.title)}, lacune du ${escapeHtml(formatDate(unit.start))} au ${escapeHtml(formatDate(unit.end))})`);
+  return `${units.length > 1 ? "Registres non versés aux ACV" : "Registre non versé aux ACV"} : ${units.join(", ")}. L'inventaire signale cette lacune : ${units.length > 1 ? "ces registres ne sont pas" : "ce registre n'est pas"} aux Archives cantonales.`;
+}
+
+function contextNotices(query, found) {
+  const { pending, notes } = contextNotes(state.placeIds, state.kind, query, found);
   const paragraphs = notes.map(escapeHtml);
+  if (found.missing.length) paragraphs.unshift(renderMissing(found.missing));
   if (pending.length) {
     paragraphs.unshift(`Pas encore indexé : ${pending.map(series => `<a href="${escapeHtml(series.url)}" target="_blank" rel="noopener">${escapeHtml(series.cote)}</a> (${escapeHtml(series.dates)})`).join(", ")}. Ces registres existent mais leur contenu n'est pas encore dans l'index.`);
   }
@@ -561,7 +602,8 @@ function render() {
     return;
   }
   const query = state.query && !state.query.error ? state.query : null;
-  const { segments, registers, justificatives, near } = findRegisters(state.placeIds, state.placeSince, state.kind, query);
+  const found = findRegisters(state.placeIds, state.placeSince, state.kind, query);
+  const { segments, registers, justificatives, near } = found;
   const kindLabel = KINDS.find(k => k.id === state.kind).label.toLowerCase();
   const justificativeGroup = list => list.length
     ? `<h3 class="group">Pièces justificatives</h3><p class="group-note">Dossiers non numérisés qui accompagnent les actes (publications, certificats, consentements). À consulter ou commander aux ACV avec la cote.</p>${renderResults(list)}`
@@ -572,13 +614,13 @@ function render() {
     const headline = count
       ? `${count === 1 ? "Un registre couvre" : `${count} registres couvrent`} <em>${escapeHtml(kindLabel)}</em> ${escapeHtml(query.label)} pour <em>${escapeHtml(state.placeLabel)}</em>.`
       : `Aucun registre indexé ne couvre <em>${escapeHtml(kindLabel)}</em> ${escapeHtml(query.label)} pour <em>${escapeHtml(state.placeLabel)}</em>.`;
-    body = `<p class="summary">${headline}</p>${contextNotices(query)}
+    body = `<p class="summary">${headline}</p>${contextNotices(query, found)}
       ${count ? renderResults(registers) : ""}
       ${justificativeGroup(justificatives)}
       ${near.length ? `<h3 class="group">Registres voisins (± ${NEAR_YEARS} ans)</h3>${renderResults(near)}` : ""}
       ${renderTimeline(sortSegments(segments.filter(s => !isJustificative(s))), query)}`;
   } else {
-    body = `<p class="summary">${count} registres pour <em>${escapeHtml(kindLabel)}</em> à <em>${escapeHtml(state.placeLabel)}</em>. Ajoutez une date pour cibler.</p>${contextNotices(null)}
+    body = `<p class="summary">${count} registres pour <em>${escapeHtml(kindLabel)}</em> à <em>${escapeHtml(state.placeLabel)}</em>. Ajoutez une date pour cibler.</p>${contextNotices(null, found)}
       ${renderTimeline(registers, null)}
       ${renderResults(registers)}
       ${justificativeGroup(justificatives)}`;
@@ -593,7 +635,7 @@ function renderPlaceCard() {
   card.innerHTML = state.placeIds.map(id => {
     const place = placesById.get(id);
     const localities = place.localities.length
-      ? `<div class="localities">${place.localities.length} localités rattachées (survolez un nom pour le détail) : ${place.localities.map(l => `<strong title="${escapeHtml(l.qualifier)}">${escapeHtml(l.name)}</strong>`).join(", ")}</div>` : "";
+      ? `<div class="localities">${place.localities.length} localités rattachées (survolez un nom pour le détail) : ${place.localities.map(l => `<strong title="${escapeHtml([l.qualifier, l.aliases?.length ? `aussi écrit « ${l.aliases.join(" », « ")} »` : ""].filter(Boolean).join(" · "))}">${escapeHtml(l.name)}</strong>`).join(", ")}</div>` : "";
     const note = place.series.find(s => s.note)?.note;
     const more = localities || note
       ? `<details class="note" ${matchMedia("(min-width: 821px)").matches ? "open" : ""}><summary>Localités et note de l'inventaire</summary>${localities}${note ? `<p>${escapeHtml(note)}</p>` : ""}</details>`

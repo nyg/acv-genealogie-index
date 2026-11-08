@@ -10,13 +10,14 @@ from pathlib import Path
 
 from inventory_corrections import CORRECTIONS as INVENTORY_CORRECTIONS
 from inventory_corrections import unused_corrections
+from freshness import stale_reason
 
 ROOT = Path(__file__).resolve().parent.parent
 DATABASE = ROOT / "data" / "acv.sqlite"
 DAVEL_INDEX = ROOT / "data" / "raw" / "davel" / "_index.json"
 PARISH_TABLE = ROOT / "data" / "raw" / "vd-ch" / "communes-paroisses.json"
 CORRECTIONS = ROOT / "data" / "manual" / "communes-paroisses-corrections.json"
-DAVEL_PARENTS = {"SB 268": ["623416"], "SB 269": ["623415"], "Ec": ["10010"], "SB 23": ["557958", "589164"], "SB 115": ["613621", "615711", "626074"]}
+DAVEL_PARENTS = {"SB 268": ["623416"], "SB 269": ["623415"], "Ec": ["10010"], "SB 23": ["557958", "589164"], "SB 115": ["613621", "615711", "626074"], "SB 324": ["1346604"]}
 
 
 def section(title, rows, limit, describe):
@@ -81,6 +82,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--limit", type=int, default=10)
     args = parser.parse_args()
+    if reason := stale_reason():
+        print(f"Attention : {reason}\n")
     with sqlite3.connect(DATABASE) as connection:
         coverage(connection)
         quality(connection, args.limit)

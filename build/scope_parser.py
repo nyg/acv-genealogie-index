@@ -100,8 +100,11 @@ def _clean_label(raw_label):
     return re.sub(r"^(et|-)\s+", "", raw_label.strip())
 
 
+COPY_REFERENCE = re.compile(r"\s*\((?:microfilm|numérique)\s*:[^()]*\)", re.IGNORECASE)
+
+
 def _segments_in_line(line, section):
-    line = PAGES_BEFORE_DATES.sub(r"\g<label> \g<dates>, \g<pages>", line)
+    line = PAGES_BEFORE_DATES.sub(r"\g<label> \g<dates>, \g<pages>", COPY_REFERENCE.sub("", line))
     matches =[match for match in SEGMENT.finditer(line) if classify(_clean_label(match["label"]))]
     segments = []
     for index, match in enumerate(matches):

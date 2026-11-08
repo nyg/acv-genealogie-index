@@ -3,6 +3,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 python3 build/build.py
+python3 build/freshness.py
 uvx --quiet pytest -q tests
 node tests/site_smoke.mjs
 node tests/cli.mjs

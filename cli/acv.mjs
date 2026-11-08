@@ -57,6 +57,7 @@ function pageTargets(unit, page, kind) {
 }
 
 function describeUnit(unit, segments, kind, page) {
+  const consultable = site.fullyConsultableYear(unit, segments);
   return {
     cote: unit.cote,
     fonds: unit.fonds,
@@ -80,8 +81,13 @@ function describeUnit(unit, segments, kind, page) {
     pageRequested: page !== undefined,
     page: page !== undefined && unit.pdfParts ? pageTargets(unit, page, kind) : null,
     note: unit.note || null,
+    fullyConsultableFrom: consultable?.year ?? null,
   };
 }
+
+const describeMissing = segments => site.groupByUnit(segments).map(({ unit }) => ({
+  cote: site.gapCote(unit), start: unit.start, end: unit.end, title: unit.title, scope: unit.scope || null, url: unit.url,
+}));
 
 const describeGroups = (segments, kind, page) => site.groupByUnit(segments).map(({ unit, segments: unitSegments }) => describeUnit(unit, unitSegments, kind, page));
 
@@ -90,8 +96,9 @@ function search(placeText, kindText, dateText, page) {
   const kind = resolveKind(kindText);
   const query = resolveDate(dateText);
   const placeIds = site.entryPlaceIds(entry);
-  const { registers, justificatives, near } = site.findRegisters(placeIds, entry.since, kind, query);
-  const { pending, notes } = site.contextNotes(placeIds, kind, query);
+  const found = site.findRegisters(placeIds, entry.since, kind, query);
+  const { registers, justificatives, near } = found;
+  const { pending, notes } = site.contextNotes(placeIds, kind, query, found);
   return {
     place: {
       name: entry.name,
@@ -103,6 +110,7 @@ function search(placeText, kindText, dateText, page) {
     justificatives: describeGroups(justificatives, kind, page),
     near: describeGroups(near, kind, page),
     nearYears: site.NEAR_YEARS,
+    missing: describeMissing(found.missing),
     pending: pending.map(series => ({ cote: series.cote, dates: series.dates, url: series.url })),
     notes,
   };
@@ -134,6 +142,7 @@ function formatUnit(unit) {
   if (unit.page) lines.push(unit.page.length ? unit.page.map(target => `  Page demandée : ${pdfLine(target)}`).join("\n") : "  Page demandée : pas dans les pages connues.");
   if (unit.page === null && unit.pageRequested) lines.push(`  Page demandée : ${unit.pdf ? "les pages de ce registre ne sont pas encore reliées au PDF." : "pas de PDF en ligne."}`);
   if (unit.note) lines.push(`  Remarque : ${unit.note.replace(/\n/g, " ")}`);
+  if (unit.fullyConsultableFrom) lines.push(`  Délai de protection : librement consultable en entier dès ${unit.fullyConsultableFrom}.`);
   lines.push(unit.pdf ? `  PDF${unit.pdfSize ? ` (${unit.pdfSize})` : ""} : ${unit.pdf}` : `  ${unit.availability}`);
   lines.push(`  Fiche : ${unit.url}`);
   return lines.join("\n");
@@ -147,6 +156,7 @@ function formatSearch(result) {
     ? `${count ? `${count === 1 ? "Un registre couvre" : `${count} registres couvrent`}` : "Aucun registre indexé ne couvre"} ${kind} ${result.date.label} pour ${result.place.name}.`
     : `${count} registres pour ${kind} à ${result.place.name}.`;
   const blocks = [head + (where.length ? `\nRattaché à : ${where.join(" ; ")}` : "")];
+  if (result.missing.length) blocks.push(`Non versé aux ACV (lacune de l'inventaire) : ${result.missing.map(gap => `${gap.cote} (${site.formatDate(gap.start)} – ${site.formatDate(gap.end)}) ${gap.url}`).join(", ")}.`);
   if (result.pending.length) blocks.push(`Pas encore indexé : ${result.pending.map(series => `${series.cote} (${series.dates})`).join(", ")}.`);
   result.notes.forEach(note => blocks.push(note));
   result.registers.forEach(unit => blocks.push(formatUnit(unit)));
