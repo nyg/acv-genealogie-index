@@ -1,0 +1,170 @@
+[
+ {
+  "slug": "eb-97-1-8",
+  "parent": null,
+  "children": [
+   "eb-97-1",
+   "eb-97-2",
+   "eb-97-3",
+   "eb-97-4",
+   "eb-97-5",
+   "eb-97-6",
+   "eb-97-7",
+   "eb-97-8"
+  ],
+  "f": {
+   "Cote": "Eb 97/1-8",
+   "Titre": "Registres de la paroisse réformée d'Oron.",
+   "Date(s)": "1618-01-04 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse d'Oron :\nParoisse médiévale de Châtillens dont le centre a été déplacé après la Réformation à Oron-la-Ville (Châtillens reste paroissial au XVIIIe s. bien que les pasteurs résident à Oron).\nRegistres dès 1618.\nComprend : Châtillens, Oron-la-Ville, Bussigny-sur-Oron, Chesalles-sur-Oron, Essertes, Oron-le-Châtel, Les Tavernes, Les Thioleyres, Vuibroye ; La Rogivue (avec Maracon).\nAnnexe : Maracon (1765-1833), mais registres 1770-1838 sous Palézieux."
+  }
+ },
+ {
+  "slug": "eb-97-1",
+  "parent": "eb-97-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 97/1",
+   "Titre": "Paroisse réformée d'Oron",
+   "Date(s)": "1618-01-04 - 1691-03-13 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 15 x 36 x 2,5",
+   "Portée et contenu": "Baptêmes (1618 janvier 4 - 1691 mars 13, lacunes pour la période de 1642 à 1650), pp. 2-156;\n*- Copie de documents officiels, p.1;\nTête-bêche: collectes (notamment pour l'incendie de Vevey de 1688), mention de la révocation de l'Edit de Nantes, pp.tête-bêche 1-3 et 5-6;\n*- 2 Mariages (1681 janvier 14 - 1681 janvier 21), p.tête-bêche 4.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.748",
+   "Nom du fichier": "CH-ACV_RN-EB-97-1.pdf",
+   "Taille du fichier": "136.7 MiB"
+  },
+  "pdf": "7/1/c/71c2264e53f313a80b133ed904c96daf9e51611463338e4651c85b725316d49d/CH-ACV_RN-EB-97-1.pdf"
+ },
+ {
+  "slug": "eb-97-2",
+  "parent": "eb-97-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 97/2",
+   "Titre": "Paroisse réformée d'Oron",
+   "Date(s)": "1691-03-18 - 1763-12-11 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 16,7 x 23,6",
+   "Portée et contenu": "Baptêmes (1691 mars 18 - 1763 décembre 11), pp. 0-332;\n*- Interfolio entre pp. 267-268;\nMariages (1705 novembre 4 - 1763 novembre 18), pp.tête-bêche 0-33.\nAu début des baptêmes, notes sur la paix entre la France et la Savoie (1696), collecte pour Corcelles-près-Payerne, et copie de divers actes de LL.EE.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.748",
+   "Nom du fichier": "CH-ACV_RN-EB-97-2.pdf",
+   "Taille du fichier": "250.4 MiB"
+  },
+  "pdf": "4/8/f/48f3ee903edfce5a3d2f581c8b53500ae6c733b8b980cf770a574fcc21c74df2/CH-ACV_RN-EB-97-2.pdf"
+ },
+ {
+  "slug": "eb-97-3",
+  "parent": "eb-97-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 97/3",
+   "Titre": "Paroisse réformée d'Oron",
+   "Date(s)": "1764-01-27 - 1797-02-19 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 19 x 23,4",
+   "Portée et contenu": "Baptêmes (1764 février 10 - 1797 février 19), pp. 0-222;\n*- Interfolios entre pp. 18-19 et 76-77;\nMariages (1764 janvier 27 - 1796 juin 21), pp.tête-bêche 1-40.\nAu début des baptêmes, note sur la palissade entre les jardins du régent et de la cure.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.748",
+   "Nom du fichier": "CH-ACV_RN-EB-97-3.pdf",
+   "Taille du fichier": "204.6 MiB"
+  },
+  "pdf": "9/d/7/9d75081a1e3824219e4af5132dbc1fd82f3ebedddf8264a18d284a39ac244f8b/CH-ACV_RN-EB-97-3.pdf"
+ },
+ {
+  "slug": "eb-97-4",
+  "parent": "eb-97-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 97/4",
+   "Titre": "Paroisse réformée d'Oron",
+   "Date(s)": "1784-03-21 - 1815-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 11,9 x 16,2",
+   "Portée et contenu": "Annonces de mariages (1784 mars 21 - 1815 décembre 31), pp. 0-225;\n*- Interfolio entre pp. 114-115.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.748",
+   "Nom du fichier": "CH-ACV_RN-EB-97-4.pdf",
+   "Taille du fichier": "79.6 MiB"
+  },
+  "pdf": "5/7/6/576c15011a1d7ab7594212c847d3679687bec44eae6700a17200e5d302a64f13/CH-ACV_RN-EB-97-4.pdf"
+ },
+ {
+  "slug": "eb-97-5",
+  "parent": "eb-97-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 97/5",
+   "Titre": "Paroisse réformée d'Oron",
+   "Date(s)": "1797-03-05 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 21,8 x 36,1 x 3",
+   "Portée et contenu": "Baptêmes (1797 mars 5 - 1821 juin 30), pp. 0-231;\nMariages (1797 mars 10 - 1821 juin 30), pp.tête-bêche 1-50;\n*- Interfolio p.tête-bêche 1: Copie de circulaire, du 20 octobre 1809, au \"Révérend pasteur de l'église d'Oron\" de la part du Doyen de la Classe de Lausanne et Vevey .",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "La page 154 est détachée.",
+   "Cote de gestion": "RMS 1/128.749",
+   "Nom du fichier": "CH-ACV_RN-EB-97-5.pdf",
+   "Taille du fichier": "284.2 MiB"
+  },
+  "pdf": "9/2/4/9248dcff55abbb1762f441d751e3fc9e902b5731b1db31796e9688728b2e3851/CH-ACV_RN-EB-97-5.pdf"
+ },
+ {
+  "slug": "eb-97-6",
+  "parent": "eb-97-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 97/6",
+   "Titre": "Paroisse réformée d'Oron",
+   "Date(s)": "1728-01-01 - 1814-12-27 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17,2 x 43",
+   "Portée et contenu": "Catéchumènes (1729 - 1813), pp. 0-48;\nDécès (1728 janvier - 1814 décembre 27), pp.tête-bêche 99-142 et 1-86.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.749",
+   "Nom du fichier": "CH-ACV_RN-EB-97-6.pdf",
+   "Taille du fichier": "188.7 MiB"
+  },
+  "pdf": "8/8/b/88bfc0555b160afcd9cd6fd04f72651f43c794935c7152f9a304c031daa71323/CH-ACV_RN-EB-97-6.pdf"
+ },
+ {
+  "slug": "eb-97-7",
+  "parent": "eb-97-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 97/7",
+   "Titre": "Paroisse réformée d'Oron",
+   "Date(s)": "1814-01-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 22,2 x 34,7",
+   "Portée et contenu": "Décès (1815 janvier 8 - 1821 juin 30), pp. 0-45;\nCatéchumènes (1814 - 1875), pp.tête-bêche 0-149.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série de pages blanches, de la page 45 à la partie des catéchumènes.",
+   "Cote de gestion": "RMS 1/128.749",
+   "Nom du fichier": "CH-ACV_RN-EB-97-7.pdf",
+   "Taille du fichier": "193.5 MiB"
+  },
+  "pdf": "b/e/c/bec64265442d5cf7b3208d43e9023a2a31523d027a4dd8f4c4ea103d0b1b4cfe/CH-ACV_RN-EB-97-7.pdf"
+ },
+ {
+  "slug": "eb-97-8",
+  "parent": "eb-97-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 97/8",
+   "Titre": "Paroisse réformée d'Oron",
+   "Date(s)": "1816-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 18,7 x 22,6",
+   "Portée et contenu": "Annonces de mariages (1816 janvier - 1821 juin 30), pp. 0-78.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série de pages blanches, de la page 79 à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.749",
+   "Nom du fichier": "CH-ACV_RN-EB-97-8.pdf",
+   "Taille du fichier": "44.2 MiB"
+  },
+  "pdf": "1/9/7/19791330aaa3fc447ed6e1b9a67c3e7e623262f8f8aa84f0e390208a1b10ed79/CH-ACV_RN-EB-97-8.pdf"
+ }
+]
