@@ -198,6 +198,24 @@ const cases = [
   ["Noville", "naissance", "1700", "Eb 90/2"],
   ["Chessel", "naissance", "1800", "Eb 90/5"],
   ["Yvorne", "mariage", "1850", "Ed 143/2"],
+  ["Vevey", "naissance", "08.05.1807", "Eb 132/7"],
+  ["Vevey", "mariage", "27.07.1804", "Eb 132/8"],
+  ["Vevey", "mariage", "27.07.1804", "Eb 132/12"],
+  ["Vevey", "naissance", "1750", "Eb 132/14"],
+  ["Vevey", "deces", "1750", "Eb 132/9"],
+  ["Vevey", "naissance", "1850", "Ed 132/4"],
+  ["Vevey", "mariage", "1850", "Ed 132/10"],
+  ["Vevey", "deces", "1850", "Ed 132/17"],
+  ["Vevey", "naissance", "1850", "Ec 132/19"],
+  ["Vevey", "naissance", "1900", "SB 267/101/1/8"],
+  ["Vevey", "mariage", "1900", "SB 268/101/7"],
+  ["Vevey", "deces", "1900", "SB 267/101/3/6"],
+  ["Vevey", "naissance", "1900", "SB 269/101/1/2"],
+  ["Vevey", "mariage", "1890", "SB 23/1050"],
+  ["Vevey", "mariage", "1907", "SB 23/2319"],
+  ["Vevey", "mariage", "1910", "SB 115/513"],
+  ["Vevey", "mariage", "1940", "SB 115/1038"],
+  ["Vevey", "mariage", "1953", "SB 115/1231"],
 ];
 let failures = 0;
 for (const [place, kind, date, expected] of cases) {
@@ -302,6 +320,11 @@ console.log(`${annexBounded ? "ok  " : "FAIL"} Arzier / deces → Ed 58/4 de Gen
 const sarrazCorrected = !search("La Sarraz", "naissance", "1865").cotes.includes("Ed 70/2") && !search("La Sarraz", "naissance", "1877").cotes.includes("SB 23/165");
 failures += sarrazCorrected ? 0 : 1;
 console.log(`${sarrazCorrected ? "ok  " : "FAIL"} La Sarraz / naissance → ni Ed 70/2 en 1865 (jusqu'en 1860), ni SB 23/165 en 1877 (1882-1883)`);
+
+const veveyMarriages1879 = search("Vevey", "mariage", "1879").cotes;
+const veveyCorrected = !search("Vevey", "naissance", "1704").cotes.includes("Eb 132/7") && !veveyMarriages1879.includes("SB 23/1057") && !veveyMarriages1879.includes("SB 115/513");
+failures += veveyCorrected ? 0 : 1;
+console.log(`${veveyCorrected ? "ok  " : "FAIL"} Vevey → ni Eb 132/7 en 1704 (hors Vevey dès 1764), ni SB 23/1057 et SB 115/513 en 1879 (1894 et 1910)`);
 
 const bullet1739 = search("Bullet", "naissance", "1739");
 const bulletOwnParish = !bullet1739.cotes.includes("Eb 121/2") && bullet1739.answers.includes("Registres dès 1744") && !search("Bullet", "mariage", "1763").cotes.includes("Eb 121/6");
