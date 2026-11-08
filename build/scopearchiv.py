@@ -65,6 +65,8 @@ def _dates(fields):
 
 
 LISTED_CONTENT = re.compile(r"^[-–]?\s*(?P<label>[^\d()]+?)\s+(?P<dates>\d{4}[^()]*?)\.?$")
+DESCRIBED_CONTENT = re.compile(r"^[-–]?\s*(?P<label>[^\d():]+?)\s*(?P<dates>\d{4}[^():]*?)?\s*:\s*[-–]?\s*(?P<content>[^:]+?)\.?$")
+YEAR_SPANS = re.compile(r"\s*\b\d{4}(?:\s*-\s*\d{4})?\b")
 REMARK = re.compile(r"\s*\(([^()]*)\)")
 ACT_NUMBERS = re.compile(r"\bNos?\.?\s*\d+(?:\s*-\s*\d+)?")
 ARRONDISSEMENT_PREFIX = re.compile(r"^[^:()]*\(arrondissement[^()]*\)\s*:\s*")
@@ -76,16 +78,29 @@ def _segment_row(unit, kinds, label, start, end, dates):
             "dates": dates, "pages": "", "tb": False, "foreign": False, "section": ""}
 
 
+def _described_line(line):
+    described = DESCRIBED_CONTENT.match(line)
+    if not described:
+        return None
+    content = YEAR_SPANS.sub("", described["content"]).strip(" ,")
+    dates = (described["dates"] or ", ".join(span.strip() for span in YEAR_SPANS.findall(described["content"]))).strip(" ,")
+    years = re.findall(r"\b\d{4}\b", dates)
+    if not years or not content:
+        return None
+    return f"{described['label']} ({content})", classify(content) or ["divers"], dates, years
+
+
 def _listed_line(line):
     line = ARRONDISSEMENT_PREFIX.sub("", line)
-    listed = LISTED_CONTENT.match(REMARK.sub("", line).strip())
+    unremarked = REMARK.sub("", line).strip()
+    listed = LISTED_CONTENT.match(unremarked)
     if not listed or not classify(listed["label"]):
-        return None
+        return _described_line(unremarked)
     years = re.findall(r"\b\d{4}\b", ACT_NUMBERS.sub("", listed["dates"]))
     if not years:
         return None
     missing = "".join(f" ({remark})" for remark in REMARK.findall(line) if "manque" in remark)
-    return listed["label"], missing, listed["dates"], years
+    return f"{listed['label']}{missing}", classify(listed["label"]), listed["dates"], years
 
 
 def justificative_segments(unit):
@@ -93,8 +108,8 @@ def justificative_segments(unit):
     for line in LISTED_LINE_BREAK.split(f"{unit['title']}\n{unit['scope']}"):
         listed = _listed_line(line.strip())
         if listed:
-            label, missing, dates, years = listed
-            segments.append(_segment_row(unit, ["pj", *classify(label)], f"Pièces justificatives : {label}{missing}",
+            label, kinds, dates, years = listed
+            segments.append(_segment_row(unit, ["pj", *kinds], f"Pièces justificatives : {label}",
                                          f"{min(years)}-01-01", f"{max(years)}-12-31", dates))
     return segments or [_segment_row(unit, ["pj", *classify(unit["title"])], f"Pièces justificatives : {unit['title']}", unit["start"], unit["end"], unit["dates"])]
 
