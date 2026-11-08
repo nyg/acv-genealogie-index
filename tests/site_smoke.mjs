@@ -166,6 +166,18 @@ const cases = [
   ["Belmont-sur-Lausanne", "naissance", "1825", "Eb 13/3"],
   ["Belmont-sur-Lausanne", "mariage", "1850", "Ed 13/2"],
   ["Belmont-sur-Lausanne", "mariage", "1830", "Ec 13/2"],
+  ["La Tour-de-Peilz", "naissance", "1750", "Eb 129/2"],
+  ["La Tour-de-Peilz", "deces", "1750", "Eb 129/5"],
+  ["La Tour-de-Peilz", "deces", "1815", "Eb 129/6"],
+  ["La Tour-de-Peilz", "mariage", "1850", "Ed 129/4"],
+  ["La Tour-de-Peilz", "naissance", "1840", "Ec 129/10"],
+  ["La Tour-de-Peilz", "mariage", "1890", "SB 268/51/1"],
+  ["La Tour-de-Peilz", "deces", "1900", "SB 269/51/3/1"],
+  ["La Tour-de-Peilz", "naissance", "1895", "SB 23/2416"],
+  ["La Tour-de-Peilz", "mariage", "1920", "SB 115/576"],
+  ["La Tour-de-Peilz", "mariage", "1952", "SB 115/1240"],
+  ["La Tour-de-Peilz", "deces", "24.01.1955", "SB 267/51/3/6"],
+  ["La Tour-de-Peilz", "deces", "1964", "SB 324/1/79"],
 ];
 let failures = 0;
 for (const [place, kind, date, expected] of cases) {

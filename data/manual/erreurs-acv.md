@@ -89,6 +89,7 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [SB 23/2065](https://davel.vd.ch/detail.aspx?ID=613021) | Oron-la-Ville | Dates et dates de création | 1896 | 1898 | Titre : Mariages A et B 1898 ; SB 23/2061 couvre les mariages 1896, SB 23/2063 ceux de 1897 et SB 23/2067 ceux de 1899. | |
 | [Ed 112/2](https://davel-vd.ch/ed-112-2) | Pully | Titre, date(s) et portée et contenu | Registre de naissances 1840-1866 ; 1840-01-14 - 1866-12-26 ; Naissances et baptêmes (1840 janvier 14 - 1866 décembre 26) | Registre de naissances 1840-1868 ; 1840-01-14 - 1868-12-26 ; Naissances et baptêmes (1840 janvier 14 - 1868 décembre 26) | Le dernier acte, PDF 415 (p. 393, en-tête « 1868 »), date du vingt-six décembre soixante-huit, et le registre est clos le 31 décembre 1868 ; Ed 112/3 commence le 18 janvier 1869. | |
 | [Eb 112/6](https://davel-vd.ch/eb-112-6) | Pully | Portée et contenu | Mariages (1782 septembre 3 - 1814 septembre 27) | Mariages (1782 septembre 3 - 1814 décembre 27) | Le dernier mariage, PDF 120 (p. 113), est béni « le 27e Xbre 1814 », suivi de « Fin des inscriptions de mariage dans le présent régistre » ; la p. 112 a encore des mariages des 23 septembre et 18 novembre 1814. | |
+| [SB 23/2416](https://davel.vd.ch/detail.aspx?ID=613772) | La Tour-de-Peilz | Dates | 1896 | 1895-1896 | Titre et dates de création : 1895-1896 ; SB 23/1111 s'arrête en 1893-1894 et la série SB 23/2416-2427 commence en 1895. | |
 
 ## À vérifier sur le PDF
 
@@ -101,6 +102,7 @@ Les dates de la fiche ne couvrent pas celles du contenu, ou la pagination du PDF
 | [Ed 110/3](https://davel-vd.ch/ed-110-3) | Prilly | Date(s) | 1821-07-01 - 1832-12-28 | Portée et contenu : Mariages (1821 juillet 1 - 1832 décembre 31). | |
 | [Ed 110/9](https://davel-vd.ch/ed-110-9) | Prilly | Portée et contenu | Décès (1821 juillet 1er - 1875 décembre 12) | Date(s) : 1821-07-01 - 1875-12-31. | |
 | [SB 269/85/2/4](https://davel.vd.ch/detail.aspx?ID=1336289) | Romainmôtier | Dates | 1911 juin 16 - 1928 décembre 28 | [SB 269/85/2/3](https://davel.vd.ch/detail.aspx?ID=1336288) va jusqu'au 9 juin 1922, soit 1922 ici, soit 1911 là-bas. SB 269 n'a pas de PDF en ligne : seul le registre peut trancher. | |
+| [SB 267/51/5/2](https://davel-vd.ch/sb-267-51-5-2) | La Tour-de-Peilz | Portée et contenu | Registre ouvert le 27 décembre 1977. | Date(s) : 1930 - 1977. Les 17 autres registres SB 267 « ouverts le » le sont le 27 décembre 1928. Pas de PDF en ligne : seul le registre peut trancher. | |
 
 ## Entrées absentes de davel.vd.ch
 
@@ -118,3 +120,4 @@ Les dates de la fiche ne couvrent pas celles du contenu, ou la pagination du PDF
 |---|---|---|---|---|
 | [Eb 78/8](https://davel-vd.ch/eb-78-8), [Eb 78/9](https://davel-vd.ch/eb-78-9) et [Eb 78/10](https://davel-vd.ch/eb-78-10) | Lutry | Ces trois livres mortuaires de la commune de Lutry (1716-1753, 1754-1795, 1798-1828) pourraient-ils être numérisés ? | Seuls registres Eb sans PDF sur davel-vd.ch : leurs fiches ne citent que le microfilm RMS 22006.2, sans numéro RN-EB. Les registres communaux de Leysin et des Ormonts, sur le microfilm RM 22006.13, sont numérisés. | |
 | [SB 267/77/3/1/1](https://davel-vd.ch/sb-267-77-3-1-1) à [SB 267/77/3/1/8](https://davel-vd.ch/sb-267-77-3-1-8) | Oron | Ces huit registres des décès (1890-2004) sont rangés au même niveau que [SB 267/77/3/1](https://davel-vd.ch/sb-267-77-3-1) (1876-1890), directement sous SB 267/77/3, et non sous SB 267/77/3/1 : leurs cotes ne devraient-elles pas être SB 267/77/3/2 à 3/9 ? | Les registres des autres séries de SB 267/77 suivent la numérotation attendue (1/1 à 1/10, 2/1 à 2/14). Les noms des PDF (CH-ACV_SB-267-77-3-1-1.pdf…) reprennent ces cotes : l'index les garde telles quelles. | |
+| [SB 267/51/1/3](https://davel-vd.ch/sb-267-51-1-3) | La Tour-de-Peilz | Le PDF de ce registre des naissances 1899-1906 pourrait-il être remis en ligne en entier ? | La fiche annonce « 1 registre comprenant 200 pages utiles et 1 répertoire », mais CH-ACV_SB-267-51-1-3.pdf (295.8 Kio) n'a que 4 pages. Les registres voisins, SB 267/51/1/2 et SB 267/51/2/2, font 27.7 et 31.9 Mio. | |

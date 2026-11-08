@@ -1,0 +1,124 @@
+[
+ {
+  "slug": "sa-1335780",
+  "parent": null,
+  "text": "SB 269/51 La Tour-de-Peilz (arrondissement de l'état civil), 1876.01.01-1928.12.31 (Sous-fonds)",
+  "children": [
+   "sa-1335781",
+   "sa-1335782",
+   "sa-1335783"
+  ],
+  "f": {
+   "Ref. code": "SB 269/51",
+   "Title": "La Tour-de-Peilz (arrondissement de l'état civil)",
+   "Dates": "1876 janvier 01 - 1928 décembre 31",
+   "Creation date(s)": "1/1/1876 - 12/31/1928",
+   "Level": "Sous-fonds",
+   "Importance matérielle": "2 registres",
+   "Access regulations": "Seuls les actes de naissance de plus de 110 ans, les actes de mariage de plus de 80 ans et les actes de décès de plus de 50 ans sont consultables librement en salle de lecture des ACV.",
+   "Language": "Français",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement de Vevey dès le 1er juin 2004.",
+   "Entries": "état civil (Matières\\E)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335780",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335781",
+  "parent": "sa-1335780",
+  "text": "SB 269/51/1 FANTOME Registres des naissances, 1111.11.11 (Série)",
+  "f": {
+   "Ref. code": "SB 269/51/1 FANTOME",
+   "Title": "Registres des naissances",
+   "Dates": "-",
+   "Creation date(s)": "11/11/1111",
+   "Level": "Série",
+   "Importance matérielle": "-",
+   "Content": "Aucun registre des naissances n'est conservé ni attesté pour l'arrondissement de La Tour-de-Peilz.",
+   "Language": "Français",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335781",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335782",
+  "parent": "sa-1335780",
+  "text": "SB 269/51/2 FANTOME Registres des mariages, 1111.11.11 (Série)",
+  "f": {
+   "Ref. code": "SB 269/51/2 FANTOME",
+   "Title": "Registres des mariages",
+   "Dates": "-",
+   "Creation date(s)": "11/11/1111",
+   "Level": "Série",
+   "Importance matérielle": "-",
+   "Content": "Aucun registre des mariages n'est conservé ni attesté pour l'arrondissement de La Tour-de-Peilz.",
+   "Language": "Français",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335782",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335783",
+  "parent": "sa-1335780",
+  "text": "SB 269/51/3 Registres des décès, 1876.01.08-1928.12.22 (Série)",
+  "children": [
+   "sa-1335784",
+   "sa-1335785"
+  ],
+  "f": {
+   "Ref. code": "SB 269/51/3",
+   "Title": "Registres des décès",
+   "Dates": "1876 janvier 08 - 1928 décembre 22",
+   "Creation date(s)": "1/8/1876 - 12/22/1928",
+   "Level": "Série",
+   "Importance matérielle": "2 registres",
+   "Access regulations": "Seuls les actes de décès de plus de 50 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "Entries": "décès (Matières\\D)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335783",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335784",
+  "parent": "sa-1335783",
+  "text": "SB 269/51/3/1 Registre des décès, 1876.01.08-1914.12.31 (Pièce)",
+  "f": {
+   "Ref. code": "SB 269/51/3/1",
+   "Title": "Registre des décès",
+   "Dates": "1876 janvier 08 - 1914 décembre 31",
+   "Creation date(s)": "1/8/1876 - 12/31/1914",
+   "Level": "Pièce",
+   "Importance matérielle": "1 registre",
+   "Access regulations": "Seuls les actes de décès de plus de 50 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335784",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335785",
+  "parent": "sa-1335783",
+  "text": "SB 269/51/3/2 Registre des décès, 1915.01.13-1928.12.22 (Pièce)",
+  "f": {
+   "Ref. code": "SB 269/51/3/2",
+   "Title": "Registre des décès",
+   "Dates": "1915 janvier 13 - 1928 décembre 22",
+   "Creation date(s)": "1/13/1915 - 12/22/1928",
+   "Level": "Pièce",
+   "Importance matérielle": "1 registre",
+   "Access regulations": "Seuls les actes de décès de plus de 50 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335785",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

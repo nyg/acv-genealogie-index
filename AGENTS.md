@@ -11,6 +11,7 @@ Index of the Archives cantonales vaudoises (ACV) civil-status registers for the 
 - `docs/apercu.user.js` is built from `site/apercu.user.js` with `scraper/davel_pdf.js`, `site/pdfjs_reader.js` and `site/page_map.js` inlined. Bump its `@version` whenever one of them changes: Tampermonkey only updates installed copies to a higher version. Its table of contents comes from `docs/pdf-pages.json`, fetched at run time, so new page maps need no bump.
 - `cli/acv.mjs` runs the site's own script from `docs/index.html` (via `cli/site.mjs`): put lookup logic in `site/template.html` as functions that take their inputs, not in the CLI, so both always answer the same.
 - Run `build/build.py` without `python3 -I`: it imports its sibling modules.
+- Before indexing a place or changing how places link to parishes and arrondissements, read `data/manual/points-ouverts.md`: known index gaps, such as a link the ACV tables miss.
 
 ## Published site
 
