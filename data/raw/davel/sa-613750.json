@@ -1,0 +1,119 @@
+[
+ {
+  "slug": "sa-613750",
+  "parent": null,
+  "text": "SB 115/389-393 Begnins (arrondissement de l'état civil), 1910-1928 (Série)",
+  "children": [
+   "sa-615328",
+   "sa-615858",
+   "sa-615859",
+   "sa-615860",
+   "sa-615861"
+  ],
+  "f": {
+   "Ref. code": "SB 115/389-393",
+   "Title": "Begnins (arrondissement de l'état civil)",
+   "Dates": "1910-1928",
+   "Creation date(s)": "1910 - 1928",
+   "Level": "Série",
+   "Importance matérielle": "5 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement de Nyon dès le 1er juin 2004.\nComprend:\n- Begnins\n- Bassins\n- Coinsins\n- Genolier\n- Gland\n- Le Vaud\n- Vich.\nAdjonction de l'arrondissement de:\n- Arzier en 1936",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=613750",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-615328",
+  "parent": "sa-613750",
+  "text": "SB 115/389 - Mariages A et B 1910-1913 \\ - Naissances B 1910-1913 \\ - Décès B 1910-1913, 1910-1913 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/389",
+   "Title": "- Mariages A et B 1910-1913\n- Naissances B 1910-1913\n- Décès B 1910-1913",
+   "Dates": "1910-1913",
+   "Creation date(s)": "1910 - 1913",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=615328",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-615858",
+  "parent": "sa-613750",
+  "text": "SB 115/390 - Mariages A et B 1914-1917 \\ - Naissances B 1914-1917 \\ - Décès B 1914-1917, 1914-1917 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/390",
+   "Title": "- Mariages A et B 1914-1917\n- Naissances B 1914-1917\n- Décès B 1914-1917",
+   "Dates": "1914-1917",
+   "Creation date(s)": "1914 - 1917",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=615858",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-615859",
+  "parent": "sa-613750",
+  "text": "SB 115/391 - Mariages A et B 1918-1920 \\ - Naissances B 1918-1920 \\ - Décès B 1918-1920, 1918-1920 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/391",
+   "Title": "- Mariages A et B 1918-1920\n- Naissances B 1918-1920\n- Décès B 1918-1920",
+   "Dates": "1918-1920",
+   "Creation date(s)": "1918 - 1920",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=615859",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-615860",
+  "parent": "sa-613750",
+  "text": "SB 115/392 - Mariages A et B 1921-1924 \\ - Naissances B 1921-1924 \\ - Décès B 1921-1924, 1921-1924 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/392",
+   "Title": "- Mariages A et B 1921-1924\n- Naissances B 1921-1924\n- Décès B 1921-1924",
+   "Dates": "1921-1924",
+   "Creation date(s)": "1921 - 1924",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=615860",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-615861",
+  "parent": "sa-613750",
+  "text": "SB 115/393 - Mariages A et B 1925-1928 \\ - Naissances B 1925-1928 \\ - Décès B 1925-1928, 1925-1928 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/393",
+   "Title": "- Mariages A et B 1925-1928\n- Naissances B 1925-1928\n- Décès B 1925-1928",
+   "Dates": "1925-1928",
+   "Creation date(s)": "1925 - 1928",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=615861",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

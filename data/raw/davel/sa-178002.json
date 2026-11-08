@@ -1,0 +1,43 @@
+[
+ {
+  "slug": "sa-178002",
+  "parent": null,
+  "text": "Ec 5/1-1 Paroisse réformée d'Arzier., 1785-1871 (Série)",
+  "children": [
+   "sa-178003"
+  ],
+  "f": {
+   "Ref. code": "Ec 5/1-1",
+   "Title": "Paroisse réformée d'Arzier.",
+   "Dates": "1785-1871",
+   "Creation date(s)": "1785 - 1871",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178002",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178003",
+  "parent": "sa-178002",
+  "text": "Ec 5/1 - Naissances 1785-1871. \\ - Mariages 1810-1867. \\ - Annonces de mariage 1824-1868. \\ - Décès 1832-1870., 1785.01.01-1871.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 5/1",
+   "Title": "- Naissances 1785-1871.\n- Mariages 1810-1867.\n- Annonces de mariage 1824-1868.\n- Décès 1832-1870.",
+   "Dates": "1785-1871",
+   "Creation date(s)": "1/1/1785 - 12/31/1871",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "décès (Matières\\D)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178003",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

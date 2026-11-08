@@ -1,0 +1,34 @@
+[
+ {
+  "slug": "eb-5-1",
+  "parent": null,
+  "children": [
+   "eb-5-1-2"
+  ],
+  "f": {
+   "Cote": "Eb 5/1",
+   "Titre": "Registres de la paroisse réformée d'Arzier.",
+   "Date(s)": "1710-03-22 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse d'Arzier :\nParoisse médiévale réformée en 1536, supprimée en 1846, jointe à Genolier et rétablie en 1849.\nRegistres dès 1710.\nComprend : Le Muids ; une partie de la Cézille (Bassins) jusqu'en 1863.\nAnnexes : Bassins (détaché en 1667 et joint à Burtigny), Saint-Cergue (détaché en 1713)."
+  }
+ },
+ {
+  "slug": "eb-5-1-2",
+  "parent": "eb-5-1",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 5/1",
+   "Titre": "Paroisse réformée d'Arzier",
+   "Date(s)": "1710-03-22 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 4 parties\nFormat LxH(cm): 24,3 x 36",
+   "Portée et contenu": "Baptêmes (1710 mars 22 - 1821 mars 25) pages 0-178;\nMariages (1710 - 1821 juin 30) pages 271-274 et 297-349;\nCatéchumènes (1763 - 1875) pages 275-296 et 351-388;\nDécès (tête-bêche) (1728 - 1821 juin 30) pages tête-bêche 2-53.",
+   "Instruments de recherche": "Sans répertoire correspondant.",
+   "Cote de gestion": "RMS 1/128.581",
+   "Nom du fichier": "CH-ACV_RN-EB-5-1.pdf",
+   "Taille du fichier": "404.5 MiB"
+  },
+  "pdf": "8/2/6/8266ff93b12c623fb31e4c5f7c0f730ae5bb1ec7346b6409046fd2fa62b62f9d/CH-ACV_RN-EB-5-1.pdf"
+ }
+]

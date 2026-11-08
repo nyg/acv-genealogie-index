@@ -77,6 +77,10 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [Eb 80/5](https://davel-vd.ch/eb-80-5) | Le Mont-sur-Lausanne | Date(s) | 1765-01-01 - 1828-12-31 | 1760-03-09 - 1828-12-31 | Le PDF, p. 1 (PDF 2) : annonces de mars 1760, comme dans la Portée et contenu (1760 mars 9). | |
 | [Eb 15/7](https://davel-vd.ch/eb-15-7) | Bex | Portée et contenu | Décès (1701 septembre 17 - 1821 juin 30) | Décès (1768 décembre 31 - 1821 juin 30) | Le PDF, p. 1 (PDF 6) : « Registre mortuaire de la paroisse de Bex commencé avec l'année 1769 », premier décès le 31 décembre 1768, comme dans les Date(s) ; Eb 15/5 couvre les décès 1702-1768. | |
 | [SB 115/80](https://davel.vd.ch/detail.aspx?ID=614484) | Lausanne | Dates | 1922-1928 | 1876-1928 | Titre (pièces diverses 1876-1928) et dates de création : 1876-1928. | |
+| [SB 23/761](https://davel.vd.ch/detail.aspx?ID=604560) | Arzier | Titre | Décès B 1883-1881 | Décès B 1883-1891 | Le reste de la boîte et ses dates : 1883-1891 ; SB 23/762 reprend en 1892. | |
+| [Ed 58/1-5](https://davel-vd.ch/ed-58-1-5) | Genolier | Date(s) | 1821-10-01 - 1875-12-31 | 1835-10-01 - 1875-12-31 | La note de la série : « Registres dès 1835 », avant dans Ed 108 avec Prangins ; Ed 58/1 à 4 commencent en 1835. | |
+| [Ed 58/1](https://davel-vd.ch/ed-58-1) | Genolier | Portée et contenu | Baptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1859 juin 2) | Baptêmes de l'Eglise évangélique réformée (1835 octobre 1 - 1859 juin 2) | Titre, dates et naissances du registre : dès le 1er octobre 1835 ; la note de la série : « Registres dès 1835 ». | |
+| [Ed 58/4](https://davel-vd.ch/ed-58-4) | Genolier | Titre | Registre de décès 1831-1875. | Registre de décès 1835-1875. | Dates et Portée et contenu : dès 1835 ; la note de la série : « Registres dès 1835 ». | |
 
 ## À vérifier sur le PDF
 

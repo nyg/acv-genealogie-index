@@ -1,0 +1,111 @@
+[
+ {
+  "slug": "ed-5-1-5",
+  "parent": null,
+  "children": [
+   "ed-5-1",
+   "ed-5-2",
+   "ed-5-3",
+   "ed-5-4",
+   "ed-5-5"
+  ],
+  "f": {
+   "Cote": "Ed 5/1-5",
+   "Titre": "Paroisse réformée d'Arzier.",
+   "Date(s)": "1821-07-01 - 1882-10-10 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse d'Arzier :\nParoisse médiévale réformée en 1536, supprimée en 1846, jointe à Genolier et rétablie en 1849.\nRegistres dès 1710.\nComprend : Le Muids ; une partie de la Cézille (Bassins) jusqu'en 1863.\nAnnexes : Bassins (détaché en 1667 et joint à Burtigny), Saint-Cergue (détaché en 1713)"
+  }
+ },
+ {
+  "slug": "ed-5-1",
+  "parent": "ed-5-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 5/1",
+   "Titre": "Registre de naissances 1821-1858.",
+   "Date(s)": "1821-07-01 - 1858-02-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31,5 x 41,5",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1858 février 1);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1858 février 1).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 5/1 (microfilm: RMS 1/1.046.497, numérique: RN-ED-5-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.046.497",
+   "Nom du fichier": "CH-ACV_RN-ED-5-1.pdf",
+   "Taille du fichier": "373.9 MiB"
+  },
+  "pdf": "f/d/c/fdc507318cbbd3155bb2b8336e4ef29d998fd3621aebf25008978b4d9d73c4c9/CH-ACV_RN-ED-5-1.pdf"
+ },
+ {
+  "slug": "ed-5-2",
+  "parent": "ed-5-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 5/2",
+   "Titre": "Registre de naissances 1858-1875",
+   "Date(s)": "1858-02-16 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30 x 41,5",
+   "Portée et contenu": "Naissances (1858 février 16 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1858 février 16 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et des baptêmes Ed 5/2 (microfilm: RMS 1/1.046.497, numérique: RN-ED-5-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.046.497",
+   "Nom du fichier": "CH-ACV_RN-ED-5-2.pdf",
+   "Taille du fichier": "178 MiB"
+  },
+  "pdf": "a/7/f/a7fb18f6759e425564134b85268c6aee6c7299469ad6263fc99c50be526f2b80/CH-ACV_RN-ED-5-2.pdf"
+ },
+ {
+  "slug": "ed-5-3",
+  "parent": "ed-5-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 5/3",
+   "Titre": "Registre de mariages 1821-1875",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 29,6 x 41,6 / 27,8 x 40,4 (répertoire)",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 5/3 (microfilm: RMS 1/1.046.497, numérique: RN-ED-5-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.046.497",
+   "Nom du fichier": "CH-ACV_RN-ED-5-3.pdf",
+   "Taille du fichier": "196.4 MiB"
+  },
+  "pdf": "5/5/7/55782900a533469c17a258570ba4ae8aed28a5ca640f27c252331008ccb7a1be/CH-ACV_RN-ED-5-3.pdf"
+ },
+ {
+  "slug": "ed-5-4",
+  "parent": "ed-5-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 5/4",
+   "Titre": "Registre de décès 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,9 x 41,5 x 3.5",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des décès Ed 5/4 (microfilm: RMS 1/1.046.497, numérique: RN-ED-5-4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.046.497",
+   "Nom du fichier": "CH-ACV_RN-ED-5-4.pdf",
+   "Taille du fichier": "295.4 MiB"
+  },
+  "pdf": "e/3/2/e3276df832c0ec1c518fec698f767bc364faeed82e2f96cc8163de46b1cf757c/CH-ACV_RN-ED-5-4.pdf"
+ },
+ {
+  "slug": "ed-5-5",
+  "parent": "ed-5-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 5/5",
+   "Titre": "Registre d'annonces de mariage 1821-1882.",
+   "Date(s)": "1821-07-01 - 1882-10-10 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 27,8 x 40,4",
+   "Portée et contenu": "Annonces de mariage (1821 juillet 1 - 1882 octobre 10).",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Dès la page 125, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RM 299.6",
+   "Nom du fichier": "CH-ACV_RN-ED-5-5.pdf",
+   "Taille du fichier": "162.6 MiB"
+  },
+  "pdf": "a/8/d/a8d437c57e1175044181494d97fe709e838b5ea3f782bf528f50b9e0dfc85f68/CH-ACV_RN-ED-5-5.pdf"
+ }
+]
