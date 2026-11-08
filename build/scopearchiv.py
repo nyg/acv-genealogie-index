@@ -70,7 +70,7 @@ YEAR_SPANS = re.compile(r"\s*\b\d{4}(?:\s*-\s*\d{4})?\b")
 REMARK = re.compile(r"\s*\(([^()]*)\)")
 ACT_NUMBERS = re.compile(r"\bNos?\.?\s*\d+(?:\s*-\s*\d+)?")
 ARRONDISSEMENT_PREFIX = re.compile(r"^[^:()]*\(arrondissement[^()]*\)\s*:\s*")
-LISTED_LINE_BREAK = re.compile(r"\n|(?<=\.)\s*(?=[-–]\s)|\s+\\?\s*(?=[-–]\s+[A-ZÉ])")
+LISTED_LINE_BREAK = re.compile(r"\n|(?<=\.)\s*(?=[-–]\s)|(?:\s+\\?\s*|(?<=\)))(?=[-–]\s+[A-ZÉ])")
 
 
 def _segment_row(unit, kinds, label, start, end, dates):

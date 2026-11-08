@@ -113,6 +113,20 @@ def test_listed_content_drops_the_arrondissement_before_a_colon():
     ]
 
 
+def test_listed_content_splits_a_dash_written_right_after_a_remark():
+    # When
+    segments = justificative_segments(box("La Tour-de-Peilz (arrondissement d'état civil)") | {
+        "scope": "La Tour-de-Peilz (arrondissement d'état civil): - Naissances 1964 - Mariages 1963-1964 (14 février-19 décembre)- Décès 1963-1964 - Sous-séries diverses relatives à l'état civil 1962-1964.",
+    })
+
+    # Then
+    assert [(segment["label"], segment["start"], segment["end"]) for segment in segments] == [
+        ("Pièces justificatives : Naissances", "1964-01-01", "1964-12-31"),
+        ("Pièces justificatives : Mariages", "1963-01-01", "1964-12-31"),
+        ("Pièces justificatives : Décès", "1963-01-01", "1964-12-31"),
+    ]
+
+
 def test_listed_content_ignores_act_numbers_written_without_parentheses():
     # When
     segments = justificative_segments(box("Lausanne (arrondissement d'état civil)") | {"scope": "Lausanne (arrondissement de l'état civil): Mariages 1965- No 1001-1120."})

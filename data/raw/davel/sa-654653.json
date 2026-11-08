@@ -1,0 +1,104 @@
+[
+ {
+  "slug": "sa-654653",
+  "parent": null,
+  "text": "SB 268/51 La Tour-de-Peilz (arrondissement de l'état civil), 1882-1999 (Sous-fonds)",
+  "children": [
+   "sa-680818",
+   "sa-680819",
+   "sa-680820",
+   "sa-680821"
+  ],
+  "f": {
+   "Ref. code": "SB 268/51",
+   "Title": "La Tour-de-Peilz (arrondissement de l'état civil)",
+   "Dates": "1882-1897 et 1955-1999",
+   "Creation date(s)": "1882 - 1999",
+   "Level": "Sous-fonds",
+   "Importance matérielle": "3 registres",
+   "Access regulations": "Seules les promesses de mariage de plus de 80 ans sont consultables librement. Pour les promesses de mariage postérieures une autorisation écrite est nécessaire.",
+   "Language": "Français",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement de Vevey dès le 1er juin 2004.",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=654653",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680818",
+  "parent": "sa-654653",
+  "text": "SB 268/51/1 Registre de publications de promesses de mariage, 1882-1897 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/51/1",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1882 janvier 3 - 1897 mars 27",
+   "Creation date(s)": "1882 - 1897",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 201 pages utiles sur 201 et 1 répertoire non paginé",
+   "Content": "- Publications (1882 janvier 3 - 1897 mars 27).",
+   "Access regulations": "Libre",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680818",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680819",
+  "parent": "sa-654653",
+  "text": "SB 268/51/2 FANTOME Registre(s) de publications de promesses de mariage manquant(s), 1111 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/51/2 FANTOME",
+   "Title": "Registre(s) de publications de promesses de mariage manquant(s)",
+   "Dates": "Lacune: 1897 mars 27 - 1955 avril 7",
+   "Creation date(s)": "1111",
+   "Level": "Pièce",
+   "Importance matérielle": "-",
+   "Content": "Le(s) registre(s) de publications de promesses de mariage 1897 à 1955 de cet arrondissement n'a/ont pas été versé(s) aux ACV.",
+   "Access regulations": "Non consultable.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680819",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680820",
+  "parent": "sa-654653",
+  "text": "SB 268/51/3 Registre de publications de promesses de mariage, 1955-1963 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/51/3",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1955 avril 7 - 1963 octobre 19",
+   "Creation date(s)": "1955 - 1963",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 200 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1955 avril 7 - 1963 octobre 19).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680820",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680821",
+  "parent": "sa-654653",
+  "text": "SB 268/51/4 Registre de publications de promesses de mariage, 1963-1999 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/51/4",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1963 octobre 30 - 1999 décembre 10",
+   "Creation date(s)": "1963 - 1999",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 154 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1963 octobre 30 - 1999 décembre 10).",
+   "Access regulations": "Autorisation écrite nécessaire.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680821",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

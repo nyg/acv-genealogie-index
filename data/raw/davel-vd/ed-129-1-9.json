@@ -1,0 +1,194 @@
+[
+ {
+  "slug": "ed-129-1-9",
+  "parent": null,
+  "children": [
+   "ed-129-1",
+   "ed-129-2",
+   "ed-129-3",
+   "ed-129-4",
+   "ed-129-5",
+   "ed-129-6",
+   "ed-129-7",
+   "ed-129-8",
+   "ed-129-9"
+  ],
+  "f": {
+   "Cote": "Ed 129/1-9",
+   "Titre": "Paroisse réformée de La Tour-de-Peilz.",
+   "Date(s)": "1821-07-01 - 1881-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de la Tour-de-Peilz :\nDépendance de Vevey avec diacre dès 1584, érigée en paroisse en 1599.\nRegistres dès 1615."
+  }
+ },
+ {
+  "slug": "ed-129-1",
+  "parent": "ed-129-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 129/1",
+   "Titre": "Registre de naissances 1821-1852.",
+   "Date(s)": "1821-07-01 - 1852-04-03 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volume en 1 partie\nFormat LxH(cm): 30,4 x 41 x 4,3 / 28,1 x 39 (répertoire)",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1852 avril 3);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1852 avril 3).",
+   "Instruments de recherche": "Répertoire séparé des naissances et baptêmes Ed 129/1 (microfilm: RMS 1/1.048.658, numérique: RN-ED-129-1), pages manuscrites, non datées",
+   "Note": "Onglets des lettres J, M, N, L et Z du répertoire consolidés.",
+   "Cote de gestion": "RMS 1/1.048.658",
+   "Nom du fichier": "CH-ACV_RN-ED-129-1.pdf",
+   "Taille du fichier": "495.2 MiB"
+  },
+  "pdf": "9/1/e/91eb6bfa3cf26eea8194003ee083410f20c470708545db16a0ff80d3d6eee6be/CH-ACV_RN-ED-129-1.pdf"
+ },
+ {
+  "slug": "ed-129-2",
+  "parent": "ed-129-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 129/2",
+   "Titre": "Registre de naissances 1852-1875.",
+   "Date(s)": "1852-04-08 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31 x 42 x 4",
+   "Portée et contenu": "Naissances (1852 avril 8 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1852 avril 8 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 129/2 (microfilm: RMS 1/1.048.658, numérique: RN-ED-129-2), pages manuscrites, non datées",
+   "Note": "Onglet lettre A du répertoire consolidé.",
+   "Cote de gestion": "RMS 1/1.048.658",
+   "Nom du fichier": "CH-ACV_RN-ED-129-2.pdf",
+   "Taille du fichier": "436.1 MiB"
+  },
+  "pdf": "3/4/4/3440a60cb1c22e3ddfb11ca86b9f9b166fe5b1c9dfd987ad464e8b1b3c959dee/CH-ACV_RN-ED-129-2.pdf"
+ },
+ {
+  "slug": "ed-129-3",
+  "parent": "ed-129-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 129/3",
+   "Titre": "Registre de mariages 1821-1844.",
+   "Date(s)": "1821-07-01 - 1844-12-19 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 32,2 x 41,5 x 5,5 / 28 x 39 x 0,5 (répertoire)",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1844 décembre 19).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 129/3 (microfilm: RMS 1/1.048.659, numérique: RN-ED-129-3), pages manuscrites, non datées",
+   "Note": "Onglets de 1828 et lettre A du répertoire consolidés.",
+   "Cote de gestion": "RMS 1/1.048.659",
+   "Nom du fichier": "CH-ACV_RN-ED-129-3.pdf",
+   "Taille du fichier": "591.1 MiB"
+  },
+  "pdf": "1/b/5/1b57daa061da4a7e02b7c14df27a16a10446bce9ba7db3f48559c2d9189ce26f/CH-ACV_RN-ED-129-3.pdf"
+ },
+ {
+  "slug": "ed-129-4",
+  "parent": "ed-129-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 129/4",
+   "Titre": "Registre de mariages 1845-1866.",
+   "Date(s)": "1845-01-23 - 1866-03-10 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,6 x 41,1 x 5,5",
+   "Portée et contenu": "Mariages (1845 janvier 23 - 1866 mars 10).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 129/4 (microfilm: RMS 1/1.048.659, numérique: RN-ED-129-4), pages manuscrites, non datées",
+   "Note": "Onglets lettres M, N, X et Y du répertoire consolidés.",
+   "Cote de gestion": "RMS 1/1.048.659",
+   "Nom du fichier": "CH-ACV_RN-ED-129-4.pdf",
+   "Taille du fichier": "624 MiB"
+  },
+  "pdf": "4/f/6/4f6f76f8a29d1ace825d3adb8de2d78b5f6fd805a4827a0a3ced3bb7eb0eff99/CH-ACV_RN-ED-129-4.pdf"
+ },
+ {
+  "slug": "ed-129-5",
+  "parent": "ed-129-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 129/5",
+   "Titre": "Registre de mariages 1866-1875.",
+   "Date(s)": "1866-03-14 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,9 x 41 x 3,2 / 28 x 39 (répertoire)",
+   "Portée et contenu": "Mariages (1866 mars 14 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 129/5 (microfilm: RMS 1/1.048.659, numérique: RN-ED-129-5), pages manuscrites, non datées",
+   "Note": "Onglets lettres K et M du répertoire consolidés.",
+   "Cote de gestion": "RMS 1/1.048.659",
+   "Nom du fichier": "CH-ACV_RN-ED-129-5.pdf",
+   "Taille du fichier": "350.2 MiB"
+  },
+  "pdf": "0/b/a/0baaf62531b0135eab5273436beacad21932ebc3202beb357ef0d906d7d3e786/CH-ACV_RN-ED-129-5.pdf"
+ },
+ {
+  "slug": "ed-129-6",
+  "parent": "ed-129-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 129/6",
+   "Titre": "Registre de décès 1821-1873.",
+   "Date(s)": "1821-07-01 - 1873-10-27 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31 x 41,5 x 5,5/ 27 x 39,8 x 0,5 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1873 octobre 27).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 129/6 (microfilm: RMS 1/1.048.660, numérique: RN-ED-129-6), pages manuscrites, non datées",
+   "Note": "Cahier des pages 305 à 308 décalé entre pages 312 et 313.",
+   "Cote de gestion": "RMS 1/1.048.660",
+   "Nom du fichier": "CH-ACV_RN-ED-129-6.pdf",
+   "Taille du fichier": "574.5 MiB"
+  },
+  "pdf": "8/c/3/8c3280b88bcb98213d4ae1558311d382e7fc7760f2950ab2efdacf31f8dc932f/CH-ACV_RN-ED-129-6.pdf"
+ },
+ {
+  "slug": "ed-129-7",
+  "parent": "ed-129-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 129/7",
+   "Titre": "Registre de décès 1873-1875.",
+   "Date(s)": "1873-11-06 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,5 x 42",
+   "Portée et contenu": "Décès (1873 novembre 6 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des décès Ed 129/7 (microfilm: RMS 1/1.048.660, numérique: RN-ED-129-7), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.048.660",
+   "Nom du fichier": "CH-ACV_RN-ED-129-7.pdf",
+   "Taille du fichier": "87.3 MiB"
+  },
+  "pdf": "9/4/5/945709c624c00b21ab384c314918dfc8a4d9796e87c589f0e7d8e07686342a92/CH-ACV_RN-ED-129-7.pdf"
+ },
+ {
+  "slug": "ed-129-8",
+  "parent": "ed-129-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 129/8",
+   "Titre": "Registre d'annonces de mariage 1821-1861.",
+   "Date(s)": "1821-07-01 - 1861-12-29 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 23,8 x 37",
+   "Portée et contenu": "Annonces de mariage (1821 juillet 1 - 1861 décembre 29).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 129/8 (microfilm: RM 22004.15, numérique: RN-ED 129-8), pages manuscrites (au stylo-bille), non datées",
+   "Note": "Série de pages blanches, de la page 226 jusqu'au répertoire.",
+   "Cote de gestion": "RM 22004.15",
+   "Nom du fichier": "CH-ACV_RN-ED-129-8.pdf",
+   "Taille du fichier": "305.2 MiB"
+  },
+  "pdf": "f/3/c/f3c9c65ee50aab2216bcc5a73f38e8d8e9b27881161a90038d249b865a37db99/CH-ACV_RN-ED-129-8.pdf"
+ },
+ {
+  "slug": "ed-129-9",
+  "parent": "ed-129-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 129/9",
+   "Titre": "Registre d'annonces de mariage 1862-1881.",
+   "Date(s)": "1862-01-01 - 1881-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 23 x 34,5",
+   "Portée et contenu": "Annonces de mariage (1862 janvier 1 - 1881 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 129/9 (microfilm: RM 22004.16, numérique: RN-ED-129-9), pages manuscrites, non datées",
+   "Note": "Série de pages blanches, de la page 85 jusqu'au répertoire.",
+   "Cote de gestion": "RM 22004.16",
+   "Nom du fichier": "CH-ACV_RN-ED-129-9.pdf",
+   "Taille du fichier": "190.8 MiB"
+  },
+  "pdf": "d/0/a/d0aa9572059229b80006a396d8652d03d7bfc11450c0db47e3281eb1fc44e30b/CH-ACV_RN-ED-129-9.pdf"
+ }
+]
