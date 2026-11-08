@@ -1,0 +1,114 @@
+[
+ {
+  "slug": "eb-13-1-5",
+  "parent": null,
+  "children": [
+   "eb-13-1",
+   "eb-13-2",
+   "eb-13-3",
+   "eb-13-4",
+   "eb-13-5"
+  ],
+  "f": {
+   "Cote": "Eb 13/1-5",
+   "Titre": "Registres de la paroisse réformée de Belmont-sur-Lausanne et de la commune de Belmont-sur-Lausanne.",
+   "Date(s)": "1767-01-07 - 1866-03-25 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Belmont-sur-Lausanne :\nParoisse médiévale devenue annexe de Pully de la Réformation à 1766, puis de Lutry (registres dès 1766) et de Pully en 1846, érigée en paroisse en 1862, annexe de Pully en 1863, puis de Lutry en 1864.\nRegistres dès 1766.\nComprend : Corsy, Monts de Lutry (1862-1863)."
+  }
+ },
+ {
+  "slug": "eb-13-1",
+  "parent": "eb-13-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 13/1",
+   "Titre": "Paroisse réformée de Belmont-sur-Lausanne",
+   "Date(s)": "1767-01-07 - 1805-08-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 2 parties\nFormat LxH(cm): 17 x 20,6 / 21 x 29,3 (répertoire)",
+   "Portée et contenu": "Baptêmes (1767 janvier 7 - 1803 avril 8), pp. 0-145;\nMariages (tête-bêche) (1767 janvier 9 - 1805 août 1), pp.tête-bêche 0-33.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, des mariages et des décès Eb 13/1, Eb 13/2 et Eb 13/4 (microfilm: RM 22004.24, numérique: RN-EB-13-1), pages dactylographiées, non datées",
+   "Note": "Le microfilm effectué par les Mormons, RMS 1/128.593, a été remplacé par le nouveau microfilm RM 22004.24 comprenant le répertoire séparé correspondant.",
+   "Cote de gestion": "RMS 1/128.593\nRM 22004.24",
+   "Nom du fichier": "CH-ACV_RN-EB-13-1.pdf",
+   "Taille du fichier": "190.5 MiB"
+  },
+  "pdf": "7/a/4/7a40566250058b6b19cbffcc20e7ca26420708ec42fcb1d4f9ca5e94f9097867/CH-ACV_RN-EB-13-1.pdf"
+ },
+ {
+  "slug": "eb-13-2",
+  "parent": "eb-13-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 13/2",
+   "Titre": "Paroisse réformée de Belmont-sur-Lausanne",
+   "Date(s)": "1766-12-10 - 1866-03-25 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17,2 x 21,7",
+   "Portée et contenu": "Décès (1766 décembre 10 - 1821 juin 30), pp. 0-78;\nCatéchumènes (tête-bêche) (1768 mars 28 - 1866 mars 25), pp.tête-bêche 0-91.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, des mariages et des décès Eb 13/1, Eb 13/2 et Eb 13/4 (microfilm: RM 22004.24, numérique: RN-EB-13-1), pages dactylographiées, non datées\nPas de répertoire pour les catéchumènes",
+   "Note": "Le microfilm effectué par les Mormons, RMS 1/128.593, a été remplacé par le nouveau microfilm RM 22004.24 comprenant le répertoire séparé correspondant.",
+   "Cote de gestion": "RMS 1/128.593\nRM 22004.24",
+   "Nom du fichier": "CH-ACV_RN-EB-13-2.pdf",
+   "Taille du fichier": "112 MiB"
+  },
+  "pdf": "9/2/8/928eeb7bbcbbe04734f04de29d3d4d2299aebf7ab2c4a26b9d9a78929710ee41/CH-ACV_RN-EB-13-2.pdf"
+ },
+ {
+  "slug": "eb-13-3",
+  "parent": "eb-13-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 13/3",
+   "Titre": "Commune de Belmont-sur-Lausanne",
+   "Date(s)": "1799-03-26 - 1831-03-07 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 18,4 x 24,7",
+   "Portée et contenu": "Baptêmes (1799 mars 29 - 1831 mars 7), pp. 0-88.\nDécès (tête-bêche) (1799 mars 26 - 1821 juin 16), pp.tête-bêche 0-31.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série de pages blanches, de la page 89 jusqu'au registre des décès tête-bêche.",
+   "Cote de gestion": "* RMS 1/128.593",
+   "Nom du fichier": "CH-ACV_RN-EB-13-3.pdf",
+   "Taille du fichier": "87.2 MiB"
+  },
+  "pdf": "c/0/a/c0a824f90a6831774dbb2e4da1b6e91f08f333ef12d5f3a06579e9978326d4f4/CH-ACV_RN-EB-13-3.pdf"
+ },
+ {
+  "slug": "eb-13-4",
+  "parent": "eb-13-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 13/4",
+   "Titre": "Paroisse réformée de Belmont-sur-Lausanne",
+   "Date(s)": "1803-04-17 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 18 x 21,1",
+   "Portée et contenu": "Baptêmes (1803 avril 17 - 1821 juin 30), pp. 1-89;\nMariages (tête-bêche) (1806 novembre 27 - 1821 mars 9), pp.tête-bêche 1-20.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, des mariages et des décès Eb 13/1, Eb 13/2 et Eb 13/4 (microfilm: RM 22004.24, numérique: RN-EB-13-1), pages dactylographiées, non datées",
+   "Note": "Le microfilm effectué par les Mormons, RMS 1/128.593, a été remplacé par le nouveau microfilm RM 22004.24 comprenant le répertoire séparé correspondant.",
+   "Cote de gestion": "RMS 1/128.593\nRM 22004.24",
+   "Nom du fichier": "CH-ACV_RN-EB-13-4.pdf",
+   "Taille du fichier": "69.9 MiB"
+  },
+  "pdf": "5/6/9/569fdd5c7fc16b643efed85d23adcd0b97c6f2ca0c7db92693f732d4b388bd5e/CH-ACV_RN-EB-13-4.pdf"
+ },
+ {
+  "slug": "eb-13-5",
+  "parent": "eb-13-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 13/5",
+   "Titre": "Paroisse réformée de Belmont-sur-Lausanne",
+   "Date(s)": "1792-09-23 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 18,6 x 22,2",
+   "Portée et contenu": "Annonces de Mariages (1792 septembre 23 - 1821 juin 30), pp. 0-81 et pp.tête-bêche 82-84.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.593",
+   "Nom du fichier": "CH-ACV_RN-EB-13-5.pdf",
+   "Taille du fichier": "57 MiB"
+  },
+  "pdf": "b/1/1/b113ba3c4f260ce094a74218b4b7d35f8a90be62bf647c2a5482af5a651b4a9f/CH-ACV_RN-EB-13-5.pdf"
+ }
+]
