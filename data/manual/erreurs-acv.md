@@ -73,6 +73,10 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [Eb 118/3](https://davel-vd.ch/eb-118-3) | Rougemont | Date(s) ; Portée et contenu | 1752-04-01 - 1786-01-01 ; Baptêmes (1752 avril - 1786 janvier 1) | 1752-04-01 - 1787-12-31 ; Baptêmes (1752 avril - 1787 décembre 31) | Les pp. 235-243 portent l'année 1787 ; la dernière page renvoie au « Registre suivant N° IV qui commence avec l'année 1788 » (Eb 118/4) et le répertoire (Eb 118/2) couvre « 1752 (avril 1) à 1787 (décembre 31) ». | |
 | [Ed 78/6](https://davel-vd.ch/ed-78-6) | Lutry | Instruments de recherche | Répertoire séparé des mariages Ed 78/6 | Répertoire séparé des décès Ed 78/6 | La couverture du répertoire (PDF 463) porte « Registre des décès » et ses entrées sont des décès 1821-1853. | |
 | [SB 23/635](https://davel.vd.ch/detail.aspx?ID=603485) | Bussigny-près-Lausanne | Titre | Mariages A 1884-1887 (Il manque les années 1884-1885 pour les mariages B) | Mariages A et B 1884-1887 (Il manque les années 1884-1885 pour les mariages B) | La note suppose que la boîte contient aussi les mariages B, ceux de 1886-1887 ; les boîtes suivantes, SB 23/636 et 637, portent « Mariages A et B ». | |
+| [Eb 105/7](https://davel-vd.ch/eb-105-7) | Penthaz | Date(s) | 1739-03-12 - 1864-12-31 | 1729-03-12 - 1864-12-31 | Le PDF, p. 1 (PDF 6) : « Livre de Mortuaire commencé en 1729 », premier décès le 12 mars 1729, comme dans la Portée et contenu. | |
+| [Eb 80/5](https://davel-vd.ch/eb-80-5) | Le Mont-sur-Lausanne | Date(s) | 1765-01-01 - 1828-12-31 | 1760-03-09 - 1828-12-31 | Le PDF, p. 1 (PDF 2) : annonces de mars 1760, comme dans la Portée et contenu (1760 mars 9). | |
+| [Eb 15/7](https://davel-vd.ch/eb-15-7) | Bex | Portée et contenu | Décès (1701 septembre 17 - 1821 juin 30) | Décès (1768 décembre 31 - 1821 juin 30) | Le PDF, p. 1 (PDF 6) : « Registre mortuaire de la paroisse de Bex commencé avec l'année 1769 », premier décès le 31 décembre 1768, comme dans les Date(s) ; Eb 15/5 couvre les décès 1702-1768. | |
+| [SB 115/80](https://davel.vd.ch/detail.aspx?ID=614484) | Lausanne | Dates | 1922-1928 | 1876-1928 | Titre (pièces diverses 1876-1928) et dates de création : 1876-1928. | |
 
 ## À vérifier sur le PDF
 
@@ -80,15 +84,8 @@ Les dates de la fiche ne couvrent pas celles du contenu, ou la pagination du PDF
 
 | Cote | Lieu | Champ | Publié | Indice | Signalé |
 |---|---|---|---|---|---|
-| [Eb 15/3](https://davel-vd.ch/eb-15-3) | Bex | Date(s) | 1695-03-17 - 1721-08-10 | Portée et contenu : Décès (1701-1760), pages I-II. | |
-| [Eb 15/7](https://davel-vd.ch/eb-15-7) | Bex | Portée et contenu | Décès (1701 septembre 17 - 1821 juin 30) | Date(s) : 1768-12-31 - 1821-06-30 ; les décès de 1701-1760 sont dans Eb 15/3. | |
 | [Eb 23/6](https://davel-vd.ch/eb-23-6) | Château-d'Oex | Portée et contenu | Baptêmes, pp. VI 24-VI 129 | La première page numérotée du PDF est « VI 25 ». | |
-| [Eb 80/5](https://davel-vd.ch/eb-80-5) | Le Mont-sur-Lausanne | Date(s) | 1765-01-01 - 1828-12-31 | Portée et contenu : Annonces de mariages (1760 mars 9 - 1794 janvier 11). | |
-| [Eb 87/2](https://davel-vd.ch/eb-87-2) | Morrens | Date(s) | 1659-10-27 - 1713-01-28 | Portée et contenu : un baptême (1716 septembre 20), p. 322. | |
-| [Eb 95/4](https://davel-vd.ch/eb-95-4) | Ormont-Dessus | Date(s) | 1749-01-01 - 1790-12-01 | Portée et contenu : Baptêmes forains (1752 - 1805). | |
-| [SB 324/2/35](https://davel.vd.ch/detail.aspx?ID=1510347) | Fiez | Dates | 1957-1966 | Content : Mariages 1958-1968 ; Décès 1961-1968 ; Sous-séries diverses 1957-1966. | |
-| [Eb 71/54](https://davel-vd.ch/eb-71-54) | Lausanne | Portée et contenu | Catéchumènes (1825 - 1829), pp. 259-265 | Date(s) : 1713 - 1821 ; les baptêmes et les mariages s'arrêtent au 30 juin 1821. | |
-| [Eb 105/7](https://davel-vd.ch/eb-105-7) | Penthaz | Date(s) | 1739-03-12 - 1864-12-31 | Portée et contenu : Décès (1729 mars 12 - 1821 juin 30). | |
+| [SB 324/2/35](https://davel.vd.ch/detail.aspx?ID=1510347) | Fiez | Dates | 1957-1966 | Content : Mariages 1958-1968 ; Décès 1961-1968 ; Sous-séries diverses 1957-1966. Les dates de création et le plan de classement disent aussi 1957-1966, et Fiez n'a pas d'autre boîte SB 324. SB 324 n'a pas de PDF en ligne : seule la boîte peut trancher. | |
 | [Ed 110/3](https://davel-vd.ch/ed-110-3) | Prilly | Date(s) | 1821-07-01 - 1832-12-28 | Portée et contenu : Mariages (1821 juillet 1 - 1832 décembre 31). | |
 | [Ed 110/9](https://davel-vd.ch/ed-110-9) | Prilly | Portée et contenu | Décès (1821 juillet 1er - 1875 décembre 12) | Date(s) : 1821-07-01 - 1875-12-31. | |
 | [SB 269/85/2/4](https://davel.vd.ch/detail.aspx?ID=1336289) | Romainmôtier | Dates | 1911 juin 16 - 1928 décembre 28 | [SB 269/85/2/3](https://davel.vd.ch/detail.aspx?ID=1336288) va jusqu'au 9 juin 1922, soit 1922 ici, soit 1911 là-bas. SB 269 n'a pas de PDF en ligne : seul le registre peut trancher. | |
