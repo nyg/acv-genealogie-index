@@ -9,7 +9,7 @@ from pathlib import Path
 
 from inventory_corrections import read_raw
 from pdf_pages import load_pdf_pages, sb267_default_parts
-from places import arrondissement_history, arrondissement_name, localities_from_note, parish_name, parish_number, spelling_key, split_official_locality
+from places import arrondissement_history, arrondissement_name, localities_from_note, parish_name, parish_number, repair_parish_names, spelling_key, split_official_locality
 from scope_parser import classify, normalize, parse_date_range, parse_scope_content
 from scopearchiv import creation_dates, fonds_of, load_scopearchiv, place_for, related_ranges
 from scopearchiv import PAGE_BASE as SCOPEARCHIV_PAGE_BASE
@@ -138,13 +138,15 @@ def _arrondissement_finder(places):
 
 def add_official_localities(places):
     parish_places = {place_id.removeprefix("paroisse-").replace("-", " "): place for place_id, place in places.items() if place["kind"] == "paroisse"}
+    parish_names = {number: [place["name"], *place["aliases"]] for number, place in parish_places.items()}
     corrections = json.loads(CORRECTIONS.read_text(encoding="utf-8"))
     for entry in json.loads((CORRESPONDENCE_DIR / "communes-paroisses.json").read_text(encoding="utf-8")):
         entry = {**entry, **corrections.get(entry["locality"], {})}
         name, context = split_official_locality(entry["locality"])
+        description = repair_parish_names(entry["description"], parish_names)
         for number in entry["parishes"]:
             if number in parish_places:
-                _add_locality(parish_places[number], name, " ".join(filter(None, [context, entry["description"]])), "table des paroisses")
+                _add_locality(parish_places[number], name, " ".join(filter(None, [context, description])), "table des paroisses")
 
     find_arrondissement = _arrondissement_finder(places)
     for entry in json.loads((CORRESPONDENCE_DIR / "communes-arrondissements.json").read_text(encoding="utf-8")):

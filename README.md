@@ -133,6 +133,8 @@ uv run --with pdfplumber scraper/parse_correspondence.py
 
 Les deux PDF vont dans `data/raw/vd-ch/`.
 
+Le texte de ces PDF vient d'une reconnaissance de caractères imparfaite. À la construction, le nom écrit devant « [N] » dans la table des paroisses prend le nom de la paroisse N quand il en est une version abîmée (« VëvèyT[132] » devient « Vevey [132] »). `python3 build/report.py` liste les noms qui restent différents ; ils se corrigent dans `data/manual/communes-paroisses-corrections.json`.
+
 ### Ligne de commande
 
 `cli/acv.mjs` fait les mêmes recherches que le site, depuis un terminal, avec le même code et les mêmes données (`docs/index.html`, à reconstruire avec `build/build.py`). `--json` donne un résultat structuré, pour un script ou un agent.

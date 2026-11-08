@@ -1,4 +1,7 @@
 import re
+import unicodedata
+from difflib import SequenceMatcher
+from typing import NamedTuple
 
 from scope_parser import normalize
 
@@ -138,3 +141,125 @@ def localities_from_note(note):
             localities.extend(_localities_from_listing(lines[index], context))
             index += 1
     return localities
+
+
+PARISH_REFERENCE = re.compile(r"\[(?P<number>\d+(?: bis| ter)?)\]")
+NAME_BOUNDARY = re.compile(r"[\[\]();:,|]|\.(?=\s)")
+ARTICLE_PREFIX = re.compile(r"^(?:(?:les?|la)\s+|l')", re.IGNORECASE)
+CONTRACTED_ARTICLE = re.compile(r"(?<!\S)(?:du|des|au|aux)\s+$", re.IGNORECASE)
+ARTICLE_PARENTHESIS = re.compile(r"^\s*\((?:l'|l’|la|le|les)\)$", re.IGNORECASE)
+ELISION = re.compile(r"[dl]['’]", re.IGNORECASE)
+CATHOLIC_SUFFIX = " (catholique)"
+CAPITAL_ACCENTS = {"\u0300", "\u0301", "\u0302"}
+# Lowest similarity between a damaged name and the parish name, e.g. « Vieh » for « Vich ».
+DAMAGE_RATIO = 0.75
+UNRELATED, DAMAGED, SHORT_FORM, SAME = range(4)
+
+
+class NameMatch(NamedTuple):
+    level: int
+    head: str
+    written: str
+    spelling: str
+    tail: str
+
+
+def _typographic(name):
+    # The ACV titles drop the accent on capitals and write « Oe » for « Œ ».
+    decomposed = unicodedata.normalize("NFD", name.replace("Œ", "Oe").replace("œ", "oe").replace("’", "'"))
+    kept = "".join(char for index, char in enumerate(decomposed) if not (char in CAPITAL_ACCENTS and decomposed[index - 1].isupper()))
+    return ARTICLE_PREFIX.sub(lambda article: article[0].lower(), unicodedata.normalize("NFC", kept))
+
+
+def _letters(name):
+    return re.sub(r"[^a-z0-9]", "", normalize(name.replace("Œ", "Oe").replace("œ", "oe")))
+
+
+def _resemblance(written, spelling):
+    written_form, spelling_form = _typographic(written), _typographic(spelling)
+    if written_form == spelling_form:
+        return SAME, 1.0
+    if spelling_form.startswith((f"{written_form} ", f"{written_form}-")):
+        return SHORT_FORM, 1.0
+    ratio = SequenceMatcher(None, _letters(written), _letters(spelling)).ratio()
+    return DAMAGED if ratio >= DAMAGE_RATIO else UNRELATED, ratio
+
+
+def _boundary(region):
+    return max((match.end() for match in NAME_BOUNDARY.finditer(region)), default=0)
+
+
+def _name_starts(region):
+    after = _boundary(region)
+    for index in range(after, len(region)):
+        glued_to = re.search(r"\S*$", region[after:index])[0]
+        gluable = glued_to.isalpha() and glued_to.islower() or ELISION.fullmatch(glued_to)
+        if not region[index].isspace() and (not glued_to or region[index].isupper() and gluable):
+            yield index
+
+
+def _variants(spelling, head, tail):
+    if CONTRACTED_ARTICLE.search(head) or ARTICLE_PARENTHESIS.match(tail):
+        return [spelling, ARTICLE_PREFIX.sub("", spelling)]
+    return [spelling]
+
+
+def _closest_name(region, spellings, tail=""):
+    scored = [(*_resemblance(region[start:], variant), -start, variant)
+              for start in _name_starts(region) for spelling in spellings for variant in _variants(spelling, region[:start], tail)]
+    level, _, negative_start, spelling = max(scored, default=(UNRELATED, 0.0, -len(region), ""))
+    return NameMatch(level, region[:-negative_start], region[-negative_start:], spelling, tail)
+
+
+def _match_name(segment, spellings):
+    region = segment.rstrip()
+    if region.endswith(")") and "(" in region:
+        inside = _closest_name(region[:-1], spellings, ")")
+        if inside.level >= SHORT_FORM:
+            return inside
+        name_region = region[:region.rindex("(")].rstrip()
+        return _closest_name(name_region, spellings, region[len(name_region):])
+    return _closest_name(region, spellings)
+
+
+def _repaired(match):
+    head, written = match.head, match.written
+    if head[-1:].isalpha():
+        head += "'" if re.search(r"(?<!\S)[dl]$", head, re.IGNORECASE) else " "
+    if match.level == DAMAGED:
+        first = written[0] if _typographic(written[0]) == match.spelling[0] else match.spelling[0]
+        written = first + match.spelling[1:]
+    return f"{head}{written}{match.tail} "
+
+
+def _references(description):
+    position = 0
+    for reference in PARISH_REFERENCE.finditer(description):
+        yield description[position:reference.start()], reference
+        position = reference.end()
+
+
+def _spellings(names):
+    return [name.removesuffix(CATHOLIC_SUFFIX) for name in names]
+
+
+def repair_parish_names(description, parish_names):
+    pieces, rest = [], description
+    for segment, reference in _references(description):
+        match = _match_name(segment, _spellings(parish_names.get(reference["number"], [])))
+        pieces += [segment if match.level == UNRELATED else _repaired(match), reference[0]]
+        rest = description[reference.end():]
+    return "".join(pieces) + rest
+
+
+def parish_name_mismatches(description, parish_names, village_names):
+    mismatches = []
+    for segment, reference in _references(description):
+        number = reference["number"]
+        if _match_name(segment, _spellings(parish_names.get(number, []))).level >= DAMAGED:
+            continue
+        if _match_name(segment, village_names.get(number, [])).level >= SHORT_FORM:
+            continue
+        region = segment.rstrip()
+        mismatches.append((number, region[_boundary(region):].strip()))
+    return mismatches

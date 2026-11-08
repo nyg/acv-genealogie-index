@@ -11,6 +11,7 @@ from pathlib import Path
 from inventory_corrections import CORRECTIONS as INVENTORY_CORRECTIONS
 from inventory_corrections import unused_corrections
 from freshness import stale_reason
+from places import parish_name_mismatches
 
 ROOT = Path(__file__).resolve().parent.parent
 DATABASE = ROOT / "data" / "acv.sqlite"
@@ -25,6 +26,26 @@ def parishless_localities(table, corrections):
         correction = corrections.get(entry["locality"], {})
         return entry["parishes"] or correction.get("parishes") or "continues" in correction
     return [entry for entry in table if not resolved(entry)]
+
+
+def parish_names(connection):
+    def number(place_id):
+        return place_id.removeprefix("paroisse-").replace("-", " ")
+    names = {number(place_id): [name, *filter(None, aliases.split(" | "))]
+             for place_id, name, aliases in connection.execute("SELECT id, name, aliases FROM places WHERE kind = 'paroisse'")}
+    villages = {}
+    for place_id, name in connection.execute("SELECT place_id, name FROM localities WHERE place_id LIKE 'paroisse-%'"):
+        villages.setdefault(number(place_id), []).append(name)
+    return names, villages
+
+
+def misnamed_parishes(table, corrections, names, villages):
+    rows = []
+    for entry in table:
+        entry = {**entry, **corrections.get(entry["locality"], {})}
+        for number, written in parish_name_mismatches(entry["description"], names, villages):
+            rows.append((entry["locality"], written, number, names.get(number, ["paroisse inconnue"])[0]))
+    return rows
 
 
 def section(title, rows, limit, describe):
@@ -78,9 +99,14 @@ def quality(connection, limit):
     section(f"Corrections sans effet, l'inventaire a peut-être été corrigé (retirer de {INVENTORY_CORRECTIONS.relative_to(ROOT)} et de data/manual/erreurs-acv.md)",
             unused_corrections(), limit, lambda correction: f"{correction['cote']} : {correction['field']} {correction['published']!r}")
 
-    orphans = parishless_localities(json.loads(PARISH_TABLE.read_text(encoding="utf-8")), json.loads(CORRECTIONS.read_text(encoding="utf-8")))
+    table, corrections = json.loads(PARISH_TABLE.read_text(encoding="utf-8")), json.loads(CORRECTIONS.read_text(encoding="utf-8"))
+    orphans = parishless_localities(table, corrections)
     section(f"Localités de la table des paroisses sans paroisse (corriger dans {CORRECTIONS.relative_to(ROOT)})", orphans, limit,
             lambda entry: f"{entry['locality']!r} : {entry['description'][:80]!r}")
+
+    misnamed = misnamed_parishes(table, corrections, *parish_names(connection))
+    section(f"Paroisses citées sous un autre nom dans la table des paroisses (corriger dans {CORRECTIONS.relative_to(ROOT)})", misnamed, limit,
+            lambda row: f"{row[0]!r} : « {row[1]} [{row[2]}] », paroisse {row[2]} : {row[3]}")
 
 
 def main():
