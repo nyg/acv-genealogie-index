@@ -50,3 +50,15 @@ def test_every_correction_matches_a_parish_table_entry():
 
     # Then
     assert [key for key in corrections if key not in localities] == []
+
+
+def test_every_continued_line_is_a_parish_table_entry():
+    # Given
+    localities = {entry["locality"] for entry in json.loads((ROOT / "data/raw/vd-ch/communes-paroisses.json").read_text(encoding="utf-8"))}
+
+    # When
+    corrections = json.loads((ROOT / "data/manual/communes-paroisses-corrections.json").read_text(encoding="utf-8"))
+    continued = [correction["continues"] for correction in corrections.values() if "continues" in correction]
+
+    # Then
+    assert [locality for locality in continued if locality not in localities] == []
