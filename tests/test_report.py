@@ -3,7 +3,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "build"))
 
-from report import parishless_localities  # noqa: E402
+from report import misnamed_parishes, parishless_localities  # noqa: E402
 
 
 def test_a_line_continuing_another_entry_is_not_a_parishless_locality():
@@ -32,3 +32,20 @@ def test_a_correction_giving_parishes_resolves_a_parishless_locality():
 
     # Then
     assert orphans == []
+
+
+def test_parish_names_left_after_the_repair_and_the_corrections_are_listed():
+    # Given
+    table = [
+        {"locality": "Vevey", "description": "VëvèyT[132]", "parishes": ["132"]},
+        {"locality": "Servion", "description": "Mézières [12]", "parishes": ["12"]},
+        {"locality": "Cremin", "description": "CllHilIés [43]", "parishes": ["43"]},
+    ]
+    corrections = {"Servion": {"description": "Mézières [79]", "parishes": ["79"]}}
+    names = {"12": ["Begnins"], "43": ["Curtilles"], "79": ["Mézières"], "132": ["Vevey"]}
+
+    # When
+    rows = misnamed_parishes(table, corrections, names, {})
+
+    # Then
+    assert rows == [("Cremin", "CllHilIés", "43", "Curtilles")]
