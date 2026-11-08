@@ -1,0 +1,111 @@
+[
+ {
+  "slug": "eb-12-1-5",
+  "parent": null,
+  "children": [
+   "eb-12-1",
+   "eb-12-2",
+   "eb-12-3",
+   "eb-12-4",
+   "eb-12-5"
+  ],
+  "f": {
+   "Cote": "Eb 12/1-5",
+   "Titre": "Registres de la paroisse réformée de Begnins.",
+   "Date(s)": "1664-01-24 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Begnins :\nParoisse médiévale.\nRegistres 1627-1628 et dès 1664.\nComprend : La Cézille (Bassins) jusqu'en 1863, avec une partie à Arzier.\nAnnexe : Luins (depuis la Réformation, paroisse médiévale) ; Vich (1846-1852)."
+  }
+ },
+ {
+  "slug": "eb-12-1",
+  "parent": "eb-12-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 12/1",
+   "Titre": "Paroisse réformée de Begnins",
+   "Date(s)": "1627-01-01 - 1679-07-13 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre en 2 parties (relié avec Eb 12/2)\nFormat LxH(cm): 14,7 x 18 / 27,7 x 39 (répertoire)",
+   "Portée et contenu": "Baptêmes (1627 - 1628) pages 0-0a;\nBaptêmes (1664 janvier 24 - 1679 juillet 13) pages 1-66;\nMariages (tête-bêche) (1664 février 23 - 1679 avril 5) pages tête-bêche 68-82.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes et des mariages Eb 12/1 et Eb 12/2 (microfilm: RMS 1/128.592, numérique: RN-EB-12-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.592",
+   "Nom du fichier": "CH-ACV_RN-EB-12-1.pdf",
+   "Taille du fichier": "75.8 MiB"
+  },
+  "pdf": "0/7/7/07732bc940c5e544bb28ae992911f843bf5e232c67818706d441014927a28ddc/CH-ACV_RN-EB-12-1.pdf"
+ },
+ {
+  "slug": "eb-12-2",
+  "parent": "eb-12-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 12/2",
+   "Titre": "Paroisse réformée de Begnins",
+   "Date(s)": "1679-08-16 - 1697-09-20 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "Eb 12/2 en 2 parties (relié avec Eb 12/1)\nFormat LxH(cm): 14,7 x 18",
+   "Portée et contenu": "Baptêmes (1679 septembre 3 - 1697 septembre 20) pages 0-86;\nMariages (tête-bêche) (1679 août 16 - 1697 juillet 6) pages tête-bêche 87-103.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes et des mariages Eb 12/1 et Eb 12/2 (microfilm: RMS 1/128.592, numérique: RN-EB-12-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.592",
+   "Nom du fichier": "CH-ACV_RN-EB-12-2.pdf",
+   "Taille du fichier": "46.7 MiB"
+  },
+  "pdf": "6/c/b/6cbbe6e9c5b7e950f320f6dc11efbe780ef936792c136b23b1cbd6b9b0bf0447/CH-ACV_RN-EB-12-2.pdf"
+ },
+ {
+  "slug": "eb-12-3",
+  "parent": "eb-12-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 12/3",
+   "Titre": "Paroisse réformée de Begnins",
+   "Date(s)": "1697-10-24 - 1758-07-21 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 4 parties\nFormat LxH(cm): 12 x 17 / 28 x 39 (répertoire)",
+   "Portée et contenu": "Baptêmes (1697 octobre 24 - 1757 décembre 19), pp.131-482;\nCatéchumènes (1720 - 1758), pp.483-516;\nMariages (tête-bêche) (1698 janvier 4 - 1743 février 2), pp.tête-bêche 1-41;\nDécès (tête-bêche) (1710 mai 8 - 1758 juillet 21), pp.tête-bêche 42-130.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, des mariages et des décès Eb 12/3-5 (microfilm: RMS 1/128.592, numérique: RN-EB-12-3), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes",
+   "Cote de gestion": "RMS 1/128.592",
+   "Nom du fichier": "CH-ACV_RN-EB-12-3.pdf",
+   "Taille du fichier": "347 MiB"
+  },
+  "pdf": "f/5/0/f508896a7ba6327a626a2f7c224104a4452b6ba404278063745a96a0aec864bd/CH-ACV_RN-EB-12-3.pdf"
+ },
+ {
+  "slug": "eb-12-4",
+  "parent": "eb-12-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 12/4",
+   "Titre": "Paroisse réformée de Begnins",
+   "Date(s)": "1757-10-14 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 23,4 x 33",
+   "Portée et contenu": "Baptêmes (1757 octobre 14 - 1821 juin 30), pp.0-286;\nDécès (tête-bêche) (1758 mai 21 - 1821 juin 30), pp.tête-bêche 0-105.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, des mariages et des décès Eb 12/3-5 (microfilm: RMS 1/128.592, numérique: RN-EB-12-3), pages manuscrites, non datées",
+   "Note": "Série de pages blanches, de la 287 jusqu'aux décès tête-bêche.",
+   "Cote de gestion": "RMS 1/128.592",
+   "Nom du fichier": "CH-ACV_RN-EB-12-4.pdf",
+   "Taille du fichier": "484.7 MiB"
+  },
+  "pdf": "3/6/9/369886972b0f3291fa136e63c46ebb8db02b0e3d81a3ba0ab5f8764dc567fac6/CH-ACV_RN-EB-12-4.pdf"
+ },
+ {
+  "slug": "eb-12-5",
+  "parent": "eb-12-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 12/5",
+   "Titre": "Paroisse réformée de Begnins",
+   "Date(s)": "1743-10-02 - 1886-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17,3 x 23,7",
+   "Portée et contenu": "Mariages (1743 octobre 2 - 1821 juin 30), pp. 0-100;\nCatéchumènes (tête-bêche) (1758 - 1886), pp.tête-bêche 1-267.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, des mariages et des décès Eb 12/3-5 (microfilm: RMS 1/128.592, numérique: RN-EB-12-3), pages manuscrites, non datées\nPas de répertoire pour les catéchumènes",
+   "Cote de gestion": "RMS 1/128.592",
+   "Nom du fichier": "CH-ACV_RN-EB-12-5.pdf",
+   "Taille du fichier": "243.5 MiB"
+  },
+  "pdf": "1/3/a/13a44cc63cbe833ca9d954de3881a2c05bd360a6eab5101f36adfaa16203247f/CH-ACV_RN-EB-12-5.pdf"
+ }
+]

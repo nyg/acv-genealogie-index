@@ -130,6 +130,14 @@ def arrondissement_history(periods):
     return history
 
 
+def parish_period(description, number):
+    reference = rf"\[\s*{re.escape(number)}\s*\]"
+    if len(re.findall(reference, description)) != 1:
+        return None, None
+    match = re.search(rf"{reference}\s*(\d{{4}})\s*-\s*(\d{{4}})\s*(?=$|[;,.])", description)
+    return (int(match[1]), int(match[2])) if match else (None, None)
+
+
 def localities_from_note(note):
     localities = []
     lines = [line.strip() for line in (note or "").splitlines() if line.strip()]

@@ -1,0 +1,64 @@
+[
+ {
+  "slug": "sa-653811",
+  "parent": null,
+  "text": "SB 268/4 Arzier (arrondissement de l'état civil), 1882-1935 (Sous-fonds)",
+  "children": [
+   "sa-680333",
+   "sa-680334"
+  ],
+  "f": {
+   "Ref. code": "SB 268/4",
+   "Title": "Arzier (arrondissement de l'état civil)",
+   "Dates": "1876-1936",
+   "Creation date(s)": "1882 - 1935",
+   "Level": "Sous-fonds",
+   "Importance matérielle": "2 registres",
+   "Access regulations": "Seules les promesses de mariage de plus de 80 ans sont consultables librement. Pour les promesses de mariage postérieures une autorisation écrite est nécessaire.",
+   "Language": "Français",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 24 janvier 1936 et rattaché à l'arrondissement de Begnins dès le 1er février 1936.",
+   "Entries": "Arzier-Le Muids (Suisse, VD) (Lieux\\A)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=653811",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680333",
+  "parent": "sa-653811",
+  "text": "SB 268/4/1 Registre de publications de promesses de mariage, 1882-1913 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/4/1",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1882 novembre 9 - 1913 octobre 15",
+   "Creation date(s)": "1882 - 1913",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 117 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1882 novembre 9 - 1913 octobre 15).\nRegistre clôturé le 31 décembre 1913 par ordre du Département de justice et police (DJP).",
+   "Access regulations": "Libre",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680333",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-680334",
+  "parent": "sa-653811",
+  "text": "SB 268/4/2 Registre de publications de promesses de mariage, 1914-1935 (Pièce)",
+  "f": {
+   "Ref. code": "SB 268/4/2",
+   "Title": "Registre de publications de promesses de mariage",
+   "Dates": "1914 octobre 28 - 1935 octobre 25",
+   "Creation date(s)": "1914 - 1935",
+   "Level": "Pièce",
+   "Importance matérielle": "1 volume comprenant 75 pages utiles sur 200 et 1 répertoire non paginé",
+   "Content": "- Publications (1914 octobre 28 - 1935 octobre 25).",
+   "Access regulations": "Seules les promesses de mariage de plus de 80 ans sont consultables sans autorisation.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=680334",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

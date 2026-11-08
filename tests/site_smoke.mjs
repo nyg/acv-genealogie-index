@@ -103,6 +103,18 @@ const cases = [
   ["Bussigny-près-Lausanne", "mariage", "1952", "SB 115/1194"],
   ["Bussigny-près-Lausanne", "deces", "1950", "SB 115/916"],
   ["Villars-Sainte-Croix", "deces", "1890", "SB 23/636"],
+  ["Arzier", "naissance", "1787", "Eb 5/1"],
+  ["Arzier", "deces", "1787", "Eb 5/1"],
+  ["Arzier", "deces", "1837", "Ed 5/4"],
+  ["Arzier", "mariage", "1880", "SB 269/4/2/1"],
+  ["Arzier", "deces", "1888", "SB 23/761"],
+  ["Arzier", "naissance", "1850", "Ec 5/1"],
+  ["Arzier", "naissance", "1847", "Ed 58/1"],
+  ["Arzier", "deces", "1950", "SB 267/10/3/7"],
+  ["Genolier", "naissance", "1840", "Ed 58/1"],
+  ["Begnins", "naissance", "1800", "Eb 12/4"],
+  ["Begnins", "mariage", "1850", "Ed 12/3"],
+  ["Begnins", "deces", "1890", "SB 23/772"],
 ];
 let failures = 0;
 for (const [place, kind, date, expected] of cases) {
@@ -199,6 +211,10 @@ console.log(`${familyNote ? "ok  " : "FAIL"} Ollon / naissance / 1932 → notice
 const consultable = aigle1950.answers.includes("Librement consultable en entier dès 2038, 80 ans après ses derniers actes.") && !search("Aigle", "mariage", "1900").answers.includes("Librement consultable en entier");
 failures += consultable ? 0 : 1;
 console.log(`${consultable ? "ok  " : "FAIL"} Aigle / mariage / 1950 → SB 267/2/2/13 librement consultable en entier dès 2038, rien pour 1900`);
+
+const annexBounded = search("Arzier", "deces", "1847").cotes.includes("Ed 58/4") && !search("Arzier", "deces", "1837").cotes.includes("Ed 58/4");
+failures += annexBounded ? 0 : 1;
+console.log(`${annexBounded ? "ok  " : "FAIL"} Arzier / deces → Ed 58/4 de Genolier en 1847, pas en 1837 (annexe de Genolier 1846-1849)`);
 
 const dataJson = JSON.parse(readFileSync(new URL("../docs/data.json", import.meta.url), "utf8"));
 const published = dataJson.generatedAt === site.DATA.generatedAt && dataJson.units.length === site.DATA.units.length;

@@ -1,0 +1,200 @@
+[
+ {
+  "slug": "sb-267-4",
+  "parent": null,
+  "children": [
+   "sb-267-4-1",
+   "sb-267-4-2",
+   "sb-267-4-3",
+   "sb-267-4-4-fantome",
+   "sb-267-4-5-fantome"
+  ],
+  "f": {
+   "Cote": "SB 267/4",
+   "Titre": "Arzier (arrondissement de l'état civil)",
+   "Date(s)": "1876 - 1936 (Création)",
+   "Niveau de description": "Sous-fonds",
+   "Étendue matérielle et support": "7 registres",
+   "Unités de description associées": "Pièces justificatives:\nSB 23/760-762\nSB 23/1907-1909\nSB 115/952\nSB 115/388\nRegistres de publications de promesses de mariage:\nSB 268/4",
+   "Note": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 24 janvier 1936 et rattaché à l'arrondissement de Begnins dès le 1er février 1936."
+  }
+ },
+ {
+  "slug": "sb-267-4-1",
+  "parent": "sb-267-4",
+  "type": "Series",
+  "children": [
+   "sb-267-4-1-1",
+   "sb-267-4-1-2"
+  ],
+  "f": {
+   "Cote": "SB 267/4/1",
+   "Titre": "Registres des naissances",
+   "Date(s)": "1876 - 1935 (Création)",
+   "Niveau de description": "Série",
+   "Étendue matérielle et support": "2 registres"
+  }
+ },
+ {
+  "slug": "sb-267-4-2",
+  "parent": "sb-267-4",
+  "type": "Series",
+  "children": [
+   "sb-267-4-2-1",
+   "sb-267-4-2-2",
+   "sb-267-4-2-3"
+  ],
+  "f": {
+   "Cote": "SB 267/4/2",
+   "Titre": "Registres des mariages",
+   "Date(s)": "1876 - 1935 (Création)",
+   "Niveau de description": "Série",
+   "Étendue matérielle et support": "3 registres"
+  }
+ },
+ {
+  "slug": "sb-267-4-3",
+  "parent": "sb-267-4",
+  "type": "Series",
+  "children": [
+   "sb-267-4-3-1",
+   "sb-267-4-3-2"
+  ],
+  "f": {
+   "Cote": "SB 267/4/3",
+   "Titre": "Registres des décès",
+   "Date(s)": "1876 - 1935 (Création)",
+   "Niveau de description": "Série",
+   "Étendue matérielle et support": "2 registres"
+  }
+ },
+ {
+  "slug": "sb-267-4-4-fantome",
+  "parent": "sb-267-4",
+  "type": "Series",
+  "f": {
+   "Cote": "SB 267/4/4 FANTOME",
+   "Titre": "Registre(s) des reconnaissances d'enfant naturel",
+   "Date(s)": "1928 - 1936 (Création)",
+   "Niveau de description": "Série",
+   "Étendue matérielle et support": "*",
+   "Portée et contenu": "Aucun registre des reconnaissances d'enfant naturel n'est conservé ni attesté pour l'arrondissement d'Arzier."
+  }
+ },
+ {
+  "slug": "sb-267-4-5-fantome",
+  "parent": "sb-267-4",
+  "type": "Series",
+  "f": {
+   "Cote": "SB 267/4/5 FANTOME",
+   "Titre": "Registre(s) des légitimations par mariage subséquent des parents",
+   "Date(s)": "1912 - 1936 (Création)",
+   "Niveau de description": "Série",
+   "Étendue matérielle et support": "*",
+   "Portée et contenu": "Aucun registre des légitimations par mariage subséquent des parents n'est conservé ni attesté pour l'arrondissement d'Arzier."
+  }
+ },
+ {
+  "slug": "sb-267-4-1-1",
+  "parent": "sb-267-4-1",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/4/1/1",
+   "Titre": "Registre des naissances",
+   "Date(s)": "1876 - 1910 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 200 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-4-1-1.pdf",
+   "Taille du fichier": "24 MiB"
+  },
+  "pdf": "4/7/c/47c6894fd58134e8b6bf35461e78160ff96a38c3661c43d2ad17de22238fee5c/CH-ACV_SB-267-4-1-1.pdf"
+ },
+ {
+  "slug": "sb-267-4-1-2",
+  "parent": "sb-267-4-1",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/4/1/2",
+   "Titre": "Registre des naissances",
+   "Date(s)": "1910 - 1935 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 77 pages utiles et 1 répertoire",
+   "Portée et contenu": "76 pages remplies sur 200."
+  }
+ },
+ {
+  "slug": "sb-267-4-2-1",
+  "parent": "sb-267-4-2",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/4/2/1",
+   "Titre": "Registre des mariages",
+   "Date(s)": "1876 - 1913 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 108 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-4-2-1.pdf",
+   "Taille du fichier": "19.3 MiB"
+  },
+  "pdf": "9/b/d/9bd149edde0993bc3ceebb3b29665c56ad2a568778f8bfc4c3bce05b45d6b7b3/CH-ACV_SB-267-4-2-1.pdf"
+ },
+ {
+  "slug": "sb-267-4-2-2",
+  "parent": "sb-267-4-2",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/4/2/2",
+   "Titre": "Registre des mariages",
+   "Date(s)": "1915 - 1928 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 46 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-4-2-2.pdf",
+   "Taille du fichier": "35.8 MiB"
+  },
+  "pdf": "6/5/c/65cdc373af3dd57957ddcae0160598a8af2500fbec7ff7e61def6111c6eae153/CH-ACV_SB-267-4-2-2.pdf"
+ },
+ {
+  "slug": "sb-267-4-2-3",
+  "parent": "sb-267-4-2",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/4/2/3",
+   "Titre": "Registre des mariages",
+   "Date(s)": "1929 - 1935 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 21 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-4-2-3.pdf",
+   "Taille du fichier": "533.3 KiB"
+  },
+  "pdf": "d/8/e/d8e46e998dbdfc61f326eb388e484ec950685baabc5b2cb5915daa74bcb9f2ec/CH-ACV_SB-267-4-2-3.pdf"
+ },
+ {
+  "slug": "sb-267-4-3-1",
+  "parent": "sb-267-4-3",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/4/3/1",
+   "Titre": "Registre des décès",
+   "Date(s)": "1876 - 1920 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 198 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-4-3-1.pdf",
+   "Taille du fichier": "32.7 MiB"
+  },
+  "pdf": "7/c/7/7c736d31a8e06f6b058ab79c24e7d36953cd3a5e3c0a01ac19651bfa06673799/CH-ACV_SB-267-4-3-1.pdf"
+ },
+ {
+  "slug": "sb-267-4-3-2",
+  "parent": "sb-267-4-3",
+  "type": "Item",
+  "f": {
+   "Cote": "SB 267/4/3/2",
+   "Titre": "Registre des décès",
+   "Date(s)": "1921 - 1935 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre comprenant 29 pages utiles et 1 répertoire",
+   "Nom du fichier": "CH-ACV_SB-267-4-3-2.pdf",
+   "Taille du fichier": "10.1 MiB"
+  },
+  "pdf": "5/a/8/5a856d27ade56acf26221d2a513c4e3c2a6c0fdd49032775d682714d6b015ef7/CH-ACV_SB-267-4-3-2.pdf"
+ }
+]

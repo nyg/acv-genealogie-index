@@ -3,7 +3,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "build"))
 
-from places import corrected_entries, parish_name_mismatches, repair_parish_names, spelling_key  # noqa: E402
+from places import corrected_entries, parish_name_mismatches, parish_period, repair_parish_names, spelling_key  # noqa: E402
 
 PARISHES = {
     "1": ["L'Abbaye"], "7": ["Assens (catholique)"], "8": ["Aubonne"], "12": ["Begnins"], "25": ["Cheseaux"], "39": ["Les Croisettes"],
@@ -140,3 +140,27 @@ def test_a_correction_restores_an_entry_the_parser_merged_into_the_line_above():
 
     # Then
     assert entries == [{"locality": "Villy (Ollon)", "description": "Ollon [92]", "parishes": ["92"]}, vincy]
+
+
+def test_a_parish_cited_for_a_closed_period_is_bounded_to_it():
+    # When
+    periods = [parish_period("Arzier [5] ; annexe de Genolier[58] 1846-1849", number) for number in ("5", "58")]
+
+    # Then
+    assert periods == [(None, None), (1846, 1849)]
+
+
+def test_a_period_followed_by_another_one_leaves_the_parish_unbounded():
+    # When
+    period = parish_period("Mézières [79], puis Syens [89] 1842-1846 et dès 1864", "89")
+
+    # Then
+    assert period == (None, None)
+
+
+def test_a_parish_cited_twice_is_left_unbounded():
+    # When
+    period = parish_period("Cronay [40]; Orzens (Cronay) [40] 1846-1863", "40")
+
+    # Then
+    assert period == (None, None)

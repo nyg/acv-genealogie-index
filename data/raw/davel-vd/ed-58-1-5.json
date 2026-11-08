@@ -1,0 +1,111 @@
+[
+ {
+  "slug": "ed-58-1-5",
+  "parent": null,
+  "children": [
+   "ed-58-1",
+   "ed-58-2",
+   "ed-58-3",
+   "ed-58-4",
+   "ed-58-5"
+  ],
+  "f": {
+   "Cote": "Ed 58/1-5",
+   "Titre": "Paroisse réformée de Genolier.",
+   "Date(s)": "1821-10-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Genolier :\nParoisse médiévale, annexe de Vich jusqu'en 1834, puis de Duillier jusqu'en 1840.\nÉrigée alors en paroisse.\nRegistres avec Prangins en Ed 108 avant 1834, d'après recherches, puis dès 1835.\nCatéchumènes avec Prangins 1736-1850 !\nRegistres dès 1835.\nComprend : Givrins.\nAnnexes : Duillier (dès 1840), Arzier-Le Muids 1846-1849."
+  }
+ },
+ {
+  "slug": "ed-58-1",
+  "parent": "ed-58-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 58/1",
+   "Titre": "Registre de naissances 1835-1859.",
+   "Date(s)": "1835-10-01 - 1859-06-02 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,7 x 41",
+   "Portée et contenu": "Naissances (1835 octobre 1 - 1859 juin 2);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1859 juin 2).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 58/1 (microfilm: RMS 1/1.044.818, numérique: RN-ED-58-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.818",
+   "Nom du fichier": "CH-ACV_RN-ED-58-1.pdf",
+   "Taille du fichier": "414.5 MiB"
+  },
+  "pdf": "8/d/c/8dc7fffc70ad71deaa06e90febfca69075ad154f5d21b9e50bc03c5f55499e00/CH-ACV_RN-ED-58-1.pdf"
+ },
+ {
+  "slug": "ed-58-2",
+  "parent": "ed-58-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 58/2",
+   "Titre": "Registre de naissances 1859-1875.",
+   "Date(s)": "1859-06-20 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,3 x 41 x 3",
+   "Portée et contenu": "Naissances (1859 juin 20 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1859 juin 20 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 58/2 (microfilm: RMS 1/1.044.818, numérique: RN-ED-58-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.818",
+   "Nom du fichier": "CH-ACV_RN-ED-58-2.pdf",
+   "Taille du fichier": "276.9 MiB"
+  },
+  "pdf": "7/3/1/731cb258b8b2b6e1b07e7de76d7d387be00deabbea9409e7fa9cf0768355e27d/CH-ACV_RN-ED-58-2.pdf"
+ },
+ {
+  "slug": "ed-58-3",
+  "parent": "ed-58-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 58/3",
+   "Titre": "Registre de mariages 1835-1875.",
+   "Date(s)": "1835-10-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,2 x 41,3 / 28,2 x 39,2 (répertoire)",
+   "Portée et contenu": "Mariages (1835 octobre 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 58/3 (microfilm: RMS 1/1.044.818, numérique: RN-ED-58-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.818",
+   "Nom du fichier": "CH-ACV_RN-ED-58-3.pdf",
+   "Taille du fichier": "322 MiB"
+  },
+  "pdf": "2/d/1/2d1b4579304541eed789acf405a833cc84b4de93929b24975fbeab1680ff93a1/CH-ACV_RN-ED-58-3.pdf"
+ },
+ {
+  "slug": "ed-58-4",
+  "parent": "ed-58-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 58/4",
+   "Titre": "Registre de décès 1831-1875.",
+   "Date(s)": "1835-01-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,3 x 41,3 / 27,3 x 38,6 (répertoire)",
+   "Portée et contenu": "Décès (1835 octobre 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé Ed 58/4 (microfilm: RMS 1/1.044.818, numérique: RN-ED-58-4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.818",
+   "Nom du fichier": "CH-ACV_RN-ED-58-4.pdf",
+   "Taille du fichier": "422.4 MiB"
+  },
+  "pdf": "6/b/8/6b8fd680f81c4378fc4ddfe394faf9fca5cbe06d2a3a1a4e74dd3b28150bb181/CH-ACV_RN-ED-58-4.pdf"
+ },
+ {
+  "slug": "ed-58-5",
+  "parent": "ed-58-1-5",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 58/5",
+   "Titre": "Registre d'annonces de mariage 1875-1875.",
+   "Date(s)": "1875-01-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29 x 38",
+   "Portée et contenu": "Annonces de mariage (1875 janvier 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 58/5 (microfilm: RM 22001.8, numérique: RN-ED-58-5), pages manuscrites, non datées",
+   "Note": "Série de pages blanches, de la page 8 jusqu'au répertoire.",
+   "Cote de gestion": "RM 22001.8",
+   "Nom du fichier": "CH-ACV_RN-ED-58-5.pdf",
+   "Taille du fichier": "60.2 MiB"
+  },
+  "pdf": "6/e/d/6edc63f774cca090fec2785caea3dfefaefb1b52ce39403aedc0d8927b6c47b5/CH-ACV_RN-ED-58-5.pdf"
+ }
+]

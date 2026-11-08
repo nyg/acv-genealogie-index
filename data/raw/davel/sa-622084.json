@@ -1,0 +1,81 @@
+[
+ {
+  "slug": "sa-622084",
+  "parent": null,
+  "text": "SB 115/953-955 Begnins (arrondissement de l'état civil), 1929-1950 (Série)",
+  "children": [
+   "sa-622748",
+   "sa-622803",
+   "sa-622804"
+  ],
+  "f": {
+   "Ref. code": "SB 115/953-955",
+   "Title": "Begnins (arrondissement de l'état civil)",
+   "Dates": "1929-1950",
+   "Creation date(s)": "1929 - 1950",
+   "Level": "Série",
+   "Importance matérielle": "3 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement de Nyon dès le 1er juin 2004.\nComprend:\n- Begnins\n- Bassins\n- Coinsins\n- Genolier\n- Gland\n- Le Vaud\n- Vich.\nAdjonction de l'arrondissement d':\n- Arzier en 1936",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=622084",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-622748",
+  "parent": "sa-622084",
+  "text": "SB 115/953 - Mariages 1929-1937 \\ - Publications de promesses de mariage 1929-1937 \\ - Pièces diverses relatives à l'état civil 1929-1937: principalement constatations de décès, divorces, rectifications de nom, 1929-1937 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/953",
+   "Title": "- Mariages 1929-1937\n- Publications de promesses de mariage 1929-1937\n- Pièces diverses relatives à l'état civil 1929-1937: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1929-1937",
+   "Creation date(s)": "1929 - 1937",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=622748",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-622803",
+  "parent": "sa-622084",
+  "text": "SB 115/954 - Mariages 1938-1944 \\ - Publications de promesses de mariage 1938-1944 \\ - Pièces diverses relatives à l'état civil 1938, 1941-1944: principalement constatations de décès, divorces, rectifications de nom, 1938-1944 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/954",
+   "Title": "- Mariages 1938-1944\n- Publications de promesses de mariage 1938-1944\n- Pièces diverses relatives à l'état civil 1938, 1941-1944: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1938-1944",
+   "Creation date(s)": "1938 - 1944",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=622803",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-622804",
+  "parent": "sa-622084",
+  "text": "SB 115/955 - Mariages 1945-1950 \\ - Publications de promesses de mariage 1945-1950 \\ - Pièces diverses relatives à l'état civil 1945-1950: principalement constatations de décès, divorces, rectifications de nom, 1945-1950 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/955",
+   "Title": "- Mariages 1945-1950\n- Publications de promesses de mariage 1945-1950\n- Pièces diverses relatives à l'état civil 1945-1950: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1945-1950",
+   "Creation date(s)": "1945 - 1950",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=622804",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

@@ -252,7 +252,7 @@ const PROMISE_MONTHS = 6;
 const PROTECTION_YEARS = { naissance: 110, mariage: 80, deces: 50 };
 const LAST_OUT_OF_DISTRICT_YEAR = 1928;
 
-const state = { placeIds: [], placeSince: new Map(), placeLabel: "", kind: "naissance", query: null };
+const state = { placeIds: [], placePeriods: new Map(), placeLabel: "", kind: "naissance", query: null };
 
 const placesById = new Map(DATA.places.map(place => [place.id, place]));
 const unitsBySlug = new Map(DATA.units.map(unit => [unit.slug, unit]));
@@ -269,19 +269,24 @@ const escapeHtml = text => String(text ?? "").replace(/[&<>"]/g, char => ({ "&":
 const fondsClass = fonds => FONDS_CLASS[fonds] ?? "PJ";
 const fondsColor = fonds => `var(--${{ Eb: "eb", Ed: "ed", SB: "sb", SB268: "sb268", SB269: "sb269", PJ: "pj" }[fondsClass(fonds)]})`;
 
+const widenPeriod = (period, since, until) => period
+  ? { since: period.since && since ? Math.min(period.since, since) : null, until: period.until && until ? Math.max(period.until, until) : null }
+  : { since, until };
+const inPeriod = (period, year) => !period || ((!period.since || year >= period.since) && (!period.until || year <= period.until));
+
 function buildSuggestionIndex() {
   const entries = new Map();
-  const add = (name, placeId, via, since = null) => {
+  const add = (name, placeId, via, since = null, until = null) => {
     const key = normalize(name);
-    if (!entries.has(key)) entries.set(key, { name, key, targets: new Map(), since: new Map() });
+    if (!entries.has(key)) entries.set(key, { name, key, targets: new Map(), periods: new Map() });
     const entry = entries.get(key);
     if (!entry.targets.has(placeId) || !via) entry.targets.set(placeId, via);
-    entry.since.set(placeId, entry.since.has(placeId) && (!entry.since.get(placeId) || !since) ? null : since);
+    entry.periods.set(placeId, widenPeriod(entry.periods.get(placeId), since, until));
   };
   for (const place of DATA.places) {
     add(place.name, place.id, "");
     place.aliases.forEach(alias => add(alias, place.id, ""));
-    place.localities.forEach(locality => [locality.name, ...(locality.aliases ?? [])].forEach(name => add(name, place.id, locality.qualifier || "localité rattachée", locality.since)));
+    place.localities.forEach(locality => [locality.name, ...(locality.aliases ?? [])].forEach(name => add(name, place.id, locality.qualifier || "localité rattachée", locality.since, locality.until)));
   }
   return [...entries.values()];
 }
@@ -370,9 +375,9 @@ const searchStart = (segment, kind, query) => kind === "mariage" && isPromiseOnl
 
 const entryPlaceIds = entry => [...entry.targets.keys()].sort((a, b) => (placesById.get(a).kind === "paroisse" ? 0 : 1) - (placesById.get(b).kind === "paroisse" ? 0 : 1));
 
-function findRegisters(placeIds, placeSince, kind, query) {
+function findRegisters(placeIds, placePeriods, kind, query) {
   const segments = placeIds
-    .filter(id => !query || !placeSince.get(id) || query.year >= placeSince.get(id))
+    .filter(id => !query || inPeriod(placePeriods.get(id), query.year))
     .flatMap(id => segmentsByPlace.get(id) ?? [])
     .filter(segment => kindMatches(segment, kind));
   const inQuery = query ? segments.filter(s => overlaps(s, searchStart(s, kind, query), query.end)) : [...segments];
@@ -602,7 +607,7 @@ function render() {
     return;
   }
   const query = state.query && !state.query.error ? state.query : null;
-  const found = findRegisters(state.placeIds, state.placeSince, state.kind, query);
+  const found = findRegisters(state.placeIds, state.placePeriods, state.kind, query);
   const { segments, registers, justificatives, near } = found;
   const kindLabel = KINDS.find(k => k.id === state.kind).label.toLowerCase();
   const justificativeGroup = list => list.length
@@ -652,7 +657,7 @@ function renderPlaceCard() {
 function selectEntry(entry) {
   state.placeIds = entryPlaceIds(entry);
   state.placeLabel = entry.name;
-  state.placeSince = entry.since;
+  state.placePeriods = entry.periods;
   document.getElementById("place-input").value = entry.name;
   const via = [...entry.targets.entries()].filter(([, v]) => v).map(([id, v]) => `${placesById.get(id).name} (${v})`);
   document.getElementById("place-hint").textContent = via.length ? `Rattaché à : ${via.join(" ; ")}` : "";
