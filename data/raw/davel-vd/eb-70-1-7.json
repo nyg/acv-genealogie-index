@@ -1,0 +1,152 @@
+[
+ {
+  "slug": "eb-70-1-7",
+  "parent": null,
+  "children": [
+   "eb-70-1",
+   "eb-70-2",
+   "eb-70-3",
+   "eb-70-4",
+   "eb-70-5",
+   "eb-70-6",
+   "eb-70-7"
+  ],
+  "f": {
+   "Cote": "Eb 70/1-7",
+   "Titre": "Registres de la paroisse réformée de La Sarraz et de la commune d'Eclépens",
+   "Date(s)": "1641-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de La Sarraz :\nChapelle médiévale dépendant de la paroisse d'Orny. A la Réformation, les paroisses d'Eclépens, d'Orny et de Saint-Didier furent supprimées et remplacées par celle de La Sarraz.\nRegistres dès 1641.\nComprend : Ferreyres, Pompaples, Villars-Lussery. Annexes : Eclépens, avec registre propre 1799-1805 ; Orny."
+  }
+ },
+ {
+  "slug": "eb-70-1",
+  "parent": "eb-70-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 70/1",
+   "Titre": "Paroisse réformée de La Sarraz",
+   "Date(s)": "1641-01-01 - 1717-11-21 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 3 parties\nFormat LxH(cm): 17,7 x 26,6 x 3",
+   "Portée et contenu": "Baptêmes (1641 janvier 1 - 1644 février 8; 1645 juin 29 - 1667 décembre 16; 1672 mars 10 - 1717 novembre 21), avec lacunes, pp. 1-283;\nCatéchumènes (tête-bêche) (1705 et 1715 - 1717), pp.tête-bêche 288-289;\nMariages (1650 avril 29 - 1659 mars 30; 1690 novembre 29 - 1714 mars 23), avec lacunes, pp. 291-324.\nDescription au fil des pages\nPartie 1\nPages 1-283: Baptêmes.\nPages 5-8: pages rongées : plusieurs inscriptions manquent.\nLes pages 9-10 (Baptêmes 1643 Nos 3-21), 13-16 (Baptêmes 1644 Nos 6 à fin et Baptêmes 1645 Nos 1-16) manquent.\nLes pages 75-82 manquent ce qui correspond à la lacune qui suit.\nLacune: Baptêmes: 1667 décembre 16 - 1672 mars 10.\nPagination anormale entre les pages 186 et 191, deux pages manquent (187-188) ce qui correspond à la lacune qui suit.\nLacune: Baptêmes: 1700 octobre 22 - 1701 février 9.\nLes pages 284-287 sont blanches.\nPartie 2\nPages tête-bêche 288-289, à la suite mais tête-bêche: Catéchumènes.\nLa page 290 est blanche.\nPartie 3\nPages 291-324: Mariages.\n*Pages 291-294: Mariages1650-1659.\nPas de mariage en 1657(page 293).\nLacune: Mariages: 1659 mars 30 - 1690 novembre 29.\nPages 295-324: Mariages 1690-1714.\nPages 297-298: bordure déchirée, partie du texte manquant.",
+   "Instruments de recherche": "Sans répertoire correspondant, hormis la liste alphabétique chronologique des enfants baptisés dans la paroisse (environ 1641-1787) portant la cote Eb 70/3.",
+   "Note": "Pages 5-8 rongées: plusieurs inscriptions manquent.\nPages 30-32 et page de garde fragiles.\nPages 287-297 consolidées.",
+   "Cote de gestion": "RMS 1/128.679",
+   "Nom du fichier": "CH-ACV_RN-EB-70-1.pdf",
+   "Taille du fichier": "217.7 MiB"
+  },
+  "pdf": "a/e/b/aeb30b198000b9e64385a9b0326e006a5103497a1f1be4aa9f96d6956f185c1e/CH-ACV_RN-EB-70-1.pdf"
+ },
+ {
+  "slug": "eb-70-2",
+  "parent": "eb-70-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 70/2",
+   "Titre": "Paroisse réformée de La Sarraz",
+   "Date(s)": "1718-01-12 - 1774-09-29 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 4 parties\nFormat LxH(cm): 24 x 36,5",
+   "Portée et contenu": "Baptêmes (1718 février 6 - 1762 décembre 10), pp. 0-184;\n*- Interfolio entre pp. 90 et 91;\nCatéchumènes (1718 - 1762); avec une note de 1763 et un extrait daté du 29 septembre 1774, pp. 187-217;\nMariages et Annonces de mariage (1718 janvier 12 - 1762 novembre 21), pp. 247-280;\nDécès (tête-bêche) (1728 janvier 26 - 1762 décembre 20), pp.tête-bêche 3-57.\n2 paginations.\nDescription au fil des pages\nPartie 1\nPages non numérotées: page de titre suivie de 4 pages blanches, puis d'une page sur la répartition des frais pour la réparation de la cure de La Sarraz (s.d. [18e siècle])\nPages 1-184: Baptêmes.\nLes pages 185-186 sont blanches.\nPartie 2\nPages 187-217: Catéchumènes.\nPages 218-246: série de pages blanches.\nPartie 3\nPages 247-280: Mariages et annonces de mariage\nPages 281-293: série de pages blanches.\nPartie 4\nTête-bêche pages 3-57: Décès.\nPage 3: copie d'un mandat de LL.EE. de Berne relatif à l'inscription des personnes qui naissent et décédent dans leur commune (sic) et la tenue de ces registres (1727 décembre 26).",
+   "Instruments de recherche": "Sans répertoire correspondant, hormis la liste alphabétique chronologique des enfants baptisés dans la paroisse (environ 1641-1787) portant la cote Eb 70/3.",
+   "Note": "Série de pages blanches, de la page 218 jusqu'aux mariages.\nSérie de pages blanches, de la page 281 jusqu'aux décès tête-bêche.",
+   "Cote de gestion": "RMS 1/128.679",
+   "Nom du fichier": "CH-ACV_RN-EB-70-2.pdf",
+   "Taille du fichier": "392.5 MiB"
+  },
+  "pdf": "e/5/e/e5e47496a27cf84e262eff1464786a49fd2f47ab431f4f71fc2c470c8c045abb/CH-ACV_RN-EB-70-2.pdf"
+ },
+ {
+  "slug": "eb-70-3",
+  "parent": "eb-70-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 70/3",
+   "Titre": "Paroisse réformée de La Sarraz",
+   "Date(s)": "1641 - 1787 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 23,8 x 36,5",
+   "Portée et contenu": "Listes des enfants baptisés dans la paroisse entre environ 1641 et 1787.\nPartie 1.\nPages 3-361: liste des enfants bourgeois des communes de la paroisse de La Sarraz - soit des communes de La Sarraz, Eclépens, Pompaples, Orny, Ferreyres et Villars-Lussery - baptisés entre environ 1641 et 1787, regroupés alphabétiquement par famille bourgeoise, puis ordonnés chronologiquement. Les informations suivantes sont retenues: A) nom de famille; B) prénom(s); C) nom, prénom(s) ou titre(s) du père; D) parfois nom et prénom(s) de la mère; E) lieu d'origine; F) date (jour, mois, an) du baptême.\nPages 16 bis: \"Mariage des Bergers d'Eclépens\" (1658 janvier - 1736 mars 6).\nPartie 2.\nPages 365-385: liste des enfants étrangers (sic), baptisés entre 1691 mars 8 et 1787 décembre 28, ordonnés chronologiquement. Les informations suivantes sont retenues: A) nom de famille; B) prénom(s); C) prénom(s), titre(s) ou métier(s) du père; D) plus rarement, sauf s'il s'agit d'un enfant illégitime, nom et prénom(s) de la mère; E) lieu d'origine ou de domicile; F) date (jour, mois, an) du baptême.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Feuille volante: page 16bis.\nPages 185-188 découpées.\nPages 191-194 détachées.",
+   "Cote de gestion": "RMS 1/128.679",
+   "Nom du fichier": "CH-ACV_RN-EB-70-3.pdf",
+   "Taille du fichier": "358.7 MiB"
+  },
+  "pdf": "6/2/5/625c0b1371c14b73e5338bf530f97f17d979f989f7304f56804c9ab315cd3879/CH-ACV_RN-EB-70-3.pdf"
+ },
+ {
+  "slug": "eb-70-4",
+  "parent": "eb-70-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 70/4",
+   "Titre": "Paroisse réformée de La Sarraz",
+   "Date(s)": "1763-01-16 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 18,1 x 23",
+   "Portée et contenu": "Mariages et Annonces de mariage (1763 janvier 16 - 1821 juin 30), pages 0a-307.\n*- Page 0a et 0b, au début du registre: copie du mandat baillival du 22 février 1780 relatif aux mariages des bourgeois ou habitant perpétuels de Berne.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.679",
+   "Nom du fichier": "CH-ACV_RN-EB-70-4.pdf",
+   "Taille du fichier": "197.3 MiB"
+  },
+  "pdf": "6/c/1/6c126dfc1ab717a0ad89c5ee6d15464ecd0666a5a041d1f88273d5efba112797/CH-ACV_RN-EB-70-4.pdf"
+ },
+ {
+  "slug": "eb-70-5",
+  "parent": "eb-70-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 70/5",
+   "Titre": "Paroisse réformée de La Sarraz",
+   "Date(s)": "1763-01-05 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 17,6 x 22,6",
+   "Portée et contenu": "Décès (1763 janvier 5 - 1821 juin 30), pp. 1-208.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.680",
+   "Nom du fichier": "CH-ACV_RN-EB-70-5.pdf",
+   "Taille du fichier": "125.6 MiB"
+  },
+  "pdf": "e/d/c/edc6744a152fba9b5a7aeedd53c13608b277c8288633a1c0d5d5f238848a45a6/CH-ACV_RN-EB-70-5.pdf"
+ },
+ {
+  "slug": "eb-70-6",
+  "parent": "eb-70-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 70/6",
+   "Titre": "Paroisse réformée de La Sarraz",
+   "Date(s)": "1763-01-01 - 1823-10-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 25 x 37,5",
+   "Portée et contenu": "Baptêmes (1763 janvier 1 - 1823 octobre 31), pp. 0-384.\nDescription au fil des pages\nPages 1-381;: Baptêmes.\nPages 382-384: enregistrement de baptêmes célébrés en dehors de la paroisse (1804 mai 6 - 1823 octobre 31), copies faites en 1822 et 1823).",
+   "Instruments de recherche": "Sans répertoire correspondant hormis la liste alphabétique chronologique des enfants baptisés dans la paroisse (environ 1641-1787) portant la cote Eb 70/3.",
+   "Cote de gestion": "RMS 1/128.680",
+   "Nom du fichier": "CH-ACV_RN-EB-70-6.pdf",
+   "Taille du fichier": "498.1 MiB"
+  },
+  "pdf": "e/6/e/e6e5b5f337286a2e3b64c170197b542d84010d4d7f23225e12bc54f9a432fb90/CH-ACV_RN-EB-70-6.pdf"
+ },
+ {
+  "slug": "eb-70-7",
+  "parent": "eb-70-1-7",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 70/7",
+   "Titre": "Commune d'Eclépens",
+   "Date(s)": "1799-07-26 - 1805-08-11 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 4 parties\nFormat LxH(cm): 25,2 x 39,8",
+   "Portée et contenu": "Baptêmes (1799 août 11 - 1805 août 11), pp. 0-13;\nMariages (1799 juillet 26 - 1804 décembre 31), pp. 1-3;\nDécès (1799 juillet 9 - 1805 avril 29), pp. 1-6;\nHomologations (tête-bêche) des testaments et déclarations par la Municipalité d'Eclépens (1800 mars 26 - 1803 juillet 21), pp.tête-bêche 0-9.\n4 paginations.\nPartie 1\nPage non numérotée de titre: \"Registre de la Municipalite d'Eclépens Contenant les Baptêmes Mariages et Morts de Cette Commune Commencé le 26 Juillet 1799 Par Abram Louis Ogiz Greffier Municipal\".\nPage 1-13: Baptêmes.\nUne série de page blanches jusqu'à la partie suivante.\nPartie 2\nPage 1-3: Mariages.\nUne série de page blanches jusqu'à la partie suivante.\nPartie 3\nPage 1-6: Décès.\nUne série de page blanches jusqu'à la partie suivante en tête-bêche.\nPartie 4\nTête-bêche page non numérotée de titre: \"Emologation des Testaments et Déclarations Faite Par la Municipalité d'Eclepens\".\nPages 0-9: Homologations des testaments et déclarations.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Séries pages blanches, de la page 14, après les baptêmes, jusqu'aux mariages, de la page 3 des mariages jusqu'aux décès, de la page 6 des décès jusqu'aux homologations tête-bêche.",
+   "Cote de gestion": "RMS 1/128.680",
+   "Nom du fichier": "CH-ACV_RN-EB-70-7.pdf",
+   "Taille du fichier": "46.6 MiB"
+  },
+  "pdf": "2/7/3/27326897224838e56b550fac7ccb944df6a19f2838188c181736266a4618591c/CH-ACV_RN-EB-70-7.pdf"
+ }
+]

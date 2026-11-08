@@ -1,0 +1,123 @@
+[
+ {
+  "slug": "sa-178357",
+  "parent": null,
+  "text": "Ec 70/1-5 Paroisse réformée de La Sarraz., 1813-1869 (Série)",
+  "children": [
+   "sa-178358",
+   "sa-178359",
+   "sa-178360",
+   "sa-178361",
+   "sa-178362"
+  ],
+  "f": {
+   "Ref. code": "Ec 70/1-5",
+   "Title": "Paroisse réformée de La Sarraz.",
+   "Dates": "1813-1869",
+   "Creation date(s)": "1813 - 1869",
+   "Level": "Série",
+   "Importance matérielle": "5 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178357",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178358",
+  "parent": "sa-178357",
+  "text": "Ec 70/1 - Mariages 1821-1840., 1821.01.01-1840.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 70/1",
+   "Title": "- Mariages 1821-1840.",
+   "Dates": "1821-1840",
+   "Creation date(s)": "1/1/1821 - 12/31/1840",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178358",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178359",
+  "parent": "sa-178357",
+  "text": "Ec 70/2 - Mariages 1841-1854., 1841.01.01-1854.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 70/2",
+   "Title": "- Mariages 1841-1854.",
+   "Dates": "1841-1854",
+   "Creation date(s)": "1/1/1841 - 12/31/1854",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178359",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178360",
+  "parent": "sa-178357",
+  "text": "Ec 70/3 - Mariages 1855-1869., 1855.01.01-1869.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 70/3",
+   "Title": "- Mariages 1855-1869.",
+   "Dates": "1855-1869",
+   "Creation date(s)": "1/1/1855 - 12/31/1869",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178360",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178361",
+  "parent": "sa-178357",
+  "text": "Ec 70/4 - Naissances 1820-1837. \\ - Annonces de mariage 1821-1850., 1820.01.01-1850.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 70/4",
+   "Title": "- Naissances 1820-1837.\n- Annonces de mariage 1821-1850.",
+   "Dates": "1820-1850",
+   "Creation date(s)": "1/1/1820 - 12/31/1850",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178361",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178362",
+  "parent": "sa-178357",
+  "text": "Ec 70/5 - Naissances 1838-1869. \\ - Décès 1813-1869., 1813.01.01-1869.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 70/5",
+   "Title": "- Naissances 1838-1869.\n- Décès 1813-1869.",
+   "Dates": "1813-1869",
+   "Creation date(s)": "1/1/1813 - 12/31/1869",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178362",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

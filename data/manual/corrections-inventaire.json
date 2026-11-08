@@ -69,5 +69,11 @@
  {"cote": "SB 23/761", "field": "Title", "published": "Décès B 1883-1881", "corrected": "Décès B 1883-1891"},
  {"cote": "Ed 58/1-5", "field": "Date(s)", "published": "1821-10-01", "corrected": "1835-10-01"},
  {"cote": "Ed 58/1", "field": "Portée et contenu", "published": "Baptêmes de l'Eglise évangélique réformée (1821 juillet 1", "corrected": "Baptêmes de l'Eglise évangélique réformée (1835 octobre 1"},
- {"cote": "Ed 58/4", "field": "Titre", "published": "Registre de décès 1831-1875.", "corrected": "Registre de décès 1835-1875."}
+ {"cote": "Ed 58/4", "field": "Titre", "published": "Registre de décès 1831-1875.", "corrected": "Registre de décès 1835-1875."},
+ {"cote": "Ed 70/2", "field": "Portée et contenu", "published": "(1838 décembre 10 - 1869 mai 7)", "corrected": "(1838 décembre 10 - 1860 mai 7)"},
+ {"cote": "SB 23/165", "field": "Dates", "published": "1876-1878", "corrected": "1882-1883"},
+ {"cote": "SB 23/167", "field": "Title", "published": "Naissances 1876-1885", "corrected": "Naissances 1885"},
+ {"cote": "SB 23/173", "field": "Title", "published": "- Naissances 1882-1883\n- Décès 1882-1883", "corrected": "- Naissances 1892-1893\n- Décès 1892-1893"},
+ {"cote": "SB 23/173", "field": "Dates", "published": "1882-1883", "corrected": "1892-1893"},
+ {"cote": "SB 23/173", "field": "Creation date(s)", "published": "1882 - 1883", "corrected": "1892 - 1893"}
 ]

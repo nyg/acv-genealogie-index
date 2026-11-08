@@ -1,0 +1,188 @@
+[
+ {
+  "slug": "ed-70-1-9",
+  "parent": null,
+  "children": [
+   "ed-70-1",
+   "ed-70-2",
+   "ed-70-3",
+   "ed-70-4",
+   "ed-70-5",
+   "ed-70-6",
+   "ed-70-7",
+   "ed-70-8",
+   "ed-70-9"
+  ],
+  "f": {
+   "Cote": "Ed 70/1-9",
+   "Titre": "Paroisse réformée de La Sarraz.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de La Sarraz :\nChapelle médiévale dépendant de la paroisse d'Orny.\nA la Réformation, les paroisses d'Eclépens, d'Orny et de Saint-Didier furent supprimées et remplacées par celle de La Sarraz.\nRegistres dès 1641.\nComprend : Ferreyres, Pompaples, Villars-Lussery. Annexes : Eclépens, avec registre propre 1799-1805 ; Orny."
+  }
+ },
+ {
+  "slug": "ed-70-1",
+  "parent": "ed-70-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 70/1",
+   "Titre": "Registre de naissances 1821-1838.",
+   "Date(s)": "1821-07-01 - 1838-12-16 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 33 x 42,4 / 27,8 x 39,3 (répertoire)",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1838 décembre 16);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1838 décembre 16).",
+   "Instruments de recherche": "Répertoire séparé des naissances et baptêmes Ed 70/1 (microfilm: RMS 1/1.044.854, numérique: RN-ED-70-1), pages manuscrites, non datées",
+   "Note": "Reliure cassée;\nOnglets 1830, 1831, 1832 et 1837 arrachés.",
+   "Cote de gestion": "RMS 1/1.044.854",
+   "Nom du fichier": "CH-ACV_RN-ED-70-1.pdf",
+   "Taille du fichier": "623.9 MiB"
+  },
+  "pdf": "7/f/f/7ffd8149cd1b5252dc00d4d535b8ca8f2ff4837b67272a6f1849a005b40649f8/CH-ACV_RN-ED-70-1.pdf"
+ },
+ {
+  "slug": "ed-70-2",
+  "parent": "ed-70-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 70/2",
+   "Titre": "Registre de naissances 1838-1860.",
+   "Date(s)": "1838-12-10 - 1860-05-07 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31 x 41,6 x5,5",
+   "Portée et contenu": "Naissances (1838 décembre 10 - 1869 mai 7);\nBaptêmes de l'Eglise évangélique réformée (1838 décembre 10 - 1869 mai 7).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 70/2 (microfilm: RMS 1/1.044.854, numérique: RN-ED-70-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.854",
+   "Nom du fichier": "CH-ACV_RN-ED-70-2.pdf",
+   "Taille du fichier": "740.4 MiB"
+  },
+  "pdf": "8/b/d/8bd7865d36e40438f0d9e3d756ae44ba744edef7b1cd49959c139e374c83eb60/CH-ACV_RN-ED-70-2.pdf"
+ },
+ {
+  "slug": "ed-70-3",
+  "parent": "ed-70-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 70/3",
+   "Titre": "Registre de naissances 1860-1875.",
+   "Date(s)": "1860-05-07 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,5 x 41 x 5",
+   "Portée et contenu": "Naissances (1860 mai 7 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1860 mai 7 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 70/3 (microfilm: RMS 1/1.044.854, numérique: RN-ED-70-3), pages manuscrites, non datées",
+   "Note": "La page P du répertoire est consolidée.",
+   "Cote de gestion": "RMS 1/1.044.854",
+   "Nom du fichier": "CH-ACV_RN-ED-70-3.pdf",
+   "Taille du fichier": "546.6 MiB"
+  },
+  "pdf": "5/8/6/586f6d102cc4d80c73101b03d7f4baaf8e0e01da812d55139e16c550705a2780/CH-ACV_RN-ED-70-3.pdf"
+ },
+ {
+  "slug": "ed-70-4",
+  "parent": "ed-70-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 70/4",
+   "Titre": "Registre de mariages 1821-1854.",
+   "Date(s)": "1821-07-01 - 1854-06-10 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31,9 x 41,2 x 5 / 28,2 x 39 (répertoire)",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1854 juin 10).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 70/4 (microfilm: RMS 1/1.044.855, numérique: RN-ED-70-4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.855",
+   "Nom du fichier": "CH-ACV_RN-ED-70-4.pdf",
+   "Taille du fichier": "601.8 MiB"
+  },
+  "pdf": "4/1/0/4105aafa46375cc15d503e46551ecdbfee1401737c913f4661ed22712a9f9cd0/CH-ACV_RN-ED-70-4.pdf"
+ },
+ {
+  "slug": "ed-70-5",
+  "parent": "ed-70-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 70/5",
+   "Titre": "Registre de mariages 1854-1875.",
+   "Date(s)": "1854-08-12 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,5 x 41,2 / 28,2 x 38,9 (répertoire)",
+   "Portée et contenu": "Mariages (1854 août 12 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 70/5 (microfilm: RMS 1/1.044.855, numérique: RN-ED-70-5), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.855",
+   "Nom du fichier": "CH-ACV_RN-ED-70-5.pdf",
+   "Taille du fichier": "348.7 MiB"
+  },
+  "pdf": "4/a/e/4ae5242400763e0973b2b4e2cb5d2d106523d4788f214bfaa2034fb5c7d16cd6/CH-ACV_RN-ED-70-5.pdf"
+ },
+ {
+  "slug": "ed-70-6",
+  "parent": "ed-70-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 70/6",
+   "Titre": "Registre de décès 1821-1859.",
+   "Date(s)": "1821-07-01 - 1859-03-02 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 32 x 41,2 x 4,3",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1859 mars 2).",
+   "Instruments de recherche": "Répertoire incorporé des décès Ed 70/6 (microfilm: RMS 1/1.044.856, numérique: RN-ED-70-6), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.856",
+   "Nom du fichier": "CH-ACV_RN-ED-70-6.pdf",
+   "Taille du fichier": "619.2 MiB"
+  },
+  "pdf": "d/4/3/d43ad6fc54505a613f207b3ca4073be8ec709fb116e82e6a5918c72760bba414/CH-ACV_RN-ED-70-6.pdf"
+ },
+ {
+  "slug": "ed-70-7",
+  "parent": "ed-70-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 70/7",
+   "Titre": "Registre de décès 1859-1875.",
+   "Date(s)": "1859-03-03 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,6 x 41,1 / 26,5 x 38,1 (répertoire)",
+   "Portée et contenu": "Décès (1859 mars 3 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 70/7 (microfilm: RMS 1/1.044.856, numérique: RN-ED-70-7), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.856",
+   "Nom du fichier": "CH-ACV_RN-ED-70-7.pdf",
+   "Taille du fichier": "389.7 MiB"
+  },
+  "pdf": "a/a/5/aa5392b0ce8be39b481e87db5a08e8d2693b5f96fcdae6c9bc2062a20ba6900b/CH-ACV_RN-ED-70-7.pdf"
+ },
+ {
+  "slug": "ed-70-8",
+  "parent": "ed-70-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 70/8",
+   "Titre": "Registre d'annonces de mariage 1821-1856.",
+   "Date(s)": "1821-07-01 - 1856-09-02 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 26,5 x 40,9",
+   "Portée et contenu": "Annonces de mariage (1821 juillet 1 - 1856 septembre 2).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 70/8 (microfilm: RM 22001.14, numérique: RN-ED-70-8), pages manuscrites, non datées",
+   "Cote de gestion": "RM 22001.14",
+   "Nom du fichier": "CH-ACV_RN-ED-70-8.pdf",
+   "Taille du fichier": "456.9 MiB"
+  },
+  "pdf": "7/f/6/7f60444c0f57f567e1efb0e5b8dcb991027fbb43c201f5be034cecb155ab5e1c/CH-ACV_RN-ED-70-8.pdf"
+ },
+ {
+  "slug": "ed-70-9",
+  "parent": "ed-70-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 70/9",
+   "Titre": "Registre d'annonces de mariage 1856-1875.",
+   "Date(s)": "1856-09-28 - 1875-10-24 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 22 x 34,4 x 2.5",
+   "Portée et contenu": "Annonces de mariage (1856 septembre 28 - 1875 octobre 24).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 70/9 (microfilm: RM 22001.15, numérique: RN-ED-70-9), pages manuscrites, non datées",
+   "Cote de gestion": "RM 22001.15",
+   "Nom du fichier": "CH-ACV_RN-ED-70-9.pdf",
+   "Taille du fichier": "271.5 MiB"
+  },
+  "pdf": "2/a/0/2a0220575f19361d5ebd4e7b63f0f0385c07bb8adb6f913967dc26a690ef3972/CH-ACV_RN-ED-70-9.pdf"
+ }
+]

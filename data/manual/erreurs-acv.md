@@ -81,6 +81,10 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [Ed 58/1-5](https://davel-vd.ch/ed-58-1-5) | Genolier | Date(s) | 1821-10-01 - 1875-12-31 | 1835-10-01 - 1875-12-31 | La note de la série : « Registres dès 1835 », avant dans Ed 108 avec Prangins ; Ed 58/1 à 4 commencent en 1835. | |
 | [Ed 58/1](https://davel-vd.ch/ed-58-1) | Genolier | Portée et contenu | Baptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1859 juin 2) | Baptêmes de l'Eglise évangélique réformée (1835 octobre 1 - 1859 juin 2) | Titre, dates et naissances du registre : dès le 1er octobre 1835 ; la note de la série : « Registres dès 1835 ». | |
 | [Ed 58/4](https://davel-vd.ch/ed-58-4) | Genolier | Titre | Registre de décès 1831-1875. | Registre de décès 1835-1875. | Dates et Portée et contenu : dès 1835 ; la note de la série : « Registres dès 1835 ». | |
+| [Ed 70/2](https://davel-vd.ch/ed-70-2) | La Sarraz | Portée et contenu | Naissances et Baptêmes (1838 décembre 10 - 1869 mai 7) | Naissances et Baptêmes (1838 décembre 10 - 1860 mai 7) | Titre « Registre de naissances 1838-1860 » et dates : jusqu'au 7 mai 1860 ; Ed 70/3 reprend le 7 mai 1860. | |
+| [SB 23/165](https://davel.vd.ch/detail.aspx?ID=592842) | La Sarraz | Dates | 1876-1878 | 1882-1883 | Titre et dates de création : 1882-1883 ; SB 23/159 à 161 couvrent déjà 1876-1878. | |
+| [SB 23/167](https://davel.vd.ch/detail.aspx?ID=592844) | La Sarraz | Titre | Naissances 1876-1885 | Naissances 1885 | Dates et dates de création : 1885, comme les mariages et décès de la boîte ; les naissances 1876-1884 sont dans SB 23/159 à 166. | |
+| [SB 23/173](https://davel.vd.ch/detail.aspx?ID=592849) | La Sarraz | Titre, dates et dates de création | Naissances 1882-1883 ; Décès 1882-1883 ; 1882-1883 | Naissances 1892-1893 ; Décès 1892-1893 ; 1892-1893 | Mariages de la boîte : 1892-1893 ; SB 23/172 s'arrête en 1891-1892, SB 23/174 reprend en 1894, et SB 23/165 couvre déjà les naissances 1882-1883. | |
 
 ## À vérifier sur le PDF
 
@@ -101,6 +105,7 @@ Les dates de la fiche ne couvrent pas celles du contenu, ou la pagination du PDF
 | SB 23/995 et SB 23/997 | Rougemont | La fiche SB 23/994 renvoie directement à SB 23/996, puis SB 23/996 à SB 23/998. D'après les boîtes voisines, elles couvriraient 1884 et 1887-1888. | |
 | SB 23/500 | Romanel-sur-Lausanne | La fiche SB 23/499 (1890) renvoie directement à SB 23/501 (1891). | |
 | SB 23/859 et SB 23/860 | Vallorbe | Aucune boîte ne couvre 1882 : SB 23/859 s'arrête en 1881 et SB 23/860 commence en 1883, alors que les cotes se suivent. | |
+| SB 23/169 | La Sarraz | La fiche SB 23/168 (1886) renvoie directement à SB 23/170 (1888-1889) : aucune boîte ne couvre 1887. | |
 | SB 115/1214 à SB 115/1216 | Romainmôtier | La période 1951-1954 a une entrée pour Lignerolle (1214), Vaulion (1215) et Vallorbe (1216), mais aucune pour Romainmôtier, dont les registres SB 267/85 vont jusqu'en 2004. | |
 
 ## Questions
