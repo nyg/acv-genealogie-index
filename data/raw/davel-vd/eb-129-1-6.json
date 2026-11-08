@@ -1,0 +1,133 @@
+[
+ {
+  "slug": "eb-129-1-6",
+  "parent": null,
+  "children": [
+   "eb-129-1",
+   "eb-129-2",
+   "eb-129-3",
+   "eb-129-4",
+   "eb-129-5",
+   "eb-129-6"
+  ],
+  "f": {
+   "Cote": "Eb 129/1-6",
+   "Titre": "Registres de la paroisse réformée de La Tour-de-Peilz.",
+   "Date(s)": "1615-10-02 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de la Tour-de-Peilz :\nDépendance de Vevey avec diacre dès 1584, érigée en paroisse en 1599.\nRegistres dès 1615."
+  }
+ },
+ {
+  "slug": "eb-129-1",
+  "parent": "eb-129-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 129/1",
+   "Titre": "Paroisse réformée de La Tour-de-Peilz",
+   "Date(s)": "1615-10-02 - 1687-03-25 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 10,8 x 16,3",
+   "Portée et contenu": "Baptêmes (1615 octobre 2 - 1687 mars 25) pages 1-4 en tête-bêche et pages 5-203;\nMariages (1631 mars 7 - 1687 mars 24) pages 301-341 en tête-bêche.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.708",
+   "Nom du fichier": "CH-ACV_RN-EB-129-1.pdf",
+   "Taille du fichier": "76.1 MiB"
+  },
+  "pdf": "f/f/9/ff984b7584553cf659a75741a34b75d9a9bc913b5c975fb6e6e8a3b9cd9d6d25/CH-ACV_RN-EB-129-1.pdf"
+ },
+ {
+  "slug": "eb-129-2",
+  "parent": "eb-129-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 129/2",
+   "Titre": "Paroisse réformée de La Tour-de-Peilz",
+   "Date(s)": "1687-03-30 - 1763-07-04 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 13,8 x 25,6",
+   "Portée et contenu": "Baptêmes (1687 mars 30 - 1763 mai 20) pages 1-344;\nMariages (1687 mars 30 - 1763 juillet 4) pages 401-550 en tête-bêche.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Pages 1 à 12, mémoires et liste des pasteurs.",
+   "Cote de gestion": "RMS 1/128.708",
+   "Nom du fichier": "CH-ACV_RN-EB-129-2.pdf",
+   "Taille du fichier": "281.3 MiB"
+  },
+  "pdf": "f/c/c/fcc5048d3239ffe9bc26a20ecdd94c1816fc47d97bb3c38797b647c3f2528203/CH-ACV_RN-EB-129-2.pdf"
+ },
+ {
+  "slug": "eb-129-3",
+  "parent": "eb-129-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 129/3",
+   "Titre": "Paroisse réformée de La Tour-de-Peilz",
+   "Date(s)": "1763-07-08 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 25 x 37,3",
+   "Portée et contenu": "Baptêmes (1763 juillet 8 - 1821 juin 30) pages 1-261;\nMariages (1763 juillet 8 - 1821 juin 30) pages 1-211 en tête-bêche.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série pages blanches, de la page 262 à la partie B.",
+   "Cote de gestion": "RMS 1/128.708",
+   "Nom du fichier": "CH-ACV_RN-EB-129-3.pdf",
+   "Taille du fichier": "666.7 MiB"
+  },
+  "pdf": "b/2/4/b244a1cac20fb62c07c829b352e606c0d4967ae9dd5233f62b3ec89fdb7ffc2b/CH-ACV_RN-EB-129-3.pdf"
+ },
+ {
+  "slug": "eb-129-4",
+  "parent": "eb-129-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 129/4",
+   "Titre": "Paroisse réformée de La Tour-de-Peilz",
+   "Date(s)": "1798-07-15 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 17 x 20,6",
+   "Portée et contenu": "Annonces de mariages (1798 juillet 15 - 1821 juin 30) pages 1-164.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série pages blanches, de la page 165 à la fin du registre. Pages 1 à 5, circulaire et liste des pasteurs.",
+   "Cote de gestion": "RMS 1/128.709",
+   "Nom du fichier": "CH-ACV_RN-EB-129-4.pdf",
+   "Taille du fichier": "101.3 MiB"
+  },
+  "pdf": "d/e/f/defcef7cda583349a11fceef9852e504a45a2ca753b4a2600a5a1c54fcfd5f44/CH-ACV_RN-EB-129-4.pdf"
+ },
+ {
+  "slug": "eb-129-5",
+  "parent": "eb-129-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 129/5",
+   "Titre": "Paroisse réformée de La Tour-de-Peilz",
+   "Date(s)": "1728-09-03 - 1810-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 16,4 x 24,2",
+   "Portée et contenu": "Décès (1728 septembre 3 - 1809 décembre 26) pages 1-278;\nCatéchumènes (1729 - 1810) pages 1-75 en tête-bêche.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Au début des catéchumènes, prix des pensions.",
+   "Cote de gestion": "RMS 1/128.709",
+   "Nom du fichier": "CH-ACV_RN-EB-129-5.pdf",
+   "Taille du fichier": "213.3 MiB"
+  },
+  "pdf": "6/b/3/6b34788d42634c3fa0328b8711d3e3613924beb428ad6b2c87b62e9057aeb4ce/CH-ACV_RN-EB-129-5.pdf"
+ },
+ {
+  "slug": "eb-129-6",
+  "parent": "eb-129-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 129/6",
+   "Titre": "Paroisse réformée de La Tour-de-Peilz",
+   "Date(s)": "1810-01-04 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 18,6 x 22,3",
+   "Portée et contenu": "Décès (1810 janvier 4 - 1821 juin 30) pages 1-67.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.709",
+   "Nom du fichier": "CH-ACV_RN-EB-129-6.pdf",
+   "Taille du fichier": "45 MiB"
+  },
+  "pdf": "0/5/c/05c6b34bbe6de610706fd2e15a2731fdd5c1b0509d74e96560841fbcdef9ba92/CH-ACV_RN-EB-129-6.pdf"
+ }
+]
