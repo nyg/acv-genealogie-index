@@ -1,0 +1,104 @@
+[
+ {
+  "slug": "sa-178918",
+  "parent": null,
+  "text": "Ec 121/1-4 Paroisse réformée de Sainte-Croix., 1788-1874 (Série)",
+  "children": [
+   "sa-178919",
+   "sa-178920",
+   "sa-178921",
+   "sa-178922"
+  ],
+  "f": {
+   "Ref. code": "Ec 121/1-4",
+   "Title": "Paroisse réformée de Sainte-Croix.",
+   "Dates": "1788-1874",
+   "Creation date(s)": "1788 - 1874",
+   "Level": "Série",
+   "Importance matérielle": "4 boîtes",
+   "Content": "Comprend aussi des pièces pour Les Granges de Sainte-Croix.",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178918",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178919",
+  "parent": "sa-178918",
+  "text": "Ec 121/1 - Mariages 1838-1866., 1838.01.01-1866.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 121/1",
+   "Title": "- Mariages 1838-1866.",
+   "Dates": "1838-1866",
+   "Creation date(s)": "1/1/1838 - 12/31/1866",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178919",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178920",
+  "parent": "sa-178918",
+  "text": "Ec 121/2 - Mariages 1867-1874. \\ - Annonces de mariage 1848-1874., 1848.01.01-1874.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 121/2",
+   "Title": "- Mariages 1867-1874.\n- Annonces de mariage 1848-1874.",
+   "Dates": "1848-1874",
+   "Creation date(s)": "1/1/1848 - 12/31/1874",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178920",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178921",
+  "parent": "sa-178918",
+  "text": "Ec 121/3 - Naissances 1788-1861., 1788.01.01-1861.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 121/3",
+   "Title": "- Naissances 1788-1861.",
+   "Dates": "1788-1861",
+   "Creation date(s)": "1/1/1788 - 12/31/1861",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178921",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178922",
+  "parent": "sa-178918",
+  "text": "Ec 121/4 - Naissances 1862-1874. \\ - Décès 1849-1874., 1849.01.01-1874.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 121/4",
+   "Title": "- Naissances 1862-1874.\n- Décès 1849-1874.",
+   "Dates": "1849-1874",
+   "Creation date(s)": "1/1/1849 - 12/31/1874",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178922",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

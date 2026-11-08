@@ -115,6 +115,15 @@ const cases = [
   ["Begnins", "naissance", "1800", "Eb 12/4"],
   ["Begnins", "mariage", "1850", "Ed 12/3"],
   ["Begnins", "deces", "1890", "SB 23/772"],
+  ["Bullet", "naissance", "1750", "Eb 19/1"],
+  ["Bullet", "mariage", "1763", "Eb 19/4"],
+  ["Bullet", "deces", "1850", "Ed 19/4"],
+  ["Bullet", "naissance", "1850", "Ec 19/2"],
+  ["Bullet", "naissance", "1882", "SB 23/281"],
+  ["Bullet", "mariage", "1900", "SB 268/16/1"],
+  ["Bullet", "mariage", "1940", "SB 115/687"],
+  ["Bullet", "mariage", "1953", "SB 115/1135"],
+  ["Sainte-Croix", "naissance", "1739", "Eb 121/2"],
 ];
 let failures = 0;
 for (const [place, kind, date, expected] of cases) {

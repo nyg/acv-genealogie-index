@@ -1,0 +1,235 @@
+[
+ {
+  "slug": "eb-121-1-11",
+  "parent": null,
+  "children": [
+   "eb-121-1",
+   "eb-121-2",
+   "eb-121-3",
+   "eb-121-4",
+   "eb-121-5",
+   "eb-121-6",
+   "eb-121-7",
+   "eb-121-8",
+   "eb-121-9",
+   "eb-121-10",
+   "eb-121-11"
+  ],
+  "f": {
+   "Cote": "Eb 121/1-11",
+   "Titre": "Registres de la paroisse réformée de Sainte-Croix.",
+   "Date(s)": "1702-02-05 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Unités de description associées": "Voir aussi registre de la Paroisse allemande d'Yverdon pour les années 1721 à 1772, Eb 141/22.; \"Généalogie des familles bourgeoises 1500-1700\", Ea 28; \"Registre matricule de la Corporation vaudoise 1824-1872\", K VIII a 54.",
+   "Note": "Paroisse de Sainte-Croix :\nFiliale médiévale de Peney érigée en paroisse en 1540.\nLa partie au-delà du col des Etroits fut érigée en paroisse en 1824 sous le nom des Granges de Sainte-Croix. Registres dès 1702, les précédents ayant été détruits par les incendies de 1702 et 1744. Comprend depuis 1829 le village et la partie en-deçà du col des Etroits ; Vers-le-Bois dès 1842.\nAnnexe : Bullet (jusqu'en 1663).\nVoir aussi registre de la Paroisse allemande d'Yverdon pour les années 1721 à 1772, Eb 141/22.; \"Généalogie des familles bourgeoises 1500-1700\", Ea 28; \"Registre matricule de la Corporation vaudoise 1824-1872\", K VIII a 54."
+  }
+ },
+ {
+  "slug": "eb-121-1",
+  "parent": "eb-121-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 121/1",
+   "Titre": "Paroisse réformée de Sainte-Croix",
+   "Date(s)": "1702-02-05 - 1724-06-11 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "6 volumes en 3 parties\nFormat LxH(cm): 10,5 x 31 / AR 1: 27,2 X 38,1 (répertoire) / AR 2: 27 x 38,8 (répertoire) / AR 3: 17,8 x 22,6 (répertoire) / BR: 27,3 x 38,1 (répertoire) / CR: 22,3 x 36,5 (répertoire)",
+   "Portée et contenu": "Baptêmes (1702 février 5 - 1724 juin 11) y compris dessins en tête avec inscriptions latines (=Eb 121/1, pages 1-108, 127-168, 183-184);\nMariages (1708 février 6 - 1719) (=Eb 121/1, p. 109-122);\nCatéchumènes (1702 - 1724) en tête-bêche (=Eb 121/1, pages 169-182).",
+   "Instruments de recherche": "Répertoire séparé des baptêmes et catéchumènes Eb 121/1 (microfilm: RMS 1/128.788, numérique: RN-EB-121-1), pages manuscrites, non datées, avec index général des répertoires alphabétiques des registres paroissiaux de Sainte-Croix en page 47\nRépertoire séparé des baptêmes Eb 121/1 (microfilm: RMS 1/128.788, numérique: RN-EB-121-1), pages manuscrites, non datées, pages barrées uniquement lesquelles correspondent à Eb 121/1\nRépertoire séparé des mariages Eb 121/1-6 (microfilm: RMS 1/128.788 et RMS 1/128.789, numérique: RN-EB-121-1), pages manuscrites, non datées\nRépertoire séparé des catéchumènes Eb 121/1 (microfilm: RMS 1/128.788 et RMS 1/128.789, numérique: RN-EB-121-1), pages manuscrites, non datées (12 pages dans une enveloppe)\nRépertoire séparé des baptêmes, mariages et décès Eb 121/ref (microfilm: RMS 1/128.788, numérique: RN-EB-121-1-1), pages manuscrites, non datées, avec index (pages 1 à 234)",
+   "Unités de description associées": "Voir aussi le registre de la paroisse réformée de langue allemande d'Yverdon, Eb 141/2 ; la Généalogie des familles bourgeoises 1500 - 1700, Ea 28; le Registre matricule de la Corporation vaudoise 1824-1872, K VIII a 54",
+   "Cote de gestion": "RMS 1/128.788",
+   "Nom du fichier": "CH-ACV_RN-EB-121-1.pdf",
+   "Taille du fichier": "379.7 MiB"
+  },
+  "pdf": "5/2/c/52c126494dfd80827af7085c4117e33618266ef3f77706e914ac90514c4a0df2/CH-ACV_RN-EB-121-1.pdf"
+ },
+ {
+  "slug": "eb-121-2",
+  "parent": "eb-121-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 121/2",
+   "Titre": "Paroisse réformée de Sainte-Croix",
+   "Date(s)": "1724-06-15 - 1746-12-28 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 21 x 32 / AR1: 27,3 x 38 (répertoire) / BR: 27,2 X 38,2 (répertoire)",
+   "Portée et contenu": "Baptêmes (1724 juin 15 - 1746 avril 24) pages 1-113;\nDécès (1728 janvier 8 - 1746 décembre 28) pages 1-35 en tête-bêche.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 121/2 (microfilm: RMS 1/128.788, numérique: RN-EB-121-2), pages manuscrites, non datées\nRépertoire séparé des décès Eb 121/2-8-9 (microfilm: RMS 1/128.788 et RMS 1/128.789, numérique: RN-EB-121-2), pages manuscrites, non datées\nRépertoire séparé des baptêmes Eb 121/ref (microfilm: RMS 1/128.788 et RMS 128.789, numérique: RN-EB-121-1), pages manuscrites, non datées",
+   "Note": "Avant la page 1, il y a une lettre du bailli.",
+   "Cote de gestion": "RMS 1/128.788",
+   "Nom du fichier": "CH-ACV_RN-EB-121-2.pdf",
+   "Taille du fichier": "270.2 MiB"
+  },
+  "pdf": "d/a/1/da17be3c76fba12fff505b7001f5f16bcce312c57196e677e3073f4c98d75893/CH-ACV_RN-EB-121-2.pdf"
+ },
+ {
+  "slug": "eb-121-3",
+  "parent": "eb-121-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 121/3",
+   "Titre": "Paroisse réformée de Sainte-Croix",
+   "Date(s)": "1746-05-01 - 1789-04-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 22,4 x 36 x 6 / AR1: 27,2 X 38,2 (répertoire)",
+   "Portée et contenu": "Baptêmes (1746 mai 1 - 1789 avril 30) pages 1-550.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 121/3 (microfilm: RMS 1/128.788, numérique: RN-EB-121-3), pages manuscrites, non datées\nRépertoire séparé des baptêmes Eb 121/ref (microfilm: RMS 1/128.788 et RMS 128.789, numérique: RN-EB-121-1), pages manuscrites, non datées",
+   "Note": "Avant la page 1, il y a une liste des pasteurs et une lettre du bailli.",
+   "Cote de gestion": "RMS 1/128.788",
+   "Nom du fichier": "CH-ACV_RN-EB-121-3.pdf",
+   "Taille du fichier": "733.9 MiB"
+  },
+  "pdf": "1/f/4/1f4c84e9fcf2ab545b3533d4472e2c962609a7501b50ec7c843a6cdbbdc560d1/CH-ACV_RN-EB-121-3.pdf"
+ },
+ {
+  "slug": "eb-121-4",
+  "parent": "eb-121-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 121/4",
+   "Titre": "Paroisse réformée de Sainte-Croix",
+   "Date(s)": "1789-05-03 - 1812-07-19 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 21,7 x 34,7 / AR1: 27,3 X 38,1 (répertoire)",
+   "Portée et contenu": "Baptêmes (1789 mai 3 - 1812 juillet 19) pages [0]-464 et [463].",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 121/4-5 (microfilm: RMS 1/128.788 et RMS 128.789, numérique: RN-EB-121-4), pages manuscrites, non datées\nRépertoire séparé des baptêmes Eb 121/ref (microfilm: RMS 1/128.788 et RMS 128.789, numérique: RN-EB-121-1), pages manuscrites, non datées",
+   "Note": "Une liste des pasteurs figure avant la page 1. Les pages 358 et 359 n'existent pas.",
+   "Cote de gestion": "RMS 1/128.788",
+   "Nom du fichier": "CH-ACV_RN-EB-121-4.pdf",
+   "Taille du fichier": "560.7 MiB"
+  },
+  "pdf": "a/e/7/ae7dafc1aa68b0a77f1783c098c9a279d21c06a37812a394e660cae930c74040/CH-ACV_RN-EB-121-4.pdf"
+ },
+ {
+  "slug": "eb-121-5",
+  "parent": "eb-121-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 121/5",
+   "Titre": "Paroisse réformée de Sainte-Croix",
+   "Date(s)": "1812-07-23 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 23 x 34",
+   "Portée et contenu": "Baptêmes (1812 juillet 23 - 1821 juin 30).",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 121/4-5 (microfilm: RMS 1/128.788 et RMS 128.789, numérique: RN-EB-4), pages manuscrites, non datées\nRépertoire séparé des baptêmes Eb 121/ref (microfilm: RMS 1/128.788 et RMS 128.789, numérique: RN-EB-121-1), pages manuscrites, non datées",
+   "Unités de description associées": "Voir aussi le registre de la paroisse réformée de langue allemande d'Yverdon, Eb 141/2 ; la Généalogie des familles bourgeoises 1500 - 1700, Ea 28; le Registre matricule de la Corporation vaudoise 1824-1872, K VIII a 54",
+   "Note": "Série pages blanches, de la page 95 à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.789",
+   "Nom du fichier": "CH-ACV_RN-EB-121-5.pdf",
+   "Taille du fichier": "119 MiB"
+  },
+  "pdf": "0/e/f/0ef25106431d72f5d731239b1e1feb0cf77a75dcd9caeed4891a0bd36fe936ce/CH-ACV_RN-EB-121-5.pdf"
+ },
+ {
+  "slug": "eb-121-6",
+  "parent": "eb-121-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 121/6",
+   "Titre": "Paroisse réformée de Sainte-Croix",
+   "Date(s)": "1746-07-19 - 1799-05-05 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 17,5 x 22,5 x 5,7",
+   "Portée et contenu": "Mariages (1746 juillet 19 - 1799 mai 5).",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 121/1-6 (microfilm: RMS 1/128.788 et RMS 1/128.789, numérique: RN-EB-121-1), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 121/ref (microfilm: RMS 1/128.788 et RMS 128.789, numérique: RN-EB-121-1), pages manuscrites, non datées",
+   "Note": "Avant la page 1, il y a une lettre du pasteur au bailli.",
+   "Cote de gestion": "RMS 1/128.789",
+   "Nom du fichier": "CH-ACV_RN-EB-121-6.pdf",
+   "Taille du fichier": "214.6 MiB"
+  },
+  "pdf": "4/c/c/4cc3727d362614b8ec0d6d2b57679f196259adfafa53513f189f2b4922f1c6ce/CH-ACV_RN-EB-121-6.pdf"
+ },
+ {
+  "slug": "eb-121-7",
+  "parent": "eb-121-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 121/7",
+   "Titre": "Paroisse réformée de Sainte-Croix",
+   "Date(s)": "1799-06-02 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 17,7 x 22 / AR1: 27,2 X 38,2 (répertoire)",
+   "Portée et contenu": "Mariages (1799 juin 2 - 1821 juin 30).",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 121/7 (microfilm: RMS 128.789, numérique: RN-EB-121-7), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 121/ref (microfilm: RMS 1/128.788 et RMS 128.789, numérique: RN-EB-121-1), pages manuscrites, non datées",
+   "Note": "Série pages blanches, de la page 235 à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.789",
+   "Nom du fichier": "CH-ACV_RN-EB-121-7.pdf",
+   "Taille du fichier": "208.4 MiB"
+  },
+  "pdf": "a/4/a/a4af20de39f28d23c4cc3a07a4175e85ada3f8aaf7e8d3749fe5791f8c49ab11/CH-ACV_RN-EB-121-7.pdf"
+ },
+ {
+  "slug": "eb-121-8",
+  "parent": "eb-121-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 121/8",
+   "Titre": "Paroisse réformée de Sainte-Croix",
+   "Date(s)": "1747-01-01 - 1799-12-02 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 17,3 x 22,5",
+   "Portée et contenu": "Décès (1747 janvier 1 - 1799 décembre 2) pages 1-341.",
+   "Instruments de recherche": "Répertoire séparé des décès Eb 121/2-8-9 (microfilm: RMS 1/128.788 et RMS 1/128.789, numérique: RN-EB-121-2), pages manuscrites, non datées\nRépertoire séparé des décès Eb 121/ref (microfilm: RMS 1/128.788 et RMS 128.789, numérique: RN-EB-121-1), pages manuscrites, non datées",
+   "Unités de description associées": "Voir aussi le registre de la paroisse réformée de langue allemande d'Yverdon, Eb 141/2 ; la Généalogie des familles bourgeoises 1500 - 1700, Ea 28; le Registre matricule de la Corporation vaudoise 1824-1872, K VIII a 54",
+   "Cote de gestion": "RMS 1/128.789",
+   "Nom du fichier": "CH-ACV_RN-EB-121-8.pdf",
+   "Taille du fichier": "203.6 MiB"
+  },
+  "pdf": "8/6/a/86ad594647825f4357ca722a22f6aff64015dee62679ba5a55d6873e693c261f/CH-ACV_RN-EB-121-8.pdf"
+ },
+ {
+  "slug": "eb-121-9",
+  "parent": "eb-121-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 121/9",
+   "Titre": "Paroisse réformée de Sainte-Croix",
+   "Date(s)": "1800-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 17,8 x 22",
+   "Portée et contenu": "Décès (1800 janvier 1 - 1821 juin 30) pages 1-215.",
+   "Instruments de recherche": "Répertoire séparé des décès Eb 121/2-8-9 (microfilm: RMS 1/128.788 et RMS 1/128.789, numérique: RN-EB-121-2), pages manuscrites, non datées\nRépertoire séparé des décès Eb 121/ref (microfilm: RMS 1/128.788 et RMS 128.789, numérique: RN-EB-121-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.789",
+   "Nom du fichier": "CH-ACV_RN-EB-121-9.pdf",
+   "Taille du fichier": "130 MiB"
+  },
+  "pdf": "7/d/2/7d2c1d253fd896eff46324c5496d9eb8c1229c5fae5fe76b284eede4d453af62/CH-ACV_RN-EB-121-9.pdf"
+ },
+ {
+  "slug": "eb-121-10",
+  "parent": "eb-121-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 121/10",
+   "Titre": "Paroisse réformée de Sainte-Croix",
+   "Date(s)": "1747 - 1864 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 17 x 22,2",
+   "Portée et contenu": "Catéchumènes (1747 - 1864) pages 1-168.",
+   "Mode de classement": "Relié en juin 1898 par le pasteur Ed. de Perrot.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Avant la page 1, il y a une liste des pasteurs.",
+   "Nom du fichier": "CH-ACV_RN-EB-121-10.pdf",
+   "Taille du fichier": "217.3 MiB"
+  },
+  "pdf": "a/7/5/a75b6094f8ad57f7539f41a34ada7e156e5798b04a8a3f810359fce70a1312c3/CH-ACV_RN-EB-121-10.pdf"
+ },
+ {
+  "slug": "eb-121-11",
+  "parent": "eb-121-1-11",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 121/11",
+   "Titre": "Paroisse réformée de Sainte-Croix",
+   "Date(s)": "1770-04-30 - 1821-07-04 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 11,5 x 18,3",
+   "Portée et contenu": "Baptêmes des bourgeois forains (1770 avril 30 - 1820 décembre 31) pages 1-43.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série pages blanches, de la page 44 à la fin du registre.",
+   "Nom du fichier": "CH-ACV_RN-EB-121-11.pdf",
+   "Taille du fichier": "15.9 MiB"
+  },
+  "pdf": "c/9/7/c976b5d5c355d9506f8fc267aba8edc40074399938a1fd354b7691ebc41cd248/CH-ACV_RN-EB-121-11.pdf"
+ }
+]

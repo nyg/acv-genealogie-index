@@ -81,6 +81,7 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [Ed 58/1-5](https://davel-vd.ch/ed-58-1-5) | Genolier | Date(s) | 1821-10-01 - 1875-12-31 | 1835-10-01 - 1875-12-31 | La note de la série : « Registres dès 1835 », avant dans Ed 108 avec Prangins ; Ed 58/1 à 4 commencent en 1835. | |
 | [Ed 58/1](https://davel-vd.ch/ed-58-1) | Genolier | Portée et contenu | Baptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1859 juin 2) | Baptêmes de l'Eglise évangélique réformée (1835 octobre 1 - 1859 juin 2) | Titre, dates et naissances du registre : dès le 1er octobre 1835 ; la note de la série : « Registres dès 1835 ». | |
 | [Ed 58/4](https://davel-vd.ch/ed-58-4) | Genolier | Titre | Registre de décès 1831-1875. | Registre de décès 1835-1875. | Dates et Portée et contenu : dès 1835 ; la note de la série : « Registres dès 1835 ». | |
+| [SB 23/281](https://davel.vd.ch/detail.aspx?ID=595136) | Bullet | Dates | 1876-1881 | 1881-1884 | Titre et dates de création : 1881-1884 ; SB 23/280 couvre 1876-1881 et SB 23/282 1885-1889. | |
 
 ## À vérifier sur le PDF
 
