@@ -1,0 +1,362 @@
+[
+ {
+  "slug": "eb-132-1-17",
+  "parent": null,
+  "children": [
+   "eb-132-1",
+   "eb-132-2",
+   "eb-132-3",
+   "eb-132-4",
+   "eb-132-5",
+   "eb-132-6",
+   "eb-132-7",
+   "eb-132-8",
+   "eb-132-9",
+   "eb-132-10",
+   "eb-132-11",
+   "eb-132-12",
+   "eb-132-13",
+   "eb-132-14",
+   "eb-132-15",
+   "eb-132-16",
+   "eb-132-17",
+   "eb-132-18"
+  ],
+  "f": {
+   "Cote": "Eb 132/1-17",
+   "Titre": "Registres de la paroisse réformée de Vevey et registres de la paroisse réformée de langue allemande de Vevey.",
+   "Date(s)": "1613-10-07 - 1849-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Vevey :\nParoisse médiévale dont La Tour-de-Peilz a été détachée en 1584.\nRegistres dès 1613.\nParoisse réformée de langue allemande 1719 - 1821."
+  }
+ },
+ {
+  "slug": "eb-132-1",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/1",
+   "Titre": "Paroisse réformée de Vevey",
+   "Date(s)": "1613-03-26 - 1688-08-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 10,6 x 31,6 / AR: 27,5 x 37,6 (répertoire) / BR: 27,2 x 37,6 (répertoire)x 2.5",
+   "Portée et contenu": "Baptêmes (1613 mars 26 - 1688 août 1, lacunes entre 1615 et 1626) pages 1-135 (7-29, 93 et 134 blanches);\nMariages (1613 octobre 7 - 1676 avril, lacunes de plusieurs années) pages 136-170 (143-155 blanches).\nDes biographies des pasteurs figurent aux pages 172-179, en début de registre.\nDe 1613 à 1677, des registres ont été tenus séparément pour la paroisse de Vevey, l'un par le pasteur de Sainte-Claire (Eb 132/1) et l'autre par le pasteur du Bourg-Franc (Eb 132/2 et Eb 132/3).",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 132/1 (microfilm: RMS 1/128.802, numérique: RN-EB-132-1), pages manuscrites, de janvier 1917\nRépertoire séparé des mariages Eb 132/1 (microfilm: RMS 1/128.802, numérique: RN-EB-132-1), pages manuscrites, de janvier 1917",
+   "Cote de gestion": "RMS 1/128.802",
+   "Nom du fichier": "CH-ACV_RN-EB-132-1.pdf",
+   "Taille du fichier": "218 MiB"
+  },
+  "pdf": "8/9/c/89cc0d3f30fa57cac7c07f62b6ed6490b91d0262fe6801b3c7e2512dd2aa0d4b/CH-ACV_RN-EB-132-1.pdf"
+ },
+ {
+  "slug": "eb-132-2",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/2",
+   "Titre": "Paroisse réformée de Vevey",
+   "Date(s)": "1613-10-18 - 1642-03-16 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 10,4 x 30,4 / AR: 27,3 x 37,6 (répertoire) / BR: 27,1 X 37,2 (répertoire)",
+   "Portée et contenu": "Baptêmes (1613 octobre 8 - 1642 mars 16) pages 1-216;\nMariages (1613 octobre 25 - 1641 juillet 24) pages 1-60 en tête-bêche.\nDe 1613 à 1677, des registres ont été tenus séparément pour la paroisse de Vevey, l'un par le pasteur de Sainte-Claire (Eb 132/1) et l'autre par le pasteur du Bourg-Franc (Eb 132/2 et Eb 132/3).",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 132/2 (microfilm: RMS 1/128.802, numérique: RN-EB.132-2), pages manuscrites, de février 1917\nRépertoire séparé des mariages Eb 132/2 (microfilm: RMS 1/128.802, numérique: RN-EB.132-2), pages manuscrites, de février 1917",
+   "Cote de gestion": "RMS 1/128.802",
+   "Nom du fichier": "CH-ACV_RN-EB-132-2.pdf",
+   "Taille du fichier": "273 MiB"
+  },
+  "pdf": "5/f/a/5fac2200ae228e747248c6e8fe1e182bd9950ff4255bf99d34f9b737e63bb257/CH-ACV_RN-EB-132-2.pdf"
+ },
+ {
+  "slug": "eb-132-3",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/3",
+   "Titre": "Paroisse réformée de Vevey",
+   "Date(s)": "1642-04-13 - 1696-04-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 16,3 x 25 / AR: 27,3 X 37,5 (répertoire) / BR: 27,4 X 37,7 (répertoire)",
+   "Portée et contenu": "Baptêmes (1642 avril 13 - 1696 avril 30) pages a-g et 1-297;\nMariages (1642 avril 17 - 1696 avril 29) pages 1-56 en tête-bêche.\nDe 1613 à 1677, des registres ont été tenus séparément pour la paroisse de Vevey, l'un par le pasteur de Sainte-Claire (Eb 132/1) et l'autre par le pasteur du Bourg-Franc (Eb 132/2 et Eb 132/3).\nDes biographies de pasteurs se trouvent au début, pages a-f, et une \"inscription faite sur ordre\" du Conseil d'Etat en page g.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 132/3 (microfilm: RMS 1/128.802, numérique: RN-EB.132-3 ), pages manuscrites, de mars 1917\nRépertoire séparé des mariages Eb 132/3 (microfilm: RMS 1/128.802, numérique: RN-EB.132-3), pages manuscrites, de mars 1917",
+   "Cote de gestion": "RMS 1/128.802",
+   "Nom du fichier": "CH-ACV_RN-EB-132-3.pdf",
+   "Taille du fichier": "376 MiB"
+  },
+  "pdf": "c/5/4/c546ed5700d3b4c2b8203c37b40f6f29e0f68ca7427ab67b955d3e30d240c11a/CH-ACV_RN-EB-132-3.pdf"
+ },
+ {
+  "slug": "eb-132-4",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/4",
+   "Titre": "Paroisse réformée de Vevey",
+   "Date(s)": "1696-05-09 - 1723-01-22 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 16,5 x 24x 5,5 x 1,2 / AR: 27,1 x 37,5 (répertoire) / BR: 27,1 x 37,5 (répertoire)",
+   "Portée et contenu": "Baptêmes (1696 mai 9 - 1723 janvier 22) pages a-g et 1-427;\nMariages (1696 juin 5 - 1722 novembre 19) pages 1-82 en tête-bêche.\nListe des pasteurs.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 132/4 (microfilm: RMS 1/128.803, numérique: RN-EB.132-4), pages manuscrites, non datées\nRépertoire séparé des mariages Eb 132/4 (microfilm: RMS 1/128.803, numérique: RN-EB.132-4), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.803",
+   "Nom du fichier": "CH-ACV_RN-EB-132-4.pdf",
+   "Taille du fichier": "442.5 MiB"
+  },
+  "pdf": "1/0/e/10e26128e1fcef41eabe63c731c09f30b6ff95b11e06d173d2a182ae755fa9d9/CH-ACV_RN-EB-132-4.pdf"
+ },
+ {
+  "slug": "eb-132-5",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/5",
+   "Titre": "Paroisse réformée de Vevey",
+   "Date(s)": "1723-01-07 - 1766-12-03 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 2 parties\nFormat LxH(cm): 20,5 x 28 / AR: 27 x 37,5 (répertoire) / BR: 27,5 X 37,6 (répertoire)",
+   "Portée et contenu": "Baptêmes (1723 janvier 7 - 1765 octobre 3) pages a-d, 1-590, 1-7/591-598 et 8-12/116-120 en tête-bêche dont baptêmes hors de la paroisse (1746 février 20 - 1765 octobre 3);\nMariages (1723 octobre 1 - 1766 décembre 3) pages 1-115 en tête-bêche et 599-609.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 132/5 (microfilm: RMS 1/128.803, numérique: RN-EB.132-5), pages manuscrites, du 28 juin 1917\nRépertoire séparé des mariages Eb 132/5 (microfilm: RMS 1/128.803, numérique: RN-EB.132-5), pages manuscrites, de mai 1917",
+   "Cote de gestion": "RMS 1/128.803",
+   "Nom du fichier": "CH-ACV_RN-EB-132-5.pdf",
+   "Taille du fichier": "814.6 MiB"
+  },
+  "pdf": "3/a/9/3a99eb52585dc8724405e0efd4d0e437eba77a42d3201360c92d5de5edd26417/CH-ACV_RN-EB-132-5.pdf"
+ },
+ {
+  "slug": "eb-132-6",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/6",
+   "Titre": "Paroisse réformée de Vevey",
+   "Date(s)": "1766-01-05 - 1777-02-18 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 16,7 x 23,2",
+   "Portée et contenu": "Annonces de mariages (1766 janvier 5 - 1777 février 18) pages 1-109.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.803",
+   "Nom du fichier": "CH-ACV_RN-EB-132-6.pdf",
+   "Taille du fichier": "69.1 MiB"
+  },
+  "pdf": "b/1/8/b184d1d30777f1800c007373598fd98a2efa13db44a102082aade1ba11ce7ab1/CH-ACV_RN-EB-132-6.pdf"
+ },
+ {
+  "slug": "eb-132-7",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/7",
+   "Titre": "Paroisse réformée de Vevey",
+   "Date(s)": "1763-01-03 - 1807-12-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 2 parties\nFormat LxH(cm): 22,8 x 35,1 x5 / AR: 27,2 X 39 (répertoire)",
+   "Portée et contenu": "Baptêmes (1763 janvier 3 - 1807 décembre 30) pages a-f et 1-548;\nBaptêmes hors Vevey (1704 octobre 2 - 1808 janvier 13) pages 549-569 en tête-bêche.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 132/7-10 (microfilm: RMS 1/128.804 et RMS 1/128.805, numérique: RN-EB-132-7), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.804",
+   "Nom du fichier": "CH-ACV_RN-EB-132-7.pdf",
+   "Taille du fichier": "856 MiB"
+  },
+  "pdf": "f/3/d/f3d9263f79a239ecf273cd1fe81606387625e77abacbdcb73c64a732504d0a46/CH-ACV_RN-EB-132-7.pdf"
+ },
+ {
+  "slug": "eb-132-8",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/8",
+   "Titre": "Paroisse réformée de Vevey",
+   "Date(s)": "1767-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 2 parties\nFormat LxH(cm): 22 x 34 / 27,3 x 39,4 (répertoire)",
+   "Portée et contenu": "Mariages (1767 janvier 1 - 1821 juin 30) pages 1-247;\nMariages à l'étranger (1778 mars 26 - 1821 mars 3) pages 248-262 en tête-bêche.",
+   "Instruments de recherche": "Répertoire séparé des mariages Eb 132/8 (microfilm: RMS 1/128.804, numérique: RN-EB-132-8), pages manuscrites, non datées",
+   "Note": "Série pages blanches, de la page 248 à la partie B.",
+   "Cote de gestion": "RMS 1/128.804",
+   "Nom du fichier": "CH-ACV_RN-EB-132-8.pdf",
+   "Taille du fichier": "389.4 MiB"
+  },
+  "pdf": "5/4/e/54e2c07b6ff78022fcc19c7d0806f79c27873ce1b2906c072283de1dc96e8329/CH-ACV_RN-EB-132-8.pdf"
+ },
+ {
+  "slug": "eb-132-9",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/9",
+   "Titre": "Paroisse réformée de Vevey",
+   "Date(s)": "1745-01-02 - 1802-12-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "3 volumes en 1 partie\nFormat LxH(cm): 20,5 x 47,5 / AR1: 28 x 41,2 (répertoire) / AR2: 27,9 x 38,9 (répertoire)",
+   "Portée et contenu": "Décès (1745 janvier 2 - 1802 décembre 30) pages 1-535.",
+   "Instruments de recherche": "Répertoire séparé des décès Eb 132/9-11 (microfilm: RMS 1/128.805, numérique: RN-EB-132-9), pages manuscrites, non datées\nRépertoire séparé des décès Eb 132/9 (microfilm: RMS 1/128.805, numérique: RN-EB-132-9), pages manuscrites, non datées",
+   "Note": "Liste des pasteurs avant page 1.",
+   "Cote de gestion": "RMS 1/128.805",
+   "Nom du fichier": "CH-ACV_RN-EB-132-9.pdf",
+   "Taille du fichier": "931.3 MiB"
+  },
+  "pdf": "c/c/0/cc06a879f6af16eeb20823128c87ca7be6a4aa4b59f3dcab2b9b570876762860/CH-ACV_RN-EB-132-9.pdf"
+ },
+ {
+  "slug": "eb-132-10",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/10",
+   "Titre": "Paroisse réformée de Vevey",
+   "Date(s)": "1808-01-02 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 2 parties\nFormat LxH(cm): 23 x 35 / AR: 27,2 X 39 (répertoire)",
+   "Portée et contenu": "Baptêmes (1808 janvier 2 - 1821 juin 30) pages 1-321;\nExtraits de baptêmes à l'étranger (1808 septembre 29 - 1821 mai 18) pages 401-425.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes Eb 132/7-10 (microfilm: RMS 1/128.804 et RMS 1/128.805, numérique: RN-EB-132-7), pages manuscrites, non datées",
+   "Note": "Série pages blanches, de la page 322 à la partie B. Page 316 à 321, liste des registres, mémoires et devoirs du catéchiste.",
+   "Cote de gestion": "RMS 1/128.805",
+   "Nom du fichier": "CH-ACV_RN-EB-132-10.pdf",
+   "Taille du fichier": "379.6 MiB"
+  },
+  "pdf": "e/4/8/e489b311fc4ec5ad0ccc6b7b31b11035b9aa8f524ad832f3d6478154e9195a9c/CH-ACV_RN-EB-132-10.pdf"
+ },
+ {
+  "slug": "eb-132-11",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/11",
+   "Titre": "Paroisse réformée de Vevey",
+   "Date(s)": "1803-01-07 - 1855-03-23 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 3 parties\nFormat LxH(cm): 27 x 36,5 / AR1: 28 x 39 (répertoire) / AR2: 28 x 41,4 (répertoire)",
+   "Portée et contenu": "Décès (1803 janvier 7 - 1821 juin 30) pages 1-203 (les pages 167 à 169 n'ont pas été utilisées);\nNotices sur les legs (1805 février 19 - 1855 mars 23) pages 1-14;\nInscription du 12 juillet 1904 sur l'invitation du Département de justice et police du 18 juin 1904, selon l'ordonnance du Conseil d'Etat en exécution du jugement du Tribunal civil du district de Vevey du 3 mars 1828, page non numérotée en tête-bêche.",
+   "Instruments de recherche": "Répertoire séparé des décès Eb 132/9-11 (microfilm: RMS 1/128.805, numérique: RN-EB-132-9-11), pages manuscrites, non datées\nRépertoire séparé des décès Eb 132/11 (microfilm: RMS 1/128.805, numérique: RN-EB-132-11), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.805",
+   "Nom du fichier": "CH-ACV_RN-EB-132-11.pdf",
+   "Taille du fichier": "360.7 MiB"
+  },
+  "pdf": "7/a/d/7adbba869f24b156503f4d90361687fad955322406331d3dc23c16d78a65e72d/CH-ACV_RN-EB-132-11.pdf"
+ },
+ {
+  "slug": "eb-132-12",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/12",
+   "Titre": "Paroisse réformée de Vevey",
+   "Date(s)": "1786-01-01 - 1814-06-19 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 18,5 x 27,2 / 18,5 x 22,7 (répertoire)",
+   "Portée et contenu": "Annonces de mariages (1786 janvier 1 - 1814 juin 19) pages 1-371.",
+   "Instruments de recherche": "Répertoire séparé des annonces de mariages Eb 132/12 (microfilm: RMS 1/128.805, numérique: RN-EB-132-12), pages manuscrites, non datées",
+   "Note": "Notice historique à l'intérieur de la couverture.",
+   "Cote de gestion": "RMS 1/128.806",
+   "Nom du fichier": "CH-ACV_RN-EB-132-12.pdf",
+   "Taille du fichier": "250.6 MiB"
+  },
+  "pdf": "b/c/b/bcb1797430e1a9395516d133bff299b39f86ed87901c338f28584ce97a916aa1/CH-ACV_RN-EB-132-12.pdf"
+ },
+ {
+  "slug": "eb-132-13",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/13",
+   "Titre": "Paroisse réformée de Vevey",
+   "Date(s)": "1814-05-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 23,9 x 36,1",
+   "Portée et contenu": "Annonces de mariages (1814 mai 1 - 1821 juin 30) pages 1-60.",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Eb 132/13 (microfilm: RMS 1/128.805, numérique: RN-EB-132-13), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.806",
+   "Nom du fichier": "CH-ACV_RN-EB-132-13.pdf",
+   "Taille du fichier": "79 MiB"
+  },
+  "pdf": "a/5/0/a50616e0cb98ac087a94fbdb5510323765fe8c8f0aedbbd3e0c66fc9e81533df/CH-ACV_RN-EB-132-13.pdf"
+ },
+ {
+  "slug": "eb-132-14",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/14",
+   "Titre": "Paroisse réformée de langue allemande de Vevey",
+   "Date(s)": "1719-01-01 - 1784-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 2 parties\nFormat LxH(cm): 12,2 x 18,5 / AR+ BR: 27,9 x 39,1 (répertoire)",
+   "Portée et contenu": "Baptêmes (1719 - 1784) pages 1-173;\nBaptêmes et mariages des Allemands dans les églises françaises de la communauté allemande (1773 juin 29 - 1777 février 20) pages 220-231;\nMariages (1720 - 1784) pages 240-280 en tête-bêche;\nCatéchumènes (1742 - 1784) pages 306-337 en tête-bêche.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes et des mariages Eb 132/14 (microfilm: RMS 1/128.806, numérique: RN-EB-132-14), pages manuscrites, non datées",
+   "Note": "Série pages blanches, de la page 232 à la partie B.",
+   "Cote de gestion": "RMS 1/128.806",
+   "Nom du fichier": "CH-ACV_RN-EB-132-14.pdf",
+   "Taille du fichier": "140.4 MiB"
+  },
+  "pdf": "0/d/1/0d10668254b8e6d466ee05b87f4aa051cbc2b3bcbdc7e3ea8e16eaff89455488/CH-ACV_RN-EB-132-14.pdf"
+ },
+ {
+  "slug": "eb-132-15",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/15",
+   "Titre": "Paroisse réformée de langue allemande de Vevey",
+   "Date(s)": "1784-01-01 - 1821-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 4 parties\nFormat LxH(cm): 21,5 x 26,2",
+   "Portée et contenu": "Baptêmes (1784 - 1821) pages 1-105;\nBaptêmes (1783 - 1799) pages 1-23 en tête-bêche.",
+   "Instruments de recherche": "Répertoire incorporé des baptêmes Eb 132/15 (microfilm: RMS 1/128.806, numérique: RN-EB-132-15), pages manuscrites, non datées, 2 pages tête-bêche",
+   "Note": "Série pages blanches, de la page Z du répertoire.",
+   "Cote de gestion": "RMS 1/128.806",
+   "Nom du fichier": "CH-ACV_RN-EB-132-15.pdf",
+   "Taille du fichier": "138.1 MiB"
+  },
+  "pdf": "0/f/7/0f7014b8032d47a40fc9305eb3b87a59c5c32ecf3a0d50b0ae190306cca1ec7a/CH-ACV_RN-EB-132-15.pdf"
+ },
+ {
+  "slug": "eb-132-16",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/16",
+   "Titre": "Paroisse réformée de langue allemande de Vevey",
+   "Date(s)": "1784-01-01 - 1821-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 3 parties\nFormat LxH(cm): 21,2 x 26,3",
+   "Portée et contenu": "Mariages (1784 - 1821) pages 1-56;\nCatéchumènes (1785 - 1821) pages 1-24 en tête-bêche.",
+   "Instruments de recherche": "Répertoire incorporé des mariages Eb 132/16 (microfilm: RMS 1/128.806, numérique: RN-EB-132-16), pages manuscrites, non datées, pages 57-167",
+   "Cote de gestion": "RMS 1/128.806",
+   "Nom du fichier": "CH-ACV_RN-EB-132-16.pdf",
+   "Taille du fichier": "134 MiB"
+  },
+  "pdf": "f/a/5/fa5b5b5e6cafd7b49bb3924832daff5eae0fdd92280e0b3c15b475fc9494f10a/CH-ACV_RN-EB-132-16.pdf"
+ },
+ {
+  "slug": "eb-132-17",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/17",
+   "Titre": "Paroisse réformée de langue allemande de Vevey",
+   "Date(s)": "1803-01-01 - 1818-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 13 x 20,4",
+   "Portée et contenu": "Annonces de mariages (1803 - 1818) pages 1-28.",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Eb 132/17 (microfilm: RMS 1/128.806, numérique: RN-EB-132-17), pages manuscrites, non datées, pages 29-61",
+   "Note": "Série pages blanches, de la page W (non inscrite) du répertoire à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.806",
+   "Nom du fichier": "CH-ACV_RN-EB-132-17.pdf",
+   "Taille du fichier": "22.4 MiB"
+  },
+  "pdf": "0/5/c/05c7d16420aa7d500666fdb626beb1d1745512dc195817fa64545f41080ea5fd/CH-ACV_RN-EB-132-17.pdf"
+ },
+ {
+  "slug": "eb-132-18",
+  "parent": "eb-132-1-17",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 132/18",
+   "Titre": "Paroisse réformée de Vevey",
+   "Date(s)": "1704-02-06 - 1821-09-05 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 registre",
+   "Portée et contenu": "Décès (1704 février 6 - 1821 septembre 5).",
+   "Instruments de recherche": "Répertoire séparé des décès (AC Vevey D orange 30 bis) sous RMS 296.024.",
+   "Note": "Microfilm réalisé par les Archives cantonales vaudoises, le 29 novembre 1996, pour compléter les séries en possession desdites Archives.",
+   "Cote de gestion": "RMS 296.24"
+  }
+ }
+]
