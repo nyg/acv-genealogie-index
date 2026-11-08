@@ -1,0 +1,103 @@
+[
+ {
+  "slug": "sa-178774",
+  "parent": null,
+  "text": "Ec 97/1-4 Paroisse réformée d'Oron., 1801-1873 (Série)",
+  "children": [
+   "sa-178775",
+   "sa-178777",
+   "sa-178779",
+   "sa-178780"
+  ],
+  "f": {
+   "Ref. code": "Ec 97/1-4",
+   "Title": "Paroisse réformée d'Oron.",
+   "Dates": "1801-1873",
+   "Creation date(s)": "1801 - 1873",
+   "Level": "Série",
+   "Importance matérielle": "4 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178774",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178775",
+  "parent": "sa-178774",
+  "text": "Ec 97/1 - Mariages 1821-1842., 1821.01.01-1842.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 97/1",
+   "Title": "- Mariages 1821-1842.",
+   "Dates": "1821-1842",
+   "Creation date(s)": "1/1/1821 - 12/31/1842",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178775",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178777",
+  "parent": "sa-178774",
+  "text": "Ec 97/2 - Mariages 1843-1862., 1843.01.01-1862.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 97/2",
+   "Title": "- Mariages 1843-1862.",
+   "Dates": "1843-1862",
+   "Creation date(s)": "1/1/1843 - 12/31/1862",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178777",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178779",
+  "parent": "sa-178774",
+  "text": "Ec 97/3 - Mariages 1863-1869. \\ - Annonces de mariage 1807-1867., 1807.01.01-1869.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 97/3",
+   "Title": "- Mariages 1863-1869.\n- Annonces de mariage 1807-1867.",
+   "Dates": "1807-1869",
+   "Creation date(s)": "1/1/1807 - 12/31/1869",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178779",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178780",
+  "parent": "sa-178774",
+  "text": "Ec 97/4 - Naissances 1801-1869. \\ - Décès 1822-1873., 1801.01.01-1873.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 97/4",
+   "Title": "- Naissances 1801-1869.\n- Décès 1822-1873.",
+   "Dates": "1801-1873",
+   "Creation date(s)": "1/1/1801 - 12/31/1873",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178780",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

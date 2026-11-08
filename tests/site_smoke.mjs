@@ -137,6 +137,17 @@ const cases = [
   ["Bullet", "mariage", "1940", "SB 115/687"],
   ["Bullet", "mariage", "1953", "SB 115/1135"],
   ["Sainte-Croix", "naissance", "1739", "Eb 121/2"],
+  ["Oron-la-Ville", "naissance", "1750", "Eb 97/2"],
+  ["Oron-la-Ville", "naissance", "1850", "Ed 97/2"],
+  ["Oron-la-Ville", "mariage", "1850", "Ec 97/2"],
+  ["Oron-la-Ville", "deces", "25.06.1896", "SB 267/77/3/1/1"],
+  ["Oron-la-Ville", "deces", "25.06.1896", "SB 23/2062"],
+  ["Oron-la-Ville", "mariage", "1898", "SB 23/2065"],
+  ["Oron-la-Ville", "mariage", "1900", "SB 267/77/2/2"],
+  ["Oron-la-Ville", "mariage", "1900", "SB 268/77/6"],
+  ["Oron-la-Ville", "naissance", "1900", "SB 269/77/1/4"],
+  ["Oron-la-Ville", "mariage", "1920", "SB 115/448"],
+  ["Oron-la-Ville", "mariage", "1953", "SB 115/1217"],
 ];
 let failures = 0;
 for (const [place, kind, date, expected] of cases) {
@@ -247,7 +258,11 @@ const bulletOwnParish = !bullet1739.cotes.includes("Eb 121/2") && bullet1739.ans
 failures += bulletOwnParish ? 0 : 1;
 console.log(`${bulletOwnParish ? "ok  " : "FAIL"} Bullet → plus Sainte-Croix après 1663 ; en 1739, l'inventaire de Bullet : « Registres dès 1744 »`);
 
-const startNoteOnlyWhenEmpty = !search("Ollon", "naissance", "1787").answers.includes("Registres dès") && search("Ollon", "naissance", "1590").answers.includes("Registres dès 1602");
+const oronCorrected = !search("Oron-la-Ville", "mariage", "1896").cotes.includes("SB 23/2065");
+failures += oronCorrected ? 0 : 1;
+console.log(`${oronCorrected ? "ok  " : "FAIL"} Oron-la-Ville / mariage / 1896 → pas SB 23/2065 (mariages 1898)`);
+
+const startNoteOnlyWhenEmpty =!search("Ollon", "naissance", "1787").answers.includes("Registres dès") && search("Ollon", "naissance", "1590").answers.includes("Registres dès 1602");
 failures += startNoteOnlyWhenEmpty ? 0 : 1;
 console.log(`${startNoteOnlyWhenEmpty ? "ok  " : "FAIL"} Ollon / naissance → « Registres dès 1602 » en 1590, sans registre, pas en 1787`);
 

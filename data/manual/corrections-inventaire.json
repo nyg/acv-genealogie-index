@@ -76,5 +76,7 @@
  {"cote": "SB 23/173", "field": "Title", "published": "- Naissances 1882-1883\n- Décès 1882-1883", "corrected": "- Naissances 1892-1893\n- Décès 1892-1893"},
  {"cote": "SB 23/173", "field": "Dates", "published": "1882-1883", "corrected": "1892-1893"},
  {"cote": "SB 23/173", "field": "Creation date(s)", "published": "1882 - 1883", "corrected": "1892 - 1893"},
- {"cote": "SB 23/281", "field": "Dates", "published": "1876-1881", "corrected": "1881-1884"}
+ {"cote": "SB 23/281", "field": "Dates", "published": "1876-1881", "corrected": "1881-1884"},
+ {"cote": "SB 23/2065", "field": "Dates", "published": "1896", "corrected": "1898"},
+ {"cote": "SB 23/2065", "field": "Creation date(s)", "published": "1896", "corrected": "1898"}
 ]
