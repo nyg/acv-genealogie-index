@@ -1,0 +1,92 @@
+[
+ {
+  "slug": "ed-13-1-4",
+  "parent": null,
+  "children": [
+   "ed-13-1",
+   "ed-13-2",
+   "ed-13-3",
+   "ed-13-4"
+  ],
+  "f": {
+   "Cote": "Ed 13/1-4",
+   "Titre": "Paroisse réformée de Belmont-sur-Lausanne.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Belmont-sur-Lausanne :\nParoisse médiévale devenue annexe de Pully de la Réformation à 1766, puis de Lutry (registres dès 1766) et de Pully en 1846, érigée en paroisse en 1862, annexe de Pully en 1863, puis de Lutry en 1864.\nRegistres dès 1766.\nComprend : Corsy, Monts de Lutry (1862-1863)."
+  }
+ },
+ {
+  "slug": "ed-13-1",
+  "parent": "ed-13-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 13/1",
+   "Titre": "Registre de naissances 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,7 x 40,4",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 13/1 (microfilm: RMS 1/1.047.261, numérique: RN-ED-13-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.047.261",
+   "Nom du fichier": "CH-ACV_RN-ED-13-1.pdf",
+   "Taille du fichier": "558 MiB"
+  },
+  "pdf": "f/b/3/fb3c50df3fbc9d546afab535622f06c730d674a54d8878756b13fc6b701d5228/CH-ACV_RN-ED-13-1.pdf"
+ },
+ {
+  "slug": "ed-13-2",
+  "parent": "ed-13-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 13/2",
+   "Titre": "Registre de mariages 1821-1875",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,5 x 41,4/ 28 x 40,2 (répertoire)",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 13/2 (microfilm: RMS 1/1.047.261, numérique: RN-ED-13-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.047.261",
+   "Nom du fichier": "CH-ACV_RN-ED-13-2.pdf",
+   "Taille du fichier": "264.4 MiB"
+  },
+  "pdf": "1/a/2/1a2bc306c12db82e2de82fb7f3408507557604a20b89605f2b3268fc3bf3593a/CH-ACV_RN-ED-13-2.pdf"
+ },
+ {
+  "slug": "ed-13-3",
+  "parent": "ed-13-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 13/3",
+   "Titre": "Registre de décès 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,2 x 41,6 / 27,9 x 40,4 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 13/3 (microfilm: RMS 1/1.047.261, numérique: RN-ED-13-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.047.261",
+   "Nom du fichier": "CH-ACV_RN-ED-13-3.pdf",
+   "Taille du fichier": "338.1 MiB"
+  },
+  "pdf": "2/6/6/266fdaf58b6de1c246887497091f41e768dd886536cb9d5459b00bb8e2259cfe/CH-ACV_RN-ED-13-3.pdf"
+ },
+ {
+  "slug": "ed-13-4",
+  "parent": "ed-13-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 13/4",
+   "Titre": "Registre d'annonces de mariage 1821-1875.",
+   "Date(s)": "1821-07-01 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 28,6 x 43,4",
+   "Portée et contenu": "Annonces de mariage (1821 juillet 1 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 13/4 (microfilm: RM 299.10, numérique: RN-ED-13-4), pages manuscrites, non datées",
+   "Note": "Série pages blanches, de la page 214 jusqu'au répertoire.",
+   "Cote de gestion": "RM 299.10",
+   "Nom du fichier": "CH-ACV_RN-ED-13-4.pdf",
+   "Taille du fichier": "335.1 MiB"
+  },
+  "pdf": "4/7/f/47f5bf3fc32611bb71ab7f8b551d124b5649ed59fcee104408af29df3b442c53/CH-ACV_RN-ED-13-4.pdf"
+ }
+]

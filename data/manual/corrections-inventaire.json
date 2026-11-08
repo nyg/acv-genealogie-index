@@ -79,5 +79,9 @@
  {"cote": "SB 23/281", "field": "Dates", "published": "1876-1881", "corrected": "1881-1884"},
  {"cote": "SB 23/2065", "field": "Dates", "published": "1896", "corrected": "1898"},
  {"cote": "SB 23/2065", "field": "Creation date(s)", "published": "1896", "corrected": "1898"},
+ {"cote": "Ed 112/2", "field": "Titre", "published": "Registre de naissances 1840-1866.", "corrected": "Registre de naissances 1840-1868."},
+ {"cote": "Ed 112/2", "field": "Date(s)", "published": "1866-12-26", "corrected": "1868-12-26"},
+ {"cote": "Ed 112/2", "field": "Portée et contenu", "published": "1866 décembre 26", "corrected": "1868 décembre 26"},
+ {"cote": "Eb 112/6", "field": "Portée et contenu", "published": "1814 septembre 27", "corrected": "1814 décembre 27"},
  {"cote": "SB 23/2416", "field": "Dates", "published": "1896", "corrected": "1895-1896"}
 ]

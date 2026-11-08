@@ -1,0 +1,123 @@
+[
+ {
+  "slug": "sa-178855",
+  "parent": null,
+  "text": "Ec 112/1-5 Paroisse réformée de Pully., 1812-1869 (Série)",
+  "children": [
+   "sa-178856",
+   "sa-178857",
+   "sa-178858",
+   "sa-178859",
+   "sa-178860"
+  ],
+  "f": {
+   "Ref. code": "Ec 112/1-5",
+   "Title": "Paroisse réformée de Pully.",
+   "Dates": "1812-1869",
+   "Creation date(s)": "1812 - 1869",
+   "Level": "Série",
+   "Importance matérielle": "5 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178855",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178856",
+  "parent": "sa-178855",
+  "text": "Ec 112/1 - Mariages 1821-1837, no 196., 1821.01.01-1837.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 112/1",
+   "Title": "- Mariages 1821-1837, no 196.",
+   "Dates": "1821-1837",
+   "Creation date(s)": "1/1/1821 - 12/31/1837",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178856",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178857",
+  "parent": "sa-178855",
+  "text": "Ec 112/2 - Mariages 1837, no 197-1853., 1837.01.01-1853.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 112/2",
+   "Title": "- Mariages 1837, no 197-1853.",
+   "Dates": "1837-1853",
+   "Creation date(s)": "1/1/1837 - 12/31/1853",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178857",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178858",
+  "parent": "sa-178855",
+  "text": "Ec 112/3 - Mariages 1854-1869., 1854.01.01-1869.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 112/3",
+   "Title": "- Mariages 1854-1869.",
+   "Dates": "1854-1869",
+   "Creation date(s)": "1/1/1854 - 12/31/1869",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178858",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178859",
+  "parent": "sa-178855",
+  "text": "Ec 112/4 - Annonces de mariage 1812-1869. \\ - Naissances 1812-1860., 1812.01.01-1869.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 112/4",
+   "Title": "- Annonces de mariage 1812-1869.\n- Naissances 1812-1860.",
+   "Dates": "1812-1869",
+   "Creation date(s)": "1/1/1812 - 12/31/1869",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "[annonces de mariage] (Matières\\ Subdivisions\\de forme)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178859",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178860",
+  "parent": "sa-178855",
+  "text": "Ec 112/5 - Naissances 1861-1869. \\ - Décès 1812-1869., 1812.01.01-1869.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 112/5",
+   "Title": "- Naissances 1861-1869.\n- Décès 1812-1869.",
+   "Dates": "1812-1869",
+   "Creation date(s)": "1/1/1812 - 12/31/1869",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "naissance (Matières\\N)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178860",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

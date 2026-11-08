@@ -1,0 +1,171 @@
+[
+ {
+  "slug": "eb-112-1-8",
+  "parent": null,
+  "children": [
+   "eb-112-1",
+   "eb-112-2",
+   "eb-112-3",
+   "eb-112-4",
+   "eb-112-5",
+   "eb-112-6",
+   "eb-112-7",
+   "eb-112-8"
+  ],
+  "f": {
+   "Cote": "Eb 112/1-8",
+   "Titre": "Registres de la paroisse réformée de Pully.",
+   "Date(s)": "1582-10-21 - 1821-06-30 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Pully :\nParoisse médiévale.\nRegistres dès 1582.\nComprend : Paudex.\nAnnexe : Belmont-sur-Lausanne (1536-1766, 1846-1862 et 1863-1864), avec registres propres dès 1767.\nVoir Revue historique vaudoise 15, 1907, pp. 329-342."
+  }
+ },
+ {
+  "slug": "eb-112-1",
+  "parent": "eb-112-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 112/1",
+   "Titre": "Paroisse réformée de Pully",
+   "Date(s)": "1582-10-21 - 1630-05-14 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 3 parties\nFormat LxH(cm): 8,7 x 13 / 28 x 39,2 (répertoire)",
+   "Portée et contenu": "Baptêmes (1582 octobre 21 - 1630 mai 14), pp. 1-247;\nMariages (1583 février 16 - 1630 avril 25, lacunes de plusieurs années), pp.tête-bêche 248-320;\nDécès (1617 janvier 19 - 1628), pp.tête-bêche 322-330.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, mariages et décès Eb 112/1-2 (microfilm: RMS 1/128.769, numérique: RN-EB-112-1), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.768",
+   "Nom du fichier": "CH-ACV_RN-EB-112-1.pdf",
+   "Taille du fichier": "142.4 MiB"
+  },
+  "pdf": "c/4/5/c450a773aac550a706802f7cb39e4897606cbe7333bad9ecd00336d7d1ea2d08/CH-ACV_RN-EB-112-1.pdf"
+ },
+ {
+  "slug": "eb-112-2",
+  "parent": "eb-112-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 112/2",
+   "Titre": "Paroisse réformée de Pully",
+   "Date(s)": "1630-05-23 - 1673-10-23 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 8,8 x 13,5 x 3,7",
+   "Portée et contenu": "Baptêmes (1630 mai 23 - 1673 octobre 23), pp. 1-235;\nMariages (1630 octobre 31 - 1673 septembre 25), pp.tête-bêche 236-290 et 315-338;",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, mariages et décès Eb 112/1-2 (microfilm: RMS 1/128.769, numérique: RN-EB-112-1-2), pages manuscrites, non datées",
+   "Note": "Série de pages blanches, de la page 235 jusqu'à la partie tête-bêche des mariages.\n\"Pour mémoire\" concernant les pauvres en fin de partie des mariages.",
+   "Cote de gestion": "RMS 1/128.768",
+   "Nom du fichier": "CH-ACV_RN-EB-112-2.pdf",
+   "Taille du fichier": "67.8 MiB"
+  },
+  "pdf": "1/7/d/17da593f1c55b1c58bdf89bb92a48154f1b7d81ca1cc59f7bc11db8061ed4571/CH-ACV_RN-EB-112-2.pdf"
+ },
+ {
+  "slug": "eb-112-3",
+  "parent": "eb-112-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 112/3",
+   "Titre": "Paroisse réformée de Pully",
+   "Date(s)": "1673-12-14 - 1731-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 2 parties\nFormat LxH(cm): 17,2 x 25,5 / AR+ BR: 28 x 39,2 (répertoire)",
+   "Portée et contenu": "Baptêmes (1673 décembre 14 - 1731 décembre 23), pp. 0-212; - Interfolio entre pp. 210-211; - \"Pour mémoire\" des années 1786-1789, pp. 211-212;\nMariages (1674 janvier 9 - 1731 décembre 31), pp.tête-bêche 1-82; - Interfolio p. 1; - Liste des pasteurs, p. 4.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes et des mariages Eb 112/3 et Eb 112/4 (microfilm: RMS 1/128.769, numérique: RN-EB-112-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.769",
+   "Nom du fichier": "CH-ACV_RN-EB-112-3.pdf",
+   "Taille du fichier": "336.7 MiB"
+  },
+  "pdf": "b/1/7/b1716126fa0ef8ea36e5b062801d883ca8b33afb16896b6ae001d986aeb1c954/CH-ACV_RN-EB-112-3.pdf"
+ },
+ {
+  "slug": "eb-112-4",
+  "parent": "eb-112-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 112/4",
+   "Titre": "Paroisse réformée de Pully",
+   "Date(s)": "1732-01-06 - 1782-10-13 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17,5 x 22,7",
+   "Portée et contenu": "Baptêmes (1732 janvier 6 - 1782 octobre 13), pp. 1-271;\n*- Interfolios entre pp. 40-41, 86-87, 116-117;\nMariages (1732 janvier 25 - 1782 janvier 24), pp.tête-bêche 1-85;\n*- Interfolios entre pp. 84-85.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes et des mariages Eb 112/3 et Eb 112/4 (microfilm: RMS 1/128.769, numérique: RN-EB-112-3), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.769",
+   "Nom du fichier": "CH-ACV_RN-EB-112-4.pdf",
+   "Taille du fichier": "250.3 MiB"
+  },
+  "pdf": "2/4/b/24ba9c2d4c1b7d988c69bdc1a37133f2044aff8bf2bb1a8e8c0e2f03c5b39832/CH-ACV_RN-EB-112-4.pdf"
+ },
+ {
+  "slug": "eb-112-5",
+  "parent": "eb-112-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 112/5",
+   "Titre": "Paroisse réformée de Pully",
+   "Date(s)": "1782-10-20 - 1815-10-22 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 17,5 x 21 x 3,5/ AR, BR et CR 28 x 39,2 (répertoire)",
+   "Portée et contenu": "Baptêmes (1782 octobre 20 - 1815 octobre 22), pp. 0-270;\n*- Lettre concernant le problème de l'orthographe des noms germanophones, pp. 1-4.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, des mariages, des annonces de mariages et des décès Eb 112/5, 112/6, 112/7 et 112/8 (microfilm: RMS 1/128.769, numérique: RN-EB-112-5), pages manuscrites, non datées",
+   "Note": "Cahier désolidarisé, détaché (pp. 255-269)",
+   "Cote de gestion": "RMS 1/128.769",
+   "Nom du fichier": "CH-ACV_RN-EB-112-5.pdf",
+   "Taille du fichier": "266.7 MiB"
+  },
+  "pdf": "d/7/7/d777653e8f0e00f95635054aac70faf5c7b49afe1d6e84d1e0abe4ca9eede070/CH-ACV_RN-EB-112-5.pdf"
+ },
+ {
+  "slug": "eb-112-6",
+  "parent": "eb-112-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 112/6",
+   "Titre": "Paroisse réformée de Pully",
+   "Date(s)": "1782-09-03 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17,3 x 21,1",
+   "Portée et contenu": "Mariages (1782 septembre 3 - 1814 septembre 27), pp. 0-113;\nDécès (1782 novembre 26 - 1821 juin 30), pp.tête-bêche 0-147.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, des mariages, des annonces de mariages et des décès Eb 112/5, 112/6, 112/7 et 112/8 (microfilm: RMS 1/128.769, numérique: RN-EB-112-5), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.769",
+   "Nom du fichier": "CH-ACV_RN-EB-112-6.pdf",
+   "Taille du fichier": "173.1 MiB"
+  },
+  "pdf": "6/6/9/669117d44d033f5f0ce7c39327994b5ebccaeeb1a1fc892b04b537a1baa89d58/CH-ACV_RN-EB-112-6.pdf"
+ },
+ {
+  "slug": "eb-112-7",
+  "parent": "eb-112-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 112/7",
+   "Titre": "Paroisse réformée de Pully",
+   "Date(s)": "1816-01-07 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 18,2 x 22,5",
+   "Portée et contenu": "Mariages (1816 mars 21 - 1821 juin 30), pp. 0-13;\nAnnonces de mariages (1816 janvier 7 - 1821 juin 30), pp.tête-bêche 1-23.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, des mariages, des annonces de mariages et des décès Eb 112/5, 112/6, 112/7 et 112/8 (microfilm: RMS 1/128.769, numérique: RN-EB-112-5), pages manuscrites, non datées",
+   "Note": "Série de pages blanches, de la page 14 à la partie des annonces de mariages.",
+   "Cote de gestion": "RMS 1/128.769",
+   "Nom du fichier": "CH-ACV_RN-EB-112-7.pdf",
+   "Taille du fichier": "26 MiB"
+  },
+  "pdf": "4/f/b/4fb8714ad2af0c8c0e85a7d184ef70106e93b5ad15f7ec2f0f5fc2471205d929/CH-ACV_RN-EB-112-7.pdf"
+ },
+ {
+  "slug": "eb-112-8",
+  "parent": "eb-112-1-8",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 112/8",
+   "Titre": "Paroisse réformée de Pully",
+   "Date(s)": "1815-10-29 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 26 x 37",
+   "Portée et contenu": "Baptêmes (1815 octobre 29 - 1821 juin 30), pp. 0-16;\n*- Interfolios p. 0 et entre pp. 16-17.",
+   "Instruments de recherche": "Répertoire séparé des baptêmes, des mariages, des annonces de mariages et des décès Eb 112/5, 112/6, 112/7 et 112/8 (microfilm: RMS 1/128.769, numérique: RN-EB-112-5), pages manuscrites, non datées",
+   "Note": "Série de pages blanches, de la page 17 jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.769",
+   "Nom du fichier": "CH-ACV_RN-EB-112-8.pdf",
+   "Taille du fichier": "24.5 MiB"
+  },
+  "pdf": "d/3/e/d3ec061cd56950f03f2db1deafea3a11d3c8930b96ac8d39390d5dfb6862156b/CH-ACV_RN-EB-112-8.pdf"
+ }
+]
