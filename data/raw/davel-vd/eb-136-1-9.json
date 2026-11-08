@@ -1,0 +1,210 @@
+[
+ {
+  "slug": "eb-136-1-9",
+  "parent": null,
+  "children": [
+   "eb-136-1",
+   "eb-136-2",
+   "eb-136-3",
+   "eb-136-4",
+   "eb-136-5",
+   "eb-136-6",
+   "eb-136-6-bis",
+   "eb-136-7",
+   "eb-136-8",
+   "eb-136-9"
+  ],
+  "f": {
+   "Cote": "Eb 136/1-9",
+   "Titre": "Registres de la paroisse réformée de Villeneuve.",
+   "Date(s)": "1572-12-14 - 1875-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Villeneuve :\nParoisse médiévale, desservie au début de la Réformation par le même prédicant que Montreux.\nRegistres dès 1572. Annexes : Noville (1845-1847), avec registres séparés ; Roche (1845-1863)."
+  }
+ },
+ {
+  "slug": "eb-136-1",
+  "parent": "eb-136-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 136/1",
+   "Titre": "Paroisse réformée de Villeneuve",
+   "Date(s)": "1572-12-14 - 1636-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 16,2 x 29",
+   "Portée et contenu": "Baptêmes (1572 décembre 14 - 1636 environ, lacunes de 1602 à 1604 et de 1613 à 1617) pages 1-85, 93-96, 101-105 et 111-121;\nMariages (1572 décembre 14 - 1634 décembre 3, manquent plusieurs années) pages 1-43 en tête-bêche.\nLes baptêmes et les mariages sont mélangés dans les deux parties.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.810",
+   "Nom du fichier": "CH-ACV_RN-EB-136-1.pdf",
+   "Taille du fichier": "116.1 MiB"
+  },
+  "pdf": "0/e/5/0e5942732c8f04b4acab21a37dd69a4261c2f834af45b2576364e835e89c2bfc/CH-ACV_RN-EB-136-1.pdf"
+ },
+ {
+  "slug": "eb-136-2",
+  "parent": "eb-136-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 136/2",
+   "Titre": "Paroisse réformée de Villeneuve",
+   "Date(s)": "1635-03-15 - 1706-11-24 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 16,1 x 39,8 x 2",
+   "Portée et contenu": "Baptêmes (1635 mars 15 - 1706 novembre 24, manquent plusieurs années notamment entre 1643 et 1649) pages 1-99;\nMariages (1654 janvier - 1706 octobre 22) pages 1-19 en tête-bêche.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.810",
+   "Nom du fichier": "CH-ACV_RN-EB-136-2.pdf",
+   "Taille du fichier": "115.4 MiB"
+  },
+  "pdf": "e/6/3/e6350d13c793452c43d35f17a40453467eabcc748aeade55a68716ad1c077cc5/CH-ACV_RN-EB-136-2.pdf"
+ },
+ {
+  "slug": "eb-136-3",
+  "parent": "eb-136-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 136/3",
+   "Titre": "Paroisse réformée de Villeneuve",
+   "Date(s)": "1706-11-28 - 1759-12-21 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 16,2 x 40",
+   "Portée et contenu": "Baptêmes (1706 novembre 28 - 1759 décembre 21) pages 1-185;\nMariages (1707 janvier 14 - 1759 novembre 16) pages 201-241 en tête-bêche.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.810",
+   "Nom du fichier": "CH-ACV_RN-EB-136-3.pdf",
+   "Taille du fichier": "225.4 MiB"
+  },
+  "pdf": "9/e/4/9e4ae173519cd221bab8819583e69bf0fa54407362028d299eb8b287087b7708/CH-ACV_RN-EB-136-3.pdf"
+ },
+ {
+  "slug": "eb-136-4",
+  "parent": "eb-136-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 136/4",
+   "Titre": "Paroisse réformée de Villeneuve",
+   "Date(s)": "1717-02-03 - 1759-12-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 16,3 x 22,7",
+   "Portée et contenu": "Décès (1717 février 3 - 1759 décembre) pages 1-99.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série pages blanches, de la page 100 à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.810",
+   "Nom du fichier": "CH-ACV_RN-EB-136-4.pdf",
+   "Taille du fichier": "56.7 MiB"
+  },
+  "pdf": "1/0/5/10579e208716cba06cde7f59ad22fbea740dc0e0912aa86b6793452746bc47d5/CH-ACV_RN-EB-136-4.pdf"
+ },
+ {
+  "slug": "eb-136-5",
+  "parent": "eb-136-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 136/5",
+   "Titre": "Paroisse réformée de Villeneuve",
+   "Date(s)": "1791-01-01 - 1802-10-10 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 15,3 x 23,5",
+   "Portée et contenu": "Cahier de notes d'état civil de l'Eglise réformée (1791 janvier 1er - 1802 octobre 10) pages 1-19, 20-28 (tête-bêche) et 29-32.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.810",
+   "Nom du fichier": "CH-ACV_RN-EB-136-5.pdf",
+   "Taille du fichier": "18.3 MiB"
+  },
+  "pdf": "b/b/8/bb85d827c032e606b46b1477901aa3c62e2d5347c3e20881e8ba17fc01e17f4f/CH-ACV_RN-EB-136-5.pdf"
+ },
+ {
+  "slug": "eb-136-6",
+  "parent": "eb-136-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 136/6",
+   "Titre": "Paroisse réformée de Villeneuve",
+   "Date(s)": "1759-12-29 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 21,4 x 33,3",
+   "Portée et contenu": "Baptêmes (1759 décembre 29 - 1821 juin 30) pages 1-276;\nCatéchumènes (1760 avril 4 - 1875 Pâques) pages 1-156 en tête-bêche.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série pages blanches, de la page 277 à la partie B.",
+   "Cote de gestion": "RMS 1/128.810",
+   "Nom du fichier": "CH-ACV_RN-EB-136-6.pdf",
+   "Taille du fichier": "450.1 MiB"
+  },
+  "pdf": "8/5/f/85fa123bf2c827fc7e7beb8a2c27b2aeca063bff8d491b93bb3e7736efe57415/CH-ACV_RN-EB-136-6.pdf"
+ },
+ {
+  "slug": "eb-136-6-bis",
+  "parent": "eb-136-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 136/6 bis",
+   "Titre": "Paroisse réformée de Villeneuve",
+   "Date(s)": "1800-01-01 - 1821-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 22,5 x 36,7",
+   "Portée et contenu": "Baptêmes (1800 - 1821) pages 1-75.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série pages blanches, de la page 76 à la fin du registre.",
+   "Cote de gestion": "RMS 1/128.810",
+   "Nom du fichier": "CH-ACV_RN-EB-136-6BIS.pdf",
+   "Taille du fichier": "91.5 MiB"
+  },
+  "pdf": "0/3/1/031dc3032357c4d6f950c3b39c0e36e97b5d782c90a5d7bde47add678db00f2b/CH-ACV_RN-EB-136-6BIS.pdf"
+ },
+ {
+  "slug": "eb-136-7",
+  "parent": "eb-136-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 136/7",
+   "Titre": "Paroisse réformée de Villeneuve",
+   "Date(s)": "1760-01-11 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 22,6 x 33,7 x 3,2",
+   "Portée et contenu": "Mariages (1760 février 15 - 1821 juin 30) pages 1-67;\nDécès (1760 janvier 11 - 1821 juin 30) pages 1-136 en tête-bêche.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "La page 13 partie B est détachée. Série pages blanches, de la page 69 à la partie B.",
+   "Cote de gestion": "RMS 1/128.810",
+   "Nom du fichier": "CH-ACV_RN-EB-136-7.pdf",
+   "Taille du fichier": "239.4 MiB"
+  },
+  "pdf": "2/4/4/244daaefa9f5edeadb3b080f052e1e3f6bf7edc928d0984030b69db04e8d11d1/CH-ACV_RN-EB-136-7.pdf"
+ },
+ {
+  "slug": "eb-136-8",
+  "parent": "eb-136-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 136/8",
+   "Titre": "Paroisse réformée de Villeneuve",
+   "Date(s)": "1781-01-01 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 16 x 22,2",
+   "Portée et contenu": "Annonces de mariages (1781 janvier - 1821 juin 30) pages 1-123 et 2 pages non numérotées avant la page de garde de fin de registre.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série pages blanches, de la page 124 à la copie de lettre du 31 octobre 1811 du Président du Petit Conseil au doyen de la classe de Lausanne en fin de registre.",
+   "Cote de gestion": "RMS 1/128.810",
+   "Nom du fichier": "CH-ACV_RN-EB-136-8.pdf",
+   "Taille du fichier": "73.7 MiB"
+  },
+  "pdf": "2/7/2/272f59468d24dcd697c0715c2a9709dc987af6b53207b6e1ae6f738f57b6b83e/CH-ACV_RN-EB-136-8.pdf"
+ },
+ {
+  "slug": "eb-136-9",
+  "parent": "eb-136-1-9",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 136/9",
+   "Titre": "Paroisse réformée de Villeneuve",
+   "Date(s)": "1862-11-05 - 1881-12-29 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 17,7 x 21,4",
+   "Portée et contenu": "Décès (1862 novembre 5 - 1881 décembre 29) non paginé, lacunaire du 24 mars 1879 au 1er avril 1880.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.810",
+   "Nom du fichier": "CH-ACV_RN-EB-136-9.pdf",
+   "Taille du fichier": "58.3 MiB"
+  },
+  "pdf": "9/9/0/990096a58c84f68783228d78916a1bd021323fb91a7937cdf8988a356a287408/CH-ACV_RN-EB-136-9.pdf"
+ }
+]

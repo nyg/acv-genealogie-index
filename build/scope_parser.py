@@ -28,6 +28,8 @@ PAGES_BEFORE_LABEL = re.compile(r"^(?P<pages>pages?\s[^:]*):\s*(?P<rest>.*?)[;.]
 
 ANNOUNCEMENT_PHRASE = re.compile(r"(annonces?|promesses?|publications?) de mariages?( celebres ailleurs)?")
 
+CIVIL_STATUS_NOTES = re.compile(r"notes d['’]etat civil")
+
 KIND_PATTERNS = [
     ("naissance", re.compile(r"\bbapt|\bnaiss")),
     ("annonce", ANNOUNCEMENT_PHRASE),
@@ -59,6 +61,8 @@ def normalize(text):
 
 def classify(label):
     normalized = normalize(label)
+    if CIVIL_STATUS_NOTES.search(normalized):
+        return ["naissance", "mariage", "deces"]
     kinds = [kind for kind, pattern in KIND_PATTERNS if pattern.search(normalized)]
     if "mariage" in ANNOUNCEMENT_PHRASE.sub("", normalized):
         kinds.append("mariage")

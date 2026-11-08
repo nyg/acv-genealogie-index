@@ -1,0 +1,95 @@
+[
+ {
+  "slug": "ed-114-bis-1-4",
+  "parent": null,
+  "children": [
+   "ed-114-bis-1",
+   "ed-114-bis-2",
+   "ed-114-bis-3",
+   "ed-114-bis-4"
+  ],
+  "f": {
+   "Cote": "Ed 114 bis/1-4",
+   "Titre": "Paroisse réformée de Roche.",
+   "Date(s)": "1821-07-01 - 1837-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Roche :\nParoisse médiévale.\nAnnexe de Noville dès 1582, paroisse autonome en 1766, supprimée en 1837 et dès lors annexe d'Yvorne, puis de Villeneuve 1845-1863.\nRegistres distincts dès 1776 et séparés de 1821 à 1837.\nComprend Chessel (jusqu'en 1837)."
+  }
+ },
+ {
+  "slug": "ed-114-bis-1",
+  "parent": "ed-114-bis-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 114 bis/1",
+   "Titre": "Registre de naissances 1821-1837.",
+   "Date(s)": "1821-07-01 - 1837-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,6 x 41,9 x 2,7",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1837 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1837 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 114bis /1 (microfilm: RMS 1/1.048.105, numérique: RN-ED-114BIS-1), pages manuscrites, non datées",
+   "Note": "Série de pages blanches, de la page 91 jusqu'au répertoire.\nOnglets de 1822, 1829 et 1830 consolidés.",
+   "Cote de gestion": "RMS 1/1.048.105",
+   "Nom du fichier": "CH-ACV_RN-ED-114BIS-1.pdf",
+   "Taille du fichier": "252.2 MiB"
+  },
+  "pdf": "8/0/5/805045657ced54761c916014e65e702c882c8e5d2072a4ff85505b32baa34a15/CH-ACV_RN-ED-114BIS-1.pdf"
+ },
+ {
+  "slug": "ed-114-bis-2",
+  "parent": "ed-114-bis-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 114 bis/2",
+   "Titre": "Registre de mariages 1821-1837.",
+   "Date(s)": "1821-07-01 - 1837-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,3 x 41,6 x 2,6",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1837 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 114bis /2 (microfilm: RMS 1/1.048.105, numérique: RN-ED-114BIS-2), pages manuscrites, non datées",
+   "Note": "Pages 82 à 85 consolidées;\nrépertoire consolidé.",
+   "Cote de gestion": "RMS 1/1.048.105",
+   "Nom du fichier": "CH-ACV_RN-ED-114BIS-2.pdf",
+   "Taille du fichier": "238.4 MiB"
+  },
+  "pdf": "0/1/5/0150d73c609b2ac4c224a8b2a482a04848a65af436d9d3c0a31e63e0b56ff69c/CH-ACV_RN-ED-114BIS-2.pdf"
+ },
+ {
+  "slug": "ed-114-bis-3",
+  "parent": "ed-114-bis-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 114 bis/3",
+   "Titre": "Registre de décès 1821-1837.",
+   "Date(s)": "1821-07-01 - 1837-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31,1 x 41,1 / 27,5 x 38,6 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1837 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 114bis/3 (microfilm: RMS 1/1.048.105, numérique: RN-ED-114BIS-3), pages manuscrites, non datées",
+   "Note": "Dès la page 58, pages blanches jusqu'à la fin du registre.",
+   "Cote de gestion": "RMS 1/1.048.105",
+   "Nom du fichier": "CH-ACV_RN-ED-114BIS-3.pdf",
+   "Taille du fichier": "262.5 MiB"
+  },
+  "pdf": "3/2/e/32e68bb75447fe09426c41d718afb8f0b1f305529204525344df29d0c0c34a00/CH-ACV_RN-ED-114BIS-3.pdf"
+ },
+ {
+  "slug": "ed-114-bis-4",
+  "parent": "ed-114-bis-1-4",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 114 bis/4",
+   "Titre": "Registre d'annonces de mariage 1821-1837.",
+   "Date(s)": "1821-07-01 - 1837-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 25,5 x 36",
+   "Portée et contenu": "Annonces de mariage (1821 juillet 1 - 1837 décembre 31) pages 1-55.\nRegistre (tête-bêche) des catéchumènes d'Yvorne et Roche (1838 - 1845) pages tête-bêche 0-12.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Série de pages blanches, de la page 56 jusqu'aux catéchumènes tête-bêche.",
+   "Cote de gestion": "RM 22004.6",
+   "Nom du fichier": "CH-ACV_RN-ED-114BIS-4.pdf",
+   "Taille du fichier": "81.1 MiB"
+  },
+  "pdf": "b/f/5/bf54e340b2f6d3b2a0e6f837623efa240c29454e6784374040cda07c05d61c31/CH-ACV_RN-ED-114BIS-4.pdf"
+ }
+]

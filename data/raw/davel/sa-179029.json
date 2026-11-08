@@ -1,0 +1,123 @@
+[
+ {
+  "slug": "sa-179029",
+  "parent": null,
+  "text": "Ec 136/1-5 Paroisse réformée de Villeneuve., 1761-1869 (Série)",
+  "children": [
+   "sa-179030",
+   "sa-179031",
+   "sa-179032",
+   "sa-179033",
+   "sa-179034"
+  ],
+  "f": {
+   "Ref. code": "Ec 136/1-5",
+   "Title": "Paroisse réformée de Villeneuve.",
+   "Dates": "1761-1869",
+   "Creation date(s)": "1761 - 1869",
+   "Level": "Série",
+   "Importance matérielle": "5 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=179029",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-179030",
+  "parent": "sa-179029",
+  "text": "Ec 136/1 - Mariages 1792-1841., 1792.01.01-1841.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 136/1",
+   "Title": "- Mariages 1792-1841.",
+   "Dates": "1792-1841",
+   "Creation date(s)": "1/1/1792 - 12/31/1841",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=179030",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-179031",
+  "parent": "sa-179029",
+  "text": "Ec 136/2 - Mariages 1842-1852., 1842.01.01-1852.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 136/2",
+   "Title": "- Mariages 1842-1852.",
+   "Dates": "1842-1852",
+   "Creation date(s)": "1/1/1842 - 12/31/1852",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=179031",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-179032",
+  "parent": "sa-179029",
+  "text": "Ec 136/3 - Mariages 1853-1860., 1853.01.01-1860.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 136/3",
+   "Title": "- Mariages 1853-1860.",
+   "Dates": "1853-1860",
+   "Creation date(s)": "1/1/1853 - 12/31/1860",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=179032",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-179033",
+  "parent": "sa-179029",
+  "text": "Ec 136/4 - Mariages 1860-1868., 1860.01.01-1868.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 136/4",
+   "Title": "- Mariages 1860-1868.",
+   "Dates": "1860-1868",
+   "Creation date(s)": "1/1/1860 - 12/31/1868",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=179033",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-179034",
+  "parent": "sa-179029",
+  "text": "Ec 136/5 - Mariages 1869-1869. \\ - Annonces de mariage 1782-1869. \\ - Naissances 1761-1869. \\ - Décès 1830-1869., 1761.01.01-1869.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 136/5",
+   "Title": "- Mariages 1869-1869.\n- Annonces de mariage 1782-1869.\n- Naissances 1761-1869.\n- Décès 1830-1869.",
+   "Dates": "1761-1869",
+   "Creation date(s)": "1/1/1761 - 12/31/1869",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=179034",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

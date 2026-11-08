@@ -90,6 +90,7 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [Ed 112/2](https://davel-vd.ch/ed-112-2) | Pully | Titre, date(s) et portée et contenu | Registre de naissances 1840-1866 ; 1840-01-14 - 1866-12-26 ; Naissances et baptêmes (1840 janvier 14 - 1866 décembre 26) | Registre de naissances 1840-1868 ; 1840-01-14 - 1868-12-26 ; Naissances et baptêmes (1840 janvier 14 - 1868 décembre 26) | Le dernier acte, PDF 415 (p. 393, en-tête « 1868 »), date du vingt-six décembre soixante-huit, et le registre est clos le 31 décembre 1868 ; Ed 112/3 commence le 18 janvier 1869. | |
 | [Eb 112/6](https://davel-vd.ch/eb-112-6) | Pully | Portée et contenu | Mariages (1782 septembre 3 - 1814 septembre 27) | Mariages (1782 septembre 3 - 1814 décembre 27) | Le dernier mariage, PDF 120 (p. 113), est béni « le 27e Xbre 1814 », suivi de « Fin des inscriptions de mariage dans le présent régistre » ; la p. 112 a encore des mariages des 23 septembre et 18 novembre 1814. | |
 | [SB 23/2416](https://davel.vd.ch/detail.aspx?ID=613772) | La Tour-de-Peilz | Dates | 1896 | 1895-1896 | Titre et dates de création : 1895-1896 ; SB 23/1111 s'arrête en 1893-1894 et la série SB 23/2416-2427 commence en 1895. | |
+| [SB 115/637](https://davel.vd.ch/detail.aspx?ID=621632) | Villeneuve | Dates | 1935-1951 | 1935-1941 | Titre et dates de création : 1935-1941 ; SB 115/638 reprend en 1942. | |
 
 ## À vérifier sur le PDF
 
@@ -103,6 +104,7 @@ Les dates de la fiche ne couvrent pas celles du contenu, ou la pagination du PDF
 | [Ed 110/9](https://davel-vd.ch/ed-110-9) | Prilly | Portée et contenu | Décès (1821 juillet 1er - 1875 décembre 12) | Date(s) : 1821-07-01 - 1875-12-31. | |
 | [SB 269/85/2/4](https://davel.vd.ch/detail.aspx?ID=1336289) | Romainmôtier | Dates | 1911 juin 16 - 1928 décembre 28 | [SB 269/85/2/3](https://davel.vd.ch/detail.aspx?ID=1336288) va jusqu'au 9 juin 1922, soit 1922 ici, soit 1911 là-bas. SB 269 n'a pas de PDF en ligne : seul le registre peut trancher. | |
 | [SB 267/51/5/2](https://davel-vd.ch/sb-267-51-5-2) | La Tour-de-Peilz | Portée et contenu | Registre ouvert le 27 décembre 1977. | Date(s) : 1930 - 1977. Les 17 autres registres SB 267 « ouverts le » le sont le 27 décembre 1928. Pas de PDF en ligne : seul le registre peut trancher. | |
+| [SB 269/104/1/2](https://davel.vd.ch/detail.aspx?ID=1336584) | Villeneuve | Dates | 1897 janvier 19 - 1914 décembre 19 | [SB 269/104/1/1](https://davel.vd.ch/detail.aspx?ID=1336583) va jusqu'au 22 août 1897 : les deux registres se chevauchent de sept mois. SB 269 n'a pas de PDF en ligne : seul le registre peut trancher. | |
 
 ## Entrées absentes de davel.vd.ch
 

@@ -1,0 +1,83 @@
+[
+ {
+  "slug": "sa-178715",
+  "parent": null,
+  "text": "Ec 90/1-3 Paroisse réformée de Noville., 1782-1870 (Série)",
+  "children": [
+   "sa-178716",
+   "sa-178717",
+   "sa-178718"
+  ],
+  "f": {
+   "Ref. code": "Ec 90/1-3",
+   "Title": "Paroisse réformée de Noville.",
+   "Dates": "1782-1870",
+   "Creation date(s)": "1782 - 1870",
+   "Level": "Série",
+   "Importance matérielle": "3 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178715",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178716",
+  "parent": "sa-178715",
+  "text": "Ec 90/1 - Mariages 1820-1846., 1820.01.01-1846.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 90/1",
+   "Title": "- Mariages 1820-1846.",
+   "Dates": "1820-1846",
+   "Creation date(s)": "1/1/1820 - 12/31/1846",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178716",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178717",
+  "parent": "sa-178715",
+  "text": "Ec 90/2 - Mariages 1847-1870., 1847.01.01-1870.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 90/2",
+   "Title": "- Mariages 1847-1870.",
+   "Dates": "1847-1870",
+   "Creation date(s)": "1/1/1847 - 12/31/1870",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178717",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-178718",
+  "parent": "sa-178715",
+  "text": "Ec 90/3 - Annonces de mariage 1822-1869. \\ - Naissances 1782-1870. \\ - Décès 1817-1870., 1782.01.01-1870.12.31 (Dossier)",
+  "f": {
+   "Ref. code": "Ec 90/3",
+   "Title": "- Annonces de mariage 1822-1869.\n- Naissances 1782-1870.\n- Décès 1817-1870.",
+   "Dates": "1782-1870",
+   "Creation date(s)": "1/1/1782 - 12/31/1870",
+   "Level": "Dossier",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (Ec).",
+   "Language": "Français et autres langues",
+   "Entries": "[annonces de mariage] (Matières\\ Subdivisions\\de forme)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=178718",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

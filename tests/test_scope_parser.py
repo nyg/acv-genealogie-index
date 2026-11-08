@@ -144,6 +144,14 @@ def test_reconnaissance_is_not_a_birth():
     assert segments[0].kinds == ["reconnaissance"]
 
 
+def test_civil_status_notes_hold_every_event():
+    # When
+    segments = parse_scope_content("Cahier de notes d'état civil de l'Eglise réformée (1791 janvier 1er - 1802 octobre 10) pages 1-19, 20-28 (tête-bêche) et 29-32.")
+
+    # Then
+    assert (segments[0].kinds, segments[0].start, segments[0].end) == (["naissance", "mariage", "deces"], "1791-01-01", "1802-10-10")
+
+
 def test_parish_name_prefers_annex_name():
     # When
     name = parish_name("Registres paroissiaux de Donatyre annexe de la paroisse réformée d'Avenches.")
