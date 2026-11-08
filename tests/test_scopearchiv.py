@@ -121,3 +121,33 @@ def test_listed_content_ignores_act_numbers_written_without_parentheses():
     assert [(segment["label"], segment["start"], segment["end"]) for segment in segments] == [
         ("Pièces justificatives : Mariages", "1965-01-01", "1965-12-31"),
     ]
+
+
+def test_miscellaneous_pieces_take_their_kinds_from_the_text_after_the_colon():
+    # When
+    segments = justificative_segments(box("- Mariages 1936-1950\n- Pièces diverses relatives à l'état civil 1942-1943, 1946, 1948, 1950: principalement constatations de décès, divorces, rectifications de nom"))
+
+    # Then
+    assert [(segment["label"], segment["kinds"], segment["start"], segment["end"], segment["dates"]) for segment in segments] == [
+        ("Pièces justificatives : Mariages", ["pj", "mariage"], "1936-01-01", "1950-12-31", "1936-1950"),
+        ("Pièces justificatives : Pièces diverses relatives à l'état civil (principalement constatations de décès, divorces, rectifications de nom)",
+         ["pj", "deces"], "1942-01-01", "1950-12-31", "1942-1943, 1946, 1948, 1950"),
+    ]
+
+
+def test_miscellaneous_pieces_without_act_kinds_are_divers():
+    # When
+    segments = justificative_segments(box("- Pièces diverses relatives à l'état civil 1910-1919: principalement divorces, rectifications de nom"))
+
+    # Then
+    assert [(segment["kinds"], segment["start"], segment["end"]) for segment in segments] == [(["pj", "divers"], "1910-01-01", "1919-12-31")]
+
+
+def test_miscellaneous_pieces_dated_after_the_colon():
+    # When
+    segments = justificative_segments(box("- Pièces diverses relatives à l'état civil: rectifications de nom 1879"))
+
+    # Then
+    assert [(segment["label"], segment["start"], segment["end"], segment["dates"]) for segment in segments] == [
+        ("Pièces justificatives : Pièces diverses relatives à l'état civil (rectifications de nom)", "1879-01-01", "1879-12-31", "1879"),
+    ]

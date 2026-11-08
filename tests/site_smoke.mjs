@@ -101,6 +101,7 @@ const cases = [
   ["Bussigny-près-Lausanne", "mariage", "1886", "SB 23/635"],
   ["Bussigny-près-Lausanne", "mariage", "1935", "SB 115/915"],
   ["Bussigny-près-Lausanne", "mariage", "1952", "SB 115/1194"],
+  ["Bussigny-près-Lausanne", "deces", "1950", "SB 115/916"],
   ["Villars-Sainte-Croix", "deces", "1890", "SB 23/636"],
 ];
 let failures = 0;
