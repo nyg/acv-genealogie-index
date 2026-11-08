@@ -1,0 +1,100 @@
+[
+ {
+  "slug": "sa-559828",
+  "parent": null,
+  "text": "SB 23/280-283 Bullet (arrondissement de l'état civil), 1876-1894 (Série)",
+  "children": [
+   "sa-595135",
+   "sa-595136",
+   "sa-595137",
+   "sa-595138"
+  ],
+  "f": {
+   "Ref. code": "SB 23/280-283",
+   "Title": "Bullet (arrondissement de l'état civil)",
+   "Dates": "1876-1894 (dates de constitution des lots qui comprennent des pièces antérieures)",
+   "Creation date(s)": "1876 - 1894",
+   "Level": "Série",
+   "Importance matérielle": "4 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Yverdon dès le 1er juin 2004.",
+   "Entries": "décès (Matières\\D)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=559828",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-595135",
+  "parent": "sa-559828",
+  "text": "SB 23/280 - Mariages A et B 1876-1880 \\ - Naissances 1876-1880 \\ - Décès 1876-1880 \\ - Pièces diverses relatives à l'état civil 1876-1881: principalement publications de mariage, divorces, rectifications de nom, 1876-1881 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/280",
+   "Title": "- Mariages A et B 1876-1880\n- Naissances 1876-1880\n- Décès 1876-1880\n- Pièces diverses relatives à l'état civil 1876-1881: principalement publications de mariage, divorces, rectifications de nom",
+   "Dates": "1876-1881",
+   "Creation date(s)": "1876 - 1881",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=595135",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-595136",
+  "parent": "sa-559828",
+  "text": "SB 23/281 - Mariages A et B 1881-1884 \\ - Naissances 1881-1884 \\ - Décès 1881-1884 \\ - Pièces diverses relatives à l'état civil 1882: principalement publications de mariage, divorces, rectifications de nom, 1881-1884 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/281",
+   "Title": "- Mariages A et B 1881-1884\n- Naissances 1881-1884\n- Décès 1881-1884\n- Pièces diverses relatives à l'état civil 1882: principalement publications de mariage, divorces, rectifications de nom",
+   "Dates": "1876-1881",
+   "Creation date(s)": "1881 - 1884",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=595136",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-595137",
+  "parent": "sa-559828",
+  "text": "SB 23/282 - Mariages A et B 1885-1889 \\ - Naissances 1885-1889 \\ - Décès 1885-1889 \\ - Pièces diverses relatives à l'état civil 1889: principalement publications de mariage, divorces, rectifications de nom, 1885-1889 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/282",
+   "Title": "- Mariages A et B 1885-1889\n- Naissances 1885-1889\n- Décès 1885-1889\n- Pièces diverses relatives à l'état civil 1889: principalement publications de mariage, divorces, rectifications de nom",
+   "Dates": "1885-1889",
+   "Creation date(s)": "1885 - 1889",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=595137",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-595138",
+  "parent": "sa-559828",
+  "text": "SB 23/283 - Mariages A et B 1890-1894 \\ - Naissances 1890-1894 \\ - Décès 1890-1894 \\ - Pièces diverses relatives à l'état civil 1890 et 1893: principalement publications de mariage, divorces, rectifications de nom, 1890-1894 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 23/283",
+   "Title": "- Mariages A et B 1890-1894\n- Naissances 1890-1894\n- Décès 1890-1894\n- Pièces diverses relatives à l'état civil 1890 et 1893: principalement publications de mariage, divorces, rectifications de nom",
+   "Dates": "1890-1894",
+   "Creation date(s)": "1890 - 1894",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 23).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=595138",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

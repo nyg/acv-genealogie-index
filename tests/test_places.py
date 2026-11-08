@@ -3,7 +3,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "build"))
 
-from places import corrected_entries, parish_name_mismatches, parish_period, repair_parish_names, spelling_key  # noqa: E402
+from places import corrected_entries, note_until, parish_name_mismatches, parish_period, repair_parish_names, spelling_key  # noqa: E402
 
 PARISHES = {
     "1": ["L'Abbaye"], "7": ["Assens (catholique)"], "8": ["Aubonne"], "12": ["Begnins"], "25": ["Cheseaux"], "39": ["Les Croisettes"],
@@ -164,3 +164,22 @@ def test_a_parish_cited_twice_is_left_unbounded():
 
     # Then
     assert period == (None, None)
+
+
+def test_an_annex_that_became_a_parish_is_bounded_to_the_years_before():
+    # Given
+    description = "Dépendance médiévale de Peney, puis annexe de Sainte-Croix [121] en 1540, paroisse de Bullet [19] dès1663"
+
+    # When
+    periods = [parish_period(description, number) for number in ("121", "19")]
+
+    # Then
+    assert periods == [(1540, 1663), (None, None)]
+
+
+def test_a_note_listing_an_annex_until_a_year_bounds_it_to_that_year():
+    # When
+    untils = [note_until(qualifier) for qualifier in ("annexe (jusqu'en 1663)", "(jusqu'en 1724 et 1846-1849)", "annexe")]
+
+    # Then
+    assert untils == [1663, None, None]

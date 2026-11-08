@@ -1,0 +1,280 @@
+[
+ {
+  "slug": "ed-121-1-13",
+  "parent": null,
+  "children": [
+   "ed-121-1",
+   "ed-121-2",
+   "ed-121-3",
+   "ed-121-4",
+   "ed-121-5",
+   "ed-121-6",
+   "ed-121-7",
+   "ed-121-8",
+   "ed-121-9",
+   "ed-121-10",
+   "ed-121-11",
+   "ed-121-12",
+   "ed-121-13"
+  ],
+  "f": {
+   "Cote": "Ed 121/1-13",
+   "Titre": "Paroisse réformée de Sainte-Croix.",
+   "Date(s)": "1821-07-01 - 1878-12-31 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Sainte-Croix :\nFiliale médiévale de Peney érigée en paroisse en 1540.\nLa partie au-delà du col des Etroits fut érigée en paroisse en 1824 sous le nom des Granges de Sainte-Croix.\nRegistres dès 1702, les précédents ayant été détruits par les incendies de 1702 et 1744.\nComprend depuis 1829 le village et la partie en-deçà du col des Etroits ; Vers-le-Bois dès 1842.\nAnnexe : Bullet (jusqu'en 1663).\nVoir aussi : Généalogie des familles bourgeoises 1500-1700 : Ea 28. Registre matricule de la Corporation vaudoise 1824-1872 : K VIII a 54.\nParoisse allemande d'Yverdon 1721-1772 : Eb 141/22."
+  }
+ },
+ {
+  "slug": "ed-121-1",
+  "parent": "ed-121-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 121/1",
+   "Titre": "Registre de naissances 1821-1831.",
+   "Date(s)": "1821-07-01 - 1831-02-24 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volume en 1 partie\nFormat LxH(cm): 32,5 x 42 x 5 / 28 x 40,3 x 0,5 (répertoire)",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1831 février 24);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1831 février 24).",
+   "Instruments de recherche": "Répertoire séparé des naissances et baptêmes Ed 121/1 (microfilm: RMS 1/1.048.120, numérique: RN-ED-121-1), pages manuscrites, non datées",
+   "Unités de description associées": "Généalogie des familles bourgeoises 1500-1700 : Ea 28.\nRegistre matricule de la Corporation vaudoise 1824-1872 : K VIII a 54.\nParoisse allemande d'Yverdon 1721-1772 : Eb 141/22.",
+   "Cote de gestion": "RMS 1/1.048.120",
+   "Nom du fichier": "CH-ACV_RN-ED-121-1.pdf",
+   "Taille du fichier": "642.3 MiB"
+  },
+  "pdf": "3/5/2/3524c629f6633bb85228514481de77deaf233d85b3e8d0b4d6384a3644c7ef19/CH-ACV_RN-ED-121-1.pdf"
+ },
+ {
+  "slug": "ed-121-2",
+  "parent": "ed-121-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 121/2",
+   "Titre": "Registre de naissances 1831-1845.",
+   "Date(s)": "1831-02-26 - 1845-02-21 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 32 x 41,7 x 4,5",
+   "Portée et contenu": "Naissances (1831 février 26 - 1845 février 21);\nBaptêmes de l'Eglise évangélique réformée (1831 février 26 - 1845 février 21).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 121/2 (microfilm: RMS 1/1.048.121, numérique: RN-ED-121-2), pages manuscrites, non datées",
+   "Unités de description associées": "Généalogie des familles bourgeoises 1500-1700 : Ea 28.\nRegistre matricule de la Corporation vaudoise 1824-1872 : K VIII a 54.\nParoisse allemande d'Yverdon 1721-1772 : Eb 141/22.",
+   "Cote de gestion": "RMS 1/1.048.121",
+   "Nom du fichier": "CH-ACV_RN-ED-121-2.pdf",
+   "Taille du fichier": "660.9 MiB"
+  },
+  "pdf": "4/f/8/4f8fb3af63b53b06806036b71b4983e3e8f5026ddd2339f1605399a33c8f2c97/CH-ACV_RN-ED-121-2.pdf"
+ },
+ {
+  "slug": "ed-121-3",
+  "parent": "ed-121-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 121/3",
+   "Titre": "Registre de naissances 1845-1857.",
+   "Date(s)": "1845-02-24 - 1857-11-26 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 32 x 41,5 x 2,3",
+   "Portée et contenu": "Naissances (1845 février 24 - 1857 novembre 26);\nBaptêmes de l'Eglise évangélique réformée (1845 février 24 - 1857 novembre 26).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 121/3 (microfilm: RMS 1/1.048.121, numérique: RN-ED-121-3), pages manuscrites, non datées",
+   "Unités de description associées": "Généalogie des familles bourgeoises 1500-1700 : Ea 28.\nRegistre matricule de la Corporation vaudoise 1824-1872 : K VIII a 54.\nParoisse allemande d'Yverdon 1721-1772 : Eb 141/22.",
+   "Note": "Onglets de 1848 à 1852 et 1854 à 1857 arrachés.",
+   "Cote de gestion": "RMS 1/1.048.121",
+   "Nom du fichier": "CH-ACV_RN-ED-121-3.pdf",
+   "Taille du fichier": "763.3 MiB"
+  },
+  "pdf": "f/b/f/fbf4484a58644d37a618d34f352425c4c6ba26802a1b653bb8cdccabca56443c/CH-ACV_RN-ED-121-3.pdf"
+ },
+ {
+  "slug": "ed-121-4",
+  "parent": "ed-121-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 121/4",
+   "Titre": "Registre de naissances 1857-1869.",
+   "Date(s)": "1857-11-30 - 1869-11-12 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,5 x 41,5 x 5.2",
+   "Portée et contenu": "Naissances (1857 novembre 30 - 1869 novembre 12);\nBaptêmes de l'Eglise évangélique réformée (1857 novembre 30 - 1869 novembre 12).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 121/4 (microfilm: RMS 1/1.048.122, numérique: RN-ED-121-4), pages manuscrites, non datées",
+   "Unités de description associées": "Généalogie des familles bourgeoises 1500-1700 : Ea 28.\nRegistre matricule de la Corporation vaudoise 1824-1872 : K VIII a 54.\nParoisse allemande d'Yverdon 1721-1772 : Eb 141/22.",
+   "Note": "Page lettre A du répertoire consolidée.",
+   "Cote de gestion": "RMS 1/1.048.122",
+   "Nom du fichier": "CH-ACV_RN-ED-121-4.pdf",
+   "Taille du fichier": "703.3 MiB"
+  },
+  "pdf": "b/f/5/bf59e95cb75d25f254d8c1563d11059c8b19f66eced89b0e6c41471756163f6b/CH-ACV_RN-ED-121-4.pdf"
+ },
+ {
+  "slug": "ed-121-5",
+  "parent": "ed-121-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 121/5",
+   "Titre": "Registre de naissances 1869-1875.",
+   "Date(s)": "1869-11-15 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,5 x 41,5",
+   "Portée et contenu": "Naissances (1869 novembre 15 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1869 novembre 15 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 121/5 (microfilm: RMS 1/1.048.122, numérique: RN-ED-121-5), pages manuscrites, non datées",
+   "Unités de description associées": "Généalogie des familles bourgeoises 1500-1700 : Ea 28.\nRegistre matricule de la Corporation vaudoise 1824-1872 : K VIII a 54.\nParoisse allemande d'Yverdon 1721-1772 : Eb 141/22.",
+   "Cote de gestion": "RMS 1/1.048.122",
+   "Nom du fichier": "CH-ACV_RN-ED-121-5.pdf",
+   "Taille du fichier": "415.7 MiB"
+  },
+  "pdf": "8/4/6/846fdffbdf54a94d8a0f329e2a7ca326596a8bbb618a603240d95f37aa69e652/CH-ACV_RN-ED-121-5.pdf"
+ },
+ {
+  "slug": "ed-121-6",
+  "parent": "ed-121-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 121/6",
+   "Titre": "Registre de mariages 1821-1858.",
+   "Date(s)": "1821-07-01 - 1858-09-03 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31,2 x 42 x 5,2",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1858 septembre 3).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 121/6 (microfilm: RMS 1/1.048.123, numérique: RN-ED-121-6), pages manuscrites, non datées",
+   "Unités de description associées": "Généalogie des familles bourgeoises 1500-1700 : Ea 28.\nRegistre matricule de la Corporation vaudoise 1824-1872 : K VIII a 54.\nParoisse allemande d'Yverdon 1721-1772 : Eb 141/22.",
+   "Note": "onglets de 1834, 1838 et 1852 arrachés;\npages 347 à 350 consolidées.",
+   "Cote de gestion": "RMS 1/1.048.123",
+   "Nom du fichier": "CH-ACV_RN-ED-121-6.pdf",
+   "Taille du fichier": "635.1 MiB"
+  },
+  "pdf": "8/0/a/80a21416e84ace6c32d1e2aa31739c35c5c569e8ace61c085a5927d762c8a71f/CH-ACV_RN-ED-121-6.pdf"
+ },
+ {
+  "slug": "ed-121-7",
+  "parent": "ed-121-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 121/7",
+   "Titre": "Registre de mariages 1858-1875.",
+   "Date(s)": "1858-09-09 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,2 x 41,9 x 4/ 27,9 x 40,3x 0,5 (répertoire)",
+   "Portée et contenu": "Mariages (1858 septembre 9 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 121/7 (microfilm: RMS 1/1.048.121, numérique: RN-ED-121-7), pages manuscrites, non datées",
+   "Unités de description associées": "Généalogie des familles bourgeoises 1500-1700 : Ea 28.\nRegistre matricule de la Corporation vaudoise 1824-1872 : K VIII a 54.\nParoisse allemande d'Yverdon 1721-1772 : Eb 141/22.",
+   "Cote de gestion": "RMS 1/1.048.123",
+   "Nom du fichier": "CH-ACV_RN-ED-121-7.pdf",
+   "Taille du fichier": "413 MiB"
+  },
+  "pdf": "4/e/5/4e5c6fbf074ee8abc35ec4f1ebdf38c97170db95831f97d78e3805d47a0cbe14/CH-ACV_RN-ED-121-7.pdf"
+ },
+ {
+  "slug": "ed-121-8",
+  "parent": "ed-121-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 121/8",
+   "Titre": "Registre de décès 1821-1852.",
+   "Date(s)": "1821-07-01 - 1852-12-14 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,7 x 41 x 5,5/ 27,9 x 40,3 x 0,5 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1852 décembre 14).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 121/8 (microfilm: RMS 1/1.048.124, numérique: RN-ED-121-8), pages manuscrites, non datées",
+   "Unités de description associées": "Généalogie des familles bourgeoises 1500-1700 : Ea 28.\nRegistre matricule de la Corporation vaudoise 1824-1872 : K VIII a 54.\nParoisse allemande d'Yverdon 1721-1772 : Eb 141/22.",
+   "Note": "Pages de 1821 et 1 à 4 dépliées;\nonglet de 1833 absent.",
+   "Cote de gestion": "RMS 1/1.048.124",
+   "Nom du fichier": "CH-ACV_RN-ED-121-8.pdf",
+   "Taille du fichier": "633.3 MiB"
+  },
+  "pdf": "9/c/3/9c3fa24e4b8eed50a41c2c5c58c079471629cb0d66af85fdd65b77bbc755fd6c/CH-ACV_RN-ED-121-8.pdf"
+ },
+ {
+  "slug": "ed-121-9",
+  "parent": "ed-121-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 121/9",
+   "Titre": "Registre de décès 1852-1875.",
+   "Date(s)": "1852-12-26 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,5 x 42 / 27,9 x 40 (répertoire)",
+   "Portée et contenu": "Décès (1852 décembre 26 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 121/9 (microfilm: RMS 1/1.048.124, numérique: RN-ED-121-9), pages manuscrites, non datées",
+   "Unités de description associées": "Généalogie des familles bourgeoises 1500-1700 : Ea 28.\nRegistre matricule de la Corporation vaudoise 1824-1872 : K VIII a 54.\nParoisse allemande d'Yverdon 1721-1772 : Eb 141/22.",
+   "Cote de gestion": "RMS 1/1.048.124",
+   "Nom du fichier": "CH-ACV_RN-ED-121-9.pdf",
+   "Taille du fichier": "651.1 MiB"
+  },
+  "pdf": "1/d/f/1dfaa418587a2844e896c19cad5a1799c2bb053ba963bb7e97283d9cad29b2cf/CH-ACV_RN-ED-121-9.pdf"
+ },
+ {
+  "slug": "ed-121-10",
+  "parent": "ed-121-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 121/10",
+   "Titre": "Registre d'annonces de mariage 1821-1838.",
+   "Date(s)": "1821-07-01 - 1838-07-02 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 22,2 x 34 x 4,8",
+   "Portée et contenu": "Annonces de mariage (1821 juillet 1 - 1838 juillet 2).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 121/10 (microfilm: RM 22004.10, numérique: RN-ED-121-10), pages manuscrites, non datées",
+   "Unités de description associées": "Généalogie des familles bourgeoises 1500-1700 : Ea 28.\nRegistre matricule de la Corporation vaudoise 1824-1872 : K VIII a 54.\nParoisse allemande d'Yverdon 1721-1772 : Eb 141/22.",
+   "Cote de gestion": "RM 22004.10",
+   "Nom du fichier": "CH-ACV_RN-ED-121-10.pdf",
+   "Taille du fichier": "327.1 MiB"
+  },
+  "pdf": "d/2/0/d2012cd511c68f9dd73e9590d4e02f1d42cea49c9c9203d7018c890af0d13bba/CH-ACV_RN-ED-121-10.pdf"
+ },
+ {
+  "slug": "ed-121-11",
+  "parent": "ed-121-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 121/11",
+   "Titre": "Registre d'annonces de mariage 1838-1853.",
+   "Date(s)": "1838-07-08 - 1853-08-15 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 27,3 x 42",
+   "Portée et contenu": "Annonces de mariage (1838 juillet 8 - 1853 août 15).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 121/11 (microfilm: RM 22004.10, numérique: RN-ED-121-11), pages manuscrites, non datées",
+   "Unités de description associées": "Généalogie des familles bourgeoises 1500-1700 : Ea 28.\nRegistre matricule de la Corporation vaudoise 1824-1872 : K VIII a 54.\nParoisse allemande d'Yverdon 1721-1772 : Eb 141/22.",
+   "Cote de gestion": "RM 22004.10",
+   "Nom du fichier": "CH-ACV_RN-ED-121-11.pdf",
+   "Taille du fichier": "293.1 MiB"
+  },
+  "pdf": "8/c/7/8c711a99ce0377d955cf0e49588b957f1363ced8d19ff87b146b14c19dca97da/CH-ACV_RN-ED-121-11.pdf"
+ },
+ {
+  "slug": "ed-121-12",
+  "parent": "ed-121-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 121/12",
+   "Titre": "Registre d'annonces de mariage 1853-1867.",
+   "Date(s)": "1853-07-31 - 1867-08-28 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 23,5 x 30,4",
+   "Portée et contenu": "Annonces de mariage (1853 juillet 31 - 1867 août 28).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 121/12 (microfilm: RM 22004.10, numérique: RN-ED-121-12), pages manuscrites, non datées",
+   "Unités de description associées": "Généalogie des familles bourgeoises 1500-1700 : Ea 28.\nRegistre matricule de la Corporation vaudoise 1824-1872 : K VIII a 54.\nParoisse allemande d'Yverdon 1721-1772 : Eb 141/22.",
+   "Cote de gestion": "RM 22004.10",
+   "Nom du fichier": "CH-ACV_RN-ED-121-12.pdf",
+   "Taille du fichier": "249.3 MiB"
+  },
+  "pdf": "6/0/b/60b44369a6d3a518eee892a5123401123a10aad74616ecf019b05e9c4b462533/CH-ACV_RN-ED-121-12.pdf"
+ },
+ {
+  "slug": "ed-121-13",
+  "parent": "ed-121-1-13",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 121/13",
+   "Titre": "Registre d'annonces de mariage 1867-1878.",
+   "Date(s)": "1867-08-11 - 1878-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 25 x 38",
+   "Portée et contenu": "Annonces de mariage (1867 août 11 - 1878 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 121/13 (microfilm: RM 22004.11, numérique: RN-ED-121-13), pages manuscrites, non datées",
+   "Unités de description associées": "Généalogie des familles bourgeoises 1500-1700 : Ea 28.\nRegistre matricule de la Corporation vaudoise 1824-1872 : K VIII a 54.\nParoisse allemande d'Yverdon 1721-1772 : Eb 141/22.",
+   "Note": "Coins inférieurs des pages du registre complet dépliés et consolidés;\nonglets lettres V à Z du répertoire consolidés.",
+   "Cote de gestion": "RM 22004.11",
+   "Nom du fichier": "CH-ACV_RN-ED-121-13.pdf",
+   "Taille du fichier": "267.3 MiB"
+  },
+  "pdf": "8/9/7/897e6d776c88da82c74d47b1a25900054fbb606aac3f4639e0da7a97cc337800/CH-ACV_RN-ED-121-13.pdf"
+ }
+]

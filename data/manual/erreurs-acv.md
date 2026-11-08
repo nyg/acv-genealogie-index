@@ -85,6 +85,7 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [SB 23/165](https://davel.vd.ch/detail.aspx?ID=592842) | La Sarraz | Dates | 1876-1878 | 1882-1883 | Titre et dates de création : 1882-1883 ; SB 23/159 à 161 couvrent déjà 1876-1878. | |
 | [SB 23/167](https://davel.vd.ch/detail.aspx?ID=592844) | La Sarraz | Titre | Naissances 1876-1885 | Naissances 1885 | Dates et dates de création : 1885, comme les mariages et décès de la boîte ; les naissances 1876-1884 sont dans SB 23/159 à 166. | |
 | [SB 23/173](https://davel.vd.ch/detail.aspx?ID=592849) | La Sarraz | Titre, dates et dates de création | Naissances 1882-1883 ; Décès 1882-1883 ; 1882-1883 | Naissances 1892-1893 ; Décès 1892-1893 ; 1892-1893 | Mariages de la boîte : 1892-1893 ; SB 23/172 s'arrête en 1891-1892, SB 23/174 reprend en 1894, et SB 23/165 couvre déjà les naissances 1882-1883. | |
+| [SB 23/281](https://davel.vd.ch/detail.aspx?ID=595136) | Bullet | Dates | 1876-1881 | 1881-1884 | Titre et dates de création : 1881-1884 ; SB 23/280 couvre 1876-1881 et SB 23/282 1885-1889. | |
 
 ## À vérifier sur le PDF
 

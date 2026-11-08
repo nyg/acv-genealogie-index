@@ -1,0 +1,133 @@
+[
+ {
+  "slug": "eb-19-1-6",
+  "parent": null,
+  "children": [
+   "eb-19-1",
+   "eb-19-2",
+   "eb-19-3",
+   "eb-19-4",
+   "eb-19-5",
+   "eb-19-6"
+  ],
+  "f": {
+   "Cote": "Eb 19/1-6",
+   "Titre": "Registres de la paroisse réformée de Bullet et de la commune de Bullet.",
+   "Date(s)": "1744-07-01 - 1842-12-25 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Bullet :\nChapelle médiévale filiale de Peney, puis annexe de Sainte-Croix dès 1540, devenue paroissiale en 1663.\nRegistres dès 1744. Le 1er juillet 1744, les registres de décès ont disparu dans l'incendie qui a entièrement détruit le village."
+  }
+ },
+ {
+  "slug": "eb-19-1",
+  "parent": "eb-19-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 19/1",
+   "Titre": "Paroisse réformée de Bullet",
+   "Date(s)": "1744-07-01 - 1793-03-25 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17,5 x 22,5",
+   "Portée et contenu": "Baptêmes (1744 juillet 1 - 1782 octobre 7), pp. 1-224;\nCatéchumènes (1748 décembre 23 - 1793 mars 25), pp. 225-258.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 1/128.605",
+   "Nom du fichier": "CH-ACV_RN-EB-19-1.pdf",
+   "Taille du fichier": "170.3 MiB"
+  },
+  "pdf": "0/e/c/0ec23faabe0cc11a4b8a212402ac247cc71ffde2258bee005021690250fb55b5/CH-ACV_RN-EB-19-1.pdf"
+ },
+ {
+  "slug": "eb-19-2",
+  "parent": "eb-19-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 19/2",
+   "Titre": "Paroisse réformée de Bullet",
+   "Date(s)": "1782-10-22 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 22,2 x 34,6 x 3",
+   "Portée et contenu": "Baptêmes (1782 octobre 22 - 1821 juin 30), pp. 1-150.",
+   "Instruments de recherche": "Répertoire incorporé des baptêmes Eb 19/2 (microfilm: RMS 1/128.605, numérique: RN-EB19-2), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/128.605",
+   "Nom du fichier": "CH-ACV_RN-EB-19-2.pdf",
+   "Taille du fichier": "204.4 MiB"
+  },
+  "pdf": "5/9/c/59c84a3e4924204fcc19c7e5853ae3f58c6bbab59a6704425613c5e10817c25b/CH-ACV_RN-EB-19-2.pdf"
+ },
+ {
+  "slug": "eb-19-3",
+  "parent": "eb-19-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 19/3",
+   "Titre": "Commune de Bullet",
+   "Date(s)": "1799-01-11 - 1842-12-25 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 22,4 x 35,2",
+   "Portée et contenu": "Mariages (1799 janvier 11 - 1822 octobre 4). pp. 0-54;\nAnnonces de mariage (1821 juillet 1 - 1842 décembre 25), pp. 55-76.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Dès la page 77, pages blanches jusqu'à la fin du volume.",
+   "Cote de gestion": "RMS 299.100",
+   "Nom du fichier": "CH-ACV_RN-EB-19-3.pdf",
+   "Taille du fichier": "86.8 MiB"
+  },
+  "pdf": "6/f/2/6f2a9e5fe787b422d2931ec538f9f0d1470a0c7633c8c4bb78a4efbf24ffcc5e/CH-ACV_RN-EB-19-3.pdf"
+ },
+ {
+  "slug": "eb-19-4",
+  "parent": "eb-19-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 19/4",
+   "Titre": "Paroisse réformée de Bullet",
+   "Date(s)": "1744-07-01 - 1815-09-12 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17,3 x 22,5",
+   "Portée et contenu": "Mariages et Annonces de mariages (1747 juillet 20 - 1815 mai 26), pp. 0-119;\nDécès (tête-bêche) (1744 juillet 1 - 1815 septembre 12), pp.tête-bêche 1-144.\nEn page 1 du registre tête-bêche des Décès, Christophe Joseph Carrard, pasteur de la paroisse de Bullet depuis le 26 janvier 1750, fait savoir que \"les registres des personnes mortes\" ont disparu dans l'incendie qui a entièrement détruit le village de Bullet le 1er juillet 1744 et qu'il a recopié dans ce registre les noms des personnes décédées depuis le 1er juillet 1744 que son prédécesseur avait inscrits sur un cahier.",
+   "Mode de classement": "Le volume a été paginé par les ACV, le 8 mai 2006, selon la pagination d'origine très incomplète, soit les quelques pages paginées par le pasteur Christophe Joseph Carrard (mariages : p. 7-15 et décès : p. 10-21).",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 22006.2",
+   "Nom du fichier": "CH-ACV_RN-EB-19-4.pdf",
+   "Taille du fichier": "168.9 MiB"
+  },
+  "pdf": "4/9/4/4943c416bcd930371d9aa0e7ef6d234e2f6fc91265b674f1f138f2c5c618cc23/CH-ACV_RN-EB-19-4.pdf"
+ },
+ {
+  "slug": "eb-19-5",
+  "parent": "eb-19-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 19/5",
+   "Titre": "Paroisse réformée de Bullet",
+   "Date(s)": "1815-09-15 - 1821-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 18 x 23",
+   "Portée et contenu": "Décès (1815 septembre 28 - 1821 juin 30), pp. 0-27;\nMariages et Annonces de mariages (tête-bêche) (1815 septembre 7 - 1821 juin 30), pp.tête-bêche 0-22.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Cote de gestion": "RMS 22006.2",
+   "Nom du fichier": "CH-ACV_RN-EB-19-5.pdf",
+   "Taille du fichier": "30 MiB"
+  },
+  "pdf": "b/8/4/b844055a9f4d44086d40040bfec15c8b2b457958c0326a48a7a893a18d25e05f/CH-ACV_RN-EB-19-5.pdf"
+ },
+ {
+  "slug": "eb-19-6",
+  "parent": "eb-19-1-6",
+  "type": "Item",
+  "f": {
+   "Cote": "Eb 19/6",
+   "Titre": "Commune de Bullet",
+   "Date(s)": "1799-04-03 - 1823-01-14 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 2 parties\nFormat LxH(cm): 17,9 x 22,6 x 3",
+   "Portée et contenu": "Naissances et Baptêmes (1799 avril 13 - 1823 janvier 14), pp. 1-176;\nDécès (tête-bêche) (1799 avril 3 - 1822 décembre 1), pp.tête-bêche 1-89.",
+   "Mode de classement": "La pagination des naissances et baptêmes a été continuée (p. 73-176) par les ACV, le 8 mai 2006. En tête-bêche, la pagination des décès (p. 1-89) a été ajoutée par les ACV, le 8 mai 2006.",
+   "Instruments de recherche": "Sans répertoire correspondant",
+   "Note": "Les pages 17 des baptêmes et des décès réintégrées dans la reliure.",
+   "Cote de gestion": "RMS 22006.3",
+   "Nom du fichier": "CH-ACV_RN-EB-19-6.pdf",
+   "Taille du fichier": "166.7 MiB"
+  },
+  "pdf": "6/f/2/6f25c659b6e7eeaf6036884434ee44e0a230006b392f1131715a3e56e5823c9d/CH-ACV_RN-EB-19-6.pdf"
+ }
+]

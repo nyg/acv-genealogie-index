@@ -128,6 +128,15 @@ const cases = [
   ["La Sarraz", "naissance", "1922", "SB 115/181"],
   ["La Sarraz", "deces", "1950", "SB 267/50/3/14"],
   ["Éclépens", "naissance", "1800", "Eb 70/7"],
+  ["Bullet", "naissance", "1750", "Eb 19/1"],
+  ["Bullet", "mariage", "1763", "Eb 19/4"],
+  ["Bullet", "deces", "1850", "Ed 19/4"],
+  ["Bullet", "naissance", "1850", "Ec 19/2"],
+  ["Bullet", "naissance", "1882", "SB 23/281"],
+  ["Bullet", "mariage", "1900", "SB 268/16/1"],
+  ["Bullet", "mariage", "1940", "SB 115/687"],
+  ["Bullet", "mariage", "1953", "SB 115/1135"],
+  ["Sainte-Croix", "naissance", "1739", "Eb 121/2"],
 ];
 let failures = 0;
 for (const [place, kind, date, expected] of cases) {
@@ -232,6 +241,15 @@ console.log(`${annexBounded ? "ok  " : "FAIL"} Arzier / deces → Ed 58/4 de Gen
 const sarrazCorrected = !search("La Sarraz", "naissance", "1865").cotes.includes("Ed 70/2") && !search("La Sarraz", "naissance", "1877").cotes.includes("SB 23/165");
 failures += sarrazCorrected ? 0 : 1;
 console.log(`${sarrazCorrected ? "ok  " : "FAIL"} La Sarraz / naissance → ni Ed 70/2 en 1865 (jusqu'en 1860), ni SB 23/165 en 1877 (1882-1883)`);
+
+const bullet1739 = search("Bullet", "naissance", "1739");
+const bulletOwnParish = !bullet1739.cotes.includes("Eb 121/2") && bullet1739.answers.includes("Registres dès 1744") && !search("Bullet", "mariage", "1763").cotes.includes("Eb 121/6");
+failures += bulletOwnParish ? 0 : 1;
+console.log(`${bulletOwnParish ? "ok  " : "FAIL"} Bullet → plus Sainte-Croix après 1663 ; en 1739, l'inventaire de Bullet : « Registres dès 1744 »`);
+
+const startNoteOnlyWhenEmpty = !search("Ollon", "naissance", "1787").answers.includes("Registres dès") && search("Ollon", "naissance", "1590").answers.includes("Registres dès 1602");
+failures += startNoteOnlyWhenEmpty ? 0 : 1;
+console.log(`${startNoteOnlyWhenEmpty ? "ok  " : "FAIL"} Ollon / naissance → « Registres dès 1602 » en 1590, sans registre, pas en 1787`);
 
 const dataJson = JSON.parse(readFileSync(new URL("../docs/data.json", import.meta.url), "utf8"));
 const published = dataJson.generatedAt === site.DATA.generatedAt && dataJson.units.length === site.DATA.units.length;

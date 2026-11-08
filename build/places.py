@@ -134,8 +134,17 @@ def parish_period(description, number):
     reference = rf"\[\s*{re.escape(number)}\s*\]"
     if len(re.findall(reference, description)) != 1:
         return None, None
-    match = re.search(rf"{reference}\s*(\d{{4}})\s*-\s*(\d{{4}})\s*(?=$|[;,.])", description)
+    match = re.search(rf"{reference}\s*(\d{{4}})\s*-\s*(\d{{4}})\s*(?=$|[;,.])", description) or re.search(
+        rf"{reference}\s*en\s*(\d{{4}})\s*,\s*paroisse de [^\[]+\[[^\]]+\]\s*dès\s*(\d{{4}})\s*(?=$|[;,.])", description)
     return (int(match[1]), int(match[2])) if match else (None, None)
+
+
+NOTE_UNTIL = re.compile(r"(?:annexe |adjonction )?\(jusqu['’]en (\d{4})\)")
+
+
+def note_until(qualifier):
+    match = NOTE_UNTIL.fullmatch(qualifier)
+    return int(match[1]) if match else None
 
 
 def localities_from_note(note):
