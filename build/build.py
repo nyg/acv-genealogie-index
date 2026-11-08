@@ -340,12 +340,25 @@ def site_payload(places, units, segments):
     }
 
 
+def data_json(payload):
+    return json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
+
+
+def keep_date_if_unchanged(payload, previous=DATA_OUTPUT):
+    try:
+        text = previous.read_text(encoding="utf-8")
+        kept = {**payload, "generatedAt": json.loads(text)["generatedAt"]}
+    except (OSError, ValueError, KeyError):
+        return payload
+    return kept if data_json(kept) == text else payload
+
+
 def write_data(payload):
-    DATA_OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    DATA_OUTPUT.write_text(data_json(payload), encoding="utf-8")
 
 
 def write_site(payload):
-    data = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    data = data_json(payload).replace("</", "<\\/")
     page = SITE_TEMPLATE.read_text(encoding="utf-8").replace("/*__DATA__*/null", data).replace("/*__PAGE_MAP__*/", PAGE_MAP.read_text(encoding="utf-8"))
     SITE_OUTPUT.parent.mkdir(exist_ok=True)
     SITE_OUTPUT.write_text(STANDALONE_HEAD + page, encoding="utf-8")
@@ -376,7 +389,7 @@ def main():
     other_units, other_segments = load_scopearchiv(places, _arrondissement_finder(places))
     units += other_units
     segments += other_segments
-    payload = site_payload(places, units, segments)
+    payload = keep_date_if_unchanged(site_payload(places, units, segments))
     write_database(payload)
     write_site(payload)
     write_data(payload)
