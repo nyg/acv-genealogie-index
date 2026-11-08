@@ -1,0 +1,100 @@
+[
+ {
+  "slug": "sa-627061",
+  "parent": null,
+  "text": "SB 115/1229-1232 Vevey (arrondissement de l'état civil), 1951-1954 (Série)",
+  "children": [
+   "sa-627237",
+   "sa-627238",
+   "sa-627239",
+   "sa-627240"
+  ],
+  "f": {
+   "Ref. code": "SB 115/1229-1232",
+   "Title": "Vevey (arrondissement de l'état civil)",
+   "Dates": "1951-1954",
+   "Creation date(s)": "1951 - 1954",
+   "Level": "Série",
+   "Importance matérielle": "4 boîtes",
+   "Access regulations": "Avec restrictions",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Devient l'office d'état civil de l'Est vaudois en 2006.",
+   "Entries": "décès (Matières\\D)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=627061",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-627237",
+  "parent": "sa-627061",
+  "text": "SB 115/1229 - Mariages 1951 \\ - Naissances 1951 \\ - Publications de promesses de mariage 1951 \\ - Pièces diverses relatives à l'état civil 1951: principalement constatations de décès, divorces, rectifications de nom, 1951 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/1229",
+   "Title": "- Mariages 1951\n- Naissances 1951\n- Publications de promesses de mariage 1951\n- Pièces diverses relatives à l'état civil 1951: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1951",
+   "Creation date(s)": "1951",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=627237",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-627238",
+  "parent": "sa-627061",
+  "text": "SB 115/1230 - Mariages 1952 \\ - Naissances 1952 \\ - Publications de promesses de mariage 1952 \\ - Pièces diverses relatives à l'état civil 1952: principalement constatations de décès, divorces, rectifications de nom, 1952 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/1230",
+   "Title": "- Mariages 1952\n- Naissances 1952\n- Publications de promesses de mariage 1952\n- Pièces diverses relatives à l'état civil 1952: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1952",
+   "Creation date(s)": "1952",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=627238",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-627239",
+  "parent": "sa-627061",
+  "text": "SB 115/1231 - Mariages 1953 \\ - Publications de promesses de mariage 1953 \\ - Pièces diverses relatives à l'état civil 1953: principalement constatations de décès, divorces, rectifications de nom, 1953 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/1231",
+   "Title": "- Mariages 1953\n- Publications de promesses de mariage 1953\n- Pièces diverses relatives à l'état civil 1953: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1953",
+   "Creation date(s)": "1953",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=627239",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-627240",
+  "parent": "sa-627061",
+  "text": "SB 115/1232 - Mariages 1954 \\ - Naissances 1954 \\ - Publications de promesses de mariage 1954 \\ - Pièces diverses relatives à l'état civil 1954: principalement constatations de décès, divorces, rectifications de nom, registre des reconnaissances et des légitimations, 1954 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/1232",
+   "Title": "- Mariages 1954\n- Naissances 1954\n- Publications de promesses de mariage 1954\n- Pièces diverses relatives à l'état civil 1954: principalement constatations de décès, divorces, rectifications de nom, registre des reconnaissances et des légitimations",
+   "Dates": "1954",
+   "Creation date(s)": "1954",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=627240",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]
