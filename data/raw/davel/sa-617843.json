@@ -1,0 +1,62 @@
+[
+ {
+  "slug": "sa-617843",
+  "parent": null,
+  "text": "SB 115/915-916 Bussigny-près-Lausanne (arrondissement de l'état civil), 1929-1950 (Série)",
+  "children": [
+   "sa-621614",
+   "sa-621613"
+  ],
+  "f": {
+   "Ref. code": "SB 115/915-916",
+   "Title": "Bussigny-près-Lausanne (arrondissement de l'état civil)",
+   "Dates": "1929-1950",
+   "Creation date(s)": "1929 - 1950",
+   "Level": "Série",
+   "Importance matérielle": "2 boîtes",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875).\nSupprimé par l'arrêté du 3 novembre 1999 et rattaché à l'arrondissement d'Ecublens dès le 1er novembre 1999.\nComprend:\n- Bussigny-près-Lausanne\n- Villars-Sainte-Croix",
+   "Entries": "décès (Matières\\D)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=617843",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621613",
+  "parent": "sa-617843",
+  "text": "SB 115/916 - Mariages 1936-1950 \\ - Publications de promesses de mariage 1937-1938, 1940-1950 \\ - Pièces diverses relatives à l'état civil 1942-1943, 1946, 1948, 1950: principalement constatations de décès, divorces, rectifications de nom, 1936-1950 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/916",
+   "Title": "- Mariages 1936-1950\n- Publications de promesses de mariage 1937-1938, 1940-1950\n- Pièces diverses relatives à l'état civil 1942-1943, 1946, 1948, 1950: principalement constatations de décès, divorces, rectifications de nom",
+   "Dates": "1936-1950",
+   "Creation date(s)": "1936 - 1950",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621613",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-621614",
+  "parent": "sa-617843",
+  "text": "SB 115/915 - Mariages 1929-1935 \\ - Publications de promesses de mariage 1929-1932, 1929-1935 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 115/915",
+   "Title": "- Mariages 1929-1935\n- Publications de promesses de mariage 1929-1932",
+   "Dates": "1929-1935",
+   "Creation date(s)": "1929 - 1935",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Access regulations": "Consultation restreinte: voir \"Conditions de consultation\" au niveau du fonds (SB 115).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=621614",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]
