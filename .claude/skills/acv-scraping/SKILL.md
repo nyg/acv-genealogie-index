@@ -16,7 +16,7 @@ Work in **batches**: plan → scrape → export → save → check → publish. 
 5. **Export** with the export call from step 1. The result is padded past the browser tool's size limit, so the tool saves it to a file and prints the path; run `python3 scraper/save_export.py <path>` (add `davel` or `davel-index` for davel.vd.ch).
 6. **Check** with `scripts/check.sh` and read every report section:
    - a new inventory wording under "contenu non analysé" → extend `build/scope_parser.py`, with a test in `tests/`;
-   - an OCR-damaged locality → add it to `data/manual/communes-paroisses-corrections.json`;
+   - an OCR-damaged locality → add it to `data/manual/communes-paroisses-corrections.json`; a name split over two lines → give the first line the full name and mark the second `{"continues": "<first line>"}`, which drops it from the report;
    - a segment outside its register's dates, or a record whose dates, title or cote contradict each other → add it to `data/manual/erreurs-acv.md`, the list of inventory errors to report to the ACV. When the record itself shows the right value, also add a correction to `data/manual/corrections-inventaire.json` (cote, field, published text, corrected text), which the build applies to the raw records; when only the PDF can tell, list it under « À vérifier sur le PDF » without a correction;
    - a correction under « Corrections sans effet » → the ACV probably fixed its inventory: remove the correction and its line in `erreurs-acv.md`;
    - a batch covering a place the user researches → add a case to `tests/site_smoke.mjs`.

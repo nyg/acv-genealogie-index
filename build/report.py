@@ -20,6 +20,13 @@ CORRECTIONS = ROOT / "data" / "manual" / "communes-paroisses-corrections.json"
 DAVEL_PARENTS = {"SB 268": ["623416"], "SB 269": ["623415"], "Ec": ["10010"], "SB 23": ["557958", "589164"], "SB 115": ["613621", "615711", "626074"], "SB 324": ["1346604"]}
 
 
+def parishless_localities(table, corrections):
+    def resolved(entry):
+        correction = corrections.get(entry["locality"], {})
+        return entry["parishes"] or correction.get("parishes") or "continues" in correction
+    return [entry for entry in table if not resolved(entry)]
+
+
 def section(title, rows, limit, describe):
     print(f"\n{title} : {len(rows)}")
     for row in rows[:limit]:
@@ -71,9 +78,7 @@ def quality(connection, limit):
     section(f"Corrections sans effet, l'inventaire a peut-être été corrigé (retirer de {INVENTORY_CORRECTIONS.relative_to(ROOT)} et de data/manual/erreurs-acv.md)",
             unused_corrections(), limit, lambda correction: f"{correction['cote']} : {correction['field']} {correction['published']!r}")
 
-    corrections = json.loads(CORRECTIONS.read_text(encoding="utf-8"))
-    orphans = [entry for entry in json.loads(PARISH_TABLE.read_text(encoding="utf-8"))
-               if not entry["parishes"] and not corrections.get(entry["locality"], {}).get("parishes")]
+    orphans = parishless_localities(json.loads(PARISH_TABLE.read_text(encoding="utf-8")), json.loads(CORRECTIONS.read_text(encoding="utf-8")))
     section(f"Localités de la table des paroisses sans paroisse (corriger dans {CORRECTIONS.relative_to(ROOT)})", orphans, limit,
             lambda entry: f"{entry['locality']!r} : {entry['description'][:80]!r}")
 
