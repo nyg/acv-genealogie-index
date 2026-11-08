@@ -21,6 +21,10 @@ const checks = [
     return unit.page.length === 1 && unit.page[0].pdf === 380 && unit.page[0].url.endsWith("#page=380");
   }],
   ["chercher Lutry naissance 1850 → pièces justificatives Ec 78/6", () => json("chercher", "Lutry", "naissance", "1850").justificatives.some(unit => unit.cote === "Ec 78/6")],
+  ["chercher Bullet naissance 1700 → « Registres dès 1744 » de Bullet, sans Sainte-Croix, annexe jusqu'en 1663", () => {
+    const { registers, notes } = json("chercher", "Bullet", "naissance", "1700");
+    return registers.length === 0 && notes.length === 1 && notes[0].includes("Registres dès 1744");
+  }],
   ["page Eb 92/2 466 → PDF p. 544", () => JSON.stringify(json("page", "Eb 92/2", "466").targets.map(target => target.pdf)) === "[544]"],
   ["page Eb 118/1 xv → ≈ PDF p. 518", () => {
     const [target] = json("page", "eb 118/1", "xv").targets;

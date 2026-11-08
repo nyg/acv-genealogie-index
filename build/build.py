@@ -9,7 +9,7 @@ from pathlib import Path
 
 from inventory_corrections import read_raw
 from pdf_pages import load_pdf_pages, sb267_default_parts
-from places import arrondissement_history, arrondissement_name, corrected_entries, localities_from_note, parish_name, parish_number, parish_period, repair_parish_names, spelling_key, split_official_locality
+from places import arrondissement_history, arrondissement_name, corrected_entries, localities_from_note, note_until, parish_name, parish_number, parish_period, repair_parish_names, spelling_key, split_official_locality
 from scope_parser import classify, normalize, parse_date_range, parse_scope_content
 from scopearchiv import creation_dates, fonds_of, load_scopearchiv, place_for, related_ranges
 from scopearchiv import PAGE_BASE as SCOPEARCHIV_PAGE_BASE
@@ -255,7 +255,7 @@ def load_scraped(places):
         place["related"] = root["f"].get("Unités de description associées", "").splitlines()
         for locality in localities_from_note(series["note"]):
             merged = re.match(r"adjonction en (\d{4})", locality["qualifier"])
-            _add_locality(place, locality["name"], locality["qualifier"], NOTE_SOURCE, int(merged.group(1)) if merged else None)
+            _add_locality(place, locality["name"], locality["qualifier"], NOTE_SOURCE, int(merged.group(1)) if merged else None, note_until(locality["qualifier"]))
         fonds = fonds_key(root["slug"])
         for record in records:
             if record is root or not is_register(record):

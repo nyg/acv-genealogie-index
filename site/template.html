@@ -560,11 +560,26 @@ function renderTimeline(segments, query) {
   </section>`;
 }
 
-function contextNotes(placeIds, kind, query, found = null) {
+const REGISTERS_FROM = /Registres dès (\d{4}).*?(?=\s+(?:Comprend|Annexe)\b|$)/m;
+
+function registersStart(place) {
+  const matches = place.series.map(series => (series.note ?? "").match(REGISTERS_FROM)).filter(Boolean);
+  if (!matches.length) return null;
+  const longest = matches.reduce((a, b) => (b[0].length > a[0].length ? b : a));
+  return { year: Number(longest[1]), text: longest[0] };
+}
+
+function contextNotes(placeIds, kind, query, found = null, placePeriods = null) {
   const notes = [];
   const places = placeIds.map(id => placesById.get(id));
   const pending = places.flatMap(place => place.series.filter(series => !series.scraped));
   if (query) {
+    if (!found?.registers.length) {
+      places.filter(place => place.kind === "paroisse" && inPeriod(placePeriods?.get(place.id), query.year)).forEach(place => {
+        const start = registersStart(place);
+        if (start && query.year < start.year) notes.push(`Pour ${place.name}, l'inventaire indique : « ${start.text} »`);
+      });
+    }
     if (query.start <= "1821-06-30" && query.end >= "1821-01-01") notes.push("En 1821, les registres paroissiaux (Eb) s'arrêtent au 30 juin et l'état civil cantonal (Ed) commence le 1er juillet.");
     if (query.year >= 1876 && !places.some(place => place.kind === "arrondissement")) notes.push("Dès 1876, les actes sont dans les registres de l'arrondissement d'état civil (SB 267). Cherchez le nom de l'arrondissement dont dépendait la commune.");
     if (query.year < 1876 && !places.some(place => place.kind === "paroisse")) notes.push("Avant 1876, les actes sont dans les registres de la paroisse (Eb, Ed). Cherchez le nom de la paroisse.");
@@ -590,7 +605,7 @@ function renderMissing(segments) {
 }
 
 function contextNotices(query, found) {
-  const { pending, notes } = contextNotes(state.placeIds, state.kind, query, found);
+  const { pending, notes } = contextNotes(state.placeIds, state.kind, query, found, state.placePeriods);
   const paragraphs = notes.map(escapeHtml);
   if (found.missing.length) paragraphs.unshift(renderMissing(found.missing));
   if (pending.length) {

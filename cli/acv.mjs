@@ -98,7 +98,7 @@ function search(placeText, kindText, dateText, page) {
   const placeIds = site.entryPlaceIds(entry);
   const found = site.findRegisters(placeIds, entry.periods, kind, query);
   const { registers, justificatives, near } = found;
-  const { pending, notes } = site.contextNotes(placeIds, kind, query, found);
+  const { pending, notes } = site.contextNotes(placeIds, kind, query, found, entry.periods);
   return {
     place: {
       name: entry.name,

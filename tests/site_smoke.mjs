@@ -225,6 +225,15 @@ const annexBounded = search("Arzier", "deces", "1847").cotes.includes("Ed 58/4")
 failures += annexBounded ? 0 : 1;
 console.log(`${annexBounded ? "ok  " : "FAIL"} Arzier / deces → Ed 58/4 de Genolier en 1847, pas en 1837 (annexe de Genolier 1846-1849)`);
 
+const bullet1739 = search("Bullet", "naissance", "1739");
+const bulletOwnParish = !bullet1739.cotes.includes("Eb 121/2") && bullet1739.answers.includes("Registres dès 1744") && !search("Bullet", "mariage", "1763").cotes.includes("Eb 121/6");
+failures += bulletOwnParish ? 0 : 1;
+console.log(`${bulletOwnParish ? "ok  " : "FAIL"} Bullet → plus Sainte-Croix après 1663 ; en 1739, l'inventaire de Bullet : « Registres dès 1744 »`);
+
+const startNoteOnlyWhenEmpty = !search("Ollon", "naissance", "1787").answers.includes("Registres dès") && search("Ollon", "naissance", "1590").answers.includes("Registres dès 1602");
+failures += startNoteOnlyWhenEmpty ? 0 : 1;
+console.log(`${startNoteOnlyWhenEmpty ? "ok  " : "FAIL"} Ollon / naissance → « Registres dès 1602 » en 1590, sans registre, pas en 1787`);
+
 const dataJson = JSON.parse(readFileSync(new URL("../docs/data.json", import.meta.url), "utf8"));
 const published = dataJson.generatedAt === site.DATA.generatedAt && dataJson.units.length === site.DATA.units.length;
 failures += published ? 0 : 1;
