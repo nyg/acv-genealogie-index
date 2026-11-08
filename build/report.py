@@ -11,7 +11,7 @@ from pathlib import Path
 from inventory_corrections import CORRECTIONS as INVENTORY_CORRECTIONS
 from inventory_corrections import unused_corrections
 from freshness import stale_reason
-from places import parish_name_mismatches
+from places import corrected_entries, parish_name_mismatches
 
 ROOT = Path(__file__).resolve().parent.parent
 DATABASE = ROOT / "data" / "acv.sqlite"
@@ -41,8 +41,7 @@ def parish_names(connection):
 
 def misnamed_parishes(table, corrections, names, villages):
     rows = []
-    for entry in table:
-        entry = {**entry, **corrections.get(entry["locality"], {})}
+    for entry in corrected_entries(table, corrections):
         for number, written in parish_name_mismatches(entry["description"], names, villages):
             rows.append((entry["locality"], written, number, names.get(number, ["paroisse inconnue"])[0]))
     return rows

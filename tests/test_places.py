@@ -3,7 +3,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "build"))
 
-from places import parish_name_mismatches, repair_parish_names, spelling_key  # noqa: E402
+from places import corrected_entries, parish_name_mismatches, repair_parish_names, spelling_key  # noqa: E402
 
 PARISHES = {
     "1": ["L'Abbaye"], "7": ["Assens (catholique)"], "8": ["Aubonne"], "12": ["Begnins"], "25": ["Cheseaux"], "39": ["Les Croisettes"],
@@ -127,3 +127,16 @@ def test_a_reference_without_a_name_is_a_mismatch():
 
     # Then
     assert mismatches == [("110", "")]
+
+
+def test_a_correction_restores_an_entry_the_parser_merged_into_the_line_above():
+    # Given
+    table = [{"locality": "Villy (Ollon) r//?r(Gill)", "description": "OllonJ92] Bursins [20]", "parishes": ["20"]}]
+    vincy = {"locality": "Vincy (Gilly)", "description": "Bursins [20]", "parishes": ["20"]}
+    corrections = {"Villy (Ollon) r//?r(Gill)": {"locality": "Villy (Ollon)", "description": "Ollon [92]", "parishes": ["92"], "followedBy": vincy}}
+
+    # When
+    entries = list(corrected_entries(table, corrections))
+
+    # Then
+    assert entries == [{"locality": "Villy (Ollon)", "description": "Ollon [92]", "parishes": ["92"]}, vincy]

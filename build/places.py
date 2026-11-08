@@ -106,6 +106,15 @@ def split_official_locality(text):
     return name.strip(), rest.strip()
 
 
+def corrected_entries(table, corrections):
+    for entry in table:
+        correction = dict(corrections.get(entry["locality"], {}))
+        hidden = correction.pop("followedBy", None)
+        yield {**entry, **correction}
+        if hidden:
+            yield hidden
+
+
 CHANGE_DATE = re.compile(r"\s*\((?:dès\s*)?(?:(\d{2})[. ]{0,2}(\d{2})[. ]{0,2})?(\d{4})\)")
 
 
