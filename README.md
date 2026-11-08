@@ -22,6 +22,7 @@ Le projet a trois fonctions :
   - [Pages des PDF](#pages-des-pdf)
   - [Tables de correspondance](#tables-de-correspondance)
   - [Ligne de commande](#ligne-de-commande)
+  - [Données](#données)
   - [Tests](#tests)
 
 ## 1. Trouver le registre
@@ -29,6 +30,8 @@ Le projet a trois fonctions :
 Pour une paroisse ou une commune, un type d'événement et une date, l'index donne le registre à ouvrir. Par exemple, une naissance en 1800 à Aigle se trouve dans le registre Eb 3/4.
 
 ![Recherche d'une naissance en 1800 à Aigle : l'index indique le registre Eb 3/4 et les parties de son PDF](docs/images/recherche.png)
+
+Pour un mariage, l'index donne aussi les registres de promesses de mariage (SB 268) des six mois précédents, car la publication précède le mariage. Les registres que l'inventaire signale comme non versés aux ACV (cotes « FANTOME ») apparaissent comme lacunes, pas comme registres à ouvrir.
 
 ## 2. Aller au répertoire dans le PDF
 
@@ -152,6 +155,10 @@ node cli/acv.mjs lieux chesi
 
 `chercher` prend un lieu, un acte (`naissance`, `mariage`, `deces`, `catechumenes`, `autre`, `tous`) et une date facultative aux formats du site ; `--page` y ajoute la page du PDF pour une page citée par le répertoire. `page` convertit une page du registre en page du PDF, et `lieux` liste les lieux connus qui correspondent à un texte. Une erreur de saisie (lieu, acte ou date inconnus) sort avec le code 2.
 
+### Données
+
+`build/build.py` écrit les mêmes données dans `docs/index.html`, `docs/data.json` (pour un script qui les réutilise) et `data/acv.sqlite` (non versée), avec leur date de génération (`generatedAt`, table `meta` dans la base). `python3 build/freshness.py` échoue quand `data/acv.sqlite` est plus ancienne que `docs/index.html`.
+
 ### Tests
 
-`scripts/check.sh` lance `uvx pytest -q tests`, `node tests/site_smoke.mjs`, `node tests/cli.mjs`, `node tests/pdf_probe.mjs` et `node tests/apercu.mjs`. Le test de fumée exécute le script du site sur des recherches réelles (lieu, acte, date) et vérifie que la bonne cote ressort, et que les pages du registre tombent sur la bonne page du PDF.
+`scripts/check.sh` lance `build/build.py`, `build/freshness.py`, `uvx pytest -q tests`, `node tests/site_smoke.mjs`, `node tests/cli.mjs`, `node tests/pdf_probe.mjs` et `node tests/apercu.mjs`. Le test de fumée exécute le script du site sur des recherches réelles (lieu, acte, date) et vérifie que la bonne cote ressort, et que les pages du registre tombent sur la bonne page du PDF.

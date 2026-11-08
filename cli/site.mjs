@@ -5,7 +5,7 @@ const SITE = new URL("../docs/index.html", import.meta.url);
 const EXPORTS = [
   "DATA", "KINDS", "KIND_NAMES", "FONDS_ERA", "DIGITIZED_FONDS", "NEAR_YEARS", "state", "SUGGESTIONS", "placesById", "unitsBySlug",
   "normalize", "searchSuggestions", "describeTargets", "entryPlaceIds", "selectEntry", "parseQueryDate", "findRegisters", "contextNotes",
-  "groupByUnit", "formatRange", "tidyAids", "partMatchesKind", "pdfTargets", "pageSpan", "render",
+  "groupByUnit", "formatRange", "formatDate", "tidyAids", "partMatchesKind", "pdfTargets", "pageSpan", "render", "fullyConsultableYear", "gapCote",
 ];
 
 const element = () => ({

@@ -1,0 +1,1323 @@
+[
+ {
+  "slug": "ed-71-1-65",
+  "parent": null,
+  "children": [
+   "ed-71-1",
+   "ed-71-2",
+   "ed-71-3",
+   "ed-71-4",
+   "ed-71-5",
+   "ed-71-6",
+   "ed-71-7",
+   "ed-71-8",
+   "ed-71-9",
+   "ed-71-10",
+   "ed-71-11",
+   "ed-71-12",
+   "ed-71-13",
+   "ed-71-14",
+   "ed-71-15",
+   "ed-71-16",
+   "ed-71-17",
+   "ed-71-18",
+   "ed-71-19",
+   "ed-71-20",
+   "ed-71-21",
+   "ed-71-22",
+   "ed-71-23",
+   "ed-71-24",
+   "ed-71-25",
+   "ed-71-26",
+   "ed-71-27",
+   "ed-71-28",
+   "ed-71-29",
+   "ed-71-30",
+   "ed-71-31",
+   "ed-71-32",
+   "ed-71-33",
+   "ed-71-34",
+   "ed-71-35",
+   "ed-71-36",
+   "ed-71-37",
+   "ed-71-38",
+   "ed-71-39",
+   "ed-71-40",
+   "ed-71-41",
+   "ed-71-42",
+   "ed-71-43",
+   "ed-71-44",
+   "ed-71-45",
+   "ed-71-46",
+   "ed-71-47",
+   "ed-71-48",
+   "ed-71-49",
+   "ed-71-50",
+   "ed-71-51",
+   "ed-71-52",
+   "ed-71-53",
+   "ed-71-54",
+   "ed-71-55",
+   "ed-71-56",
+   "ed-71-57",
+   "ed-71-58",
+   "ed-71-59",
+   "ed-71-60",
+   "ed-71-61",
+   "ed-71-62",
+   "ed-71-63",
+   "ed-71-64",
+   "ed-71-65"
+  ],
+  "f": {
+   "Cote": "Ed 71/1-65",
+   "Titre": "Paroisse réformée de Lausanne.",
+   "Date(s)": "1821-07-01 - 1878-03-13 (Création)",
+   "Niveau de description": "Série",
+   "Note": "Paroisse de Lausanne:\nParoisse englobant l'ensemble de la commune, y compris Cour, Ouchy et Vennes, sauf.: Montherond, annexe de Morrens dès la Réformation ; Les Croisettes, Mauvernay, Montblesson, Les Râpes d'Orient et d'Occident, Vers-chez-les-Blanc, détachés aux Croisettes en 1663.; Les Vernands, avec Romanel.; les campagnes de la Blécherette, la Grangette, le Désert, le Gray (devenue Grey), Beau-Soleil, la Chablière, la Valombreuse, Valency, Prélaz, Sébeillon, le Cazard, Malley, Bois-de-Vaux, la Maladière, Vidy et la Bourdonnette (cf. RHV 26, 1918, 122-124).\nRegistres dès 1572.\nParoisse allemande (1681-1821).\nEglise catholique : voir Assens avant 1821, sauf 1819-1821 : Eb 71/55."
+  }
+ },
+ {
+  "slug": "ed-71-1",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/1",
+   "Titre": "Registre de naissances 1821-1824.",
+   "Date(s)": "1821-07-01 - 1824-11-10 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 32 x 42,1 / 28,2 x 41,5 (répertoire)",
+   "Portée et contenu": "Naissances (1821 juillet 1 - 1824 novembre 10);\nBaptêmes de l'Eglise évangélique réformée (1821 juillet 1 - 1824 novembre 10).",
+   "Instruments de recherche": "Répertoire séparé des naissances et baptêmes Ed 71/1 (microfilm: RMS 1/1.044.857, numérique: RN-ED-71-1), pages manuscrites, non datées\nRépertoire séparé des naissances et baptêmes Ed 71/1 (microfilm: RMS 1/1.044.857, numérique: RN-ED-71-1), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.857",
+   "Nom du fichier": "CH-ACV_RN-ED-71-1.pdf",
+   "Taille du fichier": "632.2 MiB"
+  },
+  "pdf": "7/d/d/7dd160973781f753c70f6755d5ea97874a38240f5fdf435380e580dce6268060/CH-ACV_RN-ED-71-1.pdf"
+ },
+ {
+  "slug": "ed-71-2",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/2",
+   "Titre": "Registre de naissances 1824-1827.",
+   "Date(s)": "1824-11-11 - 1827-06-05 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31,7 x 42 / 28,2 x 40,5 (répertoire)",
+   "Portée et contenu": "Naissances (1824 novembre 11 - 1827 juin 5);\nBaptêmes de l'Eglise évangélique réformée (1824 novembre 11 - 1827 juin 5).",
+   "Instruments de recherche": "Répertoire séparé des naissances et baptêmes Ed 71/2 (microfilm: RMS 1/1.044.857, numérique: RN-ED-71-2), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.857",
+   "Nom du fichier": "CH-ACV_RN-ED-71-2.pdf",
+   "Taille du fichier": "601.8 MiB"
+  },
+  "pdf": "8/6/7/867b97108f3a191eef38b9ecd205813bf6149ad4094feb42daeb0e0e5cb03cfd/CH-ACV_RN-ED-71-2.pdf"
+ },
+ {
+  "slug": "ed-71-3",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/3",
+   "Titre": "Registre de naissances 1827-1830.",
+   "Date(s)": "1827-06-05 - 1830-06-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31,5 x 41,3 / 28 x 40,5 (répertoire)",
+   "Portée et contenu": "Naissances (1827 juin 5 - 1830 juin 1);\nBaptêmes de l'Eglise évangélique réformée (1827 juin 5 - 1830 juin 1).",
+   "Instruments de recherche": "Répertoire séparé des naissances et baptêmes Ed 71/3 (microfilm: RMS 1/1.044.857, numérique: RN-ED-71-3), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.857",
+   "Nom du fichier": "CH-ACV_RN-ED-71-3.pdf",
+   "Taille du fichier": "631.8 MiB"
+  },
+  "pdf": "4/8/b/48ba1cb255e2f8243d033654d4a2c7ec2e2c2f369cfd364959b2ef9921fdb179/CH-ACV_RN-ED-71-3.pdf"
+ },
+ {
+  "slug": "ed-71-4",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/4",
+   "Titre": "Registre de naissances 1830-1833.",
+   "Date(s)": "1830-06-04 - 1833-11-26 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31,4 x 41,7 x 6 / 27,2 x 40,9 (répertoire)",
+   "Portée et contenu": "Naissances (1830 juin 4 - 1833 novembre 26);\nBaptêmes de l'Eglise évangélique réformée (1830 juin 4 - 1833 novembre 26).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/4 (microfilm: RMS 1/1.044.858, numérique: RN-ED-71-4), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Note": "Onglets des lettres A et Z du répertoire arrachés.",
+   "Cote de gestion": "RMS 1/1.044.858",
+   "Nom du fichier": "CH-ACV_RN-ED-71-4.pdf",
+   "Taille du fichier": "749 MiB"
+  },
+  "pdf": "8/6/6/866acf63ff6ce8117c81ed189ee0814a29c06334fc95e63f4d38a259df6b3523/CH-ACV_RN-ED-71-4.pdf"
+ },
+ {
+  "slug": "ed-71-5",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/5",
+   "Titre": "Registre de naissances 1833-1836.",
+   "Date(s)": "1833-11-26 - 1836-08-02 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31,5 x 41,7 x 4,3/ 28,2 x 40,5 (répertoire)",
+   "Portée et contenu": "Naissances (1833 novembre 26 - 1836 août 2);\nBaptêmes de l'Eglise évangélique réformée (1833 novembre 26 - 1836 août 2).",
+   "Instruments de recherche": "Répertoire séparé des naissances et baptêmes Ed 71/5 (microfilm: RMS 1/1.044.858, numérique: RN-ED-71-5), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.858",
+   "Nom du fichier": "CH-ACV_RN-ED-71-5.pdf",
+   "Taille du fichier": "599.4 MiB"
+  },
+  "pdf": "b/0/2/b0234e6173740ad75abef214109567bf66cad9103f66fd0af014d481fab59ad3/CH-ACV_RN-ED-71-5.pdf"
+ },
+ {
+  "slug": "ed-71-6",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/6",
+   "Titre": "Registre de naissances 1836-1839.",
+   "Date(s)": "1836-08-03 - 1839-10-07 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,5 x 41 x 4,5",
+   "Portée et contenu": "Naissances (1836 août 3 - 1839 octobre 10);\nBaptêmes de l'Eglise évangélique réformée (1836 août 3 - 1839 octobre 10).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/6 (microfilm: RMS 1/1.044.859, numérique: RN-ED-71-6), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.859",
+   "Nom du fichier": "CH-ACV_RN-ED-71-6.pdf",
+   "Taille du fichier": "677.6 MiB"
+  },
+  "pdf": "4/0/e/40ebf6b0f9bf60420b30fb3a8568610033f6201af69cb700e068bc2a04133012/CH-ACV_RN-ED-71-6.pdf"
+ },
+ {
+  "slug": "ed-71-7",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/7",
+   "Titre": "Registre de naissances 1839-1842.",
+   "Date(s)": "1839-10-08 - 1842-11-03 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31,8 x 41",
+   "Portée et contenu": "Naissances (1839 octobre 8 - 1842 novembre 3);\nBaptêmes de l'Eglise évangélique réformée (1839 octobre 8 - 1842 novembre 3).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/7 (microfilm: RMS 1/1.044.859, numérique: RN-ED-71-7), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.859",
+   "Nom du fichier": "CH-ACV_RN-ED-71-7.pdf",
+   "Taille du fichier": "756.5 MiB"
+  },
+  "pdf": "a/c/f/acfc07aa02611653f8416c7b0f8c0672c15eb86ba85d9b306db6b90bc955378d/CH-ACV_RN-ED-71-7.pdf"
+ },
+ {
+  "slug": "ed-71-8",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/8",
+   "Titre": "Registre de naissances 1842-1845.",
+   "Date(s)": "1842-11-05 - 1845-09-17 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,4 x 41",
+   "Portée et contenu": "Naissances (1842 novembre 5 - 1845 septembre 17);\nBaptêmes de l'Eglise évangélique réformée (1842 novembre 5 - 1845 septembre 17).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/8 (microfilm: RMS 1/1.044.860, numérique: RN-ED-71-8), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Note": "Le coin supérieur droit de la page 1 est fortement plié.",
+   "Cote de gestion": "RMS 1/1.044.860",
+   "Nom du fichier": "CH-ACV_RN-ED-71-8.pdf",
+   "Taille du fichier": "700.5 MiB"
+  },
+  "pdf": "c/9/5/c95879523f0257e2e35d7d6222e73f4298440638f292791ace3b1e01eea3e632/CH-ACV_RN-ED-71-8.pdf"
+ },
+ {
+  "slug": "ed-71-9",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/9",
+   "Titre": "Registre de naissances 1845-1848.",
+   "Date(s)": "1845-09-18 - 1848-03-28 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31,5 x 41,9",
+   "Portée et contenu": "Naissances (1845 septembre 18 - 1848 mars 28);\nBaptêmes de l'Eglise évangélique réformée (1845 septembre 18 - 1848 mars 20).\nL'interfolio 214a est décacheté et laissé en son emplacement.",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/9 (microfilm: RMS 1/1.044.860, numérique: RN-ED-71-9), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Note": "Onglet de la lettre A du répertoire arraché.",
+   "Cote de gestion": "RMS 1/1.044.860",
+   "Nom du fichier": "CH-ACV_RN-ED-71-9.pdf",
+   "Taille du fichier": "605.7 MiB"
+  },
+  "pdf": "2/e/5/2e53ce1a5d62ce16344d18521efd49edc77c12b65cb7487357b91ec0678ff2f3/CH-ACV_RN-ED-71-9.pdf"
+ },
+ {
+  "slug": "ed-71-10",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/10",
+   "Titre": "Registre de naissances 1848-1851.",
+   "Date(s)": "1848-03-29 - 1851-06-06 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,5 x 41x 5.5",
+   "Portée et contenu": "Naissances (1848 mars 29 - 1851 juin 6);\nBaptêmes de l'Eglise évangélique réformée (1848 mars 29 - 1851 juin 6).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/10 (microfilm: RMS 1/1.044.861, numérique: RN-ED-71-10), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.861",
+   "Nom du fichier": "CH-ACV_RN-ED-71-10.pdf",
+   "Taille du fichier": "692.9 MiB"
+  },
+  "pdf": "1/2/e/12edf71589cd19fd1a5dd46cd66179c48e9cbbad29303367a20b4dfc027b022f/CH-ACV_RN-ED-71-10.pdf"
+ },
+ {
+  "slug": "ed-71-11",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/11",
+   "Titre": "Registre de naissances 1851-1854.",
+   "Date(s)": "1851-06-07 - 1854-08-09 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,5 x 41",
+   "Portée et contenu": "Naissances (1851 juin 7 - 1854 août 9);\nBaptêmes de l'Eglise évangélique réformée (1851 juin 7 - 1854 août 9).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/11 (microfilm: RMS 1/1.044.861, numérique: RN-ED-71-11), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Note": "Onglet de la lettre A du répertoire arraché.",
+   "Cote de gestion": "RMS 1/1.044.861",
+   "Nom du fichier": "CH-ACV_RN-ED-71-11.pdf",
+   "Taille du fichier": "695.9 MiB"
+  },
+  "pdf": "c/c/4/cc447774be126767a7e9e50c0c89d1dc714aafc07c121512a896d10d63de9279/CH-ACV_RN-ED-71-11.pdf"
+ },
+ {
+  "slug": "ed-71-12",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/12",
+   "Titre": "Registre de naissances 1854-1857.",
+   "Date(s)": "1854-08-10 - 1857-04-10 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,3 x 40,9",
+   "Portée et contenu": "Naissances (1854 août 10 - 1857 avril 10);\nBaptêmes de l'Eglise évangélique réformée (1854 août 10 - 1857 avril 10).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/12 (microfilm: RMS 1/1.044.82, numérique: RN-ED-71-12), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Note": "Onglet de la lettre Z du répertoire à moitié arraché.",
+   "Cote de gestion": "RMS 1/1.044.862",
+   "Nom du fichier": "CH-ACV_RN-ED-71-12.pdf",
+   "Taille du fichier": "670.2 MiB"
+  },
+  "pdf": "1/b/3/1b32cb95d735993bcfbdb09d1f775942b5b6d6dccb222fcaa900b6fd5ba5ad15/CH-ACV_RN-ED-71-12.pdf"
+ },
+ {
+  "slug": "ed-71-13",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/13",
+   "Titre": "Registre de naissances 1857-1859.",
+   "Date(s)": "1857-04-14 - 1859-08-19 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,9 x 41,7 x 4,5",
+   "Portée et contenu": "Naissances (1857 avril 14 - 1859 août 19);\nBaptêmes de l'Eglise évangélique réformée (1857 avril 14 - 1859 août 19).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/13 (microfilm: RMS 1/1.044.862, numérique: RN-ED-71-13), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.862",
+   "Nom du fichier": "CH-ACV_RN-ED-71-13.pdf",
+   "Taille du fichier": "619.6 MiB"
+  },
+  "pdf": "0/8/d/08d083e8ba53ce13e01afd43ae9ff101ce70971e28f3687fcf3e9af5a2071de6/CH-ACV_RN-ED-71-13.pdf"
+ },
+ {
+  "slug": "ed-71-14",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/14",
+   "Titre": "Registre de naissances 1859-1861.",
+   "Date(s)": "1859-08-20 - 1861-12-02 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31 x 41",
+   "Portée et contenu": "Naissances (1859 août 20 - 1861 décembre 2);\nBaptêmes de l'Eglise évangélique réformée (1859 août 20 - 1861 décembre 2).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/14 (microfilm: RMS 1/1.044.863, numérique: RN-ED-71-14), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.863",
+   "Nom du fichier": "CH-ACV_RN-ED-71-14.pdf",
+   "Taille du fichier": "661.6 MiB"
+  },
+  "pdf": "e/f/c/efc49e3c235026b8de9198df7c1a3bd44717b6ddcc4b24610755333dba2f061e/CH-ACV_RN-ED-71-14.pdf"
+ },
+ {
+  "slug": "ed-71-15",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/15",
+   "Titre": "Registre de naissances 1861-1863.",
+   "Date(s)": "1861-12-03 - 1863-10-14 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31 x 39,8",
+   "Portée et contenu": "Naissances (1861 décembre 3 - 1863 octobre 14);\nBaptêmes de l'Eglise évangélique réformée (1861 décembre 3 - 1863 octobre 14).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/15 (microfilm: RMS 1/1.044.863, numérique: RN-ED-71-15), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.863",
+   "Nom du fichier": "CH-ACV_RN-ED-71-15.pdf",
+   "Taille du fichier": "576.9 MiB"
+  },
+  "pdf": "d/4/4/d44aa29d4ae1bdf6c2238061b1dacf1046bbd0b14c40c2745357888661d0d11e/CH-ACV_RN-ED-71-15.pdf"
+ },
+ {
+  "slug": "ed-71-16",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/16",
+   "Titre": "Registre de naissances 1863-1865.",
+   "Date(s)": "1863-10-15 - 1865-08-07 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30 x 41,5 x 4",
+   "Portée et contenu": "Naissances (1863 octobre 15 - 1865 août 7);\nBaptêmes de l'Eglise évangélique réformée (1863 octobre 15 - 1865 août 7).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/16 (microfilm: RMS 1/1.044.863, numérique: RN-ED-71-16), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Note": "Pages lettres A, M, R et S du répertoire consolidées;\ndernière page (de garde) dépliée.",
+   "Cote de gestion": "RMS 1/1.044.863",
+   "Nom du fichier": "CH-ACV_RN-ED-71-16.pdf",
+   "Taille du fichier": "593.2 MiB"
+  },
+  "pdf": "5/2/0/52079a0b23311418f1bc2b442e40cde482d6a5f0d418b1b12d8e8cb1bee743e8/CH-ACV_RN-ED-71-16.pdf"
+ },
+ {
+  "slug": "ed-71-17",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/17",
+   "Titre": "Registre de naissances 1865-1867.",
+   "Date(s)": "1865-08-08 - 1867-05-15 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30.5 x 41.5x 5",
+   "Portée et contenu": "Naissances (1865 août 8 - 1867 mai 15);\nBaptêmes de l'Eglise évangélique réformée (1865 août 8 - 1867 mai 15).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/17 (microfilm: RMS 1/1.044.864, numérique: RN-ED-71-17), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.864",
+   "Nom du fichier": "CH-ACV_RN-ED-71-17.pdf",
+   "Taille du fichier": "615.5 MiB"
+  },
+  "pdf": "d/c/f/dcf144b467023a647750b35bb1c7c0379e1a6951543718eefb62d394a8cbc88b/CH-ACV_RN-ED-71-17.pdf"
+ },
+ {
+  "slug": "ed-71-18",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/18",
+   "Titre": "Registre de naissances 1867-1868.",
+   "Date(s)": "1867-05-16 - 1868-12-26 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,9 x 40,4 x 4.5",
+   "Portée et contenu": "Naissances (1867 mai 16 - 1868 décembre 26);\nBaptêmes de l'Eglise évangélique réformée (1867 mai 16 - 1868 décembre 26).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/18 (microfilm: RMS 1/1.044.864, numérique: RN-ED-71-18), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.864",
+   "Nom du fichier": "CH-ACV_RN-ED-71-18.pdf",
+   "Taille du fichier": "557.2 MiB"
+  },
+  "pdf": "0/b/7/0b776306716e9edb8c2b6046fbbcc53dd81c42975a49ccca58126ccfa222e61e/CH-ACV_RN-ED-71-18.pdf"
+ },
+ {
+  "slug": "ed-71-19",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/19",
+   "Titre": "Registre de naissances 1868-1870.",
+   "Date(s)": "1868-12-26 - 1870-06-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 32,5 x 41,1 x 4,3",
+   "Portée et contenu": "Naissances (1868 décembre 26 - 1870 juin 30);\nBaptêmes de l'Eglise évangélique réformée (1868 décembre 26 - 1870 juin 30).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/19 (microfilm: RMS 1/1.044.865, numérique: RN-ED-71-19), pages manuscrites, non datées",
+   "Note": "Pages 1, 173 et onglets page 275 et lettres B et Z du répertoire consolidés et dépliés.",
+   "Cote de gestion": "RMS 1/1.044.865",
+   "Nom du fichier": "CH-ACV_RN-ED-71-19.pdf",
+   "Taille du fichier": "568.3 MiB"
+  },
+  "pdf": "4/3/c/43c304543aa90955760a979c02b7d500207ba142d6c85bc02285ac3bdc151a7d/CH-ACV_RN-ED-71-19.pdf"
+ },
+ {
+  "slug": "ed-71-20",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/20",
+   "Titre": "Registre de naissances 1870-1872.",
+   "Date(s)": "1870-07-04 - 1872-02-19 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31,2 x 41,3 x 4.5",
+   "Portée et contenu": "Naissances (1870 juillet 4 - 1872 février 19);\nBaptêmes de l'Eglise évangélique réformée (1870 juillet 4 - 1872 février 19).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/20 (microfilm: RMS 1/1.044.865, numérique: RN-ED-71-20), pages manuscrites, non datées",
+   "Note": "La page S du répertoire est consolidée.",
+   "Cote de gestion": "RMS 1/1.044.865",
+   "Nom du fichier": "CH-ACV_RN-ED-71-20.pdf",
+   "Taille du fichier": "578.5 MiB"
+  },
+  "pdf": "6/1/5/6159e591ad31495c034abf57e7714bede3026b6deae533e44d602a146e92d94e/CH-ACV_RN-ED-71-20.pdf"
+ },
+ {
+  "slug": "ed-71-21",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/21",
+   "Titre": "Registre de naissances 1872-1873.",
+   "Date(s)": "1872-02-19 - 1873-08-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 32 x 41 x 4.5",
+   "Portée et contenu": "Naissances (1872 février 19 - 1873 août 30);\nBaptêmes de l'Eglise évangélique réformée (1872 février 19 - 1873 août 30).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/21 (microfilm: RMS 1/1.044.865, numérique: RN-ED-71-21), pages manuscrites, non datées",
+   "Note": "Les pages 283 et G du répertoire sont consolidées;\nonglet de la lettre B du répertoire arraché.",
+   "Cote de gestion": "RMS 1/1.044.865",
+   "Nom du fichier": "CH-ACV_RN-ED-71-21.pdf",
+   "Taille du fichier": "590 MiB"
+  },
+  "pdf": "b/1/f/b1fa789629496ec314f6c4dd83752a3c491070f84dbca2d947783b643b2feca6/CH-ACV_RN-ED-71-21.pdf"
+ },
+ {
+  "slug": "ed-71-22",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/22",
+   "Titre": "Registre de naissances 1873-1875.",
+   "Date(s)": "1873-09-01 - 1875-02-13 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,5 x 41,9 x 5",
+   "Portée et contenu": "Naissances (1873 septembre 1 - 1875 février 13);\nBaptêmes de l'Eglise évangélique réformée (1873 septembre 1 - 1875 février 13).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/22 (microfilm: RMS 1/1.044.866, numérique: RN-ED-71-22), pages manuscrites, non datées",
+   "Note": "Onglets du répertoire consolidés et dépliés.",
+   "Cote de gestion": "RMS 1/1.044.866",
+   "Nom du fichier": "CH-ACV_RN-ED-71-22.pdf",
+   "Taille du fichier": "606.1 MiB"
+  },
+  "pdf": "4/f/b/4fb763f302fe7b77192542359b94765a0049f2ebac41b3b3974741b7182b8380/CH-ACV_RN-ED-71-22.pdf"
+ },
+ {
+  "slug": "ed-71-23",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/23",
+   "Titre": "Registre de naissances 1875-1875.",
+   "Date(s)": "1875-02-15 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30 x 41,2 x 4",
+   "Portée et contenu": "Naissances (1875 février 15 - 1875 décembre 31);\nBaptêmes de l'Eglise évangélique réformée (1875 février 15 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des naissances et baptêmes Ed 71/23 (microfilm: RMS 1/1.044.866, numérique: RN-ED-71-23), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.866",
+   "Nom du fichier": "CH-ACV_RN-ED-71-23.pdf",
+   "Taille du fichier": "443.8 MiB"
+  },
+  "pdf": "c/8/9/c89d7d2ee0b3d0eb80c7398539316130ffd7386e3a4294212ee8030ccc5a6741/CH-ACV_RN-ED-71-23.pdf"
+ },
+ {
+  "slug": "ed-71-24",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/24",
+   "Titre": "Registre de mariages 1821-1831.",
+   "Date(s)": "1821-07-01 - 1831-06-29 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 32,7 x 42 x 4,5 / 28,1 x 40,6 (répertoire)",
+   "Portée et contenu": "Mariages (1821 juillet 1 - 1831 juin 29).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 71/24 (microfilm: RMS 1/1.044.867, numérique: RN-ED-71-24), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés. Baptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire); Mariages (1828 février 27 - 1856 janvier 16) (avec répertoire); Ensevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire)",
+   "Cote de gestion": "RMS 1/1.044.867",
+   "Nom du fichier": "CH-ACV_RN-ED-71-24.pdf",
+   "Taille du fichier": "654.5 MiB"
+  },
+  "pdf": "7/8/b/78b15d5f8bf4d504876ee4ffe2341d4b2a0b1fed30ab96ea2f3b71c2533bfd3b/CH-ACV_RN-ED-71-24.pdf"
+ },
+ {
+  "slug": "ed-71-25",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/25",
+   "Titre": "Registre de mariages 1831-1835.",
+   "Date(s)": "1831-07-01 - 1835-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 33 x 42,1 / 28 x 42,5 (répertoire)",
+   "Portée et contenu": "Mariages (1831 juillet 1 - 1835 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 71/25 (microfilm: RMS 1/1.044.867, numérique: RN-ED-71-25), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés. Baptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire); Mariages (1828 février 27 - 1856 janvier 16) (avec répertoire); Ensevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.867",
+   "Nom du fichier": "CH-ACV_RN-ED-71-25.pdf",
+   "Taille du fichier": "560 MiB"
+  },
+  "pdf": "d/3/a/d3a0f35eb495122d9deb7410dcaf524eb3e3fb2a835ad172b9fdf220cca1e47e/CH-ACV_RN-ED-71-25.pdf"
+ },
+ {
+  "slug": "ed-71-26",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/26",
+   "Titre": "Registre de mariages 1836-1840.",
+   "Date(s)": "1836-01-15 - 1840-10-09 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 32 x 41,5 x 6 / 28,1 x 40,7 (répertoire)",
+   "Portée et contenu": "Mariages (1863 janvier 15 - 1840 octobre 9).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 71/26 (microfilm: RMS 1/1.044.868, numérique: RN-ED-71-26), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/28\nSignalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés. Baptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire); Mariages (1828 février 27 - 1856 janvier 16) (avec répertoire); Ensevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.868",
+   "Nom du fichier": "CH-ACV_RN-ED-71-26.pdf",
+   "Taille du fichier": "706.5 MiB"
+  },
+  "pdf": "e/7/3/e73444f70a61f0737aa29d5b1d6ff6e27bc3cf9ba76e77bebf44ac0c95f2cad9/CH-ACV_RN-ED-71-26.pdf"
+ },
+ {
+  "slug": "ed-71-27",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/27",
+   "Titre": "Registre de mariages 1840-1844.",
+   "Date(s)": "1840-10-24 - 1844-07-11 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31,7 x 41,3 / 28,2 x 41,8 (répertoire)",
+   "Portée et contenu": "Mariages (1840 octobre 24 - 1844 juillet 11).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 71/27 (microfilm: RMS 1/1.044.868, numérique: RN-ED-71-27), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/28-29\nSignalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés. Baptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire); Mariages (1828 février 27 - 1856 janvier 16) (avec répertoire); Ensevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.868",
+   "Nom du fichier": "CH-ACV_RN-ED-71-27.pdf",
+   "Taille du fichier": "644.9 MiB"
+  },
+  "pdf": "f/8/0/f80dc4df52b942c397106e10d41cbd8b18c7b993a8c5ec0ff9365e2e8ae6a384/CH-ACV_RN-ED-71-27.pdf"
+ },
+ {
+  "slug": "ed-71-28",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/28",
+   "Titre": "Registre de mariages 1844-1847.",
+   "Date(s)": "1844-07-11 - 1847-08-23 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31 x 41,5 / 28,1 x 40,7 x 0.3 (répertoire)",
+   "Portée et contenu": "Mariages (1844 juillet 11 - 1847 août 23).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 71/28 (microfilm: RMS 1/1.044.869, numérique: RN-ED-71-28), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/29\nSignalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés. Baptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire); Mariages (1828 février 27 - 1856 janvier 16) (avec répertoire); Ensevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Note": "Onglet lettre Z du répertoire consolidé.",
+   "Cote de gestion": "RMS 1/1.044.869",
+   "Nom du fichier": "CH-ACV_RN-ED-71-28.pdf",
+   "Taille du fichier": "667.8 MiB"
+  },
+  "pdf": "f/e/6/fe6e7420a2bc9a55c4c70de49ad5e8c3d72c045c8c5c28d98b3d4103b708513d/CH-ACV_RN-ED-71-28.pdf"
+ },
+ {
+  "slug": "ed-71-29",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/29",
+   "Titre": "Registre de mariages 1847-1850.",
+   "Date(s)": "1847-08-23 - 1850-11-14 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,7 x 41,2 x 5,4 / 28,1 x 40,9 (répertoire)",
+   "Portée et contenu": "Mariages (1847 août 23 - 1850 novembre 14).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 71/29 (microfilm: RMS 1/1.044.869, numérique: RN-ED-71-29), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/30\nSignalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés. Baptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire); Mariages (1828 février 27 - 1856 janvier 16) (avec répertoire); Ensevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.869",
+   "Nom du fichier": "CH-ACV_RN-ED-71-29.pdf",
+   "Taille du fichier": "657.1 MiB"
+  },
+  "pdf": "2/a/a/2aa2b3516239eff24c6c088482ee73a1eaa3d0690c7ba4fa9f6cdcf80bb62e06/CH-ACV_RN-ED-71-29.pdf"
+ },
+ {
+  "slug": "ed-71-30",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/30",
+   "Titre": "Registre de mariages 1850-1853.",
+   "Date(s)": "1850-11-18 - 1853-12-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31 x 41,4 x 5,4 / 28,2 x 40,6 (répertoire)",
+   "Portée et contenu": "Mariages (1850 novembre 18 - 1853 décembre 1).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 71/30 (microfilm: RMS 1/1.044.870, numérique: RN-ED-71-30), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/31\nSignalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés. Baptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire); Mariages (1828 février 27 - 1856 janvier 16) (avec répertoire); Ensevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.870",
+   "Nom du fichier": "CH-ACV_RN-ED-71-30.pdf",
+   "Taille du fichier": "690.4 MiB"
+  },
+  "pdf": "5/e/8/5e8782db4180fb620be4388decad802033ec3a383346df9c260b34921b68f56f/CH-ACV_RN-ED-71-30.pdf"
+ },
+ {
+  "slug": "ed-71-31",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/31",
+   "Titre": "Registre de mariages 1853-1856.",
+   "Date(s)": "1853-12-02 - 1856-05-28 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,5 x 42,8 x 5.5 / 28,2 x 40,6 (répertoire)",
+   "Portée et contenu": "Mariages (1853 décembre 2 - 1856 mai 28).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 71/31 (microfilm: RMS 1/1.044.870, numérique: RN-ED-71-31), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/32\nSignalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés. Baptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire); Mariages (1828 février 27 - 1856 janvier 16) (avec répertoire); Ensevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Note": "Le cahier en annexe numéroté 333 à 357, est en fait une copie des pages 347-370; il n'a pas été numérisé.\nOnglet de la lettre Z du répertoire arraché.",
+   "Cote de gestion": "RMS 1/1.044.870",
+   "Nom du fichier": "CH-ACV_RN-ED-71-31.pdf",
+   "Taille du fichier": "548.4 MiB"
+  },
+  "pdf": "5/4/b/54bc0a6d0dcf55b04b380bd22b9bbd3c4766165cc18fbfdfcf8cdd1cc6f8c7ba/CH-ACV_RN-ED-71-31.pdf"
+ },
+ {
+  "slug": "ed-71-32",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/32",
+   "Titre": "Registre de mariages 1856-1858.",
+   "Date(s)": "1856-05-29 - 1858-07-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,7 x 42,1 / 28,1 x 40,5 (répertoire)",
+   "Portée et contenu": "Mariages (1856 mai 29 - 1858 juillet 1).",
+   "Instruments de recherche": "Répertoire séparé des mariages Ed 71/32 (microfilm: RMS 1/1.044.871, numérique: RN-ED-71-32), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71 / 32-34",
+   "Cote de gestion": "RMS 1/1.044.871",
+   "Nom du fichier": "CH-ACV_RN-ED-71-32.pdf",
+   "Taille du fichier": "536.6 MiB"
+  },
+  "pdf": "a/9/6/a96902f3d3b4068a2d7c17baaa9d75a2b3e45d4a1884eaa6090a30fcf6e5910f/CH-ACV_RN-ED-71-32.pdf"
+ },
+ {
+  "slug": "ed-71-33",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/33",
+   "Titre": "Registre de mariages 1858-1860.",
+   "Date(s)": "1858-07-01 - 1860-05-08 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,9 x 42,3 x 5,5",
+   "Portée et contenu": "Mariages (1858 juillet 1 - 1860 mai 8).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 71/33 (microfilm: RMS 1/1.044.871, numérique: RN-ED-71-33), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/33",
+   "Cote de gestion": "RMS 1/1.044.871",
+   "Nom du fichier": "CH-ACV_RN-ED-71-33.pdf",
+   "Taille du fichier": "536.5 MiB"
+  },
+  "pdf": "d/6/8/d680c8e8f0088d4e0d2278fd3f3236ccb15615a10cf7df26c9308409e79feb0f/CH-ACV_RN-ED-71-33.pdf"
+ },
+ {
+  "slug": "ed-71-34",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/34",
+   "Titre": "Registre de mariages 1860-1862.",
+   "Date(s)": "1860-05-09 - 1862-04-07 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,8 x 41,1 x 5,5",
+   "Portée et contenu": "Mariages (1860 mai 9 - 1862 avril 7).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 71/34 (microfilm: RMS 1/1.044.872, numérique: RN-ED-71-34), pages manuscrites, non datées, Interfolio entre pages 200 et 201.",
+   "Unités de description associées": "Eb 71/33",
+   "Note": "Interfolio entre pages 200 et 201.",
+   "Cote de gestion": "RMS 1/1.044.872",
+   "Nom du fichier": "CH-ACV_RN-ED-71-34.pdf",
+   "Taille du fichier": "539 MiB"
+  },
+  "pdf": "4/e/4/4e496e0af38e5b2b1c28038b7a1ff9fe206a84c658cd529a55464760fcf0a1ee/CH-ACV_RN-ED-71-34.pdf"
+ },
+ {
+  "slug": "ed-71-35",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/35",
+   "Titre": "Registre de mariages 1862-1863.",
+   "Date(s)": "1862-04-10 - 1863-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,7 x 41",
+   "Portée et contenu": "Mariages (1862 avril 10 - 1863 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 71/35 (microfilm: RMS 1/1.044.872, numérique: RN-ED-71-35), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/33",
+   "Cote de gestion": "RMS 1/1.044.872",
+   "Nom du fichier": "CH-ACV_RN-ED-71-35.pdf",
+   "Taille du fichier": "508.8 MiB"
+  },
+  "pdf": "7/8/d/78da9fb78490f2ba3dcce8590429aa06e3af14b5df0c6bed370fd59caf8eb53c/CH-ACV_RN-ED-71-35.pdf"
+ },
+ {
+  "slug": "ed-71-36",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/36",
+   "Titre": "Registre de mariages 1864-1865.",
+   "Date(s)": "1864-01-04 - 1865-08-11 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,4 x 41,1",
+   "Portée et contenu": "Mariages (1864 janvier 4 - 1865 août 11).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 71/36 (microfilm: RMS 1/1.044.873, numérique: RN-ED-71-36), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/33-34",
+   "Cote de gestion": "RMS 1/1.044.873",
+   "Nom du fichier": "CH-ACV_RN-ED-71-36.pdf",
+   "Taille du fichier": "529.7 MiB"
+  },
+  "pdf": "1/7/0/1701eeb511c4aadeefc047f3e4851a5e125c12cbb4ea4614b3bfa0c35641a867/CH-ACV_RN-ED-71-36.pdf"
+ },
+ {
+  "slug": "ed-71-37",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/37",
+   "Titre": "Registre de mariages 1865-1867.",
+   "Date(s)": "1865-08-12 - 1867-08-12 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,9 x 42",
+   "Portée et contenu": "Mariages (1865 août 12 - 1867 août 12).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 71/37 (microfilm: RMS 1/1.044.873, numérique: RN-ED-71-37), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/34-35",
+   "Cote de gestion": "RMS 1/1.044.873",
+   "Nom du fichier": "CH-ACV_RN-ED-71-37.pdf",
+   "Taille du fichier": "679.1 MiB"
+  },
+  "pdf": "6/a/4/6a433810a5066fbff29b285d7ee6eb3fe372699349731ca225bd3ee222aa9d9c/CH-ACV_RN-ED-71-37.pdf"
+ },
+ {
+  "slug": "ed-71-38",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/38",
+   "Titre": "Registre de mariages 1867-1869.",
+   "Date(s)": "1867-08-15 - 1869-04-15 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31 x 41",
+   "Portée et contenu": "Mariages (1867 août 15 - 1869 avril 15).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 71/38 (microfilm: RMS 1/1.044.874, numérique: RN-ED-71-38), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/34-35",
+   "Cote de gestion": "RMS 1/1.044.874",
+   "Nom du fichier": "CH-ACV_RN-ED-71-38.pdf",
+   "Taille du fichier": "620.2 MiB"
+  },
+  "pdf": "6/3/0/6305cc66d68ddd5a073829bede0e4473eadf2bb6eb2199b1dda85b63b97182e9/CH-ACV_RN-ED-71-38.pdf"
+ },
+ {
+  "slug": "ed-71-39",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/39",
+   "Titre": "Registre de mariages 1869-1870.",
+   "Date(s)": "1869-04-15 - 1870-09-24 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 32 x 41x 4,5",
+   "Portée et contenu": "Mariages (1869 avril 15 - 1870 septembre 24).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 71/39 (microfilm: RMS 1/1.044.874, numérique: RN-ED-71-39), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/35-36",
+   "Note": "Pages des lettres Y et Z du répertoire consolidées.",
+   "Cote de gestion": "RMS 1/1.044.874",
+   "Nom du fichier": "CH-ACV_RN-ED-71-39.pdf",
+   "Taille du fichier": "572.7 MiB"
+  },
+  "pdf": "2/a/0/2a01db1ec7b0222af252eb16211c265970a6c1a1c21655666c9e1c67076cb8c3/CH-ACV_RN-ED-71-39.pdf"
+ },
+ {
+  "slug": "ed-71-40",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/40",
+   "Titre": "Registre de mariages 1870-1872.",
+   "Date(s)": "1870-09-24 - 1872-03-09 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31,5 x 41,2",
+   "Portée et contenu": "Mariages (1870 septembre 24 - 1872 mars 9).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 71/40 (microfilm: RMS 1/1.044.875. numérique: RN-ED-71-40), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/36-38",
+   "Cote de gestion": "RMS 1/1.044.875",
+   "Nom du fichier": "CH-ACV_RN-ED-71-40.pdf",
+   "Taille du fichier": "545.6 MiB"
+  },
+  "pdf": "a/5/8/a58f481c3918f3133c7528728e4d5b9cb705d9114cb54f84a818796ef2711a86/CH-ACV_RN-ED-71-40.pdf"
+ },
+ {
+  "slug": "ed-71-41",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/41",
+   "Titre": "Registre de mariages 1872-1873.",
+   "Date(s)": "1872-03-13 - 1873-05-08 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31,2 x 41,9",
+   "Portée et contenu": "Mariages (1872 mars 13 - 1873 mai 8).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 71/41 (microfilm: RMS 1/1.044.875, numérique: RN-ED-71-41), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/38-39",
+   "Cote de gestion": "RMS 1/1.044.875",
+   "Nom du fichier": "CH-ACV_RN-ED-71-41.pdf",
+   "Taille du fichier": "580.7 MiB"
+  },
+  "pdf": "2/c/f/2cffedc15d1e3aa06402664f550499cc132340729dfdcb53c1b7fe841757c307/CH-ACV_RN-ED-71-41.pdf"
+ },
+ {
+  "slug": "ed-71-42",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/42",
+   "Titre": "Registre de mariages 1873-1874.",
+   "Date(s)": "1873-05-12 - 1874-08-27 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31 x 42",
+   "Portée et contenu": "Mariages (1873 mai 12 - 1874 août 27).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 71/42 (microfilm: RMS 1/1.044.876, numérique: RN-ED-71-42), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/39-41",
+   "Cote de gestion": "RMS 1/1.044.876",
+   "Nom du fichier": "CH-ACV_RN-ED-71-42.pdf",
+   "Taille du fichier": "577.1 MiB"
+  },
+  "pdf": "f/a/e/fae5a0028fb1986c4f0f67f86bfbbd59487cac1b3f4ee87df37b092c86de1da6/CH-ACV_RN-ED-71-42.pdf"
+ },
+ {
+  "slug": "ed-71-43",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/43",
+   "Titre": "Registre de mariages 1874-1875.",
+   "Date(s)": "1874-08-28 - 1875-09-30 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 29,2 x 41,6",
+   "Portée et contenu": "Mariages (1874 août 28 - 1875 septembre 30).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 71/43 (microfilm: RMS 1/1.044.876, numérique: RN-ED-71-43), pages manuscrites, non datées",
+   "Unités de description associées": "Eb 71/40-42",
+   "Cote de gestion": "RMS 1/1.044.876",
+   "Nom du fichier": "CH-ACV_RN-ED-71-43.pdf",
+   "Taille du fichier": "526 MiB"
+  },
+  "pdf": "8/a/0/8a0685649e09143f8f724294de76a3a53caf42d295511fdc5555e8510cd5473f/CH-ACV_RN-ED-71-43.pdf"
+ },
+ {
+  "slug": "ed-71-44",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/44",
+   "Titre": "Registre de mariages 1875-1875.",
+   "Date(s)": "1875-09-30 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 28,5 x 41,7",
+   "Portée et contenu": "Mariages (1875 septembre 30 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des mariages Ed 71/44 (microfilm: RMS 1/1.044.876, numérique: RN-ED-71-44), pages manuscrites, non datées",
+   "Cote de gestion": "RMS 1/1.044.876",
+   "Nom du fichier": "CH-ACV_RN-ED-71-44.pdf",
+   "Taille du fichier": "198.8 MiB"
+  },
+  "pdf": "3/5/7/35781e9721d740202305be9ec160364563cd719c939a69fcb49b5120d7ae6af4/CH-ACV_RN-ED-71-44.pdf"
+ },
+ {
+  "slug": "ed-71-45",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/45",
+   "Titre": "Registre de décès 1821-1829.",
+   "Date(s)": "1821-07-01 - 1829-01-01 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 32 x 41,2 x 5 / 28 x 40,5 (répertoire)",
+   "Portée et contenu": "Décès (1821 juillet 1 - 1829 janvier 1).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 71/45 (microfilm: RMS 1/1.044.877, numérique: RN-ED-71-45), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.877",
+   "Nom du fichier": "CH-ACV_RN-ED-71-45.pdf",
+   "Taille du fichier": "707.7 MiB"
+  },
+  "pdf": "7/c/6/7c6c0934e4840b7d2fd086a4a352550e20bc1d2bf1698b90e8db8b0a9dc0229e/CH-ACV_RN-ED-71-45.pdf"
+ },
+ {
+  "slug": "ed-71-46",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/46",
+   "Titre": "Registre de décès 1829-1833.",
+   "Date(s)": "1829-01-02 - 1833-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,5 x 41,4 x 5 / 28,2 x 40,6 (répertoire)",
+   "Portée et contenu": "Décès (1829 janvier 2 - 1833 décembre 31).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 71/46 (microfilm: RMS 1/1.044.877, numérique: RN-ED-71-46), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.877",
+   "Nom du fichier": "CH-ACV_RN-ED-71-46.pdf",
+   "Taille du fichier": "683.5 MiB"
+  },
+  "pdf": "c/3/d/c3d31b3be7a1f54581ffd60cbdf9c8f7760466468ada73fe2fb148be5e5c543f/CH-ACV_RN-ED-71-46.pdf"
+ },
+ {
+  "slug": "ed-71-47",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/47",
+   "Titre": "Registre de décès 1834-1836.",
+   "Date(s)": "1834-01-02 - 1836-09-09 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 32 x 41,7 x 4/ 28,2 x 40,6 (répertoire)",
+   "Portée et contenu": "Décès (1834 janvier 2 - 1836 septembre 9).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 71/47 (microfilm: RMS 1/1.044.877, numérique: RN-ED-71-47), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.877",
+   "Nom du fichier": "CH-ACV_RN-ED-71-47.pdf",
+   "Taille du fichier": "508.9 MiB"
+  },
+  "pdf": "5/4/d/54d68090a3aa449e6dce0ef4d816f538ae5c4d8242bbe6b471226699909f118f/CH-ACV_RN-ED-71-47.pdf"
+ },
+ {
+  "slug": "ed-71-48",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/48",
+   "Titre": "Registre de décès 1836-1839.",
+   "Date(s)": "1836-09-11 - 1839-08-15 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 32,7 x 41,2 / 28,1 x 40,6 (répertoire)",
+   "Portée et contenu": "Décès (1836 septembre 11 - 1839 août 15).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 71/48 (microfilm: RMS 1/1.044.878, numérique: RN-ED-71-48), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.878",
+   "Nom du fichier": "CH-ACV_RN-ED-71-48.pdf",
+   "Taille du fichier": "616.9 MiB"
+  },
+  "pdf": "2/9/7/297b37aa1c331d37d8690476dc51946985e7229fa1ba656c625256786e5d0f52/CH-ACV_RN-ED-71-48.pdf"
+ },
+ {
+  "slug": "ed-71-49",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/49",
+   "Titre": "Registre de décès 1839-1842.",
+   "Date(s)": "1839-08-15 - 1842-01-13 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 32,2 x 41,2 / 28,2 x 40,1 (répertoire)",
+   "Portée et contenu": "Décès (1839 août 15 - 1842 janvier 13).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 71/49 (microfilm: RMS 1/1.044.878, numérique: RN-ED-71-49), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.878",
+   "Nom du fichier": "CH-ACV_RN-ED-71-49.pdf",
+   "Taille du fichier": "608 MiB"
+  },
+  "pdf": "4/1/f/41f4709e75c4a8f4e00ac986e8f96d08ddbbbfd263b57c2ac304d4a3b4d6ad5f/CH-ACV_RN-ED-71-49.pdf"
+ },
+ {
+  "slug": "ed-71-50",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/50",
+   "Titre": "Registre de décès 1842-1846.",
+   "Date(s)": "1842-01-14 - 1864-07-16 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31 x 41,1 / 28,2 x 40,7 (répertoire)",
+   "Portée et contenu": "Décès (1842 janvier 14 - 1846 juillet 16).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 71/50 (microfilm: RMS 1/1.044.879, numérique: RN-ED-71-50), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.879",
+   "Nom du fichier": "CH-ACV_RN-ED-71-50.pdf",
+   "Taille du fichier": "853.9 MiB"
+  },
+  "pdf": "6/d/5/6d5ed8a3b300c3f338081520cdde5871304ae2ad84af5342b7b123088aae7058/CH-ACV_RN-ED-71-50.pdf"
+ },
+ {
+  "slug": "ed-71-51",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/51",
+   "Titre": "Registre de décès 1846-1848.",
+   "Date(s)": "1846-07-16 - 1848-11-14 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31,4 x 40,1 x 4,5 / 28,2 x 40,2 x 0,5 (répertoire)",
+   "Portée et contenu": "Décès (1846 juillet 16 - 1848 novembre 14).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 71/51 (microfilm: RMS 1/1.044.880, numérique: RN-ED-71-51), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Note": "Onglet lettre Y arraché.",
+   "Cote de gestion": "RMS 1/1.044.880",
+   "Nom du fichier": "CH-ACV_RN-ED-71-51.pdf",
+   "Taille du fichier": "560 MiB"
+  },
+  "pdf": "f/0/b/f0b36e8501be968ebe13b33d1e39d49a68d29ca40620b8b341dd9bd66e1a6c7a/CH-ACV_RN-ED-71-51.pdf"
+ },
+ {
+  "slug": "ed-71-52",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/52",
+   "Titre": "Registre de décès 1848-1851.",
+   "Date(s)": "1848-11-14 - 1851-11-21 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 30,5 x 41 / 28 x 41,6 (répertoire)",
+   "Portée et contenu": "Décès (1848 novembre 14 - 1851 novembre 21).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 71/52 (microfilm: RMS 1/1.044.880, numérique: RN-ED-71-52), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.880",
+   "Nom du fichier": "CH-ACV_RN-ED-71-52.pdf",
+   "Taille du fichier": "697.3 MiB"
+  },
+  "pdf": "6/3/b/63bb438254ed70559eea5fbd28e42a5cfa705a328b9a09ec1177eb10a1c90731/CH-ACV_RN-ED-71-52.pdf"
+ },
+ {
+  "slug": "ed-71-53",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/53",
+   "Titre": "Registre de décès 1851-1855.",
+   "Date(s)": "1851-11-05 - 1855-04-26 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "2 volumes en 1 partie\nFormat LxH(cm): 31,2 x 41,3 / 28,2 x 40,6 (répertoire)",
+   "Portée et contenu": "Décès (1851 novembre 5 - 1855 avril 26).",
+   "Instruments de recherche": "Répertoire séparé des décès Ed 71/53 (microfilm: RMS 1/1.044.881, numérique: RN-ED-71-53), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.881",
+   "Nom du fichier": "CH-ACV_RN-ED-71-53.pdf",
+   "Taille du fichier": "712.2 MiB"
+  },
+  "pdf": "e/0/d/e0dcc4f61f77aeefdf38d5760c7b7f1cc0281132a494a36eaefcaec05f14c7cf/CH-ACV_RN-ED-71-53.pdf"
+ },
+ {
+  "slug": "ed-71-54",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/54",
+   "Titre": "Registre de décès 1855-1858.",
+   "Date(s)": "1855-04-27 - 1858-10-11 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31,2 x 41,3",
+   "Portée et contenu": "Décès (1855 avril 27 - 1858 octobre 11).",
+   "Instruments de recherche": "Répertoire incorporé des décès Ed 71/54 (microfilm: RMS 1/1.044.881, numérique: RN-ED-71-54), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.881",
+   "Nom du fichier": "CH-ACV_RN-ED-71-54.pdf",
+   "Taille du fichier": "678.8 MiB"
+  },
+  "pdf": "c/e/6/ce6f019e96887c5b148211af69a133297d87754acef0ea6a2bba16cc62bcb5fd/CH-ACV_RN-ED-71-54.pdf"
+ },
+ {
+  "slug": "ed-71-55",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/55",
+   "Titre": "Registre de décès 1858-1861.",
+   "Date(s)": "1858-10-13 - 1861-07-11 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,2 x 41,4 x 4.5 (répertoire 0,5)",
+   "Portée et contenu": "Décès (1858 octobre 13 - 1861 juillet 11).",
+   "Instruments de recherche": "Répertoire incorporé des décès Ed 71/55 (microfilm: RMS 1/1.044.882, numérique: RN-ED-71-55), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.882",
+   "Nom du fichier": "CH-ACV_RN-ED-71-55.pdf",
+   "Taille du fichier": "557.9 MiB"
+  },
+  "pdf": "f/2/4/f24176cf8e905c084b4818b8c8930ee6af5730cdc642fc5e826c7faada2c4141/CH-ACV_RN-ED-71-55.pdf"
+ },
+ {
+  "slug": "ed-71-56",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/56",
+   "Titre": "Registre de décès 1861-1864.",
+   "Date(s)": "1861-07-11 - 1864-09-26 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,9 x 41,3",
+   "Portée et contenu": "Décès (1861 juillet 11 - 1864 septembre 26).",
+   "Instruments de recherche": "Répertoire incorporé des décès Ed 71/56 (microfilm: RMS 1/1.044.882, numérique: RN-ED-71-56), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Cote de gestion": "RMS 1/1.044.882",
+   "Nom du fichier": "CH-ACV_RN-ED-71-56.pdf",
+   "Taille du fichier": "678.6 MiB"
+  },
+  "pdf": "8/d/1/8d12c95af2eac6230ec5e66f7e3d2a656fad73557b51aac9fcd3f66fb61ea853/CH-ACV_RN-ED-71-56.pdf"
+ },
+ {
+  "slug": "ed-71-57",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/57",
+   "Titre": "Registre de décès 1864-1867.",
+   "Date(s)": "1864-09-26 - 1867-02-06 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 32,2 x 40,7 x4",
+   "Portée et contenu": "Décès (1864 septembre 26 - 1867 février 6).",
+   "Instruments de recherche": "Répertoire incorporé des décès Ed 71/57 (microfilm: RMS 1/1.044.883, numérique: RN-ED-71-57), pages manuscrites, non datées",
+   "Unités de description associées": "Signalons que dans R 198 figurent des photocopies du registre intitulé Register belonging I. Cheesbrough, 1821-1867, dont l'original se trouve sous la cote P Eglise anglaise 27, décrit dans RHV 86, 1978, 90-95. Il renferme baptêmes, ensevelissements et mariages de cette paroisse de 1821 à 1867, essentiellement à Lausanne, mais aussi à Berne, Prilly, etc., avec répertoires alphabétiques ; à noter que certains baptêmes anglais (par exemple les filles Baird, p. 113, 117 et 124) ne figurent pas en Ed 71. Il comprend en tête-bêche des renseignements variés.\nBaptêmes (1821 octobre 16 - 1867 juin 29) (avec répertoire)\nMariages (1828 février 27 - 1856 janvier 16) (avec répertoire)\nEnsevelissements (1823 mars 1er - 1867 septembre 6) (avec répertoire).",
+   "Note": "Onglets du répertoire dépliés.",
+   "Cote de gestion": "RMS 1/1.044.883",
+   "Nom du fichier": "CH-ACV_RN-ED-71-57.pdf",
+   "Taille du fichier": "552.4 MiB"
+  },
+  "pdf": "7/f/c/7fc0bac6a2615af81b7d065886d953f1a59b1d5b0970a745f15e0d578fd08f7e/CH-ACV_RN-ED-71-57.pdf"
+ },
+ {
+  "slug": "ed-71-58",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/58",
+   "Titre": "Registre de décès 1867-1870.",
+   "Date(s)": "1867-02-07 - 1870-01-07 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 31,6 x 41,8 x 4,7",
+   "Portée et contenu": "Décès (1867 février 7 - 1870 janvier 7).",
+   "Instruments de recherche": "Répertoire incorporé des décès Ed 71/58 (microfilm: RMS 1/1.044.883, numérique: RN-ED-71-58), pages manuscrites, non datées",
+   "Note": "Onglets du répertoire dépliés.",
+   "Cote de gestion": "RMS 1/1.044.883",
+   "Nom du fichier": "CH-ACV_RN-ED-71-58.pdf",
+   "Taille du fichier": "697.3 MiB"
+  },
+  "pdf": "3/a/d/3ad51080d9e9866f770d2097845caff1c35f0fe72eb3eb4ef2944b67cdb7a7e8/CH-ACV_RN-ED-71-58.pdf"
+ },
+ {
+  "slug": "ed-71-59",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/59",
+   "Titre": "Registre de décès 1870-1871.",
+   "Date(s)": "1870-01-07 - 1871-10-27 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,9 x 41,9 x 4,2",
+   "Portée et contenu": "Décès (1870 janvier 7 - 1871 octobre 27).",
+   "Instruments de recherche": "Répertoire incorporé des décès Ed 71/59 (microfilm: RMS 1/1.044.884, numérique: RN-ED-71-59), pages manuscrites, non datées",
+   "Note": "Onglets du répertoire dépliés.",
+   "Cote de gestion": "RMS 1/1.044.884",
+   "Nom du fichier": "CH-ACV_RN-ED-71-59.pdf",
+   "Taille du fichier": "590.9 MiB"
+  },
+  "pdf": "b/c/a/bca5a52b8e3e020a0a7f6ce14fe2db24b465a97434bda3c7e100519d3ee2538a/CH-ACV_RN-ED-71-59.pdf"
+ },
+ {
+  "slug": "ed-71-60",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/60",
+   "Titre": "Registre de décès 1871-1874.",
+   "Date(s)": "1871-10-28 - 1874-01-21 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volumes en 1 partie\nFormat LxH(cm): 30,9 x 41,8 x 4,3",
+   "Portée et contenu": "Décès (1871 octobre 28 - 1874 janvier 21).",
+   "Instruments de recherche": "Répertoire incorporé des décès Ed 71/60 (microfilm: RMS 1/1.044.884, numérique: RN-ED-71-60), pages manuscrites, non datées",
+   "Note": "Onglets du répertoire dépliés.",
+   "Cote de gestion": "RMS 1/1.044.884",
+   "Nom du fichier": "CH-ACV_RN-ED-71-60.pdf",
+   "Taille du fichier": "622.2 MiB"
+  },
+  "pdf": "4/a/e/4ae642cec3fa49df107be786e49d884296d360b38f5cf23884b0d20437944ffb/CH-ACV_RN-ED-71-60.pdf"
+ },
+ {
+  "slug": "ed-71-61",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/61",
+   "Titre": "Registre de décès 1874-1875.",
+   "Date(s)": "1874-01-21 - 1875-12-31 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30 x 41,7 x 5",
+   "Portée et contenu": "Décès (1874 janvier 21 - 1875 décembre 31).",
+   "Instruments de recherche": "Répertoire incorporé des décès Ed 71/61 (microfilm: RMS 1/1.044.884, numérique: RN-ED-71-61), pages manuscrites, non datées",
+   "Note": "Onglets du répertoire dépliés.",
+   "Cote de gestion": "RMS 1/1.044.884",
+   "Nom du fichier": "CH-ACV_RN-ED-71-61.pdf",
+   "Taille du fichier": "565.2 MiB"
+  },
+  "pdf": "e/d/7/ed71c18a49dc36c59f286df21b3b3c6ec488c14374b907ca977f9bc82ca3d0cb/CH-ACV_RN-ED-71-61.pdf"
+ },
+ {
+  "slug": "ed-71-62",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/62",
+   "Titre": "Registre d'annonces de mariage 1867-1875.",
+   "Date(s)": "1867-03-10 - 1875-01-10 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 27,8 X 41,4",
+   "Portée et contenu": "Annonces de mariage (1867 mars 10 - 1875 janvier 10).",
+   "Instruments de recherche": "Répertoire incorporé des annonces Ed 71/62 (microfilm: RMS 22001.15, numérique: RN-ED-71-62), pages manuscrites, non datées",
+   "Unités de description associées": "Paroisse réformée de Lausanne : les registres d'annonces de mariage 1821-1861 sont classés sous les cotes Eb 71/21-27. Pour la période 1861-1867 le registre d'annonces de mariage manque.",
+   "Cote de gestion": "RM 22001.15",
+   "Nom du fichier": "CH-ACV_RN-ED-71-62.pdf",
+   "Taille du fichier": "879 MiB"
+  },
+  "pdf": "9/f/4/9f45affb8bd4ba95876b72c7308f03d0f5fb7f3df6d1c128482a2ef0eee39611/CH-ACV_RN-ED-71-62.pdf"
+ },
+ {
+  "slug": "ed-71-63",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/63",
+   "Titre": "Registre d'annonces de mariage 1875-1878.",
+   "Date(s)": "1875-01-03 - 1878-03-13 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie\nFormat LxH(cm): 30,2 x 40,5 x 5,4",
+   "Portée et contenu": "Annonces de mariage (1875 janvier 3 - 1878 mars 13).",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 71/63 (microfilm: RMS 22001.16, numérique: RN-ED-71-63), pages manuscrites, non datées",
+   "Cote de gestion": "RM 22001.16",
+   "Nom du fichier": "CH-ACV_RN-ED-71-63.pdf",
+   "Taille du fichier": "689.3 MiB"
+  },
+  "pdf": "6/6/0/66061c9a3d844b1094d78015f2ca93ef3ec371062fb330ca7ffca21469060b28/CH-ACV_RN-ED-71-63.pdf"
+ },
+ {
+  "slug": "ed-71-64",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/64",
+   "Titre": "Registre d'annonces de mariage 1861-1864.",
+   "Date(s)": "1861-12-22 - 1864-09-25 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie (avec répertoire incorporé).\nFormat LxH(cm): 23,5 x 33,5",
+   "Source immédiate d'acquisition ou de transfert": "Versé par le Service de la population le 9 décembre 2009.",
+   "Portée et contenu": "Annonces de mariage (1861 décembre 22 - 1864 septembre 25).\nDescription au fil des pages\nPages 1-214: Annonces de mariage.\nA la suite, pages non numérotées: répertoire alphabétique.",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 71/64 (numérique: RN-ED-71-64), pages manuscrites, non datées",
+   "Note": "Dos endommagé (partie supérieure déchirée)",
+   "Nom du fichier": "CH-ACV_RN-ED-71-64.pdf",
+   "Taille du fichier": "224.6 MiB"
+  },
+  "pdf": "a/d/2/ad288c5621f97f24ef0a781b709be8d8825472c16c3217dc79c3699069c9b760/CH-ACV_RN-ED-71-64.pdf"
+ },
+ {
+  "slug": "ed-71-65",
+  "parent": "ed-71-1-65",
+  "type": "Item",
+  "f": {
+   "Cote": "Ed 71/65",
+   "Titre": "Registre d'annonces de mariage 1864-1867.",
+   "Date(s)": "1864-09-18 - 1867-03-24 (Création)",
+   "Niveau de description": "Pièce",
+   "Étendue matérielle et support": "1 volume en 1 partie (avec répertoire incorporé).\nFormat LxH(cm): 23,5 x 33,5 x 2,5",
+   "Source immédiate d'acquisition ou de transfert": "Versé par le Service de la population le 9 décembre 2009.",
+   "Portée et contenu": "Annonces de mariage (1864 septembre 18 - 1867 mars 24).\nDescription au fil des pages\nPages 1-225: Annonces de mariage.\nA la suite, pages non numérotées: répertoire alphabétique.",
+   "Instruments de recherche": "Répertoire incorporé des annonces de mariages Ed 71/65 (numérique: RN-ED-71-65), pages manuscrites, non datées",
+   "Note": "Onglet YZ du répertoire consolidé et déplié.",
+   "Nom du fichier": "CH-ACV_RN-ED-71-65.pdf",
+   "Taille du fichier": "247.1 MiB"
+  },
+  "pdf": "3/5/4/35477d0748d93b064e31112f1a7141db6d333aa1a51bff26016b39ebaf05e442/CH-ACV_RN-ED-71-65.pdf"
+ }
+]

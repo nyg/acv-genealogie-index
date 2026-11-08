@@ -1,4 +1,4 @@
-"""Builds data/acv.sqlite and site/index.html from the raw DAVEL records in data/raw/davel-vd."""
+"""Builds data/acv.sqlite, docs/index.html and docs/data.json from the raw DAVEL records in data/raw."""
 
 import difflib
 import json
@@ -9,8 +9,8 @@ from pathlib import Path
 
 from inventory_corrections import read_raw
 from pdf_pages import load_pdf_pages, sb267_default_parts
-from places import arrondissement_history, arrondissement_name, localities_from_note, parish_name, parish_number, split_official_locality
-from scope_parser import normalize, parse_date_range, parse_scope_content
+from places import arrondissement_history, arrondissement_name, localities_from_note, parish_name, parish_number, spelling_key, split_official_locality
+from scope_parser import classify, normalize, parse_date_range, parse_scope_content
 from scopearchiv import creation_dates, fonds_of, load_scopearchiv, place_for, related_ranges
 from scopearchiv import PAGE_BASE as SCOPEARCHIV_PAGE_BASE
 from scopearchiv import RAW_DIR as SCOPEARCHIV_RAW_DIR
@@ -23,6 +23,7 @@ PDF_PAGES = ROOT / "data" / "manual" / "pdf-pages.json"
 DATABASE = ROOT / "data" / "acv.sqlite"
 SITE_TEMPLATE = ROOT / "site" / "template.html"
 SITE_OUTPUT = ROOT / "docs" / "index.html"
+DATA_OUTPUT = ROOT / "docs" / "data.json"
 PAGE_MAP = ROOT / "site" / "page_map.js"
 PAGE_MAP_OUTPUT = ROOT / "docs" / "pdf-pages.json"
 VIEWER_SOURCE = ROOT / "site" / "apercu.user.js"
@@ -95,6 +96,24 @@ def _compact(name):
     return re.sub(r"[^a-z0-9]", "", normalize(name))
 
 
+NOTE_SOURCE = "note de l'inventaire"
+
+
+def merge_spelling_variants(places):
+    for place in places.values():
+        official = {spelling_key(locality["name"]): locality for locality in place["localities"] if locality["source"] != NOTE_SOURCE}
+        for variant in [locality for locality in place["localities"] if locality["source"] == NOTE_SOURCE]:
+            match = official.get(spelling_key(variant["name"]))
+            if match is None:
+                continue
+            place["localities"].remove(variant)
+            _add_locality(place, match["name"], variant["qualifier"], variant["source"], variant["since"])
+            for other in places.values():
+                for locality in other["localities"]:
+                    if _compact(locality["name"]) == _compact(match["name"]) and variant["name"] not in locality.setdefault("aliases", []):
+                        locality["aliases"].append(variant["name"])
+
+
 def _arrondissement_finder(places):
     by_key = {}
     for place in places.values():
@@ -104,7 +123,7 @@ def _arrondissement_finder(places):
 
     def find(name):
         inside = re.search(r"\(([^)]+)\)", name)
-        keys = [_compact(name)] + ([_compact(inside.group(1))] if inside else [])
+        keys = [_compact(name)] + ([_compact(inside.group(1))] if inside else []) + ([_compact(name.split("/")[0])] if "/" in name else [])
         for key in keys:
             if key in by_key:
                 return by_key[key]
@@ -202,7 +221,9 @@ def parish_segments(unit):
     segments = [segment_row(unit["slug"], segment) for segment in parse_scope_content(unit["scope"])]
     if segments:
         return segments
-    return [{"unit": unit["slug"], "kinds": ["inconnu"], "label": "Contenu non détaillé", "start": unit["start"], "end": unit["end"],
+    heading = unit["scope"].splitlines()[0].strip(" \"«».") if unit["scope"] else ""
+    kinds = classify(heading) if normalize(heading).startswith("repertoire") else []
+    return [{"unit": unit["slug"], "kinds": kinds or ["inconnu"], "label": heading if kinds else "Contenu non détaillé", "start": unit["start"], "end": unit["end"],
              "dates": unit["dates"], "pages": "", "tb": False, "foreign": False, "section": ""}]
 
 
@@ -232,7 +253,7 @@ def load_scraped(places):
         place["related"] = root["f"].get("Unités de description associées", "").splitlines()
         for locality in localities_from_note(series["note"]):
             merged = re.match(r"adjonction en (\d{4})", locality["qualifier"])
-            _add_locality(place, locality["name"], locality["qualifier"], "note de l'inventaire", int(merged.group(1)) if merged else None)
+            _add_locality(place, locality["name"], locality["qualifier"], NOTE_SOURCE, int(merged.group(1)) if merged else None)
         fonds = fonds_key(root["slug"])
         for record in records:
             if record is root or not is_register(record):
@@ -260,12 +281,13 @@ def attach_pdf_pages(units):
 
 
 SCHEMA = """
+CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT);
 CREATE TABLE places (id TEXT PRIMARY KEY, kind TEXT, name TEXT, aliases TEXT);
-CREATE TABLE localities (place_id TEXT REFERENCES places(id), name TEXT, qualifier TEXT, source TEXT, since INTEGER);
+CREATE TABLE localities (place_id TEXT REFERENCES places(id), name TEXT, qualifier TEXT, source TEXT, since INTEGER, aliases TEXT);
 CREATE TABLE series (slug TEXT PRIMARY KEY, place_id TEXT REFERENCES places(id), fonds TEXT, cote TEXT, title TEXT, dates TEXT, scraped INTEGER, note TEXT, url TEXT);
 CREATE TABLE units (slug TEXT PRIMARY KEY, place_id TEXT REFERENCES places(id), fonds TEXT, cote TEXT, level TEXT, title TEXT,
     date_start TEXT, date_end TEXT, dates TEXT, extent TEXT, scope_content TEXT, finding_aids TEXT, note TEXT,
-    pdf_url TEXT, pdf_size TEXT, management_code TEXT, page_url TEXT);
+    pdf_url TEXT, pdf_size TEXT, management_code TEXT, page_url TEXT, missing INTEGER);
 CREATE TABLE segments (unit_slug TEXT REFERENCES units(slug), kinds TEXT, label TEXT, date_start TEXT, date_end TEXT, dates TEXT,
     pages TEXT, head_to_tail INTEGER, foreign_events INTEGER, section TEXT);
 CREATE INDEX segments_dates ON segments(date_start, date_end);
@@ -277,19 +299,23 @@ PDF_BASE = "https://davel-vd.ch/uploads/r/null/"
 PAGE_BASE = "https://davel-vd.ch/"
 
 
-def write_database(places, units, segments):
+def write_database(payload):
+    places, units, segments = payload["places"], payload["units"], payload["segments"]
     DATABASE.unlink(missing_ok=True)
     with sqlite3.connect(DATABASE) as connection:
         connection.executescript(SCHEMA)
-        for place in places.values():
+        connection.execute("INSERT INTO meta VALUES ('generatedAt', ?)", (payload["generatedAt"],))
+        for place in places:
             connection.execute("INSERT INTO places VALUES (?, ?, ?, ?)", (place["id"], place["kind"], place["name"], " | ".join(place["aliases"])))
-            connection.executemany("INSERT INTO localities VALUES (?, ?, ?, ?, ?)", [(place["id"], loc["name"], loc["qualifier"], loc["source"], loc["since"]) for loc in place["localities"]])
+            connection.executemany("INSERT INTO localities VALUES (?, ?, ?, ?, ?, ?)", [
+                (place["id"], loc["name"], loc["qualifier"], loc["source"], loc["since"], " | ".join(loc.get("aliases", []))) for loc in place["localities"]
+            ])
             connection.executemany("INSERT INTO series VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)", [
                 (s["slug"], place["id"], s["fonds"], s["cote"], s["title"], s["dates"], int(s["scraped"]), s["note"], s["url"]) for s in place["series"]
             ])
-        connection.executemany("INSERT INTO units VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", [
+        connection.executemany("INSERT INTO units VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", [
             (u["slug"], u["place"], u["fonds"], u["cote"], u["level"], u["title"], u["start"], u["end"], u["dates"], u["extent"],
-             u["scope"], u["aids"], u["note"], PDF_BASE + u["pdf"] if u["pdf"] else None, u["pdfSize"], u["mgmt"], u["url"])
+             u["scope"], u["aids"], u["note"], PDF_BASE + u["pdf"] if u["pdf"] else None, u["pdfSize"], u["mgmt"], u["url"], int(u.get("missing", False)))
             for u in units
         ])
         connection.executemany("INSERT INTO segments VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", [
@@ -302,8 +328,8 @@ def write_database(places, units, segments):
         ])
 
 
-def write_site(places, units, segments):
-    payload = {
+def site_payload(places, units, segments):
+    return {
         "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "pdfBase": PDF_BASE,
         "pageBase": PAGE_BASE,
@@ -311,6 +337,13 @@ def write_site(places, units, segments):
         "units": units,
         "segments": segments,
     }
+
+
+def write_data(payload):
+    DATA_OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+
+def write_site(payload):
     data = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     page = SITE_TEMPLATE.read_text(encoding="utf-8").replace("/*__DATA__*/null", data).replace("/*__PAGE_MAP__*/", PAGE_MAP.read_text(encoding="utf-8"))
     SITE_OUTPUT.parent.mkdir(exist_ok=True)
@@ -336,13 +369,16 @@ def main():
     places = build_places(json.loads((RAW_DIR / "_series_index.json").read_text(encoding="utf-8")))
     add_official_localities(places)
     units, segments = load_scraped(places)
+    merge_spelling_variants(places)
     attach_pdf_pages(units)
     add_scopearchiv_series(places)
-    other_units, other_segments = load_scopearchiv(places)
+    other_units, other_segments = load_scopearchiv(places, _arrondissement_finder(places))
     units += other_units
     segments += other_segments
-    write_database(places, units, segments)
-    write_site(places, units, segments)
+    payload = site_payload(places, units, segments)
+    write_database(payload)
+    write_site(payload)
+    write_data(payload)
     write_viewer(units)
     scraped = sum(series["scraped"] for place in places.values() for series in place["series"])
     print(f"{len(places)} lieux, {scraped} séries indexées, {len(units)} registres, {len(segments)} segments")

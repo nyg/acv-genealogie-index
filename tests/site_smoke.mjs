@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 import { loadSite } from "../cli/site.mjs";
 
 const { site, elements, documentElement } = loadSite();
@@ -75,6 +76,25 @@ const cases = [
   ["Les Clées", "deces", "1950", "SB 267/60/3/3"],
   ["Romainmôtier", "deces", "1877", "SB 23/846"],
   ["Vallorbe", "mariage", "1907", "SB 23/2046"],
+  ["Ollon", "mariage", "15.10.1957", "SB 268/73/10"],
+  ["Ollon", "mariage", "10.1957", "SB 268/73/11"],
+  ["Chessières", "naissance", "1932", "SB 267/49/1/4"],
+  ["Chessières", "naissance", "1850", "Ed 68 bis/1"],
+  ["Ollon", "mariage", "1960", "SB 324/1/15"],
+  ["Aigle", "mariage", "1956", "SB 324/1/1"],
+  ["Cully", "mariage", "1960", "SB 324/1/84"],
+  ["Lausanne", "naissance", "1962", "SB 324/4/58"],
+  ["Lausanne", "deces", "1995", "SB 267/53/3/205"],
+  ["Lausanne", "naissance", "1590", "Eb 71/2"],
+  ["Lausanne", "mariage", "1960", "SB 268/53/73"],
+  ["Lausanne", "naissance", "1880", "SB 269/53/1/1"],
+  ["Aubonne", "naissance", "1800", "Eb 8/10"],
+  ["Aubonne", "mariage", "1952", "SB 115/1115"],
+  ["Aubonne", "deces", "1850", "Ed 8/10"],
+  ["Lausanne", "mariage", "1876", "SB 23/342"],
+  ["Lausanne", "mariage", "1890", "SB 23/407"],
+  ["Lausanne", "mariage", "1923", "SB 115/48"],
+  ["Lausanne", "naissance", "1850", "Ec 71/193"],
 ];
 let failures = 0;
 for (const [place, kind, date, expected] of cases) {
@@ -153,6 +173,29 @@ console.log(`${cutOff ? "ok  " : "FAIL"} SB 267/2/1/5 (naissances 1898-1903, pub
 const placeholderHidden = !search("Prilly", "mariage", "1850").cotes.some(cote => cote.includes("FANTOME"));
 failures += placeholderHidden ? 0 : 1;
 console.log(`${placeholderHidden ? "ok  " : "FAIL"} Prilly / mariage / 1850 → pas de fiche FANTOME parmi les registres`);
+
+const aigle1950 = search("Aigle", "mariage", "1950");
+const gapShown = !aigle1950.cotes.some(cote => cote.includes("FANTOME")) && /Registre non versé aux ACV : <a href="https:\/\/davel\.vd\.ch\/detail\.aspx\?ID=680326"[^>]*>SB 268\/2\/11<\/a> \(promesses de mariage, lacune du 01\.05\.1947 au 18\.01\.1961\)/.test(aigle1950.answers);
+failures += gapShown ? 0 : 1;
+console.log(`${gapShown ? "ok  " : "FAIL"} Aigle / mariage / 1950 → SB 268/2/11 FANTOME signalé comme registre non versé aux ACV, pas comme registre`);
+
+const promiseNote = search("Ollon", "mariage", "15.10.1957").answers.includes("registres de promesses des 6 mois précédents (SB 268/73/10)");
+const ok7 = promiseNote && !search("Ollon", "deces", "15.10.1957").cotes.some(cote => cote.startsWith("SB 268"));
+failures += ok7 ? 0 : 1;
+console.log(`${ok7 ? "ok  " : "FAIL"} Ollon / mariage / 15.10.1957 → promesses des six mois précédents signalées, pas pour les décès`);
+
+const familyNote = search("Ollon", "naissance", "1932").answers.includes("registre des familles de la commune d'origine (à confirmer)") && !search("Ollon", "naissance", "1920").answers.includes("registre des familles");
+failures += familyNote ? 0 : 1;
+console.log(`${familyNote ? "ok  " : "FAIL"} Ollon / naissance / 1932 → notice SB 269 et registres des familles, absente en 1920`);
+
+const consultable = aigle1950.answers.includes("Librement consultable en entier dès 2038, 80 ans après ses derniers actes.") && !search("Aigle", "mariage", "1900").answers.includes("Librement consultable en entier");
+failures += consultable ? 0 : 1;
+console.log(`${consultable ? "ok  " : "FAIL"} Aigle / mariage / 1950 → SB 267/2/2/13 librement consultable en entier dès 2038, rien pour 1900`);
+
+const dataJson = JSON.parse(readFileSync(new URL("../docs/data.json", import.meta.url), "utf8"));
+const published = dataJson.generatedAt === site.DATA.generatedAt && dataJson.units.length === site.DATA.units.length;
+failures += published ? 0 : 1;
+console.log(`${published ? "ok  " : "FAIL"} docs/data.json → mêmes données et même generatedAt que docs/index.html`);
 
 const coveragePanel = elements.get("coverage-panel").innerHTML;
 const covered = coveragePanel.includes(`data-place="paroisse-15">Bex</button>`) && /Pages du PDF<\/strong> : pour [^(]*Ollon[^(]* \(\d+ registres\)/.test(coveragePanel);

@@ -12,6 +12,36 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [Eb 10/1](https://davel-vd.ch/eb-10-1) | Ballaigues | Portée et contenu | Décès … pages 421-500 et pages tête-bêche 537-542 | Décès, pages 421-500 ; pp. tête-bêche 537-542 : copies de lettres de LL. EE. | Les pp. tête-bêche 537-542 du PDF sont des copies de lettres de LL. EE. sur les incorporés, sans actes de décès. | |
 | [SB 23/51](https://davel.vd.ch/detail.aspx?ID=590450) | Huémoz | Titre | Mariages A 1888-1994 | Mariages A 1888-1894 | Dates de la boîte : 1888-1894. | |
 | [SB 23/55](https://davel.vd.ch/detail.aspx?ID=590472) | Leysin | Dates | 1898-1894 | 1891-1894 | Titre et dates de création : 1891-1894. | |
+| [SB 324/15-16](https://davel.vd.ch/detail.aspx?ID=1510184) | Ollon | Cote | SB 324/15-16 | SB 324/1/15-16 | Rangée dans SB 324/1 (District Est-vaudois), entre SB 324/1/12-14 et SB 324/1/17 ; ses boîtes sont cotées SB 324/1/15 et 16. | |
+| [SB 324/3/13-15](https://davel.vd.ch/detail.aspx?ID=1510526) | Bussigny-près-Lausanne | Cote | SB 324/3/13-15 | SB 324/4/13-15 | Rangée dans SB 324/4 (District Lausanne), entre SB 324/4/1-12 et SB 324/4/16-20 ; ses boîtes sont cotées SB 324/4/13 à 15. | |
+| [SB 324/2/12](https://davel.vd.ch/detail.aspx?ID=1510320) | Belmont-sur-Yverdon | Titre | Belmon-sur-Yverdon (arrondissement d'état civil) | Belmont-sur-Yverdon (arrondissement d'état civil) | Lettre manquante ; SB 267/11 et SB 268/11 écrivent Belmont-sur-Yverdon. | |
+| [SB 23/339](https://davel.vd.ch/detail.aspx?ID=595773) | Lausanne | Title | Naissances A et B 1874-1888 | Naissances A et B 1884-1888 | Dates de la boîte : 1884-1888 ; SB 23/338 couvre 1879-1883. | |
+| [SB 23/341](https://davel.vd.ch/detail.aspx?ID=595775) | Lausanne | Title | Mariages A 1976 | Mariages A 1876 | Dates de la boîte : 1876. | |
+| [SB 23/342](https://davel.vd.ch/detail.aspx?ID=595776) | Lausanne | Title | Mariages A 1976 | Mariages A 1876 | Dates de la boîte : 1876. | |
+| [SB 23/343](https://davel.vd.ch/detail.aspx?ID=595777) | Lausanne | Title | Mariages A 1976 | Mariages A 1876 | Dates de la boîte : 1876. | |
+| [SB 23/344](https://davel.vd.ch/detail.aspx?ID=595778) | Lausanne | Title | Mariages A 1976 | Mariages A 1876 | Dates de la boîte : 1876. | |
+| [SB 23/345](https://davel.vd.ch/detail.aspx?ID=595779) | Lausanne | Title | Mariages A 1976 | Mariages A 1876 | Dates de la boîte : 1876. | |
+| [SB 23/346](https://davel.vd.ch/detail.aspx?ID=595780) | Lausanne | Title | Mariages A 1977 | Mariages A 1877 | Dates de la boîte : 1877. | |
+| [SB 23/347](https://davel.vd.ch/detail.aspx?ID=595781) | Lausanne | Title | Mariages A 1977 | Mariages A 1877 | Dates de la boîte : 1877. | |
+| [SB 23/348](https://davel.vd.ch/detail.aspx?ID=595782) | Lausanne | Title | Mariages A 1977 | Mariages A 1877 | Dates de la boîte : 1877. | |
+| [SB 23/350](https://davel.vd.ch/detail.aspx?ID=595783) | Lausanne | Title | Mariages 1977 A | Mariages 1877 A | Dates de la boîte : 1877. | |
+| [SB 23/351](https://davel.vd.ch/detail.aspx?ID=595784) | Lausanne | Title | Mariages A 1978 | Mariages A 1878 | Dates de la boîte : 1878. | |
+| [SB 23/352](https://davel.vd.ch/detail.aspx?ID=595785) | Lausanne | Title | Mariages A 1978 | Mariages A 1878 | Dates de la boîte : 1878. | |
+| [SB 23/353](https://davel.vd.ch/detail.aspx?ID=595801) | Lausanne | Title | Mariages A 1978 | Mariages A 1878 | Dates de la boîte : 1878. | |
+| [SB 23/354](https://davel.vd.ch/detail.aspx?ID=595802) | Lausanne | Title | Mariages A 1978 | Mariages A 1878 | Dates de la boîte : 1878. | |
+| [SB 23/355](https://davel.vd.ch/detail.aspx?ID=595803) | Lausanne | Title | -1979 (no 1-33) | -1879 (no 1-33) | SB 23/356 poursuit avec les mariages A 1879 (no 34-91). | |
+| [SB 23/355](https://davel.vd.ch/detail.aspx?ID=595803) | Lausanne | Dates | 1878 | 1878-1879 | Le titre liste aussi les mariages A 1879 (no 1-33). | |
+| [SB 23/406](https://davel.vd.ch/detail.aspx?ID=595873) | Lausanne | Dates | 1990 | 1890 | Titre : 1890. | |
+| [SB 23/407](https://davel.vd.ch/detail.aspx?ID=595874) | Lausanne | Dates | 1990 | 1890 | Titre : 1890. | |
+| [SB 23/408](https://davel.vd.ch/detail.aspx?ID=595875) | Lausanne | Dates | 1990 | 1890 | Titre : 1890. | |
+| [SB 23/409](https://davel.vd.ch/detail.aspx?ID=595876) | Lausanne | Dates | 1990-1991 | 1890-1891 | Titre : 1890 et 1891. | |
+| [SB 23/410](https://davel.vd.ch/detail.aspx?ID=595877) | Lausanne | Dates | 1991 | 1891 | Titre : 1891. | |
+| [SB 23/411](https://davel.vd.ch/detail.aspx?ID=595878) | Lausanne | Dates | 1991 | 1891 | Titre : 1891. | |
+| [SB 23/412](https://davel.vd.ch/detail.aspx?ID=595879) | Lausanne | Dates | 1991 | 1891 | Titre : 1891. | |
+| [SB 23/413](https://davel.vd.ch/detail.aspx?ID=595880) | Lausanne | Dates | 1991 | 1891 | Titre : 1891. | |
+| [SB 23/414](https://davel.vd.ch/detail.aspx?ID=595881) | Lausanne | Dates | 1991-1892 | 1891-1892 | Titre : 1891 et 1892. | |
+| [SB 23/434](https://davel.vd.ch/detail.aspx?ID=595895) | Lausanne | Dates | 1893-1894 | 1878 | Titre : Décès 1878 ; SB 23/433 couvre 1877 et SB 23/435 1878-1879. | |
+| [SB 115/48](https://davel.vd.ch/detail.aspx?ID=614434) | Lausanne | Titre | Publications de promesses de mariage 1943 (Nos 101-400) | Publications de promesses de mariage 1923 (Nos 101-400) | Dates de la boîte : 1923 ; SB 115/47 et 49 couvrent les numéros voisins de 1923. | |
 | [SB 23/1229-1332](https://davel.vd.ch/detail.aspx?ID=589443) | Leysin | Cote | SB 23/1229-1332 | SB 23/1229-1232 | La série ne contient que SB 23/1229 à 1232. Même coquille dans les « Unités de description associées » de [SB 267/59](https://davel-vd.ch/sb-267-59). | |
 | [SB 267/75/5/2](https://davel-vd.ch/sb-267-75-5-2) | Ormont-Dessous | Portée et contenu | Registre ouvert ouventre entre le 27 décembre 1928… | Registre ouvert entre le 27 décembre 1928… | Mot en trop. | |
 | [SB 23/1246](https://davel.vd.ch/detail.aspx?ID=608076) | Ormont-Dessous | Dates | 1879-1880 | 1900 | Titre et dates de création : 1900. | |
@@ -55,6 +85,8 @@ Les dates de la fiche ne couvrent pas celles du contenu, ou la pagination du PDF
 | [Eb 80/5](https://davel-vd.ch/eb-80-5) | Le Mont-sur-Lausanne | Date(s) | 1765-01-01 - 1828-12-31 | Portée et contenu : Annonces de mariages (1760 mars 9 - 1794 janvier 11). | |
 | [Eb 87/2](https://davel-vd.ch/eb-87-2) | Morrens | Date(s) | 1659-10-27 - 1713-01-28 | Portée et contenu : un baptême (1716 septembre 20), p. 322. | |
 | [Eb 95/4](https://davel-vd.ch/eb-95-4) | Ormont-Dessus | Date(s) | 1749-01-01 - 1790-12-01 | Portée et contenu : Baptêmes forains (1752 - 1805). | |
+| [SB 324/2/35](https://davel.vd.ch/detail.aspx?ID=1510347) | Fiez | Dates | 1957-1966 | Content : Mariages 1958-1968 ; Décès 1961-1968 ; Sous-séries diverses 1957-1966. | |
+| [Eb 71/54](https://davel-vd.ch/eb-71-54) | Lausanne | Portée et contenu | Catéchumènes (1825 - 1829), pp. 259-265 | Date(s) : 1713 - 1821 ; les baptêmes et les mariages s'arrêtent au 30 juin 1821. | |
 | [Eb 105/7](https://davel-vd.ch/eb-105-7) | Penthaz | Date(s) | 1739-03-12 - 1864-12-31 | Portée et contenu : Décès (1729 mars 12 - 1821 juin 30). | |
 | [Ed 110/3](https://davel-vd.ch/ed-110-3) | Prilly | Date(s) | 1821-07-01 - 1832-12-28 | Portée et contenu : Mariages (1821 juillet 1 - 1832 décembre 31). | |
 | [Ed 110/9](https://davel-vd.ch/ed-110-9) | Prilly | Portée et contenu | Décès (1821 juillet 1er - 1875 décembre 12) | Date(s) : 1821-07-01 - 1875-12-31. | |

@@ -186,3 +186,11 @@ def test_arrondissement_history_follows_changes():
 
     # Then
     assert history == [("Agiez", "1876"), ("Orbe", "01.04.1940")]
+
+
+def test_microfilm_and_digital_references_are_not_read_as_dates():
+    # When
+    segments = parse_scope_content("Ce répertoire relié correspond aux répertoires individuels séparés des registres de baptêmes (microfilm: RM 22006/3, numérique: RN-EB-71-1-11).")
+
+    # Then
+    assert segments == []

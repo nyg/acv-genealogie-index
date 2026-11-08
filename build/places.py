@@ -33,6 +33,14 @@ def parish_name(title):
     return min(candidates)[2] if candidates else title.rstrip(".")
 
 
+LEADING_ARTICLE = re.compile(r"^(?:(?:les?|la)\s+|l')")
+
+
+def spelling_key(name):
+    compact = re.sub(r"[^a-z0-9]", "", LEADING_ARTICLE.sub("", normalize(name).replace("’", "'")))
+    return re.sub(r"(.)\1+", r"\1", compact).removesuffix("s")
+
+
 def arrondissement_name(title):
     return re.sub(r"\s*\(arrondissement de l'état civil\)\s*", "", title).strip()
 

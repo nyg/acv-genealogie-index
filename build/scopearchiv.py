@@ -14,6 +14,7 @@ CIVIL_REGISTER_KINDS = [
     ("naissance", "naissance"), ("mariage", "mariage"), ("décès", "deces"),
 ]
 RELATED_RANGE = re.compile(r"(SB \d+)/(\d+)(?:-(\d+))?")
+ARRONDISSEMENT_SERIES = re.compile(r"^(?P<name>.+?)\s*\(arrondissement (?:de l'|d')état civil\)")
 
 
 def fonds_of(cote):
@@ -65,6 +66,9 @@ def _dates(fields):
 
 LISTED_CONTENT = re.compile(r"^[-–]?\s*(?P<label>[^\d()]+?)\s+(?P<dates>\d{4}[^()]*?)\.?$")
 REMARK = re.compile(r"\s*\(([^()]*)\)")
+ACT_NUMBERS = re.compile(r"\bNos?\.?\s*\d+(?:\s*-\s*\d+)?")
+ARRONDISSEMENT_PREFIX = re.compile(r"^[^:()]*\(arrondissement[^()]*\)\s*:\s*")
+LISTED_LINE_BREAK = re.compile(r"\n|(?<=\.)\s*(?=[-–]\s)|\s+\\?\s*(?=[-–]\s+[A-ZÉ])")
 
 
 def _segment_row(unit, kinds, label, start, end, dates):
@@ -73,10 +77,11 @@ def _segment_row(unit, kinds, label, start, end, dates):
 
 
 def _listed_line(line):
+    line = ARRONDISSEMENT_PREFIX.sub("", line)
     listed = LISTED_CONTENT.match(REMARK.sub("", line).strip())
     if not listed or not classify(listed["label"]):
         return None
-    years = re.findall(r"\b\d{4}\b", listed["dates"])
+    years = re.findall(r"\b\d{4}\b", ACT_NUMBERS.sub("", listed["dates"]))
     if not years:
         return None
     missing = "".join(f" ({remark})" for remark in REMARK.findall(line) if "manque" in remark)
@@ -85,7 +90,7 @@ def _listed_line(line):
 
 def justificative_segments(unit):
     segments = []
-    for line in re.split(r"\n|(?<=\.)\s*(?=[-–]\s)", f"{unit['title']}\n{unit['scope']}"):
+    for line in LISTED_LINE_BREAK.split(f"{unit['title']}\n{unit['scope']}"):
         listed = _listed_line(line.strip())
         if listed:
             label, missing, dates, years = listed
@@ -95,6 +100,8 @@ def justificative_segments(unit):
 
 
 def _segments(unit, fonds, series_title):
+    if unit.get("missing"):
+        return [_segment_row(unit, ["annonce"] if fonds == "SB 268" else ["inconnu"], unit["title"], unit["start"], unit["end"], unit["dates"])]
     if fonds == "SB 268":
         return [_segment_row(unit, ["annonce"], "Promesses de mariage", unit["start"], unit["end"], unit["dates"])]
     if fonds == "SB 269":
@@ -104,7 +111,21 @@ def _segments(unit, fonds, series_title):
     return justificative_segments(unit)
 
 
-def load_scopearchiv(places):
+FIRST_INCLUDED_LOCALITY = re.compile(r"Comprend\s*:\s*-\s*([^-]+?)\s+-")
+
+
+def series_arrondissement_names(record, by_slug):
+    names = []
+    current = record
+    while current:
+        if match := ARRONDISSEMENT_SERIES.match(current["f"].get("Title", "")):
+            included = FIRST_INCLUDED_LOCALITY.search(current["f"].get("Notes", ""))
+            names += [name for name in (match["name"], included and included[1]) if name and name not in names]
+        current = by_slug.get(current["parent"])
+    return names
+
+
+def load_scopearchiv(places, find_arrondissement=lambda name: None):
     ranges = related_ranges(places)
     units, segments = [], []
     for path in sorted(RAW_DIR.glob("sa-*.json")):
@@ -115,8 +136,14 @@ def load_scopearchiv(places):
             if record.get("children"):
                 continue
             cote = fields.get("Ref. code", "")
+            placeholder = "FANTOME" in cote
+            if placeholder and not fields.get("Dates", "").startswith("Lacune"):
+                continue
             fonds = fonds_of(cote)
             place_id = place_for(cote, ranges)
+            if place_id is None and fonds == "SB 324":
+                found = next(filter(None, map(find_arrondissement, series_arrondissement_names(record, by_slug))), None)
+                place_id = found and found["id"]
             if place_id not in places:
                 print(f"lieu introuvable pour {cote}")
                 continue
@@ -129,6 +156,8 @@ def load_scopearchiv(places):
                 "aids": fields.get("Instruments de recherche", ""), "note": fields.get("Notes", ""),
                 "pdf": "", "pdfSize": "", "mgmt": "", "url": PAGE_BASE + record["slug"].removeprefix("sa-"),
             }
+            if placeholder:
+                unit["missing"] = True
             units.append(unit)
             parent = by_slug.get(record["parent"]) or {}
             segments.extend(_segments(unit, fonds, parent.get("f", {}).get("Title", "")))

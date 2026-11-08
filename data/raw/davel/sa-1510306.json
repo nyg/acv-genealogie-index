@@ -1,0 +1,2462 @@
+[
+ {
+  "slug": "sa-1510306",
+  "parent": null,
+  "text": "SB 324/2/1-103 District Nord-vaudois, 1929.01.01-1969.12.31 (Sous-fonds)",
+  "children": [
+   "sa-1510307",
+   "sa-1510308",
+   "sa-1510311",
+   "sa-1510319",
+   "sa-1510320",
+   "sa-1510321",
+   "sa-1510324",
+   "sa-1510325",
+   "sa-1510326",
+   "sa-1510327",
+   "sa-1510330",
+   "sa-1510337",
+   "sa-1510338",
+   "sa-1510339",
+   "sa-1510340",
+   "sa-1510341",
+   "sa-1510342",
+   "sa-1510346",
+   "sa-1510347",
+   "sa-1510348",
+   "sa-1510349",
+   "sa-1510350",
+   "sa-1510353",
+   "sa-1510354",
+   "sa-1510355",
+   "sa-1510356",
+   "sa-1510359",
+   "sa-1510360",
+   "sa-1510361",
+   "sa-1510366",
+   "sa-1510375",
+   "sa-1510376",
+   "sa-1510379",
+   "sa-1510382",
+   "sa-1510391",
+   "sa-1510394",
+   "sa-1510395",
+   "sa-1510400",
+   "sa-1510401",
+   "sa-1510402",
+   "sa-1510403",
+   "sa-1510404"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/1-103",
+   "Title": "District Nord-vaudois",
+   "Dates": "1929-1969",
+   "Creation date(s)": "1/1/1929 - 12/31/1969",
+   "Level": "Sous-fonds",
+   "Importance matérielle": "103 boîtes",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510306",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510307",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/1 L'Abbaye (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/1",
+   "Title": "L'Abbaye (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "L'Abbaye (arrondissement de l'état civil): - Mariages 1955-1968 - Décès 1955-1968 - Sous-séries diverses relatives à l'état civil 1956-1965.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Fusionne par l'arrêté du 5 mai 2004 avec les arrondissements du Chenit et du Lieu pour former l'arrondissement de La Vallée dès le 1er juin 2004, supprimé en 2006 et rattaché à l'office d'état civil du Centre et Nord vaudois en 2006.",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510307",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510308",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/2-3 Avenches (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "children": [
+   "sa-1510309",
+   "sa-1510310"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/2-3",
+   "Title": "Avenches (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "2 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 2 décembre 2002 et rattaché à l'arrondissement de Payerne dès le 1er janvier 2003. Comprend: - Avenches - Donatyre - Faoug- Oleyres Adjonction de l'arrondissement de: - Constantine en 2001",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510308",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510309",
+  "parent": "sa-1510308",
+  "text": "SB 324/2/2 Avenches (arrondissement d'état civil), 1955.01.01-1963.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/2",
+   "Title": "Avenches (arrondissement d'état civil)",
+   "Dates": "1955-1963",
+   "Creation date(s)": "1/1/1955 - 12/31/1963",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Avenches (arrondissement de l'état civil): - Mariages 1955-1963 - Décès 1955-1963 - Sous-séries diverses relatives à l'état civil 1955-1963.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510309",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510310",
+  "parent": "sa-1510308",
+  "text": "SB 324/2/3 Avenches (arrondissement d'état civil), 1964.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/3",
+   "Title": "Avenches (arrondissement d'état civil)",
+   "Dates": "1964-1968",
+   "Creation date(s)": "1/1/1964 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Avenches (arrondissement de l'état civil): - Mariages 1964-1968 - Décès 1964-1968 - Sous-séries diverses relatives à l'état civil 1964-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510310",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510311",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/4-10 Orbe (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "children": [
+   "sa-1510312",
+   "sa-1510313",
+   "sa-1510314",
+   "sa-1510315",
+   "sa-1510316",
+   "sa-1510317",
+   "sa-1510318"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/4-10",
+   "Title": "Orbe (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "7 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé en 2006 et rattaché à l'office de l'état civil du Centre et du Nord vaudois en 2006. Comprend: - Orbe - Montcherand Adjonction des arrondissements de: - Agiez en 1940 - Lignerolle en 1996 - Chavornay en 2003",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510311",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510312",
+  "parent": "sa-1510311",
+  "text": "SB 324/2/4 Orbe (arrondissement d'état civil), 1955.01.01-1956.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/4",
+   "Title": "Orbe (arrondissement d'état civil)",
+   "Dates": "1955-1956",
+   "Creation date(s)": "1/1/1955 - 12/31/1956",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Orbe (arrondissement d'état civil): - Naissances 1955-1956 - Mariages 1955-1956 - Décès 1955-1956 - Sous-séries diverses relatives à l'état civil 1955-1956.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510312",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510313",
+  "parent": "sa-1510311",
+  "text": "SB 324/2/5 Orbe (arrondissement d'état civil), 1956.01.01-1958.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/5",
+   "Title": "Orbe (arrondissement d'état civil)",
+   "Dates": "1956-1958",
+   "Creation date(s)": "1/1/1956 - 12/31/1958",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Orbe (arrondissement d'état civil): - Naissances 1957-1958 - Mariages 1956-1958 - Décès 1957-1958 - Sous-séries diverses relatives à l'état civil 1957-1958.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510313",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510314",
+  "parent": "sa-1510311",
+  "text": "SB 324/2/6 Orbe (arrondissement d'état civil), 1959.01.01-1961.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/6",
+   "Title": "Orbe (arrondissement d'état civil)",
+   "Dates": "1959-1961",
+   "Creation date(s)": "1/1/1959 - 12/31/1961",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Orbe (arrondissement d'état civil): - Naissances 1959-1961 - Mariages 1959-1961 - Décès 1959-1961 - Sous-séries diverses relatives à l'état civil 1960-1961.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510314",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510315",
+  "parent": "sa-1510311",
+  "text": "SB 324/2/7 Orbe (arrondissement d'état civil), 1962.01.01-1963.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/7",
+   "Title": "Orbe (arrondissement d'état civil)",
+   "Dates": "1962-1963",
+   "Creation date(s)": "1/1/1962 - 12/31/1963",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Orbe (arrondissement d'état civil): - Naissances 1962-1963 - Mariages 1962-1963 - Décès 1962-1963 - Sous-séries diverses relatives à l'état civil 1962-1963.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510315",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510316",
+  "parent": "sa-1510311",
+  "text": "SB 324/2/8 Orbe (arrondissement d'état civil), 1964.01.01-1965.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/8",
+   "Title": "Orbe (arrondissement d'état civil)",
+   "Dates": "1964-1965",
+   "Creation date(s)": "1/1/1964 - 12/31/1965",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Orbe (arrondissement d'état civil): - Naissances 1964-1965 - Mariages 1964-1965 - Décès 1964-1965 - Sous-séries diverses relatives à l'état civil 1964-1965.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510316",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510317",
+  "parent": "sa-1510311",
+  "text": "SB 324/2/9 Orbe (arrondissement d'état civil), 1966.01.01-1967.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/9",
+   "Title": "Orbe (arrondissement d'état civil)",
+   "Dates": "1966-1967",
+   "Creation date(s)": "1/1/1966 - 12/31/1967",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Orbe (arrondissement d'état civil): - Naissances 1966-1967 - Mariages 1966-1967 - Décès 1966-1967 - Sous-séries diverses relatives à l'état civil 1966-1967.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510317",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510318",
+  "parent": "sa-1510311",
+  "text": "SB 324/2/10 Orbe (arrondissement d'état civil), 1968.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/10",
+   "Title": "Orbe (arrondissement d'état civil)",
+   "Dates": "1968-1968",
+   "Creation date(s)": "1/1/1968 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Orbe (arrondissement d'état civil): - Naissances 1968 - Mariages 1968 - Décès 1968 .",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510318",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510319",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/11 Baulmes (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/11",
+   "Title": "Baulmes (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Baulmes (arrondissement de l'état civil): - Naissances 1957-1968 - Mariages 1955-1968 - Décès 1957-1966 - Sous-séries diverses relatives à l'état civil 1955-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Orbe dès le 1er juin 2004. Comprend: - Rances - Valeyres-sous-Rances - Vuiteboeuf",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510319",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510320",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/12 Belmon-sur-Yverdon (arrondissement d'état civil), 1951.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/12",
+   "Title": "Belmon-sur-Yverdon (arrondissement d'état civil)",
+   "Dates": "1951-1968",
+   "Creation date(s)": "1/1/1951 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Belmont-sur-Yverdon (arrondissement de l'état civil): - Mariages 1951-1968 - Décès 1954-1968 - Sous-séries diverses relatives à l'état civil 1956-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Yverdon dès le 1er juin 2004. Comprend: - Ependes - Essert-Pittet - Gressy - Suchy.",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510320",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510321",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/13-14 Bottens (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "children": [
+   "sa-1510322",
+   "sa-1510323"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/13-14",
+   "Title": "Bottens (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "2 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 2 juillet 1993 et rattaché à l'arrondissement d'Echallens dès le 1er juillet 1993. Comprend: - Bottens - Bretigny-sur-Morrens - Cugy - Dommartin - Froideville - Malapalud - Morrens - Poliez-le-Grand - Poliez-Pittet - Villars-Tiercelin",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510321",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510322",
+  "parent": "sa-1510321",
+  "text": "SB 324/2/13 Bottens (arrondissement d'état civil), 1955.01.01-1960.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/13",
+   "Title": "Bottens (arrondissement d'état civil)",
+   "Dates": "1955-1960",
+   "Creation date(s)": "1/1/1955 - 12/31/1960",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Bottens (arrondissement de l'état civil): - Mariages 1955-1960 - Décès 1957-1960 - Sous-séries diverses relatives à l'état civil 1955-1960.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510322",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510323",
+  "parent": "sa-1510321",
+  "text": "SB 324/2/14 Bottens (arrondissement d'état civil), 1961.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/14",
+   "Title": "Bottens (arrondissement d'état civil)",
+   "Dates": "1961-1968",
+   "Creation date(s)": "1/1/1961 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Bottens (arrondissement de l'état civil): - Mariages 1961-1968 - Décès 1961-1968 - Sous-séries diverses relatives à l'état civil 1961-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510323",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510324",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/15 Bullet (arrondissement d'état civil), 1930.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/15",
+   "Title": "Bullet (arrondissement d'état civil)",
+   "Dates": "1930-1968",
+   "Creation date(s)": "1/1/1930 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Bullet (arrondissement de l'état civil): - Mariages 1955-1968 - Décès 1930-1968 - Sous-séries diverses relatives à l'état civil 1955-1968.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Yverdon dès le 1er juin 2004.",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510324",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510325",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/16 Champagne (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/16",
+   "Title": "Champagne (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Champagne (arrondissement de l'état civil): - Mariages 1955-1968 - Décès 1960-1968 - Sous-séries diverses relatives à l'état civil 1958-1965.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er juillet 1885 (date de l'arrêté manquante). Supprimé par l'arrêté du 2 décembre 2002 et rattaché à l'arrondissement de Grandson dès le 1er janvier 2003. Fait partie de l'arrondissement de Grandson de 1876 et 1884. Adjonction de l'arrondissement de: - Bonvillars en 1962",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510325",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510326",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/17 Champvent (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/17",
+   "Title": "Champvent (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Champvent (arrondissement de l'état civil): - Mariages 1955-1968 - Décès 1961-1968 - Sous-séries diverses relatives à l'état civil 1955-1965.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 24 mars 1999 et rattaché à l'arrondissement de Montagny-près-Yverdon dès le 1er avril 1999. Comprend: - Champvent - Essert-sous-Champvent - Mathod - Montagny-près-Yverdon - Suscévaz - Villars-sous-Champvent",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510326",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510327",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/18-19 Chavornay (arrondissement d'état civil), 1951.01.01-1968.12.31 (Série)",
+  "children": [
+   "sa-1510328",
+   "sa-1510329"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/18-19",
+   "Title": "Chavornay (arrondissement d'état civil)",
+   "Dates": "1951-1968",
+   "Creation date(s)": "1/1/1951 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "2 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par arrêté du 2 décembre 2002 et rattaché à l'arrondissement d'Orbe dès le 1er janvier 2003. Comprend: - Chavornay - Bavois - Corcelles-près-Chavornay",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510327",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510328",
+  "parent": "sa-1510327",
+  "text": "SB 324/2/18 Chavornay (arrondissement d'état civil), 1951.01.01-1960.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/18",
+   "Title": "Chavornay (arrondissement d'état civil)",
+   "Dates": "1951-1960",
+   "Creation date(s)": "1/1/1951 - 12/31/1960",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Chavornay (arrondissement d'état civil): - Naissances 1957 - Mariages 1951-1959 - Décès 1955-1959 - Sous-séries diverses relatives à l'état civil 1951-1960.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510328",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510329",
+  "parent": "sa-1510327",
+  "text": "SB 324/2/19 Chavornay (arrondissement d'état civil), 1960.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/19",
+   "Title": "Chavornay (arrondissement d'état civil)",
+   "Dates": "1960-1968",
+   "Creation date(s)": "1/1/1960 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Chavornay (arrondissement d'état civil): - Naissances 1960-1966 - Mariages 1960-1968 - Décès 1960-1968 - Sous-séries diverses relatives à l'état civil 1960-1967.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510329",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510330",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/20-25 Le Chenit (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "children": [
+   "sa-1510331",
+   "sa-1510332",
+   "sa-1510333",
+   "sa-1510334",
+   "sa-1510335",
+   "sa-1510336"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/20-25",
+   "Title": "Le Chenit (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "6 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement (fraction de la commune du Chenit) crée le 1er janvier 1876 (Arrêté du 1er décembre 1875). Fusionne par l'arrêté du 18 mai 1942 avec l'arrondissement du Brassus, pour former l'arrondissement du Chenit dès le 1er juin 1942 puis, par l'arrêté du 5 mai 2004, avec l'arrondissement de l'Abbaye pour former l'arrondissement de La Vallée dès le 1er juin 2004, supprimé en 2006 et rattaché à l'office d'état civil du Centre et Nord vaudois en 2006. Comprend: - Le Chenit - Le Sentier - Les Aubert - Le Solliat - L'Orient",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510330",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510331",
+  "parent": "sa-1510330",
+  "text": "SB 324/2/20 Le Chenit (arrondissement d'état civil), 1955.01.01-1956.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/20",
+   "Title": "Le Chenit (arrondissement d'état civil)",
+   "Dates": "1955-1956",
+   "Creation date(s)": "1/1/1955 - 12/31/1956",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Le Chenit (arrondissement d'état civil): - Naissances 1956 - Mariages 1955-1956 - Décès 1956 - Sous-séries diverses relatives à l'état civil 1956.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510331",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510332",
+  "parent": "sa-1510330",
+  "text": "SB 324/2/21 Le Chenit (arrondissement d'état civil), 1957.01.01-1960.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/21",
+   "Title": "Le Chenit (arrondissement d'état civil)",
+   "Dates": "1957-1960",
+   "Creation date(s)": "1/1/1957 - 12/31/1960",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Le Chenit (arrondissement d'état civil): - Naissances 1957-1959 - Mariages 1957-1959 - Décès 1957-1959 - Sous-séries diverses relatives à l'état civil 1957-1960.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510332",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510333",
+  "parent": "sa-1510330",
+  "text": "SB 324/2/22 Le Chenit (arrondissement d'état civil), 1960.01.01-1962.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/22",
+   "Title": "Le Chenit (arrondissement d'état civil)",
+   "Dates": "1960-1962",
+   "Creation date(s)": "1/1/1960 - 12/31/1962",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Le Chenit (arrondissement d'état civil): - Naissances 1960-1962 - Mariages 1960-1962 - Décès 1960-1962 - Sous-séries diverses relatives à l'état civil 1960-1962.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510333",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510334",
+  "parent": "sa-1510330",
+  "text": "SB 324/2/23 Le Chenit (arrondissement d'état civil), 1963.01.01-1965.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/23",
+   "Title": "Le Chenit (arrondissement d'état civil)",
+   "Dates": "1963-1965",
+   "Creation date(s)": "1/1/1963 - 12/31/1965",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Le Chenit (arrondissement d'état civil): - Naissances 1963-1965 - Mariages 1963-1965 (8 juillet-30 décembre) - Décès 1963-1965 - Sous-séries diverses relatives à l'état civil 1963-1965.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510334",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510335",
+  "parent": "sa-1510330",
+  "text": "SB 324/2/24 Le Chenit (arrondissement d'état civil), 1965.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/24",
+   "Title": "Le Chenit (arrondissement d'état civil)",
+   "Dates": "1965-1968",
+   "Creation date(s)": "1/1/1965 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Le Chenit (arrondissement d'état civil): - Naissances 1966-1968 - Mariages 1965 (9 janvier-8 juillet)-1967 - Décès 1966-1968 - Sous-séries diverses relatives à l'état civil 1966-1968.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510335",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510336",
+  "parent": "sa-1510330",
+  "text": "SB 324/2/25 Le Chenit (arrondissement d'état civil), 1968.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/25",
+   "Title": "Le Chenit (arrondissement d'état civil)",
+   "Dates": "1968-1968",
+   "Creation date(s)": "1/1/1968 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Le Chenit (arrondissement d'état civil): - Mariages 1968.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510336",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510337",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/26 Combremont (arrondissement d'état civil), 1932.01.01-1964.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/26",
+   "Title": "Combremont (arrondissement d'état civil)",
+   "Dates": "1932-1964",
+   "Creation date(s)": "1/1/1932 - 12/31/1964",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Combremont (arrondissement d'état civil): - Mariages 1955-1964 - Décès 1932-1964 - Sous-séries diverses relatives à l'état civil 1956-1964.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 14 décembre 1964 et rattaché à l'arrondissement de Granges-près-Marnand dès le 1er janvier 1965. Comprend: - Combremont-le-Grand - Combremont-le-Petit - Champtauroz - Treytorrens",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510337",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510338",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/27 Concise (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/27",
+   "Title": "Concise (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Concise (arrondissement d'état civil): - Naissances 1960 - Mariages 1955-1968 - Décès 1959-1968 - Sous-séries diverses relatives à l'état civil 1960-1968.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Yverdon dès le 1er juin 2004. Comprend: - Concise - Corcelles-près-Concise - Onnens - Bonvillars jusqu'en 1884 - Fontanezier jusqu'en 1884",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510338",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510339",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/28 Constantine (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/28",
+   "Title": "Constantine (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Constantine (arrondissement de l'état civil): - Mariages 1955-1968 - Décès 1955-1968 - Sous-séries diverses relatives à l'état civil 1955-1965.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 18 décembre 2000 et rattaché à l'arrondissement d'Avenches dès le 1er janvier 2001. Comprend: - Constantine - Bellerive - Chabrey - Villars-le-Grand Adjonction de l'arrondissement de: - Cudrefin en 1996",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510339",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510340",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/29 Corcelles-près-Payerne (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/29",
+   "Title": "Corcelles-près-Payerne (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Corcelles-près-Payerne (arrondissement de l'état civil): - Naissances 1962 - Mariages 1955-1968 - Décès 1955-1968 - Sous-séries diverses relatives à l'état civil 1955-1968.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement de Payerne dès le 1er juin 2004.",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510340",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510341",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/30 Cudrefin (arrondissement de l'état civil), 1955.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/30",
+   "Title": "Cudrefin (arrondissement de l'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Cudrefin (arrondissement de l'état civil): - Mariages 1955-1968 - Décès 1955-1968 - Sous-séries diverses relatives à l'état civil 1956-1964.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 juin 1996 et rattaché à l'arrondissement de Constantine dès le 1er juillet 1996. Comprend: - Cudrefin - Champmartin - Mur - Vallamand",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510341",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510342",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/31-33 Echallens (arrondissement d'état civil), 1955.01.01-1969.12.31 (Série)",
+  "children": [
+   "sa-1510343",
+   "sa-1510344",
+   "sa-1510345"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/31-33",
+   "Title": "Echallens (arrondissement d'état civil)",
+   "Dates": "1955-1969",
+   "Creation date(s)": "1/1/1955 - 12/31/1969",
+   "Level": "Série",
+   "Importance matérielle": "3 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé en 2006 et rattaché à l'office de l'état civil du Centre et du Nord vaudois en 2006. Comprend: - Echallens - Assens - Bioley-Orjulaz - Eclagnens - Etagnières - Goumoens-la-Ville - Goumoens-le-Jux - Oulens - Saint-Barthélemy - Villars-le-Terroir Adjonction des arrondissements de: - Fey en 1959 - Bottens en 1993.",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510342",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510343",
+  "parent": "sa-1510342",
+  "text": "SB 324/2/31 Echallens (arrondissement d'état civil), 1955.01.01-1961.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/31",
+   "Title": "Echallens (arrondissement d'état civil)",
+   "Dates": "1955-1961",
+   "Creation date(s)": "1/1/1955 - 12/31/1961",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Echallens (arrondissement d'état civil): - Naissances 1956-1957 - Mariages 1955-1961 - Décès 1956-1961 - Sous-séries diverses relatives à l'état civil 1955-1961.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "\"Retrouvé, dans une enveloppe marquée \"\"naissances\"\", arrondissement de Fey, un contrat d'adoption de William Eugène Buffat, né le 21 janvier 1915 et daté du 27 février 1947.\"",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510343",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510344",
+  "parent": "sa-1510342",
+  "text": "SB 324/2/32 Echallens (arrondissement d'état civil), 1915.01.01-1966.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/32",
+   "Title": "Echallens (arrondissement d'état civil)",
+   "Dates": "1962-1966",
+   "Creation date(s)": "1/1/1915 - 12/31/1966",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Echallens (arrondissement d'état civil): - Naissances 1962-1966 - Mariages 1962-1966 - Décès 1962-1966 - Sous-séries diverses relatives à l'état civil 1962-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Publication de ban entre 1915-1961",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510344",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510345",
+  "parent": "sa-1510342",
+  "text": "SB 324/2/33 Echallens (arrondissement d'état civil), 1967.01.01-1969.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/33",
+   "Title": "Echallens (arrondissement d'état civil)",
+   "Dates": "1967-1969",
+   "Creation date(s)": "1/1/1967 - 12/31/1969",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Echallens (arrondissement d'état civil): - Mariages 1967-1968 - Décès 1967-1969 - Sous-séries diverses relatives à l'état civil 1967.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510345",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510346",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/34 Fey (arrondissement d'état civil), 1955.01.01-1959.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/34",
+   "Title": "Fey (arrondissement d'état civil)",
+   "Dates": "1955-1959",
+   "Creation date(s)": "1/1/1955 - 12/31/1959",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Fey (arrondissement de l'état civil): - Mariages 1955-1959 - Décès 1955-1957 - Sous-séries diverses 1955-1958.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 31 juillet 1959 et rattaché à l'arrondissement d'Echallens dès le 1er septembre 1959. Comprend: - Fey - Naz - Essertines-sur-Yverdon - Penthéréaz",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510346",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510347",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/35 Fiez (arrondissement d'état civil), 1957.01.01-1966.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/35",
+   "Title": "Fiez (arrondissement d'état civil)",
+   "Dates": "1957-1966",
+   "Creation date(s)": "1/1/1957 - 12/31/1966",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Fiez (arrondissement de l'état civil): - Mariages 1958-1968 - Décès 1961-1968 - Sous-séries diverses 1957-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Yverdon dès le 1er juin 2004. Comprend: - Fiez - Fontaines - Grandevent - Mauborget - Novalles - Romairon - Vaugondry - Villars-Burquin",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510347",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510348",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/36 Grandcour (arrondissement d'état civil), 1954.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/36",
+   "Title": "Grandcour (arrondissement d'état civil)",
+   "Dates": "1954-1968",
+   "Creation date(s)": "1/1/1954 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Grandcour (arrondissement de l'état civil): - Mariages 1954-1968 - Décès 1961-1968 - Sous-séries diverses relatives à l'état civil 1956-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 2 décembre 2002 et rattaché à l'arrondissement de Payerne dès le 1er janvier 2003. Comprend: - Grandcour - Chevroux - Missy",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510348",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510349",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/37 Grandson (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/37",
+   "Title": "Grandson (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Grandson (arrondissement de l'état civil): - Naissances 1955-1957 - Mariages 1955-1968 - Décès 1955-1968 - Sous-séries diverses relatives à l'état civil 1955-1968.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Yverdon dès le 1er juin 2004. Comprend: - Grandson - Champagne - Giez",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510349",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510350",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/38-39 Granges-près-Marnand (arrondissement d'état civil), 1955.01.01-1969.12.31 (Série)",
+  "children": [
+   "sa-1510351",
+   "sa-1510352"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/38-39",
+   "Title": "Granges-près-Marnand (arrondissement d'état civil)",
+   "Dates": "1955-1969",
+   "Creation date(s)": "1/1/1955 - 12/31/1969",
+   "Level": "Série",
+   "Importance matérielle": "2 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 2 décembre 2002 et rattaché à l'arrondissement de Payerne dès le 1er janvier 2003. Comprend: - Granges-près-Marnand - Henniez - Sassel Adjonction des arrondissements de: - Villarzel en 1960 - Combremont-le-Grand en 1965",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510350",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510351",
+  "parent": "sa-1510350",
+  "text": "SB 324/2/38 Granges-près-Marnand (arrondissement d'état civil), 1955.01.01-1962.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/38",
+   "Title": "Granges-près-Marnand (arrondissement d'état civil)",
+   "Dates": "1955-1962",
+   "Creation date(s)": "1/1/1955 - 12/31/1962",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Granges-près-Marnand (arrondissement de l'état civil): - Mariages 1955-1962 - Décès 1955-1961 - Sous-séries diverses relatives à l'état civil 1955-1962.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510351",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510352",
+  "parent": "sa-1510350",
+  "text": "SB 324/2/39 Granges-près-Marnand (arrondissement d'état civil), 1963.01.01-1969.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/39",
+   "Title": "Granges-près-Marnand (arrondissement d'état civil)",
+   "Dates": "1963-1969",
+   "Creation date(s)": "1/1/1963 - 12/31/1969",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Granges-près-Marnand (arrondissement de l'état civil): - Mariages 1963-1969 - Décès 1963-1969 - Sous-séries diverses relatives à l'état civil 1963-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510352",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510353",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/40 Le Lieu (arrondissement d'état civil), 1955.01.01-1969.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/40",
+   "Title": "Le Lieu (arrondissement d'état civil)",
+   "Dates": "1955-1969",
+   "Creation date(s)": "1/1/1955 - 12/31/1969",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Le Lieu (arrondissement de l'état civil): - Naissances 1960 - Mariages 1955-1968 - Décès 1959-1969 - Sous-séries diverses 1957-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Fusionne par l'arrêté du 5 mai 2004 avec les arrondissements de l'Abbaye et du Chenit pour former l'arrondissement de La Vallée dès le 1er juin 2004, supprimé en 2006 et rattaché à l'office d'état civil du Centre et Nord vaudois en 2006.",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510353",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510354",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/41 Lignerolle (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/41",
+   "Title": "Lignerolle (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Lignerolle (arrondissement de l'état civil): - Naissances 1955 - Mariages 1955-1968 - Décès 1956-1968 - Sous-séries diverses relatives à l'état civil 1958-1965.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 6 décembre 1995 et rattaché à l'arrondissement d'Orbe dès le 1er janvier 1996. Comprend: - Lignerolle - L'Abergement - Sergey Adjonction de la commune de - Les Clées en 1936 (auparavant à Romainmôtier)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510354",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510355",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/42 Mézières (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/42",
+   "Title": "Mézières (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Mézières (arrondissement de l'état civil): - Mariages 1955-1968 - Décès 1955-1968 - Sous-séries diverses relatives à l'état civil 1955-1965.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 novembre 1987 et rattaché à l'arrondissement d'Oron-la-Ville dès le 1er janvier 1998. Comprend: - Mézières - Carrouge - Les Cullayes - Vulliens Adjonction de l'arrondissement de: - Corcelles-le-Jorat en 1937",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510355",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510356",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/43-44 Lucens (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "children": [
+   "sa-1510357",
+   "sa-1510358"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/43-44",
+   "Title": "Lucens (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "2 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement de Moudon dès le 1er juin 2004. Comprend: - Lucens - Brenles - Chesalles-sur-Moudon - Curtilles - Cremin - Dompierre - Lovatens - Oulens-sur-Lucens - Prévonloup - Sarzens Adjonction de la localité de - Villars-le-Comte en 1949 (auparavant dans l'arrondissement de Denezy)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510356",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510357",
+  "parent": "sa-1510356",
+  "text": "SB 324/2/43 Lucens (arrondissement d'état civil), 1955.01.01-1961.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/43",
+   "Title": "Lucens (arrondissement d'état civil)",
+   "Dates": "1955-1961",
+   "Creation date(s)": "1/1/1955 - 12/31/1961",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Lucens (arrondissement de l'état civil): - Naissances 1956 - Mariages 1955-1961 - Dècès 1955-1961 - Sous-séries diverses relatives à l'état civil 1955-1961.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510357",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510358",
+  "parent": "sa-1510356",
+  "text": "SB 324/2/44 Lucens (arrondissement d'état civil), 1962.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/44",
+   "Title": "Lucens (arrondissement d'état civil)",
+   "Dates": "1962-1968",
+   "Creation date(s)": "1/1/1962 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Lucens (arrondissement de l'état civil): - Mariages 1962-1968 - Dècès 1962-1968 - Sous-séries diverses relatives à l'état civil 1962-1965.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510358",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510359",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/45 Molondin (arrondissement d'état civil), 1951.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/45",
+   "Title": "Molondin (arrondissement d'état civil)",
+   "Dates": "1951-1968",
+   "Creation date(s)": "1/1/1951 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Molondin (arrondissement de l'état civil): - Mariages 1951-1968 - Décès 1960-1967 - Sous-séries diverses relatives à l'état civil 1951-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Yverdon dès le 1er juin 2004. Comprend: - Molondin - Bioley-Magnoux - Chêne-Pâquier - Cronay - Démoret - Donneloye - Mézery-près-Donneloye - Prahins",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510359",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510360",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/46 Montagny-près-Yverdon (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/46",
+   "Title": "Montagny-près-Yverdon (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Montagny-près-Yverdon (arrondissement de l'état civil): - Mariages 1955-1968 Décès 1955-1968 - Sous-séries diverses relatives à l'état civil 1955-1967.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Yverdon dès le 1er juin 2004. Comprend: - Montagny-près-Yverdon - Chamblon - Orges - Treycovagnes - Valeyres-sous-Montagny - Vugelles-La Mothe Adjonction de l'arrondissement de: - Champvent en 1999",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510360",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510361",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/47-50 Moudon (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "children": [
+   "sa-1510362",
+   "sa-1510363",
+   "sa-1510364",
+   "sa-1510365"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/47-50",
+   "Title": "Moudon (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "4 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé en 2006 et rattaché à l'office de l'état civil du Centre et du Nord vaudois en 2006. Comprend: - Moudon - Bussy-sur-Moudon - Chavannes-sur-Moudon - Hermenches - Rossenges - Syens - Vucherens",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510361",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510362",
+  "parent": "sa-1510361",
+  "text": "SB 324/2/47 Moudon (arrondissement d'état civil), 1955.01.01-1969.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/47",
+   "Title": "Moudon (arrondissement d'état civil)",
+   "Dates": "1955-1969",
+   "Creation date(s)": "1/1/1955 - 12/31/1969",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Moudon (arrondissement d'état civil): - Naissances 1955-1959 - Mariages 1955-1959 - Décès 1955-1969 - Sous-séries diverses relatives à l'état civil 1955-1960.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510362",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510363",
+  "parent": "sa-1510361",
+  "text": "SB 324/2/48 Moudon (arrondissement d'état civil), 1960.01.01-1962.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/48",
+   "Title": "Moudon (arrondissement d'état civil)",
+   "Dates": "1960-1962",
+   "Creation date(s)": "1/1/1960 - 12/31/1962",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Moudon (arrondissement d'état civil): - Naissances 1960-1962 - Mariages 1960-1962 - Décès 1960-1962 - Sous-séries diverses relatives à l'état civil 1960-1962.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510363",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510364",
+  "parent": "sa-1510361",
+  "text": "SB 324/2/49 Moudon (arrondissement d'état civil), 1963.01.01-1966.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/49",
+   "Title": "Moudon (arrondissement d'état civil)",
+   "Dates": "1963-1966",
+   "Creation date(s)": "1/1/1963 - 12/31/1966",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Moudon (arrondissement d'état civil): - Naissances 1963-1966 - Mariages 1963-1965 - Décès 1963-1966 - Sous-séries diverses relatives à l'état civil 1963-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510364",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510365",
+  "parent": "sa-1510361",
+  "text": "SB 324/2/50 Moudon (arrondissement d'état civil), 1966.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/50",
+   "Title": "Moudon (arrondissement d'état civil)",
+   "Dates": "1966-1968",
+   "Creation date(s)": "1/1/1966 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Moudon (arrondissement d'état civil): - Naissances 1967-1968 - Mariages 1966-1968 - Décès 1967-1968 - Sous-séries diverses relatives à l'état civil 1967-1968.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510365",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510366",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/51-58 Payerne (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "children": [
+   "sa-1510367",
+   "sa-1510368",
+   "sa-1510369",
+   "sa-1510370",
+   "sa-1510371",
+   "sa-1510372",
+   "sa-1510373",
+   "sa-1510374"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/51-58",
+   "Title": "Payerne (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "8 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé en 2006 et rattaché à l'office de l'état civil du Centre et du Nord vaudois en 2006. Adjonction des arrondissements de: - Trey en 1930 - Avenches en 2003 - Corcelles-près-Payerne en 2003 - Grandcour en 2003",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510366",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510367",
+  "parent": "sa-1510366",
+  "text": "SB 324/2/51 Payerne (arrondissement d'état civil), 1955.01.01-1956.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/51",
+   "Title": "Payerne (arrondissement d'état civil)",
+   "Dates": "1955-1956",
+   "Creation date(s)": "1/1/1955 - 12/31/1956",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Payerne (arrondissement d'état civil): - Naissances 1955-1956 - Mariages 1955-1956- Décès 1956 - Sous-séries diverses relatives à l'état civil 1956.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510367",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510368",
+  "parent": "sa-1510366",
+  "text": "SB 324/2/52 Payerne (arrondissement d'état civil), 1956.01.01-1957.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/52",
+   "Title": "Payerne (arrondissement d'état civil)",
+   "Dates": "1956-1957",
+   "Creation date(s)": "1/1/1956 - 12/31/1957",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Payerne (arrondissement d'état civil): - Naissances 1956-1957 - Mariages 1956-1958 - Décès 1955-1957 - Sous-séries diverses relatives à l'état civil 1955-1957.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510368",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510369",
+  "parent": "sa-1510366",
+  "text": "SB 324/2/53 Payerne (arrondissement d'état civil), 1958.01.01-1960.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/53",
+   "Title": "Payerne (arrondissement d'état civil)",
+   "Dates": "1958-1960",
+   "Creation date(s)": "1/1/1958 - 12/31/1960",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Payerne (arrondissement d'état civil): - Naissances 1958-1959 - Mariages 1959 - Décès 1958-1959 - Sous-séries diverses relatives à l'état civil 1958-1960.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510369",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510370",
+  "parent": "sa-1510366",
+  "text": "SB 324/2/54 Payerne (arrondissement d'état civil), 1960.01.01-1961.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/54",
+   "Title": "Payerne (arrondissement d'état civil)",
+   "Dates": "1960-1961",
+   "Creation date(s)": "1/1/1960 - 12/31/1961",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Payerne (arrondissement d'état civil): - Naissances 1960-1961 - Mariages 1960-1961 - Décès 1960-1961 - Sous-séries diverses relatives à l'état civil 1960-1961.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510370",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510371",
+  "parent": "sa-1510366",
+  "text": "SB 324/2/55 Payerne (arrondissement d'état civil), 1962.01.01-1963.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/55",
+   "Title": "Payerne (arrondissement d'état civil)",
+   "Dates": "1962-1963",
+   "Creation date(s)": "1/1/1962 - 12/31/1963",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Payerne (arrondissement d'état civil): - Naissances 1962-1963 - Mariages 1962-1963 - Décès 1962-1963 - Sous-séries diverses relatives à l'état civil 1962-1963.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510371",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510372",
+  "parent": "sa-1510366",
+  "text": "SB 324/2/56 Payerne (arrondissement d'état civil), 1964.01.01-1965.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/56",
+   "Title": "Payerne (arrondissement d'état civil)",
+   "Dates": "1964-1965",
+   "Creation date(s)": "1/1/1964 - 12/31/1965",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Payerne (arrondissement d'état civil): - Naissances 1964-1965 - Mariages 1964-1965 - Décès 1964-1965 - Sous-séries diverses relatives à l'état civil 1964-1965.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510372",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510373",
+  "parent": "sa-1510366",
+  "text": "SB 324/2/57 Payerne (arrondissement d'état civil), 1965.01.01-1967.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/57",
+   "Title": "Payerne (arrondissement d'état civil)",
+   "Dates": "1965-1967",
+   "Creation date(s)": "1/1/1965 - 12/31/1967",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Payerne (arrondissement d'état civil): - Naissances 1966-1967 - Mariages 1965-1967 - Décès 1966-1967 - Sous-séries diverses relatives à l'état civil 1966-1967.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510373",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510374",
+  "parent": "sa-1510366",
+  "text": "SB 324/2/58 Payerne (arrondissement d'état civil), 1967.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/58",
+   "Title": "Payerne (arrondissement d'état civil)",
+   "Dates": "1967-1968",
+   "Creation date(s)": "1/1/1967 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Payerne (arrondissement d'état civil): - Naissances 1968 - Mariages 1967-1968 - Décès 1968.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510374",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510375",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/59 Provence (arrondissement d'état civil), 1940.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/59",
+   "Title": "Provence (arrondissement d'état civil)",
+   "Dates": "1940-1968",
+   "Creation date(s)": "1/1/1940 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boite",
+   "Content": "Provence (arrondissement de l'état civil): - Mariages 1958-1968 - Décès 1940-1968 - Sous-séries diverses relatives à l'état civil 1958-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Yverdon dès le 1er juin 2004. Comprend: - Mutrux",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510375",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510376",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/60-61 Romainmôtier (arrondissement d'état civil), 1951.01.01-1968.12.31 (Série)",
+  "children": [
+   "sa-1510377",
+   "sa-1510378"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/60-61",
+   "Title": "Romainmôtier (arrondissement d'état civil)",
+   "Dates": "1951-1968",
+   "Creation date(s)": "1/1/1951 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "2 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Orbe dès le 1er juin 2004. Adjonction de la commune des Clées en 1936. Comprend: - Romainmôtier - Bofflens - Bretonnières - Croy - Envy - Juriens - La Praz - Les Clées - Premier",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510376",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510377",
+  "parent": "sa-1510376",
+  "text": "SB 324/2/60 Romainmôtier (arrondissement d'état civil), 1951.01.01-1957.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/60",
+   "Title": "Romainmôtier (arrondissement d'état civil)",
+   "Dates": "1951-1957",
+   "Creation date(s)": "1/1/1951 - 12/31/1957",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Romainmôtier (arrondissement de l'état civil): - Mariages 1951-1957 - Décès 1954-1957 - Sous-séries diverses relatives à l'état civil 1951-1957.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510377",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510378",
+  "parent": "sa-1510376",
+  "text": "SB 324/2/61 Romainmôtier (arrondissement d'état civil), 1958.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/61",
+   "Title": "Romainmôtier (arrondissement d'état civil)",
+   "Dates": "1958-1968",
+   "Creation date(s)": "1/1/1958 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Romainmôtier (arrondissement de l'état civil): - Naissances 1958-1962 - Mariages 1958-1968 - Décès 1958-1967 - Sous-séries diverses relatives à l'état civil 1960-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510378",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510379",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/62-63 Saint-Cierges (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "children": [
+   "sa-1510380",
+   "sa-1510381"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/62-63",
+   "Title": "Saint-Cierges (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "2 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement de Moudon dès le 1er juin 2004. Comprend: - Saint-Cierges - Bercher - Boulens - Chapelle-sur-Moudon - Correvon - Martherenges - Montaubion-Chardonnay - Ogens - Peyres-Possens - Sottens - Thierrens - Villars-Mendraz Adjonction de l'arrondissement de: - Denezy (sans Villars-le-Comte) en 1950",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510379",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510380",
+  "parent": "sa-1510379",
+  "text": "SB 324/2/62 Saint-Cierges (arrondissement d'état civil), 1955.01.01-1966.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/62",
+   "Title": "Saint-Cierges (arrondissement d'état civil)",
+   "Dates": "1955-1966",
+   "Creation date(s)": "1/1/1955 - 12/31/1966",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Saint-Cierges (arrondissement de l'état civil): - Naissances 1958-1964 - Mariages 1955-1966 - Décès 1958-1966 - Sous-séries diverses relatives à l'état civil 1955-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510380",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510381",
+  "parent": "sa-1510379",
+  "text": "SB 324/2/63 Saint-Cierges (arrondissement d'état civil), 1966.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/63",
+   "Title": "Saint-Cierges (arrondissement d'état civil)",
+   "Dates": "1966-1968",
+   "Creation date(s)": "1/1/1966 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Saint-Cierges (arrondissement de l'état civil): - Mariages 1966-1968 - Décès 1967-1968.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510381",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510382",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/64-71 Sainte-Croix et Granges-de-Sainte-Croix (arrondissement de l'état civil), 1955.01.01-1968.12.31 (Série)",
+  "children": [
+   "sa-1510383",
+   "sa-1510384",
+   "sa-1510385",
+   "sa-1510386",
+   "sa-1510387",
+   "sa-1510388",
+   "sa-1510389",
+   "sa-1510390"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/64-71",
+   "Title": "Sainte-Croix et Granges-de-Sainte-Croix (arrondissement de l'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "8 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Yverdon dès le 1er juin 2004. Adjonction de l'arrondissement de: - Les Granges de Sainte-Croix en 1960",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510382",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510383",
+  "parent": "sa-1510382",
+  "text": "SB 324/2/64 Sainte-Croix (arrondissement d'état civil), 1955.01.01-1959.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/64",
+   "Title": "Sainte-Croix (arrondissement d'état civil)",
+   "Dates": "1955-1959",
+   "Creation date(s)": "1/1/1955 - 12/31/1959",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Granges-de-Sainte-Croix (arrondissement de l'état civil): - Mariages 1955-1959 - Sous-séries diverses relatives à l'état civil 1955-1958.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510383",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510384",
+  "parent": "sa-1510382",
+  "text": "SB 324/2/65 Sainte-Croix (arrondissement d'état civil), 1955.01.01-1955.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/65",
+   "Title": "Sainte-Croix (arrondissement d'état civil)",
+   "Dates": "1955-1955",
+   "Creation date(s)": "1/1/1955 - 12/31/1955",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Sainte-Croix (arrondissement de l'état civil): - Naissances 1955 - Mariages 1955 - Décès 1955 - Sous-séries diverses relatives à l'état civil 1955.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510384",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510385",
+  "parent": "sa-1510382",
+  "text": "SB 324/2/66 Sainte-Croix (arrondissement d'état civil), 1956.01.01-1957.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/66",
+   "Title": "Sainte-Croix (arrondissement d'état civil)",
+   "Dates": "1956-1957",
+   "Creation date(s)": "1/1/1956 - 12/31/1957",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Sainte-Croix (arrondissement de l'état civil): - Naissances 1956-1957 - Mariages 1956-1957 - Décès 1956-1957- Sous-séries diverses relatives à l'état civil 1956-1957.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510385",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510386",
+  "parent": "sa-1510382",
+  "text": "SB 324/2/67 Sainte-Croix (arrondissement d'état civil), 1958.01.01-1959.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/67",
+   "Title": "Sainte-Croix (arrondissement d'état civil)",
+   "Dates": "1958-1959",
+   "Creation date(s)": "1/1/1958 - 12/31/1959",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Sainte-Croix (arrondissement de l'état civil): - Naissances 1958-1959 - Mariages 1958-1959 - Décès 1958-1959- Sous-séries diverses relatives à l'état civil 1958-1959.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510386",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510387",
+  "parent": "sa-1510382",
+  "text": "SB 324/2/68 Sainte-Croix (arrondissement d'état civil), 1941.01.01-1961.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/68",
+   "Title": "Sainte-Croix (arrondissement d'état civil)",
+   "Dates": "1941-1961",
+   "Creation date(s)": "1/1/1941 - 12/31/1961",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Sainte-Croix (arrondissement de l'état civil): - Naissances 1941-1961 - Mariages 1960-1961 - Décès 1945-1961- Sous-séries diverses relatives à l'état civil 1960-1961.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510387",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510388",
+  "parent": "sa-1510382",
+  "text": "SB 324/2/69 Sainte-Croix (arrondissement d'état civil), 1962.01.01-1963.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/69",
+   "Title": "Sainte-Croix (arrondissement d'état civil)",
+   "Dates": "1962-1963",
+   "Creation date(s)": "1/1/1962 - 12/31/1963",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Sainte-Croix (arrondissement de l'état civil): - Naissances 1962-1963 - Mariages 1962-1963 - Décès 1962-1963- Sous-séries diverses relatives à l'état civil 1962-1963.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510388",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510389",
+  "parent": "sa-1510382",
+  "text": "SB 324/2/70 Sainte-Croix (arrondissement d'état civil), 1964.01.01-1965.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/70",
+   "Title": "Sainte-Croix (arrondissement d'état civil)",
+   "Dates": "1964-1965",
+   "Creation date(s)": "1/1/1964 - 12/31/1965",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Sainte-Croix (arrondissement de l'état civil): - Naissances 1964-1965 - Mariages 1964-1965 - Décès 1964-1965- Sous-séries diverses relatives à l'état civil 1964-1965.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510389",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510390",
+  "parent": "sa-1510382",
+  "text": "SB 324/2/71 Sainte-Croix (arrondissement d'état civil), 1966.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/71",
+   "Title": "Sainte-Croix (arrondissement d'état civil)",
+   "Dates": "1966-1968",
+   "Creation date(s)": "1/1/1966 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Sainte-Croix (arrondissement de l'état civil): - Naissances 1966-1968 - Mariages 1966-1967 - Décès 1966-1968- Sous-séries diverses relatives à l'état civil 1966-1968.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510390",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510391",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/72-73 Sullens (arrondissement d'état civil), 1952.01.01-1969.12.31 (Série)",
+  "children": [
+   "sa-1510392",
+   "sa-1510393"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/72-73",
+   "Title": "Sullens (arrondissement d'état civil)",
+   "Dates": "1952-1969",
+   "Creation date(s)": "1/1/1952 - 12/31/1969",
+   "Level": "Série",
+   "Importance matérielle": "2 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement de La Sarraz dès le 1er juin 2004. Comprend: - Sullens - Bettens - Bournens - Boussens - Daillens - Mex - Penthaz - Vufflens-la-Ville",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510391",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510392",
+  "parent": "sa-1510391",
+  "text": "SB 324/2/72 Sullens (arrondissement d'état civil), 1952.01.01-1966.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/72",
+   "Title": "Sullens (arrondissement d'état civil)",
+   "Dates": "1952-1966",
+   "Creation date(s)": "1/1/1952 - 12/31/1966",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Sullens (arrondissement de l'état civil de Sullens): Mariages 1954-1966 - Décès 1952-1966 - Sous-séries diverses relatives à l'état civil 1955-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510392",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510393",
+  "parent": "sa-1510391",
+  "text": "SB 324/2/73 Sullens (arrondissement d'état civil), 1967.01.01-1969.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/73",
+   "Title": "Sullens (arrondissement d'état civil)",
+   "Dates": "1967-1969",
+   "Creation date(s)": "1/1/1967 - 12/31/1969",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Sullens (arrondissement de l'état civil de Sullens): Mariages 1967-1968 - Décès 1967-1969 - Sous-séries diverses relatives à l'état civil 1967-1969.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510393",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510394",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/74 Ursins (arrondissement d'état civil), 1954.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/74",
+   "Title": "Ursins (arrondissement d'état civil)",
+   "Dates": "1954-1968",
+   "Creation date(s)": "1/1/1954 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Ursins (arrondissement de l'état civil): - Naissances 1957-1958 - Mariages 1954-1968 - Dèces 1955-1968 - Sous-séries diverses relatives à l'état civil 1956-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Yverdon dès le 1er juin 2004. Comprend: - Ursins - Gossens - Oppens - Orzens - Pomy - Valeyres-sous-Ursins",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510394",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510395",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/75-78 Vallorbe (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "children": [
+   "sa-1510396",
+   "sa-1510397",
+   "sa-1510398",
+   "sa-1510399"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/75-78",
+   "Title": "Vallorbe (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "5 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Yverdon dès le 1er juin 2004. Adjonction de l'arrondissement de Ballaigues en 1950",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510395",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510396",
+  "parent": "sa-1510395",
+  "text": "SB 324/2/75 Vallorbe (arrondissement d'état civil), 1955.01.01-1958.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/75",
+   "Title": "Vallorbe (arrondissement d'état civil)",
+   "Dates": "1955-1958",
+   "Creation date(s)": "1/1/1955 - 12/31/1958",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Vallorbe (arrondissement de l'état civil): - Naissances 1957-1958 - Mariages 1955-1958 - Dèces 1955-1958 - Sous-séries diverses relatives à l'état civil 1955-1958.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510396",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510397",
+  "parent": "sa-1510395",
+  "text": "SB 324/2/76 Vallorbe (arrondissement d'état civil), 1959.01.01-1962.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/76",
+   "Title": "Vallorbe (arrondissement d'état civil)",
+   "Dates": "1959-1962",
+   "Creation date(s)": "1/1/1959 - 12/31/1962",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Vallorbe (arrondissement de l'état civil): - Mariages 1959-1962 - Dèces 1959-1962 - Sous-séries diverses relatives à l'état civil 1959-1962.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510397",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510398",
+  "parent": "sa-1510395",
+  "text": "SB 324/2/77 Vallorbe (arrondissement d'état civil), 1964.01.01-1966.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/77",
+   "Title": "Vallorbe (arrondissement d'état civil)",
+   "Dates": "1964-1966",
+   "Creation date(s)": "1/1/1964 - 12/31/1966",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Vallorbe (arrondissement de l'état civil): - Mariages 1964-1966 - Dèces 1964-1966 - Sous-séries diverses relatives à l'état civil 1964-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510398",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510399",
+  "parent": "sa-1510395",
+  "text": "SB 324/2/78 Vallorbe (arrondissement d'état civil), 1967.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/78",
+   "Title": "Vallorbe (arrondissement d'état civil)",
+   "Dates": "1967-1968",
+   "Creation date(s)": "1/1/1967 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Vallorbe (arrondissement de l'état civil): - Mariages 1967-1968 - Dèces 1967-1968 - Sous-séries diverses relatives à l'état civil 1968.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510399",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510400",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/79 Vaulion (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/79",
+   "Title": "Vaulion (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Vaulion (arrondissement de l'état civil): - Mariages 1955-1968 - Dèces 1962-1968 - Sous-séries diverses relatives à l'état civil 1957-1965.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 18 décembre 2000 et rattaché à l'arrondissement de Romainmôtier dès le 1er janvier 2001.",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510400",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510401",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/80 Villarzel (arrondissement d'état civil), 1929.01.01-1959.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/80",
+   "Title": "Villarzel (arrondissement d'état civil)",
+   "Dates": "1929-1959",
+   "Creation date(s)": "1/1/1929 - 12/31/1959",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Villarzel (arrondissement de l'état civil): - Naissances 1953 - Mariages 1929-1959 - Décès 1955-1959 - Sous-séries diverses 1935-1958.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 15 décembre 1875). Supprimé par l'arrêté du 23 octobre 1959 et rattaché à l'arrondissement de Granges-près-Marnand dès le 1er janvier 1960. Comprend: - Villarzel - Cerniaz - Rossens - Sédeilles - Seigneux - Villars-Bramard",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510401",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510402",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/81 Vuarrens (arrondissement d'état civil), 1955.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/81",
+   "Title": "Vuarrens (arrondissement d'état civil)",
+   "Dates": "1955-1968",
+   "Creation date(s)": "1/1/1955 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Vuarrens (arrondissement de l'état civil): - Mariages 1955-1968 - Décès 1955-1968 - Sous-séries diverses relatives à l'état civil 1956-1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement d'Echallens dès le 1er juin 2004. Comprend: - Vuarrens - Essertines-sur-Yverdon - Penthéréaz (arrondissement séparé entre 1885 et 1963)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510402",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510403",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/82 Yvonand (arrondissement d'état civil), 1930.01.01-1968.12.31 (Série)",
+  "f": {
+   "Ref. code": "SB 324/2/82",
+   "Title": "Yvonand (arrondissement d'état civil)",
+   "Dates": "1930-1968",
+   "Creation date(s)": "1/1/1930 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yvonand (arrondissement de l'état civil): - Mariages 1955-1968 - Décès 1956-1968 - Sous-séries diverses relatives à l'état civil 1930-1968.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté 10 décembre 1993 et rattaché à l'arrondissement d'Yverdon dès le 1er janvier 1994. Comprend: - Yvonand - Arrissoules - Chavannes-le-Chêne - Cuarny - Rovray - Villars-Epeney",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510403",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510404",
+  "parent": "sa-1510306",
+  "text": "SB 324/2/83-103 Yverdon (arrondissement d'état civil), 1951.01.01-1968.12.31 (Série)",
+  "children": [
+   "sa-1510405",
+   "sa-1510406",
+   "sa-1510407",
+   "sa-1510408",
+   "sa-1510409",
+   "sa-1510410",
+   "sa-1510411",
+   "sa-1510412",
+   "sa-1510413",
+   "sa-1510414",
+   "sa-1510415",
+   "sa-1510416",
+   "sa-1510417",
+   "sa-1510418",
+   "sa-1510419",
+   "sa-1510420",
+   "sa-1510421",
+   "sa-1510422",
+   "sa-1510423",
+   "sa-1510424",
+   "sa-1510425"
+  ],
+  "f": {
+   "Ref. code": "SB 324/2/83-103",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1951-1968",
+   "Creation date(s)": "1/1/1951 - 12/31/1968",
+   "Level": "Série",
+   "Importance matérielle": "21 boites",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Devient l'office d'état civil du Centre et du Nord vaudois en 2006. Comprend: - Yverdon-les-Bains - Cheseaux-Noréaz Adjonction de l'arrondissement de: - Yvonand en 1994",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510404",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510405",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/83 Yverdon (arrondissement d'état civil), 1951.01.01-1951.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/83",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1951-1951",
+   "Creation date(s)": "1/1/1951 - 12/31/1951",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Mariages 1951 - Sous-séries diverses relatives à l'état civil 1951.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510405",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510406",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/84 Yverdon (arrondissement d'état civil), 1955.01.01-1955.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/84",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1955-1955",
+   "Creation date(s)": "1/1/1955 - 12/31/1955",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Naissances 1955 - Décès 1955.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510406",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510407",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/85 Yverdon (arrondissement d'état civil), 1955.01.01-1956.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/85",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1955-1956",
+   "Creation date(s)": "1/1/1955 - 12/31/1956",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Naissances 1956 - Mariages 1955 - Décès 1956 - Sous-séries diverses relatives à l'état civil 1955-1956.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510407",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510408",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/86 Yverdon (arrondissement d'état civil), 1956.01.01-1956.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/86",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1956-1956",
+   "Creation date(s)": "1/1/1956 - 12/31/1956",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Mariages 1956.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510408",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510409",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/87 Yverdon (arrondissement d'état civil), 1957.01.01-1957.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/87",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1957-1957",
+   "Creation date(s)": "1/1/1957 - 12/31/1957",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Naissances 1957 - Mariages 1957 - Décès 1957 - Sous-séries diverses relatives à l'état civil 1957.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510409",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510410",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/88 Yverdon (arrondissement d'état civil), 1958.01.01-1958.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/88",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1958-1958",
+   "Creation date(s)": "1/1/1958 - 12/31/1958",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Naissances 1958 - Mariages 1958 - Décès 1958 - Sous-séries diverses relatives à l'état civil 1958.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510410",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510411",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/89 Yverdon (arrondissement d'état civil), 1959.01.01-1959.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/89",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1959-1959",
+   "Creation date(s)": "1/1/1959 - 12/31/1959",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Naissances 1959 - Mariages 1959 - Décès 1959 - Sous-séries diverses relatives à l'état civil 1959.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510411",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510412",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/90 Yverdon (arrondissement d'état civil), 1960.01.01-1960.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/90",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1960-1960",
+   "Creation date(s)": "1/1/1960 - 12/31/1960",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Naissances 1960 - Mariages 1960 (16 juin-26 novembre) - Décès 1960 - Sous-séries diverses relatives à l'état civil 1960.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510412",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510413",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/91 Yverdon (arrondissement d'état civil), 1960.01.01-1961.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/91",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1960-1961",
+   "Creation date(s)": "1/1/1960 - 12/31/1961",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Naissances 1961 - Mariages 1960 (8 janvier-15 juin)-1961 (mariages hors Yverdon) - Décès 1961 - Sous-séries diverses relatives à l'état civil 1961.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510413",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510414",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/92 Yverdon (arrondissement d'état civil), 1961.01.01-1961.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/92",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1961-1961",
+   "Creation date(s)": "1/1/1961 - 12/31/1961",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Mariages 1961.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510414",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510415",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/93 Yverdon (arrondissement d'état civil), 1962.01.01-1962.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/93",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1962-1962",
+   "Creation date(s)": "1/1/1962 - 12/31/1962",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Naissances 1962 - Mariages 1962.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510415",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510416",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/94 Yverdon (arrondissement d'état civil), 1962.01.01-1963.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/94",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1962-1963",
+   "Creation date(s)": "1/1/1962 - 12/31/1963",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Naissances 1963 - Décès 1962-1963 - Sous-séries diverses relatives à l'état civil 1962-1963.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510416",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510417",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/95 Yverdon (arrondissement d'état civil), 1963.01.01-1963.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/95",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1963-1963",
+   "Creation date(s)": "1/1/1963 - 12/31/1963",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Mariages 1963.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510417",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510418",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/96 Yverdon (arrondissement d'état civil), 1964.01.01-1964.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/96",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1964-1964",
+   "Creation date(s)": "1/1/1964 - 12/31/1964",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Mariages 1964.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510418",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510419",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/97 Yverdon (arrondissement d'état civil), 1964.01.01-1965.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/97",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1964-1965",
+   "Creation date(s)": "1/1/1964 - 12/31/1965",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Naissances 1964-1965 - Décès 1964-1965 - Sous-séries diverses relatives à l'état civil 1964-1965.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510419",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510420",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/98 Yverdon (arrondissement d'état civil), 1965.01.01-1965.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/98",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1965-1965",
+   "Creation date(s)": "1/1/1965 - 12/31/1965",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Mariages 1965.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510420",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510421",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/99 Yverdon (arrondissement d'état civil), 1966.01.01-1966.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/99",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1966-1966",
+   "Creation date(s)": "1/1/1966 - 12/31/1966",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Naissances 1966 - Mariages 1966 (2 juillet-27 décembre)- Décès 1966 - Sous-séries diverses relatives à l'état civil 1966.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510421",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510422",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/100 Yverdon (arrondissement d'état civil), 1966.01.01-1967.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/100",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1966-1967",
+   "Creation date(s)": "1/1/1966 - 12/31/1967",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Naissances 1967 - Mariages 1966 (8 janvier-2 juillet)-1967 (mariages hors Yverdon) - Décès 1967 - Sous-séries diverses relatives à l'état civil 1967.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510422",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510423",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/101 Yverdon (arrondissement d'état civil), 1967.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/101",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1967-1968",
+   "Creation date(s)": "1/1/1967 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Mariages 1967 - Décès 1968 - Sous-séries diverses relatives à l'état civil 1968.",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510423",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510424",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/102 Yverdon (arrondissement d'état civil), 1968.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/102",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1968-1968",
+   "Creation date(s)": "1/1/1968 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Naissances 1968 - Mariages 1968 (26 avril-27 décembre).",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510424",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1510425",
+  "parent": "sa-1510404",
+  "text": "SB 324/2/103 Yverdon (arrondissement d'état civil), 1968.01.01-1968.12.31 (Sous-série)",
+  "f": {
+   "Ref. code": "SB 324/2/103",
+   "Title": "Yverdon (arrondissement d'état civil)",
+   "Dates": "1968-1968",
+   "Creation date(s)": "1/1/1968 - 12/31/1968",
+   "Level": "Sous-série",
+   "Importance matérielle": "1 boîte",
+   "Content": "Yverdon (arrondissement de l'état civil): - Mariages 1968 (4 janvier-19 avril).",
+   "Access regulations": "Consultation restreinte: voir au niveau du fonds (SB 324).",
+   "Language": "Français et autres langues",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1510425",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

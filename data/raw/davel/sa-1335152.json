@@ -1,0 +1,299 @@
+[
+ {
+  "slug": "sa-1335152",
+  "parent": null,
+  "text": "SB 269/5 Aubonne (arrondissement de l'état civil), 1876.01.01-1928.12.29 (Sous-fonds)",
+  "children": [
+   "sa-1335153",
+   "sa-1335158",
+   "sa-1335163"
+  ],
+  "f": {
+   "Ref. code": "SB 269/5",
+   "Title": "Aubonne (arrondissement de l'état civil)",
+   "Dates": "1876 janvier 01 - 1928 décembre 29",
+   "Creation date(s)": "1/1/1876 - 12/29/1928",
+   "Level": "Sous-fonds",
+   "Importance matérielle": "11 registres",
+   "Access regulations": "Seuls les actes de naissance de plus de 110 ans, les actes de mariage de plus de 80 ans et les actes de décès de plus de 50 ans sont consultables librement en salle de lecture des ACV.",
+   "Language": "Français",
+   "Notes": "Arrondissement créé le 1er janvier 1876 (Arrêté du 1er décembre 1875). Supprimé par l'arrêté du 5 mai 2004 et rattaché à l'arrondissement de Rolle dès le 1er juin 2004. Comprend: - Aubonne - Bougy-Villars - Féchy - Saint-Livres Adjonction des arrondissements de - Bière en 1995 - Gimel en 1995",
+   "Entries": "état civil (Matières\\E)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335152",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335153",
+  "parent": "sa-1335152",
+  "text": "SB 269/5/1 Registres des naissances, 1876.01.14-1928.12.21 (Série)",
+  "children": [
+   "sa-1335154",
+   "sa-1335155",
+   "sa-1335156",
+   "sa-1335157"
+  ],
+  "f": {
+   "Ref. code": "SB 269/5/1",
+   "Title": "Registres des naissances",
+   "Dates": "1876 janvier 14 - 1928 décembre 21",
+   "Creation date(s)": "1/14/1876 - 12/21/1928",
+   "Level": "Série",
+   "Importance matérielle": "4 registres",
+   "Access regulations": "Seuls les actes de naissance de plus de 110 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "Entries": "[registre de naissances] (Matières\\ Subdivisions\\de forme)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335153",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335154",
+  "parent": "sa-1335153",
+  "text": "SB 269/5/1/1 Registre des naissances, 1876.01.14-1895.01.10 (Pièce)",
+  "f": {
+   "Ref. code": "SB 269/5/1/1",
+   "Title": "Registre des naissances",
+   "Dates": "1876 janvier 14 - 1895 janvier 10",
+   "Creation date(s)": "1/14/1876 - 1/10/1895",
+   "Level": "Pièce",
+   "Importance matérielle": "1 registre",
+   "Access regulations": "Seuls les actes de naissance de plus de 110 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335154",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335155",
+  "parent": "sa-1335153",
+  "text": "SB 269/5/1/2 Registre des naissances, 1895.01.26-1908.10.13 (Pièce)",
+  "f": {
+   "Ref. code": "SB 269/5/1/2",
+   "Title": "Registre des naissances",
+   "Dates": "1895 janvier 26 - 1908 octobre 13",
+   "Creation date(s)": "1/26/1895 - 10/13/1908",
+   "Level": "Pièce",
+   "Importance matérielle": "1 registre",
+   "Access regulations": "Seuls les actes de naissance de plus de 110 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335155",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335156",
+  "parent": "sa-1335153",
+  "text": "SB 269/5/1/3 Registre des naissances, 1908.10.03-1925.02.03 (Pièce)",
+  "f": {
+   "Ref. code": "SB 269/5/1/3",
+   "Title": "Registre des naissances",
+   "Dates": "1908 octobre 03 - 1925 février 03",
+   "Creation date(s)": "10/3/1908 - 2/3/1925",
+   "Level": "Pièce",
+   "Importance matérielle": "1 registre",
+   "Access regulations": "Seuls les actes de naissance de plus de 110 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335156",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335157",
+  "parent": "sa-1335153",
+  "text": "SB 269/5/1/4 Registre des naissances, 1925.02.08-1928.12.21 (Pièce)",
+  "f": {
+   "Ref. code": "SB 269/5/1/4",
+   "Title": "Registre des naissances",
+   "Dates": "1925 février 08 - 1928 décembre 21",
+   "Creation date(s)": "2/8/1925 - 12/21/1928",
+   "Level": "Pièce",
+   "Importance matérielle": "1 registre",
+   "Access regulations": "Seuls les actes de naissance de plus de 110 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335157",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335158",
+  "parent": "sa-1335152",
+  "text": "SB 269/5/2 Registres des mariages, 1876.01.06-1928.12.29 (Série)",
+  "children": [
+   "sa-1335159",
+   "sa-1335160",
+   "sa-1335161",
+   "sa-1335162"
+  ],
+  "f": {
+   "Ref. code": "SB 269/5/2",
+   "Title": "Registres des mariages",
+   "Dates": "1876 janvier 06 - 1928 décembre 29",
+   "Creation date(s)": "1/6/1876 - 12/29/1928",
+   "Level": "Série",
+   "Importance matérielle": "4 registres",
+   "Access regulations": "Seuls les actes de mariage de plus de 80 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "Entries": "mariage (Matières\\M)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335158",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335159",
+  "parent": "sa-1335158",
+  "text": "SB 269/5/2/1 Registre des mariages, 1876.01.06-1892.11.02 (Pièce)",
+  "f": {
+   "Ref. code": "SB 269/5/2/1",
+   "Title": "Registre des mariages",
+   "Dates": "1876 janvier 06 - 1892 novembre 02",
+   "Creation date(s)": "1/6/1876 - 11/2/1892",
+   "Level": "Pièce",
+   "Importance matérielle": "1 registre",
+   "Access regulations": "Seuls les actes de mariage de plus de 80 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335159",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335160",
+  "parent": "sa-1335158",
+  "text": "SB 269/5/2/2 Registre des mariages, 1893.11.23-1907.05.21 (Pièce)",
+  "f": {
+   "Ref. code": "SB 269/5/2/2",
+   "Title": "Registre des mariages",
+   "Dates": "1893 novembre 23 - 1907 mai 21",
+   "Creation date(s)": "11/23/1893 - 5/21/1907",
+   "Level": "Pièce",
+   "Importance matérielle": "1 registre",
+   "Access regulations": "Seuls les actes de mariage de plus de 80 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335160",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335161",
+  "parent": "sa-1335158",
+  "text": "SB 269/5/2/3 Registre des mariages, 1907.06.07-1921.07.23 (Pièce)",
+  "f": {
+   "Ref. code": "SB 269/5/2/3",
+   "Title": "Registre des mariages",
+   "Dates": "1907 juin 07 - 1921 juillet 23",
+   "Creation date(s)": "6/7/1907 - 7/23/1921",
+   "Level": "Pièce",
+   "Importance matérielle": "1 registre",
+   "Access regulations": "Seuls les actes de mariage de plus de 80 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335161",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335162",
+  "parent": "sa-1335158",
+  "text": "SB 269/5/2/4 Registre des mariages, 1921.08.19-1928.12.29 (Pièce)",
+  "f": {
+   "Ref. code": "SB 269/5/2/4",
+   "Title": "Registre des mariages",
+   "Dates": "1921 août 19 - 1928 décembre 29",
+   "Creation date(s)": "8/19/1921 - 12/29/1928",
+   "Level": "Pièce",
+   "Importance matérielle": "1 registre",
+   "Access regulations": "Seuls les actes de mariage de plus de 80 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335162",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335163",
+  "parent": "sa-1335152",
+  "text": "SB 269/5/3 Registres des décès, 1876.01.01-1928.12.27 (Série)",
+  "children": [
+   "sa-1335164",
+   "sa-1335165",
+   "sa-1335166"
+  ],
+  "f": {
+   "Ref. code": "SB 269/5/3",
+   "Title": "Registres des décès",
+   "Dates": "1876 janvier 01 - 1928 décembre 27",
+   "Creation date(s)": "1/1/1876 - 12/27/1928",
+   "Level": "Série",
+   "Importance matérielle": "3 registres",
+   "Access regulations": "Seuls les actes de décès de plus de 50 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "Entries": "décès (Matières\\D)",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335163",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335164",
+  "parent": "sa-1335163",
+  "text": "SB 269/5/3/1 Registre des décès, 1876.01.01-1899.11.24 (Pièce)",
+  "f": {
+   "Ref. code": "SB 269/5/3/1",
+   "Title": "Registre des décès",
+   "Dates": "1876 janvier 01 - 1899 novembre 24",
+   "Creation date(s)": "1/1/1876 - 11/24/1899",
+   "Level": "Pièce",
+   "Importance matérielle": "1 registre",
+   "Access regulations": "Seuls les actes de décès de plus de 50 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335164",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335165",
+  "parent": "sa-1335163",
+  "text": "SB 269/5/3/2 Registre des décès, 1899.11.24-1921.04.13 (Pièce)",
+  "f": {
+   "Ref. code": "SB 269/5/3/2",
+   "Title": "Registre des décès",
+   "Dates": "1899 novembre 24 - 1921 avril 13",
+   "Creation date(s)": "11/24/1899 - 4/13/1921",
+   "Level": "Pièce",
+   "Importance matérielle": "1 registre",
+   "Access regulations": "Seuls les actes de décès de plus de 50 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335165",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ },
+ {
+  "slug": "sa-1335166",
+  "parent": "sa-1335163",
+  "text": "SB 269/5/3/3 Registre des décès, 1921.05.19-1928.12.27 (Pièce)",
+  "f": {
+   "Ref. code": "SB 269/5/3/3",
+   "Title": "Registre des décès",
+   "Dates": "1921 mai 19 - 1928 décembre 27",
+   "Creation date(s)": "5/19/1921 - 12/27/1928",
+   "Level": "Pièce",
+   "Importance matérielle": "1 registre",
+   "Access regulations": "Seuls les actes de décès de plus de 50 ans sont consultables en salle de lecture des ACV.",
+   "Language": "Français",
+   "URL": "https://davel.vd.ch/detail.aspx?ID=1335166",
+   "Home": "|",
+   "Workbook": "<new workbook>"
+  }
+ }
+]

@@ -43,6 +43,13 @@ const checks = [
   ["date invalide → code 2", () => acv("chercher", "Ollon", "naissance", "31.02.1787").status === 2],
   ["acte inconnu → code 2", () => acv("chercher", "Ollon", "communion", "1787").status === 2],
   ["registre sans pages reliées → code 2", () => acv("page", "SB 267/12/1/7", "10").status === 2],
+  ["chercher Aigle mariage 1950 → SB 268/2/11 non versé, à part des registres", () => {
+    const result = json("chercher", "Aigle", "mariage", "1950");
+    return result.missing.some(gap => gap.cote === "SB 268/2/11" && gap.start === "1947-05-01") && !result.registers.some(unit => unit.cote.includes("FANTOME"));
+  }],
+  ["chercher Aigle mariage 1950 → SB 267/2/2/13 consultable en entier dès 2038", () => json("chercher", "Aigle", "mariage", "1950").registers.find(unit => unit.cote === "SB 267/2/2/13").fullyConsultableFrom === 2038],
+  ["chercher Ollon mariage 15.10.1957 → SB 268/73/10, promesses des six mois précédents", () => json("chercher", "Ollon", "mariage", "15.10.1957").registers.some(unit => unit.cote === "SB 268/73/10")],
+  ["lieux chessières → aussi Ollon et l'arrondissement de Huémoz", () => json("lieux", "chessières").some(entry => entry.name === "Chessières" && entry.places.includes("Ollon") && entry.places.includes("arrondissement"))],
   ["page SB 267/49/1/1 10 → ≈ PDF p. 13, déduite", () => {
     const [target] = json("page", "SB 267/49/1/1", "10").targets;
     return target.pdf === 13 && target.approx;
