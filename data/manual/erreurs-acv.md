@@ -72,6 +72,7 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [SB 23/2046](https://davel.vd.ch/detail.aspx?ID=612956) | Vallorbe | Dates | 1908 | 1907 | Titre : 1907 ; SB 23/2045 couvre 1906 et SB 23/2047 1908. | |
 | [Eb 118/3](https://davel-vd.ch/eb-118-3) | Rougemont | Date(s) ; Portée et contenu | 1752-04-01 - 1786-01-01 ; Baptêmes (1752 avril - 1786 janvier 1) | 1752-04-01 - 1787-12-31 ; Baptêmes (1752 avril - 1787 décembre 31) | Les pp. 235-243 portent l'année 1787 ; la dernière page renvoie au « Registre suivant N° IV qui commence avec l'année 1788 » (Eb 118/4) et le répertoire (Eb 118/2) couvre « 1752 (avril 1) à 1787 (décembre 31) ». | |
 | [Ed 78/6](https://davel-vd.ch/ed-78-6) | Lutry | Instruments de recherche | Répertoire séparé des mariages Ed 78/6 | Répertoire séparé des décès Ed 78/6 | La couverture du répertoire (PDF 463) porte « Registre des décès » et ses entrées sont des décès 1821-1853. | |
+| [SB 23/635](https://davel.vd.ch/detail.aspx?ID=603485) | Bussigny-près-Lausanne | Titre | Mariages A 1884-1887 (Il manque les années 1884-1885 pour les mariages B) | Mariages A et B 1884-1887 (Il manque les années 1884-1885 pour les mariages B) | La note suppose que la boîte contient aussi les mariages B, ceux de 1886-1887 ; les boîtes suivantes, SB 23/636 et 637, portent « Mariages A et B ». | |
 
 ## À vérifier sur le PDF
 
