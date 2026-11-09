@@ -14,3 +14,12 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Eb 12/5 | 181-229, 241-299, 301-359 | Catéchumènes : positions approchées entre les repères. Lire une page sur dix pour situer chaque billet et découper des parties exactes ; le PDF 210 porte peut-être « 98 ». |
 | Ed 12/5 | 281, 282, 329 | Pp. 275-276 (feuillet blanc) et p. 323 déduites de leurs voisins. |
 | Ed 58/5 | 12 | P. 7 déduite (PDF 8 = p. 3) ; la date du 31 décembre 1875 y est lue. |
+| Eb 70/1 | 12, 14, 15 | Pp. 5-8 rongées. PDF 12-13 pris pour une seconde prise des pp. 5-6 (même bas de page que le PDF 10, « 6 » lu au PDF 13) ; pp. 7-8 aux PDF 14-15 déduites, numéros illisibles. |
+| Eb 70/1 | 30 | Lu « 33 » entre PDF 29 = p. 30 et PDF 31 = p. 32 : compté comme p. 31. |
+| Eb 70/3 | 188 | P. 184 déduite (PDF 187 = p. 183), page sans numéro lisible. |
+| Eb 70/6 | 8 | P. 0 (liste des pasteurs) sans numéro, d'après l'inventaire (pp. 0-384). |
+| Ed 70/1 | 100, 176, 182 | Repères tous les 10-15 PDF ; positions approchées entre eux. Lectures douteuses écartées : PDF 100 (« 82 » ?, entre 98 = p. 86 et 108 = p. 94), 176 et 182 (« 156 » ou « 158 »). |
+| Ed 70/2 | 170-182, 338-350 | Repères tous les 12 PDF ; positions approchées entre eux, et sur 26 PDF entre 160 (p. 137) et 186 (p. 162), 332 (p. 290) et 356 (p. 312). |
+| Ed 70/3 | 106 | P. 91 déduite : PDF 104 = p. 90 photographiée une seconde fois, 105 petite image prise pour un billet seul, 115 = p. 100. |
+| Ed 70/4 | 36-66, 196, 200 | Repères tous les 12 PDF ; positions approchées entre eux. Début désordonné : pages « 11 bis » (PDF 26) et « 28 bis » (PDF 50), formulaires barrés, rien de lu entre 32 (p. 15) et 68 (p. 40) sauf « 35 » mal visible au PDF 60. Lectures douteuses écartées : 196 (« 151 » ?) et 200 (« 157 » ?, entre 184 = p. 141 et 210 = p. 165). |
+| Ed 70/6 | 236-270, 314-352 | Repères tous les 12-14 PDF ; positions approchées entre eux, formulaires vides fréquents (PDF 242, 256, 328, 342). |
