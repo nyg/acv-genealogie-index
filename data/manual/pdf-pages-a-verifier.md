@@ -33,3 +33,9 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Ed 90/2 | 18, 33, 55 | Pp. 1-75 : formulaires inutilisés intercalés ; repères aux PDF 10, 12, 26, 40, 70 et 85, positions approchées entre eux (rien de lu entre 40 et 70). |
 | Ed 90/1 | 70, 75, 80 | Pp. 1-112 : repères tous les 5-12 PDF entre des formulaires inutilisés, positions approchées entre eux ; rien de lu entre les PDF 64 (p. 43) et 85 (p. 58), le PDF 75 sans numéro lisible. |
 | Eb 90/4 | 84, 85, 86 | Partie tête-bêche à l'envers : la limite entre les baptêmes 1813-1821 (PDF 86, pp. 23-24, 1820-1821) et les actes de 1777-1836 (PDF 84, pp. 28-29, 1777-1779) n'est pas lue ; positions approchées entre les repères. |
+| Ed 136/1 | 33, 37, 61, 344 | Repères déduits des pages voisines, numéros non lus sur l'image : p. 20 (PDF 33), p. 21 (37), p. 40 (61) et p. 265 (344, avant « 265 bis »). |
+| Ed 136/3 | 29, 30, 31 | P. 8 introuvable : le PDF 28 porte la p. 7, le PDF 29 une attestation sans numéro, les PDF 30-31 un feuillet blanc, le PDF 32 la p. 9. Vérifier si le répertoire cite une p. 8. |
+| Ed 114 bis/1 | 51, 59, 85 | Pp. 30 (PDF 51) et 49 (PDF 85) déduites, numéro hors de la bande lue ; le PDF 59, feuille sans numéro entre les pp. 37 et 38, n'est pas identifié. La p. 23 manque (PDF 36-41 : feuillet blanc et formulaires vides). |
+| Ed 114 bis/2 | 43, 70 | Pp. 26 (PDF 43) et 44 (PDF 70) déduites de leurs voisines, numéro non lu. |
+| Ed 143/1 | 87 | P. 72 sous un billet, numéro caché : placée d'après le PDF 88 (même page sans le billet). |
+| Ed 143/3 | 283, 284 | Répertoire : pagination citée non lue (le PDF 282 est une couverture). |
