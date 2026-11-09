@@ -62,3 +62,11 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Eb 13/3 | 14-102, 106-139 | Aucun numéro de page trouvé en haut des baptêmes ni en haut ou en bas des décès : les baptêmes pp. 0-88 sont placées d'après le nombre d'images (PDF 14-102, années 1799-1830 lues), les décès sont sans pages. |
 | Eb 13/5 | 6-8 | P. 0 placée au PDF 7 d'après le décalage (PDF 45 = p. 38, 85 = p. 78) ; numéros non visibles aux PDF 6-8. |
 | Eb 13/5 | 89-91 | Pp. 82-84 (tête-bêche) : la p. 82 porte « Noms des Pasteurs de l'Église de … » ; vérifier si ces pages contiennent des annonces, comme le dit l'inventaire, ou seulement une liste de pasteurs. |
+| Eb 132/1 | 13 | Le premier baptême (26 mars 1613) est sur un feuillet numéroté 181 en rouge, compté comme la p. 1 de l'inventaire : vérifier si le répertoire des baptêmes (PDF 148-207) le cite p. 1 ou p. 181. |
+| Eb 132/1 | 108, 109 | Pas de pp. 97-98 entre le PDF 108 (p. 96) et le PDF 109 (p. 99) : numéros sautés ou feuillet absent, dates des deux pages non comparées. |
+| Eb 132/8 | 141 | Page entre la p. 133 (PDF 140) et la p. 134 (PDF 142), mariages de novembre 1808, numérotée « 135 b » ou « 133 b » (lecture incertaine) ; le PDF 143 (p. 135) montre aussi « 135 b » au-dessus. |
+| Eb 132/9 | 8 | Liste des pasteurs placée au PDF 8 d'après la note de l'inventaire, vue seulement en vignette. |
+| Eb 132/11 | 86, 87 | Doubles pages pp. 163-166 déduites (PDF 85 = pp. 161 bis-162, PDF 88 = pp. 170-171) ; l'absence des pp. 167-169 est placée entre les PDF 87 et 88 sans lecture. |
+| Eb 132/11 | 107-119 | Seconde pagination à la fin du volume : seule la p. 1 (prix de piété filiale, 1805) est lue ; vérifier si ces pages, que les dates de l'inventaire (jusqu'en 1855) couvrent peut-être, contiennent des actes. |
+| Eb 132/14 | 175, 177 | Fiches insérées après la p. 166 : seules « 166 a » (PDF 174) et « 166 c » (PDF 176) sont lues. |
+| Eb 132/16 | 201-204 | Catéchumènes : la p. 24 (1821) au PDF 204 est déduite du PDF 190 = p. 10, numéros non lus aux PDF 201-204. |

@@ -2972,5 +2972,183 @@
       {"pdf": "7-88", "content": "Annonces de mariage 1792-1821", "pages": "0-81"},
       {"pdf": "89-91", "content": "Annonces de mariage 1792-1821", "pages": "82-84", "note": "Pages tête-bêche ; la p. 82 porte « Noms des Pasteurs de l'Église de … »."}
     ]
+  },
+  "Eb 132/1": {
+    "pdfPages": 313,
+    "parts": [
+      {"pdf": "3-13", "content": "Notices sur les pasteurs de Vevey", "pages": "171-181", "note": "Feuillets placés en tête du volume, numérotés à l'encre rouge à la suite du registre (pp. 171-181)."},
+      {"pdf": "13", "content": "Baptêmes 1613", "pages": "1", "note": "Le feuillet numéroté 181 porte le premier baptême (26 mars 1613), compté comme la p. 1 de l'inventaire."},
+      {"pdf": "14-108", "content": "Baptêmes 1613-1688", "pages": "2-96", "note": "Numéros à l'encre rouge ; pp. 7-29 et 93 blanches."},
+      {"pdf": "109-145", "content": "Baptêmes 1613-1688", "pages": "99-135", "note": "Pas de pp. 97-98 : le PDF 109 (p. 99) suit le PDF 108 (p. 96). P. 134 blanche."},
+      {"pdf": "148-207", "content": "Répertoire des baptêmes 1613-1688", "note": "Répertoire séparé de janvier 1917, après une bande de couleurs (PDF 147) ; il cite les pages rouges."},
+      {"pdf": "208-242", "content": "Mariages 1613-1676", "pages": "136-170", "note": "Photographiés après le répertoire des baptêmes ; pp. 143-155 blanches."},
+      {"pdf": "254-313", "content": "Répertoire des mariages 1613-1676", "note": "Répertoire séparé de janvier 1917, après une bande de couleurs (PDF 253) ; il cite les dates, pas les pages."}
+    ]
+  },
+  "Eb 132/2": {
+    "pdfPages": 427,
+    "parts": [
+      {"pdf": "12-227", "content": "Baptêmes 1613-1642", "pages": "1-216", "note": "Numéros à l'encre rouge, en haut au milieu de la page. Le PDF 228 est une page blanche numérotée 217 au crayon."},
+      {"pdf": "230-289", "content": "Répertoire des baptêmes 1613-1642", "note": "Répertoire séparé de février 1917, après une bande de couleurs (PDF 229)."},
+      {"pdf": "306-365", "content": "Mariages 1613-1641", "pages": "1-60", "note": "Partie tête-bêche, photographiée à l'endroit après la couverture arrière (PDF 290) et des feuillets blancs (PDF 291-305)."},
+      {"pdf": "368-427", "content": "Répertoire des mariages 1613-1641", "note": "Répertoire séparé de février 1917, après une bande de couleurs (PDF 367)."}
+    ]
+  },
+  "Eb 132/3": {
+    "pdfPages": 504,
+    "parts": [
+      {"pdf": "4-10", "content": "Pages a-g en tête du volume", "note": "Pages liminaires notées a-g (« N° III »)."},
+      {"pdf": "12-264", "content": "Baptêmes 1642-1692", "pages": "1-253", "note": "Numéros à l'encre violette au début, puis rouge."},
+      {"pdf": "265-266", "content": "Baptêmes 1692", "note": "Pp. 253 bis et 253 ter."},
+      {"pdf": "267-292", "content": "Baptêmes 1692-1695", "pages": "254-279"},
+      {"pdf": "293", "content": "Baptêmes 1695", "pages": "279", "note": "P. 279 photographiée une seconde fois, en partie couverte."},
+      {"pdf": "294-311", "content": "Baptêmes 1695-1696", "pages": "280-297"},
+      {"pdf": "313-372", "content": "Répertoire des baptêmes 1642-1696", "note": "Répertoire séparé de mars 1917, après une bande de couleurs (PDF 312)."},
+      {"pdf": "387-442", "content": "Mariages 1642-1696", "pages": "1-56", "note": "Partie tête-bêche, photographiée à l'endroit après la couverture arrière et des feuillets blancs (PDF 373-386)."},
+      {"pdf": "445-504", "content": "Répertoire des mariages 1642-1696", "note": "Répertoire séparé de mars 1917, après une bande de couleurs (PDF 444)."}
+    ]
+  },
+  "Eb 132/4": {
+    "pdfPages": 658,
+    "parts": [
+      {"pdf": "4-10", "content": "Pages a-g en tête du volume", "note": "Pages liminaires notées a-g (« N° IV », liste des pasteurs)."},
+      {"pdf": "14-104", "content": "Baptêmes 1696-1701", "pages": "1-91", "note": "« Liste des Enfans baptisés » à la p. 1."},
+      {"pdf": "105", "content": "Baptêmes 1701, extrait baptistaire", "note": "Extrait baptistaire inséré (« Extrait baptistère de Mons. le capitaine Jean François… »)."},
+      {"pdf": "106-362", "content": "Baptêmes 1701-1718", "pages": "91-347", "note": "P. 91 photographiée une seconde fois, après l'extrait du PDF 105."},
+      {"pdf": "363-437", "content": "Baptêmes 1718-1722", "pages": "347-421", "note": "P. 347 photographiée une seconde fois."},
+      {"pdf": "438-444", "content": "Baptêmes 1722-1723", "pages": "421-427", "note": "P. 421 photographiée une seconde fois."},
+      {"pdf": "446-505", "content": "Répertoire des baptêmes 1696-1723", "note": "Répertoire séparé, après une bande de couleurs (PDF 445)."},
+      {"pdf": "518-599", "content": "Mariages 1696-1722", "pages": "1-82", "note": "Partie tête-bêche, photographiée à l'endroit après la couverture arrière (PDF 506) et des feuillets blancs."},
+      {"pdf": "601-658", "content": "Répertoire des mariages 1696-1722", "note": "Répertoire séparé, après une bande de couleurs (PDF 600)."}
+    ]
+  },
+  "Eb 132/5": {
+    "pdfPages": 865,
+    "parts": [
+      {"pdf": "4-7", "content": "Pages a-d en tête du volume", "note": "Pages liminaires notées a-d (« Régistre N° V »)."},
+      {"pdf": "8-597", "content": "Baptêmes 1723-1765", "pages": "1-590"},
+      {"pdf": "598-605", "content": "Baptêmes hors de la paroisse 1746-1765", "pages": "591-598", "note": "« Ici sont inscrits les Enfants batisés hors de Vevey » ; pages numérotées aussi 1-7."},
+      {"pdf": "606-610", "content": "Baptêmes hors de la paroisse 1746-1765", "pages": "116-120", "note": "Suite, numérotée aussi 8-12 : pages placées après la p. 115 des mariages tête-bêche."},
+      {"pdf": "612-671", "content": "Répertoire des baptêmes 1723-1765", "note": "Répertoire séparé du 28 juin 1917, après une bande de couleurs (PDF 611)."},
+      {"pdf": "679-793", "content": "Mariages 1723-1763", "pages": "1-115", "note": "Partie tête-bêche, photographiée à l'endroit après la couverture arrière (PDF 672), des feuillets blancs et le titre « Registre des Mariages bénis » (PDF 676)."},
+      {"pdf": "794-804", "content": "Mariages 1763-1766", "pages": "599-609", "note": "Suite des mariages, numérotée entre parenthèses à la suite des baptêmes hors de la paroisse."},
+      {"pdf": "806-865", "content": "Répertoire des mariages 1723-1766", "note": "Répertoire séparé de mai 1917, après une bande de couleurs (PDF 805)."}
+    ]
+  },
+  "Eb 132/6": {
+    "pdfPages": 121,
+    "parts": [
+      {"pdf": "9-117", "content": "Annonces de mariages 1766-1777", "pages": "1-109", "note": "Numéros à l'encre rouge."}
+    ]
+  },
+  "Eb 132/7": {
+    "pdfPages": 670,
+    "parts": [
+      {"pdf": "6-13", "content": "Pages a-f en tête du volume", "note": "Pages liminaires notées a-f (« N° VI ») ; billet posé sur la p. a (PDF 7) et mandat de publication de 1766 (PDF 8)."},
+      {"pdf": "14-450", "content": "Baptêmes 1763-1799", "pages": "1-437"},
+      {"pdf": "451-562", "content": "Baptêmes 1799-1807", "pages": "437-548", "note": "Deux pages portent le n° 437 (PDF 450 et 451)."},
+      {"pdf": "564-645", "content": "Répertoire des baptêmes 1763-1821", "note": "Répertoire séparé des baptêmes d'Eb 132/7 à Eb 132/10, après une bande de couleurs (PDF 563)."},
+      {"pdf": "650-670", "content": "Baptêmes hors de Vevey 1764-1808", "pages": "549-569", "note": "Partie tête-bêche, photographiée à l'endroit après la couverture arrière (PDF 646) et des feuillets blancs : « Icy sont inscripts les Enfans batisés hors de Vevey »."}
+    ]
+  },
+  "Eb 132/8": {
+    "pdfPages": 356,
+    "parts": [
+      {"pdf": "8-140", "content": "Mariages 1767-1808", "pages": "1-133"},
+      {"pdf": "141", "content": "Mariages 1808", "note": "Page numérotée « 135 b » (ou « 133 b »), mariages de novembre 1808, entre la p. 133 (PDF 140) et la p. 134 (PDF 142)."},
+      {"pdf": "142-255", "content": "Mariages 1808-1821", "pages": "134-247", "note": "Une copie de lettre du juge de paix (1809) est à la p. 135. Pages blanches dès la p. 248 (PDF 256)."},
+      {"pdf": "258-337", "content": "Répertoire des mariages 1767-1821", "note": "Répertoire séparé, après une bande de couleurs (PDF 257)."},
+      {"pdf": "342-356", "content": "Mariages à l'étranger 1778-1821", "pages": "248-262", "note": "Partie tête-bêche, photographiée à l'endroit après la couverture arrière (PDF 338) et des feuillets blancs (PDF 339-341)."}
+    ]
+  },
+  "Eb 132/9": {
+    "pdfPages": 692,
+    "parts": [
+      {"pdf": "8", "content": "Liste des pasteurs", "note": "Avant la p. 1."},
+      {"pdf": "10", "content": "Décès 1745", "pages": "1", "note": "P. 1 photographiée deux fois (PDF 10, puis 11 avec un billet de parchemin)."},
+      {"pdf": "11-154", "content": "Décès 1745-1764", "pages": "1-144"},
+      {"pdf": "155", "content": "Décès 1764", "pages": "144", "note": "P. 144 photographiée une seconde fois ; billet seul au PDF 156."},
+      {"pdf": "157-532", "content": "Décès 1764-1802", "pages": "145-520", "note": "Vers la fin, numéros corrigés (493 récrit 503…)."},
+      {"pdf": "533", "content": "Décès 1800-1802", "note": "P. 520 bis."},
+      {"pdf": "534-548", "content": "Décès 1800-1802", "pages": "521-535"},
+      {"pdf": "554-605", "content": "Répertoire des décès 1745-1802", "note": "Répertoire séparé des décès d'Eb 132/9 (« Vol. 1 »), après une bande de couleurs (PDF 553)."},
+      {"pdf": "607-692", "content": "Répertoire des décès 1745-1802", "note": "Répertoire séparé des décès d'Eb 132/9 à Eb 132/11, après une bande de couleurs (PDF 606) : sa couverture renvoie aux pp. 1-80 pour Eb 132/9 ; les pp. 81-113 (Eb 132/11) sont dans le PDF d'Eb 132/11."}
+    ]
+  },
+  "Eb 132/10": {
+    "pdfPages": 366,
+    "parts": [
+      {"pdf": "10-50", "content": "Baptêmes 1808-1810", "pages": "1-41"},
+      {"pdf": "51", "content": "Baptêmes 1810", "note": "P. 41 bis."},
+      {"pdf": "52-244", "content": "Baptêmes 1810-1821", "pages": "42-234"},
+      {"pdf": "247-308", "content": "Baptêmes 1810-1821", "pages": "235-296", "note": "Deux pages blanches sans numéro avant la p. 235 (PDF 245-246). Billet de 1822 collé sur la p. 296 (PDF 308), billet seul au PDF 309."},
+      {"pdf": "311-335", "content": "Baptêmes 1820-1821", "pages": "297-321", "note": "Après une bande de couleurs (PDF 310). Pp. 316-321 : liste des registres, mémoires et devoirs du catéchiste. Pages blanches dès la p. 322 (PDF 336)."},
+      {"pdf": "341-350", "content": "Extraits de baptêmes à l'étranger 1808-1821", "pages": "401-410", "note": "« Inscriptions relevées sur » des extraits, après la couverture arrière (PDF 337)."},
+      {"pdf": "351-366", "content": "Extraits de baptêmes à l'étranger 1808-1821", "pages": "410-425", "note": "P. 410 photographiée deux fois (PDF 350 et 351)."}
+    ]
+  },
+  "Eb 132/11": {
+    "pdfPages": 178,
+    "parts": [
+      {"pdf": "4-84", "content": "Décès 1803-1821", "pages": "1-161", "spread": true, "note": "Photographié en doubles pages : la p. 1 (« Registre mortuaire ») est à droite du PDF 4, déjà photographiée au PDF 3 ; la p. 161 à droite du PDF 84."},
+      {"pdf": "85-87", "content": "Décès 1803-1821", "pages": "162-166", "spread": true, "note": "P. 161 bis à gauche du PDF 85, la p. 162 à droite."},
+      {"pdf": "88-104", "content": "Décès 1803-1821", "pages": "170-203", "spread": true, "anchors": [[171, 88]], "note": "Pp. 167-169, non utilisées, absentes du PDF : le PDF 88 montre les pp. 170-171."},
+      {"pdf": "107-119", "content": "Prix de piété filiale (legs Lienhardt), dès 1805", "note": "Seconde pagination (1-…) à la fin du volume, après des feuillets blancs (PDF 105-106) : clause du testament de Marguerite Dorothée Lienhardt de Berne, transcrite le 19 février 1805, et suite. Pas d'actes de décès."},
+      {"pdf": "122-150", "content": "Répertoire des décès 1803-1821", "note": "Répertoire séparé des décès d'Eb 132/11, après une bande de couleurs (PDF 121), photographié en doubles pages."},
+      {"pdf": "152-178", "content": "Répertoire des décès 1803-1821", "note": "Pp. 81-113 du répertoire séparé des décès d'Eb 132/9 à Eb 132/11 (ses pp. 1-80 sont dans le PDF d'Eb 132/9), après une bande de couleurs (PDF 151), photographié en doubles pages."}
+    ]
+  },
+  "Eb 132/12": {
+    "pdfPages": 392,
+    "parts": [
+      {"pdf": "3-373", "content": "Annonces de mariages 1786-1814", "pages": "1-371", "note": "La p. 372 (PDF 374) est blanche."},
+      {"pdf": "376-389", "content": "Répertoire des annonces de mariages 1786-1814", "note": "Répertoire séparé (« Registre des publications de mariage, ancien Vol. 2 »), photographié à la suite du registre, sans bande de couleurs."}
+    ]
+  },
+  "Eb 132/13": {
+    "pdfPages": 77,
+    "parts": [
+      {"pdf": "6-65", "content": "Annonces de mariages 1814-1821", "pages": "1-60"},
+      {"pdf": "66-70", "content": "Répertoire des annonces de mariages 1814-1821", "note": "Répertoire incorporé, pp. 61-65 ; pages blanches ensuite."}
+    ]
+  },
+  "Eb 132/14": {
+    "pdfPages": 326,
+    "parts": [
+      {"pdf": "8-173", "content": "Baptêmes 1719-1784", "pages": "1-166", "note": "Numéros à l'encre rouge."},
+      {"pdf": "174-177", "content": "Baptêmes, notes 166 a-d", "note": "Fiches dactylographiées insérées après la p. 166 (« 166 a », « 166 c »), sur les noms Henneberger d'après les registres bourgeoisiaux de Guggisberg."},
+      {"pdf": "178-184", "content": "Baptêmes 1719-1784", "pages": "167-173", "note": "Deux pages blanches sans numéro ensuite (PDF 185-186) ; les pp. 174-219 ne sont pas dans le PDF."},
+      {"pdf": "187-198", "content": "Baptêmes et mariages des Allemands dans les églises françaises 1773-1777", "pages": "220-231", "note": "Pages blanches dès la p. 232 (PDF 199)."},
+      {"pdf": "202-215", "content": "Répertoire des baptêmes 1719-1784", "note": "Répertoire séparé de la paroisse allemande (naissances dès sa p. 1, mariages dès sa p. 11), après une bande de couleurs (PDF 201) ; sa partie des mariages est aux PDF 309-326."},
+      {"pdf": "218-258", "content": "Mariages 1720-1784", "pages": "240-280", "note": "Partie tête-bêche, photographiée à l'endroit après la couverture arrière (PDF 216) ; pages blanches ensuite (pp. 281-295 aux PDF 259-273, les pp. 296-305 ne sont pas dans le PDF)."},
+      {"pdf": "274-277", "content": "Catéchumènes 1742-1746", "pages": "306-309"},
+      {"pdf": "278-279", "content": "Catéchumènes 1746", "note": "Pp. 309 bis et 309 ter."},
+      {"pdf": "280-307", "content": "Catéchumènes 1746-1784", "pages": "310-337"},
+      {"pdf": "309-326", "content": "Répertoire des mariages 1720-1784", "note": "Suite du répertoire séparé (dès sa p. 11) : hommes, puis femmes."}
+    ]
+  },
+  "Eb 132/15": {
+    "pdfPages": 194,
+    "parts": [
+      {"pdf": "7-10", "content": "Baptêmes, feuillets 1a-1b", "note": "Feuillets plus petits, numérotés 1a et 1b, insérés avant la p. 1."},
+      {"pdf": "11-115", "content": "Baptêmes 1784-1821", "pages": "1-105"},
+      {"pdf": "117-167", "content": "Répertoire des baptêmes 1784-1821", "note": "Répertoire incorporé à onglets (« Répertoire des baptêmes enregistrés ci-devant »), pages en grande partie blanches."},
+      {"pdf": "172-194", "content": "Baptêmes 1783-1799", "pages": "1-23", "note": "Partie tête-bêche, photographiée à l'endroit après la couverture arrière (PDF 168) et des feuillets blancs (PDF 169-171)."}
+    ]
+  },
+  "Eb 132/16": {
+    "pdfPages": 205,
+    "parts": [
+      {"pdf": "8-63", "content": "Mariages 1784-1821", "pages": "1-56"},
+      {"pdf": "64-174", "content": "Répertoire des mariages 1784-1821", "note": "Répertoire incorporé, pp. 57-167."},
+      {"pdf": "181-204", "content": "Catéchumènes 1785-1821", "pages": "1-24", "note": "Partie tête-bêche, photographiée à l'endroit après la couverture arrière (PDF 175) et des feuillets blancs."}
+    ]
+  },
+  "Eb 132/17": {
+    "pdfPages": 71,
+    "parts": [
+      {"pdf": "6-33", "content": "Annonces de mariages 1803-1818", "pages": "1-28"},
+      {"pdf": "34-66", "content": "Répertoire des annonces de mariages 1803-1818", "note": "Répertoire incorporé, pp. 29-61 ; pages blanches ensuite."}
+    ]
   }
 }
