@@ -82,3 +82,22 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Ed 132/18 | 326-344, 511 | Une page de plus entre p. 312 (PDF 325) et p. 331 (PDF 345), non située ; p. 493 au PDF 511 non lue (fin de partie mise au PDF 510 = p. 492). |
 | Ed 132/19 | 157-170, 352-365 | Deux pages de plus (feuillet blanc ?) entre p. 147 (PDF 156) et p. 160 (PDF 171), une entre p. 340 (PDF 351) et p. 354 (PDF 366), non situées : positions approchées. |
 | Ed 132/23 | 343 | P. 340 placée au PDF 343 (dernière page écrite avant le feuillet blanc), numéro non lu (PDF 342 = p. 339). |
+| Eb 121/1 | 99 | P. 96 déduite (PDF 98 = p. 95, billet aux PDF 100-101, PDF 102 = p. 97). |
+| Eb 121/4 | 474, 476 | Fin du registre : numéros non lus aux PDF 474 et 476 (pp. 463-464 de l'inventaire ?), mis dans une partie sans pages. |
+| Eb 121/4 | 435 | PDF 435 pris pour la p. 424 photographiée de nouveau avec un billet : numéro non lu. |
+| Eb 121/10 | 10, 50, 100, 150, 250, 325 | Foliotage au recto lu seulement aux PDF 10 (« 1 » ?), 200, 300, 350, 360, 362 et 364 ; le « 52 » du PDF 100 ne suit pas (2 pages par folio donneraient le PDF 112). Lire un recto tous les 25 PDF et ajouter des repères. |
+| Ed 121/1 | 42-410 | Repères tous les 8 PDF seulement (formulaires inutilisés partout, non signalés par les tailles) : écart jusqu'à 2-3 pages entre les repères. |
+| Ed 121/2 | 25, 26, 28, 29 | Pp. 20-21 placées entre les repères p. 19 = PDF 24 et p. 22 = PDF 30 : trois formulaires inutilisés non situés. |
+| Ed 121/2 | 428, 477 | Début et fin du répertoire incorporé non lus (après le carton du PDF 427). |
+| Ed 121/3 | 300-320 | Repère PDF 310 lu « 284 », incompatible avec PDF 300 = p. 273 et PDF 320 = p. 292 : écarté. Repères tous les 10 PDF ailleurs. |
+| Ed 121/4 | 301-304 | Pp. 288-292 non situées : PDF 300 = p. 287 et PDF 305 = p. 293 (un numéro sauté ou une lecture fausse au PDF 300). |
+| Ed 121/4 | 66-80, 109-116 | Une page en plus non située dans chaque intervalle (PDF 65 = p. 58, 81 = 73 ; 108 = 99, 117 = 107). |
+| Ed 121/5 | 150-223, 277-298 | Aucun repère entre les PDF 150 et 223 ; numéros des PDF 277-298 lus à basse résolution (263, 263, 264, 265, 274, 280-282), à confirmer. |
+| Ed 121/6 | 6, 7, 8, 9, 250 | Pp. 1-2 non situées (PDF 10 = p. 3, numéros des PDF 6-9 non lus) ; PDF 250 lu « 193 », incompatible avec PDF 259 = p. 190, écarté. |
+| Ed 121/8 | 462 | PDF 462 lu « 377 », incompatible avec PDF 465 = p. 382 : écarté (probablement 379). Repères tous les 6-8 PDF. |
+| Ed 121/9 | 6-482 | Repères tous les 50 PDF seulement (décalage de +5 à +10) : lire une page tous les 15-20 PDF pour situer les formulaires inutilisés. |
+| Ed 19/2 | 136, 137 | Les deux dernières pages portent « Page » sans numéro : pp. 127-128 comptées à la suite. |
+| Ed 19/3 | 9-15, 109 | Pp. 2-4 non situées (PDF 8 = p. 1, PDF 16 = p. 5, formulaires vides entre) ; fin de la première partie (PDF 109 = p. 78) lue sur la page gauche seulement. Repères tous les 4 PDF ailleurs. |
+| Ed 19/4 | 9-13, 20-27 | Formulaires vides et p. « 1 bis » (PDF 12) au début : pp. 2 et 9-14 non situées ; repères tous les 5 PDF jusqu'au PDF 158. |
+| Eb 121/1 | 213, 520-522 | Répertoire PDF 213-264 identifié par l'inventaire seulement (couverture « Admissions à la Ste Cène », « Orbe » ajouté) ; contenu des pp. 123-125 (PDF 520-522) non lu. |
+| Eb 121/7 | 249-318 | Répertoire en deux cahiers (PDF 249-268 et 269-318) : lire les couvertures pour séparer le répertoire d'Eb 121/7 de celui d'Eb 121/ref. |

@@ -41,7 +41,7 @@ Une fois le nom trouvé dans le répertoire, il suffit de saisir dans « Page du
 
 Pour l'état civil fédéral (SB 267), les pages sont déduites d'une règle, page du PDF = page du registre + 3, vérifiée sur 18 registres : l'index les marque « ≈ ». Les registres publiés seulement en partie (naissances après 1899, mariages après 1929, décès après 1959) n'ont ni répertoire dans le PDF ni page déduite.
 
-Ce travail se fait registre par registre. Il couvre pour l'instant Ollon, Bex, Aigle, Ballaigues, Château-d'Oex, L'Étivaz, Gryon, Huémoz, Leysin, Lignerolle, Lutry, Ormont-Dessous, Ormont-Dessus, Rougemont, Cheseaux, La Sarraz, Noville, Villeneuve, Roche, Yvorne, Pully, Belmont-sur-Lausanne et Vevey, et en partie Arzier, Genolier et Begnins. Ailleurs, le PDF s'ouvre à sa première page.
+Ce travail se fait registre par registre. Il couvre pour l'instant Ollon, Bex, Aigle, Ballaigues, Château-d'Oex, L'Étivaz, Gryon, Huémoz, Leysin, Lignerolle, Lutry, Ormont-Dessous, Ormont-Dessus, Rougemont, Cheseaux, La Sarraz, Noville, Villeneuve, Roche, Yvorne, Pully, Belmont-sur-Lausanne, Vevey, Bullet et Sainte-Croix, et en partie Arzier, Genolier et Begnins. Ailleurs, le PDF s'ouvre à sa première page.
 
 ## 3. Ouvrir le PDF à la bonne page, sans le télécharger
 

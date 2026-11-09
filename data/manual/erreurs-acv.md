@@ -102,6 +102,7 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [SB 115/513](https://davel.vd.ch/detail.aspx?ID=615775) | Vevey | Dates et dates de création | 1879-1880 | 1910 | Titre : 1910 ; la série SB 115/513-533 couvre 1910-1928 et SB 115/514 reprend en 1911. Même coquille « 1879-1880 » que SB 23/1057. | |
 | [Eb 136/1](https://davel-vd.ch/eb-136-1) | Villeneuve | Portée et contenu | Baptêmes pages 1-85, 93-96, 101-105 et 111-121 ; Mariages pages 1-43 en tête-bêche | Baptêmes 1572-1619 pp. 1-85 et 93-96, 1619-1635 pp. 1-16 et 41-43 en tête-bêche ; Mariages 1605-1634 pp. 101-105 et 111-121, 1572-1602 pp. 17-40 en tête-bêche | La fiche dit les deux mélangés ; le PDF montre des mariages de 1605-1606 en p. 101 et de 1632 en p. 121, des baptêmes de 1619 en tête-bêche p. 1 (« Sensuyvent les noms des enfants baptisez ») et le titre « Mariages » 1572 en tête-bêche p. 17. | |
 | [Ed 132/16](https://davel-vd.ch/ed-132-16) | Vevey | Instruments de recherche | Répertoire séparé des mariages Ed 132/16 | Répertoire séparé des décès Ed 132/16 | La couverture du répertoire (PDF 407) porte « Registre Décès Vevey, du 28 novembre 1834 au 28 mars 1846 » et ses entrées sont des décès. | |
+| [Ed 121/8](https://davel-vd.ch/ed-121-8) | Sainte-Croix | Instruments de recherche | Répertoire séparé des mariages Ed 121/8 | Répertoire séparé des décès Ed 121/8 | La couverture du répertoire (PDF 471) porte « Registre Décès Ste Croix 1821-1853 », et le registre est celui des décès 1821-1852. | |
 
 ## À vérifier sur le PDF
 
