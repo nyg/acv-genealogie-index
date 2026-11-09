@@ -29,12 +29,35 @@ const tests = {
     [1, 0, 5, 1, 1, 8],
     "lignes de 3 colonnes : la 2e s'ajoute à la 1re",
   ),
+  "un objet plus long que le premier bloc lu est relu en entier": async () => {
+    const kids = Array.from({ length: 600 }, (_, i) => `${i + 3} 0 R`).join(" ");
+    const objects = ["<< /Type /Catalog /Pages 2 0 R >>", `<< /Type /Pages /Count 600 /Kids [${kids}] >>`];
+    let body = "%PDF-1.4\n";
+    const offsets = objects.map((object, i) => {
+      const offset = body.length;
+      body += `${i + 1} 0 obj\n${object}\nendobj\n`;
+      return offset;
+    });
+    const xref = body.length;
+    body += `xref\n0 3\n0000000000 65535 f \n${offsets.map(offset => `${String(offset).padStart(10, "0")} 00000 n \n`).join("")}`;
+    body += `trailer\n<< /Size 3 /Root 1 0 R >>\nstartxref\n${xref}\n%%EOF\n`;
+    const bytes = new TextEncoder().encode(body);
+    context.window.__pdf.delay = 0;
+    context.fetch = async (url, { method, headers } = {}) => {
+      if (method === "HEAD") return { headers: { get: () => String(bytes.length) } };
+      const [, from, to] = /bytes=(\d*)-(\d*)/.exec(headers.Range);
+      const slice = from === "" ? bytes.slice(-to) : bytes.slice(+from, to === "" ? undefined : +to + 1);
+      return { status: 206, arrayBuffer: async () => slice.buffer };
+    };
+    const doc = await context.window.pdf.openDoc("https://example.test/registre.pdf");
+    assert.equal(doc.pages.length, 600, "objet /Pages de plus de 4 Kio");
+  },
 };
 
 let failures = 0;
 for (const [name, run] of Object.entries(tests)) {
   try {
-    run();
+    await run();
     console.log(`ok   ${name}`);
   } catch (error) {
     failures++;

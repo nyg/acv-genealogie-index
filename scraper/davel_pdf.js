@@ -149,8 +149,8 @@
         }
         return (cache[id] = objectStreams[entry.stream][id]);
       }
-      const bytes = await bytesAt(entry.offset, CHUNK_BYTES);
-      return (cache[id] = /^\s*\d+\s+\d+\s+obj([^]*?)(?:stream|endobj)/.exec(latin(bytes))[1]);
+      const body = bytes => /^\s*\d+\s+\d+\s+obj([^]*?)(?:stream|endobj)/.exec(latin(bytes))?.[1];
+      return (cache[id] = body(await bytesAt(entry.offset, CHUNK_BYTES)) ?? body(await bytesAt(entry.offset, objectSize(id))));
     }
     const cheap = id => entries[id]?.type === 2 || entries[id]?.offset >= tailStart;
 
