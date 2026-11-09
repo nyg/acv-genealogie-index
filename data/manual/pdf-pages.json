@@ -3150,5 +3150,222 @@
       {"pdf": "6-33", "content": "Annonces de mariages 1803-1818", "pages": "1-28"},
       {"pdf": "34-66", "content": "Répertoire des annonces de mariages 1803-1818", "note": "Répertoire incorporé, pp. 29-61 ; pages blanches ensuite."}
     ]
+  },
+  "Ed 132/1": {
+    "pdfPages": 456,
+    "parts": [
+      {"pdf": "6-399", "content": "Naissances et baptêmes 1821-1829", "pages": "1-374", "anchors": [[6, 11], [7, 13], [21, 27], [22, 30], [23, 32], [24, 34], [25, 36], [38, 49], [39, 51], [62, 74], [63, 76], [118, 131], [119, 134], [170, 185], [171, 188], [224, 241], [225, 244], [270, 289], [271, 292], [314, 335], [315, 338], [356, 379], [357, 382]], "note": "Pages « 6 bis » (PDF 12), « 23 bis » (PDF 33) et « 24 bis » (PDF 35) ; p. 38 écrite deux fois (PDF 49 et 50) ; formulaires sans numéro aux PDF 31 et 75 ; feuillets blancs aux PDF 28-29, 132-133, 186-187, 242-243, 290-291, 336-337 et 380-381. Positions exactes aux repères."},
+      {"pdf": "405-456", "content": "Répertoire des naissances et baptêmes 1821-1829", "note": "Répertoire séparé, après une bande de couleurs (PDF 404)."}
+    ]
+  },
+  "Ed 132/2": {
+    "pdfPages": 575,
+    "parts": [
+      {"pdf": "6-525", "content": "Naissances et baptêmes 1829-1840", "pages": "1-496", "anchors": [[18, 23], [19, 26], [58, 65], [59, 68], [100, 109], [101, 112], [146, 157], [147, 160], [190, 203], [191, 206], [236, 251], [237, 254], [278, 295], [279, 298], [324, 343], [325, 346], [366, 387], [367, 390], [391, 414], [392, 416], [417, 441], [418, 444], [458, 484], [459, 486], [462, 489], [463, 492]], "note": "Feuillets blancs aux PDF 24-25, 66-67, 110-111, 158-159, 204-205, 252-253, 296-297, 344-345, 388-389, 442-443 et 490-491 ; pages « 391 bis » (PDF 415) et « 458 bis » (PDF 485). Positions exactes aux repères."},
+      {"pdf": "528-575", "content": "Répertoire des naissances et baptêmes 1829-1840", "note": "Répertoire incorporé, après un feuillet blanc et une feuille marbrée (PDF 526-527)."}
+    ]
+  },
+  "Ed 132/3": {
+    "pdfPages": 505,
+    "parts": [
+      {"pdf": "8-453", "content": "Naissances et baptêmes 1840-1849", "pages": "1-424", "anchors": [[16, 23], [17, 26], [45, 54], [46, 56], [61, 71], [62, 74], [111, 123], [112, 126], [116, 130], [117, 132], [124, 139], [125, 141], [149, 165], [150, 167], [160, 177], [161, 180], [208, 227], [209, 230], [254, 275], [255, 278], [300, 323], [301, 326], [338, 363], [339, 366], [380, 407], [381, 410]], "note": "Paires de formulaires inutilisés (« Page » sans numéro) aux PDF 24-25, 72-73, 124-125, 178-179, 228-229, 276-277, 324-325, 364-365 et 408-409 ; pages « 45 bis » (PDF 55), « 116 bis » (PDF 131), « 124 bis » (PDF 140) et « 149 bis » (PDF 166). Positions exactes aux repères."},
+      {"pdf": "456-505", "content": "Répertoire des naissances et baptêmes 1840-1849", "note": "Répertoire incorporé, après une feuille grise et une feuille marbrée (PDF 454-455)."}
+    ]
+  },
+  "Ed 132/4": {
+    "pdfPages": 563,
+    "parts": [
+      {"pdf": "8-509", "content": "Naissances et baptêmes 1849-1859", "pages": "1-480", "anchors": [[14, 21], [15, 24], [64, 73], [65, 76], [112, 123], [113, 126], [168, 181], [169, 184], [216, 231], [217, 234], [274, 291], [275, 294], [330, 349], [331, 352], [374, 395], [375, 398], [379, 402], [380, 405], [420, 445], [421, 448], [474, 501], [475, 504]], "note": "Paires de formulaires inutilisés (« Page » sans numéro) aux PDF 22-23, 74-75, 124-125, 182-183, 232-233, 292-293, 350-351, 396-397, 446-447 et 502-503 ; p. 379 photographiée deux fois (PDF 402-403) avant un carton quadrillé (PDF 404). Positions exactes aux repères."},
+      {"pdf": "514-563", "content": "Répertoire des naissances et baptêmes 1849-1859", "note": "Répertoire incorporé, après deux formulaires inutilisés, une feuille grise et une feuille marbrée (PDF 510-513)."}
+    ]
+  },
+  "Ed 132/5": {
+    "pdfPages": 455,
+    "parts": [
+      {"pdf": "10-216", "content": "Naissances et baptêmes 1859-1865", "pages": "1-207", "note": "P. 207 photographiée de nouveau avant la bande de couleurs (PDF 217)."},
+      {"pdf": "219-246", "content": "Naissances et baptêmes 1859-1865", "pages": "208-235", "note": "Second lot de prise de vue, après la bande de couleurs (PDF 218) ; p. 214 sans numéro (PDF 225) ; p. 235 photographiée de nouveau avant la bande suivante (PDF 247)."},
+      {"pdf": "249-304", "content": "Naissances et baptêmes 1859-1865", "pages": "236-291", "note": "Troisième lot de prise de vue, après la bande de couleurs (PDF 248)."},
+      {"pdf": "305", "content": "Naissances et baptêmes 1859-1865", "pages": "291", "note": "Numéro 291 écrit deux fois (PDF 304 et 305) ; pas de p. 292."},
+      {"pdf": "306-395", "content": "Naissances et baptêmes 1859-1865", "pages": "293-382", "note": "Formulaires inutilisés aux PDF 396-397."},
+      {"pdf": "400-455", "content": "Répertoire des naissances et baptêmes 1859-1865", "note": "Répertoire incorporé, après une feuille grise et une feuille marbrée (PDF 398-399)."}
+    ]
+  },
+  "Ed 132/6": {
+    "pdfPages": 453,
+    "parts": [
+      {"pdf": "8-300", "content": "Naissances et baptêmes 1865-1870", "pages": "1-293", "note": "P. 293 photographiée de nouveau (PDF 301), puis un carton quadrillé (PDF 302)."},
+      {"pdf": "303-385", "content": "Naissances et baptêmes 1865-1870", "pages": "294-376", "note": "Formulaires inutilisés aux PDF 386-389."},
+      {"pdf": "392-453", "content": "Répertoire des naissances et baptêmes 1865-1870", "note": "Répertoire incorporé, après une feuille grise et une feuille marbrée (PDF 390-391)."}
+    ]
+  },
+  "Ed 132/7": {
+    "pdfPages": 457,
+    "parts": [
+      {"pdf": "8-401", "content": "Naissances et baptêmes 1870-1875", "pages": "1-392", "anchors": [[156, 163], [157, 165], [272, 280], [273, 282]], "note": "Pages « 156 bis » (PDF 164) et « 272 bis » (PDF 281) ; p. 29 sans numéro (PDF 36). Formulaires inutilisés aux PDF 402-403. Positions exactes aux repères."},
+      {"pdf": "406-457", "content": "Répertoire des naissances et baptêmes 1870-1875", "note": "Répertoire incorporé, après une feuille grise et une feuille marbrée (PDF 404-405)."}
+    ]
+  },
+  "Ed 132/8": {
+    "pdfPages": 113,
+    "parts": [
+      {"pdf": "10-58", "content": "Naissances et baptêmes 1875", "pages": "1-48", "anchors": [[45, 54], [46, 56]], "note": "Page « 45 bis » (PDF 55). Formulaires inutilisés aux PDF 59-61."},
+      {"pdf": "64-113", "content": "Répertoire des naissances et baptêmes 1875", "note": "Répertoire incorporé, après une feuille grise et une feuille marbrée (PDF 62-63)."}
+    ]
+  },
+  "Ed 132/9": {
+    "pdfPages": 474,
+    "parts": [
+      {"pdf": "8-164", "content": "Mariages 1821-1828", "pages": "1-141", "anchors": [[6, 13], [7, 16], [8, 19], [26, 37], [27, 40], [46, 59], [47, 62], [70, 85], [71, 88], [88, 105], [91, 110], [114, 133], [115, 136], [132, 153], [133, 156], [140, 163]], "note": "Feuillets blancs ou formulaires inutilisés aux changements d'année : PDF 14-15, 17-18, 38-39, 60-61, 86-87, 107-108 (lu en partie), 134-135 et 154-155. Positions exactes aux repères."},
+      {"pdf": "165-416", "content": "Mariages 1828-1837", "pages": "140-375", "anchors": [[141, 166], [148, 173], [149, 176], [202, 229], [203, 232], [222, 251], [223, 254], [242, 273], [243, 276], [260, 293], [261, 296], [294, 329], [295, 332], [326, 363], [327, 366], [362, 401], [363, 404]], "note": "La numérotation reprend à 140 en juin 1828 : les pp. 140-141 existent deux fois (PDF 163-164 et 165-166). Feuillets blancs aux PDF 174-175, 230-231, 252-253, 274-275, 294-295, 330-331, 364-365 et 402-403 ; formulaire sans numéro et feuillets blancs aux PDF 417-420. Positions exactes aux repères."},
+      {"pdf": "423-474", "content": "Répertoire des mariages 1821-1837", "note": "Répertoire séparé, après une bande de couleurs (PDF 422)."}
+    ]
+  },
+  "Ed 132/10": {
+    "pdfPages": 580,
+    "parts": [
+      {"pdf": "6-516", "content": "Mariages 1837-1853", "pages": "1-475", "anchors": [[16, 21], [17, 24], [37, 44], [38, 48], [43, 53], [45, 56], [58, 69], [59, 72], [82, 95], [83, 98], [102, 117], [105, 122], [141, 158], [154, 173], [157, 176], [164, 185], [184, 205], [191, 214], [202, 225], [210, 235], [220, 245], [226, 253], [238, 265], [246, 275], [276, 305], [284, 315], [304, 335], [312, 345], [321, 355], [341, 375], [349, 385], [369, 405], [378, 415], [388, 425], [396, 435], [446, 485], [454, 495]], "note": "Feuillets blancs et formulaires inutilisés reliés aux changements d'année (PDF 22-23, 45-47, 55, 70-71, 96-97, …) : le décalage passe de 5 à 41. Repères lus tous les 10 PDF environ, positions approchées entre eux. P. 475 photographiée de nouveau avant la bande de couleurs (PDF 517)."},
+      {"pdf": "519-520", "content": "Mariages 1853", "pages": "476-477", "note": "Second lot de prise de vue, après la bande de couleurs (PDF 518) ; formulaires inutilisés et feuillets blancs aux PDF 521-526."},
+      {"pdf": "529-580", "content": "Répertoire des mariages 1837-1853", "note": "Répertoire séparé, après une bande de couleurs (PDF 528)."}
+    ]
+  },
+  "Ed 132/11": {
+    "pdfPages": 471,
+    "parts": [
+      {"pdf": "8-405", "content": "Mariages 1853-1861", "pages": "1-382", "anchors": [[20, 27], [21, 30], [62, 71], [63, 74], [92, 103], [93, 106], [146, 159], [147, 162], [194, 209], [195, 212], [238, 255], [239, 258], [300, 319], [301, 322], [376, 397], [377, 400]], "note": "Feuillets blancs ou formulaires inutilisés aux changements d'année (PDF 28-29, 72-73, 104-105, 160-161, 210-211, 256-257, 320-321, 398-399). Formulaires sans numéro (PDF 406-414) puis feuillets blancs jusqu'à la couverture. Positions exactes aux repères."},
+      {"pdf": "420-471", "content": "Répertoire des mariages 1853-1861", "note": "Répertoire séparé, après une bande de couleurs (PDF 419)."}
+    ]
+  },
+  "Ed 132/12": {
+    "pdfPages": 547,
+    "parts": [
+      {"pdf": "10-485", "content": "Mariages 1861-1868", "pages": "1-476", "note": "Formulaires non remplis et sans numéro aux PDF 486-487, feuillet blanc au PDF 488."},
+      {"pdf": "490-547", "content": "Répertoire des mariages 1861-1868", "note": "Répertoire incorporé, après une feuille marbrée (PDF 489)."}
+    ]
+  },
+  "Ed 132/13": {
+    "pdfPages": 451,
+    "parts": [
+      {"pdf": "8-403", "content": "Mariages 1868-1874", "pages": "1-396", "note": "Formulaires non remplis et sans numéro aux PDF 404-405."},
+      {"pdf": "408-451", "content": "Répertoire des mariages 1868-1874", "note": "Répertoire incorporé, après une feuille grise et une feuille marbrée (PDF 406-407)."}
+    ]
+  },
+  "Ed 132/14": {
+    "pdfPages": 238,
+    "parts": [
+      {"pdf": "10-186", "content": "Mariages 1874-1875", "pages": "1-174", "anchors": [[116, 125], [117, 127], [167, 177], [168, 179], [173, 184]], "note": "Pages « 116 bis » (PDF 126) et « 167 bis » (PDF 178) ; formulaire sans numéro au PDF 185. Positions exactes aux repères."},
+      {"pdf": "189-238", "content": "Répertoire des mariages 1874-1875", "note": "Répertoire incorporé, après une feuille grise et une feuille marbrée (PDF 187-188)."}
+    ]
+  },
+  "Ed 132/15": {
+    "pdfPages": 466,
+    "parts": [
+      {"pdf": "6-197", "content": "Décès 1821-1828", "pages": "1-180", "anchors": [[4, 9], [12, 18], [30, 36], [31, 38], [57, 64], [58, 66], [81, 89], [82, 92], [117, 127], [118, 130], [141, 153], [142, 156], [145, 159], [146, 161], [170, 185], [171, 188]], "note": "Formulaires inutilisés ou feuillets blancs aux PDF 17, 37, 65, 90-91, 128-129, 154-155 et 186-187 ; page « 145 bis » (PDF 160). Positions exactes aux repères, approchées entre les PDF 9 et 18."},
+      {"pdf": "198-409", "content": "Décès 1828-1834", "pages": "182-382", "anchors": [[207, 223], [208, 226], [245, 263], [246, 266], [266, 286], [274, 296], [294, 316], [303, 326], [326, 349], [327, 352], [354, 379], [355, 382]], "note": "La pagination saute de 180 (PDF 197) à 182 (PDF 198). Formulaires inutilisés ou feuillets blancs aux PDF 224-225, 264-265, 350-351, 380-381 et entre les PDF 286 et 296 et 316 et 326 (non situés). Positions exactes aux repères."},
+      {"pdf": "415-466", "content": "Répertoire des décès 1821-1834", "note": "Répertoire séparé, après une bande de couleurs (PDF 414)."}
+    ]
+  },
+  "Ed 132/16": {
+    "pdfPages": 458,
+    "parts": [
+      {"pdf": "6-400", "content": "Décès 1834-1846", "pages": "1-371", "anchors": [[4, 9], [5, 12], [34, 41], [35, 44], [60, 69], [61, 72], [94, 105], [95, 108], [132, 145], [133, 148], [168, 183], [169, 186], [200, 217], [201, 220], [236, 255], [237, 258], [272, 293], [273, 296], [302, 325], [303, 328], [332, 357], [333, 360], [362, 389], [363, 392]], "note": "Feuillets blancs aux PDF 10-11, 42-43, 70-71, 106-107, 146-147, 184-185, 218-219, 256-257, 294-295, 326-327, 358-359 et 390-391 ; formulaire inutilisé et feuillets blancs aux PDF 401-404. Positions exactes aux repères."},
+      {"pdf": "407-458", "content": "Répertoire des décès 1834-1846", "note": "Répertoire séparé, après une bande de couleurs (PDF 406) ; sa couverture dit « Registre Décès Vevey », l'inventaire le dit « des mariages »."}
+    ]
+  },
+  "Ed 132/17": {
+    "pdfPages": 448,
+    "parts": [
+      {"pdf": "6-391", "content": "Décès 1846-1853", "pages": "1-371", "anchors": [[28, 33], [29, 36], [58, 65], [71, 79], [72, 82], [109, 119], [110, 122], [151, 163], [152, 166], [199, 213], [200, 216], [251, 267], [252, 270], [301, 319], [302, 322]], "note": "Feuillets blancs aux PDF 34-35, 80-81, 120-121, 164-165, 214-215, 268-269, 320-321 et 392-393 ; une page de plus, non située, entre les PDF 65 et 79. Positions exactes aux repères."},
+      {"pdf": "397-448", "content": "Répertoire des décès 1846-1853", "note": "Répertoire séparé, après une bande de couleurs (PDF 396)."}
+    ]
+  },
+  "Ed 132/18": {
+    "pdfPages": 568,
+    "parts": [
+      {"pdf": "6-510", "content": "Décès 1853-1860", "pages": "1-492", "anchors": [[60, 65], [61, 68], [130, 137], [131, 140], [202, 211], [203, 214], [268, 279], [269, 282], [312, 325], [331, 345], [335, 349], [336, 352], [429, 445], [430, 448]], "note": "Feuillets blancs aux PDF 66-67, 138-139, 212-213, 280-281, 350-351 et 446-447 ; une page de plus, non située, entre les PDF 325 et 345. Formulaires non remplis dès le PDF 511, feuille marbrée au PDF 515. Positions exactes aux repères."},
+      {"pdf": "517-568", "content": "Répertoire des décès 1853-1860", "note": "Répertoire séparé, après une bande de couleurs (PDF 516)."}
+    ]
+  },
+  "Ed 132/19": {
+    "pdfPages": 469,
+    "parts": [
+      {"pdf": "10-405", "content": "Décès 1860-1865", "pages": "1-393", "anchors": [[147, 156], [160, 171], [340, 351], [354, 366]], "note": "Deux pages de plus entre les PDF 156 et 171, une entre les PDF 351 et 366 (non situées) : positions approchées entre ces repères. Formulaires inutilisés aux PDF 406-409, feuillet blanc au PDF 410."},
+      {"pdf": "412-469", "content": "Répertoire des décès 1860-1865", "note": "Répertoire incorporé, après une feuille marbrée (PDF 411)."}
+    ]
+  },
+  "Ed 132/20": {
+    "pdfPages": 453,
+    "parts": [
+      {"pdf": "8-389", "content": "Décès 1865-1869", "pages": "1-382", "note": "Formulaire inutilisé au PDF 390, feuillets blancs aux PDF 391-392."},
+      {"pdf": "394-453", "content": "Répertoire des décès 1865-1869", "note": "Répertoire incorporé, après une feuille marbrée (PDF 393)."}
+    ]
+  },
+  "Ed 132/21": {
+    "pdfPages": 447,
+    "parts": [
+      {"pdf": "8-399", "content": "Décès 1869-1873", "pages": "1-392", "note": "Formulaires non remplis et sans numéro aux PDF 400-401, feuillet blanc au PDF 402."},
+      {"pdf": "404-447", "content": "Répertoire des décès 1869-1873", "note": "Répertoire incorporé, après une feuille marbrée (PDF 403)."}
+    ]
+  },
+  "Ed 132/22": {
+    "pdfPages": 272,
+    "parts": [
+      {"pdf": "10-218", "content": "Décès 1873-1875", "pages": "1-209", "note": "P. 199 sans numéro (PDF 208). Formulaires inutilisés aux PDF 219-220, feuillet blanc au PDF 221."},
+      {"pdf": "223-272", "content": "Répertoire des décès 1873-1875", "note": "Répertoire incorporé, après une feuille marbrée (PDF 222)."}
+    ]
+  },
+  "Ed 132/23": {
+    "pdfPages": 367,
+    "parts": [
+      {"pdf": "6-111", "content": "Annonces de mariage 1821-1835", "pages": "1-106"},
+      {"pdf": "112-220", "content": "Annonces de mariage 1821-1835", "pages": "108-216", "note": "La pagination saute de 106 (PDF 111) à 108 (PDF 112)."},
+      {"pdf": "221-343", "content": "Annonces de mariage 1821-1835", "pages": "219-340", "anchors": [[278, 280], [279, 282]], "note": "La pagination saute de 216 (PDF 220) à 219 (PDF 221) ; page « 278 bis » (PDF 281). Feuillet blanc au PDF 344."},
+      {"pdf": "346-367", "content": "Répertoire des annonces de mariage 1821-1835", "note": "Répertoire incorporé, après une feuille marbrée (PDF 345)."}
+    ]
+  },
+  "Ed 132/24": {
+    "pdfPages": 285,
+    "parts": [
+      {"pdf": "6-97", "content": "Annonces de mariage 1835-1846", "pages": "1-92"},
+      {"pdf": "98-233", "content": "Annonces de mariage 1835-1846", "pages": "94-228", "anchors": [[220, 224], [221, 226]], "note": "La pagination saute de 92 (PDF 97) à 94 (PDF 98) ; p. 220 écrite deux fois (PDF 224 et 225). Feuillet blanc au PDF 234. Positions exactes aux repères."},
+      {"pdf": "236-285", "content": "Répertoire des annonces de mariage 1835-1846", "note": "Répertoire incorporé, après une feuille marbrée (PDF 235)."}
+    ]
+  },
+  "Ed 132/25": {
+    "pdfPages": 273,
+    "parts": [
+      {"pdf": "6-221", "content": "Annonces de mariage 1846-1854", "pages": "1-216", "note": "Feuillet blanc au PDF 222."},
+      {"pdf": "224-273", "content": "Répertoire des annonces de mariage 1846-1854", "note": "Répertoire incorporé, après une feuille marbrée (PDF 223)."}
+    ]
+  },
+  "Ed 132/26": {
+    "pdfPages": 283,
+    "parts": [
+      {"pdf": "6-247", "content": "Annonces de mariage 1854-1860", "pages": "1-242", "note": "Feuillet blanc au PDF 248."},
+      {"pdf": "250-283", "content": "Répertoire des annonces de mariage 1854-1860", "note": "Répertoire incorporé, après une feuille marbrée (PDF 249)."}
+    ]
+  },
+  "Ed 132/27": {
+    "pdfPages": 283,
+    "parts": [
+      {"pdf": "6-235", "content": "Annonces de mariage 1860-1864", "pages": "1-230", "note": "Feuillet blanc au PDF 236."},
+      {"pdf": "238-283", "content": "Répertoire des annonces de mariage 1860-1864", "note": "Répertoire incorporé, après une feuille marbrée (PDF 237)."}
+    ]
+  },
+  "Ed 132/28": {
+    "pdfPages": 313,
+    "parts": [
+      {"pdf": "6-246", "content": "Annonces de mariage 1864-1871", "pages": "1-241"},
+      {"pdf": "247-252", "content": "Lettres et pièces volantes insérées entre les pp. 241 et 242"},
+      {"pdf": "253-267", "content": "Annonces de mariage 1864-1871", "pages": "242-256", "note": "Feuillet blanc au PDF 268."},
+      {"pdf": "270-313", "content": "Répertoire des annonces de mariage 1864-1871", "note": "Répertoire incorporé, après une feuille marbrée (PDF 269)."}
+    ]
+  },
+  "Ed 132/29": {
+    "pdfPages": 271,
+    "parts": [
+      {"pdf": "6-100", "content": "Annonces de mariage 1871-1879", "pages": "1-95"},
+      {"pdf": "101-222", "content": "Annonces de mariage 1871-1879", "pages": "98-219", "note": "La pagination saute de 95 (PDF 100) à 98 (PDF 101)."},
+      {"pdf": "224-271", "content": "Répertoire des annonces de mariage 1871-1879", "note": "Répertoire incorporé, après une feuille marbrée (PDF 223)."}
+    ]
   }
 }
