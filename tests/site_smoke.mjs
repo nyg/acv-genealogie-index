@@ -137,6 +137,8 @@ const cases = [
   ["Bullet", "mariage", "1940", "SB 115/687"],
   ["Bullet", "mariage", "1953", "SB 115/1135"],
   ["Sainte-Croix", "naissance", "1739", "Eb 121/2"],
+  ["Corbeyrier", "deces", "1850", "Ed 3/9"],
+  ["Ballaigues", "naissance", "1847", "Ed 74/1"],
   ["Oron-la-Ville", "naissance", "1750", "Eb 97/2"],
   ["Oron-la-Ville", "naissance", "1850", "Ed 97/2"],
   ["Oron-la-Ville", "mariage", "1850", "Ec 97/2"],
@@ -330,6 +332,16 @@ const bullet1739 = search("Bullet", "naissance", "1739");
 const bulletOwnParish = !bullet1739.cotes.includes("Eb 121/2") && bullet1739.answers.includes("Registres dès 1744") && !search("Bullet", "mariage", "1763").cotes.includes("Eb 121/6");
 failures += bulletOwnParish ? 0 : 1;
 console.log(`${bulletOwnParish ? "ok  " : "FAIL"} Bullet → plus Sainte-Croix après 1663 ; en 1739, l'inventaire de Bullet : « Registres dès 1744 »`);
+
+const roche1859 = search("Roche", "mariage", "23.09.1859").cotes;
+const rocheBounded = roche1859.includes("Ed 136/4") && !roche1859.includes("Ed 90/2") && !roche1859.includes("Ed 143/2");
+failures += rocheBounded ? 0 : 1;
+console.log(`${rocheBounded ? "ok  " : "FAIL"} Roche / mariage / 23.09.1859 → Ed 136/4 (Villeneuve 1845-1863), ni Ed 90/2 (Noville jusqu'en 1821) ni Ed 143/2 (Yvorne 1837-1845 et dès 1863)`);
+
+const aigleForCorbeyrier = year => search("Corbeyrier", "deces", year).cotes.some(cote => cote.startsWith("Ed 3/"));
+const severalPeriods = aigleForCorbeyrier("1850") && !aigleForCorbeyrier("1843") && !aigleForCorbeyrier("1870") && !search("Ballaigues", "naissance", "1800").cotes.some(cote => cote.startsWith("Eb 74/"));
+failures += severalPeriods ? 0 : 1;
+console.log(`${severalPeriods ? "ok  " : "FAIL"} Corbeyrier / deces → Aigle (Ed 3) en 1850, ni en 1843 ni en 1870 (jusqu'en 1840 et 1846-1865) ; Ballaigues / naissance / 1800 → pas Lignerolle (jusqu'en 1725 et 1846-1849)`);
 
 const oronCorrected = !search("Oron-la-Ville", "mariage", "1896").cotes.includes("SB 23/2065");
 failures += oronCorrected ? 0 : 1;

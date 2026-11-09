@@ -9,7 +9,7 @@ from pathlib import Path
 
 from inventory_corrections import read_raw
 from pdf_pages import load_pdf_pages, sb267_default_parts
-from places import arrondissement_history, arrondissement_name, corrected_entries, localities_from_note, note_until, parish_name, parish_number, parish_period, repair_parish_names, spelling_key, split_official_locality
+from places import arrondissement_history, arrondissement_name, corrected_entries, localities_from_note, note_periods, parish_name, parish_number, parish_period, repair_parish_names, spelling_key, split_official_locality, union_periods
 from scope_parser import classify, normalize, parse_date_range, parse_scope_content
 from scopearchiv import creation_dates, fonds_of, load_scopearchiv, place_for, related_ranges
 from scopearchiv import PAGE_BASE as SCOPEARCHIV_PAGE_BASE
@@ -81,14 +81,13 @@ def build_places(series_index):
     return places
 
 
-def _add_locality(place, name, qualifier, source, since=None, until=None):
+def _add_locality(place, name, qualifier, source, periods=None):
     key = normalize(name)
     existing = next((locality for locality in place["localities"] if normalize(locality["name"]) == key), None)
     if existing is None:
-        place["localities"].append({"name": name, "qualifier": qualifier, "source": source, "since": since, "until": until})
+        place["localities"].append({"name": name, "qualifier": qualifier, "source": source, "periods": periods})
         return
-    existing["since"] = min(existing["since"], since) if existing["since"] and since else None
-    existing["until"] = max(existing["until"], until) if existing["until"] and until else None
+    existing["periods"] = union_periods(existing["periods"], periods)
     if qualifier and qualifier not in existing["qualifier"]:
         existing["qualifier"] = " · ".join(filter(None, [existing["qualifier"], qualifier]))
     if source not in existing["source"]:
@@ -110,7 +109,7 @@ def merge_spelling_variants(places):
             if match is None:
                 continue
             place["localities"].remove(variant)
-            _add_locality(place, match["name"], variant["qualifier"], variant["source"], variant["since"], variant["until"])
+            _add_locality(place, match["name"], variant["qualifier"], variant["source"], variant["periods"])
             for other in places.values():
                 for locality in other["localities"]:
                     if _compact(locality["name"]) == _compact(match["name"]) and variant["name"] not in locality.setdefault("aliases", []):
@@ -148,7 +147,7 @@ def add_official_localities(places):
         description = repair_parish_names(entry["description"], parish_names)
         for number in entry["parishes"]:
             if number in parish_places:
-                _add_locality(parish_places[number], name, " ".join(filter(None, [context, description])), "table des paroisses", *parish_period(description, number))
+                _add_locality(parish_places[number], name, " ".join(filter(None, [context, description])), "table des paroisses", parish_period(description, number, parish_names))
 
     find_arrondissement = _arrondissement_finder(places)
     arrondissement_corrections = json.loads(ARRONDISSEMENT_CORRECTIONS.read_text(encoding="utf-8"))
@@ -160,7 +159,7 @@ def add_official_localities(places):
         for index, (name, since) in enumerate(history):
             place = find_arrondissement(name)
             if place:
-                _add_locality(place, entry["locality"], qualifier, "table des arrondissements", int(since[-4:]) if index and since else None)
+                _add_locality(place, entry["locality"], qualifier, "table des arrondissements", [(int(since[-4:]), None)] if index and since else None)
             else:
                 print(f"arrondissement inconnu : {name!r} ({entry['locality']})")
 
@@ -257,8 +256,7 @@ def load_scraped(places):
         series["note"] = root["f"].get("Note", "")
         place["related"] = root["f"].get("Unités de description associées", "").splitlines()
         for locality in localities_from_note(series["note"]):
-            merged = re.match(r"adjonction en (\d{4})", locality["qualifier"])
-            _add_locality(place, locality["name"], locality["qualifier"], NOTE_SOURCE, int(merged.group(1)) if merged else None, note_until(locality["qualifier"]))
+            _add_locality(place, locality["name"], locality["qualifier"], NOTE_SOURCE, note_periods(locality["qualifier"]))
         fonds = fonds_key(root["slug"])
         for record in records:
             if record is root or not is_register(record):
@@ -288,7 +286,7 @@ def attach_pdf_pages(units):
 SCHEMA = """
 CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT);
 CREATE TABLE places (id TEXT PRIMARY KEY, kind TEXT, name TEXT, aliases TEXT);
-CREATE TABLE localities (place_id TEXT REFERENCES places(id), name TEXT, qualifier TEXT, source TEXT, since INTEGER, until INTEGER, aliases TEXT);
+CREATE TABLE localities (place_id TEXT REFERENCES places(id), name TEXT, qualifier TEXT, source TEXT, periods TEXT, aliases TEXT);
 CREATE TABLE series (slug TEXT PRIMARY KEY, place_id TEXT REFERENCES places(id), fonds TEXT, cote TEXT, title TEXT, dates TEXT, scraped INTEGER, note TEXT, url TEXT);
 CREATE TABLE units (slug TEXT PRIMARY KEY, place_id TEXT REFERENCES places(id), fonds TEXT, cote TEXT, level TEXT, title TEXT,
     date_start TEXT, date_end TEXT, dates TEXT, extent TEXT, scope_content TEXT, finding_aids TEXT, note TEXT,
@@ -312,8 +310,8 @@ def write_database(payload):
         connection.execute("INSERT INTO meta VALUES ('generatedAt', ?)", (payload["generatedAt"],))
         for place in places:
             connection.execute("INSERT INTO places VALUES (?, ?, ?, ?)", (place["id"], place["kind"], place["name"], " | ".join(place["aliases"])))
-            connection.executemany("INSERT INTO localities VALUES (?, ?, ?, ?, ?, ?, ?)", [
-                (place["id"], loc["name"], loc["qualifier"], loc["source"], loc["since"], loc["until"], " | ".join(loc.get("aliases", []))) for loc in place["localities"]
+            connection.executemany("INSERT INTO localities VALUES (?, ?, ?, ?, ?, ?)", [
+                (place["id"], loc["name"], loc["qualifier"], loc["source"], json.dumps(loc["periods"]) if loc["periods"] else None, " | ".join(loc.get("aliases", []))) for loc in place["localities"]
             ])
             connection.executemany("INSERT INTO series VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)", [
                 (s["slug"], place["id"], s["fonds"], s["cote"], s["title"], s["dates"], int(s["scraped"]), s["note"], s["url"]) for s in place["series"]
