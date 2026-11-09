@@ -135,6 +135,8 @@ Les deux PDF vont dans `data/raw/vd-ch/`.
 
 Le texte de ces PDF vient d'une reconnaissance de caractères imparfaite. À la construction, le nom écrit devant « [N] » dans la table des paroisses prend le nom de la paroisse N quand il en est une version abîmée (« VëvèyT[132] » devient « Vevey [132] »). `python3 build/report.py` liste les noms qui restent différents ; ils se corrigent dans `data/manual/communes-paroisses-corrections.json`. Une commune que la table des arrondissements nomme autrement que celle des paroisses (« Oron » pour Oron-la-Ville) prend son nom dans `data/manual/communes-arrondissements-corrections.json`, pour qu'une recherche trouve la paroisse et l'arrondissement.
 
+Une paroisse que la table des paroisses cite avec des années n'est proposée que pour ces années : « Villeneuve [136] 1845-1863 », « sauf 1846-1863 Rossinière [117] », ou « Noville [90], puis Roche [114 bis] 1776-1837 » (Noville jusqu'en 1776). La note de la série peut ajouter des années (« Annexe : Roche (1582-1821) »), mais ne restreint pas un rattachement que la table donne sans années. Une période abîmée par la reconnaissance de caractères laisse le rattachement valable pour toutes les dates ; elle se corrige dans `data/manual/communes-paroisses-corrections.json`.
+
 ### Ligne de commande
 
 `cli/acv.mjs` fait les mêmes recherches que le site, depuis un terminal, avec le même code et les mêmes données (`docs/index.html`, à reconstruire avec `build/build.py`). `--json` donne un résultat structuré, pour un script ou un agent.

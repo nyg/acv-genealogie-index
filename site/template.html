@@ -269,24 +269,22 @@ const escapeHtml = text => String(text ?? "").replace(/[&<>"]/g, char => ({ "&":
 const fondsClass = fonds => FONDS_CLASS[fonds] ?? "PJ";
 const fondsColor = fonds => `var(--${{ Eb: "eb", Ed: "ed", SB: "sb", SB268: "sb268", SB269: "sb269", PJ: "pj" }[fondsClass(fonds)]})`;
 
-const widenPeriod = (period, since, until) => period
-  ? { since: period.since && since ? Math.min(period.since, since) : null, until: period.until && until ? Math.max(period.until, until) : null }
-  : { since, until };
-const inPeriod = (period, year) => !period || ((!period.since || year >= period.since) && (!period.until || year <= period.until));
+const widenPeriods = (known, periods) => known === undefined ? periods : known && periods ? [...known, ...periods] : null;
+const inPeriod = (periods, year) => !periods || periods.some(([since, until]) => (since == null || year >= since) && (until == null || year <= until));
 
 function buildSuggestionIndex() {
   const entries = new Map();
-  const add = (name, placeId, via, since = null, until = null) => {
+  const add = (name, placeId, via, periods = null) => {
     const key = normalize(name);
     if (!entries.has(key)) entries.set(key, { name, key, targets: new Map(), periods: new Map() });
     const entry = entries.get(key);
     if (!entry.targets.has(placeId) || !via) entry.targets.set(placeId, via);
-    entry.periods.set(placeId, widenPeriod(entry.periods.get(placeId), since, until));
+    entry.periods.set(placeId, widenPeriods(entry.periods.get(placeId), periods));
   };
   for (const place of DATA.places) {
     add(place.name, place.id, "");
     place.aliases.forEach(alias => add(alias, place.id, ""));
-    place.localities.forEach(locality => [locality.name, ...(locality.aliases ?? [])].forEach(name => add(name, place.id, locality.qualifier || "localité rattachée", locality.since, locality.until)));
+    place.localities.forEach(locality => [locality.name, ...(locality.aliases ?? [])].forEach(name => add(name, place.id, locality.qualifier || "localité rattachée", locality.periods)));
   }
   return [...entries.values()];
 }

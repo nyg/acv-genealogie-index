@@ -130,21 +130,199 @@ def arrondissement_history(periods):
     return history
 
 
-def parish_period(description, number):
-    reference = rf"\[\s*{re.escape(number)}\s*\]"
-    if len(re.findall(reference, description)) != 1:
-        return None, None
-    match = re.search(rf"{reference}\s*(\d{{4}})\s*-\s*(\d{{4}})\s*(?=$|[;,.])", description) or re.search(
-        rf"{reference}\s*en\s*(\d{{4}})\s*,\s*paroisse de [^\[]+\[[^\]]+\]\s*dès\s*(\d{{4}})\s*(?=$|[;,.])", description)
-    return (int(match[1]), int(match[2])) if match else (None, None)
+LOW, HIGH = float("-inf"), float("inf")
+PERIOD_RANGE = (
+    r"(?:(?:en|de)\s+)?(?P<first>\d{4})(?:/\d{4})?\s*-\s*(?P<last>\d{4})(?!\d)"
+    r"|de\s+(?P<start>\d{4})\s+à\s+(?P<end>\d{4})(?!\d)"
+    r"|(?:dès|en)\s*(?P<since>\d{4})(?:/\d{4})?(?!\d)"
+    r"|jusqu['’]en\s*(?P<until>\d{4})(?!\d)"
+)
+FIRST_RANGE = re.compile(rf"\s*(?:{PERIOD_RANGE})")
+NEXT_RANGE = re.compile(rf"\s*,?\s*(?:et\s+)?(?:{PERIOD_RANGE})")
+OPENING = re.compile(r"\s*\(\s*")
+CLOSING = re.compile(r"\s*\)")
+LINK_END = re.compile(r"\s*(?:$|[;,.)])|\s+(?:puis|sauf)\b|\s+et\s*(?=[^\W\d])(?!\S*\d)")
+LINK_REFERENCE = re.compile(r"\[\s*(?P<number>\d+(?: bis| ter)?)\s*\]")
+EXCEPTION_BEFORE = re.compile(r"\bsauf\s+(?P<rest>[^\[\];,]*)$")
+DETACHED_BEFORE = re.compile(r"détach\w*\s+(?:de|d['’]|du)\b[^\[\];,(]*$")
+THEN_BETWEEN = re.compile(r"\s*,?\s*puis\b[^\d;\[\]]*")
+WRITTEN_NAME = re.compile(r"(?P<name>[A-ZÀ-Ý][\w'’-]*)\s*(?:\([^()]*\)\s*)?$")
+NOTE_CONTEXT = re.compile(r"^(?:annexe|adjonction)\s*")
+OWN_REGISTERS = re.compile(r"(?:chacun\s+)?avec\s+(?:ses\s+)?registres?\s+(?:propres|distincts|séparés|autonomes)\s*")
+SENTENCE_END = re.compile(r"\.\s+(?=[A-ZÀ-Ý])")
 
 
-NOTE_UNTIL = re.compile(r"(?:annexe |adjonction )?\(jusqu['’]en (\d{4})\)")
+def _bounds(period):
+    since, until = period
+    return (LOW if since is None else since, HIGH if until is None else until)
 
 
-def note_until(qualifier):
-    match = NOTE_UNTIL.fullmatch(qualifier)
-    return int(match[1]) if match else None
+def _period(low, high):
+    return (None if low == LOW else low, None if high == HIGH else high)
+
+
+def merged_periods(periods):
+    spans = []
+    for low, high in sorted(_bounds(period) for period in periods):
+        if spans and low <= spans[-1][1] + 1:
+            spans[-1] = (spans[-1][0], max(spans[-1][1], high))
+        else:
+            spans.append((low, high))
+    return [_period(*span) for span in spans]
+
+
+def bounded(periods):
+    merged = merged_periods(periods or [])
+    return merged if merged and merged != [(None, None)] else None
+
+
+def union_periods(first, second):
+    return None if first is None or second is None else bounded(first + second)
+
+
+def _without_interior(periods, removed):
+    # Boundary years stay: an act of the year a link changed can be in either parish's register.
+    low_cut, high_cut = _bounds(removed)
+    if high_cut <= low_cut:
+        return periods
+    kept = []
+    for low, high in map(_bounds, periods):
+        if low <= min(high, low_cut) and low_cut != LOW:
+            kept.append((low, min(high, low_cut)))
+        if max(low, high_cut) <= high and high_cut != HIGH:
+            kept.append((max(low, high_cut), high))
+    return [_period(*span) for span in kept]
+
+
+def _gaps(periods):
+    merged = merged_periods(periods)
+    return [(merged[index][1], merged[index + 1][0]) for index in range(len(merged) - 1)]
+
+
+def _range_of(match):
+    if match["first"]:
+        return int(match["first"]), int(match["last"])
+    if match["start"]:
+        return int(match["start"]), int(match["end"])
+    if match["since"]:
+        return int(match["since"]), None
+    return None, int(match["until"])
+
+
+def _ranges_at(text, position):
+    ranges, end = [], position
+    while match := (NEXT_RANGE if ranges else FIRST_RANGE).match(text, end):
+        ranges.append(_range_of(match))
+        end = match.end()
+    return ranges, end
+
+
+def _period_after(text, position):
+    opening = OPENING.match(text, position)
+    if opening:
+        ranges, end = _ranges_at(text, opening.end())
+        closing = CLOSING.match(text, end)
+        return (ranges, closing.end()) if ranges and closing else ([], position)
+    return _ranges_at(text, position)
+
+
+def _dated_link(description, references, index):
+    reference = references[index]
+    ranges, end = _period_after(description, reference.end())
+    if ranges and LINK_END.match(description, end):
+        item_start = references[index - 1].end() if index else 0
+        if DETACHED_BEFORE.search(description, item_start, reference.start()):
+            return ([(None, ranges[0][0])] if ranges == [(ranges[0][0], None)] else []), end
+        return ranges, end
+    if ranges:
+        return [], reference.end()
+    exception = EXCEPTION_BEFORE.search(description, references[index - 1].end() if index else 0, reference.start())
+    if exception:
+        ranges, stop = _period_after(exception["rest"], 0)
+        if ranges and not re.search(r"\d", exception["rest"][stop:]):
+            return ranges, reference.end()
+    return [], reference.end()
+
+
+def _same_clause(description, references, index):
+    following = index + 1
+    if following < len(references) and ";" not in description[references[index].end():references[following].start()]:
+        return following
+    return None
+
+
+def _until_next_link(description, references, links, index):
+    following = _same_clause(description, references, index)
+    if following is None or not THEN_BETWEEN.fullmatch(description, references[index].end(), references[following].start()):
+        return []
+    later = links[following][0]
+    if not later or later[0][0] is None:
+        return []
+    resumed = [(later[-1][1], None)] if later[-1][1] is not None and following == len(references) - 1 else []
+    return [(None, later[0][0])] + _gaps(later) + resumed
+
+
+def _folded(text):
+    chars, origins = [], []
+    for position, char in enumerate(text):
+        for folded in normalize(char.replace("’", "'")):
+            chars.append(folded)
+            origins.append(position)
+    return "".join(chars), origins
+
+
+def _mentions(text, start, names):
+    folded, origins = _folded(text)
+    ends = set()
+    for name in names:
+        key = normalize(ARTICLE_PREFIX.sub("", name).replace("’", "'"))
+        for match in re.finditer(rf"(?<![^\W\d_]){re.escape(key)}(?![^\W\d_])", folded):
+            if key and origins[match.start()] >= start:
+                ends.add(origins[match.end() - 1] + 1)
+    return sorted(ends)
+
+
+def _with_returns(description, references, index, ranges, end, parish_names):
+    written = WRITTEN_NAME.search(description, references[index - 1].end() if index else 0, references[index].start())
+    names = [*_spellings(parish_names.get(references[index]["number"], [])), *([written["name"]] if written else [])]
+    for mention in _mentions(description, end, names):
+        periods, stop = _period_after(description, mention)
+        if periods and LINK_END.match(description, stop):
+            ranges = ranges + periods
+        elif merged_periods(ranges)[-1][1] is not None:
+            return None
+    return bounded(ranges)
+
+
+def parish_period(description, number, parish_names=None):
+    references = list(LINK_REFERENCE.finditer(description))
+    cited = [index for index, reference in enumerate(references) if reference["number"] == number]
+    if len(cited) != 1:
+        return None
+    index = cited[0]
+    links = [_dated_link(description, references, position) for position in range(len(references))]
+    ranges, end = links[index]
+    following = _same_clause(description, references, index)
+    if ranges and ranges[-1][1] is None and following is not None:
+        for later in links[following][0]:
+            ranges = _without_interior(ranges, later)
+    if not ranges:
+        ranges = _until_next_link(description, references, links, index)
+    return _with_returns(description, references, index, ranges, end, parish_names or {}) if ranges else None
+
+
+def note_periods(qualifier):
+    rest = NOTE_CONTEXT.sub("", qualifier, count=1)
+    ranges, end = _period_after(rest, 0)
+    if not ranges:
+        return None
+    trailing = SENTENCE_END.split(rest[end:])[0].strip(" ,;.")
+    registers = OWN_REGISTERS.match(trailing)
+    if registers:
+        kept, stop = _period_after(trailing, registers.end())
+        ranges += kept
+        trailing = trailing[stop if kept else registers.end():]
+    return None if re.search(r"\d", trailing) else bounded(ranges)
 
 
 def localities_from_note(note):
