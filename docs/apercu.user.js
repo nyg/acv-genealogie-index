@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Registres vaudois : aperçu des PDF
 // @namespace    https://nyg.github.io/acv-genealogie-index/
-// @version      1.3.3
+// @version      1.3.4
 // @description  Affiche une page d'un PDF de davel-vd.ch ou du Staatsarchiv Zürich sans télécharger le fichier entier, avec le sommaire des registres indexés.
 // @match        https://davel-vd.ch/*
 // @match        https://suche.staatsarchiv.djiktzh.ch/*
@@ -299,8 +299,8 @@ const createPdfjsReader = (urlOf, load = loadPdfjs) => {
         }
         return (cache[id] = objectStreams[entry.stream][id]);
       }
-      const bytes = await bytesAt(entry.offset, CHUNK_BYTES);
-      return (cache[id] = /^\s*\d+\s+\d+\s+obj([^]*?)(?:stream|endobj)/.exec(latin(bytes))[1]);
+      const body = bytes => /^\s*\d+\s+\d+\s+obj([^]*?)(?:stream|endobj)/.exec(latin(bytes))?.[1];
+      return (cache[id] = body(await bytesAt(entry.offset, CHUNK_BYTES)) ?? body(await bytesAt(entry.offset, objectSize(id))));
     }
     const cheap = id => entries[id]?.type === 2 || entries[id]?.offset >= tailStart;
 

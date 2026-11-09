@@ -96,5 +96,6 @@
  {"cote": "SB 23/2319", "field": "Title", "published": "- Mariages 1897 A", "corrected": "- Mariages 1907 A"},
  {"cote": "SB 269/101/1", "field": "Dates", "published": "1875 janvier 06", "corrected": "1876 janvier 06"},
  {"cote": "SB 115/513", "field": "Dates", "published": "1879-1880", "corrected": "1910"},
- {"cote": "SB 115/513", "field": "Creation date(s)", "published": "1879 - 1880", "corrected": "1910"}
+ {"cote": "SB 115/513", "field": "Creation date(s)", "published": "1879 - 1880", "corrected": "1910"},
+ {"cote": "Ed 129/9", "field": "Note", "published": "de la page 85 jusqu'au répertoire", "corrected": "de la page 185 jusqu'au répertoire"}
 ]

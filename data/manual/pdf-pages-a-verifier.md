@@ -101,3 +101,10 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Ed 19/4 | 9-13, 20-27 | Formulaires vides et p. « 1 bis » (PDF 12) au début : pp. 2 et 9-14 non situées ; repères tous les 5 PDF jusqu'au PDF 158. |
 | Eb 121/1 | 213, 520-522 | Répertoire PDF 213-264 identifié par l'inventaire seulement (couverture « Admissions à la Ste Cène », « Orbe » ajouté) ; contenu des pp. 123-125 (PDF 520-522) non lu. |
 | Eb 121/7 | 249-318 | Répertoire en deux cahiers (PDF 249-268 et 269-318) : lire les couvertures pour séparer le répertoire d'Eb 121/7 de celui d'Eb 121/ref. |
+| Eb 129/1 | 7, 8, 221 | Pp. 2-3 (numéros au pied, à l'envers) lues sur la vignette seulement ; p. 301 sans numéro, début des mariages repris de l'inventaire (PDF 222 = p. 302). |
+| Eb 129/4 | 8 | P. 1 (page de titre) : numéro à peine lisible, placée d'après le PDF 11 = p. 2 et la lettre volante des PDF 9-10. |
+| Eb 129/5 | 276, 279, 281 | Numéros surchargés : PDF 276 lu « 271 » sur « 270 », 279 « 275 » sur « 274 », 281 « 277 » sur « 276 » ; le saut de la p. 274 en dépend. |
+| Ed 129/1 | 195 | P. 154 déduite : la page porte « Page » sans numéro (PDF 194 = p. 153, 196 = p. 155). |
+| Ed 129/2 | 295 | P. 286 déduite : la dernière page porte « Page » sans numéro (PDF 294 = p. 285). |
+| Ed 129/3 | 426 | « Page » sans numéro, compté avec les formulaires inutilisés des PDF 427-430 sans avoir été vu en entier. |
+| Ed 129/1, Ed 129/3-9 | 365, 440, 500, 280, 400, 60, 260, 210 | Répertoires non lus : vérifier qu'ils citent la pagination du registre (Ed 129/1, 3, 4, 5, 6, 7, 8, 9 dans cet ordre), en particulier Ed 129/6 (p. 133 écrite deux fois) et Ed 129/8 (saut de 12 à 19). |
