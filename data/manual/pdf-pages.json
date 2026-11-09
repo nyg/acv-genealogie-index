@@ -2452,5 +2452,256 @@
       {"pdf": "476-479", "content": "Décès 1821-1859", "pages": "372-375", "note": "Page blanche au PDF 480, carton marbré au PDF 481."},
       {"pdf": "482-539", "content": "Répertoire des décès 1821-1859"}
     ]
+  },
+  "Eb 136/1": {
+    "pdfPages": 177,
+    "parts": [
+      {"pdf": "10-94", "content": "Baptêmes 1572-1613", "pages": "1-85", "note": "Les pp. 86-92 (PDF 95-101) sont blanches."},
+      {"pdf": "102-105", "content": "Baptêmes 1617-1619", "pages": "93-96", "note": "Les pp. 97-100 (PDF 106-109) sont blanches."},
+      {"pdf": "110-114", "content": "Mariages 1605-1606", "pages": "101-105", "note": "L'inventaire compte ces pages dans les baptêmes. Les pp. 106-110 (PDF 115-119) sont blanches."},
+      {"pdf": "120-130", "content": "Mariages 1623-1634", "pages": "111-121", "note": "L'inventaire compte ces pages dans les baptêmes."},
+      {"pdf": "135-150", "content": "Baptêmes 1619-1632", "pages": "1-16", "note": "Partie tête-bêche, après des feuillets blancs (PDF 131-134). L'inventaire la donne entière aux mariages."},
+      {"pdf": "151-174", "content": "Mariages 1572-1602", "pages": "17-40"},
+      {"pdf": "175-177", "content": "Baptêmes 1632-1635", "pages": "41-43"}
+    ]
+  },
+  "Eb 136/2": {
+    "pdfPages": 129,
+    "parts": [
+      {"pdf": "8-106", "content": "Baptêmes 1635-1706", "pages": "1-99", "note": "Numéros à l'encre rouge, dans la marge extérieure à la hauteur de la première ligne."},
+      {"pdf": "111-129", "content": "Mariages 1654-1706", "pages": "1-19", "note": "Partie tête-bêche, après la couverture arrière (PDF 107, « Mariages 1650-1706 ») et des feuillets blancs (PDF 108-110)."}
+    ]
+  },
+  "Eb 136/3": {
+    "pdfPages": 239,
+    "parts": [
+      {"pdf": "6-93", "content": "Baptêmes 1706-1759", "pages": "1-88"},
+      {"pdf": "95-192", "content": "Baptêmes 1706-1759", "pages": "88-185", "note": "P. 88 photographiée une seconde fois après la bande de couleurs (PDF 94). Pp. 175-183 (PDF 182-190) blanches ; pp. 184-185 : notes ajoutées sur les Bertholet de Chessel et les Chenaux."},
+      {"pdf": "197-237", "content": "Mariages 1707-1759", "pages": "201-241", "note": "Partie tête-bêche, après la couverture et des feuillets blancs (PDF 193-196). La p. 201 porte aussi « 203 »."}
+    ]
+  },
+  "Eb 136/4": {
+    "pdfPages": 105,
+    "parts": [
+      {"pdf": "4-102", "content": "Décès 1717-1759", "pages": "1-99", "note": "Les pages blanches qui suivent ne sont pas photographiées."}
+    ]
+  },
+  "Eb 136/5": {
+    "pdfPages": 33,
+    "parts": [
+      {"pdf": "2-19", "content": "Baptêmes 1791-1801", "pages": "1-18", "note": "Cahier de notes d'état civil, sans couverture ; billet posé sur la p. 2 (PDF 3). La p. 19 (PDF 20) est blanche."},
+      {"pdf": "21-33", "content": "Décès 1796-1802", "pages": "20-32", "note": "Pages tête-bêche, numérotées au pied, à l'envers. Années lues : 1796 à 1800 ; l'inventaire date le cahier 1791-1802."}
+    ]
+  },
+  "Eb 136/6": {
+    "pdfPages": 449,
+    "parts": [
+      {"pdf": "10-285", "content": "Baptêmes 1759-1821", "pages": "1-276", "note": "La p. 275 (PDF 284) porte des extraits des registres des baptêmes ; pages blanches dès la p. 277 (PDF 286)."},
+      {"pdf": "293-382", "content": "Catéchumènes 1760-1875", "pages": "1-90", "note": "Partie tête-bêche, après la couverture arrière et des feuillets blancs (PDF 287-292)."},
+      {"pdf": "383-449", "content": "Catéchumènes 1760-1875", "pages": "90-156", "note": "Le numéro 90 est écrit sur deux pages qui se suivent (PDF 382-383)."}
+    ]
+  },
+  "Eb 136/6 bis": {
+    "pdfPages": 91,
+    "parts": [
+      {"pdf": "14-88", "content": "Baptêmes 1800-1821", "pages": "1-75", "note": "Page de titre au PDF 12. Les pages blanches qui suivent ne sont pas photographiées."}
+    ]
+  },
+  "Eb 136/7": {
+    "pdfPages": 225,
+    "parts": [
+      {"pdf": "8-47", "content": "Mariages 1760-1821", "pages": "1-40"},
+      {"pdf": "48-49", "content": "Mariages 1760-1821", "note": "Lettre volante entre les pp. 40 et 41, photographiée recto et verso."},
+      {"pdf": "50-76", "content": "Mariages 1760-1821", "pages": "41-67"},
+      {"pdf": "83-192", "content": "Décès 1760-1821", "pages": "1-110", "note": "Partie tête-bêche, après la couverture marbrée et quelques feuillets blancs (PDF 77-82). P. 13 (PDF 95) détachée. Billet bleu replié sur la p. 110."},
+      {"pdf": "193-196", "content": "Décès 1760-1821", "note": "La p. 110 de nouveau, billet déplié, puis trois billets seuls."},
+      {"pdf": "197-201", "content": "Décès 1760-1821", "pages": "111-115"},
+      {"pdf": "202-203", "content": "Décès 1760-1821", "note": "Feuillet biffé, sans numéro, entre les pp. 115 et 116."},
+      {"pdf": "204-225", "content": "Décès 1760-1821", "pages": "116-137"}
+    ]
+  },
+  "Eb 136/8": {
+    "pdfPages": 135,
+    "parts": [
+      {"pdf": "8-130", "content": "Annonces de mariage 1781-1821", "pages": "1-123", "note": "Les pages blanches qui suivent ne sont pas photographiées."},
+      {"pdf": "131-132", "content": "Copie de la lettre du 31 octobre 1811 du président du Petit Conseil au doyen de la classe de Lausanne", "note": "Deux pages sans numéro, avant la page de garde de fin."}
+    ]
+  },
+  "Eb 136/9": {
+    "pdfPages": 125,
+    "parts": [
+      {"pdf": "7-123", "content": "Décès 1862-1881", "note": "Registre des inhumations, non paginé, à numéros de piquet. Lacune du 24 mars 1879 au 1er avril 1880 d'après l'inventaire."}
+    ]
+  },
+  "Ed 136/4": {
+    "pdfPages": 494,
+    "parts": [
+      {"pdf": "6-436", "content": "Mariages 1857-1875", "pages": "1-431", "note": "Un acte par page, numéroté comme la page."},
+      {"pdf": "443-494", "content": "Répertoire des mariages 1857-1875", "note": "Répertoire séparé, après une bande de couleurs (PDF 442) ; il renvoie aux numéros des actes."}
+    ]
+  },
+  "Ed 136/2": {
+    "pdfPages": 391,
+    "parts": [
+      {"pdf": "10-26", "content": "Naissances et baptêmes 1855-1875", "pages": "1-17"},
+      {"pdf": "27-28", "content": "Naissances et baptêmes 1855-1875", "note": "La p. 17 photographiée une seconde fois, puis un billet."},
+      {"pdf": "29-146", "content": "Naissances et baptêmes 1855-1875", "pages": "18-135"},
+      {"pdf": "147-148", "content": "Naissances et baptêmes 1855-1875", "note": "La p. 135 photographiée une seconde fois, puis un billet."},
+      {"pdf": "149-336", "content": "Naissances et baptêmes 1855-1875", "pages": "136-323", "note": "Formulaires inutilisés et feuille marbrée aux PDF 337-341."},
+      {"pdf": "342-388", "content": "Répertoire des naissances et baptêmes 1855-1875", "note": "Répertoire incorporé."}
+    ]
+  },
+  "Ed 136/5": {
+    "pdfPages": 453,
+    "parts": [
+      {"pdf": "8-78", "content": "Décès 1821-1864", "pages": "1-58", "anchors": [[6, 14], [11, 20], [16, 25], [24, 35], [37, 50], [40, 56], [44, 60], [47, 65], [50, 68], [52, 72], [55, 75], [57, 77]], "note": "Pp. 1-2 numérotées en toutes lettres ; formulaires inutilisés ou sans numéro intercalés (PDF 53, 70, 79), d'où des positions approchées entre les repères."},
+      {"pdf": "80-312", "content": "Décès 1821-1864", "pages": "59-291"},
+      {"pdf": "313-314", "content": "Décès 1821-1864", "note": "La p. 291 photographiée une seconde fois, avec un billet, puis le billet seul."},
+      {"pdf": "315-388", "content": "Décès 1821-1864", "pages": "292-365", "note": "Formulaire inutilisé et feuille marbrée aux PDF 389-391."},
+      {"pdf": "392-451", "content": "Répertoire des décès 1821-1864", "note": "Répertoire incorporé, à onglets."}
+    ]
+  },
+  "Ed 136/6": {
+    "pdfPages": 186,
+    "parts": [
+      {"pdf": "6-126", "content": "Décès 1865-1875", "pages": "1-121", "note": "Formulaires inutilisés aux PDF 127-133."},
+      {"pdf": "135-186", "content": "Répertoire des décès 1865-1875", "note": "Répertoire séparé, après une bande de couleurs (PDF 134)."}
+    ]
+  },
+  "Ed 136/7": {
+    "pdfPages": 369,
+    "parts": [
+      {"pdf": "6-347", "content": "Annonces de mariage 1821-1860", "pages": "1-342", "note": "Feuille marbrée aux PDF 348-349."},
+      {"pdf": "350-369", "content": "Répertoire des annonces de mariage 1821-1860", "note": "Répertoire incorporé ; il renvoie aux pages (Borlat et Anex, n° 3, à la p. 1)."}
+    ]
+  },
+  "Ed 136/8": {
+    "pdfPages": 287,
+    "parts": [
+      {"pdf": "5-26", "content": "Annonces de mariage 1861-1881", "pages": "1-22"},
+      {"pdf": "27", "content": "Annonces de mariage 1861-1881", "note": "Billet entre les pp. 22 et 23."},
+      {"pdf": "28-220", "content": "Annonces de mariage 1861-1881", "pages": "23-215"},
+      {"pdf": "221-241", "content": "Annonces de mariage 1861-1881", "note": "Pages sans numéro visible, 1879-1881. Couverture aux PDF 242-243."},
+      {"pdf": "244-286", "content": "Répertoire des annonces de mariage 1861-1881", "note": "Répertoire à onglets, à la fin du volume."}
+    ]
+  },
+  "Eb 90/1": {
+    "pdfPages": 390,
+    "parts": [
+      {"pdf": "6-338", "content": "Baptêmes 1615-1698", "pages": "1-333", "note": "Numéros à l'encre rouge."},
+      {"pdf": "343-390", "content": "Mariages 1641-1691", "pages": "399-446", "note": "Partie tête-bêche, après la couverture arrière et des feuillets blancs (PDF 339-342)."}
+    ]
+  },
+  "Eb 90/2": {
+    "pdfPages": 508,
+    "parts": [
+      {"pdf": "6-206", "content": "Baptêmes 1698-1749", "pages": "1-201"},
+      {"pdf": "207-208", "content": "Baptêmes 1698-1749", "note": "Pp. 201 bis et 201 ter."},
+      {"pdf": "209-312", "content": "Baptêmes 1698-1749", "pages": "202-305"},
+      {"pdf": "313-328", "content": "Décès 1728-1749", "pages": "310-325", "note": "La numérotation passe de 305 à 310 ; le numéro du PDF 313, sous le titre du registre des morts, se lit « 309 » ou « 310 »."},
+      {"pdf": "333-372", "content": "Mariages 1705-1749", "pages": "401-440", "note": "Partie tête-bêche, après la couverture arrière et des feuillets blancs (PDF 329-332)."},
+      {"pdf": "373-508", "content": "Catéchumènes 1741-1839", "pages": "441-576"}
+    ]
+  },
+  "Eb 90/3": {
+    "pdfPages": 521,
+    "parts": [
+      {"pdf": "5-237", "content": "Baptêmes 1749-1813", "pages": "0-232", "note": "La p. 1 (PDF 6) porte une note sur le registre ; la p. 2 est blanche."},
+      {"pdf": "238-351", "content": "Mariages 1750-1821", "pages": "233-346", "note": "La numérotation passe de 346 à 359."},
+      {"pdf": "352-401", "content": "Annonces de mariage 1804-1821", "pages": "359-408"},
+      {"pdf": "402-517", "content": "Décès 1749-1813", "pages": "411-526", "note": "Pages blanches et couverture aux PDF 518-521."}
+    ]
+  },
+  "Eb 90/4": {
+    "pdfPages": 102,
+    "parts": [
+      {"pdf": "3", "content": "Décès 1813-1821", "pages": "201", "note": "Pages doubles. Même prise de vue que le PDF 4."},
+      {"pdf": "4-9", "content": "Décès 1813-1821", "pages": "201-211", "spread": true, "anchors": [[203, 5]]},
+      {"pdf": "10", "content": "Décès 1813-1821 et catéchumènes 1840", "pages": "212-213", "note": "Dernière page des décès à gauche, première des catéchumènes à droite."},
+      {"pdf": "11", "content": "Catéchumènes 1840-1875", "pages": "214-215"},
+      {"pdf": "12-14", "content": "Catéchumènes 1840-1875", "note": "Billets entre les pp. 215 et 216."},
+      {"pdf": "15-44", "content": "Catéchumènes 1840-1875", "pages": "216-275", "spread": true, "anchors": [[217, 15], [247, 30], [273, 43]]},
+      {"pdf": "46-99", "content": "Baptêmes 1813-1821, puis naissances et baptêmes 1777-1836", "pages": "105-0", "spread": true, "anchors": [[102, 47], [86, 55], [82, 57], [81, 58], [67, 65], [57, 70], [37, 80], [27, 85], [5, 96], [3, 97]], "note": "Partie tête-bêche, photographiée à l'envers, de la dernière page à la première. Baptêmes 1813-1821 aux pp. 0-25 environ ; dès la p. 26 environ, actes de 1777 à 1836 que l'inventaire ne cite pas. La p. 3 est photographiée deux fois, la seconde avec un billet (PDF 98)."}
+    ]
+  },
+  "Eb 90/5": {
+    "pdfPages": 293,
+    "parts": [
+      {"pdf": "5-91", "content": "Décès 1776-1821", "pages": "0-86"},
+      {"pdf": "94", "content": "Liste des pasteurs des Églises de Roche et Chessel", "pages": "0", "note": "Partie tête-bêche, après une page blanche et la couverture arrière (PDF 92-93)."},
+      {"pdf": "95-96", "content": "Baptêmes 1776-1821", "note": "Pp. 0a et 0b."},
+      {"pdf": "97-293", "content": "Baptêmes 1776-1821", "pages": "1-197"}
+    ]
+  },
+  "Eb 90/6": {
+    "pdfPages": 249,
+    "parts": [
+      {"pdf": "5-160", "content": "Mariages 1777-1821", "pages": "0-155"},
+      {"pdf": "164-207", "content": "Catéchumènes 1777-1875", "pages": "0-43", "note": "Partie tête-bêche, après la couverture marbrée et des feuillets blancs (PDF 161-163)."},
+      {"pdf": "208-209", "content": "Catéchumènes 1777-1875", "note": "Pp. 43 bis et 43 ter."},
+      {"pdf": "210-249", "content": "Catéchumènes 1777-1875", "pages": "44-83"}
+    ]
+  },
+  "Ed 90/3": {
+    "pdfPages": 45,
+    "parts": [
+      {"pdf": "6-41", "content": "Mariages 1871-1875", "pages": "1-36", "note": "Couverture intérieure et feuille marbrée aux PDF 42-43."},
+      {"pdf": "44", "content": "Répertoire des mariages 1871-1875", "note": "Une page."},
+      {"pdf": "45", "content": "Mariages 1871-1875", "pages": "36", "note": "La p. 36 photographiée de nouveau, avec un billet."}
+    ]
+  },
+  "Ed 90/6": {
+    "pdfPages": 131,
+    "parts": [
+      {"pdf": "8-84", "content": "Annonces de mariage 1865-1881", "pages": "1-77", "note": "Page de titre au PDF 7."},
+      {"pdf": "88-128", "content": "Répertoire des annonces de mariage 1865-1881", "note": "Répertoire à onglets, à l'autre bout du volume, après une page blanche et la couverture (PDF 85-87)."}
+    ]
+  },
+  "Ed 90/5": {
+    "pdfPages": 277,
+    "parts": [
+      {"pdf": "6-140", "content": "Annonces de mariage 1821-1864", "pages": "1-135"},
+      {"pdf": "141-275", "content": "Annonces de mariage 1821-1864", "note": "Pages sans numéro ; d'après l'inventaire, le volume finit par 8 annonces de 1871."}
+    ]
+  },
+  "Ed 90/4": {
+    "pdfPages": 350,
+    "parts": [
+      {"pdf": "6-75", "content": "Décès 1821-1875", "pages": "1-62", "anchors": [[3, 8], [10, 15], [26, 35], [34, 45]], "note": "Formulaires inutilisés intercalés (PDF 25, 65), d'où des positions approchées entre les repères."},
+      {"pdf": "76-245", "content": "Décès 1821-1875", "pages": "63-232", "note": "Page blanche et feuille marbrée aux PDF 246-247."},
+      {"pdf": "249-350", "content": "Répertoire des décès 1821-1875", "note": "Répertoire séparé, après une bande de couleurs (PDF 248)."}
+    ]
+  },
+  "Ed 90/2": {
+    "pdfPages": 466,
+    "parts": [
+      {"pdf": "6-100", "content": "Mariages 1821-1871", "pages": "1-75", "anchors": [[3, 10], [4, 12], [13, 26], [24, 40], [51, 70], [62, 85]], "note": "Formulaires inutilisés intercalés (PDF 55 lu « Page » sans numéro), d'où des positions approchées entre les repères."},
+      {"pdf": "101-266", "content": "Mariages 1821-1871", "pages": "76-241"},
+      {"pdf": "267", "content": "Mariages 1821-1871", "pages": "243", "note": "Aucune page n'est numérotée 242."},
+      {"pdf": "268-269", "content": "Mariages 1821-1871", "note": "Feuillet inséré « folio 242 bis », recto et verso."},
+      {"pdf": "270-330", "content": "Mariages 1821-1871", "pages": "244-304"},
+      {"pdf": "331", "content": "Mariages 1821-1871", "note": "Feuillet inséré entre les pp. 304 et 305."},
+      {"pdf": "332-409", "content": "Mariages 1821-1871", "pages": "305-382", "note": "P. 377 corrigée en 378 (PDF 405). Formulaires inutilisés aux PDF 410-413."},
+      {"pdf": "415-466", "content": "Répertoire des mariages 1821-1871", "note": "Répertoire séparé, après une bande de couleurs (PDF 414)."}
+    ]
+  },
+  "Ed 90/1": {
+    "pdfPages": 435,
+    "parts": [
+      {"pdf": "6-149", "content": "Naissances et baptêmes 1821-1875", "pages": "1-112", "anchors": [[2, 7], [4, 12], [21, 30], [22, 34], [27, 42], [34, 52], [35, 54], [43, 64], [58, 85], [64, 92], [71, 100], [78, 110], [87, 120], [94, 130], [104, 140]], "note": "Formulaires inutilisés et feuillets blancs intercalés, d'où des positions approchées entre les repères."},
+      {"pdf": "150", "content": "Naissances et baptêmes 1821-1875", "note": "Billet entre les pp. 112 et 113."},
+      {"pdf": "151-244", "content": "Naissances et baptêmes 1821-1875", "pages": "113-206", "note": "La p. 204 (PDF 242) ne porte pas de numéro."},
+      {"pdf": "245-246", "content": "Naissances et baptêmes 1821-1875", "note": "La p. 206 photographiée une seconde fois, puis un billet."},
+      {"pdf": "247-383", "content": "Naissances et baptêmes 1821-1875", "pages": "207-343", "note": "Couverture et feuille marbrée aux PDF 384-385."},
+      {"pdf": "386-434", "content": "Répertoire des naissances et baptêmes 1821-1875", "note": "Répertoire incorporé, à onglets."}
+    ]
+  },
+  "Ed 114 bis/4": {
+    "pdfPages": 78,
+    "parts": [
+      {"pdf": "6-60", "content": "Annonces de mariage 1821-1837", "pages": "1-55", "note": "Feuille marbrée et pages blanches aux PDF 61-64."},
+      {"pdf": "65", "content": "Lettre de Villeneuve du 17 mai 1848", "note": "Lettre volante, avant la partie tête-bêche."},
+      {"pdf": "66-77", "content": "Catéchumènes d'Yvorne et Roche 1838-1845", "pages": "1-12", "note": "Partie tête-bêche ; l'inventaire indique pp. 0-12."}
+    ]
   }
 }
