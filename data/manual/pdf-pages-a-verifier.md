@@ -39,3 +39,26 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Ed 114 bis/2 | 43, 70 | Pp. 26 (PDF 43) et 44 (PDF 70) déduites de leurs voisines, numéro non lu. |
 | Ed 143/1 | 87 | P. 72 sous un billet, numéro caché : placée d'après le PDF 88 (même page sans le billet). |
 | Ed 143/3 | 283, 284 | Répertoire : pagination citée non lue (le PDF 282 est une couverture). |
+| Ed 112/1 | 56, 176, 246, 256, 266, 296, 316, 336 | Numéros lus avec peine, gardés comme repères parce qu'ils suivent la progression des voisins : pp. 45, 158, 221, 231, 239, 265, 282 et 299. Le PDF 396 (« 350 » ou « 351 ») est écarté. |
+| Ed 112/2 | 211-216, 261-268, 276-284 | Un décalage d'une page non situé dans chacun de ces intervalles : p. 206 au PDF 217 alors que le PDF 210 porte la p. 200 ; p. 254 au PDF 268 (lecture incertaine) et 269 ; PDF 280 lu « 261 », incohérent, écarté. |
+| Ed 112/4 | 40, 320 | Lectures écartées : PDF 40 (« 26 » ?) et 320 (« 264 » ou « 269 »). |
+| Ed 112/6 | 50, 180, 190, 290, 300 | Lectures écartées (« 37 », « 145 » ou « 148 », « 158 » ?, « 243 » ou « 248 », « 256 » ?) ; les PDF 80, 130, 160, 220 et 230 sont gardés malgré une lecture difficile (pp. 61, 106, 130, 184, 192). |
+| Ed 112/7 | 177 | Lu « Page 169 » suivi d'une trace prise pour « bis » : à confirmer. |
+| Ed 112/8 | 130, 220 | PDF 130 lu « 12? », écarté ; le PDF 220 n'a pas de numéro visible en haut. |
+| Ed 112/9 | 90-102 | Numéros absents du haut de ces pages : pp. 84-96 déduites des bornes (PDF 80 = p. 74, PDF 103 = p. 97). |
+| Ed 13/1 | 215, 310 | PDF 215 lu « 197 », dernier chiffre surchargé (peut-être 196) ; PDF 310 (« 292 » ou « 293 ») écarté. |
+| Ed 13/2 | 140 | Page écrite sans numéro visible entre le PDF 130 (p. 93) et le PDF 150 (p. 110). |
+| Ed 13/3 | 40, 50 | PDF 40 : « 25 » au-dessus d'un numéro lu « 24 » ou « 29 », écarté ; PDF 50 sans numéro visible. |
+| Ed 13/4 | 6 | P. 1 déduite : page de titre « Régistre des Publications », le PDF 7 porte la p. 2. |
+| Eb 112/1 | 177-218 | Répertoire non découpé par section : il couvre les baptêmes, mariages et décès d'Eb 112/1 et Eb 112/2 (le PDF 210 porte « Eb 112/2 Mariages Pully 1630-1673 »). |
+| Eb 112/2 | 125-132 | Les pp. 315-338 montrent des comptes (« La Commune doit », « Les pauvres ont ») aux PDF 123, 124 et 133 : vérifier si elles contiennent aussi des mariages. Le PDF 128 a été lu « 337 », incompatible avec ses voisins (327 attendu). |
+| Eb 112/3 | 223-261, 347-428 | Répertoires séparés d'Eb 112/3 et 112/4 : seul le PDF 240 est lu (baptêmes de 1683-1716) ; la section couverte par chacun (baptêmes, mariages, registre) reste à lire. P. 0 au PDF 5 déduite (PDF 60 = p. 55). |
+| Eb 112/4 | 91-99 | Un décalage de deux pages entre le PDF 90 (p. 83) et le PDF 100 (p. 91) : un billet au PDF 95, l'autre image non située. |
+| Eb 112/5 | 9 | P. 0 placée au PDF 9, qui porte aussi le n° rouge 4 du mandat de LL. EE. (PDF 6-9) : à confirmer sur la page entière. |
+| Eb 112/7 | 5 | P. 0 placée au PDF 5 (page sans numéro avant la p. 1 du PDF 6). |
+| Eb 112/8 | 7 | P. 0 placée au PDF 7 (page sans numéro avant la p. 1 du PDF 8). |
+| Eb 13/1 | 5 | P. 0 placée au PDF 5 (étiquette des Archives sur la page) ; la p. 1 « page 1ère » est au PDF 6. |
+| Eb 13/2 | 131-174 | Catéchumènes : décalage de quatre pages non situé entre le PDF 130 (p. 42) et le PDF 175 (p. 83) ; les PDF 140 et 150 n'ont pas de numéro visible en haut. |
+| Eb 13/3 | 14-102, 106-139 | Aucun numéro de page trouvé en haut des baptêmes ni en haut ou en bas des décès : les baptêmes pp. 0-88 sont placées d'après le nombre d'images (PDF 14-102, années 1799-1830 lues), les décès sont sans pages. |
+| Eb 13/5 | 6-8 | P. 0 placée au PDF 7 d'après le décalage (PDF 45 = p. 38, 85 = p. 78) ; numéros non visibles aux PDF 6-8. |
+| Eb 13/5 | 89-91 | Pp. 82-84 (tête-bêche) : la p. 82 porte « Noms des Pasteurs de l'Église de … » ; vérifier si ces pages contiennent des annonces, comme le dit l'inventaire, ou seulement une liste de pasteurs. |
