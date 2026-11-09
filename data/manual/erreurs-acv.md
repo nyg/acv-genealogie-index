@@ -100,6 +100,7 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [SB 23/2319](https://davel.vd.ch/detail.aspx?ID=613457) | Vevey | Titre | Mariages 1897 A (no 115-139) et B (no 1-59) | Mariages 1907 A (no 115-139) et B (no 1-59) | Dates et dates de création : 1907 ; SB 23/2318 s'arrête aux mariages A 1907 n° 114. | |
 | [SB 269/101/1](https://davel.vd.ch/detail.aspx?ID=1336534) | Vevey | Dates | 1875 janvier 06 - 1928 décembre 23 | 1876 janvier 06 - 1928 décembre 23 | Son premier registre, SB 269/101/1/1, commence le 6 janvier 1876. | |
 | [SB 115/513](https://davel.vd.ch/detail.aspx?ID=615775) | Vevey | Dates et dates de création | 1879-1880 | 1910 | Titre : 1910 ; la série SB 115/513-533 couvre 1910-1928 et SB 115/514 reprend en 1911. Même coquille « 1879-1880 » que SB 23/1057. | |
+ [Eb 136/1](https://davel-vd.ch/eb-136-1) | Villeneuve | Portée et contenu | Baptêmes pages 1-85, 93-96, 101-105 et 111-121 ; Mariages pages 1-43 en tête-bêche | Baptêmes 1572-1619 pp. 1-85 et 93-96, 1619-1635 pp. 1-16 et 41-43 en tête-bêche ; Mariages 1605-1634 pp. 101-105 et 111-121, 1572-1602 pp. 17-40 en tête-bêche | La fiche dit les deux mélangés ; le PDF montre des mariages de 1605-1606 en p. 101 et de 1632 en p. 121, des baptêmes de 1619 en tête-bêche p. 1 (« Sensuyvent les noms des enfants baptisez ») et le titre « Mariages » 1572 en tête-bêche p. 17. | |
 
 ## À vérifier sur le PDF
 
@@ -116,6 +117,7 @@ Les dates de la fiche ne couvrent pas celles du contenu, ou la pagination du PDF
 | [SB 269/104/1/2](https://davel.vd.ch/detail.aspx?ID=1336584) | Villeneuve | Dates | 1897 janvier 19 - 1914 décembre 19 | [SB 269/104/1/1](https://davel.vd.ch/detail.aspx?ID=1336583) va jusqu'au 22 août 1897 : les deux registres se chevauchent de sept mois. SB 269 n'a pas de PDF en ligne : seul le registre peut trancher. | |
 | [SB 23/2305](https://davel.vd.ch/detail.aspx?ID=613443) | Vevey | Titre, dates et dates de création | Mariages B, Naissances B, Décès B et Pièces diverses 1905 ; 1905 | Placée entre les boîtes de 1904 (SB 23/2304) et de 1905 (SB 23/2306) ; SB 23/2310 contient déjà les naissances B, décès B et pièces diverses 1905, et aucune autre boîte n'a les naissances et décès B de 1904 : probablement 1904. SB 23 n'a pas de PDF en ligne : seule la boîte peut trancher. | |
 | [SB 269/101/2/6](https://davel.vd.ch/detail.aspx?ID=1336546) | Vevey | Dates | 1919 septembre 17 - 1928 décembre 22 | [SB 269/101/2/5](https://davel.vd.ch/detail.aspx?ID=1336545) va jusqu'au 17 avril 1923, soit 1923 ici, soit 1919 là-bas. SB 269 n'a pas de PDF en ligne : seul le registre peut trancher. | |
+ [Eb 90/4](https://davel-vd.ch/eb-90-4) | Noville | Portée et contenu | Baptêmes (1813 mai 30 - 1821 juin 30) pp.tête-bêche 0-105 | Les baptêmes 1813-1821 n'occupent que les pp. 0-25 environ (PDF 99 à 85). Les pp. 26-105 (PDF 84 à 46) portent des actes de 1777 à 1836 : p. 37, 1787-1789 ; p. 77, déclarations de naissance de 1824 et baptêmes au temple de Chessel ; p. 102, 1836. La fiche les ignore et date le registre dès 1813. | |
 
 ## Entrées absentes de davel.vd.ch
 

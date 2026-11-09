@@ -23,3 +23,13 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Ed 70/3 | 106 | P. 91 déduite : PDF 104 = p. 90 photographiée une seconde fois, 105 petite image prise pour un billet seul, 115 = p. 100. |
 | Ed 70/4 | 36-66, 196, 200 | Repères tous les 12 PDF ; positions approchées entre eux. Début désordonné : pages « 11 bis » (PDF 26) et « 28 bis » (PDF 50), formulaires barrés, rien de lu entre 32 (p. 15) et 68 (p. 40) sauf « 35 » mal visible au PDF 60. Lectures douteuses écartées : 196 (« 151 » ?) et 200 (« 157 » ?, entre 184 = p. 141 et 210 = p. 165). |
 | Ed 70/6 | 236-270, 314-352 | Repères tous les 12-14 PDF ; positions approchées entre eux, formulaires vides fréquents (PDF 242, 256, 328, 342). |
+| Eb 136/1 | 93, 120 | Dates des parties lues en partie : fin des baptêmes pp. 1-85 (1613) et début des mariages p. 111 (« 1623 » ou « 1603 ») non lus sur l'image ; l'inventaire dit les baptêmes et les mariages mélangés. |
+| Ed 136/5 | 30, 40, 45 | Pp. 1-58 : repères tous les 5-10 PDF entre des formulaires inutilisés ; les PDF 30, 40 et 45 n'ont pas de numéro lisible dans la bande lue (p. 29 ? au PDF 40). |
+| Ed 136/8 | 218, 221, 222 | Dernier numéro lu : p. 215 au PDF 220 ; les pages suivantes (1879-1881) semblent sans numéro, à confirmer au PDF 221-222 (bas de page compris). |
+| Ed 136/8 | 244, 266, 25 | Le répertoire renvoie à des numéros (M : 1, 2, 9, 10…) : pages ou numéros d'annonces, non vérifié (p. 21 au PDF 25 porte l'annonce n° 40). |
+| Eb 90/2 | 313 | Le numéro de la première page des décès, au-dessus de « Registre des personnes qui sont mortes », se lit « 309 » ou « 310 » ; l'entrée suit l'inventaire (pp. 310-325). |
+| Ed 90/5 | 141, 142, 143, 144 | Dernier numéro lu : p. 135 au PDF 140 ; les rectos lus de 145 à 242 n'ont pas de numéro dans la bande du haut. Vérifier si la numérotation continue quelques pages après le PDF 140. |
+| Ed 90/4 | 25, 55, 65 | Pp. 1-62 : formulaires vides intercalés (PDF 25 et 65 lus « Page » sans numéro) ; repères tous les 10 PDF, positions approchées entre eux ; le PDF 55 porte peut-être « 44 ». |
+| Ed 90/2 | 18, 33, 55 | Pp. 1-75 : formulaires inutilisés intercalés ; repères aux PDF 10, 12, 26, 40, 70 et 85, positions approchées entre eux (rien de lu entre 40 et 70). |
+| Ed 90/1 | 70, 75, 80 | Pp. 1-112 : repères tous les 5-12 PDF entre des formulaires inutilisés, positions approchées entre eux ; rien de lu entre les PDF 64 (p. 43) et 85 (p. 58), le PDF 75 sans numéro lisible. |
+| Eb 90/4 | 84, 85, 86 | Partie tête-bêche à l'envers : la limite entre les baptêmes 1813-1821 (PDF 86, pp. 23-24, 1820-1821) et les actes de 1777-1836 (PDF 84, pp. 28-29, 1777-1779) n'est pas lue ; positions approchées entre les repères. |
