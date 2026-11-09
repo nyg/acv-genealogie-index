@@ -70,3 +70,15 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Eb 132/11 | 107-119 | Seconde pagination à la fin du volume : seule la p. 1 (prix de piété filiale, 1805) est lue ; vérifier si ces pages, que les dates de l'inventaire (jusqu'en 1855) couvrent peut-être, contiennent des actes. |
 | Eb 132/14 | 175, 177 | Fiches insérées après la p. 166 : seules « 166 a » (PDF 174) et « 166 c » (PDF 176) sont lues. |
 | Eb 132/16 | 201-204 | Catéchumènes : la p. 24 (1821) au PDF 204 est déduite du PDF 190 = p. 10, numéros non lus aux PDF 201-204. |
+| Ed 132/1 | 186, 188, 292, 336, 338, 380, 382 | Repères p. 171 = PDF 188, p. 271 = PDF 292, p. 315 = PDF 338 et p. 357 = PDF 382 déduits des pages lues de part et d'autre (feuillets blancs présumés aux PDF 186-187, 290-291, 336-337 et 380-381 d'après les tailles d'images) : numéros non lus. |
+| Ed 132/9 | 106-109 | Pp. 89-90 placées aux PDF 106 et 109 d'après les tailles d'images (feuillet blanc présumé aux PDF 107-108) : numéros non lus, repères p. 88 = PDF 105 et p. 91 = PDF 110. |
+| Ed 132/9 | 423, 474 | Répertoire séparé placé d'après la bande de couleurs (PDF 422) : vérifier qu'il cite la pagination du registre, y compris les pp. 140-141 écrites deux fois. |
+| Ed 132/10 | 6-516 | Décalage qui change presque à chaque année (feuillets blancs et formulaires inutilisés) sans paires de petites images : repères tous les 10 PDF environ, positions entre deux repères de décalages différents approchées de 1-3 pages (par exemple PDF 118-121, 159-172, 186-204, 256-264, 336-344, 346-354, 406-414, 436-484). |
+| Ed 132/13 | 8 | P. 1 placée au PDF 8, numéro non lu (PDF 9 = p. 2). |
+| Ed 132/14 | 127 | Repère p. 117 = PDF 127 déduit (PDF 126 = « 116 bis », PDF 137 = p. 127) : numéro non lu. |
+| Ed 132/15 | 10-17 | Pp. 5-11 non lues : un formulaire inutilisé présumé au PDF 17 (image légère) et un billet sur la p. 11 (PDF 16) ; repères p. 4 = PDF 9 et p. 12 = PDF 18. |
+| Ed 132/15 | 287-295, 317-325 | Décalage +2 entre les PDF 286 (p. 266) et 296 (p. 274), +1 entre les PDF 316 (p. 294) et 326 (p. 303) : feuillets non situés, positions approchées. |
+| Ed 132/17 | 66-78 | Une page de plus (formulaire ou numéro bis) entre p. 58 (PDF 65) et p. 71 (PDF 79), non située : positions approchées. |
+| Ed 132/18 | 326-344, 511 | Une page de plus entre p. 312 (PDF 325) et p. 331 (PDF 345), non située ; p. 493 au PDF 511 non lue (fin de partie mise au PDF 510 = p. 492). |
+| Ed 132/19 | 157-170, 352-365 | Deux pages de plus (feuillet blanc ?) entre p. 147 (PDF 156) et p. 160 (PDF 171), une entre p. 340 (PDF 351) et p. 354 (PDF 366), non situées : positions approchées. |
+| Ed 132/23 | 343 | P. 340 placée au PDF 343 (dernière page écrite avant le feuillet blanc), numéro non lu (PDF 342 = p. 339). |
