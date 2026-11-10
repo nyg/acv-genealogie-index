@@ -219,3 +219,11 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Eb 71/18 | 195, 204, 277 | PDF 195 : page pliée sans numéro lu entre les pp. 189 et 190, peut-être une seconde prise de la p. 189. Répertoires : sections hommes et femmes non séparées, contenu non lu. |
 | Eb 71/19 | 239, 312 | Répertoires : sections hommes et femmes (pages paires et impaires) non séparées, contenu non lu. |
 | Eb 71/20 | 283, 289, 346 | P. 276 placée au PDF 283 d'après le décalage constant, numéro non lu. Volume 2 du répertoire (PDF 289-344) : pp. 15-64 supposées seules photographiées, non vérifié. |
+| Eb 71/21 | 5, 45 | P. 0 placée sur l'avertissement (PDF 5), sans numéro lu ; PDF 45 compté comme p. 40 d'après sa place, numéro non lu. |
+| Eb 71/23 | 152, 153, 154, 155 | Numéros corrigés à l'encre (PDF 154-160) : les PDF 152-155 sont comptés comme pp. 145-148 d'après le décalage, leurs numéros récrits ne sont pas lus. |
+| Eb 71/23, 71/24, 71/25, 71/26, 71/27 | 213, 192, 236, 237, 236 | Répertoires incorporés des annonces : contenu non lu (seul celui d'Eb 71/22 l'est, il cite la pagination du registre). |
+| Eb 71/28-39, 71/41, 71/42 | — | Justice de paix : pages du registre repérées à la taille des images (les pièces annexes intercalées sont plus légères) et numéros lus sur un échantillon, tous les 5 à 30 numéros ; une page photographiée deux fois et un numéro sauté qui se compenseraient entre deux lectures passeraient inaperçus. |
+| Eb 71/29-38, 71/40-42 | — | Répertoires incorporés des mariages civils : contenu non lu, sauf ceux d'Eb 71/28 et 71/39, qui citent les numéros du registre (« folio »). |
+| Eb 71/33 | 694, 742 | Feuillets remplis dont le « Page » imprimé reste sans numéro lisible, comptés hors pagination d'après les pp. 115-116 et 122-123 qui les entourent. |
+| Eb 71/35 | 284, 290, 293, 296, 299, 301, 304 | Rectos dont le « Page » imprimé reste sans numéro (pp. 186-200 environ), placés d'après les versos numérotés qui les suivent. |
+| Eb 71/40 | 149, 150 | La p. 57 manque entre les rectos 56 (PDF 145) et 58 (PDF 149) ; le verso PDF 150 porte peut-être un petit numéro au-dessus de « Page », mal lu. |
