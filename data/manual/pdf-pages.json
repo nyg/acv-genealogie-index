@@ -4801,5 +4801,201 @@
       {"pdf": "562-609", "content": "Répertoire des mariages 1780-1821", "note": "Répertoire incorporé, à la fin du registre."},
       {"pdf": "613-670", "content": "Répertoire des mariages 1780-1821", "note": "Répertoire séparé, copie du répertoire incorporé, après une bande de couleurs (PDF 610)."}
     ]
+  },
+  "Eb 71/1": {
+    "pdfPages": 572,
+    "parts": [
+      {"pdf": "7-95", "content": "Baptêmes 1572-1576", "pages": "1-176", "spread": true, "note": "Photographié en doubles pages : la p. 1 est à droite du PDF 7, la p. 176 à gauche du PDF 95."},
+      {"pdf": "98-177", "content": "Baptêmes 1577-1581", "pages": "177-333", "spread": true, "anchors": [[234, 127], [236, 128], [249, 135]], "note": "Photographié en doubles pages, après deux images de pages blanches (PDF 96-97) : la p. 177 est à droite du PDF 98. Le n° 234 est écrit sur les deux pages du PDF 127, et une p. « 248 bis » est à gauche du PDF 135."},
+      {"pdf": "180-284", "content": "Baptêmes 1616-1621", "pages": "1-208", "spread": true, "note": "Second volume, page de titre « Baptistaires » au PDF 179 ; photographié en doubles pages : la p. 1 est à droite du PDF 180, la p. 208 à gauche du PDF 284."},
+      {"pdf": "285-315", "content": "Mariages 1616-1621, pages en tête-bêche", "pages": "61-1", "spread": true, "anchors": [[60, 285]], "note": "Photographié en doubles pages, à l'envers et du dernier feuillet au premier : les pp. 60-61 sont au PDF 285, la p. 1 au PDF 315, photographiée une seconde fois au PDF 316."},
+      {"pdf": "316-406", "content": "Baptêmes 1621-1626", "pages": "209-389", "spread": true, "note": "Photographié en doubles pages : la p. 209 est à droite du PDF 316 (et du PDF 315), la p. 389 à droite du PDF 406."},
+      {"pdf": "408-434", "content": "Mariages 1621-1626, pages en tête-bêche", "pages": "113-62", "spread": true, "note": "Photographié en doubles pages, à l'envers et du dernier feuillet au premier : la p. 113 est au PDF 408 (et au PDF 407, à moitié cachée), la p. 62, titre des mariages de 1621, au PDF 434. Les pp. « 61a » et « 61b » de l'inventaire, notées au crayon aux PDF 435 et 434, n'ont pas d'actes."},
+      {"pdf": "444-466", "content": "Répertoire des baptêmes 1572-1581", "note": "Répertoire séparé de Samuel Pahud, relié avec ceux des baptêmes d'Eb 71/2, après une bande de couleurs (PDF 439) ; « Observations générales » au PDF 444. Photographié en doubles pages."},
+      {"pdf": "468-484", "content": "Répertoire des baptêmes 1586-1594 (Eb 71/2)"},
+      {"pdf": "487-505", "content": "Répertoire des baptêmes 1616-1626"},
+      {"pdf": "508-531", "content": "Répertoire des baptêmes 1626-1641 (Eb 71/2)"},
+      {"pdf": "541-571", "content": "Répertoire des mariages 1616-1626", "note": "Répertoire séparé de décembre 1917, après une bande de couleurs (PDF 539)."}
+    ]
+  },
+  "Eb 71/2": {
+    "pdfPages": 554,
+    "parts": [
+      {"pdf": "8-179", "content": "Baptêmes 1586-1594", "pages": "1-172"},
+      {"pdf": "188-222", "content": "Répertoire des baptêmes 1586-1594", "note": "Section du répertoire relié des baptêmes de Lausanne, de Samuel Pahud (volume à onglets), après une bande de couleurs (PDF 180) ; la section des baptêmes 1626-1641 est au PDF 348-396."},
+      {"pdf": "224-347", "content": "Baptêmes 1626-1641", "pages": "1-124", "note": "Les pp. 1-48, d'un format plus petit, sont reliées devant la p. 49, dont le haut paraît au-dessus d'elles."},
+      {"pdf": "348-396", "content": "Répertoire des baptêmes 1626-1641", "note": "Section du même répertoire relié, photographiée à la suite des baptêmes 1626-1641."},
+      {"pdf": "398-403", "content": "Mariages 1586", "note": "Pages numérotées 1a-6a en rouge, avant la p. 1 de 1587."},
+      {"pdf": "404-463", "content": "Mariages 1587-1594", "pages": "1-60"},
+      {"pdf": "465-524", "content": "Répertoire des mariages 1586-1594 et 1626-1641", "note": "Répertoire séparé de décembre 1917, après une bande de couleurs (PDF 464)."},
+      {"pdf": "525-552", "content": "Mariages 1626-1641", "pages": "61-88", "note": "Photographié après le répertoire des mariages."}
+    ]
+  },
+  "Eb 71/3": {
+    "pdfPages": 544,
+    "parts": [
+      {"pdf": "12-210", "content": "Baptêmes 1641-1662", "pages": "1-199", "note": "Avant la p. 1, des feuillets numérotés « 0… » au crayon en pied de page, dont le titre « Baptistaires » (PDF 10)."},
+      {"pdf": "213-271", "content": "Baptêmes 1641-1662", "pages": "200-258", "note": "Second lot de prise de vue, après une bande de couleurs (PDF 212) ; la p. 199 est photographiée une seconde fois au PDF 211, avec un billet."},
+      {"pdf": "281-345", "content": "Répertoire des baptêmes 1641-1662", "note": "Section du répertoire relié des baptêmes de Lausanne, de Samuel Pahud (volume à onglets), après une bande de couleurs (PDF 272)."},
+      {"pdf": "353-422", "content": "Répertoire des baptêmes 1641-1662", "note": "Répertoire séparé de Samuel Pahud, après une bande de couleurs (PDF 347)."},
+      {"pdf": "424-481", "content": "Mariages 1641-1662", "pages": "1-58"},
+      {"pdf": "486-544", "content": "Répertoire des mariages 1641-1662", "note": "Répertoire séparé de 1918, après une bande de couleurs (PDF 484)."}
+    ]
+  },
+  "Eb 71/4": {
+    "pdfPages": 735,
+    "parts": [
+      {"pdf": "10-68", "content": "Baptêmes 1663-1688", "pages": "1-59"},
+      {"pdf": "71-440", "content": "Baptêmes 1663-1688", "pages": "60-429", "note": "Un feuillet barré, sans numéro, entre les pp. 59 et 60 (PDF 69-70)."},
+      {"pdf": "444-527", "content": "Répertoire des baptêmes 1663-1688", "note": "Section du répertoire relié des baptêmes de Lausanne, de Samuel Pahud (volume à onglets), après une bande de couleurs (PDF 441)."},
+      {"pdf": "531-616", "content": "Répertoire des baptêmes 1663-1688", "note": "Répertoire séparé de Samuel Pahud, après une bande de couleurs (PDF 529)."},
+      {"pdf": "620-677", "content": "Répertoire des mariages 1663-1687", "note": "Répertoire séparé de 1918, après une bande de couleurs (PDF 618)."},
+      {"pdf": "686-735", "content": "Mariages 1663-1687, pages en tête-bêche", "pages": "0-49", "note": "Partie tête-bêche, photographiée après les répertoires, depuis le dos du volume (PDF 679)."}
+    ]
+  },
+  "Eb 71/5": {
+    "pdfPages": 796,
+    "parts": [
+      {"pdf": "8-469", "content": "Baptêmes 1688-1723", "pages": "1-462"},
+      {"pdf": "474-582", "content": "Répertoire des baptêmes 1688-1723", "note": "Section du répertoire relié des baptêmes de Lausanne, de Samuel Pahud (volume à onglets), après une bande de couleurs (PDF 471)."},
+      {"pdf": "587-699", "content": "Répertoire des baptêmes 1688-1723", "note": "Répertoire séparé de Samuel Pahud, après une bande de couleurs (PDF 584)."},
+      {"pdf": "709-734", "content": "Mariages 1688-1706, pages en tête-bêche", "pages": "1-26", "note": "Partie tête-bêche, photographiée après le répertoire séparé des baptêmes, depuis le dos du volume (PDF 701)."},
+      {"pdf": "738-796", "content": "Répertoire des mariages 1688-1707", "note": "Répertoire séparé de janvier 1918, après une bande de couleurs (PDF 736)."}
+    ]
+  },
+  "Eb 71/6": {
+    "pdfPages": 903,
+    "parts": [
+      {"pdf": "8-303", "content": "Baptêmes 1724-1745", "pages": "1-296"},
+      {"pdf": "306-309", "content": "Baptêmes 1745", "pages": "297-300", "note": "Second lot de prise de vue, après une bande de couleurs (PDF 305) ; la p. 296 est photographiée une seconde fois au PDF 304."},
+      {"pdf": "312-324", "content": "Baptêmes 1745-1746", "pages": "301-313", "note": "Troisième lot, après une bande de couleurs (PDF 311) ; la p. 300 est photographiée une seconde fois au PDF 310."},
+      {"pdf": "327-636", "content": "Baptêmes 1746-1757", "pages": "314-623", "note": "Un feuillet blanc sans numéro entre les pp. 313 et 314 (PDF 325-326). Le PDF 637 montre encore une page de noms, numérotée peut-être « 624 »."},
+      {"pdf": "641-770", "content": "Répertoire des baptêmes 1724-1757", "note": "Section du répertoire relié des baptêmes de Lausanne, de Samuel Pahud (volume à onglets), après une bande de couleurs (PDF 640)."},
+      {"pdf": "772-903", "content": "Répertoire des baptêmes 1724-1757", "note": "Répertoire séparé de Samuel Pahud, après une bande de couleurs (PDF 771)."}
+    ]
+  },
+  "Eb 71/7": {
+    "pdfPages": 497,
+    "parts": [
+      {"pdf": "14-388", "content": "Baptêmes 1757-1769", "pages": "1-375", "note": "Une page d'introduction avant la p. 1 (PDF 13). Les pp. 374-375 portent aussi des extraits et des rectifications d'actes (1769-1783) ; un extrait de baptême du 17 septembre 1769, sur billet, aux PDF 389-390."},
+      {"pdf": "397-448", "content": "Répertoire des baptêmes 1757-1769", "note": "Section du répertoire relié des baptêmes de Lausanne, de Samuel Pahud (volume à onglets), après une bande de couleurs (PDF 396)."},
+      {"pdf": "450-497", "content": "Répertoire des baptêmes 1757-1769", "note": "Répertoire séparé de Samuel Pahud, après une bande de couleurs (PDF 449)."}
+    ]
+  },
+  "Eb 71/8": {
+    "pdfPages": 756,
+    "parts": [
+      {"pdf": "9-555", "content": "Baptêmes 1769-1791", "pages": "0-546"},
+      {"pdf": "556-562", "content": "Baptêmes, extraits et notes", "pages": "546-552", "note": "Le n° 546 sert à deux pages (PDF 555 et 556)."},
+      {"pdf": "563-571", "content": "Extraits de baptêmes et de registres de justice 1761-1791", "note": "Pièces volantes photographiées après la p. 552, suivies de pages blanches (PDF 572-577)."},
+      {"pdf": "580-667", "content": "Répertoire des baptêmes 1769-1786", "note": "Section du répertoire relié des baptêmes de Lausanne, de Samuel Pahud (volume à onglets), après une bande de couleurs (PDF 579)."},
+      {"pdf": "669-756", "content": "Répertoire des baptêmes 1769-1786", "note": "Répertoire séparé de Samuel Pahud, après une bande de couleurs (PDF 668)."}
+    ]
+  },
+  "Eb 71/9": {
+    "pdfPages": 817,
+    "parts": [
+      {"pdf": "6-266", "content": "Baptêmes 1787-1792", "pages": "1-261"},
+      {"pdf": "267-268", "content": "Baptêmes 1792, feuille imprimée", "note": "Feuille imprimée intercalée, numérotée « 260a » au crayon, recto et verso."},
+      {"pdf": "269-659", "content": "Baptêmes 1792-1799", "pages": "262-652"},
+      {"pdf": "660-667", "content": "Pièces volantes", "note": "Petits formats photographiés après la p. 652, non lus."},
+      {"pdf": "669-744", "content": "Répertoire des baptêmes 1787-1799", "note": "Section du répertoire relié des baptêmes de Lausanne, de Samuel Pahud (volume à onglets), après une bande de couleurs (PDF 668)."},
+      {"pdf": "746-817", "content": "Répertoire des baptêmes 1787-1799", "note": "Répertoire séparé de Samuel Pahud, après une bande de couleurs (PDF 745)."}
+    ]
+  },
+  "Eb 71/10": {
+    "pdfPages": 259,
+    "parts": [
+      {"pdf": "8-40", "content": "Baptêmes 1800", "pages": "1-33"},
+      {"pdf": "41-42", "content": "Baptêmes 1800", "note": "Deux pages sans numéro propre entre les pp. 33 et 34 (octobre-novembre 1800)."},
+      {"pdf": "43-176", "content": "Baptêmes 1800-1803", "pages": "34-167"},
+      {"pdf": "178", "content": "Baptêmes 1803", "pages": "168", "note": "Un billet est photographié juste avant, au PDF 177. Pages blanches ensuite."},
+      {"pdf": "183-218", "content": "Répertoire des baptêmes 1800-1803", "note": "Section du répertoire relié des baptêmes de Lausanne, de Samuel Pahud (volume à onglets), après une bande de couleurs (PDF 182)."},
+      {"pdf": "220-259", "content": "Répertoire des baptêmes 1800-1803", "note": "Répertoire séparé de Samuel Pahud, après une bande de couleurs (PDF 219)."}
+    ]
+  },
+  "Eb 71/11": {
+    "pdfPages": 771,
+    "parts": [
+      {"pdf": "6-562", "content": "Baptêmes 1804-1816", "pages": "1-557"},
+      {"pdf": "563-564", "content": "Baptêmes 1816", "pages": "556-557", "note": "Pages « 556 bis » et « 557 bis »."},
+      {"pdf": "565-566", "content": "Baptêmes 1816", "pages": "558-559"},
+      {"pdf": "573-634", "content": "Répertoire des baptêmes 1804-1811", "note": "Section du répertoire relié des baptêmes de Lausanne, de Samuel Pahud (volume à onglets), après une bande de couleurs (PDF 572)."},
+      {"pdf": "636-771", "content": "Répertoire des baptêmes 1804-1816", "note": "Répertoire séparé, non daté, après une bande de couleurs (PDF 635)."}
+    ]
+  },
+  "Eb 71/12": {
+    "pdfPages": 281,
+    "parts": [
+      {"pdf": "6-254", "content": "Baptêmes 1816-1821", "pages": "1-249"},
+      {"pdf": "255", "content": "Baptêmes 1821", "pages": "249", "note": "Page « 249 bis »."},
+      {"pdf": "256-257", "content": "Baptêmes 1821", "pages": "250-251"},
+      {"pdf": "258-280", "content": "Répertoire des baptêmes 1816-1821", "note": "Répertoire incorporé, à la suite de la p. 251."}
+    ]
+  },
+  "Eb 71/13": {
+    "pdfPages": 352,
+    "parts": [
+      {"pdf": "9-291", "content": "Mariages 1718-1759", "pages": "0-282", "note": "Deux billets numérotés « 282a » et « 282b » au crayon suivent la p. 282 (PDF 292-293)."},
+      {"pdf": "297-352", "content": "Répertoire des mariages 1718-1759", "note": "Répertoire séparé, non daté, après une bande de couleurs (PDF 296)."}
+    ]
+  },
+  "Eb 71/14": {
+    "pdfPages": 346,
+    "parts": [
+      {"pdf": "6-287", "content": "Mariages 1759-1778", "pages": "1-282"},
+      {"pdf": "291-346", "content": "Répertoire des mariages 1759-1778", "note": "Répertoire séparé, non daté, après une bande de couleurs (PDF 290)."}
+    ]
+  },
+  "Eb 71/15": {
+    "pdfPages": 440,
+    "parts": [
+      {"pdf": "8-192", "content": "Mariages 1778-1787", "pages": "1-185"},
+      {"pdf": "193-302", "content": "Mariages 1787-1791", "pages": "188-297", "note": "La pagination saute de 185 à 188."},
+      {"pdf": "303-381", "content": "Mariages 1791-1794", "pages": "299-377", "note": "La pagination saute de 297 à 299."},
+      {"pdf": "385-440", "content": "Répertoire des mariages 1778-1794", "note": "Répertoire séparé, non daté, après une bande de couleurs (PDF 384)."}
+    ]
+  },
+  "Eb 71/16": {
+    "pdfPages": 189,
+    "parts": [
+      {"pdf": "6-155", "content": "Mariages 1794-1803", "pages": "1-150"},
+      {"pdf": "156-188", "content": "Répertoire des mariages 1794-1803", "note": "Répertoire incorporé, à la suite de la p. 150."}
+    ]
+  },
+  "Eb 71/17": {
+    "pdfPages": 219,
+    "parts": [
+      {"pdf": "6-30", "content": "Mariages 1804-1805", "pages": "1-25"},
+      {"pdf": "31-50", "content": "Mariages 1805-1807", "pages": "36-55", "note": "La pagination saute de 25 à 36 (décembre 1805)."},
+      {"pdf": "51-165", "content": "Mariages 1807-1821", "pages": "136-250", "note": "La pagination saute de 55 à 136 (juillet 1807), sans lacune dans les dates."},
+      {"pdf": "168-218", "content": "Répertoire des mariages 1804-1821", "note": "Répertoire incorporé, daté de 1835, après deux pages blanches."}
+    ]
+  },
+  "Eb 71/18": {
+    "pdfPages": 295,
+    "parts": [
+      {"pdf": "6-194", "content": "Annonces de mariage 1789-1800", "pages": "1-189", "note": "Numéros au crayon bleu."},
+      {"pdf": "195", "content": "Annonces de mariage 1800", "note": "Page pliée, sans numéro lu, entre les pp. 189 et 190."},
+      {"pdf": "196", "content": "Annonces de mariage 1800", "pages": "190"},
+      {"pdf": "204-273", "content": "Répertoire des annonces de mariage 1790-1800, hommes, et femmes jusqu'à Mot", "note": "Répertoire séparé de 1936, volume 1 (hommes pp. 1-39, femmes pp. 40-64), après une bande de couleurs (PDF 202)."},
+      {"pdf": "277-294", "content": "Répertoire des annonces de mariage 1790-1800, femmes depuis Mou, et veuves", "note": "Volume 2 du même répertoire, pp. 1-14, après une bande de couleurs (PDF 275)."}
+    ]
+  },
+  "Eb 71/19": {
+    "pdfPages": 347,
+    "parts": [
+      {"pdf": "6-234", "content": "Annonces de mariage 1800-1810", "pages": "1-229", "note": "Numéros à l'encre rouge."},
+      {"pdf": "239-310", "content": "Répertoire des annonces de mariage 1800-1810, hommes jusqu'à Pilloud et femmes jusqu'à Nicod", "note": "Répertoire séparé de 1936, volume 1 (hommes aux pages paires, femmes aux pages impaires), après une bande de couleurs (PDF 238)."},
+      {"pdf": "312-347", "content": "Répertoire des annonces de mariage 1800-1810, hommes depuis Pingoud et femmes depuis Nicole", "note": "Volume 2 du même répertoire, après une bande de couleurs (PDF 311)."}
+    ]
+  },
+  "Eb 71/20": {
+    "pdfPages": 409,
+    "parts": [
+      {"pdf": "8-283", "content": "Annonces de mariage 1810-1821", "pages": "1-276", "note": "Numéros à l'encre rouge au pied des pages."},
+      {"pdf": "289-344", "content": "Répertoire des annonces de mariage 1810-1821, hommes", "note": "Répertoire séparé de 1936, volume 2 du répertoire commun à Eb 71/18 et Eb 71/20, dont les pp. 15-64 indexent ces annonces ; après une bande de couleurs (PDF 288)."},
+      {"pdf": "346-409", "content": "Répertoire des annonces de mariage 1810-1821, femmes et veuves", "note": "Volume 3 du même répertoire (femmes pp. 1-53, veuves pp. 54-57), après une bande de couleurs (PDF 345)."}
+    ]
   }
 }
