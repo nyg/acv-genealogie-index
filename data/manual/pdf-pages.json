@@ -5690,5 +5690,155 @@
       {"pdf": "8-127", "content": "Mariages 1875", "pages": "1-120"},
       {"pdf": "130-177", "content": "Répertoire des mariages 1875", "note": "Répertoire incorporé, après une feuille marbrée (PDF 129)."}
     ]
+  },
+  "Ed 71/45": {
+    "pdfPages": 468,
+    "parts": [
+      {"pdf": "6-408", "content": "Décès 1821-1829", "pages": "1-392", "anchors": [[107, 112], [108, 116], [152, 160], [153, 164], [206, 217], [207, 220], [269, 282], [270, 284], [331, 345], [332, 348]], "note": "Formulaires inutilisés aux PDF 113-115, 161-163, 218-219, 283 et 346-347, puis 409-411 en fin de registre. Positions exactes aux repères."},
+      {"pdf": "417-468", "content": "Répertoire des décès 1821-1829", "note": "Répertoire séparé, après une bande de couleurs (PDF 416)."}
+    ]
+  },
+  "Ed 71/46": {
+    "pdfPages": 480,
+    "parts": [
+      {"pdf": "6-366", "content": "Décès 1829-1833", "pages": "393-742", "anchors": [[458, 71], [459, 74], [536, 151], [537, 154], [610, 227], [611, 230], [699, 318], [700, 322], [734, 356], [735, 359]], "note": "Pagination qui suit celle d'Ed 71/45 (pp. 1-392). Formulaires inutilisés aux PDF 72-73 et 228-229, feuillet blanc aux PDF 152-153, trois images sans numéro aux PDF 319-321 ; p. 734 photographiée de nouveau avec un billet (PDF 357), puis le billet seul, numéroté « 733 b » (PDF 358). Positions exactes aux repères."},
+      {"pdf": "367-368", "content": "Décès 1829-1833", "note": "Deux pages numérotées « 742 bis » ; la première se lit aussi « 741 bis »."},
+      {"pdf": "369-421", "content": "Décès 1829-1833", "pages": "743-795", "note": "Formulaire inutilisé au PDF 422."},
+      {"pdf": "429-480", "content": "Répertoire des décès 1829-1833", "note": "Répertoire séparé, après une bande de couleurs (PDF 428)."}
+    ]
+  },
+  "Ed 71/47": {
+    "pdfPages": 378,
+    "parts": [
+      {"pdf": "6-320", "content": "Décès 1834-1836", "pages": "35-346", "anchors": [[155, 126], [156, 130]], "note": "Pagination commençant à 35, celle du répertoire : le n° 796, qui suivait Ed 71/46, est barré et remplacé par 35 au PDF 6, sous une note au crayon « Ne devait être la 1re page ». Formulaires inutilisés aux PDF 127-129 et 321. Positions exactes aux repères."},
+      {"pdf": "327-378", "content": "Répertoire des décès 1834-1836", "note": "Répertoire séparé, après une bande de couleurs (PDF 326)."}
+    ]
+  },
+  "Ed 71/48": {
+    "pdfPages": 434,
+    "parts": [
+      {"pdf": "6-377", "content": "Décès 1836-1839", "pages": "1-366", "anchors": [[38, 43], [39, 46], [166, 173], [167, 176], [300, 309], [301, 312]], "note": "Feuillets blancs aux PDF 44-45, 174-175 et 310-311. Positions exactes aux repères."},
+      {"pdf": "383-434", "content": "Répertoire des décès 1836-1839", "note": "Répertoire séparé, après une bande de couleurs (PDF 382)."}
+    ]
+  },
+  "Ed 71/49": {
+    "pdfPages": 434,
+    "parts": [
+      {"pdf": "6-377", "content": "Décès 1839-1842", "pages": "1-368", "anchors": [[208, 213], [209, 216], [237, 244], [238, 247]], "note": "Feuillet blanc aux PDF 214-215 ; p. 237 photographiée de nouveau avec un billet (PDF 245), puis le billet seul (PDF 246). Positions exactes aux repères."},
+      {"pdf": "383-434", "content": "Répertoire des décès 1839-1842", "note": "Répertoire séparé, après une bande de couleurs (PDF 382)."}
+    ]
+  },
+  "Ed 71/50": {
+    "pdfPages": 628,
+    "parts": [
+      {"pdf": "6-570", "content": "Décès 1842-1846", "pages": "1-555", "anchors": [[124, 129], [125, 132], [136, 143], [137, 146], [246, 255], [247, 258], [356, 367], [357, 370], [472, 485], [473, 488]], "note": "Feuillets blancs aux PDF 130-131, 256-257, 368-369 et 486-487 ; p. 136 photographiée de nouveau (PDF 144), puis un billet seul (PDF 145) ; formulaire inutilisé au PDF 571. Le dernier acte est du 16 juillet 1846 (l'inventaire date la fin de 1864). Positions exactes aux repères."},
+      {"pdf": "577-628", "content": "Répertoire des décès 1842-1846", "note": "Répertoire séparé, après une bande de couleurs (PDF 576)."}
+    ]
+  },
+  "Ed 71/51": {
+    "pdfPages": 450,
+    "parts": [
+      {"pdf": "6-393", "content": "Décès 1846-1848", "pages": "1-384", "anchors": [[68, 73], [69, 76], [228, 235], [229, 238]], "note": "Feuillets blancs aux PDF 74-75 et 236-237. Positions exactes aux repères."},
+      {"pdf": "399-450", "content": "Répertoire des décès 1846-1848", "note": "Répertoire séparé, après une bande de couleurs (PDF 398)."}
+    ]
+  },
+  "Ed 71/52": {
+    "pdfPages": 558,
+    "parts": [
+      {"pdf": "6-503", "content": "Décès 1848-1851", "pages": "1-488", "anchors": [[18, 23], [19, 26], [180, 187], [181, 190], [362, 371], [363, 374], [395, 406], [396, 409], [441, 454], [442, 457]], "note": "Feuillets blancs aux PDF 24-25, 188-189 et 372-373 ; p. 395 photographiée de nouveau (PDF 407), puis un billet seul numéroté « 396 » (PDF 408) ; p. 441 photographiée de nouveau (PDF 455), puis un billet seul (PDF 456). Positions exactes aux repères."},
+      {"pdf": "509-558", "content": "Répertoire des décès 1848-1851", "note": "Répertoire séparé, après une bande de couleurs (PDF 508)."}
+    ]
+  },
+  "Ed 71/53": {
+    "pdfPages": 548,
+    "parts": [
+      {"pdf": "8-491", "content": "Décès 1851-1855", "pages": "1-476", "anchors": [[22, 29], [23, 32], [160, 169], [161, 172], [292, 303], [293, 306], [416, 429], [417, 432]], "note": "Formulaires inutilisés aux PDF 30-31, 170-171, 304-305 et 430-431. Positions exactes aux repères."},
+      {"pdf": "497-548", "content": "Répertoire des décès 1851-1855", "note": "Répertoire séparé, après une bande de couleurs (PDF 496)."}
+    ]
+  },
+  "Ed 71/54": {
+    "pdfPages": 553,
+    "parts": [
+      {"pdf": "6-491", "content": "Décès 1855-1858", "pages": "1-478", "anchors": [[88, 93], [89, 96], [187, 194], [188, 197], [226, 235], [227, 238], [358, 369], [359, 372]], "note": "Feuillets blancs aux PDF 94-95, 236-237 et 370-371 ; p. 187 photographiée de nouveau avec un billet (PDF 195), puis le billet seul (PDF 196) ; formulaires inutilisés aux PDF 492-493. Positions exactes aux repères."},
+      {"pdf": "496-553", "content": "Répertoire des décès 1855-1858", "note": "Répertoire incorporé, après une feuille marbrée (PDF 495)."}
+    ]
+  },
+  "Ed 71/55": {
+    "pdfPages": 469,
+    "parts": [
+      {"pdf": "8-405", "content": "Décès 1858-1861", "pages": "1-396", "anchors": [[51, 58], [52, 61]], "note": "P. 51 photographiée de nouveau (PDF 59) avant une bande de couleurs (PDF 60) ; formulaires inutilisés aux PDF 406-409. Positions exactes aux repères."},
+      {"pdf": "412-469", "content": "Répertoire des décès 1858-1861", "note": "Répertoire incorporé, après une feuille marbrée (PDF 411)."}
+    ]
+  },
+  "Ed 71/56": {
+    "pdfPages": 559,
+    "parts": [
+      {"pdf": "10-492", "content": "Décès 1861-1864", "pages": "1-481", "anchors": [[205, 214], [206, 217]], "note": "Un billet photographié recto et verso (PDF 215-216, le verso numéroté « 204 ») ; formulaires inutilisés aux PDF 493-495. Positions exactes aux repères."},
+      {"pdf": "498-559", "content": "Répertoire des décès 1861-1864", "note": "Répertoire incorporé, après une feuille marbrée (PDF 497)."}
+    ]
+  },
+  "Ed 71/57": {
+    "pdfPages": 441,
+    "parts": [
+      {"pdf": "8-389", "content": "Décès 1864-1867", "pages": "1-380", "anchors": [[353, 360], [354, 363]], "note": "P. 353 photographiée de nouveau (PDF 361), puis un billet quadrillé seul, numéroté « 357 b » (PDF 362). Positions exactes aux repères."},
+      {"pdf": "392-441", "content": "Répertoire des décès 1864-1867", "note": "Répertoire incorporé, après une feuille marbrée (PDF 391)."}
+    ]
+  },
+  "Ed 71/58": {
+    "pdfPages": 549,
+    "parts": [
+      {"pdf": "10-487", "content": "Décès 1867-1870", "pages": "1-478", "note": "Suivi d'une page sans numéro portant l'attestation de conformité de la copie, du 14 avril 1872 (PDF 488), puis de formulaires inutilisés (PDF 489-493)."},
+      {"pdf": "496-549", "content": "Répertoire des décès 1867-1870", "note": "Répertoire incorporé, après une feuille marbrée (PDF 495)."}
+    ]
+  },
+  "Ed 71/59": {
+    "pdfPages": 447,
+    "parts": [
+      {"pdf": "10-393", "content": "Décès 1870-1871", "pages": "1-382", "anchors": [[135, 144], [136, 147]], "note": "La p. 27 (PDF 36) ne porte pas son numéro ; p. 135 photographiée de nouveau (PDF 145), puis un billet quadrillé seul (PDF 146) ; suivi d'une page sans numéro, écrite en tête (PDF 394), et d'un formulaire inutilisé (PDF 395). Positions exactes aux repères."},
+      {"pdf": "398-447", "content": "Répertoire des décès 1870-1871", "note": "Répertoire incorporé, après une feuille marbrée (PDF 397)."}
+    ]
+  },
+  "Ed 71/60": {
+    "pdfPages": 463,
+    "parts": [
+      {"pdf": "10-408", "content": "Décès 1871-1874", "pages": "1-397", "anchors": [[122, 131], [123, 134]], "note": "P. 122 photographiée de nouveau (PDF 132), puis un billet seul (PDF 133) ; formulaires inutilisés aux PDF 409-411. Positions exactes aux repères."},
+      {"pdf": "414-463", "content": "Répertoire des décès 1871-1874", "note": "Répertoire incorporé, après une feuille marbrée (PDF 413)."}
+    ]
+  },
+  "Ed 71/61": {
+    "pdfPages": 439,
+    "parts": [
+      {"pdf": "6-387", "content": "Décès 1874-1875", "pages": "1-378", "anchors": [[73, 78], [74, 81], [253, 260], [254, 263]], "note": "P. 73 photographiée de nouveau (PDF 79), puis un billet seul (PDF 80) ; p. 253 photographiée de nouveau (PDF 261) avant une bande de couleurs (PDF 262) ; formulaires inutilisés aux PDF 388-389. Positions exactes aux repères."},
+      {"pdf": "392-439", "content": "Répertoire des décès 1874-1875", "note": "Répertoire incorporé, après une feuille marbrée (PDF 391)."}
+    ]
+  },
+  "Ed 71/62": {
+    "pdfPages": 733,
+    "parts": [
+      {"pdf": "8-307", "content": "Annonces de mariage 1867-1875", "pages": "1-300"},
+      {"pdf": "308-666", "content": "Annonces de mariage 1867-1875", "pages": "401-759", "note": "La pagination saute de 300 (PDF 307) à 401 (PDF 308)."},
+      {"pdf": "672-733", "content": "Répertoire des annonces de mariage 1867-1875", "note": "Répertoire incorporé, après une feuille marbrée (PDF 671)."}
+    ]
+  },
+  "Ed 71/63": {
+    "pdfPages": 501,
+    "parts": [
+      {"pdf": "6-449", "content": "Annonces de mariage 1875-1878", "pages": "1-444"},
+      {"pdf": "452-501", "content": "Répertoire des annonces de mariage 1875-1878", "note": "Répertoire incorporé, après une feuille marbrée (PDF 451)."}
+    ]
+  },
+  "Ed 71/64": {
+    "pdfPages": 263,
+    "parts": [
+      {"pdf": "4-219", "content": "Annonces de mariage 1861-1864", "pages": "1-214", "anchors": [[108, 111], [109, 114]], "note": "Deux billets photographiés seuls (PDF 112-113). Positions exactes aux repères."},
+      {"pdf": "222-263", "content": "Répertoire des annonces de mariage 1861-1864", "note": "Répertoire incorporé, après une feuille marbrée (PDF 221)."}
+    ]
+  },
+  "Ed 71/65": {
+    "pdfPages": 279,
+    "parts": [
+      {"pdf": "6-231", "content": "Annonces de mariage 1864-1867", "pages": "1-226", "note": "La p. 1 (PDF 6) ne porte pas de numéro visible ; la p. 2 est au PDF 7."},
+      {"pdf": "234-279", "content": "Répertoire des annonces de mariage 1864-1867", "note": "Répertoire incorporé, après une feuille marbrée (PDF 233)."}
+    ]
   }
 }

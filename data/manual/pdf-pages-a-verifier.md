@@ -259,3 +259,9 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Ed 71/30 | 310 | Numéro surchargé, qui se lit « 295 » : placé p. 301 entre les PDF 309 (p. 300) et 311 (p. 302). |
 | Ed 71/33 | 50 | P. 46 placée au PDF 50, numéro qui se lit aussi « 47 » : PDF 49 = p. 45, PDF 51 = p. 47. |
 | Ed 71/38 | 210 | P. 203 déduite : « Page » sans numéro lisible en haut du PDF 210 ; PDF 200 = p. 193, PDF 220 = p. 213. |
+| Ed 71/46 | 74 | P. 459 déduite : numéro hors du cadre lu ; PDF 71 = p. 458, suivi de deux formulaires inutilisés (PDF 72-73), PDF 76 = p. 461. |
+| Ed 71/46 | 367 | Lu « 741 bis » ou « 742 bis » ; le PDF 368 porte « 742 bis », le PDF 366 la p. 742. |
+| Ed 71/48 | 43 | P. 38 déduite : numéro hors du cadre lu ; PDF 42 = p. 37, feuillet blanc aux PDF 44-45, PDF 46 = p. 39. |
+| Ed 71/57 | 362 | Billet quadrillé lu « 357 b », photographié après la p. 353 (PDF 360-361) : vérifier s'il se lit « 353 b ». |
+| Ed 71/59 | 394 | Page sans numéro après la p. 382 (PDF 393), écrite en tête seulement : contenu non lu (clôture du registre ou dernier acte). |
+| Ed 71/65 | 6 | P. 1 sans numéro visible en haut de page ; PDF 7 = p. 2, PDF 8 = p. 3. |

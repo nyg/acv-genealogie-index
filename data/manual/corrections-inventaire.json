@@ -102,5 +102,6 @@
  {"cote": "SB 115/513", "field": "Creation date(s)", "published": "1879 - 1880", "corrected": "1910"},
  {"cote": "Ed 129/9", "field": "Note", "published": "de la page 85 jusqu'au répertoire", "corrected": "de la page 185 jusqu'au répertoire"},
  {"cote": "Ed 71/4", "field": "Instruments de recherche", "published": "Répertoire incorporé des naissances et baptêmes Ed 71/4", "corrected": "Répertoire séparé des naissances et baptêmes Ed 71/4"},
- {"cote": "Ed 71/26", "field": "Portée et contenu", "published": "1863 janvier 15", "corrected": "1836 janvier 15"}
+ {"cote": "Ed 71/26", "field": "Portée et contenu", "published": "1863 janvier 15", "corrected": "1836 janvier 15"},
+ {"cote": "Ed 71/50", "field": "Date(s)", "published": "1842-01-14 - 1864-07-16", "corrected": "1842-01-14 - 1846-07-16"}
 ]
