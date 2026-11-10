@@ -5364,5 +5364,171 @@
       {"pdf": "6-268", "content": "Catéchumènes 1872-1882", "pages": "1-263"},
       {"pdf": "269-279", "content": "Catéchumènes de Saint-François 1903-1905", "pages": "268-278", "note": "Les pp. 264-267 ne sont pas photographiées."}
     ]
+  },
+  "Ed 71/1": {
+    "pdfPages": 456,
+    "parts": [
+      {"pdf": "6-352", "content": "Naissances et baptêmes 1821-1824", "pages": "1-342", "anchors": [[61, 66], [62, 68], [112, 118], [113, 121], [285, 293], [286, 296]], "note": "Formulaire sans numéro au PDF 67 ; p. 112 photographiée de nouveau (PDF 119) avant la bande de couleurs (PDF 120) ; formulaires sans numéro aux PDF 294-295. Positions exactes aux repères."},
+      {"pdf": "353-396", "content": "Naissances et baptêmes 1821-1824", "pages": "345-388", "note": "Les pp. 343-344 (actes 176 à 181) manquent entre les PDF 352 (p. 342) et 353 (p. 345). Formulaires sans numéro aux PDF 397-399."},
+      {"pdf": "405-456", "content": "Répertoire des naissances et baptêmes 1821-1824", "note": "Répertoire séparé, après une bande de couleurs (PDF 404)."}
+    ]
+  },
+  "Ed 71/2": {
+    "pdfPages": 448,
+    "parts": [
+      {"pdf": "6-296", "content": "Naissances et baptêmes 1824-1827", "pages": "1-291"},
+      {"pdf": "297-389", "content": "Naissances et baptêmes 1824-1827", "pages": "294-384", "anchors": [[306, 309], [307, 312]], "note": "Les pp. 292-293 (actes 791 à 796) manquent entre les PDF 296 (p. 291) et 297 (p. 294) ; formulaires sans numéro aux PDF 310-311 et 390. Positions exactes aux repères."},
+      {"pdf": "397-448", "content": "Répertoire des naissances et baptêmes 1824-1827", "note": "Répertoire séparé, après une bande de couleurs (PDF 396)."}
+    ]
+  },
+  "Ed 71/3": {
+    "pdfPages": 472,
+    "parts": [
+      {"pdf": "6-414", "content": "Naissances et baptêmes 1827-1830", "pages": "1-400", "anchors": [[169, 174], [170, 176], [202, 208], [203, 210], [332, 339], [333, 346], [337, 350], [338, 352]], "note": "Entre les pp. 169 (PDF 174) et 170 (PDF 176), une page numérotée « 172 » qui porte un seul acte, le reste barré (PDF 175) ; formulaires sans numéro aux PDF 209 et 351 ; feuillet blanc aux PDF 340-341 ; une lettre aux Conseillers d'État posée sur la p. 333 (PDF 342), puis photographiée seule (PDF 343-345, « 332 c », « 332 d »). Formulaire sans numéro au PDF 415. Positions exactes aux repères."},
+      {"pdf": "421-472", "content": "Répertoire des naissances et baptêmes 1827-1830", "note": "Répertoire séparé, après une bande de couleurs (PDF 420)."}
+    ]
+  },
+  "Ed 71/4": {
+    "pdfPages": 538,
+    "parts": [
+      {"pdf": "6-344", "content": "Naissances et baptêmes 1830-1833", "pages": "1-333", "anchors": [[5, 10], [6, 13], [68, 75], [69, 78], [206, 215], [207, 218]], "note": "P. 5 photographiée de nouveau (PDF 11) avant la bande de couleurs (PDF 12) ; feuillets blancs aux PDF 76-77 et 216-217. Positions exactes aux repères."},
+      {"pdf": "345-481", "content": "Naissances et baptêmes 1830-1833", "pages": "335-469", "anchors": [[343, 353], [344, 356]], "note": "Le numéro 334 est récrit 335 (PDF 345) : pas de p. 334. Feuillet blanc aux PDF 354-355 ; formulaires sans numéro aux PDF 482-483. Positions exactes aux repères."},
+      {"pdf": "489-538", "content": "Répertoire des naissances et baptêmes 1830-1833", "note": "Répertoire relié à part, après une bande de couleurs (PDF 488) ; l'inventaire le dit incorporé."}
+    ]
+  },
+  "Ed 71/5": {
+    "pdfPages": 448,
+    "parts": [
+      {"pdf": "6-389", "content": "Naissances et baptêmes 1833-1836", "pages": "1-382", "anchors": [[2, 9]], "note": "P. 1 photographiée de nouveau (PDF 7) avant la bande de couleurs (PDF 8). Formulaire sans numéro au PDF 390."},
+      {"pdf": "397-448", "content": "Répertoire des naissances et baptêmes 1833-1836", "note": "Répertoire séparé, après une bande de couleurs (PDF 396)."}
+    ]
+  },
+  "Ed 71/6": {
+    "pdfPages": 515,
+    "parts": [
+      {"pdf": "6-62", "content": "Naissances et baptêmes 1836-1839", "pages": "1-55", "anchors": [[54, 59]], "note": "Feuillet blanc aux PDF 60-61 ; le numéro 55 est écrit des deux côtés du feuillet suivant (PDF 62 et 63)."},
+      {"pdf": "63-463", "content": "Naissances et baptêmes 1836-1839", "pages": "55-451", "anchors": [[193, 201], [194, 204], [341, 351], [342, 354]], "note": "Feuillets blancs aux PDF 202-203 et 352-353. Positions exactes aux repères."},
+      {"pdf": "466-515", "content": "Répertoire des naissances et baptêmes 1836-1839", "note": "Répertoire incorporé, après une feuille marbrée (PDF 465)."}
+    ]
+  },
+  "Ed 71/7": {
+    "pdfPages": 541,
+    "parts": [
+      {"pdf": "8-485", "content": "Naissances et baptêmes 1839-1842", "pages": "1-466", "anchors": [[30, 37], [31, 40], [196, 205], [197, 208], [237, 248], [238, 251], [243, 256], [244, 259], [342, 357], [343, 360], [346, 363], [347, 366]], "note": "Feuillets blancs aux PDF 38-39 et 206-207 ; pp. 237 et 243 photographiées deux fois (PDF 248-249 et 256-257), chaque fois suivies d'un billet seul (PDF 250 et 258) ; p. 342 photographiée de nouveau (PDF 358) avant la bande de couleurs (PDF 359) ; feuillet blanc aux PDF 364-365 ; formulaires sans numéro aux PDF 486-487. Positions exactes aux repères."},
+      {"pdf": "490-536", "content": "Répertoire des naissances et baptêmes 1839-1842", "note": "Répertoire incorporé, après une feuille marbrée (PDF 489)."}
+    ]
+  },
+  "Ed 71/8": {
+    "pdfPages": 503,
+    "parts": [
+      {"pdf": "8-451", "content": "Naissances et baptêmes 1842-1845", "pages": "1-436", "anchors": [[22, 29], [23, 32], [172, 181], [173, 184], [324, 335], [325, 338], [405, 418], [406, 421]], "note": "Feuillets blancs aux PDF 30-31, 182-183 et 336-337 ; p. 405 photographiée de nouveau (PDF 419) avant la bande de couleurs (PDF 420). Positions exactes aux repères."},
+      {"pdf": "456-503", "content": "Répertoire des naissances et baptêmes 1842-1845", "note": "Répertoire incorporé, après une feuille marbrée (PDF 455)."}
+    ]
+  },
+  "Ed 71/9": {
+    "pdfPages": 463,
+    "parts": [
+      {"pdf": "8-411", "content": "Naissances et baptêmes 1845-1848", "pages": "1-390", "anchors": [[44, 51], [45, 54], [64, 73], [65, 76], [181, 192], [182, 195], [210, 223], [211, 226], [212, 227], [213, 230], [214, 231], [215, 233], [337, 355], [338, 357], [360, 379], [361, 382]], "note": "Feuillets blancs aux PDF 52-53, 224-225 et 380-381 ; pp. 64, 181 et 212 photographiées deux fois (PDF 73-74, 192-193 et 227-228), chaque fois suivies d'un billet seul (PDF 75, 194 et 229) ; p. 214 photographiée sans puis avec un imprimé posé dessus (PDF 231-232) ; p. 337 photographiée deux fois (PDF 355-356). Positions exactes aux repères."},
+      {"pdf": "414-463", "content": "Répertoire des naissances et baptêmes 1845-1848", "note": "Répertoire incorporé, après une feuille marbrée (PDF 413)."}
+    ]
+  },
+  "Ed 71/10": {
+    "pdfPages": 543,
+    "parts": [
+      {"pdf": "8-491", "content": "Naissances et baptêmes 1848-1851", "pages": "1-468", "anchors": [[29, 36], [30, 39], [62, 71], [63, 74], [108, 119], [109, 122], [214, 227], [215, 230], [216, 233], [230, 247], [231, 250], [272, 291], [273, 294], [400, 421], [401, 424]], "note": "Pages photographiées de nouveau avant chaque bande de couleurs : p. 29 (PDF 37, bande PDF 38), p. 62 (PDF 72, bande PDF 73), p. 215 (PDF 231, bande PDF 232) et p. 230 (PDF 248, bande PDF 249) ; feuillets blancs aux PDF 120-121, 292-293 et 422-423 ; p. 214 photographiée deux fois (PDF 227-228), puis un billet seul (PDF 229). Positions exactes aux repères."},
+      {"pdf": "494-543", "content": "Répertoire des naissances et baptêmes 1848-1851", "note": "Répertoire incorporé, après une feuille marbrée (PDF 493)."}
+    ]
+  },
+  "Ed 71/11": {
+    "pdfPages": 541,
+    "parts": [
+      {"pdf": "8-489", "content": "Naissances et baptêmes 1851-1854", "pages": "1-468", "anchors": [[90, 97], [91, 100], [238, 247], [239, 250], [255, 266], [256, 269], [311, 324], [312, 327], [382, 397], [383, 400], [390, 407], [391, 410], [427, 446], [428, 449]], "note": "Feuillets blancs aux PDF 98-99, 248-249 et 398-399 ; pp. 255, 390 et 427 photographiées deux fois (PDF 266-267, 407-408 et 446-447), chaque fois suivies d'un billet seul (PDF 268, 409 et 448) ; p. 311 photographiée de nouveau (PDF 325) avant la bande de couleurs (PDF 326). Positions exactes aux repères."},
+      {"pdf": "492-541", "content": "Répertoire des naissances et baptêmes 1851-1854", "note": "Répertoire incorporé, après une feuille marbrée (PDF 491)."}
+    ]
+  },
+  "Ed 71/12": {
+    "pdfPages": 521,
+    "parts": [
+      {"pdf": "8-461", "content": "Naissances et baptêmes 1854-1857", "pages": "1-438", "anchors": [[33, 40], [34, 43], [62, 71], [63, 74], [91, 102], [92, 105], [102, 115], [103, 118], [224, 239], [225, 242], [334, 351], [335, 354], [386, 405], [387, 408], [401, 422], [402, 425]], "note": "Pp. 33, 91, 334 et 401 photographiées deux fois (PDF 40-41, 102-103, 351-352 et 422-423), chaque fois suivies d'un billet seul (PDF 42, 104, 353 et 424) ; formulaires sans numéro aux PDF 72-73, 240-241 et 406-407 ; p. 102 photographiée de nouveau (PDF 116) avant la bande de couleurs (PDF 117). Positions exactes aux repères."},
+      {"pdf": "464-521", "content": "Répertoire des naissances et baptêmes 1854-1857", "note": "Répertoire incorporé, après une feuille marbrée (PDF 463)."}
+    ]
+  },
+  "Ed 71/13": {
+    "pdfPages": 477,
+    "parts": [
+      {"pdf": "6-417", "content": "Naissances et baptêmes 1857-1859", "pages": "1-398", "anchors": [[108, 113], [109, 116], [177, 184], [178, 187], [185, 194], [186, 197], [288, 299], [289, 302], [290, 305], [301, 316], [302, 319], [312, 329], [313, 332]], "note": "Formulaires sans numéro aux PDF 114-115, 300-301 et 418-419 ; la p. 118 porte le numéro « 116 » (PDF 125) ; pp. 177, 185, 289 et 301 photographiées deux fois (PDF 184-185, 194-195, 302-303 et 316-317), chaque fois suivies d'un billet seul (PDF 186, 196, 304 et 318) ; p. 312 photographiée de nouveau (PDF 330) avant la bande de couleurs (PDF 331). Positions exactes aux repères."},
+      {"pdf": "422-477", "content": "Répertoire des naissances et baptêmes 1857-1859", "note": "Répertoire incorporé, après une feuille marbrée (PDF 421)."}
+    ]
+  },
+  "Ed 71/14": {
+    "pdfPages": 487,
+    "parts": [
+      {"pdf": "6-427", "content": "Naissances et baptêmes 1859-1861", "pages": "1-416", "anchors": [[169, 174], [170, 177], [186, 193], [187, 196], [210, 219], [211, 222]], "note": "P. 169 photographiée de nouveau (PDF 175) avant la bande de couleurs (PDF 176) ; p. 186 photographiée deux fois (PDF 193-194), puis un billet seul (PDF 195) ; p. 210 photographiée de nouveau avec un billet posé dessus (PDF 220), puis le billet seul (PDF 221). Positions exactes aux repères."},
+      {"pdf": "430-487", "content": "Répertoire des naissances et baptêmes 1859-1861", "note": "Répertoire incorporé, après une feuille marbrée (PDF 429)."}
+    ]
+  },
+  "Ed 71/15": {
+    "pdfPages": 441,
+    "parts": [
+      {"pdf": "10-382", "content": "Naissances et baptêmes 1861-1863", "pages": "1-362", "anchors": [[4, 13], [5, 16], [43, 54], [44, 58], [99, 113], [100, 116], [197, 213], [198, 216], [225, 243], [226, 246]], "note": "P. 4 photographiée avec un billet couvrant son numéro (PDF 13), de nouveau avec le billet posé à côté (PDF 14), puis le billet seul (PDF 15) ; p. 43 photographiée trois fois (PDF 54, 55 et 57), avec un billet seul au PDF 56 ; pp. 99 et 197 photographiées de nouveau (PDF 114 et 214) avant les bandes de couleurs (PDF 115 et 215) ; p. 225 photographiée deux fois (PDF 243-244), puis un billet seul (PDF 245). Positions exactes aux repères."},
+      {"pdf": "385-441", "content": "Répertoire des naissances et baptêmes 1861-1863", "note": "Répertoire incorporé, après une feuille marbrée (PDF 384)."}
+    ]
+  },
+  "Ed 71/16": {
+    "pdfPages": 447,
+    "parts": [
+      {"pdf": "10-381", "content": "Naissances et baptêmes 1863-1865", "pages": "1-358", "anchors": [[4, 13], [5, 16], [6, 19], [147, 160], [148, 163], [219, 234], [220, 237], [236, 253], [237, 256], [252, 271], [253, 274], [319, 340], [320, 343]], "note": "Pp. 4, 5, 147, 236 et 252 photographiées deux fois (PDF 13-14, 16-17, 160-161, 253-254 et 271-272), chaque fois suivies d'un billet seul (PDF 15, 18, 162, 255 et 273) ; pp. 219 et 319 photographiées de nouveau (PDF 235 et 341) avant les bandes de couleurs (PDF 236 et 342) ; formulaires sans numéro aux PDF 382-383. Positions exactes aux repères."},
+      {"pdf": "386-447", "content": "Répertoire des naissances et baptêmes 1863-1865", "note": "Répertoire incorporé, après une feuille marbrée (PDF 385)."}
+    ]
+  },
+  "Ed 71/17": {
+    "pdfPages": 435,
+    "parts": [
+      {"pdf": "10-371", "content": "Naissances et baptêmes 1865-1867", "pages": "1-360", "anchors": [[103, 112], [104, 115]], "note": "P. 103 photographiée avec un billet posé dessus (PDF 112), puis sans (PDF 113), et le billet seul (PDF 114). Positions exactes aux repères."},
+      {"pdf": "374-435", "content": "Répertoire des naissances et baptêmes 1865-1867", "note": "Répertoire incorporé, après une feuille marbrée (PDF 373)."}
+    ]
+  },
+  "Ed 71/18": {
+    "pdfPages": 415,
+    "parts": [
+      {"pdf": "8-367", "content": "Naissances et baptêmes 1867-1868", "pages": "1-352", "anchors": [[99, 106], [100, 109], [297, 306], [298, 309], [318, 329], [319, 332], [341, 354], [342, 357]], "note": "Pp. 99, 297 et 341 photographiées deux fois (PDF 106-107, 306-307 et 354-355), chaque fois suivies d'un billet seul (PDF 108, 308 et 356) ; p. 318 photographiée de nouveau (PDF 330) avant la bande de couleurs (PDF 331). Positions exactes aux repères."},
+      {"pdf": "370-415", "content": "Répertoire des naissances et baptêmes 1867-1868", "note": "Répertoire incorporé, après une feuille marbrée (PDF 369)."}
+    ]
+  },
+  "Ed 71/19": {
+    "pdfPages": 418,
+    "parts": [
+      {"pdf": "8-364", "content": "Naissances et baptêmes 1868-1870", "pages": "1-350", "anchors": [[15, 22], [16, 25], [228, 237], [229, 239], [240, 250], [241, 253], [255, 267], [256, 270]], "note": "Pp. 15 et 240 photographiées de nouveau (PDF 23 et 251) avant les bandes de couleurs (PDF 24 et 252) ; p. 228 photographiée deux fois, le billet qui y est collé replié puis déplié (PDF 237-238) ; p. 255 photographiée deux fois (PDF 267-268), puis un billet seul (PDF 269) ; formulaires sans numéro aux PDF 365-366. Positions exactes aux repères."},
+      {"pdf": "369-418", "content": "Répertoire des naissances et baptêmes 1868-1870", "note": "Répertoire incorporé, après une feuille marbrée (PDF 368)."}
+    ]
+  },
+  "Ed 71/20": {
+    "pdfPages": 435,
+    "parts": [
+      {"pdf": "8-381", "content": "Naissances et baptêmes 1870-1872", "pages": "1-366", "anchors": [[141, 148], [142, 151], [220, 229], [221, 232], [278, 289], [279, 292], [290, 303], [291, 306]], "note": "Pp. 141 et 278 photographiées deux fois (PDF 148-149 et 289-290), chaque fois suivies d'un billet seul (PDF 150 et 291) ; deux billets seuls après la p. 220 (PDF 230-231) ; p. 290 photographiée de nouveau (PDF 304) avant la bande de couleurs (PDF 305) ; formulaires sans numéro aux PDF 382-383. Positions exactes aux repères."},
+      {"pdf": "386-435", "content": "Répertoire des naissances et baptêmes 1870-1872", "note": "Répertoire incorporé, après une feuille marbrée (PDF 385)."}
+    ]
+  },
+  "Ed 71/21": {
+    "pdfPages": 474,
+    "parts": [
+      {"pdf": "10-422", "content": "Naissances et baptêmes 1872-1873", "pages": "1-398", "anchors": [[40, 49], [41, 52], [140, 151], [141, 154], [209, 222], [210, 225], [275, 290], [276, 293], [279, 296], [280, 298], [285, 303], [286, 306], [315, 335], [316, 338], [393, 415], [394, 418]], "note": "Pp. 40, 209, 275, 285 et 315 photographiées deux fois (PDF 49-50, 222-223, 290-291, 303-304 et 335-336), chaque fois suivies d'un billet seul (PDF 51, 224, 292, 305 et 337) ; feuillet blanc aux PDF 152-153 ; p. 279 photographiée de nouveau avec le billet qui y est collé déplié (PDF 297) ; p. 392 photographiée de nouveau après la p. 393 (PDF 416), puis un billet seul (PDF 417). Positions exactes aux repères."},
+      {"pdf": "425-474", "content": "Répertoire des naissances et baptêmes 1872-1873", "note": "Répertoire incorporé, après une feuille marbrée (PDF 424)."}
+    ]
+  },
+  "Ed 71/22": {
+    "pdfPages": 461,
+    "parts": [
+      {"pdf": "8-409", "content": "Naissances et baptêmes 1873-1875", "pages": "1-394", "anchors": [[40, 47], [41, 50], [159, 168], [160, 171], [208, 219], [209, 222], [261, 274], [262, 277]], "note": "Pp. 40 et 159 photographiées de nouveau (PDF 48 et 169) avant les bandes de couleurs (PDF 49 et 170) ; p. 208 photographiée avec un billet posé dessus (PDF 219), puis sans (PDF 220), et le billet seul (PDF 221) ; p. 261 photographiée deux fois (PDF 274-275), puis un billet seul (PDF 276) ; formulaires sans numéro aux PDF 410-411. Positions exactes aux repères."},
+      {"pdf": "414-461", "content": "Répertoire des naissances et baptêmes 1873-1875", "note": "Répertoire incorporé, après une feuille marbrée (PDF 413)."}
+    ]
+  },
+  "Ed 71/23": {
+    "pdfPages": 339,
+    "parts": [
+      {"pdf": "8-287", "content": "Naissances et baptêmes 1875", "pages": "1-268", "anchors": [[31, 38], [32, 41], [44, 53], [45, 56], [75, 86], [76, 89], [100, 113], [101, 116], [119, 134], [120, 137], [128, 145], [129, 148]], "note": "Pp. 31, 44, 75 et 119 photographiées de nouveau (PDF 39, 54, 87 et 135) avant les bandes de couleurs (PDF 40, 55, 88 et 136) ; p. 100 photographiée deux fois (PDF 113-114), puis un billet seul (PDF 115) ; p. 128 photographiée deux fois, le billet qui y est collé replié puis déplié (PDF 145-146), puis le billet seul (PDF 147). Positions exactes aux repères."},
+      {"pdf": "288", "content": "Naissances et baptêmes 1875", "pages": "269", "note": "Feuille volante quadrillée numérotée « page 269 », datée du 19 mai 1896, qui complète les ff. 267-268 ; la p. 268 est photographiée de nouveau sous son verso (PDF 289)."},
+      {"pdf": "292-339", "content": "Répertoire des naissances et baptêmes 1875", "note": "Répertoire incorporé, après une feuille marbrée (PDF 291)."}
+    ]
   }
 }
