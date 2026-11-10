@@ -3789,5 +3789,224 @@
       {"pdf": "8-191", "content": "Annonces de mariage 1862-1881", "pages": "1-184", "note": "Pages blanches ensuite (PDF 192-194) ; l'inventaire les fait commencer à la p. 85."},
       {"pdf": "196-237", "content": "Répertoire des annonces de mariage 1862-1881", "note": "Répertoire incorporé, à onglets, après une feuille marbrée (PDF 195)."}
     ]
+  },
+  "Eb 97/1": {
+    "pdfPages": 165,
+    "parts": [
+      {"pdf": "4-158", "content": "Baptêmes 1618-1691", "pages": "2-156", "note": "La p. 2 (PDF 4), titre « S'ensuivent les noms des enfans baptizez en l'église de Chastillens », ne montre pas de numéro ; la p. 3 est au PDF 5."},
+      {"pdf": "161-165", "content": "Mariages 1681, pages en tête-bêche", "pages": "2-6", "note": "Partie tête-bêche, après la couverture arrière (PDF 159-160) ; numéros au crayon au pied des pages. Les mariages de janvier 1681 sont à la p. 4 (PDF 163) ; les autres pages portent des notes ou sont blanches."}
+    ]
+  },
+  "Eb 97/2": {
+    "pdfPages": 388,
+    "parts": [
+      {"pdf": "9-276", "content": "Baptêmes 1691-1763", "pages": "1-268", "note": "Pp. 1-4 : traduction d'un mandat et notes ; deux pages de notes sans numéro avant la p. 1 (PDF 7-8)."},
+      {"pdf": "280-343", "content": "Baptêmes 1691-1763", "pages": "269-332", "note": "Un certificat volant (PDF 277) et une feuille volante photographiée recto et verso (PDF 278-279) entre les pp. 268 et 269."},
+      {"pdf": "354-360", "content": "Mariages 1705-1763", "pages": "1-7", "note": "Partie tête-bêche, après la couverture arrière (PDF 344) et des feuillets blancs (PDF 345-351) ; deux pages sans numéro (une ordonnance) avant la p. 1 (PDF 352-353)."},
+      {"pdf": "361-362", "content": "Mariages 1705-1763", "note": "Feuillet sans numéro entre les pp. 7 et 8."},
+      {"pdf": "363-388", "content": "Mariages 1705-1763", "pages": "8-33"}
+    ]
+  },
+  "Eb 97/3": {
+    "pdfPages": 289,
+    "parts": [
+      {"pdf": "14-31", "content": "Baptêmes 1764-1797", "pages": "1-18"},
+      {"pdf": "34-91", "content": "Baptêmes 1764-1797", "pages": "19-76", "note": "La p. 18 est photographiée de nouveau (PDF 32), puis un billet seul (PDF 33)."},
+      {"pdf": "94", "content": "Baptêmes 1764-1797", "pages": "77", "note": "La p. 76 est photographiée de nouveau avec un billet (PDF 92), puis le billet seul (PDF 93)."},
+      {"pdf": "97-241", "content": "Baptêmes 1764-1797", "pages": "78-222", "note": "La p. 77 est photographiée de nouveau avec un billet (PDF 95), puis le billet seul (PDF 96)."},
+      {"pdf": "250-289", "content": "Mariages 1764-1796", "pages": "1-40", "note": "Partie tête-bêche, après la couverture arrière (PDF 242) et des feuillets blancs ; photographiée à l'endroit."}
+    ]
+  },
+  "Eb 97/4": {
+    "pdfPages": 240,
+    "parts": [
+      {"pdf": "8-122", "content": "Annonces de mariage 1784-1809", "pages": "1-115"},
+      {"pdf": "124-233", "content": "Annonces de mariage 1809-1815", "pages": "116-225", "note": "Un billet déplié sur la p. 115 est photographié seul (PDF 123)."}
+    ]
+  },
+  "Eb 97/5": {
+    "pdfPages": 284,
+    "parts": [
+      {"pdf": "10-12", "content": "Baptêmes 1797-1821", "pages": "1-3"},
+      {"pdf": "14-69", "content": "Baptêmes 1797-1821", "pages": "4-59", "note": "Une page sans numéro entre les pp. 3 et 4 (PDF 13)."},
+      {"pdf": "70-108", "content": "Baptêmes 1797-1821", "pages": "70-108", "note": "La pagination saute de 59 à 70."},
+      {"pdf": "111-120", "content": "Baptêmes 1797-1821", "pages": "109-118", "note": "La p. 108 est photographiée deux fois (PDF 108-109), puis une pièce volante (PDF 110)."},
+      {"pdf": "122-128", "content": "Baptêmes 1797-1821", "pages": "119-125", "note": "La p. 118 est photographiée deux fois (PDF 120-121)."},
+      {"pdf": "129", "content": "Baptêmes 1797-1821", "pages": "125", "note": "Page qui porte aussi le n° 125 : note sur les deux inscriptions précédentes."},
+      {"pdf": "130-163", "content": "Baptêmes 1797-1821", "pages": "126-159", "note": "La p. 154 est détachée (PDF 158)."},
+      {"pdf": "164-225", "content": "Baptêmes 1797-1821", "pages": "170-231", "note": "La pagination saute de 159 à 170."},
+      {"pdf": "234", "content": "Mariages 1797-1821", "pages": "1", "note": "Partie tête-bêche, après la couverture arrière (PDF 226), des feuillets blancs et une lettre volante (PDF 232-233), photographiée à l'endroit."},
+      {"pdf": "236-277", "content": "Mariages 1797-1821", "pages": "2-43", "note": "Verso blanc sans numéro après la p. 1 (PDF 235)."},
+      {"pdf": "278-283", "content": "Mariages 1797-1821", "pages": "45-50", "note": "La pagination saute la p. 44."}
+    ]
+  },
+  "Eb 97/6": {
+    "pdfPages": 189,
+    "parts": [
+      {"pdf": "8-55", "content": "Catéchumènes 1729-1813", "pages": "1-48"},
+      {"pdf": "60-103", "content": "Décès 1728-1763", "pages": "99-142", "note": "Partie tête-bêche, après la couverture arrière (PDF 56) et des feuillets blancs, photographiée à l'endroit ; la p. 99 porte le titre « Mortuaire pour les Eglises de Chastillens & d'Oron »."},
+      {"pdf": "104-189", "content": "Décès 1763-1814", "pages": "1-86"}
+    ]
+  },
+  "Eb 97/7": {
+    "pdfPages": 203,
+    "parts": [
+      {"pdf": "6-48", "content": "Décès 1815-1821", "pages": "1-43"},
+      {"pdf": "49", "content": "Décès 1821", "pages": "45", "note": "La pagination saute la p. 44. Pages blanches ensuite (PDF 50-54)."},
+      {"pdf": "55-203", "content": "Catéchumènes 1814-1875", "pages": "1-149"}
+    ]
+  },
+  "Eb 97/8": {
+    "pdfPages": 87,
+    "parts": [
+      {"pdf": "6-83", "content": "Annonces de mariage 1816-1821", "pages": "1-78", "note": "Numéros au crayon au pied des pages, sauf aux pp. 2-5 (en haut). Pages blanches ensuite (PDF 84-86)."}
+    ]
+  },
+  "Ed 97/2": {
+    "pdfPages": 533,
+    "parts": [
+      {"pdf": "6-134", "content": "Naissances et baptêmes 1839-1865", "pages": "1-129"},
+      {"pdf": "137-172", "content": "Naissances et baptêmes 1839-1865", "pages": "130-165", "note": "Deux formulaires vides, reliés à l'envers, entre les pp. 129 et 130 (PDF 135-136)."},
+      {"pdf": "175-276", "content": "Naissances et baptêmes 1839-1865", "pages": "166-267", "note": "Un intercalaire (PDF 173-174) entre les pp. 165 et 166."},
+      {"pdf": "278-374", "content": "Naissances et baptêmes 1839-1865", "pages": "268-364", "note": "Un formulaire barré sans numéro entre les pp. 267 et 268 (PDF 277)."},
+      {"pdf": "376-471", "content": "Naissances et baptêmes 1839-1865", "pages": "365-460", "note": "Un formulaire barré sans numéro entre les pp. 364 et 365 (PDF 375). Page blanche ensuite (PDF 472)."},
+      {"pdf": "474-531", "content": "Répertoire des naissances et baptêmes 1839-1865", "note": "Répertoire incorporé, à onglets, après une couverture (PDF 473)."}
+    ]
+  },
+  "Ed 97/3": {
+    "pdfPages": 296,
+    "parts": [
+      {"pdf": "10-235", "content": "Naissances et baptêmes 1866-1875", "pages": "1-226"},
+      {"pdf": "236", "content": "Naissances et baptêmes 1875", "note": "Dernier acte, sur une page dont le numéro n'est pas écrit ; formulaires vides ensuite (PDF 237-245)."},
+      {"pdf": "248-295", "content": "Répertoire des naissances et baptêmes 1866-1875", "note": "Répertoire incorporé, à onglets, après une couverture (PDF 247)."}
+    ]
+  },
+  "Ed 97/5": {
+    "pdfPages": 167,
+    "parts": [
+      {"pdf": "6-160", "content": "Mariages 1861-1875", "pages": "1-155", "note": "Un formulaire barré sans numéro ensuite (PDF 161)."},
+      {"pdf": "164-166", "content": "Répertoire des mariages 1861-1875", "note": "Répertoire fixé dans la couverture arrière (PDF 163)."}
+    ]
+  },
+  "Ed 97/7": {
+    "pdfPages": 390,
+    "parts": [
+      {"pdf": "8-279", "content": "Décès 1855-1875", "pages": "1-272", "note": "Formulaires vides ensuite (PDF 280-283)."},
+      {"pdf": "291-389", "content": "Répertoire des décès 1855-1875", "note": "Répertoire séparé, à onglets, après une bande de couleurs (PDF 288) et sa couverture (PDF 289-290)."}
+    ]
+  },
+  "Ed 97/10": {
+    "pdfPages": 291,
+    "parts": [
+      {"pdf": "6-59", "content": "Annonces de mariage 1865-1878", "pages": "1-54"},
+      {"pdf": "62-243", "content": "Annonces de mariage 1865-1878", "pages": "55-236", "note": "Une pièce volante (formulaire imprimé), recto et verso, entre les pp. 54 et 55 (PDF 60-61)."},
+      {"pdf": "246-284", "content": "Répertoire des annonces de mariage 1865-1878", "note": "Répertoire incorporé, à onglets, après une page blanche et une feuille de garde (PDF 244-245) : les pages blanches que l'inventaire signale dès la p. 237 ne sont pas photographiées."}
+    ]
+  },
+  "Ed 97/8": {
+    "pdfPages": 371,
+    "parts": [
+      {"pdf": "6-110", "content": "Annonces de mariage 1821-1844", "pages": "1-105"},
+      {"pdf": "113-241", "content": "Annonces de mariage 1821-1844", "pages": "106-234", "note": "La p. 105 est photographiée deux fois (PDF 110-111), avant une bande de couleurs (PDF 112) qui ouvre un second lot de prise de vue."},
+      {"pdf": "244-321", "content": "Annonces de mariage 1821-1844", "pages": "235-312", "note": "Un feuillet blanc entre les pp. 234 et 235 (PDF 242-243). Page blanche ensuite (PDF 322)."},
+      {"pdf": "324-371", "content": "Répertoire des annonces de mariage 1821-1844", "note": "Répertoire incorporé, après une couverture (PDF 323) ; pages en grande partie blanches."}
+    ]
+  },
+  "Ed 97/9": {
+    "pdfPages": 265,
+    "parts": [
+      {"pdf": "6-99", "content": "Annonces de mariage 1844-1865", "pages": "1-94"},
+      {"pdf": "102-204", "content": "Annonces de mariage 1844-1865", "pages": "95-197", "note": "Une pièce volante, recto et verso, entre les pp. 94 et 95 (PDF 100-101)."},
+      {"pdf": "205-211", "content": "Annonces de mariage 1844-1865", "pages": "197-203", "note": "Le n° 197 est écrit sur deux pages (PDF 204 et 205). Page blanche ensuite (PDF 212)."},
+      {"pdf": "214-265", "content": "Répertoire des annonces de mariage 1844-1865", "note": "Répertoire incorporé, à onglets, après une couverture (PDF 213) ; pages en grande partie blanches."}
+    ]
+  },
+  "Ed 97/4": {
+    "pdfPages": 463,
+    "parts": [
+      {"pdf": "6-11", "content": "Mariages 1821-1861", "pages": "1-6"},
+      {"pdf": "14-18", "content": "Mariages 1821-1861", "pages": "7-11", "note": "Deux formulaires vides sans numéro entre les pp. 6 et 7 (PDF 12-13)."},
+      {"pdf": "22-32", "content": "Mariages 1821-1861", "pages": "12-22", "note": "Trois formulaires vides entre les pp. 11 et 12 (PDF 19-21)."},
+      {"pdf": "34-50", "content": "Mariages 1821-1861", "pages": "23-39", "note": "Un formulaire vide entre les pp. 22 et 23 (PDF 33)."},
+      {"pdf": "54-82", "content": "Mariages 1821-1861", "pages": "40-68", "note": "Trois formulaires vides entre les pp. 39 et 40 (PDF 51-53)."},
+      {"pdf": "84-114", "content": "Mariages 1821-1861", "pages": "69-99", "note": "Un formulaire vide entre les pp. 68 et 69 (PDF 83)."},
+      {"pdf": "116-138", "content": "Mariages 1821-1861", "pages": "100-122", "note": "Un formulaire vide entre les pp. 99 et 100 (PDF 115)."},
+      {"pdf": "140-161", "content": "Mariages 1821-1861", "pages": "123-144", "note": "Un formulaire vide entre les pp. 122 et 123 (PDF 139)."},
+      {"pdf": "164-173", "content": "Mariages 1821-1861", "pages": "145-154", "note": "Deux formulaires vides entre les pp. 144 et 145 (PDF 162-163)."},
+      {"pdf": "176-230", "content": "Mariages 1821-1861", "pages": "155-209", "note": "Deux formulaires vides entre les pp. 154 et 155 (PDF 174-175)."},
+      {"pdf": "231", "content": "Mariages 1821-1861", "note": "Page « 209 bis »."},
+      {"pdf": "232-399", "content": "Mariages 1821-1861", "pages": "210-377", "note": "Page blanche ensuite (PDF 400)."},
+      {"pdf": "402-462", "content": "Répertoire des mariages 1821-1861", "note": "Répertoire incorporé, à onglets, après une feuille marbrée (PDF 401)."}
+    ]
+  },
+  "Ed 97/1": {
+    "pdfPages": 463,
+    "parts": [
+      {"pdf": "6-37", "content": "Naissances et baptêmes 1821-1839", "pages": "1-32"},
+      {"pdf": "40-72", "content": "Naissances et baptêmes 1821-1839", "pages": "33-65", "note": "Deux formulaires vides sans numéro entre les pp. 32 et 33 (PDF 38-39)."},
+      {"pdf": "76-110", "content": "Naissances et baptêmes 1821-1839", "pages": "66-100", "note": "Trois formulaires vides entre les pp. 65 et 66 (PDF 73-75)."},
+      {"pdf": "112-130", "content": "Naissances et baptêmes 1821-1839", "pages": "101-119", "note": "Un formulaire vide entre les pp. 100 et 101 (PDF 111)."},
+      {"pdf": "132-156", "content": "Naissances et baptêmes 1821-1839", "pages": "120-144", "note": "Un formulaire vide entre les pp. 119 et 120 (PDF 131)."},
+      {"pdf": "160-178", "content": "Naissances et baptêmes 1821-1839", "pages": "145-163", "note": "Trois formulaires vides entre les pp. 144 et 145 (PDF 157-159)."},
+      {"pdf": "180", "content": "Naissances et baptêmes 1821-1839", "note": "Page « 163 bis », après un formulaire vide (PDF 179)."},
+      {"pdf": "181-184", "content": "Naissances et baptêmes 1821-1839", "pages": "164-167"},
+      {"pdf": "186-201", "content": "Naissances et baptêmes 1821-1839", "pages": "168-183", "note": "Un formulaire vide entre les pp. 167 et 168 (PDF 185)."},
+      {"pdf": "204-218", "content": "Naissances et baptêmes 1821-1839", "pages": "184-198", "note": "Deux formulaires vides entre les pp. 183 et 184 (PDF 202-203)."},
+      {"pdf": "220-235", "content": "Naissances et baptêmes 1821-1839", "pages": "199-214", "note": "Un formulaire vide entre les pp. 198 et 199 (PDF 219)."},
+      {"pdf": "238", "content": "Naissances et baptêmes 1821-1839", "note": "Page « 214 bis », après un feuillet blanc (PDF 236-237)."},
+      {"pdf": "239-254", "content": "Naissances et baptêmes 1821-1839", "pages": "215-230"},
+      {"pdf": "258-273", "content": "Naissances et baptêmes 1821-1839", "pages": "231-246", "note": "Trois formulaires vides entre les pp. 230 et 231 (PDF 255-257)."},
+      {"pdf": "276-291", "content": "Naissances et baptêmes 1821-1839", "pages": "247-262", "note": "Un feuillet blanc entre les pp. 246 et 247 (PDF 274-275)."},
+      {"pdf": "294-307", "content": "Naissances et baptêmes 1821-1839", "pages": "263-276", "note": "Un feuillet blanc entre les pp. 262 et 263 (PDF 292-293)."},
+      {"pdf": "310-325", "content": "Naissances et baptêmes 1821-1839", "pages": "277-292", "note": "Deux formulaires vides entre les pp. 276 et 277 (PDF 308-309)."},
+      {"pdf": "328-344", "content": "Naissances et baptêmes 1821-1839", "pages": "293-309", "note": "Un feuillet blanc entre les pp. 292 et 293 (PDF 326-327)."},
+      {"pdf": "348-365", "content": "Naissances et baptêmes 1821-1839", "pages": "310-327", "note": "Trois formulaires vides entre les pp. 309 et 310 (PDF 345-347)."},
+      {"pdf": "368-385", "content": "Naissances et baptêmes 1821-1839", "pages": "328-345", "note": "Deux formulaires vides entre les pp. 327 et 328 (PDF 366-367)."},
+      {"pdf": "388-403", "content": "Naissances et baptêmes 1821-1839", "pages": "346-361", "note": "Un feuillet blanc entre les pp. 345 et 346 (PDF 386-387)."},
+      {"pdf": "406-410", "content": "Naissances et baptêmes 1821-1839", "pages": "362-366", "note": "Un feuillet blanc entre les pp. 361 et 362 (PDF 404-405) ; un formulaire vide et une page blanche ensuite (PDF 411-412)."},
+      {"pdf": "414-461", "content": "Répertoire des naissances et baptêmes 1821-1839", "note": "Répertoire incorporé, à onglets, après une couverture (PDF 413)."}
+    ]
+  },
+  "Ed 97/6": {
+    "pdfPages": 572,
+    "parts": [
+      {"pdf": "6-15", "content": "Décès 1821-1855", "pages": "1-10"},
+      {"pdf": "18-26", "content": "Décès 1821-1855", "pages": "11-19", "note": "Deux formulaires vides sans numéro entre les pp. 10 et 11 (PDF 16-17)."},
+      {"pdf": "30-33", "content": "Décès 1821-1855", "pages": "20-23", "note": "Trois formulaires vides sans numéro entre les pp. 19 et 20 (PDF 27-29)."},
+      {"pdf": "34-40", "content": "Décès 1821-1855", "pages": "25-31", "note": "La pagination saute la p. 24."},
+      {"pdf": "44-54", "content": "Décès 1821-1855", "pages": "32-42", "note": "Trois formulaires vides sans numéro entre les pp. 31 et 32 (PDF 41-43)."},
+      {"pdf": "58-66", "content": "Décès 1821-1855", "pages": "43-51", "note": "Trois formulaires vides sans numéro entre les pp. 42 et 43 (PDF 55-57)."},
+      {"pdf": "70-84", "content": "Décès 1821-1855", "pages": "52-66", "note": "Trois formulaires vides sans numéro entre les pp. 51 et 52 (PDF 67-69)."},
+      {"pdf": "88-102", "content": "Décès 1821-1855", "pages": "67-81", "note": "Trois formulaires vides sans numéro entre les pp. 66 et 67 (PDF 85-87)."},
+      {"pdf": "106-116", "content": "Décès 1821-1855", "pages": "82-92", "note": "Trois formulaires vides sans numéro entre les pp. 81 et 82 (PDF 103-105)."},
+      {"pdf": "120-131", "content": "Décès 1821-1855", "pages": "92-103", "note": "La p. 92 est numérotée deux fois (PDF 116 et 120) ; trois formulaires vides entre elles (PDF 117-119)."},
+      {"pdf": "134-142", "content": "Décès 1821-1855", "pages": "104-112", "note": "Deux formulaires vides sans numéro entre les pp. 103 et 104 (PDF 132-133)."},
+      {"pdf": "146-157", "content": "Décès 1821-1855", "pages": "112-123", "note": "La p. 112 est numérotée deux fois (PDF 142 et 146) ; trois formulaires vides entre elles (PDF 143-145)."},
+      {"pdf": "160-171", "content": "Décès 1821-1855", "pages": "124-135", "note": "Deux formulaires vides sans numéro entre les pp. 123 et 124 (PDF 158-159)."},
+      {"pdf": "174-182", "content": "Décès 1821-1855", "pages": "136-144", "note": "Deux formulaires vides sans numéro entre les pp. 135 et 136 (PDF 172-173)."},
+      {"pdf": "186-194", "content": "Décès 1821-1855", "pages": "145-153", "note": "Trois formulaires vides sans numéro entre les pp. 144 et 145 (PDF 183-185)."},
+      {"pdf": "198-209", "content": "Décès 1821-1855", "pages": "154-165", "note": "Trois formulaires vides sans numéro entre les pp. 153 et 154 (PDF 195-197)."},
+      {"pdf": "212-220", "content": "Décès 1821-1855", "pages": "166-174", "note": "Deux formulaires vides sans numéro entre les pp. 165 et 166 (PDF 210-211)."},
+      {"pdf": "224-231", "content": "Décès 1821-1855", "pages": "175-182", "note": "Trois formulaires vides sans numéro entre les pp. 174 et 175 (PDF 221-223)."},
+      {"pdf": "234-241", "content": "Décès 1821-1855", "pages": "183-190", "note": "Deux formulaires vides sans numéro entre les pp. 182 et 183 (PDF 232-233)."},
+      {"pdf": "244-253", "content": "Décès 1821-1855", "pages": "191-200", "note": "Deux formulaires vides sans numéro entre les pp. 190 et 191 (PDF 242-243)."},
+      {"pdf": "256-273", "content": "Décès 1821-1855", "pages": "201-218", "note": "Deux formulaires vides sans numéro entre les pp. 200 et 201 (PDF 254-255)."},
+      {"pdf": "276-287", "content": "Décès 1821-1855", "pages": "219-230", "note": "Deux formulaires vides sans numéro entre les pp. 218 et 219 (PDF 274-275)."},
+      {"pdf": "290-305", "content": "Décès 1821-1855", "pages": "231-246", "note": "Deux formulaires vides sans numéro entre les pp. 230 et 231 (PDF 288-289)."},
+      {"pdf": "308-322", "content": "Décès 1821-1855", "pages": "247-261", "note": "Deux formulaires vides sans numéro entre les pp. 246 et 247 (PDF 306-307)."},
+      {"pdf": "326-341", "content": "Décès 1821-1855", "pages": "262-277", "note": "Entre les pp. 261 et 262, une page sans numéro portant une note (« … la présente copie … », PDF 323) et deux formulaires vides (PDF 324-325)."},
+      {"pdf": "344-355", "content": "Décès 1821-1855", "pages": "278-289", "note": "Deux formulaires vides sans numéro entre les pp. 277 et 278 (PDF 342-343)."},
+      {"pdf": "358-373", "content": "Décès 1821-1855", "pages": "290-305", "note": "Deux formulaires vides sans numéro entre les pp. 289 et 290 (PDF 356-357)."},
+      {"pdf": "376-385", "content": "Décès 1821-1855", "pages": "306-315", "note": "Deux formulaires vides sans numéro entre les pp. 305 et 306 (PDF 374-375)."},
+      {"pdf": "388-395", "content": "Décès 1821-1855", "pages": "316-323", "note": "Deux formulaires vides sans numéro entre les pp. 315 et 316 (PDF 386-387)."},
+      {"pdf": "398-405", "content": "Décès 1821-1855", "pages": "324-331", "note": "Deux formulaires vides sans numéro entre les pp. 323 et 324 (PDF 396-397)."},
+      {"pdf": "408-415", "content": "Décès 1821-1855", "pages": "332-339", "note": "Deux formulaires vides sans numéro entre les pp. 331 et 332 (PDF 406-407)."},
+      {"pdf": "418-429", "content": "Décès 1821-1855", "pages": "340-351", "note": "Deux formulaires vides sans numéro entre les pp. 339 et 340 (PDF 416-417)."},
+      {"pdf": "432-441", "content": "Décès 1821-1855", "pages": "352-361", "note": "Deux formulaires vides sans numéro entre les pp. 351 et 352 (PDF 430-431)."},
+      {"pdf": "444-453", "content": "Décès 1821-1855", "pages": "362-371", "note": "Deux formulaires vides sans numéro entre les pp. 361 et 362 (PDF 442-443)."},
+      {"pdf": "456-463", "content": "Décès 1821-1855", "pages": "372-379", "note": "Deux formulaires vides sans numéro entre les pp. 371 et 372 (PDF 454-455)."},
+      {"pdf": "466-467", "content": "Décès 1821-1855", "pages": "380-381", "note": "Deux formulaires vides sans numéro entre les pp. 379 et 380 (PDF 464-465). Page blanche et couverture arrière ensuite (PDF 468-469)."},
+      {"pdf": "473-570", "content": "Répertoire des décès 1821-1855", "note": "Répertoire séparé, à onglets, après une bande de couleurs (PDF 470) et sa couverture (PDF 471-472)."}
+    ]
   }
 }
