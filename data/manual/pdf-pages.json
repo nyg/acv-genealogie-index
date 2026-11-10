@@ -4008,5 +4008,279 @@
       {"pdf": "466-467", "content": "Décès 1821-1855", "pages": "380-381", "note": "Deux formulaires vides sans numéro entre les pp. 379 et 380 (PDF 464-465). Page blanche et couverture arrière ensuite (PDF 468-469)."},
       {"pdf": "473-570", "content": "Répertoire des décès 1821-1855", "note": "Répertoire séparé, à onglets, après une bande de couleurs (PDF 470) et sa couverture (PDF 471-472)."}
     ]
+  },
+  "Eb 8/1-2": {
+    "pdfPages": 388,
+    "parts": [
+      {"pdf": "6-187", "content": "Baptêmes 1629-1704", "pages": "1-182", "note": "La p. 1 (PDF 6) ne montre pas de numéro ; la p. 2 est au PDF 7."},
+      {"pdf": "192-221", "content": "Baptêmes 1629-1704", "pages": "185-214", "note": "Entre les pp. 182 et 185 : un cahier volant « Tome I bis », copie de baptêmes 1676-1691 (PDF 188 et 190), posé sur la p. 182, photographiée de nouveau (PDF 189 et 191) ; pas de pp. 183-184 lues."},
+      {"pdf": "223-227", "content": "Baptêmes 1704, pages en tête-bêche", "pages": "40-44", "note": "Pages en tête-bêche photographiées du côté des baptêmes ; la p. 40 est aussi la dernière page des mariages (PDF 335)."},
+      {"pdf": "230-289", "content": "Répertoire des baptêmes"},
+      {"pdf": "296-335", "content": "Mariages 1629-1671, pages en tête-bêche", "pages": "1-40", "note": "Couverture « Mariages 1629-1671 » au PDF 290."},
+      {"pdf": "337-388", "content": "Répertoire des mariages"}
+    ]
+  },
+  "Eb 8/3": {
+    "pdfPages": 254,
+    "parts": [
+      {"pdf": "6-86", "content": "Baptêmes 1704-1718", "pages": "1-81", "note": "La p. 1 (PDF 6) ne montre pas de numéro ; la p. 2 est au PDF 7."},
+      {"pdf": "88-139", "content": "Répertoire des baptêmes"},
+      {"pdf": "140-234", "content": "Catéchumènes 1704-1783", "pages": "86-180", "note": "Second lot de prise de vue, après le répertoire ; les pp. 82-85 ne sont pas photographiées."},
+      {"pdf": "239-251", "content": "Mariages 1708-1722", "pages": "181-193", "note": "Après un feuillet marbré et des pages de garde (PDF 235-238)."}
+    ]
+  },
+  "Eb 8/4": {
+    "pdfPages": 407,
+    "parts": [
+      {"pdf": "8", "content": "Baptêmes 1719-1758", "pages": "0", "note": "Page de notes sans numéro, avant deux billets volants (PDF 9-10) ; la p. 1 est au PDF 11."},
+      {"pdf": "11-319", "content": "Baptêmes 1719-1758", "pages": "1-309"},
+      {"pdf": "322-344", "content": "Répertoire des baptêmes"},
+      {"pdf": "349-407", "content": "Mariages 1719-1758, pages en tête-bêche", "pages": "401-459", "note": "Après des pages blanches (PDF 345-348)."}
+    ]
+  },
+  "Eb 8/5": {
+    "pdfPages": 565,
+    "parts": [
+      {"pdf": "8-194", "content": "Baptêmes 1719-1781", "pages": "1-187", "note": "La « Page 1 » (PDF 8) porte le titre « Baptesmes » ; aucune p. 0 numérotée avant."},
+      {"pdf": "195-211", "content": "Baptêmes 1719-1781", "pages": "189-205", "note": "La pagination saute la p. 188."},
+      {"pdf": "212-379", "content": "Baptêmes 1719-1781", "pages": "209-376", "note": "La pagination saute les pp. 206-208."},
+      {"pdf": "382-433", "content": "Répertoire des baptêmes"},
+      {"pdf": "439", "content": "Mariages 1723-1781, pages en tête-bêche", "pages": "0", "note": "Page sans numéro avant la « Page 1 » (PDF 440)."},
+      {"pdf": "440-511", "content": "Mariages 1723-1781, pages en tête-bêche", "pages": "1-72"},
+      {"pdf": "514-565", "content": "Répertoire des mariages"}
+    ]
+  },
+  "Eb 8/6": {
+    "pdfPages": 135,
+    "parts": [
+      {"pdf": "4-8", "content": "Décès 1712-1716", "pages": "1-5"},
+      {"pdf": "13-66", "content": "Répertoire des décès (Eb 8/6 et Eb 8/8), premier volume"},
+      {"pdf": "68-135", "content": "Répertoire des décès (Eb 8/6 et Eb 8/8), second volume"}
+    ]
+  },
+  "Eb 8/7": {
+    "pdfPages": 208,
+    "parts": [
+      {"pdf": "4-5", "content": "Baptêmes 1711-1752", "pages": "1-2"},
+      {"pdf": "7-107", "content": "Baptêmes 1711-1752", "pages": "3-103", "note": "La p. 2 est photographiée de nouveau avec un billet posé dessus (PDF 6)."},
+      {"pdf": "108-134", "content": "Répertoire des baptêmes", "note": "Numéroté pp. 104-130 dans la pagination du registre."},
+      {"pdf": "139-169", "content": "Mariages 1711-1752, pages en tête-bêche", "pages": "131-161", "note": "Après la couverture « Mariages » (PDF 135) et des pages blanches (PDF 136-138)."},
+      {"pdf": "170-197", "content": "Répertoire des mariages", "note": "Numéroté pp. 234-261 dans la pagination du registre."},
+      {"pdf": "198-208", "content": "Catéchumènes 1722-1752, pages en tête-bêche", "pages": "222-232"}
+    ]
+  },
+  "Eb 8/8": {
+    "pdfPages": 575,
+    "parts": [
+      {"pdf": "8-572", "content": "Décès 1728-1821", "pages": "1-565"}
+    ]
+  },
+  "Eb 8/9": {
+    "pdfPages": 244,
+    "parts": [
+      {"pdf": "5-120", "content": "Baptêmes 1758-1780", "pages": "0-115"},
+      {"pdf": "121-184", "content": "Baptêmes 1758-1780", "pages": "114-177", "note": "Les pp. 114-115 sont photographiées deux fois (PDF 119-122)."},
+      {"pdf": "185-205", "content": "Répertoire des baptêmes", "note": "Cahier volant, photographié entre les pp. 177 et 178 ; les pp. 178-179, blanches, suivent deux fois (PDF 206-209)."},
+      {"pdf": "213-215", "content": "Mariages 1758-1786, pages en tête-bêche", "pages": "200-202", "note": "Après la couverture arrière (PDF 210) et des pages de garde."},
+      {"pdf": "218-243", "content": "Mariages 1758-1786, pages en tête-bêche", "pages": "203-228", "note": "Deux billets (PDF 216-217) entre les pp. 202 et 203. La dernière page écrite est la p. 228 (PDF 243, 3 octobre 1786) ; l'inventaire indique pp. 200-277."}
+    ]
+  },
+  "Eb 8/10": {
+    "pdfPages": 634,
+    "parts": [
+      {"pdf": "8-312", "content": "Baptêmes 1782-1818", "pages": "1-305"},
+      {"pdf": "313-337", "content": "Baptêmes 1782-1818", "pages": "305-329", "note": "P. 305 numérotée deux fois (PDF 312 et 313), les numéros des pp. 305-306 surchargés."},
+      {"pdf": "339-419", "content": "Baptêmes 1782-1818", "pages": "330-410", "note": "Une page « 329 bis » (PDF 338), numéro 330 barré, entre les pp. 329 et 330."},
+      {"pdf": "420-470", "content": "Baptêmes 1782-1818", "pages": "410-460", "note": "P. 410 numérotée deux fois (PDF 419 et 420)."},
+      {"pdf": "471-568", "content": "Baptêmes 1782-1818", "pages": "460-557", "note": "P. 460 numérotée deux fois (PDF 470 et 471)."},
+      {"pdf": "575-634", "content": "Répertoire des baptêmes"}
+    ]
+  },
+  "Eb 8/11": {
+    "pdfPages": 266,
+    "parts": [
+      {"pdf": "8-138", "content": "Mariages 1782-1821", "pages": "1-131"},
+      {"pdf": "140-207", "content": "Mariages 1782-1821", "pages": "132-199", "note": "Une page au numéro surchargé, « 131 » ou « 132 » (PDF 139), entre les pp. 131 et 132."},
+      {"pdf": "215-266", "content": "Répertoire des mariages"}
+    ]
+  },
+  "Eb 8/12": {
+    "pdfPages": 132,
+    "parts": [
+      {"pdf": "6-16", "content": "Baptêmes 1818-1821", "pages": "1-11"},
+      {"pdf": "19-34", "content": "Baptêmes 1818-1821", "pages": "12-27", "note": "Un feuillet volant « 10a » (PDF 17-18) entre les pp. 11 et 12."},
+      {"pdf": "39-41", "content": "Baptêmes 1818-1821", "pages": "28-30", "note": "La p. 27 est photographiée de nouveau avec un extrait posé dessus (PDF 35), puis des extraits volants (PDF 36-38)."},
+      {"pdf": "42-45", "content": "Baptêmes 1818-1821", "note": "Feuillets volants numérotés « 30a » à « 30d »."},
+      {"pdf": "46-62", "content": "Baptêmes 1818-1821", "pages": "31-47"},
+      {"pdf": "65-70", "content": "Baptêmes 1818-1821", "pages": "48-53", "note": "Pièces volantes (PDF 63-64) entre les pp. 47 et 48."},
+      {"pdf": "71-72", "content": "Baptêmes 1818-1821", "pages": "53-54", "note": "Numéro 53 écrit sur deux pages (PDF 70 et 71)."},
+      {"pdf": "74", "content": "Baptêmes 1818-1821", "pages": "55", "note": "Un certificat est posé sur la p. 55. Le PDF 73, page au coin replié sans numéro visible, la précède."},
+      {"pdf": "81-132", "content": "Répertoire des baptêmes"}
+    ]
+  },
+  "Eb 8/13": {
+    "pdfPages": 284,
+    "parts": [
+      {"pdf": "4-136", "content": "Baptêmes 1637-1789 (Lavigny)", "pages": "1-133"},
+      {"pdf": "138-223", "content": "Répertoire des baptêmes, mariages, catéchumènes et décès de Lavigny (Eb 8/13 à Eb 8/15)"},
+      {"pdf": "225-283", "content": "Mariages 1640-1789 (Lavigny)", "note": "Second volume, après sa couverture (PDF 224). Pagination au crayon bleu, décroissante dans l'ordre du PDF, de 191 (PDF 227) à 135 (PDF 281), barrée par endroits ; quelques numéros à l'encre (« 224 » au PDF 260)."},
+      {"pdf": "284", "content": "Catéchumènes 1721-1731 (Lavigny)", "pages": "189"}
+    ]
+  },
+  "Eb 8/14": {
+    "pdfPages": 113,
+    "parts": [
+      {"pdf": "4-5", "content": "Catéchumènes 1731-1738 (Lavigny)", "note": "Feuillet « 57 bis », avant la p. 57."},
+      {"pdf": "6-50", "content": "Catéchumènes 1731-1738 (Lavigny)", "pages": "57-101"},
+      {"pdf": "57-112", "content": "Décès 1728-1821 (Lavigny), pages en tête-bêche", "pages": "1-56", "note": "Après des pages blanches et la couverture arrière (PDF 51-56)."}
+    ]
+  },
+  "Eb 8/15": {
+    "pdfPages": 152,
+    "parts": [
+      {"pdf": "4-107", "content": "Baptêmes 1790-1821 (Lavigny)", "pages": "1-104"},
+      {"pdf": "110-136", "content": "Mariages 1789-1821 (Lavigny), pages en tête-bêche", "pages": "1-27", "note": "Après la couverture arrière (PDF 108) et un titre (PDF 109)."},
+      {"pdf": "137-150", "content": "Mariages 1789-1821 (Lavigny), pages en tête-bêche", "pages": "27-40", "note": "P. 27 numérotée deux fois (PDF 136 et 137)."}
+    ]
+  },
+  "Eb 8/16": {
+    "pdfPages": 361,
+    "parts": [
+      {"pdf": "8-43", "content": "Baptêmes 1752-1783", "pages": "1-36"},
+      {"pdf": "44", "content": "Baptêmes 1752-1783", "pages": "36", "note": "Numéro 36 écrit sur trois pages (PDF 43-45)."},
+      {"pdf": "45-72", "content": "Baptêmes 1752-1783", "pages": "36-63"},
+      {"pdf": "73-122", "content": "Baptêmes 1752-1783", "pages": "63-112", "note": "Numéro 63 écrit sur deux pages (PDF 72 et 73)."},
+      {"pdf": "125-193", "content": "Baptêmes 1752-1783", "pages": "113-181", "note": "La p. 112 est photographiée de nouveau avec un billet posé dessus (PDF 123), puis le billet seul (PDF 124)."},
+      {"pdf": "195-217", "content": "Baptêmes 1752-1783", "pages": "182-204", "note": "Une page « 181 bis » (PDF 194) entre les pp. 181 et 182."},
+      {"pdf": "218-242", "content": "Répertoire des baptêmes", "note": "« Index Baptizatorum Alphabeticus », numéroté pp. 205-227 dans la pagination du registre."},
+      {"pdf": "243-271", "content": "Catéchumènes 1752-1783", "pages": "229-257"},
+      {"pdf": "272-328", "content": "Mariages 1752-1783", "pages": "267-323", "note": "Les pp. 258-266 ne sont pas photographiées."},
+      {"pdf": "329-358", "content": "Répertoire des mariages", "note": "Numéroté à partir de la p. 324 dans la pagination du registre."}
+    ]
+  },
+  "Eb 8/17": {
+    "pdfPages": 128,
+    "parts": [
+      {"pdf": "5-63", "content": "Baptêmes 1783-1806", "pages": "1-109", "spread": true, "anchors": [[3, 6], [46, 30], [106, 61], [108, 62]], "note": "Photographié en doubles pages ; la p. 1 est la page de droite du PDF 5."},
+      {"pdf": "64-65", "content": "Baptêmes 1783-1806", "pages": "110-112", "spread": true, "note": "Un billet posé sur la p. 109 (PDF 63) et sur la page de gauche du PDF 64."},
+      {"pdf": "68", "content": "Baptêmes 1783-1806", "pages": "113-114", "spread": true, "note": "La p. 112 est photographiée de nouveau avec des billets (PDF 66-67) ; la p. 114 aussi, avec ou sans billets (PDF 69-76)."},
+      {"pdf": "77-97", "content": "Répertoire des baptêmes", "note": "Les deux premières pages sont photographiées deux fois (PDF 77-78)."},
+      {"pdf": "99-107", "content": "Mariages 1783-1810", "pages": "288-302", "spread": true, "note": "La p. 288 est aussi photographiée au PDF 98."},
+      {"pdf": "108-117", "content": "Répertoire des mariages", "note": "Numéroté pp. 303-320 dans la pagination du registre ; la p. 304 est photographiée deux fois (PDF 108-109)."},
+      {"pdf": "119-125", "content": "Catéchumènes 1784-1809", "pages": "332-343", "spread": true, "note": "La p. 332 est aussi photographiée au PDF 118."}
+    ]
+  },
+  "Eb 8/18": {
+    "pdfPages": 69,
+    "parts": [
+      {"pdf": "6-67", "content": "Baptêmes et naissances 1806-1817", "pages": "1-62"}
+    ]
+  },
+  "Ed 8/3": {
+    "pdfPages": 443,
+    "parts": [
+      {"pdf": "10-144", "content": "Naissances et baptêmes 1861-1874", "pages": "1-135"},
+      {"pdf": "146-391", "content": "Naissances et baptêmes 1861-1874", "pages": "135-380", "note": "P. 135 aux PDF 144 et 146 ; le PDF 145, entre les deux, n'est pas lu."},
+      {"pdf": "392-441", "content": "Répertoire des naissances et baptêmes"}
+    ]
+  },
+  "Ed 8/7": {
+    "pdfPages": 465,
+    "parts": [
+      {"pdf": "10-405", "content": "Mariages 1857-1870", "pages": "1-396"},
+      {"pdf": "407-464", "content": "Répertoire des mariages"}
+    ]
+  },
+  "Ed 8/8": {
+    "pdfPages": 210,
+    "parts": [
+      {"pdf": "10-152", "content": "Mariages 1870-1875", "pages": "1-143", "note": "Des formulaires vides suivent (PDF 153-157)."},
+      {"pdf": "159-210", "content": "Répertoire des mariages"}
+    ]
+  },
+  "Ed 8/13": {
+    "pdfPages": 379,
+    "parts": [
+      {"pdf": "6-375", "content": "Annonces de mariage 1821-1836", "pages": "1-370"}
+    ]
+  },
+  "Ed 8/14": {
+    "pdfPages": 270,
+    "parts": [
+      {"pdf": "8-45", "content": "Annonces de mariage 1836-1849", "pages": "372-409", "note": "Pagination continue d'Ed 8/13 (pp. 1-370), commencée à 372."},
+      {"pdf": "46-218", "content": "Annonces de mariage 1836-1849", "pages": "500-672", "note": "La pagination saute de 409 à 500 : pas de pp. 410-499."},
+      {"pdf": "220-269", "content": "Répertoire des annonces de mariage"}
+    ]
+  },
+  "Ed 8/15": {
+    "pdfPages": 302,
+    "parts": [
+      {"pdf": "37-213", "content": "Annonces de mariage 1849-1863", "pages": "1-177", "note": "Pièces volantes de formats divers (PDF 6-36) avant la p. 1."},
+      {"pdf": "214-217", "content": "Annonces de mariage 1849-1863", "pages": "180-183", "note": "La pagination saute les pp. 178-179."},
+      {"pdf": "218-251", "content": "Annonces de mariage 1849-1863", "pages": "186-219", "note": "La pagination saute les pp. 184-185. La dernière page (PDF 252) porte un numéro surchargé, « 219 » ou « 220 »."},
+      {"pdf": "254-301", "content": "Répertoire des annonces de mariage"}
+    ]
+  },
+  "Ed 8/16": {
+    "pdfPages": 297,
+    "parts": [
+      {"pdf": "4-110", "content": "Annonces de mariage 1863-1876", "pages": "1-107"},
+      {"pdf": "112-249", "content": "Annonces de mariage 1863-1876", "pages": "108-245", "note": "Une page « 107 bis » (PDF 111) entre les pp. 107 et 108. Deux feuillets volants (PDF 250-251) suivent la p. 245."},
+      {"pdf": "254-296", "content": "Répertoire des annonces de mariage"}
+    ]
+  },
+  "Ed 8/12": {
+    "pdfPages": 90,
+    "parts": [
+      {"pdf": "8-35", "content": "Décès 1875", "pages": "1-28"},
+      {"pdf": "39-90", "content": "Répertoire des décès"}
+    ]
+  },
+  "Ed 8/11": {
+    "pdfPages": 527,
+    "parts": [
+      {"pdf": "8-88", "content": "Décès 1856-1875", "pages": "1-81"},
+      {"pdf": "90-292", "content": "Décès 1856-1875", "pages": "82-284", "note": "Une page « 81 bis » (PDF 89) entre les pp. 81 et 82."},
+      {"pdf": "293-371", "content": "Décès 1856-1875", "pages": "287-365", "note": "Pas de pp. 285-286, comme l'indique l'inventaire."},
+      {"pdf": "372-376", "content": "Décès 1856-1875", "pages": "367-371", "note": "La pagination saute la p. 366."},
+      {"pdf": "377-378", "content": "Décès 1856-1875", "pages": "373-374", "note": "La pagination saute la p. 372."},
+      {"pdf": "379-384", "content": "Décès 1856-1875", "pages": "376-381", "note": "La pagination saute la p. 375."},
+      {"pdf": "385-477", "content": "Décès 1856-1875", "pages": "383-475", "note": "La pagination saute la p. 382."},
+      {"pdf": "480-527", "content": "Répertoire des décès"}
+    ]
+  },
+  "Ed 8/2": {
+    "pdfPages": 578,
+    "parts": [
+      {"pdf": "8-13", "content": "Naissances et baptêmes 1844-1861", "pages": "1-6", "note": "Deux formulaires vides, non numérotés, à chaque changement d'année : PDF 14-15, 46-47, 83-84, 117-118, 151-152, 178-179, 206-207, 240-241, 274-275, 300-301, 330-331, 356-357, 386-387, 410-411, 441-442, 467-468 et 499-500."},
+      {"pdf": "16-45", "content": "Naissances et baptêmes 1844-1861", "pages": "7-36"},
+      {"pdf": "48-59", "content": "Naissances et baptêmes 1844-1861", "pages": "37-48"},
+      {"pdf": "60-82", "content": "Naissances et baptêmes 1844-1861", "pages": "48-70", "note": "P. 48 photographiée deux fois (PDF 59 et 60)."},
+      {"pdf": "85-116", "content": "Naissances et baptêmes 1844-1861", "pages": "71-102"},
+      {"pdf": "119-150", "content": "Naissances et baptêmes 1844-1861", "pages": "103-134"},
+      {"pdf": "153-169", "content": "Naissances et baptêmes 1844-1861", "pages": "135-151"},
+      {"pdf": "170-177", "content": "Naissances et baptêmes 1844-1861", "pages": "151-158", "note": "P. 151 photographiée deux fois, d'abord avec un billet (PDF 169 et 170)."},
+      {"pdf": "180-205", "content": "Naissances et baptêmes 1844-1861", "pages": "159-184"},
+      {"pdf": "208-239", "content": "Naissances et baptêmes 1844-1861", "pages": "185-216"},
+      {"pdf": "242-273", "content": "Naissances et baptêmes 1844-1861", "pages": "217-248"},
+      {"pdf": "276-299", "content": "Naissances et baptêmes 1844-1861", "pages": "249-272"},
+      {"pdf": "302-329", "content": "Naissances et baptêmes 1844-1861", "pages": "273-300"},
+      {"pdf": "332-355", "content": "Naissances et baptêmes 1844-1861", "pages": "301-324"},
+      {"pdf": "358-385", "content": "Naissances et baptêmes 1844-1861", "pages": "325-352"},
+      {"pdf": "388-409", "content": "Naissances et baptêmes 1844-1861", "pages": "353-374"},
+      {"pdf": "412-424", "content": "Naissances et baptêmes 1844-1861", "pages": "375-387"},
+      {"pdf": "425-440", "content": "Naissances et baptêmes 1844-1861", "pages": "387-402", "note": "P. 387 photographiée deux fois (PDF 424 et 425)."},
+      {"pdf": "443-466", "content": "Naissances et baptêmes 1844-1861", "pages": "403-426"},
+      {"pdf": "469-498", "content": "Naissances et baptêmes 1844-1861", "pages": "427-456"},
+      {"pdf": "501-522", "content": "Naissances et baptêmes 1844-1861", "pages": "457-478"},
+      {"pdf": "526-576", "content": "Répertoire des naissances et baptêmes"}
+    ]
+  },
+  "Ed 8/4": {
+    "pdfPages": 103,
+    "parts": [
+      {"pdf": "10-52", "content": "Naissances et baptêmes 1874-1875", "pages": "1-43", "note": "Des formulaires vides suivent (PDF 53-54)."},
+      {"pdf": "56-102", "content": "Répertoire des naissances et baptêmes"}
+    ]
   }
 }
