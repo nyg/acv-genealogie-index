@@ -176,3 +176,27 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Ed 87/5 | 15, 45, 85 | Décès 1821-1830 : pas de numéro lu entre les PDF 20 (p. 9), 80 (p. 61) et 95 (p. 73) (formulaires vides) ; positions approchées. |
 | Ed 87/5 | 280, 414, 415 | Dates des parties estimées d'après la pagination (p. 246-247 vers 1851) ; le registre finit en 1861 (PDF 414-415) alors que l'inventaire le date jusqu'au 30 juillet 1875 : chercher un acte de 1875 avant le répertoire. |
 | Ed 87/7 | 166, 167, 331 | Dates des deux parties (coupure vers 1842) estimées, non lues ; dernière page p. 327 (PDF 331) lue de travers dans le coin. |
+| Eb 105/1, 105/2, 105/3, 105/4 | 11-14, 5-12, 7-19, 5-9 | Baptêmes : premiers numéros non lus (p. 0 placée d'après le décalage des pages suivantes). |
+| Eb 105/5 | 34 | Une page écrite après les pages blanches (p. 29 selon l'inventaire ?), numéro non lu. |
+| Eb 105/6 | 40-43, 166-172 | Une page de trop entre PDF 39 (p. 28) et 44 (p. 32), trois entre PDF 165 (p. 153) et 173 (p. 158) : numéros non lus, positions approchées. |
+| Eb 105/7 | 50, 52, 130, 160 | Catéchumènes : numéros lus seulement aux PDF 92-104 ; début (p. 0, PDF 50) et fin (p. 110, PDF 160) déduits. |
+| Eb 110/1, 110/2, 110/3 | 280, 450, 270, 220, 280, 640 | Répertoires séparés non lus : vérifier qu'ils citent la pagination du registre (Eb 110/1 : pages des baptêmes et des mariages à double numérotation ; Eb 110/3 : pagination des mariages qui saute de 41 à 48). |
+| Eb 110/1 | 9-27 | Baptêmes, premières pages (1589) : numéros 2-10 d'une autre suite aux PDF 11-21, deux numéros sur certaines pages ; p. 0-9 de l'inventaire non situées. |
+| Eb 110/1 | 331, 402, 403 | Mariages : seules les pages de droite sont numérotées ; 9 (PDF 330) puis 10 (PDF 332), et 80 ou « 81 » (PDF 402) puis 84 (PDF 404) : numéros sautés à confirmer. |
+| Eb 110/3 | 20, 22, 26 | Baptêmes : début (p. 1 au PDF 20) déduit du décalage lu dès le PDF 50 (p. 31). |
+| Eb 110/3 | 309-331, 353, 354 | Mariages : numéros corrigés au début (PDF 326 porte 11, 13 et 15) ; PDF 331 sans numéro lu (330 = p. 19 ?, 332 = p. 20) ; saut de 41 à 48 entre PDF 352 (p. 40) et 354 (p. 48) à confirmer. |
+| Eb 110/3 | 562, 609 | Répertoire incorporé des mariages : limites placées d'après la fin des mariages (PDF 561) et la bande de couleurs (PDF 610), non lues. |
+| Eb 110/4 | 12, 14, 89, 90 | Début (p. 0, PDF 12) et fin (p. 77, PDF 89) déduits du décalage lu aux PDF 36-88 ; PDF 90 en partie écrit, barré. |
+| Ed 105/1 | 25 | Lu « 13 » au PDF 25, compté comme p. 15 d'après PDF 20 = p. 10 et 28 = p. « 15 bis ». |
+| Ed 105/1, 105/3, 105/4, 110/3, 110/4, 110/5, 110/6, 110/9, 110/10, 139/1, 139/4 | 380, 310, 335, 430, 415, 520, 510, 410, 360, 350, 245 | Répertoires séparés non lus : vérifier qu'ils citent la pagination du registre. |
+| Ed 105/4 | 212, 240, 330-430 | La pagination à l'encre saute de 191 à 210 (PDF 211-212) ; une pagination au crayon (192-302) la corrige. Les deux sont données : lire une ligne du répertoire séparé (PDF 329-430) pour savoir laquelle il cite. |
+| Ed 105/5 | 136, 140, 145, 200, 297 | Pages sans numéro lu après la p. 128 (PDF 135) ; PDF 140 lu « 132 » ou « 133 » ; date de coupure (1855, lue au PDF 145) et fin du registre (PDF 297) à confirmer. |
+| Ed 105/5 | 10, 20, 35, 45 | Pp. 1-43 : décalage passant de 5 (PDF 6-9) à 7 (PDF 50) ; numéros lus aux PDF 30 (« 25 ») et 40 (« 34 ») seulement entre les deux. |
+| Ed 110/1 | 19, 136 | P. 12 absente : le formulaire du PDF 19 (verso, vide) ne porte pas de numéro, entre PDF 18 = p. 11 et 22 = p. 13 ; p. 114 au PDF 136 déduite de ses voisines, numéro non lu. |
+| Ed 110/3 | 23, 24, 51 | Pp. 19 et 45 non trouvées : PDF 23 lu « 18 » puis 26 = p. 20 après un feuillet blanc ; PDF 50 = p. 44, 51 verso sans numéro, 54 = p. 46. |
+| Ed 110/4, 110/5, 110/6 | — | Mariages à formulaires inutilisés aux changements d'année : repères lus tous les 10 PDF, positions approchées (jusqu'à 3 pages) entre deux repères de décalage différent ; lire les pages intermédiaires pour en faire des parties exactes. |
+| Ed 110/10 | 341, 345, 350 | Fin du registre : PDF 340 = p. 337, puis numéros non lus jusqu'au PDF 350, placé à la p. 347 d'après le décalage constant. |
+| Ed 139/1, 139/3, 139/4, 110/9, 105/3, 105/4 | — | Premières années à formulaires inutilisés : repères lus tous les 3 à 5 PDF (139/1 : 90-110, 150-165, 185-210 tous les 15-25), positions approchées entre eux. |
+| Ed 139/3 | 251-255 | Répertoire incorporé placé aux PDF 252-255 sans lecture des pages. |
+| Ed 139/4 | 229, 230 | Fin du registre : PDF 228 = p. 199, PDF 229-230 non lus, formulaire vide au PDF 231. |
+| Ed 139/5 | 131-141, 155-163 | Seules les pages de droite portent un numéro : décalage passant de 9 à 8 entre les PDF 130 et 140, de 8 à 7 entre 154 et 164, non situé exactement. |
