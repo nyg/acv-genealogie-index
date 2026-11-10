@@ -121,3 +121,27 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Ed 97/1-10 | 420, 480, 250, 420, 165, 500, 300, 330, 230, 260 | Répertoires non lus : vérifier qu'ils citent la pagination du registre (Ed 97/1 à 97/10 dans cet ordre), en particulier Ed 97/1 (pp. 163 bis et 214 bis), Ed 97/4 (p. 209 bis), Ed 97/6 (p. 24 sautée, pp. 92 et 112 écrites deux fois) et Ed 97/9 (n° 197 écrit deux fois). Fin des répertoires d'Ed 97/2 et 97/10 non lue. |
 | Ed 97/6 | 278, 280, 336, 350, 370, 418, 446, 450 | Numéros hors de la bande lue, pp. 221, 223, 272, 284, 302, 340, 364 et 368 déduites de leurs voisins dans des suites sans formulaire vide. |
 | Ed 97/6 | 16-17, 27-29, 41-43, 55-57, 67-69, 85-87, 103-105, 117-119, 132-133, 143-145, 158-159, 172-173, 183-185, 195-197, 210-211, 221-223, 232-233, 242-243, 254-255, 274-275, 288-289, 306-307, 324-325, 342-343, 356-357, 374-375, 386-387, 396-397, 406-407, 416-417, 430-431, 442-443, 454-455, 464-465 | Formulaires « Page » sans numéro, deux ou trois à chaque changement d'année, jugés vides sur la bande du haut seulement : vérifier qu'aucun ne porte un acte. PDF 323 porte une note (« … la présente copie … ») non lue en entier. |
+| Eb 8/1-2 | 6 | P. 1 sans numéro visible, placée d'après le PDF 7 = p. 2. |
+| Eb 8/1-2 | 188, 190 | Pp. 183-184 non trouvées : PDF 187 et 189 = p. 182, PDF 192 = p. 185. Lire en entier le cahier « Tome I bis » (PDF 188 et 190), où un « 183 » semble écrit, et dire s'il porte les pp. 183-184. |
+| Eb 8/3 | 6, 252, 253 | P. 1 sans numéro visible (PDF 7 = p. 2) ; la p. 194 en tête-bêche de l'inventaire n'est pas trouvée, les PDF 252-253 (pages de garde) vus en vignette seulement. |
+| Eb 8/4 | 8, 344 | P. 0 (page de notes sans numéro) placée d'après l'inventaire ; fin du répertoire au PDF 344 non lue (PDF 343 répertoire, 345 couverture). |
+| Eb 8/5 | 439 | P. 0 des mariages (page sans numéro avant la « Page 1 » du PDF 440) placée d'après l'inventaire. |
+| Eb 8/6 | 5-8 | Seul le PDF 4 = p. 1 est lu ; pp. 2-5 comptées à la suite. |
+| Eb 8/8 | 200, 500 | Numéros illisibles sur la bande lue ; les PDF 100, 300, 400 et 566-572 donnent tous +7. |
+| Eb 8/9 | 183, 244 | P. 176 sans numéro visible (PDF 182 = p. 175, 184 = p. 177). Mariages : la dernière page écrite est la p. 228 (PDF 243), l'inventaire dit pp. 200-277 ; PDF 244 blanc : pages 229-277 blanches non photographiées ou erreur d'inventaire ? |
+| Eb 8/10 | 312-314, 337-338, 419-420, 470-471 | Numéros surchargés ou écrits deux fois, lus à basse résolution : pp. 305 (PDF 312-313), « 329 bis » (PDF 338, 330 barré), 410 (PDF 419-420), 460 (PDF 470-471). |
+| Eb 8/11 | 139 | Numéro surchargé, « 131 » ou « 132 », entre les PDF 138 = p. 131 et 140 = p. 132 : lire la page en entier. |
+| Eb 8/12 | 70, 71, 73 | P. 53 lue aux PDF 70 et 71 (PDF 72 = p. 54) ; le PDF 73, coin replié, sans numéro visible : p. 55 avant le certificat du PDF 74 ? |
+| Eb 8/13 | 138-223, 225-283 | Répertoire commun d'Eb 8/13-15 non découpé par section ; mariages sans `pages` : lire une ligne du répertoire des mariages pour savoir s'il cite la pagination bleue décroissante (191 au PDF 227, 135 au PDF 281) et la reporter. |
+| Eb 8/14 | 4, 5 | Feuillet « 57 bis » lu faiblement au PDF 4. |
+| Eb 8/16 | 107, 191 | Pp. 97 et 179 déduites de leurs voisins (numéros cachés). |
+| Eb 8/17 | 30, 31-60 | Doubles pages : le repère p. 46 → PDF 30 lu une fois ; la page de droite passe d'un numéro impair (PDF 6 = p. 3) à pair (PDF 61 = p. 106) quelque part avant le PDF 30 : feuillet non situé. |
+| Eb 8/1-2, 8/3, 8/5, 8/6, 8/10, 8/11, 8/12 | 240, 340, 100, 400, 530, 30, 90, 600, 240, 100 | Répertoires séparés non lus (Eb 8/1-2 baptêmes et mariages, 8/3, 8/5 baptêmes et mariages, 8/6 premier et second volume, 8/10, 8/11, 8/12 dans cet ordre) : vérifier qu'ils citent la pagination lue, en particulier Eb 8/10 (pp. 305, 410 et 460 écrites deux fois) et Eb 8/12 (feuillets « 10a », « 30a »-« 30d »). |
+| Ed 8/2 | 13, 45, 82, 116, 150, 177, 205, 239, 273, 299, 329, 355, 385, 409, 440, 466, 498 | Seule la page qui suit chaque paire de formulaires vides est lue : la page qui la précède est comptée à la suite. |
+| Ed 8/3 | 145, 441 | PDF 145, entre deux pages « 135 » (PDF 144 et 146), non lu ; fin du répertoire au PDF 441 non lue. |
+| Ed 8/4 | 56, 102 | Limites du répertoire (PDF 56-102) jugées sur les vignettes. |
+| Ed 8/7 | 200 | Seuls les PDF 10, 100, 300 et 402-405 sont lus nets ; le PDF 200 (« …91 ») à basse résolution. |
+| Ed 8/11 | 8, 9, 372 | Pp. 1-2 placées d'après le PDF 10 = p. 3 ; PDF 372 lu « 367 » entre les PDF 371 = p. 365 et 373 = p. 368 : si c'est 366, la p. sautée est la 367. |
+| Ed 8/13 | 376 | Répertoire incorporé (initiales) non repéré dans le PDF : le chercher (avant le PDF 6 ou après le PDF 375). |
+| Ed 8/15 | 252 | Dernière page, numéro surchargé « 219 » ou « 220 », non comptée. |
+| Ed 8/2-4, 8/7, 8/8, 8/11, 8/12, 8/14, 8/15 | 550, 410, 80, 430, 180, 500, 60, 240, 280 | Répertoires non lus (dans cet ordre) : vérifier qu'ils citent la pagination du registre, en particulier Ed 8/11 (pp. 285-286, 366, 372, 375 et 382 sautées) et Ed 8/14 (saut de 409 à 500). Celui d'Ed 8/16 (PDF 254) cite bien les pages. |
