@@ -5530,5 +5530,165 @@
       {"pdf": "288", "content": "Naissances et baptêmes 1875", "pages": "269", "note": "Feuille volante quadrillée numérotée « page 269 », datée du 19 mai 1896, qui complète les ff. 267-268 ; la p. 268 est photographiée de nouveau sous son verso (PDF 289)."},
       {"pdf": "292-339", "content": "Répertoire des naissances et baptêmes 1875", "note": "Répertoire incorporé, après une feuille marbrée (PDF 291)."}
     ]
+  },
+  "Ed 71/24": {
+    "pdfPages": 466,
+    "parts": [
+      {"pdf": "6-20", "content": "Mariages 1821-1831", "pages": "1-15", "note": "Formulaire inutilisé au PDF 21 ; le PDF 22 porte « Suite de la Page 15 »."},
+      {"pdf": "22-409", "content": "Mariages 1821-1831", "pages": "15-384", "anchors": [[30, 37], [31, 40], [53, 62], [54, 66], [77, 89], [78, 92], [97, 111], [98, 114], [123, 139], [124, 142], [145, 163], [146, 166], [196, 216], [197, 218], [270, 291], [271, 294], [348, 371], [349, 374]], "note": "Feuillets blancs aux PDF 38-39, 64-65, 90-91, 112-113, 140-141, 164-165, 292-293 et 372-373 ; formulaires inutilisés aux PDF 63 et 217. Positions exactes aux repères."},
+      {"pdf": "415-466", "content": "Répertoire des mariages 1821-1831", "note": "Répertoire séparé, après une bande de couleurs (PDF 414)."}
+    ]
+  },
+  "Ed 71/25": {
+    "pdfPages": 418,
+    "parts": [
+      {"pdf": "6-218", "content": "Mariages 1831-1835", "pages": "1-207", "anchors": [[64, 69], [65, 72], [126, 133], [127, 136], [200, 209], [201, 212]], "note": "Feuillet blanc aux PDF 70-71 ; formulaires inutilisés aux PDF 134-135 et 210-211. Positions exactes aux repères."},
+      {"pdf": "219-360", "content": "Mariages 1831-1835", "pages": "206-345", "anchors": [[264, 277], [265, 280]], "note": "Pp. 206-207 photographiées deux fois (PDF 217-218 et 219-220) ; feuillet blanc aux PDF 278-279. Positions exactes aux repères. Formulaire inutilisé au PDF 361."},
+      {"pdf": "367-418", "content": "Répertoire des mariages 1831-1835", "note": "Répertoire séparé, après une bande de couleurs (PDF 366)."}
+    ]
+  },
+  "Ed 71/26": {
+    "pdfPages": 532,
+    "parts": [
+      {"pdf": "6-471", "content": "Mariages 1836-1840", "pages": "1-458", "anchors": [[90, 95], [91, 98], [186, 193], [187, 196], [302, 311], [303, 314], [390, 401], [391, 404]], "note": "Feuillets blancs aux PDF 96-97, 194-195, 312-313 et 402-403. Positions exactes aux repères. Formulaires inutilisés aux PDF 472-475."},
+      {"pdf": "481-532", "content": "Répertoire des mariages 1836-1840", "note": "Répertoire séparé, après une bande de couleurs (PDF 480)."}
+    ]
+  },
+  "Ed 71/27": {
+    "pdfPages": 538,
+    "parts": [
+      {"pdf": "6-474", "content": "Mariages 1840-1844", "pages": "1-460", "anchors": [[30, 35], [31, 38], [148, 155], [149, 158], [189, 198], [190, 200], [257, 267], [258, 270], [395, 407], [396, 410]], "note": "Feuillets blancs aux PDF 36-37, 156-157, 268-269 et 408-409 ; au PDF 199, formulaire non rempli numéroté « 187 » par erreur, entre les pp. 189 et 190. Positions exactes aux repères. Formulaires inutilisés aux PDF 475-481."},
+      {"pdf": "487-538", "content": "Répertoire des mariages 1840-1844", "note": "Répertoire séparé, après une bande de couleurs (PDF 486)."}
+    ]
+  },
+  "Ed 71/28": {
+    "pdfPages": 536,
+    "parts": [
+      {"pdf": "6-479", "content": "Mariages 1844-1847", "pages": "1-466", "anchors": [[70, 75], [71, 78], [234, 241], [235, 244], [386, 395], [387, 398], [465, 476]], "note": "Feuillets blancs aux PDF 76-77, 242-243 et 396-397 ; formulaires barrés aux PDF 477-478, entre les pp. 465 et 466. Positions exactes aux repères."},
+      {"pdf": "485-536", "content": "Répertoire des mariages 1844-1847", "note": "Répertoire séparé, après une bande de couleurs (PDF 484)."}
+    ]
+  },
+  "Ed 71/29": {
+    "pdfPages": 548,
+    "parts": [
+      {"pdf": "8-491", "content": "Mariages 1847-1850", "pages": "1-478", "anchors": [[50, 57], [51, 60], [180, 189], [181, 192], [334, 345], [335, 348]], "note": "Feuillets blancs aux PDF 58-59, 190-191 et 346-347. Positions exactes aux repères."},
+      {"pdf": "497-548", "content": "Répertoire des mariages 1847-1850", "note": "Répertoire séparé, après une bande de couleurs (PDF 496)."}
+    ]
+  },
+  "Ed 71/30": {
+    "pdfPages": 540,
+    "parts": [
+      {"pdf": "6-483", "content": "Mariages 1850-1853", "pages": "1-470", "anchors": [[18, 23], [19, 26], [168, 175], [169, 178], [331, 340], [332, 342], [343, 353], [344, 356], [363, 375], [364, 377]], "note": "Feuillets blancs aux PDF 24-25, 176-177 et 354-355 ; formulaire inutilisé au PDF 341 ; p. 363 bis au PDF 376. Positions exactes aux repères."},
+      {"pdf": "489-540", "content": "Répertoire des mariages 1850-1853", "note": "Répertoire séparé, après une bande de couleurs (PDF 488)."}
+    ]
+  },
+  "Ed 71/31": {
+    "pdfPages": 451,
+    "parts": [
+      {"pdf": "6-168", "content": "Mariages 1853-1856", "pages": "1-159", "anchors": [[18, 23], [19, 26], [20, 29]], "note": "Feuillet blanc aux PDF 24-25 ; p. 19 photographiée de nouveau (PDF 27), puis un billet seul numéroté « 18 b » (PDF 28). Positions exactes aux repères."},
+      {"pdf": "169-192", "content": "Mariages 1853-1856", "pages": "158-179", "anchors": [[178, 189]], "note": "Pp. 158-159 photographiées de nouveau (PDF 169-170) ; feuillet blanc aux PDF 190-191."},
+      {"pdf": "193-197", "content": "Mariages 1853-1856", "pages": "175-179", "note": "Pages numérotées 175 bis à 179 bis."},
+      {"pdf": "198-391", "content": "Mariages 1853-1856", "pages": "180-371", "anchors": [[327, 345], [328, 348]], "note": "Feuillet blanc aux PDF 346-347. Positions exactes aux repères. Formulaires inutilisés aux PDF 392-396."},
+      {"pdf": "400-451", "content": "Répertoire des mariages 1853-1856", "note": "Répertoire séparé, après une bande de couleurs (PDF 399)."}
+    ]
+  },
+  "Ed 71/32": {
+    "pdfPages": 444,
+    "parts": [
+      {"pdf": "6-137", "content": "Mariages 1856-1858", "pages": "1-132"},
+      {"pdf": "138-139", "content": "Mariages 1856-1858", "pages": "130-131", "note": "Feuillet numéroté de nouveau 130-131 après la p. 132 (PDF 137), suivi de deux formulaires inutilisés (PDF 140-141)."},
+      {"pdf": "142-388", "content": "Mariages 1856-1858", "pages": "132-376", "anchors": [[305, 315], [306, 318]], "note": "Le n° 132 est écrit de nouveau au PDF 142 ; formulaires inutilisés aux PDF 316-317. Positions exactes aux repères."},
+      {"pdf": "389", "content": "Mariages 1858", "note": "Page « Volume XI, Page 1 » : p. 1 d'Ed 71/33, acte n° 73 du 1er juillet 1858, photographiée à la fin de ce volume."},
+      {"pdf": "393-444", "content": "Répertoire des mariages 1856-1858", "note": "Répertoire séparé, après une bande de couleurs (PDF 392)."}
+    ]
+  },
+  "Ed 71/33": {
+    "pdfPages": 443,
+    "parts": [
+      {"pdf": "6-161", "content": "Mariages 1858-1860", "pages": "2-155", "anchors": [[117, 121], [118, 124]], "note": "La p. 1 (« Volume XI », acte n° 73 du 1er juillet 1858) est photographiée à la fin du PDF d'Ed 71/32 (PDF 389) ; formulaires inutilisés aux PDF 122-123. Positions exactes aux repères."},
+      {"pdf": "162-356", "content": "Mariages 1858-1860", "pages": "155-346", "anchors": [[305, 312], [306, 316]], "note": "Le n° 155 est écrit sur deux pages (PDF 161 et 162) ; formulaires inutilisés aux PDF 313-315. Positions exactes aux repères."},
+      {"pdf": "357-362", "content": "Mariages 1858-1860", "pages": "348-353", "note": "La pagination saute le n° 347."},
+      {"pdf": "363-383", "content": "Mariages 1858-1860", "pages": "353-373", "note": "Le n° 353 est écrit sur deux pages (PDF 362 et 363)."},
+      {"pdf": "386-443", "content": "Répertoire des mariages 1858-1860", "note": "Répertoire incorporé, après une feuille marbrée (PDF 385)."}
+    ]
+  },
+  "Ed 71/34": {
+    "pdfPages": 459,
+    "parts": [
+      {"pdf": "10-396", "content": "Mariages 1860-1862", "pages": "1-382", "anchors": [[201, 210], [202, 213], [333, 344], [334, 348]], "note": "P. 201 photographiée de nouveau (PDF 211), puis l'interfolio étroit numéroté « 200 » (PDF 212) ; formulaires inutilisés aux PDF 345-347 et 397-399. Positions exactes aux repères."},
+      {"pdf": "402-459", "content": "Répertoire des mariages 1860-1862", "note": "Répertoire incorporé, après une feuille marbrée (PDF 401)."}
+    ]
+  },
+  "Ed 71/35": {
+    "pdfPages": 439,
+    "parts": [
+      {"pdf": "6-379", "content": "Mariages 1862-1863", "pages": "1-372", "anchors": [[95, 100], [96, 103]], "note": "P. 95 photographiée de nouveau avec une pièce posée dessus (PDF 101), puis le revers de la pièce, numéroté « 94 b » (PDF 102). Positions exactes aux repères."},
+      {"pdf": "382-439", "content": "Répertoire des mariages 1862-1863", "note": "Répertoire incorporé, après une feuille marbrée (PDF 381)."}
+    ]
+  },
+  "Ed 71/36": {
+    "pdfPages": 447,
+    "parts": [
+      {"pdf": "8-387", "content": "Mariages 1864-1865", "pages": "1-380"},
+      {"pdf": "390-447", "content": "Répertoire des mariages 1864-1865", "note": "Répertoire incorporé, après une feuille marbrée (PDF 389)."}
+    ]
+  },
+  "Ed 71/37": {
+    "pdfPages": 535,
+    "parts": [
+      {"pdf": "8-487", "content": "Mariages 1865-1867", "pages": "1-478", "anchors": [[335, 342], [336, 345]], "note": "P. 335 photographiée de nouveau avec un billet posé dessus (PDF 343), puis le billet seul (PDF 344). Positions exactes aux repères. Formulaires inutilisés aux PDF 488-489."},
+      {"pdf": "492-535", "content": "Répertoire des mariages 1865-1867", "note": "Répertoire incorporé, après une feuille marbrée (PDF 491)."}
+    ]
+  },
+  "Ed 71/38": {
+    "pdfPages": 499,
+    "parts": [
+      {"pdf": "8-449", "content": "Mariages 1867-1869", "pages": "1-442", "note": "Formulaires barrés aux PDF 450-451."},
+      {"pdf": "454-499", "content": "Répertoire des mariages 1867-1869", "note": "Répertoire incorporé, après une feuille marbrée (PDF 453)."}
+    ]
+  },
+  "Ed 71/39": {
+    "pdfPages": 451,
+    "parts": [
+      {"pdf": "8-399", "content": "Mariages 1869-1870", "pages": "1-392"},
+      {"pdf": "402-451", "content": "Répertoire des mariages 1869-1870", "note": "Répertoire incorporé, après une feuille marbrée (PDF 401)."}
+    ]
+  },
+  "Ed 71/40": {
+    "pdfPages": 459,
+    "parts": [
+      {"pdf": "10-144", "content": "Mariages 1870-1872", "pages": "1-135"},
+      {"pdf": "145-405", "content": "Mariages 1870-1872", "pages": "138-398", "note": "La pagination saute les n° 136-137. Formulaires inutilisés aux PDF 406-407."},
+      {"pdf": "410-459", "content": "Répertoire des mariages 1870-1872", "note": "Répertoire incorporé, après une feuille marbrée (PDF 409)."}
+    ]
+  },
+  "Ed 71/41": {
+    "pdfPages": 455,
+    "parts": [
+      {"pdf": "10-401", "content": "Mariages 1872-1873", "pages": "1-390", "anchors": [[95, 104], [96, 107]], "note": "P. 95 photographiée de nouveau avec un billet posé dessus (PDF 105), puis le billet seul (PDF 106). Positions exactes aux repères. Formulaires inutilisés aux PDF 402-403."},
+      {"pdf": "406-455", "content": "Répertoire des mariages 1872-1873", "note": "Répertoire incorporé, après une feuille marbrée (PDF 405)."}
+    ]
+  },
+  "Ed 71/42": {
+    "pdfPages": 459,
+    "parts": [
+      {"pdf": "10-158", "content": "Mariages 1873-1874", "pages": "1-149"},
+      {"pdf": "159-407", "content": "Mariages 1873-1874", "pages": "149-396", "anchors": [[152, 162], [153, 164]], "note": "Le n° 149 est écrit sur deux pages (PDF 158 et 159) ; p. 152 bis au PDF 163. Positions exactes aux repères. Formulaires inutilisés aux PDF 408-409."},
+      {"pdf": "412-459", "content": "Répertoire des mariages 1873-1874", "note": "Répertoire incorporé, après une feuille marbrée (PDF 411)."}
+    ]
+  },
+  "Ed 71/43": {
+    "pdfPages": 463,
+    "parts": [
+      {"pdf": "8-413", "content": "Mariages 1874-1875", "pages": "1-400", "anchors": [[135, 142], [136, 145], [354, 363], [355, 366], [377, 388], [378, 391]], "note": "Pp. 135, 354 et 377 photographiées de nouveau avec un billet posé dessus (PDF 143, 364 et 389), chaque fois suivies du billet seul (PDF 144, 365 et 390). Positions exactes aux repères."},
+      {"pdf": "416-463", "content": "Répertoire des mariages 1874-1875", "note": "Répertoire incorporé, après une feuille marbrée (PDF 415)."}
+    ]
+  },
+  "Ed 71/44": {
+    "pdfPages": 177,
+    "parts": [
+      {"pdf": "8-127", "content": "Mariages 1875", "pages": "1-120"},
+      {"pdf": "130-177", "content": "Répertoire des mariages 1875", "note": "Répertoire incorporé, après une feuille marbrée (PDF 129)."}
+    ]
   }
 }

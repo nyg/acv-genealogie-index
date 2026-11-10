@@ -399,6 +399,14 @@ const pdfCases = [
   ["ed-71-9", "214", ["231"]],
   ["ed-71-13", "200", ["≈211"]],
   ["ed-71-23", "269", ["288"]],
+  ["ed-71-24", "15", ["20", "22"]],
+  ["ed-71-25", "207", ["218", "≈220"]],
+  ["ed-71-31", "176", ["≈187", "194"]],
+  ["ed-71-33", "1", []],
+  ["ed-71-33", "347", []],
+  ["ed-71-40", "137", []],
+  ["ed-71-40", "138", ["145"]],
+  ["ed-71-42", "149", ["158", "159"]],
 ];
 for (const [slug, page, expected] of pdfCases) {
   const pdfPages = site.pdfTargets(site.unitsBySlug.get(slug), page).map(target => `${target.approx ? "≈" : ""}${target.pdf}`);

@@ -256,3 +256,6 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Ed 71/15 | 13 | P. 4 placée au PDF 13, numéro couvert d'un billet : mêmes actes qu'au PDF 14, où « Page 4 » se lit. |
 | Ed 71/22 | 219 | P. 208 placée au PDF 219, coin couvert d'un billet quadrillé : « Page 208 » se lit au PDF 220, le billet seul est au PDF 221. |
 | Ed 71/23 | 145 | P. 128 placée au PDF 145, coin couvert du billet collé replié : mêmes actes qu'au PDF 146, où « Page 128 » se lit. |
+| Ed 71/30 | 310 | Numéro surchargé, qui se lit « 295 » : placé p. 301 entre les PDF 309 (p. 300) et 311 (p. 302). |
+| Ed 71/33 | 50 | P. 46 placée au PDF 50, numéro qui se lit aussi « 47 » : PDF 49 = p. 45, PDF 51 = p. 47. |
+| Ed 71/38 | 210 | P. 203 déduite : « Page » sans numéro lisible en haut du PDF 210 ; PDF 200 = p. 193, PDF 220 = p. 213. |
