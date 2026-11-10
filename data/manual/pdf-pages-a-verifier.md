@@ -227,3 +227,22 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Eb 71/33 | 694, 742 | Feuillets remplis dont le « Page » imprimé reste sans numéro lisible, comptés hors pagination d'après les pp. 115-116 et 122-123 qui les entourent. |
 | Eb 71/35 | 284, 290, 293, 296, 299, 301, 304 | Rectos dont le « Page » imprimé reste sans numéro (pp. 186-200 environ), placés d'après les versos numérotés qui les suivent. |
 | Eb 71/40 | 149, 150 | La p. 57 manque entre les rectos 56 (PDF 145) et 58 (PDF 149) ; le verso PDF 150 porte peut-être un petit numéro au-dessus de « Page », mal lu. |
+| Eb 71/42 bis | 290, 300 | Répertoire des décès (PDF 287-315) : aucune référence lue pour vérifier qu'il cite la pagination de l'entrée. |
+| Eb 71/44 | 347, 406 | Répertoire des décès : limites prises sur la couverture, la page de titre et la page des X-Z, références non lues. |
+| Eb 71/45 | 485, 582 | Répertoire des décès : limites prises sur la couverture et la page des Z, références non lues. |
+| Eb 71/46 | 579, 653, 654 | Répertoire des décès : références non lues ; les PDF 653-654, après la page des X-Z, portent d'autres noms en V, peut-être un supplément. |
+| Eb 71/47 | 585, 637 | Répertoire des décès : limites prises sur les pages bleues écrites, références non lues. |
+| Eb 71/48 | 490, 543 | Répertoire des décès : le PDF 490 porte quelques noms sous un titre, non lus ; début du répertoire placé là. Références non lues. |
+| Eb 71/49 | 214, 314 | Numéros lus « 203 » ou « 204 » (PDF 214) et « 303 » ou « 304 » (PDF 314), peut-être corrigés ; l'entrée suit le décalage 11 lu aux PDF 114, 414 et 514. |
+| Eb 71/49 | 568, 634 | Répertoire des décès : références non lues. |
+| Eb 71/50 | 258, 326 | Répertoire incorporé : références non lues. |
+| Eb 71/51 | 121, 186, 187, 198 | Répertoires : limites des sections tirées des pp. de l'inventaire (baptêmes 1-7, hommes 8-18, femmes 19-30) ; seuls les nos 18-19 (PDF 186-187) sont lus, mal. Références non lues. |
+| Eb 71/51 | 171, 172, 173, 174 | Mariages : la partie s'arrête à la p. 145 (PDF 170) ; les PDF 171-174, numéros non lus, sont peut-être les pp. 146-149, blanches selon l'inventaire. |
+| Eb 71/52 | 347 | Mariages p. 1 : numéro non lu, déduit du PDF 348 = p. 2. |
+| Eb 71/52 | 324, 380, 401 | Répertoires : pp. 1 (PDF 324), 20 (PDF 343), 31 (PDF 390) et 32 (PDF 391) lues ; la fin p. 42 au PDF 401 est déduite. Références non lues. |
+| Eb 71/53 | 307, 377, 391, 392, 408 | Répertoires : sections placées d'après le nombre de pages de l'inventaire (baptêmes pp. 1-24, hommes 25-39, femmes 40-56), numéros non lus. Références non lues. |
+| Eb 71/54 | 58, 108 | Baptêmes : numéros lus « 56 » (PDF 58) et « 103 » (PDF 108) sur des bandes réduites ; l'entrée suit le décalage 5 lu aux PDF 6-7 et 158-262. |
+| Eb 71/54 | 267, 268, 343 | Répertoire séparé des baptêmes : le PDF 267 porte « 1 » et le PDF 268 « 2 » ; l'inventaire indique pp. 2-18. Le « Alphabetisches Verzeichnis » (PDF 343-437) cite tome et page : références non lues. |
+| Eb 71/55 | 30, 31, 35 | Décès pp. 1-6 placés d'après le nombre de pages ; numéros non lus. |
+| Eb 71/59 | 205, 206, 207 | Trois pages sans numéro lisible entre la p. 197 (PDF 204) et la p. 199 (PDF 208, au crayon) : lire leurs coins, en haut et au pied, pour placer la p. 198. |
+| Eb 71/60 | 7, 8, 9 | Trois pages sans numéro lisible entre la p. 3 (PDF 6) et la p. 5 (PDF 10) : lire leurs coins pour placer la p. 4. |
