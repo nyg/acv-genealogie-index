@@ -200,3 +200,22 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Ed 139/3 | 251-255 | Répertoire incorporé placé aux PDF 252-255 sans lecture des pages. |
 | Ed 139/4 | 229, 230 | Fin du registre : PDF 228 = p. 199, PDF 229-230 non lus, formulaire vide au PDF 231. |
 | Ed 139/5 | 131-141, 155-163 | Seules les pages de droite portent un numéro : décalage passant de 9 à 8 entre les PDF 130 et 140, de 8 à 7 entre 154 et 164, non situé exactement. |
+| Eb 71/1 | 444, 468, 487, 508, 541 | Répertoires : sections placées d'après leurs titres (PDF 444-445, 468, 487, 508) et la couverture du répertoire des mariages (PDF 540) ; aucune référence lue pour vérifier qu'ils citent la pagination de l'entrée, ni la fin de chaque section. |
+| Eb 71/1 | 128-134 | Baptêmes 1577-1581 : n° 234 lu deux fois au PDF 127 et « 248 bis » au PDF 135 sur des bandes réduites ; positions approchées entre ces repères. |
+| Eb 71/2 | 398, 403, 466 | Mariages 1586 pp. 1a-6a : les n° 2a-5a sont lus aux PDF 399-402, le titre (PDF 398) et le PDF 403 ne le sont pas. Répertoire des mariages (PDF 465-524) : aucune référence lue. |
+| Eb 71/3 | 281, 345, 353, 422, 486 | Répertoires : limites prises sur les couvertures, les onglets et les pages blanches ; seuls les en-têtes « 1641 1662 » (PDF 284-330) et une page du répertoire séparé (PDF 356) sont lus. Répertoire des mariages : aucune référence lue. |
+| Eb 71/4 | 444, 527, 531, 616, 620, 677 | Répertoires : limites prises sur les couvertures et les bandes de couleurs, contenu non lu. |
+| Eb 71/5 | 474, 582, 587, 699, 738, 796 | Répertoires : limites prises sur les couvertures et les bandes de couleurs, contenu non lu. |
+| Eb 71/6 | 637, 641, 770, 772, 903 | Le PDF 637 montre une page de noms après la p. 623, numérotée peut-être « 624 ». Répertoires : limites prises sur les bandes de couleurs, contenu non lu. |
+| Eb 71/7 | 13, 397, 448, 450, 497 | Page d'introduction avant la p. 1 (PDF 13, « 1e » ?) non lue en entier. Répertoires : limites prises sur les bandes de couleurs, contenu non lu. |
+| Eb 71/8 | 555, 556, 580, 667, 669, 756 | Le n° 546 est lu aux PDF 555 (suivi de lettres, « 546 bis » ?) et 556. Répertoires : limites prises sur les bandes de couleurs, contenu non lu. |
+| Eb 71/9 | 660-667, 669, 744, 746, 817 | Pièces volantes (PDF 660-667) non lues. Répertoires : limites prises sur les bandes de couleurs, contenu non lu. |
+| Eb 71/10 | 41, 42, 177, 183, 220 | PDF 41-42 : deux pages entre les pp. 33 et 34, la première peut-être numérotée « 33 » à nouveau. PDF 177 : billet photographié sur la p. 168 ou seul. Répertoires : contenu non lu. |
+| Eb 71/11 | 573, 634, 636, 771 | Répertoires : limites prises sur les bandes de couleurs, contenu non lu. |
+| Eb 71/13 | 9, 297, 352 | P. 0 (PDF 9) sans numéro lu. Répertoire séparé : contenu non lu. |
+| Eb 71/14 | 5, 287, 291, 346 | P. 282 placée au PDF 287 d'après le décalage constant, numéro non lu ; p. 0 de l'inventaire non située (PDF 5 ?). Répertoire séparé : contenu non lu. |
+| Eb 71/15 | 385, 440 | Répertoire séparé : contenu non lu. |
+| Eb 71/17 | 31, 32, 33, 168 | Pp. 36-38 lues sur des bandes réduites (« 26 » ou « 36 ») ; la pagination saute de 25 à 36 d'après les PDF 30 (p. 25) et 34 (p. 39). Répertoire incorporé : contenu non lu. |
+| Eb 71/18 | 195, 204, 277 | PDF 195 : page pliée sans numéro lu entre les pp. 189 et 190, peut-être une seconde prise de la p. 189. Répertoires : sections hommes et femmes non séparées, contenu non lu. |
+| Eb 71/19 | 239, 312 | Répertoires : sections hommes et femmes (pages paires et impaires) non séparées, contenu non lu. |
+| Eb 71/20 | 283, 289, 346 | P. 276 placée au PDF 283 d'après le décalage constant, numéro non lu. Volume 2 du répertoire (PDF 289-344) : pp. 15-64 supposées seules photographiées, non vérifié. |
