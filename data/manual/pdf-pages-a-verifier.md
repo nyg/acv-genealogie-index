@@ -145,3 +145,34 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Ed 8/13 | 376 | Répertoire incorporé (initiales) non repéré dans le PDF : le chercher (avant le PDF 6 ou après le PDF 375). |
 | Ed 8/15 | 252 | Dernière page, numéro surchargé « 219 » ou « 220 », non comptée. |
 | Ed 8/2-4, 8/7, 8/8, 8/11, 8/12, 8/14, 8/15 | 550, 410, 80, 430, 180, 500, 60, 240, 280 | Répertoires non lus (dans cet ordre) : vérifier qu'ils citent la pagination du registre, en particulier Ed 8/11 (pp. 285-286, 366, 372, 375 et 382 sautées) et Ed 8/14 (saut de 409 à 500). Celui d'Ed 8/16 (PDF 254) cite bien les pages. |
+| Eb 80/2 | 145, 146 | Mariages tête-bêche : pp. 1-2 sans numéro visible, placées d'après le PDF 147 = p. 3. |
+| Eb 80/2 | 171 | Seconde p. 25 : numéro lu « 25 », le « bis » de la p. « 24 bis » (PDF 170) n'y est pas vu. |
+| Eb 80/2, 80/9 | 136, 38 | Répertoires incorporés : références non comparées à la pagination du registre. |
+| Eb 80/5 | 133, 134, 135 | Brouillon : la p. 1 est placée sur sa couverture d'après le PDF 139 = pp. 12-13 ; numéros des PDF 133-138 non lus. |
+| Eb 80/5 | 3, 4, 5, 6 | Doubles pages 2-9 placées d'après les PDF 7-10 = pp. 10-17 ; numéros non lus. |
+| Eb 87/1 | 306, 313, 320 | Mariages tête-bêche pp. 0-14 : numéros non lus (cachés par la reliure) ; pages comptées d'après l'inventaire. |
+| Eb 87/1 | 323, 324 | Mariages 1663-1668 : seules les pp. 101-102 (PDF 321-322) sont lues. |
+| Eb 87/2 | 27, 30, 32 | Mariages 1706-1713 : numéros des PDF 27-32 non lus (pp. 329-334 déduites des PDF 26 = p. 328 et 33 = p. 335). |
+| Eb 87/2 | 43, 46 | Catéchumènes tête-bêche : numéros non lus, sens de la pagination (pp. 315-318) inconnu. |
+| Eb 87/2 | 6, 10, 11, 14, 18, 19, 20 | Mariages tête-bêche : numéros au crayon au pied lus de 2 (PDF 7) à 13 (PDF 17) avec des trous (PDF 9 = 4, 11 = 7, 12 = 8) ; l'inventaire indique pp. 1-5. Lire le pied de chaque page et donner `pages` à la partie. |
+| Eb 87/3 | 404, 405 | Catéchumènes : la partie commence au PDF 405 = p. 402 (lu) ; le PDF 404 (« Les noms… ») n'est pas numéroté sur la bande lue. |
+| Eb 87/3 | 7, 8, 9 | Pp. 1-4 avant les baptêmes de 1710 : seule la p. 4 (PDF 10) est lue ; contenu (notes, actes ajoutés vers 1745) jugé sur la vignette. |
+| Eb 87/5 | 277, 282 | Pp. 271-276 entre les baptêmes et le répertoire : seules les pp. 274-276 (PDF 280-282) sont lues ; contenu jugé sur la bande du haut. |
+| Eb 87/6 | 5 | Mariages : la p. 0 de l'inventaire n'est pas cherchée ; la partie commence au PDF 6 = p. 1. |
+| Eb 87/7 | 161, 162, 165, 177 | Seconde partie (pp. 201-225 et deux pages avant) : contenu jugé sur la vignette (listes, « Mémoire des bans », copies) ; l'inventaire ne la décrit pas. Lire les titres et dater la partie. |
+| Ed 80/1 | 9, 40, 60, 95, 205 | Repères lus en partie : p. 1 au PDF 8 déduite (PDF 10 = p. 3) ; « 29 » (PDF 40), « 45 » (PDF 60), « 72 » (PDF 95) et « 160 » (PDF 205) mal lisibles. Le PDF 90 porte un « … bis ». |
+| Ed 80/1, 80/4, 87/1, 87/4, 87/5 | — | Registres à formulaires inutilisés : repères lus tous les 5 à 10 PDF, positions approchées entre eux ; lire les pages intermédiaires pour en faire des parties exactes. |
+| Ed 80/2 | 103, 104 | Pp. 101-102 : numéro du PDF 103 non visible, celui du PDF 104 lu « 10? » ; le formulaire vide est placé au PDF 106 d'après PDF 105 = p. 103 et 107 = p. 104. |
+| Ed 80/2 | 6, 107, 190 | Dates des parties (1854-1868, 1868-1875) estimées, non lues. |
+| Ed 80/2 | — (Ed 80/1 PDF 462-467) | Les pp. 1-3 d'Ed 80/2 seraient à la fin d'Ed 80/1 (note de la p. 4) : vérifier si les dernières pages d'Ed 80/1 (pp. 374-379, 1853-1854) les contiennent, et dates de fin d'Ed 80/1. |
+| Ed 80/3 | 7, 11, 145 | Doubles pages : pp. « 3 bis » et « 5 bis » lues sur des numéros pâles ; PDF 145 : page de gauche (p. 260) non lue. |
+| Ed 80/3, 80/4, 87/4, 87/6 | 170, 200, 500, 200 | Répertoires séparés non lus : vérifier qu'ils citent la pagination du registre (Ed 80/3 et 80/4 : pages « bis » ; Ed 87/4 : pages « bis » et numéros récrits dès la p. 402). |
+| Ed 80/4 | 10, 20, 25, 30, 35 | Doubles pages 1821-1830 : numéros pâles en bord de page ; repères p. 25 (PDF 20) et p. 45 (PDF 30) mal lisibles, pages entre les PDF 6 et 45 non lues une à une (formulaires inutilisés, p. « 8 bis »). |
+| Ed 87/1 | 41, 44, 200, 205 | Repères : PDF 40 = p. 30 puis 45 = « 30 bis » (formulaires vides entre ?) ; PDF 205 lu « 17? », écarté. |
+| Ed 87/1 | 6, 7, 8 | Début du registre : la p. 1 est placée au PDF 6 d'après le PDF 15 = p. 10 ; numéros des PDF 6-14 non lus. |
+| Ed 87/2 | 164, 167, 220 | PDF 164 lu « 156 » comme le PDF 163 (même page ?), PDF 167 lu « 15? » ; dates des parties (1855) estimées d'après la pagination, non lues. |
+| Ed 87/4 | 15, 35, 45, 55, 65 | Mariages 1821-1830 : pas de numéro lu entre les PDF 25 (p. 12) et 75 (p. 46) (formulaires vides, pages « 43 bis »…) ; positions approchées. |
+| Ed 87/4 | 449, 450, 451 | PDF 450 lu « 401 », 451 « 400 bis » ? et 452 « 401 bis » : ordre des pp. 400-401 bis à vérifier. |
+| Ed 87/5 | 15, 45, 85 | Décès 1821-1830 : pas de numéro lu entre les PDF 20 (p. 9), 80 (p. 61) et 95 (p. 73) (formulaires vides) ; positions approchées. |
+| Ed 87/5 | 280, 414, 415 | Dates des parties estimées d'après la pagination (p. 246-247 vers 1851) ; le registre finit en 1861 (PDF 414-415) alors que l'inventaire le date jusqu'au 30 juillet 1875 : chercher un acte de 1875 avant le répertoire. |
+| Ed 87/7 | 166, 167, 331 | Dates des deux parties (coupure vers 1842) estimées, non lues ; dernière page p. 327 (PDF 331) lue de travers dans le coin. |
