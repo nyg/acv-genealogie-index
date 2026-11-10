@@ -246,3 +246,13 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Eb 71/55 | 30, 31, 35 | Décès pp. 1-6 placés d'après le nombre de pages ; numéros non lus. |
 | Eb 71/59 | 205, 206, 207 | Trois pages sans numéro lisible entre la p. 197 (PDF 204) et la p. 199 (PDF 208, au crayon) : lire leurs coins, en haut et au pied, pour placer la p. 198. |
 | Eb 71/60 | 7, 8, 9 | Trois pages sans numéro lisible entre la p. 3 (PDF 6) et la p. 5 (PDF 10) : lire leurs coins pour placer la p. 4. |
+| Ed 71/1 | 407, 430 | Répertoire séparé (PDF 405-456) : le PDF 406 ne montre que l'étiquette du microfilm ; références non lues, vérifier qu'elles citent la pagination imprimée du registre. |
+| Ed 71/2 | 399, 420 | Répertoire séparé (PDF 397-448) : le PDF 398 ne montre que l'étiquette du microfilm ; références non lues. |
+| Ed 71/3 | 423, 445 | Répertoire séparé (PDF 421-472) : le PDF 422 ne montre que l'étiquette du microfilm ; références non lues. |
+| Ed 71/4 | 491, 510 | Répertoire relié à part (PDF 489-538) : références non lues. |
+| Ed 71/5 | 399, 420 | Répertoire séparé (PDF 397-448) : le PDF 398 ne montre que l'étiquette du microfilm ; références non lues. |
+| Ed 71/12 | 43 | P. 34 placée au PDF 43, coin replié sans numéro visible : déduite de la p. 33 photographiée deux fois puis d'un billet seul (PDF 40-42) et de la p. 35 (PDF 44). |
+| Ed 71/14 | 220 | PDF 220 pris pour une seconde prise de la p. 210 (PDF 219) sous un billet qui cache le numéro, suivie du billet seul (PDF 221) ; p. 211 au PDF 222. |
+| Ed 71/15 | 13 | P. 4 placée au PDF 13, numéro couvert d'un billet : mêmes actes qu'au PDF 14, où « Page 4 » se lit. |
+| Ed 71/22 | 219 | P. 208 placée au PDF 219, coin couvert d'un billet quadrillé : « Page 208 » se lit au PDF 220, le billet seul est au PDF 221. |
+| Ed 71/23 | 145 | P. 128 placée au PDF 145, coin couvert du billet collé replié : mêmes actes qu'au PDF 146, où « Page 128 » se lit. |
