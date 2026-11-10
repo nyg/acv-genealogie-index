@@ -108,3 +108,16 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Ed 129/2 | 295 | P. 286 déduite : la dernière page porte « Page » sans numéro (PDF 294 = p. 285). |
 | Ed 129/3 | 426 | « Page » sans numéro, compté avec les formulaires inutilisés des PDF 427-430 sans avoir été vu en entier. |
 | Ed 129/1, Ed 129/3-9 | 365, 440, 500, 280, 400, 60, 260, 210 | Répertoires non lus : vérifier qu'ils citent la pagination du registre (Ed 129/1, 3, 4, 5, 6, 7, 8, 9 dans cet ordre), en particulier Ed 129/6 (p. 133 écrite deux fois) et Ed 129/8 (saut de 12 à 19). |
+| Eb 97/1 | 4 | P. 2 (PDF 4, page de titre) sans numéro visible, placée d'après le PDF 5 = p. 3. |
+| Eb 97/1 | 161, 162, 164, 165 | Partie tête-bêche : contenu des pp. 2, 3, 5 et 6 (notes ou pages blanches) jugé sur la vignette ; seule la p. 4 (mariages de 1681) est identifiée. |
+| Eb 97/5 | 129 | PDF 129 lu « 125 » dans le coin droit, entre les PDF 128 = p. 125 et 130 = p. 126 : page « 125 bis », copie ou note ? Lire la page en entier. |
+| Eb 97/7 | 49 | Dernière page des décès lue « 45 » (PDF 48 = p. 43) : si c'est « 44 », la partie du PDF 49 doit porter la p. 44. |
+| Ed 97/1 | 189 | P. 171 déduite : numéro non visible, entre les PDF 188 = p. 170 et 190 = p. 172. |
+| Ed 97/1 | 38-39, 73-75, 111, 131, 157-159, 179, 185, 202-203, 255-257, 308-309, 345-347, 366-367 | Formulaires « Page » sans numéro jugés vides sur la bande du haut seulement (PDF 219 et 411 vus en entier) : vérifier qu'aucun ne porte un acte. |
+| Ed 97/2 | 465, 469 | Numéros non visibles, pp. 454 et 458 déduites des voisins (PDF 466 = p. 455, 468 = p. 457, 470 = p. 459). |
+| Ed 97/4 | 17 | P. 10 lue « Page 1… », chiffres à peine visibles, entre les PDF 16 = p. 9 et 18 = p. 11. |
+| Ed 97/4 | 12-13, 19-21, 33, 51-53, 83 | Formulaires « Page » sans numéro jugés vides sur la bande du haut seulement (PDF 115, 139, 162-163 et 174-175 vus en entier). |
+| Ed 97/9 | 201 | P. 194 lue « Page 19… », dernier chiffre illisible, entre les PDF 200 = p. 193 et 202 = p. 195. |
+| Ed 97/1-10 | 420, 480, 250, 420, 165, 500, 300, 330, 230, 260 | Répertoires non lus : vérifier qu'ils citent la pagination du registre (Ed 97/1 à 97/10 dans cet ordre), en particulier Ed 97/1 (pp. 163 bis et 214 bis), Ed 97/4 (p. 209 bis), Ed 97/6 (p. 24 sautée, pp. 92 et 112 écrites deux fois) et Ed 97/9 (n° 197 écrit deux fois). Fin des répertoires d'Ed 97/2 et 97/10 non lue. |
+| Ed 97/6 | 278, 280, 336, 350, 370, 418, 446, 450 | Numéros hors de la bande lue, pp. 221, 223, 272, 284, 302, 340, 364 et 368 déduites de leurs voisins dans des suites sans formulaire vide. |
+| Ed 97/6 | 16-17, 27-29, 41-43, 55-57, 67-69, 85-87, 103-105, 117-119, 132-133, 143-145, 158-159, 172-173, 183-185, 195-197, 210-211, 221-223, 232-233, 242-243, 254-255, 274-275, 288-289, 306-307, 324-325, 342-343, 356-357, 374-375, 386-387, 396-397, 406-407, 416-417, 430-431, 442-443, 454-455, 464-465 | Formulaires « Page » sans numéro, deux ou trois à chaque changement d'année, jugés vides sur la bande du haut seulement : vérifier qu'aucun ne porte un acte. PDF 323 porte une note (« … la présente copie … ») non lue en entier. |
