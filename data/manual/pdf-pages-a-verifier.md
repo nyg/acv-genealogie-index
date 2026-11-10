@@ -14,6 +14,10 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Eb 12/5 | 181-229, 241-299, 301-359 | Catéchumènes : positions approchées entre les repères. Lire une page sur dix pour situer chaque billet et découper des parties exactes ; le PDF 210 porte peut-être « 98 ». |
 | Ed 12/5 | 281, 282, 329 | Pp. 275-276 (feuillet blanc) et p. 323 déduites de leurs voisins. |
 | Ed 58/5 | 12 | P. 7 déduite (PDF 8 = p. 3) ; la date du 31 décembre 1875 y est lue. |
+| Ed 5/1 | 39 | P. 18 déduite de ses voisines (PDF 38 = p. 17, 42 = p. 19) : numéro non lu. |
+| Ed 5/1 | 72, 73, 80, 81, 87, 90 | Pages écrites où aucun numéro n'est lu en haut de page ; lire aussi le pied de page. |
+| Ed 5/1 | 103 | Lu « 5… » (numéro coupé), compté comme une première p. 57 avant celle du PDF 107. |
+| Ed 5/1 | 128, 134, 173-271 | Pp. 68-163 placées par des repères lus une page sur trois après le PDF 172 ; numéros repris après les formulaires vides : lire chaque page pour découper des parties exactes. |
 | Eb 70/1 | 12, 14, 15 | Pp. 5-8 rongées. PDF 12-13 pris pour une seconde prise des pp. 5-6 (même bas de page que le PDF 10, « 6 » lu au PDF 13) ; pp. 7-8 aux PDF 14-15 déduites, numéros illisibles. |
 | Eb 70/1 | 30 | Lu « 33 » entre PDF 29 = p. 30 et PDF 31 = p. 32 : compté comme p. 31. |
 | Eb 70/3 | 188 | P. 184 déduite (PDF 187 = p. 183), page sans numéro lisible. |
@@ -144,6 +148,12 @@ Lectures de `pdf-pages.json` qui n'ont pas été faites sur l'image : un numéro
 | Ed 8/11 | 8, 9, 372 | Pp. 1-2 placées d'après le PDF 10 = p. 3 ; PDF 372 lu « 367 » entre les PDF 371 = p. 365 et 373 = p. 368 : si c'est 366, la p. sautée est la 367. |
 | Ed 8/13 | 376 | Répertoire incorporé (initiales) non repéré dans le PDF : le chercher (avant le PDF 6 ou après le PDF 375). |
 | Ed 8/15 | 252 | Dernière page, numéro surchargé « 219 » ou « 220 », non comptée. |
+| Ed 8/1 | 400, 408 | Lus « 54… » et « 552 », incompatibles avec les PDF 392 = p. 541 et 415 = p. 561 (« 557 » au PDF 408 ?) : ces deux lectures ne sont pas prises comme repères. |
+| Ed 8/1 | 150 | Double page sans numéro lu entre les repères PDF 140 (p. 254) et 160 (p. 290) : vérifier s'il s'agit d'un feuillet blanc. |
+| Ed 8/5 | 6, 11-129, 341-415 | Repères lus une page sur dix seulement, le décalage croît de 5 à 33 (formulaires vides) : positions approchées de 1 à 3 pages entre les repères ; la p. 1 au PDF 6 est déduite du PDF 10 = p. 5. Lire chaque intervalle où le décalage change pour découper des parties exactes. |
+| Ed 8/6 | 9-509 | Repères lus une page sur dix seulement, le décalage croît de 5 à 43 (formulaires vides) : positions approchées de 1 à 3 pages entre les repères ; PDF 420 lu « 385 », PDF 516 = p. 473 et 517 = p. 474 repris de la passation précédente. Lire chaque intervalle où le décalage change pour découper des parties exactes. |
+| Ed 8/9 | 11-409, 413-418 | Repères lus une page sur dix seulement, le décalage croît de 5 à 38 (formulaires vides) : positions approchées de 1 à 3 pages entre les repères. La fin du registre (p. 376 au PDF 414) n'est pas vérifiée : lire les PDF 413 et 415-418 en entier. |
+| Ed 8/10 | 9-417, 422 | Pages en JPEG 2000, lues une page sur dix (2 requêtes par page, décodées avec Pillow) : le décalage croît de 5 à 35, positions approchées de 1 à 3 pages entre les repères. PDF 90 lu « 79 », incompatible avec PDF 80 = p. 71 et 100 = p. 91, écarté. La bande de couleurs avant le répertoire (PDF 422 ?) n'est pas vue. |
 | Ed 8/2-4, 8/7, 8/8, 8/11, 8/12, 8/14, 8/15 | 550, 410, 80, 430, 180, 500, 60, 240, 280 | Répertoires non lus (dans cet ordre) : vérifier qu'ils citent la pagination du registre, en particulier Ed 8/11 (pp. 285-286, 366, 372, 375 et 382 sautées) et Ed 8/14 (saut de 409 à 500). Celui d'Ed 8/16 (PDF 254) cite bien les pages. |
 | Eb 80/2 | 145, 146 | Mariages tête-bêche : pp. 1-2 sans numéro visible, placées d'après le PDF 147 = p. 3. |
 | Eb 80/2 | 171 | Seconde p. 25 : numéro lu « 25 », le « bis » de la p. « 24 bis » (PDF 170) n'y est pas vu. |
