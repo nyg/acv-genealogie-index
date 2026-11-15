@@ -16,6 +16,9 @@ Index of the Archives cantonales vaudoises (ACV) civil-status registers for the 
 ## Published site
 
 - Public repo https://github.com/nyg/acv-genealogie-index, GitHub Pages from `docs/` on `master`: https://nyg.github.io/acv-genealogie-index/. Pushing `docs/index.html` to `master` publishes the site.
+- Page views go to GoatCounter through the Cloudflare Worker in `worker/`. `docs/count.js` is an unmodified copy of GoatCounter's `count.v4.js`: replace it with a newer upstream copy, never edit it. `site/template.html` points it at the Worker's `/hit` endpoint and swaps `sendBeacon` for `fetch`, because blockers drop third-party beacons; keep both tags before the page's own `<script>`, which `cli/site.mjs` reads as the last one.
+- The Worker accepts only `POST /hit` from `ALLOWED_ORIGIN` and forwards the hit with the visitor's IP, user agent and language. `GOATCOUNTER_TOKEN` is a Wrangler secret (`worker/.dev.vars` locally), never committed. Deploying the Worker is a manual `pnpm run deploy` in `worker/`; pushing the site does not touch it.
+- Keep tracker keywords (`beacon`, `analytics`, `collect`, `goatcounter`, …) out of the script file name, the Worker name and the endpoint path: generic blocklist rules match them.
 
 ## Next goal
 

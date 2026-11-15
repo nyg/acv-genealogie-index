@@ -24,6 +24,7 @@ Le projet a trois fonctions :
   - [Ligne de commande](#ligne-de-commande)
   - [Données](#données)
   - [Tests](#tests)
+  - [Statistiques de visite](#statistiques-de-visite)
 
 ## 1. Trouver le registre
 
@@ -174,3 +175,17 @@ Sans eux, ou après un `git reset`, qui n'appelle aucun hook, relancer `python3 
 ### Tests
 
 `scripts/check.sh` lance `build/build.py`, `build/freshness.py`, `uvx pytest -q tests`, `node tests/site_smoke.mjs`, `node tests/cli.mjs`, `node tests/pdf_probe.mjs` et `node tests/apercu.mjs`. Le test de fumée exécute le script du site sur des recherches réelles (lieu, acte, date) et vérifie que la bonne cote ressort, et que les pages du registre tombent sur la bonne page du PDF.
+
+### Statistiques de visite
+
+Les visites du site sont comptées par [GoatCounter](https://www.goatcounter.com), sans cookie. `docs/count.js` est une copie non modifiée de `https://gc.zgo.at/count.v4.js`, servie par le site lui-même, et `site/template.html` lui donne l'adresse du Worker Cloudflare de `worker/` : les bloqueurs qui listent les domaines de GoatCounter ne voient ainsi aucune requête vers eux. Le Worker n'accepte que `POST /hit` depuis `https://nyg.github.io` et transmet la visite à l'API de GoatCounter avec l'adresse IP, le navigateur et la langue du visiteur.
+
+```bash
+cd worker
+pnpm install
+
+# le jeton d'API GoatCounter, jamais versé (worker/.dev.vars pour un essai local)
+pnpm wrangler secret put GOATCOUNTER_TOKEN
+
+pnpm run deploy
+```

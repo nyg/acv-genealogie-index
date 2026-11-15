@@ -3,6 +3,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<!-- Blockers drop third-party sendBeacon requests, so count.js sends its hits with fetch instead. -->
+<script>
+  if (window.fetch) navigator.sendBeacon = function (url) {
+    fetch(url, { method: 'POST', keepalive: true, mode: 'no-cors' }).catch(function () {})
+    return true
+  }
+</script>
+<script data-goatcounter="https://acv-genealogie-index.cloudflare-mmdif.workers.dev/hit" async src="count.js"></script>
 <style>
   /* Layout: search rail on the left, answers on the right; on phones the rail stacks above the answers. */
   :root {
