@@ -6,3 +6,6 @@ __pycache__/
 .venv/
 .DS_Store
 site/preview.html
+node_modules/
+.wrangler/
+.dev.vars*
