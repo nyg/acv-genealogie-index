@@ -193,7 +193,7 @@
   "Eb 15/6": {
     "pdfPages": 550,
     "parts": [
-      {"pdf": "6-451", "content": "Mariages 1701-1821", "pages": "1-443", "anchors": [[165, 170], [236, 241], [284, 290], [320, 326], [332, 340], [442, 450]], "note": "Quelques feuillets non paginés ou volants : le décalage passe de 5 à 8 pages entre les pp. 236 et 332."},
+      {"pdf": "6-451", "content": "Mariages 1701-1821", "pages": "1-443", "anchors": [[165, 170], [236, 241], [243, 248], [284, 290], [320, 326], [332, 340], [334, 342], [375, 383], [442, 450]], "note": "Quelques feuillets non paginés ou volants : le décalage passe de 5 à 8 pages entre les pp. 236 et 332."},
       {"pdf": "452-477", "content": "Textes de loi et mariages non inscrits précédemment", "note": "Pp. 504 et suivantes ; les pages blanches 444-503 ne sont pas photographiées."},
       {"pdf": "479-550", "content": "Répertoire des mariages 1701-1821"}
     ]
@@ -423,7 +423,7 @@
   "Eb 68/2": {
     "pdfPages": 171,
     "parts": [
-      {"pdf": "5-78", "content": "Baptêmes 1770-1821", "pages": "1-147", "spread": true, "note": "Photographié en doubles pages : la p. 1 est à droite du PDF 5, la p. 147 à droite du PDF 78."},
+      {"pdf": "5-78", "content": "Baptêmes 1770-1821", "pages": "1-147", "spread": true, "anchors": [[33, 21], [119, 64]], "note": "Photographié en doubles pages : la p. 1 est à droite du PDF 5, la p. 147 à droite du PDF 78."},
       {"pdf": "79-144", "content": "Catéchumènes 1774-1875, tête-bêche", "pages": "279-149", "spread": true, "note": "Photographié en doubles pages, à l'envers et du dernier feuillet au premier : la p. 279 est au PDF 79, la p. 149 au PDF 144."},
       {"pdf": "145", "content": "Catéchumènes 1774-1875, tête-bêche", "pages": "148", "note": "À l'envers ; la p. 148 est photographiée une seconde fois en PDF 146."},
       {"pdf": "150-169", "content": "Répertoire des baptêmes 1770-1821", "note": "Photographié en doubles pages."}
@@ -899,7 +899,7 @@
   "Ed 15/1": {
     "pdfPages": 427,
     "parts": [
-      {"pdf": "6-369", "content": "Naissances et baptêmes 1821-1833", "pages": "1-342", "anchors": [[49, 60], [109, 120], [174, 190], [230, 250], [276, 300], [314, 340], [333, 360], [341, 368]], "note": "Feuillets blancs intercalés tout au long du registre."},
+      {"pdf": "6-369", "content": "Naissances et baptêmes 1821-1833", "pages": "1-342", "anchors": [[49, 60], [109, 120], [174, 190], [187, 205], [230, 250], [273, 297], [276, 300], [314, 340], [333, 360], [341, 368]], "note": "Feuillets blancs intercalés tout au long du registre."},
       {"pdf": "376-427", "content": "Répertoire des naissances et baptêmes 1821-1833"}
     ]
   },
@@ -914,7 +914,7 @@
     "pdfPages": 565,
     "parts": [
       {"pdf": "8-77", "content": "Naissances et baptêmes 1847-1861", "pages": "1-66", "anchors": [[31, 40]], "note": "Feuillets blancs intercalés ; la p. 66 est photographiée une seconde fois en PDF 78."},
-      {"pdf": "80-510", "content": "Naissances et baptêmes 1847-1861", "pages": "67-469", "anchors": [[133, 150], [181, 200], [226, 250], [249, 275], [272, 300], [317, 350], [365, 400], [411, 450], [459, 500], [467, 508]], "note": "Feuillets blancs intercalés tout au long du registre."},
+      {"pdf": "80-510", "content": "Naissances et baptêmes 1847-1861", "pages": "67-469", "anchors": [[133, 150], [181, 200], [204, 226], [226, 250], [249, 275], [272, 300], [317, 350], [365, 400], [411, 450], [459, 500], [467, 508]], "note": "Feuillets blancs intercalés tout au long du registre."},
       {"pdf": "514-565", "content": "Répertoire des naissances et baptêmes 1847-1861"}
     ]
   },
@@ -935,7 +935,7 @@
   "Ed 15/6": {
     "pdfPages": 498,
     "parts": [
-      {"pdf": "8-441", "content": "Mariages 1821-1845", "pages": "1-371", "anchors": [[8, 16], [72, 100], [117, 150], [159, 200], [203, 250], [245, 300], [289, 350], [332, 400], [370, 440]], "note": "Nombreux feuillets blancs intercalés : position approchée de quelques pages."},
+      {"pdf": "8-441", "content": "Mariages 1821-1845", "pages": "1-371", "anchors": [[8, 16], [70, 98], [72, 100], [117, 150], [159, 200], [203, 250], [245, 300], [289, 350], [332, 400], [370, 440]], "note": "Nombreux feuillets blancs intercalés : position approchée de quelques pages."},
       {"pdf": "447-498", "content": "Répertoire des mariages 1821-1845"}
     ]
   },
@@ -957,14 +957,14 @@
   "Ed 15/9": {
     "pdfPages": 446,
     "parts": [
-      {"pdf": "6-389", "content": "Décès 1821-1840", "pages": "1-347", "anchors": [[7, 12], [61, 80], [93, 116], [126, 150], [168, 200], [215, 250], [262, 300], [310, 350], [338, 380], [344, 386]], "note": "Nombreux feuillets blancs intercalés."},
+      {"pdf": "6-389", "content": "Décès 1821-1840", "pages": "1-347", "anchors": [[7, 12], [61, 80], [93, 116], [118, 146], [123, 151], [168, 200], [215, 250], [262, 300], [310, 350], [338, 380], [344, 386]], "note": "Nombreux feuillets blancs intercalés."},
       {"pdf": "395-446", "content": "Répertoire des décès 1821-1840"}
     ]
   },
   "Ed 15/10": {
     "pdfPages": 481,
     "parts": [
-      {"pdf": "6-423", "content": "Décès 1841-1858", "pages": "1-380", "anchors": [[3, 8], [69, 80], [131, 150], [177, 200], [223, 250], [269, 300], [313, 352], [359, 400], [377, 420]], "note": "Feuillets blancs intercalés tout au long du registre."},
+      {"pdf": "6-423", "content": "Décès 1841-1858", "pages": "1-380", "anchors": [[3, 8], [35, 40], [69, 80], [131, 150], [177, 200], [223, 250], [269, 300], [313, 352], [359, 400], [377, 420]], "note": "Feuillets blancs intercalés tout au long du registre."},
       {"pdf": "430-481", "content": "Répertoire des décès 1841-1858"}
     ]
   },
@@ -1106,7 +1106,7 @@
   "Ed 68/1": {
     "pdfPages": 291,
     "parts": [
-      {"pdf": "10-120", "content": "Naissances et baptêmes 1821-1875", "pages": "1-92", "anchors": [[4, 13], [18, 30], [25, 40], [40, 60], [48, 70], [58, 80], [67, 90], [74, 100], [83, 110]], "note": "Formulaires blancs ou barrés et pages bis intercalés (p. 32 bis en PDF 50)."},
+      {"pdf": "10-120", "content": "Naissances et baptêmes 1821-1875", "pages": "1-92", "anchors": [[4, 13], [18, 30], [25, 40], [40, 60], [48, 70], [58, 80], [67, 90], [74, 100], [83, 110], [86, 114]], "note": "Formulaires blancs ou barrés et pages bis intercalés (p. 32 bis en PDF 50)."},
       {"pdf": "121-149", "content": "Naissances et baptêmes 1821-1875", "pages": "93-121"},
       {"pdf": "151-238", "content": "Naissances et baptêmes 1821-1875", "pages": "122-209", "note": "PDF 150 : formulaire barré, sans numéro."},
       {"pdf": "239", "content": "Naissances et baptêmes 1821-1875", "note": "Dernière page, sans numéro."},
@@ -1116,7 +1116,7 @@
   "Ed 68/2": {
     "pdfPages": 203,
     "parts": [
-      {"pdf": "8-117", "content": "Mariages 1821-1875", "pages": "1-64", "anchors": [[3, 12], [4, 16], [7, 20], [11, 36], [22, 50], [28, 56], [30, 64], [31, 68], [33, 70], [36, 76], [40, 80], [41, 84], [44, 90], [48, 96], [51, 100], [55, 104], [56, 108], [58, 110], [59, 112], [61, 114], [63, 116]], "note": "Formulaires vides, sans numéro, et pages bis intercalés (p. 11 bis en PDF 36)."},
+      {"pdf": "8-117", "content": "Mariages 1821-1875", "pages": "1-64", "anchors": [[3, 12], [4, 16], [7, 20], [11, 36], [22, 50], [28, 56], [30, 64], [31, 68], [32, 69], [33, 70], [36, 76], [40, 80], [41, 84], [44, 90], [48, 96], [51, 100], [55, 104], [56, 108], [58, 110], [59, 112], [61, 114], [63, 116]], "note": "Formulaires vides, sans numéro, et pages bis intercalés (p. 11 bis en PDF 36)."},
       {"pdf": "122-134", "content": "Mariages 1821-1875", "pages": "65-75", "anchors": [[69, 126], [72, 130]], "note": "PDF 120-121 : feuillets volants."},
       {"pdf": "135-197", "content": "Mariages 1821-1875", "pages": "76-138", "note": "PDF 138 : formulaire sans numéro, la p. 79."},
       {"pdf": "200-203", "content": "Répertoire des mariages 1821-1875", "note": "Feuilles collées en fin de volume, photographiées soulevées ; la p. 138 reparaît dessous en PDF 201 et 203."}
@@ -1142,7 +1142,7 @@
   "Ed 68 bis/1": {
     "pdfPages": 457,
     "parts": [
-      {"pdf": "8-397", "content": "Naissances et baptêmes 1824-1863", "pages": "1-367", "anchors": [[71, 78], [72, 80], [80, 88], [81, 90], [99, 108], [100, 110], [108, 118], [109, 120], [117, 128], [118, 132], [150, 164], [151, 166], [169, 184], [170, 186], [171, 188], [183, 200], [195, 212], [207, 226], [208, 228], [216, 236], [221, 242], [222, 244], [233, 256], [234, 258], [249, 274], [250, 276], [267, 294], [268, 296], [312, 340], [325, 354], [326, 356]], "note": "Formulaires vides intercalés (PDF 79, 89, 109, 119, 129-131, 165) et feuilles blanches au numéro suivi de « b » (PDF 187, 227, 243, 257, 275, 295, 355)."},
+      {"pdf": "8-397", "content": "Naissances et baptêmes 1824-1863", "pages": "1-367", "anchors": [[30, 37], [71, 78], [72, 80], [80, 88], [81, 90], [97, 106], [99, 108], [100, 110], [108, 118], [109, 120], [117, 128], [118, 132], [132, 146], [150, 164], [151, 166], [169, 184], [170, 186], [171, 188], [183, 200], [195, 212], [207, 226], [208, 228], [216, 236], [221, 242], [222, 244], [233, 256], [234, 258], [249, 274], [250, 276], [267, 294], [268, 296], [312, 340], [325, 354], [326, 356], [359, 389]], "note": "Formulaires vides intercalés (PDF 79, 89, 109, 119, 129-131, 165) et feuilles blanches au numéro suivi de « b » (PDF 187, 227, 243, 257, 275, 295, 355)."},
       {"pdf": "400-455", "content": "Répertoire des naissances et baptêmes 1824-1863"}
     ]
   },
@@ -1163,7 +1163,7 @@
   "Ed 68 bis/4": {
     "pdfPages": 388,
     "parts": [
-      {"pdf": "10-331", "content": "Décès 1824-1875", "pages": "1-304", "anchors": [[3, 14], [5, 16], [6, 18], [12, 24], [13, 26], [19, 32], [21, 36], [31, 46], [33, 50], [41, 58], [42, 60], [52, 70], [61, 80], [65, 84], [73, 92], [77, 96], [79, 100], [86, 107], [88, 112], [92, 116], [154, 178], [157, 182], [158, 184], [159, 186]], "note": "Formulaires vides, sans numéro, intercalés ; PDF 185 : feuille blanche numérotée « 158 b »."},
+      {"pdf": "10-331", "content": "Décès 1824-1875", "pages": "1-304", "anchors": [[3, 14], [5, 16], [6, 18], [12, 24], [13, 26], [19, 32], [21, 36], [31, 46], [33, 50], [41, 58], [42, 60], [52, 70], [61, 80], [65, 84], [73, 92], [77, 96], [79, 100], [86, 107], [88, 112], [92, 116], [154, 178], [157, 182], [158, 184], [159, 186], [169, 196], [170, 197], [180, 207], [187, 214], [258, 285]], "note": "Formulaires vides, sans numéro, intercalés ; PDF 185 : feuille blanche numérotée « 158 b »."},
       {"pdf": "339-386", "content": "Répertoire des décès 1824-1875"}
     ]
   },
@@ -1182,7 +1182,7 @@
   "Ed 72/1": {
     "pdfPages": 291,
     "parts": [
-      {"pdf": "10-239", "content": "Naissances et baptêmes 1821-1875", "pages": "1-192", "anchors": [[3, 12], [4, 18], [16, 30], [25, 40], [32, 50], [39, 60], [46, 75], [52, 85], [55, 88], [57, 90], [63, 100], [71, 110], [81, 120], [91, 130], [99, 140], [149, 190], [150, 193], [155, 200], [163, 210], [173, 220], [183, 230]], "note": "Formulaires inutilisés, feuillets blancs et pages bis (49 bis, 57 bis…) intercalés ; PDF 191 : billet posé sur la p. 149."},
+      {"pdf": "10-239", "content": "Naissances et baptêmes 1821-1875", "pages": "1-192", "anchors": [[3, 12], [4, 18], [16, 30], [25, 40], [32, 50], [39, 60], [46, 75], [52, 85], [55, 88], [57, 90], [63, 100], [71, 110], [81, 120], [91, 130], [99, 140], [131, 172], [149, 190], [150, 193], [155, 200], [163, 210], [173, 220], [183, 230]], "note": "Formulaires inutilisés, feuillets blancs et pages bis (49 bis, 57 bis…) intercalés ; PDF 191 : billet posé sur la p. 149."},
       {"pdf": "242-289", "content": "Répertoire des naissances et baptêmes 1821-1875"}
     ]
   },
@@ -1240,14 +1240,14 @@
   "Ed 92/1": {
     "pdfPages": 507,
     "parts": [
-      {"pdf": "6-454", "content": "Naissances et baptêmes 1821-1845", "pages": "1-384", "anchors": [[93, 120], [153, 183], [192, 230], [287, 340], [382, 452]], "note": "Feuillets blancs intercalés tout au long du registre."},
+      {"pdf": "6-454", "content": "Naissances et baptêmes 1821-1845", "pages": "1-384", "anchors": [[93, 120], [153, 183], [192, 230], [212, 253], [287, 340], [382, 452]], "note": "Feuillets blancs intercalés tout au long du registre."},
       {"pdf": "458-507", "content": "Répertoire des naissances et baptêmes 1821-1845"}
     ]
   },
   "Ed 92/2": {
     "pdfPages": 539,
     "parts": [
-      {"pdf": "10-487", "content": "Naissances et baptêmes 1845-1872", "pages": "1-472", "anchors": [[191, 200], [289, 300], [387, 400]], "note": "Quelques feuillets blancs intercalés."},
+      {"pdf": "10-487", "content": "Naissances et baptêmes 1845-1872", "pages": "1-472", "anchors": [[191, 200], [276, 287], [289, 300], [387, 400]], "note": "Quelques feuillets blancs intercalés."},
       {"pdf": "490-539", "content": "Répertoire des naissances et baptêmes 1845-1872"}
     ]
   },
@@ -1268,7 +1268,7 @@
   "Ed 92/5": {
     "pdfPages": 329,
     "parts": [
-      {"pdf": "6-278", "content": "Mariages 1856-1875", "pages": "1-269", "anchors": [[75, 80], [143, 150], [231, 239], [232, 241], [261, 270]], "note": "Quelques feuillets blancs intercalés."},
+      {"pdf": "6-278", "content": "Mariages 1856-1875", "pages": "1-269", "anchors": [[58, 63], [75, 80], [143, 150], [231, 239], [232, 241], [261, 270]], "note": "Quelques feuillets blancs intercalés."},
       {"pdf": "282-329", "content": "Répertoire des mariages 1856-1875"}
     ]
   },
