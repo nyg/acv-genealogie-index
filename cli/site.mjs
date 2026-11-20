@@ -22,6 +22,8 @@ export function loadSite(path = SITE) {
   const context = vm.createContext({
     document: { getElementById: id => elements.get(id) ?? elements.set(id, element()).get(id), documentElement, addEventListener() {} },
     localStorage: { getItem: () => null, setItem() {} },
+    location: { hash: "", pathname: "/", search: "" },
+    history: { replaceState() {} },
     matchMedia: () => ({ matches: true }),
     addEventListener() {},
     setTimeout, clearTimeout, Event: class {}, console, URLSearchParams, Intl,

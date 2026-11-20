@@ -1,0 +1,150 @@
+<title>Avancement · Registres vaudois</title>
+<meta name="description" content="Paroisses et arrondissements d'état civil vaudois déjà indexés, par district, et pages des PDF relevées.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<!-- Blockers drop third-party sendBeacon requests, so count.js sends its hits with fetch instead. -->
+<script>
+  if (window.fetch) navigator.sendBeacon = function (url) {
+    fetch(url, { method: 'POST', keepalive: true, mode: 'no-cors' }).catch(function () {})
+    return true
+  }
+</script>
+<script data-goatcounter="https://acv-genealogie-index.cloudflare-mmdif.workers.dev/hit" async src="count.js"></script>
+<style>
+  /*__THEME__*/
+
+  :root { --partial: color-mix(in srgb, var(--vaud) 50%, var(--surface)); --track: color-mix(in srgb, var(--rule) 75%, var(--paper)); }
+  h2 { font: 600 1.35rem/1.2 var(--display); margin: 0; }
+  .muted { color: var(--muted); }
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+
+  header h1 a { color: inherit; text-decoration: none; }
+  .site-nav { display: flex; align-items: center; gap: 18px; font-size: 0.9rem; }
+  .site-nav a:not(.repo) { color: var(--muted); text-decoration: none; padding: 4px 0; border-bottom: 2px solid transparent; }
+  .site-nav a:not(.repo):hover { color: var(--ink); }
+  .site-nav a[aria-current="page"] { color: var(--ink); font-weight: 600; border-bottom-color: var(--vaud); }
+
+  main { display: grid; gap: 40px; }
+  .intro { display: grid; gap: 8px; max-width: 72ch; }
+  .intro .title { font: 600 clamp(1.5rem, 2.6vw, 1.95rem)/1.15 var(--display); }
+  .intro p { margin: 0; }
+  .lede { font: 500 1.1rem/1.5 var(--display); text-wrap: pretty; }
+  .block { display: grid; gap: 12px; }
+  .block > p { margin: 0; max-width: 72ch; }
+
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: 14px; }
+  .stat { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 16px 18px; display: grid; gap: 10px; align-content: start; }
+  .stat h3, .kind h4, .legend-title { margin: 0; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  .stat .big { margin: 0; color: var(--muted); display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .stat .big strong { font: 600 2.5rem/1 var(--display); color: var(--ink); font-variant-numeric: tabular-nums; }
+  .stat .big span { margin-left: auto; font: 500 0.9rem var(--mono); color: var(--vaud); }
+  .stat .small { margin: 0; font-size: 0.82rem; color: var(--muted); }
+
+  .bar { display: flex; height: 10px; border-radius: 999px; background: var(--track); overflow: clip; }
+  .bar.thick { height: 14px; }
+  .bar.thin { height: 6px; width: 84px; flex: none; }
+  .bar span { height: 100%; transform-origin: left; }
+  .bar span + span { border-left: 2px solid var(--surface); }
+  .bar .releve { background: var(--vaud); }
+  .bar .indexe { background: var(--partial); }
+  .bar .approx { background: repeating-linear-gradient(135deg, var(--vaud) 0 2px, var(--partial) 2px 5px); }
+  @media (prefers-reduced-motion: no-preference) {
+    .bar span { animation: grow 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+    @keyframes grow { from { transform: scaleX(0); } }
+  }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 0; padding: 0; list-style: none; font-size: 0.84rem; color: var(--muted); }
+  .legend li { display: flex; align-items: center; gap: 7px; }
+  .swatch { width: 26px; height: 12px; border-radius: 999px; flex: none; }
+  .swatch.releve { background: var(--vaud); }
+  .swatch.indexe { background: var(--partial); }
+  .swatch.approx { background: repeating-linear-gradient(135deg, var(--vaud) 0 2px, var(--partial) 2px 5px); }
+  .swatch.attente { background: var(--track); }
+
+  .overview { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: max-content minmax(0, 1fr) max-content; column-gap: 14px; }
+  .overview li { display: grid; grid-column: 1 / -1; grid-template-columns: subgrid; align-items: center; padding: 7px 0; border-top: 1px solid var(--rule); }
+  .overview li:last-child { border-bottom: 1px solid var(--rule); }
+  .overview a { font-weight: 600; color: var(--ink); text-decoration: none; }
+  .overview a:hover { color: var(--vaud); text-decoration: underline; text-underline-offset: 3px; }
+  .figure { font: 0.82rem var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  .districts { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 500px), 1fr)); gap: 16px; align-items: start; }
+  .district { min-width: 0; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 16px 18px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; scroll-margin-top: 16px; }
+  .district:target { border-color: var(--vaud); box-shadow: 0 0 0 3px var(--vaud-soft); }
+  .district header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; }
+  .district h3 { font: 600 1.2rem/1.2 var(--display); margin: 0; }
+  .district-count { margin: 0; font: 0.85rem var(--mono); color: var(--muted); }
+  .district-count strong { color: var(--ink); font-weight: 500; }
+  .district > p { margin: 0; font-size: 0.86rem; }
+  .kind { display: grid; gap: 7px; }
+  .kind h4 span { text-transform: none; letter-spacing: 0; font-weight: 400; margin-left: 6px; }
+
+  .pills { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+  .pill { display: inline-block; padding: 2px 10px; border-radius: 999px; border: 1px solid; font-size: 0.84rem; text-decoration: none; }
+  .pill:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .pill.releve { background: var(--vaud); border-color: var(--vaud); color: var(--paper); font-weight: 600; }
+  .pill.indexe { background: var(--vaud-soft); border-color: var(--vaud); color: var(--ink); font-weight: 500; }
+  .pill.attente { background: none; border-color: var(--rule); border-style: dashed; color: var(--muted); }
+
+  details { border-top: 1px solid var(--rule); padding-top: 10px; }
+  summary { cursor: pointer; font-size: 0.88rem; font-weight: 600; color: var(--vaud); }
+  details[open] summary { margin-bottom: 6px; }
+  .table-scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.86rem; }
+  th, td { padding: 7px 12px 7px 0; border-top: 1px solid var(--rule); text-align: left; vertical-align: middle; font-weight: 400; }
+  th:last-child, td:last-child { padding-right: 0; }
+  thead th { border-top: 0; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+  tbody th a { font-weight: 600; }
+  tr.group th { padding-top: 14px; border-top: 0; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  td small { display: block; color: var(--muted); font-size: 0.78rem; }
+  .number { text-align: right; font-variant-numeric: tabular-nums; }
+  .chips { display: inline-flex; gap: 3px; }
+  .chip.off { background: none; color: var(--muted); box-shadow: inset 0 0 0 1px var(--rule); }
+  .pages-cell, .series-cell { white-space: nowrap; }
+  .pages-cell > *, .series-cell > * { vertical-align: middle; }
+  .pages-cell .bar, .series-cell progress { display: inline-flex; margin-right: 8px; }
+  .fonds { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; }
+  .fonds th, .fonds td { padding-left: 14px; }
+  .fonds td:last-child { padding-right: 14px; }
+  .fonds thead th { padding-top: 12px; }
+
+  progress { appearance: none; border: 0 solid; overflow: clip; inline-size: 84px; block-size: 6px; border-radius: 999px; background: var(--track); }
+  progress::-webkit-progress-bar { background: transparent; }
+  progress::-webkit-progress-value { background: var(--vaud); border-radius: 999px; }
+  progress::-moz-progress-bar { background: var(--vaud); border-radius: 999px; }
+
+  .notes p { font-size: 0.9rem; }
+  .viewer-installed, :root[data-acv-apercu] .viewer-missing { display: none; }
+  :root[data-acv-apercu] .viewer-installed { display: block; }
+
+  @media (max-width: 560px) {
+    .district, .stat { padding: 14px; }
+    .stat .big strong { font-size: 2.1rem; }
+  }
+  @media (forced-colors: active) {
+    .bar, .swatch, progress { border: 1px solid CanvasText; }
+    .bar .releve, .swatch.releve { background: CanvasText; }
+    .bar .indexe, .bar .approx, .swatch.indexe, .swatch.approx { background: GrayText; }
+    .pill.releve { border-width: 2px; }
+  }
+</style>
+
+<div class="page">
+  <header class="masthead">
+    <h1><a href="./">Registres <span>vaudois</span></a></h1>
+    <nav class="site-nav" aria-label="Pages du site">
+      <a href="./">Recherche</a>
+      <a href="avancement.html" aria-current="page">Avancement</a>
+      <a class="repo" href="https://github.com/nyg/acv-genealogie-index" target="_blank" rel="noopener" title="Code source sur GitHub" aria-label="Code source sur GitHub"><svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+    </nav>
+  </header>
+
+  <main>
+  <!--__PROGRESS__-->
+  </main>
+
+  <footer>
+    <p>Index non officiel construit à partir des inventaires des <a href="https://www.vd.ch/etat-droit-finances/archives-acv" target="_blank" rel="noopener">Archives cantonales vaudoises</a> (davel-vd.ch, davel.vd.ch) et de leurs tables de correspondance. Données sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="noopener">CC BY-SA 4.0</a>. Districts d'après le <a href="https://www.agvchapp.bfs.admin.ch/fr/communes/query" target="_blank" rel="noopener">répertoire officiel des communes de Suisse</a> (OFS), état au 1<sup>er</sup> janvier 2000.</p>
+  </footer>
+</div>

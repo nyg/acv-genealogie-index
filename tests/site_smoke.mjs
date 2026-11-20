@@ -523,9 +523,16 @@ const published = dataJson.generatedAt === site.DATA.generatedAt && dataJson.uni
 failures += published ? 0 : 1;
 console.log(`${published ? "ok  " : "FAIL"} docs/data.json → mêmes données et même generatedAt que docs/index.html`);
 
-const coveragePanel = elements.get("coverage-panel").innerHTML;
-const covered = coveragePanel.includes(`data-place="paroisse-15">Bex</button>`) && /Pages du PDF<\/strong> : pour [^(]*Ollon[^(]* \(\d+ registres\)/.test(coveragePanel);
+const coverage = elements.get("coverage").textContent;
+const covered = /^Indexé : \d+ paroisses sur \d+, \d+ arrondissements sur \d+$/.test(coverage);
 failures += covered ? 0 : 1;
-console.log(`${covered ? "ok  " : "FAIL"} couverture → Bex parmi les paroisses indexées, Ollon parmi les pages du PDF reliées`);
+console.log(`${covered ? "ok  " : "FAIL"} couverture → « ${coverage} », lien vers la page d'avancement`);
+
+const progressPage = readFileSync(new URL("../docs/avancement.html", import.meta.url), "utf8");
+const aigleDistrict = progressPage.slice(progressPage.indexOf(`id="district-aigle"`), progressPage.indexOf(`id="district-aubonne"`));
+const unlinked = site.DATA.places.filter(place => !site.SUGGESTIONS.some(entry => entry.key === site.normalize(place.name))).map(place => place.name);
+const progressLinked = aigleDistrict.includes(`class="pill releve" href="./#lieu=Bex"`) && !unlinked.length;
+failures += progressLinked ? 0 : 1;
+console.log(`${progressLinked ? "ok  " : "FAIL"} avancement → Bex relevée dans le district d'Aigle ; chaque lieu ouvre une recherche${unlinked.length ? ` (sans recherche : ${unlinked.join(", ")})` : ""}`);
 
 process.exit(failures ? 1 : 0);

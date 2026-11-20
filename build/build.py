@@ -7,9 +7,11 @@ import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
 
+from districts import load_districts
 from inventory_corrections import read_raw
 from pdf_pages import load_pdf_pages, sb267_default_parts
 from places import arrondissement_history, arrondissement_name, corrected_entries, localities_from_note, note_periods, parish_name, parish_number, parish_period, repair_parish_names, spelling_key, split_official_locality, union_periods
+from progress import render_progress
 from scope_parser import classify, normalize, parse_date_range, parse_scope_content
 from scopearchiv import creation_dates, fonds_of, load_scopearchiv, place_for, related_ranges
 from scopearchiv import PAGE_BASE as SCOPEARCHIV_PAGE_BASE
@@ -24,6 +26,9 @@ PDF_PAGES = ROOT / "data" / "manual" / "pdf-pages.json"
 DATABASE = ROOT / "data" / "acv.sqlite"
 SITE_TEMPLATE = ROOT / "site" / "template.html"
 SITE_OUTPUT = ROOT / "docs" / "index.html"
+THEME = ROOT / "site" / "theme.css"
+PROGRESS_TEMPLATE = ROOT / "site" / "avancement.html"
+PROGRESS_OUTPUT = ROOT / "docs" / "avancement.html"
 DATA_OUTPUT = ROOT / "docs" / "data.json"
 PAGE_MAP = ROOT / "site" / "page_map.js"
 PAGE_MAP_OUTPUT = ROOT / "docs" / "pdf-pages.json"
@@ -359,11 +364,21 @@ def write_data(payload):
     DATA_OUTPUT.write_text(data_json(payload), encoding="utf-8")
 
 
+def themed(template):
+    theme = re.sub(r"\n(?=.)", "\n  ", THEME.read_text(encoding="utf-8").strip())
+    return template.read_text(encoding="utf-8").replace("/*__THEME__*/", theme)
+
+
 def write_site(payload):
     data = data_json(payload).replace("</", "<\\/")
-    page = SITE_TEMPLATE.read_text(encoding="utf-8").replace("/*__DATA__*/null", data).replace("/*__PAGE_MAP__*/", PAGE_MAP.read_text(encoding="utf-8"))
+    page = themed(SITE_TEMPLATE).replace("/*__DATA__*/null", data).replace("/*__PAGE_MAP__*/", PAGE_MAP.read_text(encoding="utf-8"))
     SITE_OUTPUT.parent.mkdir(exist_ok=True)
     SITE_OUTPUT.write_text(STANDALONE_HEAD + page, encoding="utf-8")
+
+
+def write_progress(payload):
+    progress = render_progress(payload["places"], payload["units"], load_districts(payload["places"]), payload["generatedAt"])
+    PROGRESS_OUTPUT.write_text(STANDALONE_HEAD + themed(PROGRESS_TEMPLATE).replace("<!--__PROGRESS__-->", progress), encoding="utf-8")
 
 
 def write_viewer(units):
@@ -394,6 +409,7 @@ def main():
     payload = keep_date_if_unchanged(site_payload(places, units, segments))
     write_database(payload)
     write_site(payload)
+    write_progress(payload)
     write_data(payload)
     write_viewer(units)
     scraped = sum(series["scraped"] for place in places.values() for series in place["series"])

@@ -88,7 +88,7 @@ Le script fonctionne aussi sur le catalogue du [Staatsarchiv Zürich](https://su
 
 ## État du projet
 
-L'index n'est pas complet : les paroisses et arrondissements sont ajoutés progressivement, et le site indique en haut de page ce qui est déjà couvert. Si certaines communes sont prioritaires pour vous, ou pour tout retour, [ouvrez une issue](https://github.com/nyg/acv-genealogie-index/issues).
+L'index n'est pas complet : les paroisses et arrondissements sont ajoutés progressivement. La page [Avancement](https://nyg.github.io/acv-genealogie-index/avancement.html) montre, district par district, les lieux déjà indexés et les registres dont les pages du PDF sont relevées. Si certaines communes sont prioritaires pour vous, ou pour tout retour, [ouvrez une issue](https://github.com/nyg/acv-genealogie-index/issues).
 
 Le projet est réalisé avec l'IA (Claude) et il est open source.
 
@@ -97,8 +97,9 @@ Le projet est réalisé avec l'IA (Claude) et il est open source.
 - [davel-vd.ch](https://davel-vd.ch) : registres numérisés, avec PDF. Registres paroissiaux (Eb, 1562-1821), état civil cantonal (Ed, 1821-1875), état civil fédéral par arrondissement (SB 267, dès 1876).
 - [davel.vd.ch](https://davel.vd.ch) : inventaire général, sans PDF. Promesses de mariage (SB 268), événements hors arrondissement (SB 269), pièces justificatives (Ec, SB 23, SB 115, SB 324).
 - Tables de correspondance des ACV, communes et localités vers paroisses (jusqu'en 1875) et vers arrondissements d'état civil (1876-1960).
+- [Répertoire officiel des communes de Suisse](https://www.agvchapp.bfs.admin.ch/fr/communes/query) de l'OFS, état au 1er janvier 2000 : le district de chaque commune, pour la page d'avancement.
 
-Les données sont publiées par les ACV sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) ; les données dérivées de ce dépôt (`data/`, `docs/index.html`, `docs/images/`) le sont aussi.
+Les données sont publiées par les ACV sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) ; les données dérivées de ce dépôt (`data/`, `docs/index.html`, `docs/avancement.html`, `docs/images/`) le sont aussi. Le répertoire des communes de l'OFS est en utilisation libre, avec indication de la source.
 
 ## Développement
 
@@ -163,6 +164,8 @@ node cli/acv.mjs lieux chesi
 ### Données
 
 `build/build.py` écrit les mêmes données dans `docs/index.html`, `docs/data.json` (pour un script qui les réutilise) et `data/acv.sqlite` (non versée), avec leur date de génération (`generatedAt`, table `meta` dans la base). Quand les données n'ont pas changé, une nouvelle construction garde la date de `docs/data.json`, et `docs/` reste identique. `python3 build/freshness.py` échoue quand `data/acv.sqlite` est plus ancienne que `docs/index.html`.
+
+Il écrit aussi la page d'avancement, `docs/avancement.html`, à partir de `site/avancement.html` (`build/progress.py`). Une paroisse ou un arrondissement y compte dans le district de 1803-2007 de la commune de son siège, d'après `data/raw/ofs/communes-vd.json` (`python3 scraper/ofs_communes.py` le télécharge à nouveau). Quand le nom du lieu n'est pas celui d'une commune de 2000 (Le Sentier, Huémoz), `data/manual/lieux-communes.json` donne la commune de son siège ; sans elle, la construction s'arrête. `site/theme.css` porte les couleurs et les styles communs aux deux pages.
 
 Les hooks git de `scripts/hooks/` relancent `build/build.py` après un commit, un `git pull`, un rebase ou un changement de branche : `data/acv.sqlite` n'est ainsi jamais plus ancienne que le dernier commit. Ils s'activent une fois par clone (les worktrees en héritent) :
 
