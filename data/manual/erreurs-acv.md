@@ -111,6 +111,7 @@ Erreurs relevées dans les inventaires de davel-vd.ch et davel.vd.ch en construi
 | [Ed 71/26](https://davel-vd.ch/ed-71-26) | Lausanne | Portée et contenu | Mariages (1863 janvier 15 - 1840 octobre 9). | Mariages (1836 janvier 15 - 1840 octobre 9). | La p. 1 (PDF 6) porte l'année 1836, le registre suit Ed 71/25 (mariages 1831-1835) et ses dates vont de 1836 à 1840. | |
 | [Ed 71/50](https://davel-vd.ch/ed-71-50) | Lausanne | Date(s) | 1842-01-14 - 1864-07-16 | 1842-01-14 - 1846-07-16 | Le dernier acte (p. 555, PDF 570) est du 16 juillet 1846, et le registre est clos le même jour ; le titre et la Portée et contenu disent 1842-1846, et Ed 71/51 commence le 16 juillet 1846. | |
 | [Ed 129/9](https://davel-vd.ch/ed-129-9) | La Tour-de-Peilz | Note | Série de pages blanches, de la page 85 jusqu'au répertoire. | Série de pages blanches, de la page 185 jusqu'au répertoire. | Les pp. 85-184 (PDF 92-191) portent des annonces jusqu'en 1881 ; les pages blanches commencent à la p. 185 (PDF 192). | |
+| [SB 23/37](https://davel.vd.ch/detail.aspx?ID=589499) | Bex | Dates et dates de création | 1887 | 1888 | Titre : Mariages A 1888 et Naissances 1888 ; SB 23/36 couvre 1887 et SB 23/38 1888. | |
 
 ## À vérifier sur le PDF
 
